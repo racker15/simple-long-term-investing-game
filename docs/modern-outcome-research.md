@@ -1,6 +1,6 @@
 # Modern locked-scenario outcome research
 
-Research observation date: 2026-10-05. This note is outcome-only. Starting selections remain fixed at commit `6f9179 b` (2004-05) and `a09dc69` (2008-09). No starting inputs or stock choices were edited. The JSON blocks match the existing canonicalOutcomeInput fields. Starting-headline source IDs in reflections resolve against the already locked starting provenance. No winner field is stored; quantitative rankings must be derived by the outcome builder.
+Research observation date: 2026-10-05. This note is outcome-only. Starting selections remain fixed at commit `6f9179b` (2004-05) and `a09dc69` (2008-09). No starting inputs or stock choices were edited. The JSON blocks record the initial editorial proposal. The final executable records are [2004 inputs](../data/research/2004-05/outcome-inputs.json), [2008 inputs](../data/research/2008-09/outcome-inputs.json) and each scenario’s outcome provenance; their source IDs and publication/observation annotations include subsequent validation corrections. Starting-headline source IDs in reflections resolve against the already locked starting provenance. No winner field is stored; quantitative rankings must be derived by the outcome builder.
 
 ## Corporate-action and terminal-mapping audit
 
@@ -214,7 +214,7 @@ Monthly endpoint audit, mechanically calculated from cached adjusted closes: 200
     {
       "id": "fomc-dec08",
       "name": "Federal Reserve December 16, 2008 statement",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081216 b.htm",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081216b.htm",
       "publication_date": "2008-12-16",
       "observation_date": "2008-12-16",
       "approximation": false,
@@ -241,7 +241,7 @@ Monthly endpoint audit, mechanically calculated from cached adjusted closes: 200
     {
       "id": "fomc-sep13",
       "name": "Federal Reserve September 18, 2013 statement",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20130918 a.htm",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20130918a.htm",
       "publication_date": "2013-09-18",
       "observation_date": "2013-09-18",
       "approximation": false,
@@ -299,7 +299,7 @@ Monthly endpoint audit, mechanically calculated from cached adjusted closes: 200
       "publication_date": null,
       "observation_date": "2004-05 to 2009-05",
       "approximation": true,
-      "notes": "Vendor reconstructed adjusted-close history retrieved 2026-10-05; not original public vintage. Raw data/raw/stocks/2004-05/outcome-AAPL.json; SHA256 9c78d37da61b13e585d25a32978 ae9615957 b97ea5b412d9c093e789c5bdc77d. Monthly last-trading close ratios approximate dividend-reinvested gross USD return; no taxes, fees or separate dividend addition. Deterministic cached endpoints; future vendor history may revise."
+      "notes": "Vendor reconstructed adjusted-close history retrieved 2026-10-05; not original public vintage. Raw data/raw/stocks/2004-05/outcome-AAPL.json; SHA256 9c78d37da61b13e585d25a32978ae9615957b97ea5b412d9c093e789c5bdc77d. Monthly last-trading close ratios approximate dividend-reinvested gross USD return; no taxes, fees or separate dividend addition. Deterministic cached endpoints; future vendor history may revise."
     },
     {
       "id": "yahoo-msft-2004-05",
@@ -308,7 +308,7 @@ Monthly endpoint audit, mechanically calculated from cached adjusted closes: 200
       "publication_date": null,
       "observation_date": "2004-05 to 2009-05",
       "approximation": true,
-      "notes": "Vendor reconstructed adjusted-close history retrieved 2026-10-05; not original public vintage. Raw data/raw/stocks/2004-05/outcome-MSFT.json; SHA256 7d13e48a06d811988 fe0c85187 da7ca42f4df774b2efe7404 c7cff9a4c748953. Monthly last-trading close ratios approximate dividend-reinvested gross USD return; no taxes, fees or separate dividend addition. Deterministic cached endpoints; future vendor history may revise."
+      "notes": "Vendor reconstructed adjusted-close history retrieved 2026-10-05; not original public vintage. Raw data/raw/stocks/2004-05/outcome-MSFT.json; SHA256 7d13e48a06d811988fe0c85187da7ca42f4df774b2efe7404c7cff9a4c748953. Monthly last-trading close ratios approximate dividend-reinvested gross USD return; no taxes, fees or separate dividend addition. Deterministic cached endpoints; future vendor history may revise."
     },
     {
       "id": "yahoo-ebay-2004-05",
@@ -317,7 +317,7 @@ Monthly endpoint audit, mechanically calculated from cached adjusted closes: 200
       "publication_date": null,
       "observation_date": "2004-05 to 2009-05",
       "approximation": true,
-      "notes": "Vendor reconstructed adjusted-close history retrieved 2026-10-05; not original public vintage. Raw data/raw/stocks/2004-05/outcome-EBAY.json; SHA256 626e8b1dcc9cbef7938 dd48e8431 e2d1d1e93acef8b0b9bd584a970ae01250 dc. Monthly last-trading close ratios approximate dividend-reinvested gross USD return; no taxes, fees or separate dividend addition. Deterministic cached endpoints; future vendor history may revise."
+      "notes": "Vendor reconstructed adjusted-close history retrieved 2026-10-05; not original public vintage. Raw data/raw/stocks/2004-05/outcome-EBAY.json; SHA256 626e8b1dcc9cbef7938dd48e8431e2d1d1e93acef8b0b9bd584a970ae01250dc. Monthly last-trading close ratios approximate dividend-reinvested gross USD return; no taxes, fees or separate dividend addition. Deterministic cached endpoints; future vendor history may revise."
     },
     {
       "id": "yahoo-aapl-2008-09",
@@ -326,7 +326,7 @@ Monthly endpoint audit, mechanically calculated from cached adjusted closes: 200
       "publication_date": null,
       "observation_date": "2008-09 to 2013-09",
       "approximation": true,
-      "notes": "Vendor reconstructed adjusted-close history retrieved 2026-10-05; not original public vintage. Raw data/raw/stocks/2008-09/outcome-AAPL.json; SHA256 6cc4ca660f1eed6fc204daee5f2ab4ebe8d8e120749 fbb0cf575053 f6c920b5f. Monthly last-trading close ratios approximate dividend-reinvested gross USD return; no taxes, fees or separate dividend addition. Deterministic cached endpoints; future vendor history may revise."
+      "notes": "Vendor reconstructed adjusted-close history retrieved 2026-10-05; not original public vintage. Raw data/raw/stocks/2008-09/outcome-AAPL.json; SHA256 6cc4ca660f1eed6fc204daee5f2ab4ebe8d8e120749fbb0cf575053f6c920b5f. Monthly last-trading close ratios approximate dividend-reinvested gross USD return; no taxes, fees or separate dividend addition. Deterministic cached endpoints; future vendor history may revise."
     },
     {
       "id": "yahoo-msft-2008-09",
@@ -335,7 +335,7 @@ Monthly endpoint audit, mechanically calculated from cached adjusted closes: 200
       "publication_date": null,
       "observation_date": "2008-09 to 2013-09",
       "approximation": true,
-      "notes": "Vendor reconstructed adjusted-close history retrieved 2026-10-05; not original public vintage. Raw data/raw/stocks/2008-09/outcome-MSFT.json; SHA256 ab3970067 d74c95057 e316e8a8e280ae3089 f2bf86785454 ad2f4c4ff7ba9b31. Monthly last-trading close ratios approximate dividend-reinvested gross USD return; no taxes, fees or separate dividend addition. Deterministic cached endpoints; future vendor history may revise."
+      "notes": "Vendor reconstructed adjusted-close history retrieved 2026-10-05; not original public vintage. Raw data/raw/stocks/2008-09/outcome-MSFT.json; SHA256 ab3970067d74c95057e316e8a8e280ae3089f2bf86785454ad2f4c4ff7ba9b31. Monthly last-trading close ratios approximate dividend-reinvested gross USD return; no taxes, fees or separate dividend addition. Deterministic cached endpoints; future vendor history may revise."
     },
     {
       "id": "yahoo-xom-2008-09",
@@ -344,7 +344,7 @@ Monthly endpoint audit, mechanically calculated from cached adjusted closes: 200
       "publication_date": null,
       "observation_date": "2008-09 to 2013-09",
       "approximation": true,
-      "notes": "Vendor reconstructed adjusted-close history retrieved 2026-10-05; not original public vintage. Raw data/raw/stocks/2008-09/outcome-XOM.json; SHA256 bbcc1132 c3966 af30bc84a520d26fb2bf82f61d0cdc6e10a9d2b8bd282974654. Monthly last-trading close ratios approximate dividend-reinvested gross USD return; no taxes, fees or separate dividend addition. Deterministic cached endpoints; future vendor history may revise."
+      "notes": "Vendor reconstructed adjusted-close history retrieved 2026-10-05; not original public vintage. Raw data/raw/stocks/2008-09/outcome-XOM.json; SHA256 bbcc1132c3966af30bc84a520d26fb2bf82f61d0cdc6e10a9d2b8bd282974654. Monthly last-trading close ratios approximate dividend-reinvested gross USD return; no taxes, fees or separate dividend addition. Deterministic cached endpoints; future vendor history may revise."
     }
   ]
 }

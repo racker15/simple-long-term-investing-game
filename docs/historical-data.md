@@ -1,6 +1,8 @@
 # Historical data and the six-scenario library
 
-The committed inputs are prepared static data. React performs no external market-data requests. The existing contracts, portfolio engine, and production queue requirements are unchanged.
+Chronology references use the original local authoring IDs; the [publication audit](git-publication.md) maps them to identical-tree commits in the PR.
+
+The committed inputs are prepared static data. React performs no external market-data requests. The portfolio engine and production queue requirements are unchanged; provenance now represents unknown publication dates explicitly for outcome-only archives.
 
 ## Source coverage and interpretation
 
@@ -38,7 +40,7 @@ Starting artifacts contain thirteen monthly price endpoints ending at cutoff and
 
 Yahoo's [official adjusted-close description](https://in.help.yahoo.com/kb/adjusted-close-sln28256.html) applies backward split and dividend multipliers, including a dividend factor based on the previous close. Adjacent adjusted-close ratios are **dividend-adjusted return proxies**, not audited broker dividend-reinvestment returns. They do not specify an investor's reinvestment price, tax, fees or fractional-share treatment. Do not add cash dividends or split gains again. A common later scale factor cancels in ratios, but does not independently prove every corporate-action factor is correct. Current history can be revised. The raw SHA identifies retrieved bytes; it cannot guarantee that a future fetch from an unversioned URL returns the same bytes.
 
-[Scenario qualification](scenario-qualification.md) links each stock/action review. Relevant examples include Microsoft's combined $3 special plus $0.08 ordinary dividend in November 2004, Apple's February 2005 and August 2020 splits, and Apple's later splits rescaling historical cash-dividend amounts. Ex-date, record date, distribution date and first adjusted trading date have different meanings. Current official archives with unknown original publication dates remain in the separate corporate-action audit; no invented historical publication date is used to qualify starting information.
+[Scenario qualification](scenario-qualification.md) links each stock/action review. Relevant examples include Microsoft's combined $3 special plus $0.08 ordinary dividend in November 2004, Apple's February 2005 and August 2020 splits, and Apple's later splits rescaling historical cash-dividend amounts. Ex-date, record date, distribution date and first adjusted trading date have different meanings. Current official archives with unknown original publication dates use null in outcome-only provenance and are referenced by the corporate-action audit; no invented historical publication date is used to qualify starting information.
 
 ## Reproduction
 
@@ -64,6 +66,7 @@ npm run data:fetch
 npm run data:normalize
 # Inspect a cached new stock snapshot without changing its outputs:
 node --import tsx scripts/normalize/yahoo-chart.ts --scenario=2016-02 --outcome --check
+python3 scripts/normalize/stock-actions.py 2016-02 --check
 ```
 
 `data:fetch` downloads the legacy pinned broad/pilot manifests, verifies SHA256 bytes and does not refetch the five new Yahoo scenario snapshots. The source-specific `scripts/fetch/scenario-stocks.py` is an authoring tool: it refuses an existing snapshot manifest and requires an unchanged committed starting lock before `--outcome`. It is not an idempotent refresh command. Reconstructing a raw cache from an unversioned endpoint may fail checksum verification even when the URL remains accessible. Preserve available cached bytes; normalized endpoints provide deterministic offline rebuilding regardless of future vendor availability.
@@ -91,7 +94,7 @@ The unchanged September 1999 pilot illustrates the date discipline; the other fi
 
 The last indicator is an **older secondary summary**, explicitly marked as an approximation. Direct inspection of the original Philadelphia Fed PDF was blocked in this environment. It is not represented as a Q3 median forecast, an annualized next-quarter growth rate, a probability of negative growth, or a recession probability. September CPI and employment releases are excluded because they came after the cutoff. Amazon's archive header says September 29 while its release dateline says September 30; the later date is used conservatively.
 
-Market return reconstruction has a different limitation. French/FRED series are modern reconstructed histories and the Yahoo adjusted-price snapshot was published in 2016. We do **not** claim those files were published in 1999. Starting provenance records `asof-broad-proxies` and `asof-stock-prices` use a **modeled availability date of September 30 for underlying market observations** and mark the reconstruction as approximate. Then-observable prices/dividends/yields conceptually support trailing estimates, but exact contemporary database vintages, aggregate publication timing, and retroactive source revisions are not replicated. This distinction is necessary because the existing provenance contract has a single publication-date field; the contract and cutoff validator remain unchanged.
+Market return reconstruction has a different limitation. French/FRED series are modern reconstructed histories and the Yahoo adjusted-price snapshot was published in 2016. We do **not** claim those files were published in 1999. Starting provenance records `asof-broad-proxies` and `asof-stock-prices` use a **modeled availability date of September 30 for underlying market observations** and mark the reconstruction as approximate. Then-observable prices/dividends/yields conceptually support trailing estimates, but exact contemporary database vintages, aggregate publication timing, and retroactive source revisions are not replicated. The publication field now permits null for genuinely undated outcome-only archives. Starting references still require an established pre-cutoff date; the original pilot records and lock remain unchanged.
 
 Separate retrospective artifact records reference the actual pinned mirror dates: October 5, 2026 for the French mirror revision; September 21, 2026 for the FRED mirror revision; May 3, 2016 for Yahoo. They are used for outcomes, never directly referenced by starting fields. `artifact-publications.json` retains the GitHub commit references. Schema date checks enforce the declared approximation; they cannot establish perfect real-time replication. This is the principal historical-data limitation reviewers should assess.
 
@@ -111,6 +114,6 @@ The development historical preview accepts every registered ID through `?scenari
 
 The prior September 1999 milestone passed 86 unit/rendering tests and eight desktop/mobile browser tests on October 5, 2026, together with validation, formatting, schema/data checks, types and build. Those results are a baseline, not proof that the five new outcomes or all six previews passed after integration.
 
-**Final six-scenario verification: pending integration checks.** Record actual command results, final test counts, extreme-return review and player/screenshots review in [scenario qualification](scenario-qualification.md). The corporate-action and editorial notes describe inspected evidence and remaining limits; they do not substitute for byte freshness, collection validation or browser checks. This document must not be interpreted as a six-scenario acceptance sign-off while that ledger remains pending.
+**Final six-scenario verification:** `npm run check` passed with 113 unit/rendering tests, and `npm run test:browser` passed 20 desktop/mobile tests. Hash-checked normalization replayed from the retained raw cache; all six builders reproduce their committed files offline. No historical return exceeds the 80% monthly warning threshold. Desktop/mobile starting and reveal screenshots were manually inspected, including forecast units, allocations, event markers and reflections. The [qualification ledger](scenario-qualification.md) records the evidence and remaining research limits.
 
 Do not expand to 24/50 scenarios until the six-scenario qualification is complete. The small cohorts and overlapping outcome periods are unsuitable for broad statistical conclusions; no website deployment or production lifetime history is included in this milestone.

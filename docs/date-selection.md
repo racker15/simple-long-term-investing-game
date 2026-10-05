@@ -50,7 +50,7 @@ Every exclusion requires an exact calendar cutoff and concrete missing evidence,
 
 Operational exclusions live in a separately committed append-only review record. No exclusion may use investment performance, boredom, outcome similarity, forecast correctness, or a desired educational lesson. Candidate future information may establish feasibility only. Existing valid uneventful dates are retained.
 
-For post-draw exclusions the algorithm first replays all initial slots identically, records withdrawal events for excluded acceptances, and appends replacement draws from their remaining stratum pools with the existing PRNG state. Repairs are processed in original slot order; each replacement continues the same slot and links to the withdrawn draw. Unaffected acceptances remain reserved. A replacement that also matches an operational exclusion is withdrawn and replaced in turn. Original acceptance records remain in the log. Commit each new exclusion and revised audit artifact, retaining the old artifact in Git; never erase failed attempts or original accepted dates.
+For post-draw exclusions the algorithm first replays all initial slots identically, records withdrawal events for excluded acceptances, and appends replacement draws from their remaining stratum pools with the existing PRNG state. The frozen v1 implementation scans current acceptances from the beginning after each repair. Initial acceptances are visited in their original slot order; replacements are appended, so an excluded replacement can be revisited after other original slots. Each replacement continues its original slot and links to the withdrawn draw. This clarifies the originally compressed ordering description; it does not change the committed selector, draw, or any starting lock. Unaffected acceptances remain reserved. A replacement that also matches an operational exclusion is withdrawn and replaced in turn. Original acceptance records remain in the log. Commit each new exclusion and revised audit artifact, retaining the old artifact in Git; never erase failed attempts or original accepted dates.
 
 ## Audit and authoring commands
 
@@ -60,9 +60,17 @@ For post-draw exclusions the algorithm first replays all initial slots identical
 npm run dates:select -- --cohort=pilot
 npm run dates:check
 # Run only when production expansion has been authorized and preregistered:
-npm run dates:select -- --cohort=production
+npm run dates:production
 ```
 
 Commit order is mandatory: (1) protocol, selector, and empty exclusion register; (2) final dates, audit log, and significance evidence; (3) each scenario's starting inputs, candidate pools, provenance, and checksum lock; (4) that scenario's outcomes and qualification evidence. Tests use synthetic dates before the protocol commit; they do not execute the real configured seed/universe.
 
 Selected dates are research commitments, not qualified registry entries. Only complete validated and reviewed scenarios may enter `data/scenarios/manifest.json`. Cohort and audit metadata must remain outside the player-facing starting projection.
+
+## Production audit revision v2
+
+Review after pilot assembly found that v1 throws on pool exhaustion before the CLI can save its accumulated draws. No pilot attempt exhausted a pool, and the operational exclusion register is empty. The frozen `scripts/select/dates.ts`, original protocol, pilot artifact and starting hashes remain unchanged. V1 replay is the historical evidence for these six dates.
+
+The separately versioned `production-protocol-v2.json` and `scripts/select/production.ts` are registered before any expanded production draw. They retain the same universe, temporal weights, seed, PRNG, spacing and operational reasons. With no operational exclusions, the initial accepted slots match v1. V2 finishes each original slot's chained exclusions before moving to the next slot and reserves the unaffected acceptances. Every acceptance/rejection and separate withdrawal remains in the log. Exhaustion records `status: failed`, the exact reason, input hashes, attempted draws, withdrawals and partial selections; the CLI saves that audit before returning a failure exit code. A failed cohort cannot be qualified.
+
+`npm run dates:production` writes `data/selection/production-draw-v2.json`; it has not been executed for the real production cohort in this milestone. Synthetic tests cover chained exclusions and saved exhausted-replacement evidence. Future production work must commit the draw and any additional important-date reservations before researching new outcomes, while retaining already qualified pilot dates. This revision corrects audit behavior for expansion without retrospectively rerunning or editing pilot research.
