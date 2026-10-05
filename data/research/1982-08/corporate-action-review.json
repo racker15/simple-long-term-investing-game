@@ -1,0 +1,20 @@
+{
+  "scenario_id": "1982-08",
+  "stocks": {
+    "AAPL": {
+      "source_ids": ["apple-split-history", "apple-dividend-history"],
+      "assessment": "Apple Computer common stock retained throughout; two-for-one Jun 16 1987. Two vendor ex-dates in horizon (May 11,Aug 10 1987); second cash payment September 15 is after August endpoint. Issuer original first $0.06 cash dividend vs vendor$0.000536 reflects 112:1 later split scaling and rounding. Subsequent splits outside horizon uniformly rescale price units; no separate action gain added. No in-window delisting, bankruptcy, merger exchange or spin-off requiring a terminal/successor return was identified in these sources.",
+      "limitations": "Absence of a terminal event is an issuer-lineage/vendor-history assessment, not a comprehensive independent corporate-actions database. Continuous daily observations do not alone prove that every distribution adjustment is correct."
+    },
+    "IBM": {
+      "source_ids": ["ibm-split-history"],
+      "assessment": "International Business Machines common stock retained throughout. Issuer split table has 1979 followed by 1997, no in-window split.20 vendor cash dividends; not every historical cash amount independently reconciled. Later 2021 Kyndryl spin-off is outside horizon; vendor retrospectively rescales prior IBM history. No in-window shareholder successor exchange or terminal return was identified; vendor adjustment completeness remains a limitation.",
+      "limitations": "Absence of a terminal event is an issuer-lineage/vendor-history assessment, not a comprehensive independent corporate-actions database. Continuous daily observations do not alone prove that every distribution adjustment is correct."
+    },
+    "KO": {
+      "source_ids": ["ko-split-history", "ko-share-history", "ko-new-coke"],
+      "assessment": "Coca-Cola common stock retained throughout; three-for-one issuerrecord Jun 16 1986/vendoradjustedtrading Jul 1 1986.20 vendor cash dividends. Columbia acquisition during 1982–83 exchanged shares for Columbia holders, not a distribution of extra value to existing KO holders; later share-history distribution row 1988–89 is outside this August 1987 endpoint. Exact later distribution date not established. No extra distribution or successor mapping applied; every vendor dividend amount is not independently corroborated.",
+      "limitations": "Absence of a terminal event is an issuer-lineage/vendor-history assessment, not a comprehensive independent corporate-actions database. Continuous daily observations do not alone prove that every distribution adjustment is correct."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "scenario_id": "2008-09",
+  "stocks": {
+    "AAPL": {
+      "source_ids": ["apple-capital12", "apple-dividend-history"],
+      "assessment": "Apple common stock; no in-window split. Vendor first modern dividendex Aug 9 2012 amount$0.094643 correspondsoriginal$2.65 cash payment Aug 16 after subsequent 7:1 and 4:1 splits.5 cash dividends inside horizon. Announcement March 19 plannedpaymentsnotimmediate; no separate dividend addition.",
+      "limitations": "Absence of a terminal event is an issuer-lineage/vendor-history assessment, not a comprehensive independent corporate-actions database. Continuous daily observations do not alone prove that every distribution adjustment is correct."
+    },
+    "MSFT": {
+      "source_ids": ["msft-dividend-history"],
+      "assessment": "Microsoft common stock; no in-window split (latest 2003).20 vendor cash dividends; adjusted closes used without adding cash payments again. No in-window terminal shareholder mapping identified. Not every dividend independently reconciled.",
+      "limitations": "Absence of a terminal event is an issuer-lineage/vendor-history assessment, not a comprehensive independent corporate-actions database. Continuous daily observations do not alone prove that every distribution adjustment is correct."
+    },
+    "XOM": {
+      "source_ids": ["xom-split-history"],
+      "assessment": "Exxon Mobil common stock after 1999 Exxon/Mobilcombination(beforecutoff). No in-window split; issuerlatest June 20 2001 outsidehorizon.20 vendor cash dividends. No bankruptcy/delisting or shareholder exchange requiring a terminal return identified in window; no successor mapping. Individual dividend dates/amounts rely on vendor reconstruction.",
+      "limitations": "Absence of a terminal event is an issuer-lineage/vendor-history assessment, not a comprehensive independent corporate-actions database. Continuous daily observations do not alone prove that every distribution adjustment is correct."
+    }
+  }
+}

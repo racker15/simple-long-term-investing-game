@@ -2,7 +2,7 @@
 
 An educational static web application about making a five-year investing decision with only the information available at the starting date. Players allocate $10,000, predict one investment winner, lock the decision, and inspect the path and descriptive scorecards. Benchmark outperformance is a comparison, never a game score.
 
-**Current milestone: public historical return pipelines plus the September 30, 1999 pilot.** Four broad-asset proxies have monthly coverage from January 1975 through December 2025. One sourced historical scenario contains three stocks and seven 60-month return histories. The default demo continues using the fictional fixture to exercise 5/10/15/20-scenario sessions; production queues never allow duplicates and cannot start with only one historical scenario.
+**Current milestone: a six-scenario historical qualification library.** The selected dates span 1982–2016, with three important dates and three preregistered random dates. Each completed scenario provides four broad-asset proxies, three contemporary stock selections and seven 60-month paths. Broad numerical coverage runs January 1975–December 2025. Final integration checks are tracked in [scenario qualification](docs/scenario-qualification.md); pending checks are not reported as passes. The normal `/` demo remains fictional and defaults to a ten-scenario demonstration. Six unique historical entries can support a five-scenario production queue; they cannot satisfy a ten-, fifteen- or twenty-scenario production request, and production queues never duplicate scenarios.
 
 The product sources remain [investing-game-specification.md](investing-game-specification.md) and [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md).
 
@@ -17,7 +17,7 @@ npm run dev
 
 Open the Vite URL (normally `http://localhost:5173`). No account, server, API keys, database, or external runtime data service is required.
 
-During `npm run dev`, open `http://localhost:5173/?scenario=1999-09` for the isolated historical preview. It loads prepared historical outcomes only after investment, saves no session history, and is excluded from production builds. The normal `/` demo remains fictional.
+During `npm run dev`, the isolated historical preview accepts each registered ID: `1982-08`, `1987-01`, `1999-09`, `2004-05`, `2008-09` and `2016-02`. For example, open `http://localhost:5173/?scenario=1982-08`. The preview loads prepared outcomes only after investment, saves no session history, and is excluded from production builds. The normal `/` demo remains fictional. Registry and browser verification status are recorded in [scenario qualification](docs/scenario-qualification.md).
 
 ```sh
 npm run format       # format implementation files; preserve the product source documents
@@ -57,8 +57,8 @@ The CI workflow runs both `npm run check` and browser tests. Browser screenshots
 - `app/src/data/fixture.ts`: validated fixture loader. `App.tsx` is the small React coordinator and local-storage adapter.
 - `app/src/data/historical.ts`: production manifest metadata, starting-context projection, and lazy static historical outcome loader.
 - `data/scenarios/dev-fictional/`: the one committed, clearly labeled fictional fixture.
-- `data/scenarios/1999-09/`: the first historical scenario; `manifest.json` registers only real scenarios.
-- `data/normalized/`: canonical broad returns and adjusted stock histories, with pinned source manifests. `data/research/1999-09/`: editorial inputs, candidates, and the starting checksum lock.
+- `data/scenarios/<YYYY-MM>/`: six selected historical scenarios; `manifest.json` registers complete real scenarios only. Registration is the qualification gate, not the date-selection artifact.
+- `data/normalized/`: canonical broad returns and adjusted stock histories with retrieval manifests. Broad/pilot sources use pinned mirrors; the five new stock snapshots are current, unversioned Yahoo history. `data/research/<YYYY-MM>/` retains editorial inputs, candidate pools, source records and starting checksum locks. `data/selection/` retains the protocol and reproducible date draw.
 - `scripts/fetch/`, `scripts/normalize/`, `scripts/build/`: public-source retrieval, normalization, deterministic historical assembly, schema export, and fictional fixture generation. `scripts/validate/`: collection validation and recomputation.
 - `tests/`: hand-checkable math fixtures, invalid-data cases, seeded queues, scorecards, session transitions, information-firewall rendering, and browser journeys.
 
@@ -68,18 +68,18 @@ The app uses React, Vite, and strict TypeScript, with ordinary component state. 
 
 Each scenario directory has three JSON files:
 
-| File                   | Content                                                                                                                                                                         |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `known_at_start.json`  | Metadata, contemporary headlines, macro values, forecasts, four broad-asset recent returns, exactly three hot stocks, seven asset definitions, and source references            |
-| `future_outcomes.json` | Matching scenario ID, exactly 60 monthly return observations for each asset, per-series source references, 3–5 event annotations, explanation, and the four reflection sections |
-| `provenance.json`      | Matching scenario ID and reusable source records: source name/reference, optional observation date, publication date, retrieval date, approximation flag, and notes             |
+| File                   | Content                                                                                                                                                                                                                           |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `known_at_start.json`  | Metadata, contemporary headlines, macro values, forecasts, four broad-asset recent returns, exactly three hot stocks, seven asset definitions, and source references                                                              |
+| `future_outcomes.json` | Matching scenario ID, exactly 60 monthly return observations for each asset, per-series source references, 3–5 event annotations, explanation, and the four reflection sections                                                   |
+| `provenance.json`      | Matching scenario ID and reusable source records: source name/reference, optional observation date, publication date (or explicit null for genuinely undated outcome-only sources), retrieval date, approximation flag, and notes |
 
 Metadata includes scenario ID, ISO scenario date, display date, `data_kind` (`historical` or `development_fixture`), and a discriminated selection object:
 
 - `important`: nonempty selection reason;
 - `random`: universe identifier, seed, draw index (zero-based), method, predeclared exclusions, and optional replacement reference represented as a string or `null`.
 
-The four broad IDs are defined once: `cash`, `bonds`, `us_total`, `international_ex_us`. A hot-stock ID is `hot:<scenario-id>:<company-slug>`. All asset-keyed maps must match these seven playable investments exactly; IDs and their source references are cross-checked. Returns are decimal total returns (`0.05` means +5%, `-1` means complete loss). Dividends/corporate-action normalization belongs in the future data layer, never in UI code.
+The four broad IDs are defined once: `cash`, `bonds`, `us_total`, `international_ex_us`. A hot-stock ID is `hot:<scenario-id>:<company-slug>`. All asset-keyed maps must match these seven playable investments exactly; IDs and their source references are cross-checked. Returns are decimal returns (`0.05` means +5%, `-1` means complete loss). The broad equity series include dividends; stock adjusted-close ratios are dividend-adjusted return proxies, with vendor limitations rather than exact broker dividend-reinvestment accounting. Dividends/corporate-action normalization belongs in the future data layer, never in UI code.
 
 No stored benchmark series or winner summaries are accepted as scenario inputs. They are always recomputed from monthly returns, avoiding inconsistent duplicates.
 
@@ -87,11 +87,11 @@ No stored benchmark series or winner summaries are accepted as scenario inputs. 
 
 The starting content is physically separate from future outcomes. `ScenarioView` and `Allocation` receive only `DecisionContext`, produced from `KnownAtStart`. That projection uses explicit player-facing nested types and allowlists the displayed date, headline/category/summary, macro values, forecast text, recent returns, hot-stock identity/description/returns, and asset IDs/names/descriptions. It excludes scenario selection metadata, provenance, and all future outcomes. Headline selection notes, hot-stock selection rationales, and every nested source ID remain in the known bundle and are absent from `DecisionContext`, so pre-investment components never receive them. Future events, comparisons, ranks, and reflection render only after commitment. Cohort labels appear only in the final scorecard, never in a checkpoint.
 
-All referenced pre-investment sources must have `publication_date <= scenario date`. Retrieval may be later: it describes when the project obtained a source, not when the information became public. Unknown references and invalid dates fail validation. Future source records are allowed in provenance but cannot be referenced from starting content.
+All referenced pre-investment sources must have a non-null `publication_date <= scenario date`. Retrieval may be later: it describes when the project obtained a source, not when the information became public. Unknown references and invalid dates fail validation. Future source records are allowed in provenance but cannot be referenced from starting content.
 
 This is a software/editorial invariant, not a security boundary. A static bundle is inspectable, and date checks cannot detect hindsight embedded in prose. Human editorial review and separately committed starting bundles remain necessary for real scenarios.
 
-The historical pilot distinguishes dated news/statistical releases from reconstructed market returns. The two `asof-*` provenance records explicitly model availability of underlying market observations through the cutoff; their dates are **not** publication dates of modern French/FRED/Yahoo archives. Separate archive records retain their later public snapshot dates. These proxy estimates are not exact 1999 database vintages. See [historical data methodology](docs/historical-data.md) for the source chain, limitations, and reproduction commands.
+The historical scenarios distinguish dated news/statistical releases from reconstructed market returns. The `asof-*` records model availability of underlying market observations through cutoff; their dates are **not** publication dates of modern French/FRED/Yahoo archives. Separate artifact records retain later mirror or served-snapshot availability. These estimates do not reproduce exact contemporary database vintages. [Historical data methodology](docs/historical-data.md) explains the source chain; [scenario qualification](docs/scenario-qualification.md) records source gaps, corporate actions, editorial bias and review status.
 
 ## Validation
 
@@ -123,7 +123,7 @@ These fill in unspecified thresholds/conventions; they do not change the product
 4. **Concentration:** at least 50% of initial capital in any single investment, including Cash. It describes behavior without judging the choice.
 5. **Cohort statistics:** at least five results in a subgroup. Smaller groups return `null`, and the UI explains why the summary is withheld. The repeated fixture is explicitly unsuitable for historical inference even when this count is reached.
 6. **Queue precedence:** maximize unseen scenarios first, then minimize full-session cohort imbalance among feasible choices. When this priority or cohort shortages prevent balance, the queue degrades without duplicates. Balanced pools produce alternating 2/3 and 3/2 five-scenario blocks and randomized order, reproducibly from a seed. Source-library input order does not affect the output.
-7. **Milestone scope:** the foundation and one historical pilot are implemented. The random-date protocol, qualified multi-scenario library, polished design, and lifetime history remain later work.
+7. **Milestone scope:** six historical dates and their locked starting bundles have been researched under the committed selection protocol; outcome integration and final qualification checks are recorded in the qualification ledger. Production session UI, broader 24/50-scenario expansion, polished design and lifetime history remain later work.
 
 Scorecards use the same aggregation primitive for blocks, overall results, and sufficiently large cohort groups. They show average allocations, concentration count/frequency, prediction hits/bottom-three finishes, leader reversals, average player/benchmark values, strict benchmark-beating counts (ties do not beat), 20%+ drawdown count, and largest drawdown. Final cards add median ending value, prediction hit rate, reversal frequency, and every completed five-result block. Ending values summarize independent $10,000 scenarios; they are not sequential wealth accumulation. No overall score, grade, points, or leaderboard is calculated.
 
@@ -139,6 +139,8 @@ Scorecards use the same aggregation primitive for blocks, overall results, and s
 
 The dummy files can be reproduced with `node --import tsx scripts/build/dummy-fixture.ts`. That script is a test fixture authoring tool, not a historical-data pipeline.
 
-## Next milestone
+## Qualification and expansion
 
-Define and record the random-date protocol before drawing any random pilot dates. Then qualify six historical scenarios: three important-date and three random-date scenarios, applying the same starting-context lock, sourcing, return checks, and player review. Do not scale to 24/50 scenarios until that qualification is complete. This milestone has not begun that draw or library expansion.
+The selection protocol was committed at `b4d70fb`, before the real draw at `0316e1c`. Random dates were drawn from equal-weight temporal strata; February 2016 replaced a spacing-rejected draw of the already reserved September 2008 date. There are no outcome-based replacements. All five new starting bundles were separately committed before their stock outcome research; the September 1999 pilot remains unchanged. See [date selection](docs/date-selection.md), [selected dates](docs/pilot-selection.md) and [qualification ledger](docs/scenario-qualification.md).
+
+Complete and record all integration, offline reproducibility, player review and browser checks before treating the six-scenario milestone as verified or expanding to 24/50 scenarios. The six dates have overlapping five-year windows, repeated stock choices and a small cohort size; they do not establish independent evidence about strategy performance. This work does not publish or deploy the website.

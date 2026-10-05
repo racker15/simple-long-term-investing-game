@@ -1,0 +1,510 @@
+{
+  "scenario_id": "2016-02",
+  "sources": [
+    {
+      "id": "bls-cpi",
+      "source_name": "Bureau of Labor Statistics",
+      "source_reference": "https://www.bls.gov/news.release/archives/cpi_02192016.htm",
+      "observation_date": "2016-01-31",
+      "publication_date": "2016-02-19",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "bls-jobs",
+      "source_name": "Bureau of Labor Statistics",
+      "source_reference": "https://www.bls.gov/news.release/archives/empsit_02052016.htm",
+      "observation_date": "2016-01-31",
+      "publication_date": "2016-02-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "fomc",
+      "source_name": "Federal Reserve",
+      "source_reference": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20160127a.htm",
+      "observation_date": "2016-01-27",
+      "publication_date": "2016-01-27",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "h15",
+      "source_name": "Federal Reserve H.15",
+      "source_reference": "https://www.federalreserve.gov/releases/h15/20160229/h15.pdf",
+      "observation_date": "2016-02-26",
+      "publication_date": "2016-02-29",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Last daily reading in the February29 release, not a reconstruction of that Monday close."
+    },
+    {
+      "id": "bea-gdp",
+      "source_name": "Bureau of Economic Analysis",
+      "source_reference": "https://www.bea.gov/news/2016/gross-domestic-product-4th-quarter-and-annual-2015-second-estimate",
+      "observation_date": "2015-12-31",
+      "publication_date": "2016-02-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Second estimate of fourth-quarter2015 growth available by cutoff; not later revised GDP."
+    },
+    {
+      "id": "spf",
+      "source_name": "Philadelphia Fed Survey of Professional Forecasters",
+      "source_reference": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/2016/spfq116.pdf?la=en",
+      "observation_date": "2016-02-09",
+      "publication_date": "2016-02-12",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original PDF prints February12 release date; forty forecasters. Forecast target calendar2016, annual-average-over-annual-average growth, not a recession probability."
+    },
+    {
+      "id": "apple-letter",
+      "source_name": "Apple public customer letter",
+      "source_reference": "https://www.apple.com/customer-letter/",
+      "observation_date": "2016-02-16",
+      "publication_date": "2016-02-16",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Company position on encryption and government assistance; attributed as Apple’s position rather than a neutral legal finding."
+    },
+    {
+      "id": "who-zika",
+      "source_name": "World Health Organization",
+      "source_reference": "https://www.who.int/en/news-room/detail/01-02-2016-who-director-general-summarizes-the-outcome-of-the-emergency-committee-regarding-clusters-of-microcephaly-and-guillain-barr%C3%A9-syndrome",
+      "observation_date": "2016-02-01",
+      "publication_date": "2016-02-01",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Emergency concerned clusters of microcephaly and neurological disorders. Causal relation to Zika was then suspected, not proven."
+    },
+    {
+      "id": "scalia",
+      "source_name": "White House contemporary presidential remarks",
+      "source_reference": "https://obamawhitehouse.archives.gov/photos-and-video/video/2016/02/13/president-passing-supreme-court-justice-antonin-scalia",
+      "observation_date": "2016-02-13",
+      "publication_date": "2016-02-13",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "ligo",
+      "source_name": "LIGO / Caltech detection announcement",
+      "source_reference": "https://www.ligo.caltech.edu/LA/news/ligo20160211",
+      "observation_date": "2015-09-14",
+      "publication_date": "2016-02-11",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Detection observation September2015; public announcement February11,2016. These dates are distinct."
+    },
+    {
+      "id": "superbowl",
+      "source_name": "National Football League",
+      "source_reference": "https://www.nfl.com/news/broncos-outlast-panthers-claim-third-super-bowl-title-0ap3000000634371",
+      "observation_date": "2016-02-07",
+      "publication_date": "2016-02-07",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "oscars",
+      "source_name": "TIME contemporary Oscars report",
+      "source_reference": "https://time.com/4240857/oscars-2016-spotlight-best-picture/",
+      "observation_date": "2016-02-28",
+      "publication_date": "2016-02-29",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "TIME report timestamp February29 05:52:14UTC. Oscars.org2016 ceremony archive corroborates result but has no established original publication date and is not used for cutoff availability."
+    },
+    {
+      "id": "stock-aapl",
+      "source_name": "Apple contemporary results",
+      "source_reference": "https://www.apple.com/newsroom/2016/01/26Apple-Reports-Record-First-Quarter-Results/",
+      "observation_date": "2015-12-31",
+      "publication_date": "2016-01-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "stock-msft",
+      "source_name": "Microsoft contemporary results",
+      "source_reference": "https://www.microsoft.com/en-us/Investor/earnings/FY-2016-Q2/press-release-webcast",
+      "observation_date": "2015-12-31",
+      "publication_date": "2016-01-28",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "stock-xom",
+      "source_name": "ExxonMobil contemporary results",
+      "source_reference": "https://investor.exxonmobil.com/sec-filings/all-sec-filings/content/0000034088-16-000053/f8k4q991.htm",
+      "observation_date": "2015-12-31",
+      "publication_date": "2016-02-02",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "candidate-amzn",
+      "source_name": "Amazon contemporary release",
+      "source_reference": "https://ir.aboutamazon.com/news-release/news-release-details/2016/Amazoncom-Announces-Fourth-Quarter-Sales-up-22-to-357-Billion/default.aspx",
+      "observation_date": "2016-01-28",
+      "publication_date": "2016-01-28",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "candidate-fb",
+      "source_name": "Facebook contemporary release",
+      "source_reference": "https://investor.atmeta.com/investor-news/press-release-details/2016/Facebook-Reports-Fourth-Quarter-and-Full-Year-2015-Results/default.aspx",
+      "observation_date": "2016-01-27",
+      "publication_date": "2016-01-27",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "candidate-nvda",
+      "source_name": "NVIDIA contemporary release",
+      "source_reference": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-the-fourth-quarter-and-fiscal-2016-6622445",
+      "observation_date": "2016-02-17",
+      "publication_date": "2016-02-17",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "candidate-brk-b",
+      "source_name": "Berkshire Hathaway contemporary release",
+      "source_reference": "https://mail.berkshirehathaway.com/news/feb2716.pdf",
+      "observation_date": "2016-02-27",
+      "publication_date": "2016-02-27",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "candidate-wmt",
+      "source_name": "Walmart contemporary release",
+      "source_reference": "https://corporate.walmart.com/news/2016/02/18/walmart-reports-q4-adjusted-eps-of-1-49-fiscal-year-2016-adjusted-eps-of-4-59",
+      "observation_date": "2016-02-18",
+      "publication_date": "2016-02-18",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "candidate-dis",
+      "source_name": "Disney contemporary release",
+      "source_reference": "https://investors.thewaltdisneycompany.com/files/doc_events/2016/02/q1-fy16-earnings-transcript.pdf",
+      "observation_date": "2016-02-09",
+      "publication_date": "2016-02-09",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "candidate-ibm",
+      "source_name": "IBM contemporary release",
+      "source_reference": "https://www.ibm.com/investor/att/pdf/IBM-4Q15-Earnings-Press-Release.pdf",
+      "observation_date": "2016-01-19",
+      "publication_date": "2016-01-19",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "candidate-ge",
+      "source_name": "General Electric contemporary release",
+      "source_reference": "https://www.ge.com/news/press-releases/ge-agrees-sell-appliances-business",
+      "observation_date": "2016-01-15",
+      "publication_date": "2016-01-15",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-asset observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "observation_date": "2016-02-29",
+      "publication_date": "2016-02-29",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Modeled availability of underlying market observations. This is NOT the publication date of the modern French/FRED archive. Retrospective reconstruction using pinned proxies; exact contemporary vintages and aggregate publication lags are not reproduced. Separate outcome archive records retain actual modern availability dates."
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/2016-02/starting.json",
+      "observation_date": "2016-02-29",
+      "publication_date": "2016-02-29",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Modeled availability of underlying observed stock prices through cutoff. This is NOT the publication date of the modern Yahoo snapshot. Current retrospective adjustments, not an exact contemporary database vintage. Separate retrieval manifest records payload hash and actual2026retrieval."
+    },
+    {
+      "id": "time-2016-01-25-us",
+      "source_name": "TIME issue index",
+      "source_reference": "https://time.com/magazine/us/4180259/january-25th-2016-vol-187-no-2-u-s/",
+      "observation_date": "2016-01-25",
+      "publication_date": "2016-01-25",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Contemporary issue date used conservatively as availability; exact original online article dates and archive migration date are unverified. Pool uses short paraphrased topic metadata, not full article bodies. Index coverage is editorial and nonexhaustive."
+    },
+    {
+      "id": "time-2016-02-01-us",
+      "source_name": "TIME issue index",
+      "source_reference": "https://time.com/magazine/us/4188304/february-1st-2016-vol-187-no-3-u-s/",
+      "observation_date": "2016-02-01",
+      "publication_date": "2016-02-01",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Contemporary issue date used conservatively as availability; exact original online article dates and archive migration date are unverified. Pool uses short paraphrased topic metadata, not full article bodies. Index coverage is editorial and nonexhaustive."
+    },
+    {
+      "id": "time-2016-02-08-us",
+      "source_name": "TIME issue index",
+      "source_reference": "https://time.com/magazine/us/4197759/february-8th-2016-vol-187-no-4-u-s/",
+      "observation_date": "2016-02-08",
+      "publication_date": "2016-02-08",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Contemporary issue date used conservatively as availability; exact original online article dates and archive migration date are unverified. Pool uses short paraphrased topic metadata, not full article bodies. Index coverage is editorial and nonexhaustive."
+    },
+    {
+      "id": "french-us",
+      "source_name": "Kenneth French Data Library",
+      "source_reference": "https://raw.githubusercontent.com/ethanteng/finsight/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609/src/datasets/F-F_Research_Data_Factors.csv",
+      "observation_date": "2021-02-28",
+      "publication_date": "2026-10-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/ethanteng/finsight/commit/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609), not original market reporting or first dataset publication. Canonical source: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html. Series: F-F_Research_Data_Factors: Mkt-RF + RF; RF. Raw SHA256: 9ddf8f5b510f8730acca0fc3d899085d757c92378d7ea66b7c8d864354fa1209. Use the first monthly table; convert percent to decimal. US equity total return = (Mkt-RF + RF)/100. Cash = RF/100. No ETF replication is claimed. Current reconstructed history, not a 1999 data-library vintage. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "french-international",
+      "source_name": "Kenneth French International Index Portfolios",
+      "source_reference": "https://raw.githubusercontent.com/ethanteng/finsight/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609/src/datasets/F-F_International_Indices.dat",
+      "observation_date": "2021-02-28",
+      "publication_date": "2026-10-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/ethanteng/finsight/commit/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609), not original market reporting or first dataset publication. Canonical source: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/int_index_port_formed.html. Series: International index: Major Markets market portfolio (USD, including dividends). Raw SHA256: 047aab4e9ae512f3759fde34e8e49b8ff12a162fad4e8d36ec5b8c99b8d06266. EAFE + Canada country-weighted market portfolio, without US equity. Source coverage begins January 1975. Country coverage changes in source methodology; MSCI inputs through 2006 and Bloomberg from 2007. No project-level splice. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "fred-gs5",
+      "source_name": "Federal Reserve H.15 via FRED",
+      "source_reference": "https://raw.githubusercontent.com/BuyRisk/buyrisk.github.io/c51c5c9592bf2de0758b7b2ed13a35930516fefa/data/sources/fred/GS5.csv",
+      "observation_date": "2021-02-28",
+      "publication_date": "2026-09-21",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/BuyRisk/buyrisk.github.io/commit/c51c5c9592bf2de0758b7b2ed13a35930516fefa), not original market reporting or first dataset publication. Canonical source: https://fred.stlouisfed.org/series/GS5. Series: GS5. Raw SHA256: b03972bed533eeffebe1d9b54d7e52dc5a67b0119cc82ebd92d799fbc184c165. Monthly average five-year constant-maturity Treasury yield. Synthetic rolling five-year par bond: monthly coupons, flat yield curve, one coupon plus repriced 59 remaining monthly payments. No credit/spread exposure or bond-fund fees; not a broad aggregate index. Uses preceding month yield for coupon, current month yield for repricing. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "yahoo-aapl",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "source_reference": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?period1=1422748800&period2=1614556800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "2021-02-26",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Current retrospective Yahoo snapshot used for outcomes, retrieved 2026-10-05. Original publication and archive revision dates are unknown (publication_date is null); retrieval does not establish a contemporary vintage. Daily observations run through 2021-02-26. Retrieved raw payload SHA256: b1f4560f8c248f46c9073d86665f2511eb4e8a15dfa114d4cce581e7385734ce. Endpoint is unversioned; the committed normalized monthly endpoints allow offline rebuilding. Daily USD adjusted close; last trading observation in each calendar month; adjacent price ratio minus one. Yahoo adjustments incorporate splits and cash dividends; do not add dividends again. Current reconstructed history, not a contemporary database vintage. Daily observations, nulls, currency, symbol, endpoints, and monthly gaps are strictly checked. No revision-pinned endpoint is available; the raw byte hash identifies this retrieval, not an immutable downloadable revision. Normalized monthly endpoints are committed for deterministic offline rebuilding. Corporate-action assessment belongs in the scenario research record."
+    },
+    {
+      "id": "yahoo-msft",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "source_reference": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?period1=1422748800&period2=1614556800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "2021-02-26",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Current retrospective Yahoo snapshot used for outcomes, retrieved 2026-10-05. Original publication and archive revision dates are unknown (publication_date is null); retrieval does not establish a contemporary vintage. Daily observations run through 2021-02-26. Retrieved raw payload SHA256: adf07e64321295464e3142853b041948afb45e20e102ef0903d4eacaa3b32508. Endpoint is unversioned; the committed normalized monthly endpoints allow offline rebuilding. Daily USD adjusted close; last trading observation in each calendar month; adjacent price ratio minus one. Yahoo adjustments incorporate splits and cash dividends; do not add dividends again. Current reconstructed history, not a contemporary database vintage. Daily observations, nulls, currency, symbol, endpoints, and monthly gaps are strictly checked. No revision-pinned endpoint is available; the raw byte hash identifies this retrieval, not an immutable downloadable revision. Normalized monthly endpoints are committed for deterministic offline rebuilding. Corporate-action assessment belongs in the scenario research record."
+    },
+    {
+      "id": "yahoo-xom",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "source_reference": "https://query1.finance.yahoo.com/v8/finance/chart/XOM?period1=1422748800&period2=1614556800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "2021-02-26",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Current retrospective Yahoo snapshot used for outcomes, retrieved 2026-10-05. Original publication and archive revision dates are unknown (publication_date is null); retrieval does not establish a contemporary vintage. Daily observations run through 2021-02-26. Retrieved raw payload SHA256: 2f7f32017985bbfd7aa405f0e14aba849890e4fd244da2f0f81435e75ea3d0c7. Endpoint is unversioned; the committed normalized monthly endpoints allow offline rebuilding. Daily USD adjusted close; last trading observation in each calendar month; adjacent price ratio minus one. Yahoo adjustments incorporate splits and cash dividends; do not add dividends again. Current reconstructed history, not a contemporary database vintage. Daily observations, nulls, currency, symbol, endpoints, and monthly gaps are strictly checked. No revision-pinned endpoint is available; the raw byte hash identifies this retrieval, not an immutable downloadable revision. Normalized monthly endpoints are committed for deterministic offline rebuilding. Corporate-action assessment belongs in the scenario research record."
+    },
+    {
+      "id": "recent-fed-2018",
+      "source_name": "Federal Reserve: December 2018 FOMC statement",
+      "source_reference": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20181219a.htm",
+      "publication_date": "2018-12-19",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporary release; target range 2.25–2.50%; not an explanation of any individual security return.",
+      "observation_date": "2018-12-19"
+    },
+    {
+      "id": "recent-fed-2020",
+      "source_name": "Federal Reserve: March 2020 emergency FOMC statement",
+      "source_reference": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm",
+      "publication_date": "2020-03-15",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporary release attributes disruption to coronavirus and cuts target range to 0–0.25%.",
+      "observation_date": "2020-03-15"
+    },
+    {
+      "id": "recent-msft-2020",
+      "source_name": "Microsoft: FY2020 Q4 results",
+      "source_reference": "https://www.microsoft.com/en-us/Investor/earnings/FY-2020-Q4/press-release-webcast",
+      "publication_date": "2020-07-22",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Fiscal quarter/year end; reported Azure growth 47%, commercial cloud annual revenue above $50 billion. Company describes mixed pandemic effects; management interpretations are attributed.",
+      "observation_date": "2020-06-30"
+    },
+    {
+      "id": "recent-apple-2020",
+      "source_name": "Apple: fiscal 2020 third-quarter results and split announcement",
+      "source_reference": "https://www.apple.com/newsroom/2020/07/apple-reports-third-quarter-results/",
+      "publication_date": "2020-07-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Fiscal quarter end; $59.7 billion revenue, 11% year-over-year increase. Four-for-one split announcement; first split-adjusted trading date August 31, 2020; record date August 24.",
+      "observation_date": "2020-06-27"
+    },
+    {
+      "id": "recent-xom-2020",
+      "source_name": "ExxonMobil: fourth-quarter and full-year 2020 results",
+      "source_reference": "https://investor.exxonmobil.com/sec-filings/all-sec-filings/content/0000034088-21-000004/f8k4q991.htm",
+      "publication_date": "2021-02-02",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporary Exhibit 99.1: annual GAAP loss $22.440 billion; Q 4 after-tax noncash impairments $19.3 billion; annual loss is not the amount of Q 4 impairments.",
+      "observation_date": "2020-12-31"
+    },
+    {
+      "id": "recent-apple-start",
+      "source_name": "Apple: fiscal 2016 first-quarter results",
+      "source_reference": "https://www.apple.com/newsroom/2016/01/26Apple-Reports-Record-First-Quarter-Results/",
+      "publication_date": "2016-01-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Starting-only company evidence reused for reflection; no changes to locked starting bundle.",
+      "observation_date": "2015-12-26"
+    },
+    {
+      "id": "recent-msft-start",
+      "source_name": "Microsoft: FY2016 Q2 results",
+      "source_reference": "https://www.microsoft.com/en-us/Investor/earnings/FY-2016-Q2/press-release-webcast",
+      "publication_date": "2016-01-28",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Starting-only company evidence; cloud annualized revenue run rate is not comparable to an actual annual revenue measure without that distinction.",
+      "observation_date": "2015-12-31"
+    },
+    {
+      "id": "recent-xom-start",
+      "source_name": "ExxonMobil: fourth-quarter and full-year 2015 results",
+      "source_reference": "https://investor.exxonmobil.com/sec-filings/all-sec-filings/content/0000034088-16-000053/f8k4q991.htm",
+      "publication_date": "2016-02-02",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Starting-only company evidence about weak commodity prices and annual earnings.",
+      "observation_date": "2015-12-31"
+    },
+    {
+      "id": "recent-apple-actions",
+      "source_name": "Apple investor relations: dividend and split history",
+      "source_reference": "https://investor.apple.com/dividend-history/default.aspx",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Current official historical table, original page publication unknown. Amounts explicitly NOT split adjusted; regular quarterly cash distributions in the review window; first split-adjusted trading date footnote. Retrieved 2026-10-05; never assign that retrieval date as historical publication. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "recent-msft-actions",
+      "source_name": "Microsoft investor relations: dividends and stock history",
+      "source_reference": "https://www.microsoft.com/en-us/investor/dividends-and-stock-history",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Current official archive. Visible HTML confirms quarterly-dividend practice and 2003 split; its quarterly history is embedded and downloadable; the download failed in this browser retrieval, so no claim here of independently reconciling every vendor dividend date. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "recent-msft-splits",
+      "source_name": "Microsoft investor relations FAQ: split history",
+      "source_reference": "https://www.microsoft.com/en-us/investor/faq",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Current official archive lists latest split as February 2003; payable date February 14 versus first adjusted trading February 18. Both precede the review horizon. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "recent-xom-splits",
+      "source_name": "ExxonMobil investor relations: stock split history",
+      "source_reference": "https://investor.exxonmobil.com/stock-info/stock-split-history",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Current official archive; most recent listed split June 20, 2001; older Mobil and XTO merger ratios are outside the review window. Current site heading reflects a later company name; do not backdate it into 2016–2021. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "recent-xom-dividends-2018",
+      "source_name": "ExxonMobil: 2018 financial and operating review",
+      "source_reference": "https://corporate.exxonmobil.com/-/media/Global/Files/annual-report/2018-Financial-and-Operating-Review.pdf",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Official annual table: 2016/2017/2018 dividends per share 2.98/3.06/3.23. Original public-release date not established from current archive. Corroborates annual amounts, not each ex-date. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication.",
+      "observation_date": "2018-12-31"
+    },
+    {
+      "id": "recent-xom-dividends-2020",
+      "source_name": "ExxonMobil: 2020 financial and operating data",
+      "source_reference": "https://corporate.exxonmobil.com/INVESTORS/-/media/F49742A9B72847BB9A339CDBB377D9A4.ashx",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Official annual table: 2019/2020 dividends per share 3.43/3.48. Original publication date unestablished; retrospectively used only for outcome review, not starting information. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication.",
+      "observation_date": "2020-12-31"
+    },
+    {
+      "id": "recent-yahoo-adjustments",
+      "source_name": "Yahoo Help: adjusted close methodology",
+      "source_reference": "https://in.help.yahoo.com/kb/adjusted-close-sln28256.html",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Official help indexed text describes backwards split and dividend multipliers based on preceding close. Direct open returned HTTP 429; primary-domain indexed text was inspected. Current method documentation, not a versioned chart API contract. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "recent-nfl-start",
+      "source_name": "NFL: Super Bowl 50 result",
+      "source_reference": "https://www.nfl.com/news/broncos-outlast-panthers-claim-third-super-bowl-title-0ap3000000634371",
+      "publication_date": "2016-02-07",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporary sporting-result report reused from starting evidence; not a causal investment-return claim.",
+      "observation_date": "2016-02-07"
+    },
+    {
+      "id": "recent-academy-start",
+      "source_name": "Academy: 2016 ceremony archive",
+      "source_reference": "https://www.oscars.org/oscars/ceremonies/2016/B",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Official retrospective ceremony archive; event February 28, 2016, original page publication unknown. Starting publication evidence is recorded separately in the locked starting research. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication.",
+      "observation_date": "2016-02-28"
+    }
+  ]
+}

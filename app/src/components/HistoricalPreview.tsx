@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import {
   historicalDecisionContext,
   loadHistoricalScenario,
+  productionLibrary,
 } from '../data/historical';
 import type {
   Allocations,
@@ -14,8 +15,13 @@ import { Allocation } from './Allocation';
 import { Reveal } from './Reveal';
 import { ScenarioView } from './ScenarioView';
 
-const context = historicalDecisionContext('1999-09');
 export default function HistoricalPreview() {
+  const requested =
+    new URLSearchParams(window.location.search).get('scenario') ?? '1999-09';
+  const id = productionLibrary.some((entry) => entry.scenario_id === requested)
+    ? requested
+    : '1999-09';
+  const context = historicalDecisionContext(id);
   const [reveal, setReveal] = useState<{
     scenario: Scenario;
     result: ScenarioResult;
@@ -29,7 +35,7 @@ export default function HistoricalPreview() {
     setLoading(true);
     setError('');
     try {
-      const scenario = await loadHistoricalScenario('1999-09');
+      const scenario = await loadHistoricalScenario(id);
       setReveal({
         scenario,
         result: createResult(scenario, allocations, expected),
@@ -52,6 +58,25 @@ export default function HistoricalPreview() {
           public data uses documented proxies. This preview is separate from
           production sessions and does not save session progress.
         </aside>
+        {requested !== id && (
+          <p role="alert">
+            Unknown scenario. Showing the September 1999 preview.
+          </p>
+        )}
+        <nav
+          className="historical-previews"
+          aria-label="Historical scenario previews"
+        >
+          {productionLibrary.map((entry) => (
+            <a
+              key={entry.scenario_id}
+              href={`?scenario=${entry.scenario_id}`}
+              aria-current={entry.scenario_id === id ? 'page' : undefined}
+            >
+              {historicalDecisionContext(entry.scenario_id).display_date}
+            </a>
+          ))}
+        </nav>
         {error && <p role="alert">{error}</p>}
         {loading ? (
           <p role="status">Loading the five-year reveal…</p>

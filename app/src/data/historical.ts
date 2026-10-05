@@ -1,5 +1,4 @@
 import manifest from '../../../data/scenarios/manifest.json';
-import september1999 from '../../../data/scenarios/1999-09/known_at_start.json';
 import type { KnownAtStart, Scenario } from '../lib/contracts';
 import type { QueueEntry } from '../lib/queue';
 import {
@@ -8,7 +7,26 @@ import {
   structuralErrors,
 } from '../lib/validation';
 
-const starts: Record<string, unknown> = { '1999-09': september1999 };
+const startingModules = import.meta.glob(
+  '../../../data/scenarios/*/known_at_start.json',
+  { eager: true, import: 'default' },
+);
+const futureModules = import.meta.glob(
+  '../../../data/scenarios/*/future_outcomes.json',
+  { import: 'default' },
+);
+const provenanceModules = import.meta.glob(
+  '../../../data/scenarios/*/provenance.json',
+  { import: 'default' },
+);
+const starts: Record<string, unknown> = Object.fromEntries(
+  manifest.scenarios.map((entry) => [
+    entry.scenario_id,
+    startingModules[
+      `../../../data/scenarios/${entry.scenario_id}/known_at_start.json`
+    ],
+  ]),
+);
 if (
   manifest.schema_version !== 1 ||
   new Set(manifest.scenarios.map((entry) => entry.scenario_id)).size !==
@@ -48,16 +66,15 @@ export function historicalDecisionContext(id: string) {
 // No market-data service or HTTP API is involved at runtime.
 export async function loadHistoricalScenario(id: string): Promise<Scenario> {
   historicalDecisionContext(id);
-  if (id === '1999-09') {
-    const [future, provenance] = await Promise.all([
-      import('../../../data/scenarios/1999-09/future_outcomes.json'),
-      import('../../../data/scenarios/1999-09/provenance.json'),
-    ]);
-    return loadScenario({
-      known: starts[id],
-      future: future.default,
-      provenance: provenance.default,
-    });
-  }
-  throw new Error(`No outcome loader for historical scenario ${id}`);
+  const futureLoader =
+    futureModules[`../../../data/scenarios/${id}/future_outcomes.json`];
+  const provenanceLoader =
+    provenanceModules[`../../../data/scenarios/${id}/provenance.json`];
+  if (!futureLoader || !provenanceLoader)
+    throw new Error(`No outcome loader for historical scenario ${id}`);
+  const [future, provenance] = await Promise.all([
+    futureLoader(),
+    provenanceLoader(),
+  ]);
+  return loadScenario({ known: starts[id], future, provenance });
 }

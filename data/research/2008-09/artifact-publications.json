@@ -1,0 +1,32 @@
+{
+  "note": "Broad sources identify dated pinned mirror revisions; stock sources are current retrospective unversioned snapshots with unknown original publication date. Raw hashes and retrieval dates are in outcome-sources.json; observation dates are actual final trading dates, not archive dates.",
+  "publications": {
+    "french-us": {
+      "date": "2026-10-05",
+      "reference": "https://github.com/ethanteng/finsight/commit/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609"
+    },
+    "french-international": {
+      "date": "2026-10-05",
+      "reference": "https://github.com/ethanteng/finsight/commit/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609"
+    },
+    "fred-gs5": {
+      "date": "2026-09-21",
+      "reference": "https://github.com/BuyRisk/buyrisk.github.io/commit/c51c5c9592bf2de0758b7b2ed13a35930516fefa"
+    },
+    "yahoo-aapl": {
+      "date": null,
+      "reference": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?period1=1188604800&period2=1380585600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "2013-09-30"
+    },
+    "yahoo-msft": {
+      "date": null,
+      "reference": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?period1=1188604800&period2=1380585600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "2013-09-30"
+    },
+    "yahoo-xom": {
+      "date": null,
+      "reference": "https://query1.finance.yahoo.com/v8/finance/chart/XOM?period1=1188604800&period2=1380585600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "2013-09-30"
+    }
+  }
+}

@@ -8,6 +8,7 @@ import argparse
 import datetime
 import hashlib
 import json
+import subprocess
 from pathlib import Path
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
@@ -27,8 +28,15 @@ research = Path('data/research') / scenario
 inputs = json.loads((research / 'starting-inputs.json').read_text())
 if inputs['metadata']['scenario_id'] != scenario:
     raise ValueError('Mismatched starting inputs')
-if args.outcome and not (research / 'starting-lock.json').exists():
-    raise ValueError('Lock and commit starting context before fetching outcomes')
+if args.outcome:
+    lock_path = research / 'starting-lock.json'
+    committed = subprocess.run(['git', 'show', f'HEAD:{lock_path}'], capture_output=True, check=True).stdout
+    if committed != lock_path.read_bytes():
+        raise ValueError('Commit the unchanged starting lock before fetching outcomes')
+    lock = json.loads(committed)
+    for path, checksum in lock['files'].items():
+        if hashlib.sha256(Path(path).read_bytes()).hexdigest() != checksum:
+            raise ValueError(f'Starting lock changed: {path}')
 
 def shifted(month, offset):
     index = month.year * 12 + month.month - 1 + offset

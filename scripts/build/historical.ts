@@ -143,7 +143,11 @@ export async function buildStartingScenario(
   for (const id of JSON.stringify(known).matchAll(/"source_ids":\[(.*?)\]/g)) {
     for (const sourceId of JSON.parse(`[${id[1]}]`) as string[]) {
       const source = sourceMap.get(sourceId);
-      if (!source || source.publication_date > known.metadata.date)
+      if (
+        !source ||
+        !source.publication_date ||
+        source.publication_date > known.metadata.date
+      )
         throw new Error(`Missing or post-cutoff starting source ${sourceId}`);
     }
   }

@@ -1,0 +1,133 @@
+{
+  "scenario_id": "2008-09",
+  "sources": [
+    {
+      "id": "fomc-jun04",
+      "source_name": "Federal Reserve June 30, 2004 statement",
+      "source_reference": "https://www.federalreserve.gov/boarddocs/press/monetary/2004/20040630/default.htm",
+      "publication_date": "2004-06-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original public statement, retrieved from official archive on 2026-10-05.",
+      "observation_date": "2004-06-30"
+    },
+    {
+      "id": "msft-capital04",
+      "source_name": "Microsoft announces dividend and repurchases",
+      "source_reference": "https://news.microsoft.com/source/2004/07/20/microsoft-outlines-quarterly-dividend-four-year-stock-buyback-plan-and-special-dividend-to-shareholders/",
+      "publication_date": "2004-07-20",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original public announcement; not the November ex-dividend date or December payment date.",
+      "observation_date": "2004-07-20"
+    },
+    {
+      "id": "apple-iphone07",
+      "source_name": "Apple introduces iPhone",
+      "source_reference": "https://www.apple.com/uk/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/",
+      "publication_date": "2007-01-09",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original company announcement, official archive; announcement precedes sale.",
+      "observation_date": "2007-01-09"
+    },
+    {
+      "id": "nber-peak08",
+      "source_name": "NBER dates December 2007 peak",
+      "source_reference": "https://www.nber.org/news/business-cycle-dating-committee-announcement-december-1-2008",
+      "publication_date": "2008-12-01",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Originally published December 1; page revised December 11, 2008. December 2007 observation was determined retrospectively, not publicly known then.",
+      "observation_date": "2007-12-31"
+    },
+    {
+      "id": "fomc-dec08",
+      "source_name": "Federal Reserve December 16, 2008 statement",
+      "source_reference": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081216b.htm",
+      "publication_date": "2008-12-16",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original public statement, official archive.",
+      "observation_date": "2008-12-16"
+    },
+    {
+      "id": "nber-trough09",
+      "source_name": "NBER dates June 2009 trough",
+      "source_reference": "https://www.nber.org/news/business-cycle-dating-committee-announcement-september-20-2010",
+      "publication_date": "2010-09-20",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Retrospective decision announced September 20, 2010; neither an announcement in June 2009 nor evidence of normal conditions.",
+      "observation_date": "2009-06-30"
+    },
+    {
+      "id": "apple-capital12",
+      "source_name": "Apple plans dividend and repurchases",
+      "source_reference": "https://www.apple.com/newsroom/2012/03/19Apple-Announces-Plans-to-Initiate-Dividend-and-Share-Repurchase-Program/",
+      "publication_date": "2012-03-19",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original announcement; dividend plan subject to board declaration, not a March payment.",
+      "observation_date": "2012-03-19"
+    },
+    {
+      "id": "fomc-sep13",
+      "source_name": "Federal Reserve September 18, 2013 statement",
+      "source_reference": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20130918a.htm",
+      "publication_date": "2013-09-18",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original public statement; purchases continued, taper was not announced on this date.",
+      "observation_date": "2013-09-18"
+    },
+    {
+      "id": "apple-split05",
+      "source_name": "Apple announces two-for-one split",
+      "source_reference": "https://www.apple.com/newsroom/2005/02/11Apple-Announces-Two-for-One-Stock-Split/",
+      "publication_date": "2005-02-11",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original announcement; Feb 18 record, Feb 28 split-adjusted trading. Event takes effect 2005-02-28, after announcement; this is not a pre-publication observation."
+    },
+    {
+      "id": "ebay-split05",
+      "source_name": "eBay Q4 2004 results and split announcement",
+      "source_reference": "https://ebay.q4cdn.com/610426115/files/doc_news/archive/EBAY_News_2005_1_19_Earnings.pdf",
+      "publication_date": "2005-01-19",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Company-hosted original release, p 1: record Jan 31, distribution Feb 16. Yahoo event is Feb 17 trading date. Archive hosting date is not original publication date. Event takes effect 2005-02-16, after announcement; this is not a pre-publication observation."
+    },
+    {
+      "id": "msft-dividend-history",
+      "source_name": "Microsoft dividend and stock history",
+      "source_reference": "https://www.microsoft.com/en-us/investor/dividends-and-stock-history",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Undated current company table retrieved 2026-10-05. Special $3 announced Jul 20, ex Nov 15, record Nov 17, payable Dec 2; current archive is not a 2004 database vintage. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication.",
+      "observation_date": "2004-11-15"
+    },
+    {
+      "id": "apple-dividend-history",
+      "source_name": "Apple dividend history",
+      "source_reference": "https://investor.apple.com/dividend-history/default.aspx",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Undated current company table retrieved 2026-10-05. Original amounts not split adjusted. First modern dividend declared Jul 24, record Aug 13, paid Aug 16 2012; subsequent 2014 7:1 and 2020 4:1 splits outside horizon. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication.",
+      "observation_date": "2012-08-16"
+    },
+    {
+      "id": "xom-split-history",
+      "source_name": "ExxonMobil investor FAQ",
+      "source_reference": "https://investor.exxonmobil.com/company-information/faq",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Undated current company page retrieved 2026-10-05 says most recent split June 20 2001, outside 2008–13 horizon. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication.",
+      "observation_date": "2001-06-20"
+    }
+  ]
+}

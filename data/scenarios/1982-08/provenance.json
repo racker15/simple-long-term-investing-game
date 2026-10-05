@@ -1,0 +1,362 @@
+{
+  "scenario_id": "1982-08",
+  "sources": [
+    {
+      "id": "fed1982",
+      "source_name": "Federal Reserve July 20, 1982 Monetary Policy Report, reproduced in August Bulletin",
+      "source_reference": "https://fraser.stlouisfed.org/files/docs/publications/FRB/1980s/frb_081982.pdf",
+      "publication_date": "1982-07-20",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original report date July 20, 1982, Bulletinpp443–452. CPI reading is first five months annualized, not twelve-month inflation. Forecast tablep452. August wrapper is later; digitization date unknown. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "1982-05-31"
+    },
+    {
+      "id": "jobs1982",
+      "source_name": "BLS Employment Situation: July 1982",
+      "source_reference": "https://fraser.stlouisfed.org/docs/releases/bls/bls_employnews_198207.pdf",
+      "publication_date": "1982-08-06",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original news release front page embargo 8:30 EDTAug 6;9.8% seasonally adjusted national unemployment. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "1982-07-31"
+    },
+    {
+      "id": "h151982",
+      "source_name": "Federal Reserve H 15 Aug 30, 1982",
+      "source_reference": "https://fraser.stlouisfed.org/docs/releases/h15/1980s/H15_19820830.pdf",
+      "publication_date": "1982-08-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Daily Friday Aug 27 column: prime 13.50, discount 10.00,10-year Treasury 12.77. Daily dates differ from weeklyaverages. Immediate-release date printed on original. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "1982-08-27"
+    },
+    {
+      "id": "time-921251",
+      "source_name": "TIME: Interest rates fall as banks cut their prime rate",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,921251,00.html",
+      "publication_date": "1982-08-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-921258",
+      "source_name": "TIME: PLO evacuation begins in Beirut",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,921258,00.html",
+      "publication_date": "1982-08-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-921264",
+      "source_name": "TIME: Mexico struggles to meet foreign debt payments",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,921264,00.html",
+      "publication_date": "1982-08-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-921269",
+      "source_name": "TIME: Alleged theft of IBM secrets draws FBI action",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,921269,00.html",
+      "publication_date": "1982-08-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-921281",
+      "source_name": "TIME: Home computers become a consuming hobby",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,921281,00.html",
+      "publication_date": "1982-08-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-925661",
+      "source_name": "TIME: Coca-Cola brings its soft drink rivalry to Columbia Pictures",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,925661,00.html",
+      "publication_date": "1982-08-09",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-925713",
+      "source_name": "TIME: Horse breeders place large bets at Saratoga",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,925713,00.html",
+      "publication_date": "1982-08-23",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-950750",
+      "source_name": "TIME: The Army explores computer simulations of combat",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,950750,00.html",
+      "publication_date": "1982-08-16",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-950742",
+      "source_name": "TIME: Beer industry rivalry",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,950742,00.html",
+      "publication_date": "1982-08-16",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-925657",
+      "source_name": "TIME: Semiconductorcompetition",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,925657,00.html",
+      "publication_date": "1982-08-09",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-925605",
+      "source_name": "TIME: Exxon retrenchment",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,925605,00.html",
+      "publication_date": "1982-08-02",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-925601",
+      "source_name": "TIME: Bank bad loan concerns",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,925601,00.html",
+      "publication_date": "1982-08-02",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-index19820802",
+      "source_name": "TIME issue index 1982-08-02",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601820802,00.html",
+      "publication_date": "1982-08-02",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Publisher table of contents verifies article identity and issue date. Discovery metadata only; no assumption that every article body has been read. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-index19820809",
+      "source_name": "TIME issue index 1982-08-09",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601820809,00.html",
+      "publication_date": "1982-08-09",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Publisher table of contents verifies article identity and issue date. Discovery metadata only; no assumption that every article body has been read. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-index19820816",
+      "source_name": "TIME issue index 1982-08-16",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601820816,00.html",
+      "publication_date": "1982-08-16",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Publisher table of contents verifies article identity and issue date. Discovery metadata only; no assumption that every article body has been read. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-index19820823",
+      "source_name": "TIME issue index 1982-08-23",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601820823,00.html",
+      "publication_date": "1982-08-23",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Publisher table of contents verifies article identity and issue date. Discovery metadata only; no assumption that every article body has been read. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-index19820830",
+      "source_name": "TIME issue index 1982-08-30",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601820830,00.html",
+      "publication_date": "1982-08-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Publisher table of contents verifies article identity and issue date. Discovery metadata only; no assumption that every article body has been read. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "apcpi1982",
+      "source_name": "Associated Press inflation report in Pampa News, August 24, 1982",
+      "source_reference": "https://newspapers.swco.ttu.edu/bitstreams/e2c56eda-a80a-486c-84bb-9d40e513e045/download",
+      "publication_date": "1982-08-24",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original newspaper date August 24, 1982; AP reports that government said today twelve months ending July inflation 6.5%. This is primary contemporary reporting, not original BLS release. September 1982 CPI Detailed Report corroborates original CPI-U 6.5; experimental CPI-U-X1/rental-equivalence 6.4 must not be substituted. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "1982-07-31"
+    },
+    {
+      "id": "confidence1982",
+      "source_name": "Christian Science Monitor: US consumer confidence rises",
+      "source_reference": "https://www.csmonitor.com/layout/set/amphtml/1982/0805/080551.html",
+      "publication_date": "1982-08-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary newspaper report quotes July Conference Board index 61.3, base 1969–1970=100. Original Conference Board release not retrieved; available original reporting establishes value/date. Do not substitute a later rebased or revised series. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "1982-07-31"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-asset observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "observation_date": "1982-08-31",
+      "publication_date": "1982-08-31",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Modeled availability of underlying market observations through cutoff. This is NOT the publication date of the modern French/FRED/Yahoo archive. Current retrospective reconstruction, not exact contemporary database vintages; later uniform adjustment scaling cancels in historical ratios. Actual source snapshot/retrieval dates and hashes are recorded separately in archive manifests."
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/1982-08/starting.json",
+      "observation_date": "1982-08-31",
+      "publication_date": "1982-08-31",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Modeled availability of underlying market observations through cutoff. This is NOT the publication date of the modern French/FRED/Yahoo archive. Current retrospective reconstruction, not exact contemporary database vintages; later uniform adjustment scaling cancels in historical ratios. Actual source snapshot/retrieval dates and hashes are recorded separately in archive manifests."
+    },
+    {
+      "id": "french-us",
+      "source_name": "Kenneth French Data Library",
+      "source_reference": "https://raw.githubusercontent.com/ethanteng/finsight/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609/src/datasets/F-F_Research_Data_Factors.csv",
+      "observation_date": "1987-08-31",
+      "publication_date": "2026-10-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/ethanteng/finsight/commit/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609), not original market reporting or first dataset publication. Canonical source: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html. Series: F-F_Research_Data_Factors: Mkt-RF + RF; RF. Raw SHA256: 9ddf8f5b510f8730acca0fc3d899085d757c92378d7ea66b7c8d864354fa1209. Use the first monthly table; convert percent to decimal. US equity total return = (Mkt-RF + RF)/100. Cash = RF/100. No ETF replication is claimed. Current reconstructed history, not a 1999 data-library vintage. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "french-international",
+      "source_name": "Kenneth French International Index Portfolios",
+      "source_reference": "https://raw.githubusercontent.com/ethanteng/finsight/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609/src/datasets/F-F_International_Indices.dat",
+      "observation_date": "1987-08-31",
+      "publication_date": "2026-10-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/ethanteng/finsight/commit/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609), not original market reporting or first dataset publication. Canonical source: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/int_index_port_formed.html. Series: International index: Major Markets market portfolio (USD, including dividends). Raw SHA256: 047aab4e9ae512f3759fde34e8e49b8ff12a162fad4e8d36ec5b8c99b8d06266. EAFE + Canada country-weighted market portfolio, without US equity. Source coverage begins January 1975. Country coverage changes in source methodology; MSCI inputs through 2006 and Bloomberg from 2007. No project-level splice. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "fred-gs5",
+      "source_name": "Federal Reserve H.15 via FRED",
+      "source_reference": "https://raw.githubusercontent.com/BuyRisk/buyrisk.github.io/c51c5c9592bf2de0758b7b2ed13a35930516fefa/data/sources/fred/GS5.csv",
+      "observation_date": "1987-08-31",
+      "publication_date": "2026-09-21",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/BuyRisk/buyrisk.github.io/commit/c51c5c9592bf2de0758b7b2ed13a35930516fefa), not original market reporting or first dataset publication. Canonical source: https://fred.stlouisfed.org/series/GS5. Series: GS5. Raw SHA256: b03972bed533eeffebe1d9b54d7e52dc5a67b0119cc82ebd92d799fbc184c165. Monthly average five-year constant-maturity Treasury yield. Synthetic rolling five-year par bond: monthly coupons, flat yield curve, one coupon plus repriced 59 remaining monthly payments. No credit/spread exposure or bond-fund fees; not a broad aggregate index. Uses preceding month yield for coupon, current month yield for repricing. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "yahoo-aapl",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "source_reference": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?period1=365472000&period2=557452800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "1987-08-31",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Current retrospective Yahoo snapshot used for outcomes, retrieved 2026-10-05. Original publication and archive revision dates are unknown (publication_date is null); retrieval does not establish a contemporary vintage. Daily observations run through 1987-08-31. Retrieved raw payload SHA256: bdaa21be855026acab891ab4b1258a1229b67919f38433a2473e1491a4ccb3a0. Endpoint is unversioned; the committed normalized monthly endpoints allow offline rebuilding. Daily USD adjusted close; last trading observation in each calendar month; adjacent price ratio minus one. Yahoo adjustments incorporate splits and cash dividends; do not add dividends again. Current reconstructed history, not a contemporary database vintage. Daily observations, nulls, currency, symbol, endpoints, and monthly gaps are strictly checked. No revision-pinned endpoint is available; the raw byte hash identifies this retrieval, not an immutable downloadable revision. Normalized monthly endpoints are committed for deterministic offline rebuilding. Corporate-action assessment belongs in the scenario research record."
+    },
+    {
+      "id": "yahoo-ibm",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "source_reference": "https://query1.finance.yahoo.com/v8/finance/chart/IBM?period1=365472000&period2=557452800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "1987-08-31",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Current retrospective Yahoo snapshot used for outcomes, retrieved 2026-10-05. Original publication and archive revision dates are unknown (publication_date is null); retrieval does not establish a contemporary vintage. Daily observations run through 1987-08-31. Retrieved raw payload SHA256: 3da561b4632a211393840eac0b43bdcc63418840761260c1e9341d7b3de65ebd. Endpoint is unversioned; the committed normalized monthly endpoints allow offline rebuilding. Daily USD adjusted close; last trading observation in each calendar month; adjacent price ratio minus one. Yahoo adjustments incorporate splits and cash dividends; do not add dividends again. Current reconstructed history, not a contemporary database vintage. Daily observations, nulls, currency, symbol, endpoints, and monthly gaps are strictly checked. No revision-pinned endpoint is available; the raw byte hash identifies this retrieval, not an immutable downloadable revision. Normalized monthly endpoints are committed for deterministic offline rebuilding. Corporate-action assessment belongs in the scenario research record."
+    },
+    {
+      "id": "yahoo-ko",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "source_reference": "https://query1.finance.yahoo.com/v8/finance/chart/KO?period1=365472000&period2=557452800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "1987-08-31",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Current retrospective Yahoo snapshot used for outcomes, retrieved 2026-10-05. Original publication and archive revision dates are unknown (publication_date is null); retrieval does not establish a contemporary vintage. Daily observations run through 1987-08-31. Retrieved raw payload SHA256: 9439cb29e6fc4e75f948a87d70b66f846148c6f2d019dd5ce90f73d3dad6a4ce. Endpoint is unversioned; the committed normalized monthly endpoints allow offline rebuilding. Daily USD adjusted close; last trading observation in each calendar month; adjacent price ratio minus one. Yahoo adjustments incorporate splits and cash dividends; do not add dividends again. Current reconstructed history, not a contemporary database vintage. Daily observations, nulls, currency, symbol, endpoints, and monthly gaps are strictly checked. No revision-pinned endpoint is available; the raw byte hash identifies this retrieval, not an immutable downloadable revision. Normalized monthly endpoints are committed for deterministic offline rebuilding. Corporate-action assessment belongs in the scenario research record."
+    },
+    {
+      "id": "nber-trough82",
+      "source_name": "NBER July 8, 1983 business-cycle announcement",
+      "source_reference": "https://www.nber.org/news/business-cycle-dating-committee-announcement-july-8-1983",
+      "publication_date": "1983-07-08",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Official announcement identifies November 1982 trough retrospectively; not an announcement in November. Current archive hosting date unknown.",
+      "observation_date": "1982-11-30"
+    },
+    {
+      "id": "ko-new-coke",
+      "source_name": "The Coca-Cola Company historical account of New Coke",
+      "source_reference": "https://www.coca-colacompany.com/about-us/history/new-coke-the-most-memorable-marketing-blunder-ever",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Issuer retrospective dates the new-formula announcement April 23, 1985 and original-formula return July 11, 1985. Promotional framing is not adopted as a return explanation. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "plaza85",
+      "source_name": "G5 finance ministers and central-bank governors joint communiqué",
+      "source_reference": "https://www.g7.utoronto.ca/finance/fm850922.htm",
+      "publication_date": "1985-09-22",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporary communiqué reproduced by University of Toronto with permission from a 1988 source edition. Mirror hosting date unknown. Event text describes stated intentions, not their measured effect.",
+      "observation_date": "1985-09-22"
+    },
+    {
+      "id": "apple-split-history",
+      "source_name": "Apple investor FAQ: historical stock splits",
+      "source_reference": "https://investor.apple.com/investor-relations/faq/default.aspx",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Issuer table dates two-for-one split June 16, 1987; later splits uniformly rescale the earlier prices. No extra split return is added. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "apple-dividend-history",
+      "source_name": "Apple historical dividend and split table",
+      "source_reference": "https://investor.apple.com/dividend-history/default.aspx",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original amounts are not split adjusted. April 22 1987 declaration: record May 15, payable June 15, $0.06; July 29 declaration: record Aug 14, payable Sept 15, $0.06. Vendor ex-dates May 11 and Aug 10 fall within Aug 1987 horizon, though second payment follows endpoint. Current backward-adjusted vendor amounts differ by later splits; not separately added. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "ibm-split-history",
+      "source_name": "IBM investor historical stock-split table",
+      "source_reference": "https://www.ibm.com/investor/att/pdf/ibm_ir_stock_splits.pdf",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Issuer table puts adjacent splits in 1979 and 1997; none during either selected 1982–87 or 1987–92 holding window. Current reconstruction also reflects later Kyndryl separation; no successor mapping applied within these windows. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "ko-split-history",
+      "source_name": "Coca-Cola investor historical stock-split table",
+      "source_reference": "https://investors.coca-colacompany.com/stock-info/splits",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Table labels June 16 1986 as record date for three-for-one split. Vendor first adjusted trading date July 1 1986 differs from record date, not ratio. Split is included through adjusted closes, not added again. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "ko-share-history",
+      "source_name": "Coca-Cola investor share history",
+      "source_reference": "https://investors.coca-colacompany.com/stock-info/share-history",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Table documents the Columbia Pictures acquisition in 1982–83 as exchange of shares for Columbia shareholders, not a distribution to existing KO holders. Later Columbia share distribution row is 1988–89, outside Aug 1987 horizon; the precise distribution date is not established here. KO cash dividends are vendor-adjusted; each payment is not independently reconciled. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    }
+  ]
+}

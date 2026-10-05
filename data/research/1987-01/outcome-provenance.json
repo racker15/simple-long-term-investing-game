@@ -1,0 +1,60 @@
+{
+  "scenario_id": "1987-01",
+  "sources": [
+    {
+      "id": "fed-crash87",
+      "source_name": "Federal Reserve FEDS2007-13: Mark Carlson historical study of1987 crash",
+      "source_reference": "https://www.federalreserve.gov/pubs/feds/2007/200713/200713pap.pdf",
+      "publication_date": "2007-05-01",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Archived abstract explicitly dated Last update: May1 2007 (https://www.federalreserve.gov/pubs/feds/2007/200713/200713abs.html); this is an archive revision date, not the original paper date (November2006) or event date. Retrospective Federal Reserve research distinguishes October19 crash and October20 visible liquidity support. It does not establish precise causal weights for scenario returns."
+    },
+    {
+      "id": "nber-peak90",
+      "source_name": "NBER April25 1991 business-cycle announcement",
+      "source_reference": "https://www.nber.org/news/business-cycle-dating-committee-announcement-april-25-1991",
+      "publication_date": "1991-04-25",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Official announcement identifies July 1990 peak retrospectively. March 1991 trough was not announced until December 22 1992, after scenario endpoint; not presented as a contemporaneously known January 1992 fact.",
+      "observation_date": "1990-07-31"
+    },
+    {
+      "id": "apple-split-history",
+      "source_name": "Apple investor FAQ: historical stock splits",
+      "source_reference": "https://investor.apple.com/investor-relations/faq/default.aspx",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Issuer table dates two-for-one split June 16, 1987; later splits uniformly rescale the earlier prices. No extra split return is added. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "apple-dividend-history",
+      "source_name": "Apple historical dividend and split table",
+      "source_reference": "https://investor.apple.com/dividend-history/default.aspx",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original amounts are not split adjusted. April 22 1987 declaration: record May 15, payable June 15, $0.06; July 29 declaration: record Aug 14, payable Sept 15, $0.06. Vendor ex-dates May 11 and Aug 10 fall within Aug 1987 horizon, though second payment follows endpoint. Current backward-adjusted vendor amounts differ by later splits; not separately added. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "ibm-split-history",
+      "source_name": "IBM investor historical stock-split table",
+      "source_reference": "https://www.ibm.com/investor/att/pdf/ibm_ir_stock_splits.pdf",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Issuer table puts adjacent splits in 1979 and 1997; none during either selected 1982–87 or 1987–92 holding window. Current reconstruction also reflects later Kyndryl separation; no successor mapping applied within these windows. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "ge-shareholder",
+      "source_name": "GE Aerospace shareholder services and FAQ",
+      "source_reference": "https://www.geaerospace.com/investor-relations/shareholder-services",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Current legal issuer continues historical General Electric lineage; page documents 2021 reverse split and 2023/2024 separations outside Jan 1992 horizon. May 26 1987 two-for-one is recorded in pinned Yahoo events; not independently corroborated by an accessible original GE split announcement. Acquisitions of operating businesses do not themselves require exchanging GE shareholder holdings. Vendor reconstruction reliability remains a limitation. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    }
+  ]
+}

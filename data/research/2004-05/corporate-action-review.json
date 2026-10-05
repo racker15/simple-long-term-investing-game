@@ -1,0 +1,20 @@
+{
+  "scenario_id": "2004-05",
+  "stocks": {
+    "AAPL": {
+      "source_ids": ["apple-split05", "apple-dividend-history"],
+      "assessment": "Apple Computer renamed Apple in 2007; same common-stock lineage. Two-for-one Feb 28 2005 confirmedoriginal Feb 11 announcement. No in-window cash dividends; first modern dividend 2012 outside May 2009 horizon. Subsequent 2014/20 splits uniformly rescale earlier quotes. No terminal mapping or additional shareholder distribution applied.",
+      "limitations": "Absence of a terminal event is an issuer-lineage/vendor-history assessment, not a comprehensive independent corporate-actions database. Continuous daily observations do not alone prove that every distribution adjustment is correct."
+    },
+    "MSFT": {
+      "source_ids": ["msft-capital04", "msft-dividend-history"],
+      "assessment": "Microsoft common-stock lineage. No in-window split; latestofficial 2003. Vendor Nov 15 2004 dividend$3.08 combines$3 special announced July 20 with$0.08 regular; official table confirms Nov 15 exdate/Nov 17 record/Dec 2 payment.20 vendor dividends in horizon. Adjusted ratios include special and regular dividends once; no separate addition or successor mapping.",
+      "limitations": "Absence of a terminal event is an issuer-lineage/vendor-history assessment, not a comprehensive independent corporate-actions database. Continuous daily observations do not alone prove that every distribution adjustment is correct."
+    },
+    "EBAY": {
+      "source_ids": ["ebay-split05"],
+      "assessment": "e Bay common-stock lineage.2:1 record Jan 31 distribution Feb 16/firstvendortrading Feb 17 2005 confirmed Jan 19 release. No in-window cash dividends. Pay Pal 2015 separation outside May 2009 horizon; current vendor retrospective adjustment relies on uniform scaling prior to separation, not an investment in present standalone e Bay alone. No terminal exchange or extra spin-off cash/share leg applied within horizon.",
+      "limitations": "Absence of a terminal event is an issuer-lineage/vendor-history assessment, not a comprehensive independent corporate-actions database. Continuous daily observations do not alone prove that every distribution adjustment is correct."
+    }
+  }
+}

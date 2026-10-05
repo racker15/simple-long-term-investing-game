@@ -106,7 +106,7 @@ export function Reveal({
               causality.
             </p>
             {scenario.future.events.map((event, i) => (
-              <details id={`event-${i}`} key={event.month}>
+              <details id={`event-${i}`} key={`${event.month}:${event.title}`}>
                 <summary>
                   {event.month} — {event.title}
                 </summary>

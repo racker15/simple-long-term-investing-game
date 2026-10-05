@@ -1,0 +1,453 @@
+{
+  "scenario_id": "2008-09",
+  "sources": [
+    {
+      "id": "aig08",
+      "source_name": "Federal Reserve AIG loan announcement",
+      "source_reference": "https://www.federalreserve.gov/newsevents/pressreleases/other20080916a.htm",
+      "publication_date": "2008-09-16",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-16"
+    },
+    {
+      "id": "apple08",
+      "source_name": "Apple product release",
+      "source_reference": "https://www.apple.com/ca/newsroom/2008/09/09Apple-Introduces-New-iPod-nano/",
+      "publication_date": "2008-09-09",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-09"
+    },
+    {
+      "id": "bac08",
+      "source_name": "Merrill/Bank of America agreement, SEC 8-K",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/65100/000095012308011151/y71399e8vk.htm",
+      "publication_date": "2008-09-15",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-15"
+    },
+    {
+      "id": "banks08",
+      "source_name": "Fed Goldman/Morgan Stanley approval",
+      "source_reference": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20080921a.htm",
+      "publication_date": "2008-09-21",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-21"
+    },
+    {
+      "id": "conf08",
+      "source_name": "AP/Long Island Business News contemporary Conference Board report",
+      "source_reference": "https://libn.com/2008/09/30/consumer-confidence-unexpectedly-improves-in-sept/",
+      "publication_date": "2008-09-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Contemporary secondary confidence report; original survey release not inspected. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-30"
+    },
+    {
+      "id": "cpi08",
+      "source_name": "BLS August CPI original release",
+      "source_reference": "https://www.bls.gov/news.release/archives/cpi_09162008.htm",
+      "publication_date": "2008-09-16",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-08-31"
+    },
+    {
+      "id": "emp08",
+      "source_name": "BLS August employment original release",
+      "source_reference": "https://www.bls.gov/news.release/archives/empsit_09052008.htm",
+      "publication_date": "2008-09-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-08-31"
+    },
+    {
+      "id": "fed08",
+      "source_name": "FOMC original statement",
+      "source_reference": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20080916a.htm",
+      "publication_date": "2008-09-16",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-16"
+    },
+    {
+      "id": "h1508",
+      "source_name": "Fed H.15 original release",
+      "source_reference": "https://www.federalreserve.gov/releases/h15/20080929/",
+      "publication_date": "2008-09-29",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-26"
+    },
+    {
+      "id": "jpm08",
+      "source_name": "JPMorgan Washington Mutual release, SEC exhibit",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/19617/000119312508201638/dex991.htm",
+      "publication_date": "2008-09-25",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-25"
+    },
+    {
+      "id": "msft08",
+      "source_name": "Microsoft capital-return announcement",
+      "source_reference": "https://news.microsoft.com/source/2008/09/22/microsoft-announces-share-repurchase-program-and-increases-quarterly-dividend/",
+      "publication_date": "2008-09-22",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-22"
+    },
+    {
+      "id": "spf08",
+      "source_name": "Philadelphia Fed SPF 2008Q3 original report",
+      "source_reference": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/2008/spfq308.pdf?la=en",
+      "publication_date": "2008-08-12",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-08-12"
+    },
+    {
+      "id": "t0808",
+      "source_name": "TIME US issue index",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601080908,00.html",
+      "publication_date": "2008-09-08",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Issue-index metadata; conservative issue date; not full article text. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-08"
+    },
+    {
+      "id": "t0822",
+      "source_name": "TIME US issue index",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601080922,00.html",
+      "publication_date": "2008-09-22",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Issue-index metadata; conservative issue date; not full article text. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-22"
+    },
+    {
+      "id": "t0829",
+      "source_name": "TIME US issue index",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601080929,00.html",
+      "publication_date": "2008-09-29",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Issue-index metadata; conservative issue date; not full article text. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-29"
+    },
+    {
+      "id": "xom08",
+      "source_name": "ExxonMobil earnings release, SEC exhibit",
+      "source_reference": "https://investor.exxonmobil.com/sec-filings/all-sec-filings/content/0000034088-08-000102/r8k2q991.htm",
+      "publication_date": "2008-07-31",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-06-30"
+    },
+    {
+      "id": "n08-aig",
+      "source_name": "Federal Reserve — Federal Reserve authorizes emergency AIG loan",
+      "source_reference": "https://www.federalreserve.gov/newsevents/pressreleases/other20080916a.htm",
+      "publication_date": "2008-09-16",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-16"
+    },
+    {
+      "id": "n08-house",
+      "source_name": "Fortune/CNN Money — Bailout sinks as voters revolt",
+      "source_reference": "https://money.cnn.com/2008/09/29/magazines/fortune/nobailout_easton.fortune/index.htm?cnn=yes",
+      "publication_date": "2008-09-29",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-29"
+    },
+    {
+      "id": "n08-ipod",
+      "source_name": "Apple — Apple Introduces New iPod nano",
+      "source_reference": "https://www.apple.com/ca/newsroom/2008/09/09Apple-Introduces-New-iPod-nano/",
+      "publication_date": "2008-09-09",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-09"
+    },
+    {
+      "id": "n08-jobs",
+      "source_name": "BLS — Employment Situation: August 2008",
+      "source_reference": "https://www.bls.gov/news.release/archives/empsit_09052008.htm",
+      "publication_date": "2008-09-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-08-31"
+    },
+    {
+      "id": "n08-lhc",
+      "source_name": "CERN — First beam in the LHC – accelerating science",
+      "source_reference": "https://home.cern/first-beam-in-the-lhc-accelerating-science/",
+      "publication_date": "2008-09-10",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-10"
+    },
+    {
+      "id": "n08-metal",
+      "source_name": "TIME — Metallica's Insanely Fast New Album",
+      "source_reference": "https://time.com/archive/6686300/metallicas-insanely-fast-new-album/",
+      "publication_date": "2008-09-11",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-11"
+    },
+    {
+      "id": "n08-pakistan",
+      "source_name": "TIME — The Central Front",
+      "source_reference": "https://time.com/archive/6686267/the-central-front/",
+      "publication_date": "2008-09-11",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-11"
+    },
+    {
+      "id": "n08-palin",
+      "source_name": "TIME — The Sarah Show",
+      "source_reference": "https://time.com/archive/6686272/the-sarah-show/",
+      "publication_date": "2008-09-11",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-11"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-asset observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "observation_date": "2008-09-30",
+      "publication_date": "2008-09-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Modeled availability of underlying market observations through cutoff. This is NOT the publication date of the modern French/FRED/Yahoo archive. Current retrospective reconstruction, not exact contemporary database vintages; later uniform adjustment scaling cancels in historical ratios. Actual source snapshot/retrieval dates and hashes are recorded separately in archive manifests."
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/2008-09/starting.json",
+      "observation_date": "2008-09-30",
+      "publication_date": "2008-09-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Modeled availability of underlying market observations through cutoff. This is NOT the publication date of the modern French/FRED/Yahoo archive. Current retrospective reconstruction, not exact contemporary database vintages; later uniform adjustment scaling cancels in historical ratios. Actual source snapshot/retrieval dates and hashes are recorded separately in archive manifests."
+    },
+    {
+      "id": "french-us",
+      "source_name": "Kenneth French Data Library",
+      "source_reference": "https://raw.githubusercontent.com/ethanteng/finsight/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609/src/datasets/F-F_Research_Data_Factors.csv",
+      "observation_date": "2013-09-30",
+      "publication_date": "2026-10-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/ethanteng/finsight/commit/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609), not original market reporting or first dataset publication. Canonical source: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html. Series: F-F_Research_Data_Factors: Mkt-RF + RF; RF. Raw SHA256: 9ddf8f5b510f8730acca0fc3d899085d757c92378d7ea66b7c8d864354fa1209. Use the first monthly table; convert percent to decimal. US equity total return = (Mkt-RF + RF)/100. Cash = RF/100. No ETF replication is claimed. Current reconstructed history, not a 1999 data-library vintage. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "french-international",
+      "source_name": "Kenneth French International Index Portfolios",
+      "source_reference": "https://raw.githubusercontent.com/ethanteng/finsight/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609/src/datasets/F-F_International_Indices.dat",
+      "observation_date": "2013-09-30",
+      "publication_date": "2026-10-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/ethanteng/finsight/commit/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609), not original market reporting or first dataset publication. Canonical source: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/int_index_port_formed.html. Series: International index: Major Markets market portfolio (USD, including dividends). Raw SHA256: 047aab4e9ae512f3759fde34e8e49b8ff12a162fad4e8d36ec5b8c99b8d06266. EAFE + Canada country-weighted market portfolio, without US equity. Source coverage begins January 1975. Country coverage changes in source methodology; MSCI inputs through 2006 and Bloomberg from 2007. No project-level splice. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "fred-gs5",
+      "source_name": "Federal Reserve H.15 via FRED",
+      "source_reference": "https://raw.githubusercontent.com/BuyRisk/buyrisk.github.io/c51c5c9592bf2de0758b7b2ed13a35930516fefa/data/sources/fred/GS5.csv",
+      "observation_date": "2013-09-30",
+      "publication_date": "2026-09-21",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/BuyRisk/buyrisk.github.io/commit/c51c5c9592bf2de0758b7b2ed13a35930516fefa), not original market reporting or first dataset publication. Canonical source: https://fred.stlouisfed.org/series/GS5. Series: GS5. Raw SHA256: b03972bed533eeffebe1d9b54d7e52dc5a67b0119cc82ebd92d799fbc184c165. Monthly average five-year constant-maturity Treasury yield. Synthetic rolling five-year par bond: monthly coupons, flat yield curve, one coupon plus repriced 59 remaining monthly payments. No credit/spread exposure or bond-fund fees; not a broad aggregate index. Uses preceding month yield for coupon, current month yield for repricing. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "yahoo-aapl",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "source_reference": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?period1=1188604800&period2=1380585600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "2013-09-30",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Current retrospective Yahoo snapshot used for outcomes, retrieved 2026-10-05. Original publication and archive revision dates are unknown (publication_date is null); retrieval does not establish a contemporary vintage. Daily observations run through 2013-09-30. Retrieved raw payload SHA256: 6cc4ca660f1eed6fc204daee5f2ab4ebe8d8e120749fbb0cf575053f6c920b5f. Endpoint is unversioned; the committed normalized monthly endpoints allow offline rebuilding. Daily USD adjusted close; last trading observation in each calendar month; adjacent price ratio minus one. Yahoo adjustments incorporate splits and cash dividends; do not add dividends again. Current reconstructed history, not a contemporary database vintage. Daily observations, nulls, currency, symbol, endpoints, and monthly gaps are strictly checked. No revision-pinned endpoint is available; the raw byte hash identifies this retrieval, not an immutable downloadable revision. Normalized monthly endpoints are committed for deterministic offline rebuilding. Corporate-action assessment belongs in the scenario research record."
+    },
+    {
+      "id": "yahoo-msft",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "source_reference": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?period1=1188604800&period2=1380585600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "2013-09-30",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Current retrospective Yahoo snapshot used for outcomes, retrieved 2026-10-05. Original publication and archive revision dates are unknown (publication_date is null); retrieval does not establish a contemporary vintage. Daily observations run through 2013-09-30. Retrieved raw payload SHA256: ab3970067d74c95057e316e8a8e280ae3089f2bf86785454ad2f4c4ff7ba9b31. Endpoint is unversioned; the committed normalized monthly endpoints allow offline rebuilding. Daily USD adjusted close; last trading observation in each calendar month; adjacent price ratio minus one. Yahoo adjustments incorporate splits and cash dividends; do not add dividends again. Current reconstructed history, not a contemporary database vintage. Daily observations, nulls, currency, symbol, endpoints, and monthly gaps are strictly checked. No revision-pinned endpoint is available; the raw byte hash identifies this retrieval, not an immutable downloadable revision. Normalized monthly endpoints are committed for deterministic offline rebuilding. Corporate-action assessment belongs in the scenario research record."
+    },
+    {
+      "id": "yahoo-xom",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "source_reference": "https://query1.finance.yahoo.com/v8/finance/chart/XOM?period1=1188604800&period2=1380585600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "2013-09-30",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Current retrospective Yahoo snapshot used for outcomes, retrieved 2026-10-05. Original publication and archive revision dates are unknown (publication_date is null); retrieval does not establish a contemporary vintage. Daily observations run through 2013-09-30. Retrieved raw payload SHA256: bbcc1132c3966af30bc84a520d26fb2bf82f61d0cdc6e10a9d2b8bd282974654. Endpoint is unversioned; the committed normalized monthly endpoints allow offline rebuilding. Daily USD adjusted close; last trading observation in each calendar month; adjacent price ratio minus one. Yahoo adjustments incorporate splits and cash dividends; do not add dividends again. Current reconstructed history, not a contemporary database vintage. Daily observations, nulls, currency, symbol, endpoints, and monthly gaps are strictly checked. No revision-pinned endpoint is available; the raw byte hash identifies this retrieval, not an immutable downloadable revision. Normalized monthly endpoints are committed for deterministic offline rebuilding. Corporate-action assessment belongs in the scenario research record."
+    },
+    {
+      "id": "fomc-jun04",
+      "source_name": "Federal Reserve June 30, 2004 statement",
+      "source_reference": "https://www.federalreserve.gov/boarddocs/press/monetary/2004/20040630/default.htm",
+      "publication_date": "2004-06-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original public statement, retrieved from official archive on 2026-10-05.",
+      "observation_date": "2004-06-30"
+    },
+    {
+      "id": "msft-capital04",
+      "source_name": "Microsoft announces dividend and repurchases",
+      "source_reference": "https://news.microsoft.com/source/2004/07/20/microsoft-outlines-quarterly-dividend-four-year-stock-buyback-plan-and-special-dividend-to-shareholders/",
+      "publication_date": "2004-07-20",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original public announcement; not the November ex-dividend date or December payment date.",
+      "observation_date": "2004-07-20"
+    },
+    {
+      "id": "apple-iphone07",
+      "source_name": "Apple introduces iPhone",
+      "source_reference": "https://www.apple.com/uk/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/",
+      "publication_date": "2007-01-09",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original company announcement, official archive; announcement precedes sale.",
+      "observation_date": "2007-01-09"
+    },
+    {
+      "id": "nber-peak08",
+      "source_name": "NBER dates December 2007 peak",
+      "source_reference": "https://www.nber.org/news/business-cycle-dating-committee-announcement-december-1-2008",
+      "publication_date": "2008-12-01",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Originally published December 1; page revised December 11, 2008. December 2007 observation was determined retrospectively, not publicly known then.",
+      "observation_date": "2007-12-31"
+    },
+    {
+      "id": "fomc-dec08",
+      "source_name": "Federal Reserve December 16, 2008 statement",
+      "source_reference": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081216b.htm",
+      "publication_date": "2008-12-16",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original public statement, official archive.",
+      "observation_date": "2008-12-16"
+    },
+    {
+      "id": "nber-trough09",
+      "source_name": "NBER dates June 2009 trough",
+      "source_reference": "https://www.nber.org/news/business-cycle-dating-committee-announcement-september-20-2010",
+      "publication_date": "2010-09-20",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Retrospective decision announced September 20, 2010; neither an announcement in June 2009 nor evidence of normal conditions.",
+      "observation_date": "2009-06-30"
+    },
+    {
+      "id": "apple-capital12",
+      "source_name": "Apple plans dividend and repurchases",
+      "source_reference": "https://www.apple.com/newsroom/2012/03/19Apple-Announces-Plans-to-Initiate-Dividend-and-Share-Repurchase-Program/",
+      "publication_date": "2012-03-19",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original announcement; dividend plan subject to board declaration, not a March payment.",
+      "observation_date": "2012-03-19"
+    },
+    {
+      "id": "fomc-sep13",
+      "source_name": "Federal Reserve September 18, 2013 statement",
+      "source_reference": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20130918a.htm",
+      "publication_date": "2013-09-18",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original public statement; purchases continued, taper was not announced on this date.",
+      "observation_date": "2013-09-18"
+    },
+    {
+      "id": "apple-split05",
+      "source_name": "Apple announces two-for-one split",
+      "source_reference": "https://www.apple.com/newsroom/2005/02/11Apple-Announces-Two-for-One-Stock-Split/",
+      "publication_date": "2005-02-11",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original announcement; Feb 18 record, Feb 28 split-adjusted trading. Event takes effect 2005-02-28, after announcement; this is not a pre-publication observation."
+    },
+    {
+      "id": "ebay-split05",
+      "source_name": "eBay Q4 2004 results and split announcement",
+      "source_reference": "https://ebay.q4cdn.com/610426115/files/doc_news/archive/EBAY_News_2005_1_19_Earnings.pdf",
+      "publication_date": "2005-01-19",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Company-hosted original release, p 1: record Jan 31, distribution Feb 16. Yahoo event is Feb 17 trading date. Archive hosting date is not original publication date. Event takes effect 2005-02-16, after announcement; this is not a pre-publication observation."
+    },
+    {
+      "id": "msft-dividend-history",
+      "source_name": "Microsoft dividend and stock history",
+      "source_reference": "https://www.microsoft.com/en-us/investor/dividends-and-stock-history",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Undated current company table retrieved 2026-10-05. Special $3 announced Jul 20, ex Nov 15, record Nov 17, payable Dec 2; current archive is not a 2004 database vintage. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication.",
+      "observation_date": "2004-11-15"
+    },
+    {
+      "id": "apple-dividend-history",
+      "source_name": "Apple dividend history",
+      "source_reference": "https://investor.apple.com/dividend-history/default.aspx",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Undated current company table retrieved 2026-10-05. Original amounts not split adjusted. First modern dividend declared Jul 24, record Aug 13, paid Aug 16 2012; subsequent 2014 7:1 and 2020 4:1 splits outside horizon. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication.",
+      "observation_date": "2012-08-16"
+    },
+    {
+      "id": "xom-split-history",
+      "source_name": "ExxonMobil investor FAQ",
+      "source_reference": "https://investor.exxonmobil.com/company-information/faq",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Undated current company page retrieved 2026-10-05 says most recent split June 20 2001, outside 2008–13 horizon. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication.",
+      "observation_date": "2001-06-20"
+    }
+  ]
+}

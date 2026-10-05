@@ -25,7 +25,12 @@
           "source_name": { "minLength": 1, "type": "string" },
           "source_reference": { "minLength": 1, "type": "string" },
           "observation_date": { "format": "date", "type": "string" },
-          "publication_date": { "format": "date", "type": "string" },
+          "publication_date": {
+            "anyOf": [
+              { "format": "date", "type": "string" },
+              { "type": "null" }
+            ]
+          },
           "retrieved_at": { "format": "date", "type": "string" },
           "approximation": { "type": "boolean" },
           "notes": { "type": "string" }

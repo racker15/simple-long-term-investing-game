@@ -1,0 +1,170 @@
+{
+  "scenario_id": "2016-02",
+  "sources": [
+    {
+      "id": "recent-fed-2018",
+      "source_name": "Federal Reserve: December 2018 FOMC statement",
+      "source_reference": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20181219a.htm",
+      "publication_date": "2018-12-19",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporary release; target range 2.25–2.50%; not an explanation of any individual security return.",
+      "observation_date": "2018-12-19"
+    },
+    {
+      "id": "recent-fed-2020",
+      "source_name": "Federal Reserve: March 2020 emergency FOMC statement",
+      "source_reference": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm",
+      "publication_date": "2020-03-15",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporary release attributes disruption to coronavirus and cuts target range to 0–0.25%.",
+      "observation_date": "2020-03-15"
+    },
+    {
+      "id": "recent-msft-2020",
+      "source_name": "Microsoft: FY2020 Q4 results",
+      "source_reference": "https://www.microsoft.com/en-us/Investor/earnings/FY-2020-Q4/press-release-webcast",
+      "publication_date": "2020-07-22",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Fiscal quarter/year end; reported Azure growth 47%, commercial cloud annual revenue above $50 billion. Company describes mixed pandemic effects; management interpretations are attributed.",
+      "observation_date": "2020-06-30"
+    },
+    {
+      "id": "recent-apple-2020",
+      "source_name": "Apple: fiscal 2020 third-quarter results and split announcement",
+      "source_reference": "https://www.apple.com/newsroom/2020/07/apple-reports-third-quarter-results/",
+      "publication_date": "2020-07-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Fiscal quarter end; $59.7 billion revenue, 11% year-over-year increase. Four-for-one split announcement; first split-adjusted trading date August 31, 2020; record date August 24.",
+      "observation_date": "2020-06-27"
+    },
+    {
+      "id": "recent-xom-2020",
+      "source_name": "ExxonMobil: fourth-quarter and full-year 2020 results",
+      "source_reference": "https://investor.exxonmobil.com/sec-filings/all-sec-filings/content/0000034088-21-000004/f8k4q991.htm",
+      "publication_date": "2021-02-02",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporary Exhibit 99.1: annual GAAP loss $22.440 billion; Q 4 after-tax noncash impairments $19.3 billion; annual loss is not the amount of Q 4 impairments.",
+      "observation_date": "2020-12-31"
+    },
+    {
+      "id": "recent-apple-start",
+      "source_name": "Apple: fiscal 2016 first-quarter results",
+      "source_reference": "https://www.apple.com/newsroom/2016/01/26Apple-Reports-Record-First-Quarter-Results/",
+      "publication_date": "2016-01-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Starting-only company evidence reused for reflection; no changes to locked starting bundle.",
+      "observation_date": "2015-12-26"
+    },
+    {
+      "id": "recent-msft-start",
+      "source_name": "Microsoft: FY2016 Q2 results",
+      "source_reference": "https://www.microsoft.com/en-us/Investor/earnings/FY-2016-Q2/press-release-webcast",
+      "publication_date": "2016-01-28",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Starting-only company evidence; cloud annualized revenue run rate is not comparable to an actual annual revenue measure without that distinction.",
+      "observation_date": "2015-12-31"
+    },
+    {
+      "id": "recent-xom-start",
+      "source_name": "ExxonMobil: fourth-quarter and full-year 2015 results",
+      "source_reference": "https://investor.exxonmobil.com/sec-filings/all-sec-filings/content/0000034088-16-000053/f8k4q991.htm",
+      "publication_date": "2016-02-02",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Starting-only company evidence about weak commodity prices and annual earnings.",
+      "observation_date": "2015-12-31"
+    },
+    {
+      "id": "recent-apple-actions",
+      "source_name": "Apple investor relations: dividend and split history",
+      "source_reference": "https://investor.apple.com/dividend-history/default.aspx",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Current official historical table, original page publication unknown. Amounts explicitly NOT split adjusted; regular quarterly cash distributions in the review window; first split-adjusted trading date footnote. Retrieved 2026-10-05; never assign that retrieval date as historical publication. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "recent-msft-actions",
+      "source_name": "Microsoft investor relations: dividends and stock history",
+      "source_reference": "https://www.microsoft.com/en-us/investor/dividends-and-stock-history",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Current official archive. Visible HTML confirms quarterly-dividend practice and 2003 split; its quarterly history is embedded and downloadable; the download failed in this browser retrieval, so no claim here of independently reconciling every vendor dividend date. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "recent-msft-splits",
+      "source_name": "Microsoft investor relations FAQ: split history",
+      "source_reference": "https://www.microsoft.com/en-us/investor/faq",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Current official archive lists latest split as February 2003; payable date February 14 versus first adjusted trading February 18. Both precede the review horizon. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "recent-xom-splits",
+      "source_name": "ExxonMobil investor relations: stock split history",
+      "source_reference": "https://investor.exxonmobil.com/stock-info/stock-split-history",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Current official archive; most recent listed split June 20, 2001; older Mobil and XTO merger ratios are outside the review window. Current site heading reflects a later company name; do not backdate it into 2016–2021. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "recent-xom-dividends-2018",
+      "source_name": "ExxonMobil: 2018 financial and operating review",
+      "source_reference": "https://corporate.exxonmobil.com/-/media/Global/Files/annual-report/2018-Financial-and-Operating-Review.pdf",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Official annual table: 2016/2017/2018 dividends per share 2.98/3.06/3.23. Original public-release date not established from current archive. Corroborates annual amounts, not each ex-date. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication.",
+      "observation_date": "2018-12-31"
+    },
+    {
+      "id": "recent-xom-dividends-2020",
+      "source_name": "ExxonMobil: 2020 financial and operating data",
+      "source_reference": "https://corporate.exxonmobil.com/INVESTORS/-/media/F49742A9B72847BB9A339CDBB377D9A4.ashx",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Official annual table: 2019/2020 dividends per share 3.43/3.48. Original publication date unestablished; retrospectively used only for outcome review, not starting information. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication.",
+      "observation_date": "2020-12-31"
+    },
+    {
+      "id": "recent-yahoo-adjustments",
+      "source_name": "Yahoo Help: adjusted close methodology",
+      "source_reference": "https://in.help.yahoo.com/kb/adjusted-close-sln28256.html",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Official help indexed text describes backwards split and dividend multipliers based on preceding close. Direct open returned HTTP 429; primary-domain indexed text was inspected. Current method documentation, not a versioned chart API contract. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "recent-nfl-start",
+      "source_name": "NFL: Super Bowl 50 result",
+      "source_reference": "https://www.nfl.com/news/broncos-outlast-panthers-claim-third-super-bowl-title-0ap3000000634371",
+      "publication_date": "2016-02-07",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporary sporting-result report reused from starting evidence; not a causal investment-return claim.",
+      "observation_date": "2016-02-07"
+    },
+    {
+      "id": "recent-academy-start",
+      "source_name": "Academy: 2016 ceremony archive",
+      "source_reference": "https://www.oscars.org/oscars/ceremonies/2016/B",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Official retrospective ceremony archive; event February 28, 2016, original page publication unknown. Starting publication evidence is recorded separately in the locked starting research. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication.",
+      "observation_date": "2016-02-28"
+    }
+  ]
+}

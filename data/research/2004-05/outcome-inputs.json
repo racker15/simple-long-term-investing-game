@@ -1,0 +1,70 @@
+{
+  "scenario_id": "2004-05",
+  "events": [
+    {
+      "month": "2004-06",
+      "title": "The Fed begins raising its policy target",
+      "description": "The Fed raises its federal funds target by 25 basis points to 1.25%, reporting solid output growth and improved labor markets.",
+      "source_ids": ["fomc-jun04"]
+    },
+    {
+      "month": "2004-07",
+      "title": "Microsoft announces a large capital return",
+      "description": "Microsoft announces quarterly dividends, a four-year buyback plan and a special $3 dividend. The special dividend goes ex-dividend November 15 and is paid December 2.",
+      "source_ids": ["msft-capital04", "msft-dividend-history"]
+    },
+    {
+      "month": "2007-01",
+      "title": "Apple introduces iPhone",
+      "description": "Apple announces a device combining phone, music player and Internet functions. This is business context, not a guarantee of future shareholder returns.",
+      "source_ids": ["apple-iphone07"]
+    },
+    {
+      "month": "2008-12",
+      "title": "The NBER announces a recession",
+      "description": "The NBER identifies December 2007 as the economic peak; the determination is retrospective.",
+      "source_ids": ["nber-peak08"]
+    },
+    {
+      "month": "2008-12",
+      "title": "The Fed moves its target close to zero",
+      "description": "The Fed establishes a 0–0.25% target range amid declining activity and strained credit markets.",
+      "source_ids": ["fomc-dec08"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "The five years after May 2004 included a major change in the economic setting. In June 2004 the Federal Reserve raised its policy target to 1.25%, reporting solid output growth and improving labor markets. By December 2008 it had established a target range of 0–0.25% as economic activity weakened and financial markets remained strained. That month the NBER announced that the expansion had ended in December 2007; this was a retrospective determination rather than a warning available at the starting date. Company developments also differed. Microsoft announced a special dividend and a substantial repurchase plan in July 2004. Apple introduced i Phone in January 2007, adding a new product direction to the business investors had known in May 2004. The reconstructed five-year stock paths diverge sharply: Apple finishes substantially above its starting value, Microsoft slightly below, and e Bay well below. Those comparisons include the vendor’s dividend and split adjustments and describe only these locked selections and this window. A successful product narrative, an established company and a growing marketplace did not produce interchangeable investment outcomes. The event markers provide context for the changing environment; they do not measure how much any announcement caused a return. May 2009 is the scenario endpoint, not a declaration that the financial crisis or all economic uncertainty had ended.",
+    "source_ids": [
+      "fomc-jun04",
+      "msft-capital04",
+      "apple-iphone07",
+      "nber-peak08",
+      "fomc-dec08",
+      "yahoo-aapl",
+      "yahoo-msft",
+      "yahoo-ebay"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "The locked May headlines cover job growth, expensive gasoline, Iraq, the election, cicadas, film and sport. Company prospects mattered to investors, while everyday attention understandably extended beyond markets.",
+    "what_actually_mattered": "Starting valuation, company exposure and the full sequence of returns shaped these results. Dividends and splits require consistent accounting. Economic contraction and changing interest rates formed part of the setting; this exercise does not isolate their causal contribution.",
+    "what_faded_away": "The approaching sporting and election deadlines and the immediate cicada emergence passed into later news cycles. Their prominence did not supply a reliable forecast of these five-year stock returns.",
+    "what_nobody_knew": "A May 2004 investor could not know the timing of the credit crisis, the later near-zero policy target, each company’s future product reception or the final return ordering. Even the recession start was dated afterward.",
+    "source_ids": [
+      "fomc-jun04",
+      "msft-capital04",
+      "apple-iphone07",
+      "nber-peak08",
+      "fomc-dec08",
+      "yahoo-aapl",
+      "yahoo-msft",
+      "yahoo-ebay",
+      "n04-jobs",
+      "n04-hybrid",
+      "n04-iraq",
+      "n04-nader",
+      "n04-cicada",
+      "n04-cannes"
+    ]
+  }
+}
