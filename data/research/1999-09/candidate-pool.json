@@ -1,0 +1,375 @@
+{
+  "scenario_id": "1999-09",
+  "cutoff": "1999-09-30",
+  "method": "Editorial pilot: public contemporary archives and weekly digests, primarily August\u2013September 1999. Candidate labels are discovery metadata, not copies of full articles. This is neither an exhaustive corpus nor a probability sample. Mix is deliberate; no future-return ranking used.",
+  "news_candidates": [
+    {
+      "topic": "Apple processor upgrades",
+      "category": "Technology and culture",
+      "source_ids": ["wired-sep11"]
+    },
+    {
+      "topic": "Hotel bidding competition",
+      "category": "Technology and culture",
+      "source_ids": ["wired-sep11"]
+    },
+    {
+      "topic": "Dreamcast launch",
+      "category": "Technology and culture",
+      "source_ids": ["wired-sep11"]
+    },
+    {
+      "topic": "Burning Man gathering",
+      "category": "Technology and culture",
+      "source_ids": ["wired-sep11"]
+    },
+    {
+      "topic": "Y2K grid rehearsal",
+      "category": "Technology and culture",
+      "source_ids": ["wired-sep11"]
+    },
+    {
+      "topic": "ICQ password security",
+      "category": "Technology and culture",
+      "source_ids": ["wired-sep11"]
+    },
+    {
+      "topic": "Biotech art",
+      "category": "Technology and culture",
+      "source_ids": ["wired-sep11"]
+    },
+    {
+      "topic": "Digital music standards",
+      "category": "Technology and culture",
+      "source_ids": ["wired-sep11"]
+    },
+    {
+      "topic": "Digital Coast conference",
+      "category": "Technology and culture",
+      "source_ids": ["wired-sep11"]
+    },
+    {
+      "topic": "Viacom CBS agreement",
+      "category": "Technology and culture",
+      "source_ids": ["wired-sep11"]
+    },
+    {
+      "topic": "Interactive television",
+      "category": "Technology and culture",
+      "source_ids": ["wired-sep11"]
+    },
+    {
+      "topic": "Sun thin clients",
+      "category": "Technology and culture",
+      "source_ids": ["wired-sep11"]
+    },
+    {
+      "topic": "IBM network terminals",
+      "category": "Technology and culture",
+      "source_ids": ["wired-sep11"]
+    },
+    {
+      "topic": "Ford documents dispute",
+      "category": "Technology and culture",
+      "source_ids": ["wired-sep11"]
+    },
+    {
+      "topic": "Identity database",
+      "category": "Technology and culture",
+      "source_ids": ["wired-sep11"]
+    },
+    {
+      "topic": "Adaptive cruise control",
+      "category": "Technology and culture",
+      "source_ids": ["wired-sep11"]
+    },
+    {
+      "topic": "Online content ratings",
+      "category": "Technology and culture",
+      "source_ids": ["wired-sep11"]
+    },
+    {
+      "topic": "Digital film festival",
+      "category": "Technology and culture",
+      "source_ids": ["wired-sep11"]
+    },
+    {
+      "topic": "Encryption export policy",
+      "category": "Technology and science",
+      "source_ids": ["wired-sep18"]
+    },
+    {
+      "topic": "Y2K travel advisories",
+      "category": "Technology and science",
+      "source_ids": ["wired-sep18"]
+    },
+    {
+      "topic": "Y2K disruption map",
+      "category": "Technology and science",
+      "source_ids": ["wired-sep18"]
+    },
+    {
+      "topic": "Handspring Visor",
+      "category": "Technology and science",
+      "source_ids": ["wired-sep18"]
+    },
+    {
+      "topic": "Palm separation proposal",
+      "category": "Technology and science",
+      "source_ids": ["wired-sep18"]
+    },
+    {
+      "topic": "Army server security",
+      "category": "Technology and science",
+      "source_ids": ["wired-sep18"]
+    },
+    {
+      "topic": "Traditional businesses online",
+      "category": "Technology and science",
+      "source_ids": ["wired-sep18"]
+    },
+    {
+      "topic": "Drudge website intrusion",
+      "category": "Technology and science",
+      "source_ids": ["wired-sep18"]
+    },
+    {
+      "topic": "Internet privacy legislation",
+      "category": "Technology and science",
+      "source_ids": ["wired-sep18"]
+    },
+    {
+      "topic": "Local telecom competition",
+      "category": "Technology and science",
+      "source_ids": ["wired-sep18"]
+    },
+    {
+      "topic": "Mobile location technology",
+      "category": "Technology and science",
+      "source_ids": ["wired-sep18"]
+    },
+    {
+      "topic": "Chinese Internet investment",
+      "category": "Technology and science",
+      "source_ids": ["wired-sep18"]
+    },
+    {
+      "topic": "Advertising patent dispute",
+      "category": "Technology and science",
+      "source_ids": ["wired-sep18"]
+    },
+    {
+      "topic": "XML business information",
+      "category": "Technology and science",
+      "source_ids": ["wired-sep18"]
+    },
+    {
+      "topic": "Child computer ergonomics",
+      "category": "Technology and science",
+      "source_ids": ["wired-sep18"]
+    },
+    {
+      "topic": "Home network bundles",
+      "category": "Technology and science",
+      "source_ids": ["wired-sep18"]
+    },
+    {
+      "topic": "Motorola automotive platform",
+      "category": "Technology and science",
+      "source_ids": ["wired-sep18"]
+    },
+    {
+      "topic": "Movie downloads",
+      "category": "Technology and science",
+      "source_ids": ["wired-sep18"]
+    },
+    {
+      "topic": "Game age classifications",
+      "category": "Technology and science",
+      "source_ids": ["wired-sep18"]
+    },
+    {
+      "topic": "Breast cancer detection",
+      "category": "Technology and science",
+      "source_ids": ["wired-sep18"]
+    },
+    {
+      "topic": "Mouse behavior genetics",
+      "category": "Technology and science",
+      "source_ids": ["wired-sep18"]
+    },
+    {
+      "topic": "Tasmanian tiger research",
+      "category": "Technology and science",
+      "source_ids": ["wired-sep18"]
+    },
+    {
+      "topic": "Hotmail security breach",
+      "category": "Technology and culture",
+      "source_ids": ["wired-sep4"]
+    },
+    {
+      "topic": "Electronic books",
+      "category": "Technology and culture",
+      "source_ids": ["wired-sep4"]
+    },
+    {
+      "topic": "Political domain names",
+      "category": "Technology and culture",
+      "source_ids": ["wired-sep4"]
+    },
+    {
+      "topic": "Yellow Submarine reissue",
+      "category": "Technology and culture",
+      "source_ids": ["wired-sep4"]
+    },
+    {
+      "topic": "The Fed raises its policy rate",
+      "category": "Economy",
+      "source_ids": ["fomc-aug"]
+    },
+    {
+      "topic": "Microsoft and the government make closing arguments",
+      "category": "Business",
+      "source_ids": ["msft-antitrust"]
+    },
+    {
+      "topic": "Amazon opens zShops to outside merchants",
+      "category": "Business",
+      "source_ids": ["amazon-zshops"]
+    },
+    {
+      "topic": "Refugees remain at risk in East Timor",
+      "category": "Global news",
+      "source_ids": ["timor-refugees"]
+    },
+    {
+      "topic": "Coastal flooding",
+      "category": "US news",
+      "source_ids": ["floyd"]
+    },
+    {
+      "topic": "Utilities rehearse for the year 2000",
+      "category": "Technology",
+      "source_ids": ["wired-sep11"]
+    },
+    {
+      "topic": "Dreamcast arrives amid gaming excitement",
+      "category": "Culture",
+      "source_ids": ["dreamcast"]
+    },
+    {
+      "topic": "Tennis championship",
+      "category": "Sports",
+      "source_ids": ["serena"]
+    },
+    {
+      "topic": "Optical networking agreements",
+      "category": "Business",
+      "source_ids": ["cisco-optical"]
+    },
+    {
+      "topic": "Intel communications initiative",
+      "category": "Business",
+      "source_ids": ["intel-network"]
+    },
+    {
+      "topic": "Inflation release",
+      "category": "Economy",
+      "source_ids": ["bls-cpi-aug"]
+    },
+    {
+      "topic": "Labor market release",
+      "category": "Economy",
+      "source_ids": ["bls-jobs-aug"]
+    }
+  ],
+  "stock_candidates": [
+    {
+      "ticker": "MSFT",
+      "source_ids": ["msft-antitrust"],
+      "attention_signal": "Software and antitrust attention",
+      "selected": true,
+      "decision": "Selected to represent one of three distinct contemporary business themes."
+    },
+    {
+      "ticker": "CSCO",
+      "source_ids": ["cisco-optical"],
+      "attention_signal": "Internet infrastructure expansion",
+      "selected": true,
+      "decision": "Selected to represent one of three distinct contemporary business themes."
+    },
+    {
+      "ticker": "AMZN",
+      "source_ids": ["amazon-zshops"],
+      "attention_signal": "Online retail expansion",
+      "selected": true,
+      "decision": "Selected to represent one of three distinct contemporary business themes."
+    },
+    {
+      "ticker": "INTC",
+      "source_ids": ["intel-network"],
+      "attention_signal": "Communications product initiative",
+      "selected": false,
+      "decision": "Not chosen editorially; future performance and corporate-action data were not evaluated."
+    },
+    {
+      "ticker": "AAPL",
+      "source_ids": ["wired-sep11"],
+      "attention_signal": "Processor upgrade controversy",
+      "selected": false,
+      "decision": "Not chosen editorially; future performance and corporate-action data were not evaluated."
+    },
+    {
+      "ticker": "PCLN",
+      "source_ids": ["wired-sep11"],
+      "attention_signal": "Hotel bidding competition",
+      "selected": false,
+      "decision": "Not chosen editorially; future performance and corporate-action data were not evaluated."
+    },
+    {
+      "ticker": "SUNW",
+      "source_ids": ["wired-sep11"],
+      "attention_signal": "Thin client products",
+      "selected": false,
+      "decision": "Not chosen editorially; future performance and corporate-action data were not evaluated."
+    },
+    {
+      "ticker": "IBM",
+      "source_ids": ["wired-sep11"],
+      "attention_signal": "Network terminal products",
+      "selected": false,
+      "decision": "Not chosen editorially; future performance and corporate-action data were not evaluated."
+    },
+    {
+      "ticker": "COMS",
+      "source_ids": ["wired-sep18"],
+      "attention_signal": "Palm separation proposal",
+      "selected": false,
+      "decision": "Not chosen editorially; future performance and corporate-action data were not evaluated."
+    },
+    {
+      "ticker": "MOT",
+      "source_ids": ["wired-sep18"],
+      "attention_signal": "Automotive computing platform",
+      "selected": false,
+      "decision": "Not chosen editorially; future performance and corporate-action data were not evaluated."
+    },
+    {
+      "ticker": "CPQ",
+      "source_ids": ["wired-sep18"],
+      "attention_signal": "Home networking products",
+      "selected": false,
+      "decision": "Not chosen editorially; future performance and corporate-action data were not evaluated."
+    },
+    {
+      "ticker": "DCLK",
+      "source_ids": ["wired-sep18"],
+      "attention_signal": "Internet advertising patent",
+      "selected": false,
+      "decision": "Not chosen editorially; future performance and corporate-action data were not evaluated."
+    }
+  ],
+  "rejected_for_data_quality": [],
+  "rejection_note": "No selected stock was rejected for data quality. Nonselected candidates were excluded editorially; no claim is made that their corporate actions would be easy to model."
+}

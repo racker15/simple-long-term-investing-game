@@ -1,0 +1,65 @@
+{
+  "scenario_id": "1999-09",
+  "sources": [
+    {
+      "id": "gao-y2k",
+      "source_name": "US GAO: Year 2000 Computing Challenge, T-AIMD-00-70",
+      "source_reference": "https://www.gao.gov/products/t-aimd-00-70",
+      "publication_date": "2000-01-27",
+      "observation_date": "2000-01-01",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated congressional testimony on limited rollover disruptions and preparation efforts. Does not imply no errors occurred."
+    },
+    {
+      "id": "nasdaq-retrospective",
+      "source_name": "CNNMoney: Three years of pain",
+      "source_reference": "https://money.cnn.com/2003/03/07/technology/nasdaq/index.htm",
+      "publication_date": "2003-03-07",
+      "observation_date": "2000-03-10",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Retrospective account identifies Nasdaq Composite closing peak on March 10, 2000 and subsequent technology bear market; index context only, not the US Total Market return source."
+    },
+    {
+      "id": "september-attacks",
+      "source_name": "CNNfn: US markets resume trading",
+      "source_reference": "https://money.cnn.com/2001/09/17/markets/bonds/",
+      "publication_date": "2001-09-17",
+      "observation_date": "2001-09-17",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporaneous report describes attacks in New York and Washington, four-day equity trading hiatus, reopening, and central-bank responses."
+    },
+    {
+      "id": "nber-peak",
+      "source_name": "NBER: Business Cycle Dating Committee announcement",
+      "source_reference": "https://www.nber.org/news/business-cycle-dating-committee-announcement-november-26-2001",
+      "publication_date": "2001-11-26",
+      "observation_date": "2001-03-31",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated announcement identifies March 2001 business-cycle peak. Event marker is announcement month, not an assertion investors knew the recession start in March."
+    },
+    {
+      "id": "nber-trough",
+      "source_name": "NBER: Business Cycle Dating Committee announcement",
+      "source_reference": "https://www.nber.org/news/business-cycle-dating-committee-announcement-july-17-2003",
+      "publication_date": "2003-07-17",
+      "observation_date": "2001-11-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated retrospective announcement identifies November 2001 trough and beginning of expansion; identification occurred well after the turning point."
+    },
+    {
+      "id": "fomc-jun04",
+      "source_name": "Federal Reserve: June 30, 2004 FOMC statement",
+      "source_reference": "https://www.federalreserve.gov/boarddocs/press/monetary/2004/20040630/",
+      "publication_date": "2004-06-30",
+      "observation_date": "2004-06-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Policy target raised from 1% to 1.25%; statement describes solid output expansion. Annotation supplies context, not a causal model of returns."
+    }
+  ]
+}

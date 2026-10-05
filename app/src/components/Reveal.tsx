@@ -9,11 +9,13 @@ export function Reveal({
   result,
   onNext,
   isLast,
+  continueLabel,
 }: {
   scenario: Scenario;
   result: ScenarioResult;
   onNext: () => void;
   isLast: boolean;
+  continueLabel?: string;
 }) {
   const [finished, setFinished] = useState(false);
   const finish = useCallback(() => setFinished(true), []);
@@ -94,7 +96,11 @@ export function Reveal({
             </p>
           </section>
           <section className="panel">
-            <h2>Major events during the fictional period</h2>
+            <h2>
+              {scenario.known.metadata.data_kind === 'historical'
+                ? 'Major events during the period'
+                : 'Major events during the fictional period'}
+            </h2>
             <p>
               These markers provide context; they do not imply simple market
               causality.
@@ -130,7 +136,8 @@ export function Reveal({
             ))}
           </section>
           <button onClick={onNext}>
-            {isLast ? 'View final scorecard' : 'Next scenario'}
+            {continueLabel ??
+              (isLast ? 'View final scorecard' : 'Next scenario')}
           </button>
         </>
       )}

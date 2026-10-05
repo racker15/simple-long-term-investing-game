@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "yahoo-msft",
+      "source_name": "Yahoo Finance historical adjusted close, public 2016 CSV snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/MSFT/history/",
+      "download_url": "https://raw.githubusercontent.com/rpandya1990/Stock-Prediction-Web-Application/df6002f3b04ef7fcd43aa84ce5cb1428bf98b5fd/Scripts/MSFT_His.csv",
+      "series_id": "MSFT",
+      "raw_path": "data/raw/stocks/MSFT.csv",
+      "sha256": "bd0df3696559f78727fc5bdfbb4a34ee9fafc1f388566dca30c0cc7025da62d6",
+      "retrieved_at": "2026-10-05",
+      "transformation": "Legacy Yahoo daily Adj Close through April 28, 2016; take last trading observation of each requested month, ratio adjacent adjusted prices minus one. Splits and cash dividends use Yahoo adjustments, with reinvestment approximation and six-decimal rounding. Provider chain is documented by Scripts/historical.py at the same pinned revision (Yahoo ichart table.csv plus Symbol column). No ticker change, merger, or spin-off mapping in this scenario. Not a contemporaneous database vintage. Raw payload excluded from redistribution."
+    },
+    {
+      "id": "yahoo-csco",
+      "source_name": "Yahoo Finance historical adjusted close, public 2016 CSV snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/CSCO/history/",
+      "download_url": "https://raw.githubusercontent.com/rpandya1990/Stock-Prediction-Web-Application/df6002f3b04ef7fcd43aa84ce5cb1428bf98b5fd/Scripts/CSCO_His.csv",
+      "series_id": "CSCO",
+      "raw_path": "data/raw/stocks/CSCO.csv",
+      "sha256": "ede150e95419d9f2dfb69ea036d987c1a7883eb8a6c29809e05b65be5f9d9e0d",
+      "retrieved_at": "2026-10-05",
+      "transformation": "Same pinned Yahoo provider chain and month-end adjusted-price ratio method as MSFT. Use split-adjusted prices; subsequent adjustment scaling cancels in historical ratios. No dividend during this scenario horizon. No successor or acquisition-cash mapping. Current reconstruction, not contemporaneous database vintage."
+    },
+    {
+      "id": "yahoo-amzn",
+      "source_name": "Yahoo Finance historical adjusted close, public 2016 CSV snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/AMZN/history/",
+      "download_url": "https://raw.githubusercontent.com/rpandya1990/Stock-Prediction-Web-Application/df6002f3b04ef7fcd43aa84ce5cb1428bf98b5fd/Scripts/AMZN_His.csv",
+      "series_id": "AMZN",
+      "raw_path": "data/raw/stocks/AMZN.csv",
+      "sha256": "ffb75da36559c6bfc28731d95ba6eebc95942a115fb6670f24aa5a7daa2e12c1",
+      "retrieved_at": "2026-10-05",
+      "transformation": "Same pinned Yahoo provider chain and month-end adjusted-price ratio method as MSFT. Split-adjusted prices, no cash dividend during this scenario horizon. The 2016 price scale predates the 2022 split; historical ratios are invariant to that later scale change. No successor or acquisition-cash mapping. Current reconstruction, not contemporaneous database vintage."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "note": "Public availability of the exact pinned mirror revisions, verified using GitHub commit metadata. These are archive publication dates, distinct from underlying market-observation availability modeled in starting provenance. Not claims about first publication of every underlying file.",
+  "publications": {
+    "french-us": {
+      "date": "2026-10-05",
+      "reference": "https://github.com/ethanteng/finsight/commit/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609"
+    },
+    "french-international": {
+      "date": "2026-10-05",
+      "reference": "https://github.com/ethanteng/finsight/commit/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609"
+    },
+    "fred-gs5": {
+      "date": "2026-09-21",
+      "reference": "https://github.com/BuyRisk/buyrisk.github.io/commit/c51c5c9592bf2de0758b7b2ed13a35930516fefa"
+    },
+    "yahoo-msft": {
+      "date": "2016-05-03",
+      "reference": "https://github.com/rpandya1990/Stock-Prediction-Web-Application/commit/df6002f3b04ef7fcd43aa84ce5cb1428bf98b5fd"
+    },
+    "yahoo-csco": {
+      "date": "2016-05-03",
+      "reference": "https://github.com/rpandya1990/Stock-Prediction-Web-Application/commit/df6002f3b04ef7fcd43aa84ce5cb1428bf98b5fd"
+    },
+    "yahoo-amzn": {
+      "date": "2016-05-03",
+      "reference": "https://github.com/rpandya1990/Stock-Prediction-Web-Application/commit/df6002f3b04ef7fcd43aa84ce5cb1428bf98b5fd"
+    }
+  }
+}

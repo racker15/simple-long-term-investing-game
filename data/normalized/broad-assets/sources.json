@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "french-us",
+      "source_name": "Kenneth French Data Library",
+      "canonical_url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html",
+      "download_url": "https://raw.githubusercontent.com/ethanteng/finsight/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609/src/datasets/F-F_Research_Data_Factors.csv",
+      "series_id": "F-F_Research_Data_Factors: Mkt-RF + RF; RF",
+      "raw_path": "data/raw/broad-assets/french-us.csv",
+      "sha256": "9ddf8f5b510f8730acca0fc3d899085d757c92378d7ea66b7c8d864354fa1209",
+      "retrieved_at": "2026-10-05",
+      "transformation": "Use the first monthly table; convert percent to decimal. US equity total return = (Mkt-RF + RF)/100. Cash = RF/100. No ETF replication is claimed. Current reconstructed history, not a 1999 data-library vintage. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository.",
+      "upstream_download_url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_Factors_CSV.zip"
+    },
+    {
+      "id": "french-international",
+      "source_name": "Kenneth French International Index Portfolios",
+      "canonical_url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/int_index_port_formed.html",
+      "download_url": "https://raw.githubusercontent.com/ethanteng/finsight/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609/src/datasets/F-F_International_Indices.dat",
+      "series_id": "International index: Major Markets market portfolio (USD, including dividends)",
+      "raw_path": "data/raw/broad-assets/french-international.dat",
+      "sha256": "047aab4e9ae512f3759fde34e8e49b8ff12a162fad4e8d36ec5b8c99b8d06266",
+      "retrieved_at": "2026-10-05",
+      "transformation": "EAFE + Canada country-weighted market portfolio, without US equity. Source coverage begins January 1975. Country coverage changes in source methodology; MSCI inputs through 2006 and Bloomberg from 2007. No project-level splice. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository.",
+      "upstream_download_url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_International_Indices.zip"
+    },
+    {
+      "id": "fred-gs5",
+      "source_name": "Federal Reserve H.15 via FRED",
+      "canonical_url": "https://fred.stlouisfed.org/series/GS5",
+      "download_url": "https://raw.githubusercontent.com/BuyRisk/buyrisk.github.io/c51c5c9592bf2de0758b7b2ed13a35930516fefa/data/sources/fred/GS5.csv",
+      "series_id": "GS5",
+      "raw_path": "data/raw/broad-assets/gs5.csv",
+      "sha256": "b03972bed533eeffebe1d9b54d7e52dc5a67b0119cc82ebd92d799fbc184c165",
+      "retrieved_at": "2026-10-05",
+      "transformation": "Monthly average five-year constant-maturity Treasury yield. Synthetic rolling five-year par bond: monthly coupons, flat yield curve, one coupon plus repriced 59 remaining monthly payments. No credit/spread exposure or bond-fund fees; not a broad aggregate index. Uses preceding month yield for coupon, current month yield for repricing. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository.",
+      "upstream_download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=GS5&cosd=1979-12-01&coed=2025-12-31"
+    }
+  ]
+}

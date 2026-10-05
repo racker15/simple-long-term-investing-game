@@ -2,7 +2,7 @@
 
 An educational static web application about making a five-year investing decision with only the information available at the starting date. Players allocate $10,000, predict one investment winner, lock the decision, and inspect the path and descriptive scorecards. Benchmark outperformance is a comparison, never a game score.
 
-**Current milestone: foundation plus one fictional end-to-end development fixture.** No historical research or real return data has been collected. All demo news, macro readings, companies, events, and returns are invented. The development UI repeats this single fixture to exercise 5/10/15/20-scenario sessions; production queues never allow duplicates.
+**Current milestone: public historical return pipelines plus the September 30, 1999 pilot.** Four broad-asset proxies have monthly coverage from January 1975 through December 2025. One sourced historical scenario contains three stocks and seven 60-month return histories. The default demo continues using the fictional fixture to exercise 5/10/15/20-scenario sessions; production queues never allow duplicates and cannot start with only one historical scenario.
 
 The product sources remain [investing-game-specification.md](investing-game-specification.md) and [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md).
 
@@ -17,13 +17,16 @@ npm run dev
 
 Open the Vite URL (normally `http://localhost:5173`). No account, server, API keys, database, or external runtime data service is required.
 
+During `npm run dev`, open `http://localhost:5173/?scenario=1999-09` for the isolated historical preview. It loads prepared historical outcomes only after investment, saves no session history, and is excluded from production builds. The normal `/` demo remains fictional.
+
 ```sh
 npm run format       # format implementation files; preserve the product source documents
 npm run typecheck
 npm test             # deterministic unit and server-rendered firewall tests
 npm run validate     # validate every committed scenario and recompute comparisons/winners
 npm run schemas      # regenerate committed JSON schemas from canonical contracts
-npm run check        # formatting + schema freshness + scenario validation + tests + build
+npm run data:check   # offline deterministic scenario rebuild and starting-lock checks
+npm run check        # formatting + schema/data freshness + validation + tests + build
 npm run build        # static output in dist/
 npm run preview      # serve that build locally
 ```
@@ -52,8 +55,11 @@ The CI workflow runs both `npm run check` and browser tests. Browser screenshots
 - `app/src/lib/results.ts`, `scorecards.ts`, `session.ts`: result construction, aggregation, and explicit decision/reveal/checkpoint/final transitions.
 - `app/src/components/`: starting scenario, allocation/prediction/confirmation, progressive SVG chart, outcome/reflection, checkpoint, and final scorecard components.
 - `app/src/data/fixture.ts`: validated fixture loader. `App.tsx` is the small React coordinator and local-storage adapter.
+- `app/src/data/historical.ts`: production manifest metadata, starting-context projection, and lazy static historical outcome loader.
 - `data/scenarios/dev-fictional/`: the one committed, clearly labeled fictional fixture.
-- `scripts/build/`: deterministic schema export and fictional fixture generator. `scripts/validate/`: collection validation and recomputation.
+- `data/scenarios/1999-09/`: the first historical scenario; `manifest.json` registers only real scenarios.
+- `data/normalized/`: canonical broad returns and adjusted stock histories, with pinned source manifests. `data/research/1999-09/`: editorial inputs, candidates, and the starting checksum lock.
+- `scripts/fetch/`, `scripts/normalize/`, `scripts/build/`: public-source retrieval, normalization, deterministic historical assembly, schema export, and fictional fixture generation. `scripts/validate/`: collection validation and recomputation.
 - `tests/`: hand-checkable math fixtures, invalid-data cases, seeded queues, scorecards, session transitions, information-firewall rendering, and browser journeys.
 
 The app uses React, Vite, and strict TypeScript, with ordinary component state. SVG supplies the small three-line chart and clickable event markers; no chart or state-management framework is needed. There is no backend. Ajv checks the same schemas used to derive TypeScript types.
@@ -85,6 +91,8 @@ All referenced pre-investment sources must have `publication_date <= scenario da
 
 This is a software/editorial invariant, not a security boundary. A static bundle is inspectable, and date checks cannot detect hindsight embedded in prose. Human editorial review and separately committed starting bundles remain necessary for real scenarios.
 
+The historical pilot distinguishes dated news/statistical releases from reconstructed market returns. The two `asof-*` provenance records explicitly model availability of underlying market observations through the cutoff; their dates are **not** publication dates of modern French/FRED/Yahoo archives. Separate archive records retain their later public snapshot dates. These proxy estimates are not exact 1999 database vintages. See [historical data methodology](docs/historical-data.md) for the source chain, limitations, and reproduction commands.
+
 ## Validation
 
 Structural schemas reject missing/unknown fields, invalid selection variants, incomplete random provenance, anything other than three hot stocks/seven playable assets/60 returns, malformed dates, non-finite numbers, and returns below −100%.
@@ -115,7 +123,7 @@ These fill in unspecified thresholds/conventions; they do not change the product
 4. **Concentration:** at least 50% of initial capital in any single investment, including Cash. It describes behavior without judging the choice.
 5. **Cohort statistics:** at least five results in a subgroup. Smaller groups return `null`, and the UI explains why the summary is withheld. The repeated fixture is explicitly unsuitable for historical inference even when this count is reached.
 6. **Queue precedence:** maximize unseen scenarios first, then minimize full-session cohort imbalance among feasible choices. When this priority or cohort shortages prevent balance, the queue degrades without duplicates. Balanced pools produce alternating 2/3 and 3/2 five-scenario blocks and randomized order, reproducibly from a seed. Source-library input order does not affect the output.
-7. **Foundation scope:** the requested domain-first vertical slice combines the plan's schema and game-loop milestones using dummy data. Real pipelines, random-date drawing, production library loading, polished design, and lifetime history remain later work.
+7. **Milestone scope:** the foundation and one historical pilot are implemented. The random-date protocol, qualified multi-scenario library, polished design, and lifetime history remain later work.
 
 Scorecards use the same aggregation primitive for blocks, overall results, and sufficiently large cohort groups. They show average allocations, concentration count/frequency, prediction hits/bottom-three finishes, leader reversals, average player/benchmark values, strict benchmark-beating counts (ties do not beat), 20%+ drawdown count, and largest drawdown. Final cards add median ending value, prediction hit rate, reversal frequency, and every completed five-result block. Ending values summarize independent $10,000 scenarios; they are not sequential wealth accumulation. No overall score, grade, points, or leaderboard is calculated.
 
@@ -133,4 +141,4 @@ The dummy files can be reproduced with `node --import tsx scripts/build/dummy-fi
 
 ## Next milestone
 
-Build the reproducible public-data pipeline for Cash, Bonds, US Total Market, and International ex-US, then assemble the first real scenario against these contracts. Define the random-date protocol before selecting the random pilot scenarios. Do not scale to 24/50 scenarios until sourcing, normalization, and editorial qualification are demonstrated.
+Define and record the random-date protocol before drawing any random pilot dates. Then qualify six historical scenarios: three important-date and three random-date scenarios, applying the same starting-context lock, sourcing, return checks, and player review. Do not scale to 24/50 scenarios until that qualification is complete. This milestone has not begun that draw or library expansion.

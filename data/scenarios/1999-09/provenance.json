@@ -1,0 +1,303 @@
+{
+  "scenario_id": "1999-09",
+  "sources": [
+    {
+      "id": "bls-cpi-aug",
+      "source_name": "BLS: CPI August 1999 release",
+      "source_reference": "https://www.bls.gov/news.release/history/cpi_09151999.txt",
+      "publication_date": "1999-09-15",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original release, CPI-U all items, unadjusted 12-month change 2.3%. September CPI was released after cutoff and is excluded.",
+      "observation_date": "1999-08-31"
+    },
+    {
+      "id": "bls-jobs-aug",
+      "source_name": "BLS: Employment Situation August 1999",
+      "source_reference": "https://www.bls.gov/news.release/history/empsit_09031999.txt",
+      "publication_date": "1999-09-03",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original release, seasonally adjusted civilian unemployment rate 4.2%. September employment report is excluded.",
+      "observation_date": "1999-08-31"
+    },
+    {
+      "id": "fomc-aug",
+      "source_name": "Federal Reserve FOMC announcement",
+      "source_reference": "https://www.federalreserve.gov/boarddocs/press/general/1999/19990824/",
+      "publication_date": "1999-08-24",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Federal funds target raised 25 basis points to 5.25%; policy rate, not monthly effective-rate average.",
+      "observation_date": "1999-08-24"
+    },
+    {
+      "id": "h15-sep27",
+      "source_name": "Federal Reserve H.15 release",
+      "source_reference": "https://www.federalreserve.gov/releases/h15/19990927/",
+      "publication_date": "1999-09-27",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Ten-year constant-maturity Treasury yield, weekly average ending September 24: 5.88%. Use this dated release instead of a retrospectively downloaded September monthly average.",
+      "observation_date": "1999-09-24"
+    },
+    {
+      "id": "confidence-sep",
+      "source_name": "AP via CBS: September consumer confidence",
+      "source_reference": "https://www.cbsnews.com/news/big-ticket-orders-rise-in-aug/",
+      "publication_date": "1999-09-29",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "September Conference Board survey, 1985=100. AP reports the release issued the previous day. Survey observation is represented by release day, not calendar month-end.",
+      "observation_date": "1999-09-28"
+    },
+    {
+      "id": "spf-q2-summary",
+      "source_name": "University of Wisconsin Internet Scout: Philadelphia Fed SPF Q2 summary",
+      "source_reference": "https://scout.wisc.edu/report/be/1999/0826",
+      "publication_date": "1999-08-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Secondary contemporary summary explicitly says the Q2 SPF survey of 37 forecasters estimated up to 3.9 percent growth in 1999. Older survey; not a Q3 median, annualized quarter forecast, or recession probability. Original report: https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/1999/spfq299.pdf?la=en. Primary PDF could not be inspected under current network policy, so this narrower secondary wording is preserved."
+    },
+    {
+      "id": "msft-antitrust",
+      "source_name": "CNNfn: Microsoft trial closing arguments",
+      "source_reference": "https://money.cnn.com/1999/09/21/technology/microsoft/",
+      "publication_date": "1999-09-21",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporaneous public archive. Short factual summary; no article text redistributed."
+    },
+    {
+      "id": "cisco-optical",
+      "source_name": "Cisco announcement: Cerent and Monterey agreements",
+      "source_reference": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y1999/m08/cisco-systems-to-acquire-cerent-corporation-and-monterey-networks-for-combined-7-4-billion.html",
+      "publication_date": "1999-08-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporaneous public archive. Short factual summary; no article text redistributed."
+    },
+    {
+      "id": "amazon-zshops",
+      "source_name": "Amazon public press release: zShops",
+      "source_reference": "https://press.aboutamazon.com/1999/9/amazon-com-launches-three-innovations-to-advance-e-commerce-for-shoppers-sellers",
+      "publication_date": "1999-09-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Page header says September 29, but release dateline says September 30. Conservatively use September 30; both precede or equal cutoff. Company description reflects its retail and merchant services then."
+    },
+    {
+      "id": "wired-sep11",
+      "source_name": "WIRED: weekly news digest, September 11",
+      "source_reference": "https://www.wired.com/1999/09/wired-news-week-3/",
+      "publication_date": "1999-09-11",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporaneous public archive. Short factual summary; no article text redistributed."
+    },
+    {
+      "id": "wired-sep18",
+      "source_name": "WIRED: weekly news digest, September 18",
+      "source_reference": "https://www.wired.com/1999/09/the-wired-news-week-32/",
+      "publication_date": "1999-09-18",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporaneous public archive. Short factual summary; no article text redistributed."
+    },
+    {
+      "id": "wired-sep4",
+      "source_name": "WIRED: weekly news digest, September 4",
+      "source_reference": "https://www.wired.com/1999/09/wired-news-week-2/",
+      "publication_date": "1999-09-04",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporaneous public archive. Short factual summary; no article text redistributed."
+    },
+    {
+      "id": "timor-refugees",
+      "source_name": "Inter Press Service: East Timor refugee crisis",
+      "source_reference": "https://www.ipsnews.net/1999/09/east-timor-refugee-crisis-militia-activity-far-from-over/",
+      "publication_date": "1999-09-22",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporaneous public archive. Short factual summary; no article text redistributed."
+    },
+    {
+      "id": "floyd",
+      "source_name": "AP via CBS: Floyd on Virginia coast",
+      "source_reference": "https://www.cbsnews.com/news/floyd-batters-virginia-coast/",
+      "publication_date": "1999-09-16",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporaneous public archive. Short factual summary; no article text redistributed."
+    },
+    {
+      "id": "serena",
+      "source_name": "AP via CBS: US Open championship",
+      "source_reference": "https://www.cbsnews.com/news/serena-wins-us-open-title/",
+      "publication_date": "1999-09-11",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporaneous public archive. Short factual summary; no article text redistributed."
+    },
+    {
+      "id": "dreamcast",
+      "source_name": "WIRED: Dreamcast launch",
+      "source_reference": "https://www.wired.com/1999/09/dreamcast-rocks-around-the-clock/",
+      "publication_date": "1999-09-09",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporaneous public archive. Short factual summary; no article text redistributed."
+    },
+    {
+      "id": "intel-network",
+      "source_name": "CNNfn: Intel communications initiative",
+      "source_reference": "https://money.cnn.com/1999/09/01/technology/intel/",
+      "publication_date": "1999-09-01",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporaneous public archive. Short factual summary; no article text redistributed."
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Month-end observable market inputs: reconstructed broad proxies",
+      "source_reference": "data/normalized/broad-assets/sources.json; https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html; https://www.federalreserve.gov/releases/h15/19990927/",
+      "publication_date": "1999-09-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Modeled availability date for underlying prices, dividends, and daily Treasury yields through the cutoff close. NOT the publication date of the French/FRED archives or these calculated proxy returns. Current reconstructed French history (US/RF 2026, international 2025) and GS5 history are used for consistent trailing/future estimates. Month-end aggregates and synthetic bond values are approximations available conceptually from then-observable inputs; exact 1999 vintage replication is not claimed. Actual snapshots, retrieval URLs, SHA256s and transformations are in the referenced manifest. No future observations enter trailing compounding.",
+      "observation_date": "1999-09-30"
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Month-end observable stock prices: reconstructed adjusted-return estimates",
+      "source_reference": "data/normalized/stocks/sources.json; https://finance.yahoo.com/",
+      "publication_date": "1999-09-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Modeled availability date for underlying daily closes and then-effective splits/dividends through cutoff; NOT the publication date of the 2016 Yahoo CSV snapshot. Ratios of retrospectively adjusted closes estimate then-observable total returns; later common scale adjustments cancel in ratios. Actual snapshot date, revision-pinned public mirror, raw SHA256s and provider chain are separately recorded. No future monthly return calculation occurs in the starting build. Six-decimal source rounding is retained.",
+      "observation_date": "1999-09-30"
+    },
+    {
+      "id": "french-us",
+      "source_name": "Kenneth French Data Library",
+      "source_reference": "https://raw.githubusercontent.com/ethanteng/finsight/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609/src/datasets/F-F_Research_Data_Factors.csv",
+      "observation_date": "2004-09-30",
+      "publication_date": "2026-10-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/ethanteng/finsight/commit/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609), not original market reporting or first dataset publication. Canonical source: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html. Series: F-F_Research_Data_Factors: Mkt-RF + RF; RF. Raw SHA256: 9ddf8f5b510f8730acca0fc3d899085d757c92378d7ea66b7c8d864354fa1209. Use the first monthly table; convert percent to decimal. US equity total return = (Mkt-RF + RF)/100. Cash = RF/100. No ETF replication is claimed. Current reconstructed history, not a 1999 data-library vintage. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "french-international",
+      "source_name": "Kenneth French International Index Portfolios",
+      "source_reference": "https://raw.githubusercontent.com/ethanteng/finsight/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609/src/datasets/F-F_International_Indices.dat",
+      "observation_date": "2004-09-30",
+      "publication_date": "2026-10-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/ethanteng/finsight/commit/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609), not original market reporting or first dataset publication. Canonical source: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/int_index_port_formed.html. Series: International index: Major Markets market portfolio (USD, including dividends). Raw SHA256: 047aab4e9ae512f3759fde34e8e49b8ff12a162fad4e8d36ec5b8c99b8d06266. EAFE + Canada country-weighted market portfolio, without US equity. Source coverage begins January 1975. Country coverage changes in source methodology; MSCI inputs through 2006 and Bloomberg from 2007. No project-level splice. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "fred-gs5",
+      "source_name": "Federal Reserve H.15 via FRED",
+      "source_reference": "https://raw.githubusercontent.com/BuyRisk/buyrisk.github.io/c51c5c9592bf2de0758b7b2ed13a35930516fefa/data/sources/fred/GS5.csv",
+      "observation_date": "2004-09-30",
+      "publication_date": "2026-09-21",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/BuyRisk/buyrisk.github.io/commit/c51c5c9592bf2de0758b7b2ed13a35930516fefa), not original market reporting or first dataset publication. Canonical source: https://fred.stlouisfed.org/series/GS5. Series: GS5. Raw SHA256: b03972bed533eeffebe1d9b54d7e52dc5a67b0119cc82ebd92d799fbc184c165. Monthly average five-year constant-maturity Treasury yield. Synthetic rolling five-year par bond: monthly coupons, flat yield curve, one coupon plus repriced 59 remaining monthly payments. No credit/spread exposure or bond-fund fees; not a broad aggregate index. Uses preceding month yield for coupon, current month yield for repricing. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "yahoo-msft",
+      "source_name": "Yahoo Finance historical adjusted close, public 2016 CSV snapshot",
+      "source_reference": "https://raw.githubusercontent.com/rpandya1990/Stock-Prediction-Web-Application/df6002f3b04ef7fcd43aa84ce5cb1428bf98b5fd/Scripts/MSFT_His.csv",
+      "observation_date": "2004-09-30",
+      "publication_date": "2016-05-03",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/rpandya1990/Stock-Prediction-Web-Application/commit/df6002f3b04ef7fcd43aa84ce5cb1428bf98b5fd), not original market reporting or first dataset publication. Canonical source: https://finance.yahoo.com/quote/MSFT/history/. Series: MSFT. Raw SHA256: bd0df3696559f78727fc5bdfbb4a34ee9fafc1f388566dca30c0cc7025da62d6. Legacy Yahoo daily Adj Close through April 28, 2016; take last trading observation of each requested month, ratio adjacent adjusted prices minus one. Splits and cash dividends use Yahoo adjustments, with reinvestment approximation and six-decimal rounding. Provider chain is documented by Scripts/historical.py at the same pinned revision (Yahoo ichart table.csv plus Symbol column). No ticker change, merger, or spin-off mapping in this scenario. Not a contemporaneous database vintage. Raw payload excluded from redistribution."
+    },
+    {
+      "id": "yahoo-csco",
+      "source_name": "Yahoo Finance historical adjusted close, public 2016 CSV snapshot",
+      "source_reference": "https://raw.githubusercontent.com/rpandya1990/Stock-Prediction-Web-Application/df6002f3b04ef7fcd43aa84ce5cb1428bf98b5fd/Scripts/CSCO_His.csv",
+      "observation_date": "2004-09-30",
+      "publication_date": "2016-05-03",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/rpandya1990/Stock-Prediction-Web-Application/commit/df6002f3b04ef7fcd43aa84ce5cb1428bf98b5fd), not original market reporting or first dataset publication. Canonical source: https://finance.yahoo.com/quote/CSCO/history/. Series: CSCO. Raw SHA256: ede150e95419d9f2dfb69ea036d987c1a7883eb8a6c29809e05b65be5f9d9e0d. Same pinned Yahoo provider chain and month-end adjusted-price ratio method as MSFT. Use split-adjusted prices; subsequent adjustment scaling cancels in historical ratios. No dividend during this scenario horizon. No successor or acquisition-cash mapping. Current reconstruction, not contemporaneous database vintage."
+    },
+    {
+      "id": "yahoo-amzn",
+      "source_name": "Yahoo Finance historical adjusted close, public 2016 CSV snapshot",
+      "source_reference": "https://raw.githubusercontent.com/rpandya1990/Stock-Prediction-Web-Application/df6002f3b04ef7fcd43aa84ce5cb1428bf98b5fd/Scripts/AMZN_His.csv",
+      "observation_date": "2004-09-30",
+      "publication_date": "2016-05-03",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/rpandya1990/Stock-Prediction-Web-Application/commit/df6002f3b04ef7fcd43aa84ce5cb1428bf98b5fd), not original market reporting or first dataset publication. Canonical source: https://finance.yahoo.com/quote/AMZN/history/. Series: AMZN. Raw SHA256: ffb75da36559c6bfc28731d95ba6eebc95942a115fb6670f24aa5a7daa2e12c1. Same pinned Yahoo provider chain and month-end adjusted-price ratio method as MSFT. Split-adjusted prices, no cash dividend during this scenario horizon. The 2016 price scale predates the 2022 split; historical ratios are invariant to that later scale change. No successor or acquisition-cash mapping. Current reconstruction, not contemporaneous database vintage."
+    },
+    {
+      "id": "gao-y2k",
+      "source_name": "US GAO: Year 2000 Computing Challenge, T-AIMD-00-70",
+      "source_reference": "https://www.gao.gov/products/t-aimd-00-70",
+      "publication_date": "2000-01-27",
+      "observation_date": "2000-01-01",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated congressional testimony on limited rollover disruptions and preparation efforts. Does not imply no errors occurred."
+    },
+    {
+      "id": "nasdaq-retrospective",
+      "source_name": "CNNMoney: Three years of pain",
+      "source_reference": "https://money.cnn.com/2003/03/07/technology/nasdaq/index.htm",
+      "publication_date": "2003-03-07",
+      "observation_date": "2000-03-10",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Retrospective account identifies Nasdaq Composite closing peak on March 10, 2000 and subsequent technology bear market; index context only, not the US Total Market return source."
+    },
+    {
+      "id": "september-attacks",
+      "source_name": "CNNfn: US markets resume trading",
+      "source_reference": "https://money.cnn.com/2001/09/17/markets/bonds/",
+      "publication_date": "2001-09-17",
+      "observation_date": "2001-09-17",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporaneous report describes attacks in New York and Washington, four-day equity trading hiatus, reopening, and central-bank responses."
+    },
+    {
+      "id": "nber-peak",
+      "source_name": "NBER: Business Cycle Dating Committee announcement",
+      "source_reference": "https://www.nber.org/news/business-cycle-dating-committee-announcement-november-26-2001",
+      "publication_date": "2001-11-26",
+      "observation_date": "2001-03-31",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated announcement identifies March 2001 business-cycle peak. Event marker is announcement month, not an assertion investors knew the recession start in March."
+    },
+    {
+      "id": "nber-trough",
+      "source_name": "NBER: Business Cycle Dating Committee announcement",
+      "source_reference": "https://www.nber.org/news/business-cycle-dating-committee-announcement-july-17-2003",
+      "publication_date": "2003-07-17",
+      "observation_date": "2001-11-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated retrospective announcement identifies November 2001 trough and beginning of expansion; identification occurred well after the turning point."
+    },
+    {
+      "id": "fomc-jun04",
+      "source_name": "Federal Reserve: June 30, 2004 FOMC statement",
+      "source_reference": "https://www.federalreserve.gov/boarddocs/press/monetary/2004/20040630/",
+      "publication_date": "2004-06-30",
+      "observation_date": "2004-06-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Policy target raised from 1% to 1.25%; statement describes solid output expansion. Annotation supplies context, not a causal model of returns."
+    }
+  ]
+}
