@@ -1,0 +1,25 @@
+{
+  "scenario_id": "dev-fictional",
+  "sources": [
+    {
+      "id": "fictional-start",
+      "source_name": "Fictional fixture author",
+      "source_reference": "repository:scripts/build/dummy-fixture.ts#known",
+      "observation_date": "2000-01-01",
+      "publication_date": "2000-01-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "All dates and facts invented. Publication date models the cutoff for tests; no real publication exists."
+    },
+    {
+      "id": "fictional-outcomes",
+      "source_name": "Synthetic return generator",
+      "source_reference": "repository:scripts/build/dummy-fixture.ts#monthlyReturn",
+      "observation_date": "2005-01-31",
+      "publication_date": "2005-02-01",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Invented deterministic monthly returns, events and reflection. Not historical data."
+    }
+  ]
+}

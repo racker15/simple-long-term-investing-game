@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "type": "object",
+  "required": [
+    "scenario_id",
+    "selection_mode",
+    "allocations",
+    "expected_winner",
+    "asset_ending_values",
+    "year_one_leader",
+    "ending_portfolio_value",
+    "ending_benchmark_value",
+    "max_drawdown"
+  ],
+  "properties": {
+    "scenario_id": { "minLength": 1, "type": "string" },
+    "selection_mode": {
+      "anyOf": [
+        { "const": "important", "type": "string" },
+        { "const": "random", "type": "string" }
+      ]
+    },
+    "allocations": {
+      "additionalProperties": false,
+      "minProperties": 7,
+      "maxProperties": 7,
+      "type": "object",
+      "patternProperties": {
+        "^(cash|bonds|us_total|international_ex_us|hot:[a-z0-9-]+:[a-z0-9-]+)$": {
+          "minimum": 0,
+          "maximum": 10000,
+          "multipleOf": 500,
+          "type": "integer"
+        }
+      }
+    },
+    "expected_winner": {
+      "anyOf": [
+        { "const": "cash", "type": "string" },
+        { "const": "bonds", "type": "string" },
+        { "const": "us_total", "type": "string" },
+        { "const": "international_ex_us", "type": "string" },
+        { "pattern": "^hot:[a-z0-9-]+:[a-z0-9-]+$", "type": "string" }
+      ]
+    },
+    "asset_ending_values": {
+      "additionalProperties": false,
+      "minProperties": 7,
+      "maxProperties": 7,
+      "type": "object",
+      "patternProperties": {
+        "^(cash|bonds|us_total|international_ex_us|hot:[a-z0-9-]+:[a-z0-9-]+)$": {
+          "minimum": 0,
+          "type": "number"
+        }
+      }
+    },
+    "year_one_leader": {
+      "anyOf": [
+        { "const": "cash", "type": "string" },
+        { "const": "bonds", "type": "string" },
+        { "const": "us_total", "type": "string" },
+        { "const": "international_ex_us", "type": "string" },
+        { "pattern": "^hot:[a-z0-9-]+:[a-z0-9-]+$", "type": "string" }
+      ]
+    },
+    "ending_portfolio_value": { "minimum": 0, "type": "number" },
+    "ending_benchmark_value": { "minimum": 0, "type": "number" },
+    "max_drawdown": { "minimum": 0, "maximum": 1, "type": "number" }
+  }
+}

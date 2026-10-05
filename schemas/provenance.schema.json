@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "type": "object",
+  "required": ["scenario_id", "sources"],
+  "properties": {
+    "scenario_id": { "minLength": 1, "type": "string" },
+    "sources": {
+      "minItems": 1,
+      "type": "array",
+      "items": {
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "source_name",
+          "source_reference",
+          "publication_date",
+          "retrieved_at",
+          "approximation",
+          "notes"
+        ],
+        "properties": {
+          "id": { "minLength": 1, "type": "string" },
+          "source_name": { "minLength": 1, "type": "string" },
+          "source_reference": { "minLength": 1, "type": "string" },
+          "observation_date": { "format": "date", "type": "string" },
+          "publication_date": { "format": "date", "type": "string" },
+          "retrieved_at": { "format": "date", "type": "string" },
+          "approximation": { "type": "boolean" },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}

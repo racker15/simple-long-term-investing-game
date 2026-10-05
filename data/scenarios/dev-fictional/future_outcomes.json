@@ -1,0 +1,1745 @@
+{
+  "scenario_id": "dev-fictional",
+  "monthly_returns": {
+    "cash": [
+      {
+        "month": "2000-02",
+        "return": 0.002
+      },
+      {
+        "month": "2000-03",
+        "return": 0.002
+      },
+      {
+        "month": "2000-04",
+        "return": 0.002
+      },
+      {
+        "month": "2000-05",
+        "return": 0.002
+      },
+      {
+        "month": "2000-06",
+        "return": 0.002
+      },
+      {
+        "month": "2000-07",
+        "return": 0.002
+      },
+      {
+        "month": "2000-08",
+        "return": 0.002
+      },
+      {
+        "month": "2000-09",
+        "return": 0.002
+      },
+      {
+        "month": "2000-10",
+        "return": 0.002
+      },
+      {
+        "month": "2000-11",
+        "return": 0.002
+      },
+      {
+        "month": "2000-12",
+        "return": 0.002
+      },
+      {
+        "month": "2001-01",
+        "return": 0.002
+      },
+      {
+        "month": "2001-02",
+        "return": 0.002
+      },
+      {
+        "month": "2001-03",
+        "return": 0.002
+      },
+      {
+        "month": "2001-04",
+        "return": 0.002
+      },
+      {
+        "month": "2001-05",
+        "return": 0.002
+      },
+      {
+        "month": "2001-06",
+        "return": 0.002
+      },
+      {
+        "month": "2001-07",
+        "return": 0.002
+      },
+      {
+        "month": "2001-08",
+        "return": 0.002
+      },
+      {
+        "month": "2001-09",
+        "return": 0.002
+      },
+      {
+        "month": "2001-10",
+        "return": 0.002
+      },
+      {
+        "month": "2001-11",
+        "return": 0.002
+      },
+      {
+        "month": "2001-12",
+        "return": 0.002
+      },
+      {
+        "month": "2002-01",
+        "return": 0.002
+      },
+      {
+        "month": "2002-02",
+        "return": 0.002
+      },
+      {
+        "month": "2002-03",
+        "return": 0.002
+      },
+      {
+        "month": "2002-04",
+        "return": 0.002
+      },
+      {
+        "month": "2002-05",
+        "return": 0.002
+      },
+      {
+        "month": "2002-06",
+        "return": 0.002
+      },
+      {
+        "month": "2002-07",
+        "return": 0.002
+      },
+      {
+        "month": "2002-08",
+        "return": 0.002
+      },
+      {
+        "month": "2002-09",
+        "return": 0.002
+      },
+      {
+        "month": "2002-10",
+        "return": 0.002
+      },
+      {
+        "month": "2002-11",
+        "return": 0.002
+      },
+      {
+        "month": "2002-12",
+        "return": 0.002
+      },
+      {
+        "month": "2003-01",
+        "return": 0.002
+      },
+      {
+        "month": "2003-02",
+        "return": 0.002
+      },
+      {
+        "month": "2003-03",
+        "return": 0.002
+      },
+      {
+        "month": "2003-04",
+        "return": 0.002
+      },
+      {
+        "month": "2003-05",
+        "return": 0.002
+      },
+      {
+        "month": "2003-06",
+        "return": 0.002
+      },
+      {
+        "month": "2003-07",
+        "return": 0.002
+      },
+      {
+        "month": "2003-08",
+        "return": 0.002
+      },
+      {
+        "month": "2003-09",
+        "return": 0.002
+      },
+      {
+        "month": "2003-10",
+        "return": 0.002
+      },
+      {
+        "month": "2003-11",
+        "return": 0.002
+      },
+      {
+        "month": "2003-12",
+        "return": 0.002
+      },
+      {
+        "month": "2004-01",
+        "return": 0.002
+      },
+      {
+        "month": "2004-02",
+        "return": 0.002
+      },
+      {
+        "month": "2004-03",
+        "return": 0.002
+      },
+      {
+        "month": "2004-04",
+        "return": 0.002
+      },
+      {
+        "month": "2004-05",
+        "return": 0.002
+      },
+      {
+        "month": "2004-06",
+        "return": 0.002
+      },
+      {
+        "month": "2004-07",
+        "return": 0.002
+      },
+      {
+        "month": "2004-08",
+        "return": 0.002
+      },
+      {
+        "month": "2004-09",
+        "return": 0.002
+      },
+      {
+        "month": "2004-10",
+        "return": 0.002
+      },
+      {
+        "month": "2004-11",
+        "return": 0.002
+      },
+      {
+        "month": "2004-12",
+        "return": 0.002
+      },
+      {
+        "month": "2005-01",
+        "return": 0.002
+      }
+    ],
+    "bonds": [
+      {
+        "month": "2000-02",
+        "return": 0.003
+      },
+      {
+        "month": "2000-03",
+        "return": 0.003
+      },
+      {
+        "month": "2000-04",
+        "return": 0.003
+      },
+      {
+        "month": "2000-05",
+        "return": 0.003
+      },
+      {
+        "month": "2000-06",
+        "return": 0.003
+      },
+      {
+        "month": "2000-07",
+        "return": 0.003
+      },
+      {
+        "month": "2000-08",
+        "return": 0.003
+      },
+      {
+        "month": "2000-09",
+        "return": 0.003
+      },
+      {
+        "month": "2000-10",
+        "return": 0.003
+      },
+      {
+        "month": "2000-11",
+        "return": 0.003
+      },
+      {
+        "month": "2000-12",
+        "return": 0.003
+      },
+      {
+        "month": "2001-01",
+        "return": 0.003
+      },
+      {
+        "month": "2001-02",
+        "return": 0.003
+      },
+      {
+        "month": "2001-03",
+        "return": 0.003
+      },
+      {
+        "month": "2001-04",
+        "return": 0.003
+      },
+      {
+        "month": "2001-05",
+        "return": 0.003
+      },
+      {
+        "month": "2001-06",
+        "return": 0.003
+      },
+      {
+        "month": "2001-07",
+        "return": -0.01
+      },
+      {
+        "month": "2001-08",
+        "return": -0.01
+      },
+      {
+        "month": "2001-09",
+        "return": -0.01
+      },
+      {
+        "month": "2001-10",
+        "return": -0.01
+      },
+      {
+        "month": "2001-11",
+        "return": -0.01
+      },
+      {
+        "month": "2001-12",
+        "return": 0.003
+      },
+      {
+        "month": "2002-01",
+        "return": 0.003
+      },
+      {
+        "month": "2002-02",
+        "return": 0.003
+      },
+      {
+        "month": "2002-03",
+        "return": 0.003
+      },
+      {
+        "month": "2002-04",
+        "return": 0.003
+      },
+      {
+        "month": "2002-05",
+        "return": 0.003
+      },
+      {
+        "month": "2002-06",
+        "return": 0.003
+      },
+      {
+        "month": "2002-07",
+        "return": 0.003
+      },
+      {
+        "month": "2002-08",
+        "return": 0.003
+      },
+      {
+        "month": "2002-09",
+        "return": 0.003
+      },
+      {
+        "month": "2002-10",
+        "return": 0.003
+      },
+      {
+        "month": "2002-11",
+        "return": 0.003
+      },
+      {
+        "month": "2002-12",
+        "return": 0.003
+      },
+      {
+        "month": "2003-01",
+        "return": 0.003
+      },
+      {
+        "month": "2003-02",
+        "return": 0.003
+      },
+      {
+        "month": "2003-03",
+        "return": 0.003
+      },
+      {
+        "month": "2003-04",
+        "return": 0.003
+      },
+      {
+        "month": "2003-05",
+        "return": 0.003
+      },
+      {
+        "month": "2003-06",
+        "return": 0.003
+      },
+      {
+        "month": "2003-07",
+        "return": 0.003
+      },
+      {
+        "month": "2003-08",
+        "return": 0.003
+      },
+      {
+        "month": "2003-09",
+        "return": 0.003
+      },
+      {
+        "month": "2003-10",
+        "return": 0.003
+      },
+      {
+        "month": "2003-11",
+        "return": 0.003
+      },
+      {
+        "month": "2003-12",
+        "return": 0.003
+      },
+      {
+        "month": "2004-01",
+        "return": 0.003
+      },
+      {
+        "month": "2004-02",
+        "return": 0.003
+      },
+      {
+        "month": "2004-03",
+        "return": 0.003
+      },
+      {
+        "month": "2004-04",
+        "return": 0.003
+      },
+      {
+        "month": "2004-05",
+        "return": 0.003
+      },
+      {
+        "month": "2004-06",
+        "return": 0.003
+      },
+      {
+        "month": "2004-07",
+        "return": 0.003
+      },
+      {
+        "month": "2004-08",
+        "return": 0.003
+      },
+      {
+        "month": "2004-09",
+        "return": 0.003
+      },
+      {
+        "month": "2004-10",
+        "return": 0.003
+      },
+      {
+        "month": "2004-11",
+        "return": 0.003
+      },
+      {
+        "month": "2004-12",
+        "return": 0.003
+      },
+      {
+        "month": "2005-01",
+        "return": 0.003
+      }
+    ],
+    "us_total": [
+      {
+        "month": "2000-02",
+        "return": 0.009
+      },
+      {
+        "month": "2000-03",
+        "return": 0.009
+      },
+      {
+        "month": "2000-04",
+        "return": 0.009
+      },
+      {
+        "month": "2000-05",
+        "return": 0.009
+      },
+      {
+        "month": "2000-06",
+        "return": 0.009
+      },
+      {
+        "month": "2000-07",
+        "return": 0.009
+      },
+      {
+        "month": "2000-08",
+        "return": 0.009
+      },
+      {
+        "month": "2000-09",
+        "return": 0.009
+      },
+      {
+        "month": "2000-10",
+        "return": 0.009
+      },
+      {
+        "month": "2000-11",
+        "return": 0.009
+      },
+      {
+        "month": "2000-12",
+        "return": 0.009
+      },
+      {
+        "month": "2001-01",
+        "return": 0.009
+      },
+      {
+        "month": "2001-02",
+        "return": 0.009
+      },
+      {
+        "month": "2001-03",
+        "return": 0.009
+      },
+      {
+        "month": "2001-04",
+        "return": 0.009
+      },
+      {
+        "month": "2001-05",
+        "return": 0.009
+      },
+      {
+        "month": "2001-06",
+        "return": 0.009
+      },
+      {
+        "month": "2001-07",
+        "return": -0.09
+      },
+      {
+        "month": "2001-08",
+        "return": -0.09
+      },
+      {
+        "month": "2001-09",
+        "return": -0.09
+      },
+      {
+        "month": "2001-10",
+        "return": -0.09
+      },
+      {
+        "month": "2001-11",
+        "return": -0.09
+      },
+      {
+        "month": "2001-12",
+        "return": 0.009
+      },
+      {
+        "month": "2002-01",
+        "return": 0.009
+      },
+      {
+        "month": "2002-02",
+        "return": 0.009
+      },
+      {
+        "month": "2002-03",
+        "return": 0.009
+      },
+      {
+        "month": "2002-04",
+        "return": 0.009
+      },
+      {
+        "month": "2002-05",
+        "return": 0.009
+      },
+      {
+        "month": "2002-06",
+        "return": 0.009
+      },
+      {
+        "month": "2002-07",
+        "return": 0.009
+      },
+      {
+        "month": "2002-08",
+        "return": 0.009
+      },
+      {
+        "month": "2002-09",
+        "return": 0.009
+      },
+      {
+        "month": "2002-10",
+        "return": 0.009
+      },
+      {
+        "month": "2002-11",
+        "return": 0.009
+      },
+      {
+        "month": "2002-12",
+        "return": 0.009
+      },
+      {
+        "month": "2003-01",
+        "return": 0.009
+      },
+      {
+        "month": "2003-02",
+        "return": 0.009
+      },
+      {
+        "month": "2003-03",
+        "return": 0.009
+      },
+      {
+        "month": "2003-04",
+        "return": 0.009
+      },
+      {
+        "month": "2003-05",
+        "return": 0.009
+      },
+      {
+        "month": "2003-06",
+        "return": 0.009
+      },
+      {
+        "month": "2003-07",
+        "return": 0.009
+      },
+      {
+        "month": "2003-08",
+        "return": 0.009
+      },
+      {
+        "month": "2003-09",
+        "return": 0.009
+      },
+      {
+        "month": "2003-10",
+        "return": 0.009
+      },
+      {
+        "month": "2003-11",
+        "return": 0.009
+      },
+      {
+        "month": "2003-12",
+        "return": 0.009
+      },
+      {
+        "month": "2004-01",
+        "return": 0.009
+      },
+      {
+        "month": "2004-02",
+        "return": 0.009
+      },
+      {
+        "month": "2004-03",
+        "return": 0.009
+      },
+      {
+        "month": "2004-04",
+        "return": 0.009
+      },
+      {
+        "month": "2004-05",
+        "return": 0.009
+      },
+      {
+        "month": "2004-06",
+        "return": 0.009
+      },
+      {
+        "month": "2004-07",
+        "return": 0.009
+      },
+      {
+        "month": "2004-08",
+        "return": 0.009
+      },
+      {
+        "month": "2004-09",
+        "return": 0.009
+      },
+      {
+        "month": "2004-10",
+        "return": 0.009
+      },
+      {
+        "month": "2004-11",
+        "return": 0.009
+      },
+      {
+        "month": "2004-12",
+        "return": 0.009
+      },
+      {
+        "month": "2005-01",
+        "return": 0.009
+      }
+    ],
+    "international_ex_us": [
+      {
+        "month": "2000-02",
+        "return": 0.007
+      },
+      {
+        "month": "2000-03",
+        "return": 0.007
+      },
+      {
+        "month": "2000-04",
+        "return": 0.007
+      },
+      {
+        "month": "2000-05",
+        "return": 0.007
+      },
+      {
+        "month": "2000-06",
+        "return": 0.007
+      },
+      {
+        "month": "2000-07",
+        "return": 0.007
+      },
+      {
+        "month": "2000-08",
+        "return": 0.007
+      },
+      {
+        "month": "2000-09",
+        "return": 0.007
+      },
+      {
+        "month": "2000-10",
+        "return": 0.007
+      },
+      {
+        "month": "2000-11",
+        "return": 0.007
+      },
+      {
+        "month": "2000-12",
+        "return": 0.007
+      },
+      {
+        "month": "2001-01",
+        "return": 0.007
+      },
+      {
+        "month": "2001-02",
+        "return": 0.007
+      },
+      {
+        "month": "2001-03",
+        "return": 0.007
+      },
+      {
+        "month": "2001-04",
+        "return": 0.007
+      },
+      {
+        "month": "2001-05",
+        "return": 0.007
+      },
+      {
+        "month": "2001-06",
+        "return": 0.007
+      },
+      {
+        "month": "2001-07",
+        "return": -0.08
+      },
+      {
+        "month": "2001-08",
+        "return": -0.08
+      },
+      {
+        "month": "2001-09",
+        "return": -0.08
+      },
+      {
+        "month": "2001-10",
+        "return": -0.08
+      },
+      {
+        "month": "2001-11",
+        "return": -0.08
+      },
+      {
+        "month": "2001-12",
+        "return": 0.007
+      },
+      {
+        "month": "2002-01",
+        "return": 0.007
+      },
+      {
+        "month": "2002-02",
+        "return": 0.007
+      },
+      {
+        "month": "2002-03",
+        "return": 0.007
+      },
+      {
+        "month": "2002-04",
+        "return": 0.007
+      },
+      {
+        "month": "2002-05",
+        "return": 0.007
+      },
+      {
+        "month": "2002-06",
+        "return": 0.007
+      },
+      {
+        "month": "2002-07",
+        "return": 0.007
+      },
+      {
+        "month": "2002-08",
+        "return": 0.007
+      },
+      {
+        "month": "2002-09",
+        "return": 0.007
+      },
+      {
+        "month": "2002-10",
+        "return": 0.007
+      },
+      {
+        "month": "2002-11",
+        "return": 0.007
+      },
+      {
+        "month": "2002-12",
+        "return": 0.007
+      },
+      {
+        "month": "2003-01",
+        "return": 0.007
+      },
+      {
+        "month": "2003-02",
+        "return": 0.007
+      },
+      {
+        "month": "2003-03",
+        "return": 0.007
+      },
+      {
+        "month": "2003-04",
+        "return": 0.007
+      },
+      {
+        "month": "2003-05",
+        "return": 0.007
+      },
+      {
+        "month": "2003-06",
+        "return": 0.007
+      },
+      {
+        "month": "2003-07",
+        "return": 0.007
+      },
+      {
+        "month": "2003-08",
+        "return": 0.007
+      },
+      {
+        "month": "2003-09",
+        "return": 0.007
+      },
+      {
+        "month": "2003-10",
+        "return": 0.007
+      },
+      {
+        "month": "2003-11",
+        "return": 0.007
+      },
+      {
+        "month": "2003-12",
+        "return": 0.007
+      },
+      {
+        "month": "2004-01",
+        "return": 0.007
+      },
+      {
+        "month": "2004-02",
+        "return": 0.007
+      },
+      {
+        "month": "2004-03",
+        "return": 0.007
+      },
+      {
+        "month": "2004-04",
+        "return": 0.007
+      },
+      {
+        "month": "2004-05",
+        "return": 0.007
+      },
+      {
+        "month": "2004-06",
+        "return": 0.007
+      },
+      {
+        "month": "2004-07",
+        "return": 0.007
+      },
+      {
+        "month": "2004-08",
+        "return": 0.007
+      },
+      {
+        "month": "2004-09",
+        "return": 0.007
+      },
+      {
+        "month": "2004-10",
+        "return": 0.007
+      },
+      {
+        "month": "2004-11",
+        "return": 0.007
+      },
+      {
+        "month": "2004-12",
+        "return": 0.007
+      },
+      {
+        "month": "2005-01",
+        "return": 0.007
+      }
+    ],
+    "hot:dev-fictional:acme": [
+      {
+        "month": "2000-02",
+        "return": 0.04
+      },
+      {
+        "month": "2000-03",
+        "return": 0.04
+      },
+      {
+        "month": "2000-04",
+        "return": 0.04
+      },
+      {
+        "month": "2000-05",
+        "return": 0.04
+      },
+      {
+        "month": "2000-06",
+        "return": 0.04
+      },
+      {
+        "month": "2000-07",
+        "return": 0.04
+      },
+      {
+        "month": "2000-08",
+        "return": 0.04
+      },
+      {
+        "month": "2000-09",
+        "return": 0.04
+      },
+      {
+        "month": "2000-10",
+        "return": 0.04
+      },
+      {
+        "month": "2000-11",
+        "return": 0.04
+      },
+      {
+        "month": "2000-12",
+        "return": 0.04
+      },
+      {
+        "month": "2001-01",
+        "return": 0.04
+      },
+      {
+        "month": "2001-02",
+        "return": 0.008
+      },
+      {
+        "month": "2001-03",
+        "return": 0.008
+      },
+      {
+        "month": "2001-04",
+        "return": 0.008
+      },
+      {
+        "month": "2001-05",
+        "return": 0.008
+      },
+      {
+        "month": "2001-06",
+        "return": 0.008
+      },
+      {
+        "month": "2001-07",
+        "return": -0.4
+      },
+      {
+        "month": "2001-08",
+        "return": -0.4
+      },
+      {
+        "month": "2001-09",
+        "return": 0.008
+      },
+      {
+        "month": "2001-10",
+        "return": 0.008
+      },
+      {
+        "month": "2001-11",
+        "return": 0.008
+      },
+      {
+        "month": "2001-12",
+        "return": 0.008
+      },
+      {
+        "month": "2002-01",
+        "return": 0.008
+      },
+      {
+        "month": "2002-02",
+        "return": 0.008
+      },
+      {
+        "month": "2002-03",
+        "return": 0.008
+      },
+      {
+        "month": "2002-04",
+        "return": 0.008
+      },
+      {
+        "month": "2002-05",
+        "return": 0.008
+      },
+      {
+        "month": "2002-06",
+        "return": 0.008
+      },
+      {
+        "month": "2002-07",
+        "return": 0.008
+      },
+      {
+        "month": "2002-08",
+        "return": 0.008
+      },
+      {
+        "month": "2002-09",
+        "return": 0.008
+      },
+      {
+        "month": "2002-10",
+        "return": 0.008
+      },
+      {
+        "month": "2002-11",
+        "return": 0.008
+      },
+      {
+        "month": "2002-12",
+        "return": 0.008
+      },
+      {
+        "month": "2003-01",
+        "return": 0.008
+      },
+      {
+        "month": "2003-02",
+        "return": 0.008
+      },
+      {
+        "month": "2003-03",
+        "return": 0.008
+      },
+      {
+        "month": "2003-04",
+        "return": 0.008
+      },
+      {
+        "month": "2003-05",
+        "return": 0.008
+      },
+      {
+        "month": "2003-06",
+        "return": 0.008
+      },
+      {
+        "month": "2003-07",
+        "return": 0.008
+      },
+      {
+        "month": "2003-08",
+        "return": 0.008
+      },
+      {
+        "month": "2003-09",
+        "return": 0.008
+      },
+      {
+        "month": "2003-10",
+        "return": 0.008
+      },
+      {
+        "month": "2003-11",
+        "return": 0.008
+      },
+      {
+        "month": "2003-12",
+        "return": 0.008
+      },
+      {
+        "month": "2004-01",
+        "return": 0.008
+      },
+      {
+        "month": "2004-02",
+        "return": 0.008
+      },
+      {
+        "month": "2004-03",
+        "return": 0.008
+      },
+      {
+        "month": "2004-04",
+        "return": 0.008
+      },
+      {
+        "month": "2004-05",
+        "return": 0.008
+      },
+      {
+        "month": "2004-06",
+        "return": 0.008
+      },
+      {
+        "month": "2004-07",
+        "return": 0.008
+      },
+      {
+        "month": "2004-08",
+        "return": 0.008
+      },
+      {
+        "month": "2004-09",
+        "return": 0.008
+      },
+      {
+        "month": "2004-10",
+        "return": 0.008
+      },
+      {
+        "month": "2004-11",
+        "return": 0.008
+      },
+      {
+        "month": "2004-12",
+        "return": 0.008
+      },
+      {
+        "month": "2005-01",
+        "return": 0.008
+      }
+    ],
+    "hot:dev-fictional:telecom": [
+      {
+        "month": "2000-02",
+        "return": 0.015
+      },
+      {
+        "month": "2000-03",
+        "return": 0.015
+      },
+      {
+        "month": "2000-04",
+        "return": 0.015
+      },
+      {
+        "month": "2000-05",
+        "return": 0.015
+      },
+      {
+        "month": "2000-06",
+        "return": 0.015
+      },
+      {
+        "month": "2000-07",
+        "return": 0.015
+      },
+      {
+        "month": "2000-08",
+        "return": 0.015
+      },
+      {
+        "month": "2000-09",
+        "return": 0.015
+      },
+      {
+        "month": "2000-10",
+        "return": 0.015
+      },
+      {
+        "month": "2000-11",
+        "return": 0.015
+      },
+      {
+        "month": "2000-12",
+        "return": 0.015
+      },
+      {
+        "month": "2001-01",
+        "return": 0.015
+      },
+      {
+        "month": "2001-02",
+        "return": 0.015
+      },
+      {
+        "month": "2001-03",
+        "return": 0.015
+      },
+      {
+        "month": "2001-04",
+        "return": 0.015
+      },
+      {
+        "month": "2001-05",
+        "return": 0.015
+      },
+      {
+        "month": "2001-06",
+        "return": 0.015
+      },
+      {
+        "month": "2001-07",
+        "return": 0.015
+      },
+      {
+        "month": "2001-08",
+        "return": 0.015
+      },
+      {
+        "month": "2001-09",
+        "return": 0.015
+      },
+      {
+        "month": "2001-10",
+        "return": 0.015
+      },
+      {
+        "month": "2001-11",
+        "return": 0.015
+      },
+      {
+        "month": "2001-12",
+        "return": 0.015
+      },
+      {
+        "month": "2002-01",
+        "return": 0.015
+      },
+      {
+        "month": "2002-02",
+        "return": 0.015
+      },
+      {
+        "month": "2002-03",
+        "return": 0.015
+      },
+      {
+        "month": "2002-04",
+        "return": 0.015
+      },
+      {
+        "month": "2002-05",
+        "return": 0.015
+      },
+      {
+        "month": "2002-06",
+        "return": 0.015
+      },
+      {
+        "month": "2002-07",
+        "return": 0.015
+      },
+      {
+        "month": "2002-08",
+        "return": 0.015
+      },
+      {
+        "month": "2002-09",
+        "return": 0.015
+      },
+      {
+        "month": "2002-10",
+        "return": 0.015
+      },
+      {
+        "month": "2002-11",
+        "return": 0.015
+      },
+      {
+        "month": "2002-12",
+        "return": 0.015
+      },
+      {
+        "month": "2003-01",
+        "return": -1
+      },
+      {
+        "month": "2003-02",
+        "return": 0
+      },
+      {
+        "month": "2003-03",
+        "return": 0
+      },
+      {
+        "month": "2003-04",
+        "return": 0
+      },
+      {
+        "month": "2003-05",
+        "return": 0
+      },
+      {
+        "month": "2003-06",
+        "return": 0
+      },
+      {
+        "month": "2003-07",
+        "return": 0
+      },
+      {
+        "month": "2003-08",
+        "return": 0
+      },
+      {
+        "month": "2003-09",
+        "return": 0
+      },
+      {
+        "month": "2003-10",
+        "return": 0
+      },
+      {
+        "month": "2003-11",
+        "return": 0
+      },
+      {
+        "month": "2003-12",
+        "return": 0
+      },
+      {
+        "month": "2004-01",
+        "return": 0
+      },
+      {
+        "month": "2004-02",
+        "return": 0
+      },
+      {
+        "month": "2004-03",
+        "return": 0
+      },
+      {
+        "month": "2004-04",
+        "return": 0
+      },
+      {
+        "month": "2004-05",
+        "return": 0
+      },
+      {
+        "month": "2004-06",
+        "return": 0
+      },
+      {
+        "month": "2004-07",
+        "return": 0
+      },
+      {
+        "month": "2004-08",
+        "return": 0
+      },
+      {
+        "month": "2004-09",
+        "return": 0
+      },
+      {
+        "month": "2004-10",
+        "return": 0
+      },
+      {
+        "month": "2004-11",
+        "return": 0
+      },
+      {
+        "month": "2004-12",
+        "return": 0
+      },
+      {
+        "month": "2005-01",
+        "return": 0
+      }
+    ],
+    "hot:dev-fictional:retail": [
+      {
+        "month": "2000-02",
+        "return": 0.01
+      },
+      {
+        "month": "2000-03",
+        "return": 0.01
+      },
+      {
+        "month": "2000-04",
+        "return": 0.01
+      },
+      {
+        "month": "2000-05",
+        "return": 0.01
+      },
+      {
+        "month": "2000-06",
+        "return": 0.01
+      },
+      {
+        "month": "2000-07",
+        "return": 0.01
+      },
+      {
+        "month": "2000-08",
+        "return": 0.01
+      },
+      {
+        "month": "2000-09",
+        "return": 0.01
+      },
+      {
+        "month": "2000-10",
+        "return": 0.01
+      },
+      {
+        "month": "2000-11",
+        "return": 0.01
+      },
+      {
+        "month": "2000-12",
+        "return": 0.01
+      },
+      {
+        "month": "2001-01",
+        "return": 0.01
+      },
+      {
+        "month": "2001-02",
+        "return": 0.04
+      },
+      {
+        "month": "2001-03",
+        "return": 0.04
+      },
+      {
+        "month": "2001-04",
+        "return": 0.04
+      },
+      {
+        "month": "2001-05",
+        "return": 0.04
+      },
+      {
+        "month": "2001-06",
+        "return": 0.04
+      },
+      {
+        "month": "2001-07",
+        "return": -0.05
+      },
+      {
+        "month": "2001-08",
+        "return": -0.05
+      },
+      {
+        "month": "2001-09",
+        "return": -0.05
+      },
+      {
+        "month": "2001-10",
+        "return": -0.05
+      },
+      {
+        "month": "2001-11",
+        "return": -0.05
+      },
+      {
+        "month": "2001-12",
+        "return": 0.04
+      },
+      {
+        "month": "2002-01",
+        "return": 0.04
+      },
+      {
+        "month": "2002-02",
+        "return": 0.04
+      },
+      {
+        "month": "2002-03",
+        "return": 0.04
+      },
+      {
+        "month": "2002-04",
+        "return": 0.04
+      },
+      {
+        "month": "2002-05",
+        "return": 0.04
+      },
+      {
+        "month": "2002-06",
+        "return": 0.04
+      },
+      {
+        "month": "2002-07",
+        "return": 0.04
+      },
+      {
+        "month": "2002-08",
+        "return": 0.04
+      },
+      {
+        "month": "2002-09",
+        "return": 0.04
+      },
+      {
+        "month": "2002-10",
+        "return": 0.04
+      },
+      {
+        "month": "2002-11",
+        "return": 0.04
+      },
+      {
+        "month": "2002-12",
+        "return": 0.04
+      },
+      {
+        "month": "2003-01",
+        "return": 0.04
+      },
+      {
+        "month": "2003-02",
+        "return": 0.04
+      },
+      {
+        "month": "2003-03",
+        "return": 0.04
+      },
+      {
+        "month": "2003-04",
+        "return": 0.04
+      },
+      {
+        "month": "2003-05",
+        "return": 0.04
+      },
+      {
+        "month": "2003-06",
+        "return": 0.04
+      },
+      {
+        "month": "2003-07",
+        "return": 0.04
+      },
+      {
+        "month": "2003-08",
+        "return": 0.04
+      },
+      {
+        "month": "2003-09",
+        "return": 0.04
+      },
+      {
+        "month": "2003-10",
+        "return": 0.04
+      },
+      {
+        "month": "2003-11",
+        "return": 0.04
+      },
+      {
+        "month": "2003-12",
+        "return": 0.04
+      },
+      {
+        "month": "2004-01",
+        "return": 0.04
+      },
+      {
+        "month": "2004-02",
+        "return": 0.04
+      },
+      {
+        "month": "2004-03",
+        "return": 0.04
+      },
+      {
+        "month": "2004-04",
+        "return": 0.04
+      },
+      {
+        "month": "2004-05",
+        "return": 0.04
+      },
+      {
+        "month": "2004-06",
+        "return": 0.04
+      },
+      {
+        "month": "2004-07",
+        "return": 0.04
+      },
+      {
+        "month": "2004-08",
+        "return": 0.04
+      },
+      {
+        "month": "2004-09",
+        "return": 0.04
+      },
+      {
+        "month": "2004-10",
+        "return": 0.04
+      },
+      {
+        "month": "2004-11",
+        "return": 0.04
+      },
+      {
+        "month": "2004-12",
+        "return": 0.04
+      },
+      {
+        "month": "2005-01",
+        "return": 0.04
+      }
+    ]
+  },
+  "return_sources": {
+    "cash": ["fictional-outcomes"],
+    "bonds": ["fictional-outcomes"],
+    "us_total": ["fictional-outcomes"],
+    "international_ex_us": ["fictional-outcomes"],
+    "hot:dev-fictional:acme": ["fictional-outcomes"],
+    "hot:dev-fictional:telecom": ["fictional-outcomes"],
+    "hot:dev-fictional:retail": ["fictional-outcomes"]
+  },
+  "events": [
+    {
+      "month": "2001-01",
+      "title": "Acme draws attention",
+      "description": "Invented event marker for development. It is context for this synthetic path, not a claim about real history or simple market causality.",
+      "source_ids": ["fictional-outcomes"]
+    },
+    {
+      "month": "2001-07",
+      "title": "Fictional expansion stalls",
+      "description": "Invented event marker for development. It is context for this synthetic path, not a claim about real history or simple market causality.",
+      "source_ids": ["fictional-outcomes"]
+    },
+    {
+      "month": "2003-01",
+      "title": "Example Telecom becomes worthless",
+      "description": "Invented event marker for development. It is context for this synthetic path, not a claim about real history or simple market causality.",
+      "source_ids": ["fictional-outcomes"]
+    },
+    {
+      "month": "2004-01",
+      "title": "Sample Retail keeps growing",
+      "description": "Invented event marker for development. It is context for this synthetic path, not a claim about real history or simple market causality.",
+      "source_ids": ["fictional-outcomes"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "This entire scenario is invented for development and testing. Acme Computing leads after the first year, while Sample Retail eventually ends with the highest five-year value. An intermediate decline tests whether the engine measures peak-to-trough drawdowns rather than just losses from the initial investment. Example Telecom becomes worthless, testing that a stock position remains at zero after bankruptcy. Broad investments also fall during the synthetic downturn before recovering. The fictional headlines, economic readings, forecasts, companies, and monthly returns were constructed to exercise software behavior. None of these values describe historical markets. They are not investment advice or evidence for how any asset class usually performs. The fixture makes no claim that hot stocks must fail or that diversified portfolios must win. One fictional stock wins while another reaches zero. Real scenarios will need public sources, a documented selection process, and independent editorial review. This development example exists only to test the flow from a decision made with limited information to an outcome and descriptive scorecard.",
+    "source_ids": ["fictional-outcomes"]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "In this fictional setting, new devices and network expansion attracted attention.",
+    "what_actually_mattered": "The synthetic path includes a downturn, recovery, steady retailer growth, and one bankruptcy.",
+    "what_faded_away": "The invented film festival and library debate did not determine these generated returns.",
+    "what_nobody_knew": "The future synthetic downturn and company outcomes were absent from the starting information.",
+    "source_ids": ["fictional-outcomes"]
+  }
+}
