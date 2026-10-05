@@ -27,6 +27,21 @@ The educational objective is not to reward forecasting skill or to prove that an
 
 The game should not teach that hot stocks are always bad, that news should always be ignored, or that the consensus is always wrong. Sometimes the obvious-looking investment should work. The lesson is **uncertainty, not contrarianism**.
 
+### Audience and fidelity
+
+The primary audience is roughly **8–12 years old**.
+
+This is a simple educational game, not a professional finance tool, authoritative historical database, or attempt to teach a single “true” model of investing. Historical data and context should be good enough to create a believable, materially accurate experience without implying more precision than the sources support.
+
+Prefer:
+
+- clear concepts over technical completeness;
+- reasonable historical approximations over institutional-grade reconstruction;
+- player-visible correctness over forensic auditability;
+- shipping a coherent scenario over continuing research that would not materially change the child's experience.
+
+A scenario does not need exhaustive source corroboration, transaction-level accounting, perfect vintage datasets, or precision beyond what matters to the game. It **does** need to avoid invented history, obvious factual errors, material return errors, and hindsight leakage.
+
 ---
 
 
@@ -271,9 +286,11 @@ These are guidelines, not rigid quotas.
 
 ### Source philosophy
 
-Use a **broad range of historically relevant publications**.
+A **broad range of historically relevant publications is desirable**, because different outlets reflect different parts of the information environment.
 
-The Wall Street Journal should be weighted more heavily for business and financial context when usable public material is available, but it is **not required** and should not dominate every scenario.
+However, source diversity is a preference rather than a hard quota. A strong historical archive may supply many of a scenario's stories. Do not replace better contemporary stories or perform disproportionate research solely to increase the number of publishers.
+
+The Wall Street Journal may be weighted more heavily for business and financial context when usable public material is available, but it is **not required**.
 
 The source mix may include:
 
@@ -306,7 +323,9 @@ Do not fabricate historical stories.
 
 Do not require full article text.
 
-Prefer metadata, short excerpts where permitted, and human/AI-written summaries grounded in the source.
+The game should store the player-facing headline and summary locally as part of the prebuilt scenario. Publisher URLs and archive references are provenance only; the live game must not depend on those external pages remaining available.
+
+Prefer metadata, short excerpts where permitted, and human/AI-written summaries grounded in the source. A source URL later becoming unavailable does not invalidate an otherwise well-supported stored scenario.
 
 ### No hindsight selection
 
@@ -1037,7 +1056,29 @@ The visual language should be closer to a **museum exhibit or interactive newspa
 
 ## 25. Data Philosophy
 
-The game optimizes for **historical authenticity, transparency, and educational usefulness**, not institutional backtest perfection.
+The game optimizes for **historical plausibility, transparency, and educational usefulness**, not institutional backtest perfection or research-grade historical reconstruction.
+
+### Materiality over precision
+
+Use enough precision to avoid materially misleading the player.
+
+Examples of material problems that require correction:
+
+- an impossible or clearly wrong return path;
+- a corporate action that causes the wrong economic outcome;
+- a fabricated or misdated story;
+- starting information that relies on future knowledge;
+- a data error large enough to meaningfully change the five-year comparison.
+
+Examples that normally do **not** justify more research:
+
+- small differences between reputable adjusted-price vendors;
+- exact dividend-reinvestment timing;
+- obtaining multiple independent sources for an ordinary uncontested headline;
+- proving that an archived URL is still reachable years later;
+- reconstructing institutional index methodology when a transparent proxy teaches the same concept.
+
+The project should stop researching once the scenario is credible, coherent, and fit for the intended 8–12-year-old audience.
 
 ### Public-source first
 
@@ -1065,12 +1106,13 @@ Do not fabricate precision.
 
 ### Source provenance
 
-Every scenario should retain enough metadata to answer:
+Every scenario should retain **lightweight** metadata sufficient to answer:
 
 - where did this number/story come from?
-- when was the underlying information published?
-- was it available by the scenario date?
+- was the underlying information available by the scenario date?
 - was an approximation or fallback used?
+
+One credible source is generally enough for an ordinary uncontested item. Additional corroboration is useful when a fact is ambiguous, disputed, or materially important, but is not a default requirement.
 
 ---
 
@@ -1099,7 +1141,7 @@ The implementation may change sources over time, but the preferred starting poin
 
 ### News and cultural context
 
-Use multiple source families rather than a single newspaper.
+Prefer multiple source families when practical. Variety is desirable because a single outlet can overrepresent one editorial lens, but it is **not a hard qualification gate**.
 
 Potential sources include:
 
@@ -1115,7 +1157,7 @@ Potential sources include:
 - GDELT or other public news metadata datasets
 - historically prominent tabloids or lower-quality mass-market sources when they reflect discourse
 
-The final displayed feed should favor historical prominence and breadth over modern editorial-quality judgments.
+The final displayed feed should favor historical prominence and breadth over modern editorial-quality judgments. Do not spend substantial effort chasing alternative sources solely to satisfy a diversity count.
 
 ### Individual stocks
 
@@ -1160,6 +1202,8 @@ Keep original publication/date/source provenance even when the UI uses a shorten
 ### Reproducibility
 
 Generated scenario files should be deterministic once curated source inputs and editorial choices are committed.
+
+Reproducibility is a practical engineering property, not a requirement for forensic archival proof. Byte-level source-body archives, repeated live-source checks, and elaborate research audit trails are unnecessary unless they solve a concrete correctness problem.
 
 ---
 
