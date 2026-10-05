@@ -1,0 +1,228 @@
+{
+  "scenario_id": "1982-08",
+  "sources": [
+    {
+      "id": "fed1982",
+      "source_name": "Federal Reserve July 20, 1982 Monetary Policy Report, reproduced in August Bulletin",
+      "source_reference": "https://fraser.stlouisfed.org/files/docs/publications/FRB/1980s/frb_081982.pdf",
+      "publication_date": "1982-07-20",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original report date July 20, 1982, Bulletinpp443–452. CPI reading is first five months annualized, not twelve-month inflation. Forecast tablep452. August wrapper is later; digitization date unknown. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "1982-05-31"
+    },
+    {
+      "id": "jobs1982",
+      "source_name": "BLS Employment Situation: July 1982",
+      "source_reference": "https://fraser.stlouisfed.org/docs/releases/bls/bls_employnews_198207.pdf",
+      "publication_date": "1982-08-06",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original news release front page embargo 8:30 EDTAug 6;9.8% seasonally adjusted national unemployment. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "1982-07-31"
+    },
+    {
+      "id": "h151982",
+      "source_name": "Federal Reserve H 15 Aug 30, 1982",
+      "source_reference": "https://fraser.stlouisfed.org/docs/releases/h15/1980s/H15_19820830.pdf",
+      "publication_date": "1982-08-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Daily Friday Aug 27 column: prime 13.50, discount 10.00,10-year Treasury 12.77. Daily dates differ from weeklyaverages. Immediate-release date printed on original. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "1982-08-27"
+    },
+    {
+      "id": "time-921251",
+      "source_name": "TIME: Interest rates fall as banks cut their prime rate",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,921251,00.html",
+      "publication_date": "1982-08-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-921258",
+      "source_name": "TIME: PLO evacuation begins in Beirut",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,921258,00.html",
+      "publication_date": "1982-08-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-921264",
+      "source_name": "TIME: Mexico struggles to meet foreign debt payments",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,921264,00.html",
+      "publication_date": "1982-08-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-921269",
+      "source_name": "TIME: Alleged theft of IBM secrets draws FBI action",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,921269,00.html",
+      "publication_date": "1982-08-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-921281",
+      "source_name": "TIME: Home computers become a consuming hobby",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,921281,00.html",
+      "publication_date": "1982-08-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-925661",
+      "source_name": "TIME: Coca-Cola brings its soft drink rivalry to Columbia Pictures",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,925661,00.html",
+      "publication_date": "1982-08-09",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-925713",
+      "source_name": "TIME: Horse breeders place large bets at Saratoga",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,925713,00.html",
+      "publication_date": "1982-08-23",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-950750",
+      "source_name": "TIME: The Army explores computer simulations of combat",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,950750,00.html",
+      "publication_date": "1982-08-16",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-950742",
+      "source_name": "TIME: Beer industry rivalry",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,950742,00.html",
+      "publication_date": "1982-08-16",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-925657",
+      "source_name": "TIME: Semiconductorcompetition",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,925657,00.html",
+      "publication_date": "1982-08-09",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-925605",
+      "source_name": "TIME: Exxon retrenchment",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,925605,00.html",
+      "publication_date": "1982-08-02",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-925601",
+      "source_name": "TIME: Bank bad loan concerns",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,925601,00.html",
+      "publication_date": "1982-08-02",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-index19820802",
+      "source_name": "TIME issue index 1982-08-02",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601820802,00.html",
+      "publication_date": "1982-08-02",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Publisher table of contents verifies article identity and issue date. Discovery metadata only; no assumption that every article body has been read. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-index19820809",
+      "source_name": "TIME issue index 1982-08-09",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601820809,00.html",
+      "publication_date": "1982-08-09",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Publisher table of contents verifies article identity and issue date. Discovery metadata only; no assumption that every article body has been read. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-index19820816",
+      "source_name": "TIME issue index 1982-08-16",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601820816,00.html",
+      "publication_date": "1982-08-16",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Publisher table of contents verifies article identity and issue date. Discovery metadata only; no assumption that every article body has been read. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-index19820823",
+      "source_name": "TIME issue index 1982-08-23",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601820823,00.html",
+      "publication_date": "1982-08-23",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Publisher table of contents verifies article identity and issue date. Discovery metadata only; no assumption that every article body has been read. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-index19820830",
+      "source_name": "TIME issue index 1982-08-30",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601820830,00.html",
+      "publication_date": "1982-08-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Publisher table of contents verifies article identity and issue date. Discovery metadata only; no assumption that every article body has been read. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "apcpi1982",
+      "source_name": "Associated Press inflation report in Pampa News, August 24, 1982",
+      "source_reference": "https://newspapers.swco.ttu.edu/bitstreams/e2c56eda-a80a-486c-84bb-9d40e513e045/download",
+      "publication_date": "1982-08-24",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original newspaper date August 24, 1982; AP reports that government said today twelve months ending July inflation 6.5%. This is primary contemporary reporting, not original BLS release. September 1982 CPI Detailed Report corroborates original CPI-U 6.5; experimental CPI-U-X1/rental-equivalence 6.4 must not be substituted. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "1982-07-31"
+    },
+    {
+      "id": "confidence1982",
+      "source_name": "Christian Science Monitor: US consumer confidence rises",
+      "source_reference": "https://www.csmonitor.com/layout/set/amphtml/1982/0805/080551.html",
+      "publication_date": "1982-08-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary newspaper report quotes July Conference Board index 61.3, base 1969–1970=100. Original Conference Board release not retrieved; available original reporting establishes value/date. Do not substitute a later rebased or revised series. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "1982-07-31"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-asset observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "observation_date": "1982-08-31",
+      "publication_date": "1982-08-31",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Modeled availability of underlying market observations through cutoff. This is NOT the publication date of the modern French/FRED/Yahoo archive. Current retrospective reconstruction, not exact contemporary database vintages; later uniform adjustment scaling cancels in historical ratios. Actual source snapshot/retrieval dates and hashes are recorded separately in archive manifests."
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/1982-08/starting.json",
+      "observation_date": "1982-08-31",
+      "publication_date": "1982-08-31",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Modeled availability of underlying market observations through cutoff. This is NOT the publication date of the modern French/FRED/Yahoo archive. Current retrospective reconstruction, not exact contemporary database vintages; later uniform adjustment scaling cancels in historical ratios. Actual source snapshot/retrieval dates and hashes are recorded separately in archive manifests."
+    }
+  ]
+}

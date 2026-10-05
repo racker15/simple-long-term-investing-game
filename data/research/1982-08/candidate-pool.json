@@ -1,0 +1,628 @@
+{
+  "scenario_id": "1982-08",
+  "cutoff": "1982-08-31",
+  "method": "Dated contemporary issue and original release evidence in docs/early-starting-research.md; editorial attention and breadth before future outcomes. Magazine discovery pool is not exhaustive or probability sampled.",
+  "news_candidates": [
+    {
+      "id": "news-925576",
+      "headline": "Federal deficits",
+      "category": "politics",
+      "publication_date": "1982-08-02",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925576,00.html",
+      "source_ids": ["time-index19820802"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925578",
+      "headline": "C5 B aircraft debate",
+      "category": "US news",
+      "publication_date": "1982-08-02",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925578,00.html",
+      "source_ids": ["time-index19820802"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925582",
+      "headline": "Costs of unemployment",
+      "category": "economy",
+      "publication_date": "1982-08-02",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925582,00.html",
+      "source_ids": ["time-index19820802"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925586",
+      "headline": "British summer terrorism",
+      "category": "world",
+      "publication_date": "1982-08-02",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925586,00.html",
+      "source_ids": ["time-index19820802"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925592",
+      "headline": "Beirut siege",
+      "category": "world",
+      "publication_date": "1982-08-02",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925592,00.html",
+      "source_ids": ["time-index19820802"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925594",
+      "headline": "European pipeline dispute",
+      "category": "world",
+      "publication_date": "1982-08-02",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925594,00.html",
+      "source_ids": ["time-index19820802"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925619",
+      "headline": "Midwestern environmental energy issue",
+      "category": "environment",
+      "publication_date": "1982-08-02",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925619,00.html",
+      "source_ids": ["time-index19820802"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925621",
+      "headline": "JPL research troubles",
+      "category": "science",
+      "publication_date": "1982-08-02",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925621,00.html",
+      "source_ids": ["time-index19820802"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925601",
+      "headline": "Bank lending problems",
+      "category": "business",
+      "publication_date": "1982-08-02",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925601,00.html",
+      "source_ids": ["time-index19820802"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925605",
+      "headline": "Exxon cuts and profits",
+      "category": "business",
+      "publication_date": "1982-08-02",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925605,00.html",
+      "source_ids": ["time-index19820802"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925626",
+      "headline": "Political disagreement",
+      "category": "politics",
+      "publication_date": "1982-08-09",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925626,00.html",
+      "source_ids": ["time-index19820809"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925641",
+      "headline": "Middle East negotiations",
+      "category": "world",
+      "publication_date": "1982-08-09",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925641,00.html",
+      "source_ids": ["time-index19820809"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925645",
+      "headline": "Panama leadership",
+      "category": "world",
+      "publication_date": "1982-08-09",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925645,00.html",
+      "source_ids": ["time-index19820809"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925647",
+      "headline": "China aviation conflict",
+      "category": "world",
+      "publication_date": "1982-08-09",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925647,00.html",
+      "source_ids": ["time-index19820809"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925654",
+      "headline": "Rising medical costs",
+      "category": "health",
+      "publication_date": "1982-08-09",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925654,00.html",
+      "source_ids": ["time-index19820809"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925663",
+      "headline": "Television network changes",
+      "category": "media",
+      "publication_date": "1982-08-09",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925663,00.html",
+      "source_ids": ["time-index19820809"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925650",
+      "headline": "Prayer and politics",
+      "category": "religion",
+      "publication_date": "1982-08-09",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925650,00.html",
+      "source_ids": ["time-index19820809"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925657",
+      "headline": "Chip industry competition",
+      "category": "technology",
+      "publication_date": "1982-08-09",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925657,00.html",
+      "source_ids": ["time-index19820809"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925661",
+      "headline": "Coke and Columbia beverage dispute",
+      "category": "business",
+      "publication_date": "1982-08-09",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925661,00.html",
+      "source_ids": ["time-index19820809"],
+      "selected": true,
+      "selection_note": "Body checked and selected for topic diversity."
+    },
+    {
+      "id": "news-925673",
+      "headline": "Theater review",
+      "category": "culture",
+      "publication_date": "1982-08-09",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925673,00.html",
+      "source_ids": ["time-index19820809"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-950722",
+      "headline": "Conservative politics",
+      "category": "politics",
+      "publication_date": "1982-08-16",
+      "url": "https://content.time.com/time/magazine/article/0,9171,950722,00.html",
+      "source_ids": ["time-index19820816"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-950723",
+      "headline": "Farm distress",
+      "category": "economy",
+      "publication_date": "1982-08-16",
+      "url": "https://content.time.com/time/magazine/article/0,9171,950723,00.html",
+      "source_ids": ["time-index19820816"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-950725",
+      "headline": "Nuclear freeze and START",
+      "category": "world",
+      "publication_date": "1982-08-16",
+      "url": "https://content.time.com/time/magazine/article/0,9171,950725,00.html",
+      "source_ids": ["time-index19820816"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-950716",
+      "headline": "Israel US diplomacy over Beirut",
+      "category": "world",
+      "publication_date": "1982-08-16",
+      "url": "https://content.time.com/time/magazine/article/0,9171,950716,00.html",
+      "source_ids": ["time-index19820816"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-950733",
+      "headline": "Kenya unrest",
+      "category": "world",
+      "publication_date": "1982-08-16",
+      "url": "https://content.time.com/time/magazine/article/0,9171,950733,00.html",
+      "source_ids": ["time-index19820816"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-950740",
+      "headline": "Wilderness danger",
+      "category": "environment",
+      "publication_date": "1982-08-16",
+      "url": "https://content.time.com/time/magazine/article/0,9171,950740,00.html",
+      "source_ids": ["time-index19820816"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-950741",
+      "headline": "Arthritis treatment costs",
+      "category": "health",
+      "publication_date": "1982-08-16",
+      "url": "https://content.time.com/time/magazine/article/0,9171,950741,00.html",
+      "source_ids": ["time-index19820816"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-950750",
+      "headline": "Army computer wargame",
+      "category": "science",
+      "publication_date": "1982-08-16",
+      "url": "https://content.time.com/time/magazine/article/0,9171,950750,00.html",
+      "source_ids": ["time-index19820816"],
+      "selected": true,
+      "selection_note": "Body checked and selected for topic diversity."
+    },
+    {
+      "id": "news-950742",
+      "headline": "Beer company rivalry",
+      "category": "business",
+      "publication_date": "1982-08-16",
+      "url": "https://content.time.com/time/magazine/article/0,9171,950742,00.html",
+      "source_ids": ["time-index19820816"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-950744",
+      "headline": "Wall Street trading",
+      "category": "business",
+      "publication_date": "1982-08-16",
+      "url": "https://content.time.com/time/magazine/article/0,9171,950744,00.html",
+      "source_ids": ["time-index19820816"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925679",
+      "headline": "Reagan political campaign",
+      "category": "politics",
+      "publication_date": "1982-08-23",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925679,00.html",
+      "source_ids": ["time-index19820823"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925690",
+      "headline": "Public land sale debate",
+      "category": "US news",
+      "publication_date": "1982-08-23",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925690,00.html",
+      "source_ids": ["time-index19820823"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925693",
+      "headline": "Middle East diplomacy",
+      "category": "world",
+      "publication_date": "1982-08-23",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925693,00.html",
+      "source_ids": ["time-index19820823"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925696",
+      "headline": "Paris terrorism",
+      "category": "world",
+      "publication_date": "1982-08-23",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925696,00.html",
+      "source_ids": ["time-index19820823"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925701",
+      "headline": "Namibia negotiations",
+      "category": "world",
+      "publication_date": "1982-08-23",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925701,00.html",
+      "source_ids": ["time-index19820823"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925721",
+      "headline": "Environmental pollution",
+      "category": "environment",
+      "publication_date": "1982-08-23",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925721,00.html",
+      "source_ids": ["time-index19820823"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925714",
+      "headline": "Heart transplants",
+      "category": "health",
+      "publication_date": "1982-08-23",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925714,00.html",
+      "source_ids": ["time-index19820823"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925713",
+      "headline": "Racehorse breeding wagers",
+      "category": "sports",
+      "publication_date": "1982-08-23",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925713,00.html",
+      "source_ids": ["time-index19820823"],
+      "selected": true,
+      "selection_note": "Body checked and selected for topic diversity."
+    },
+    {
+      "id": "news-925710",
+      "headline": "Texas education controversy",
+      "category": "education",
+      "publication_date": "1982-08-23",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925710,00.html",
+      "source_ids": ["time-index19820823"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-925718",
+      "headline": "Cinema review",
+      "category": "culture",
+      "publication_date": "1982-08-23",
+      "url": "https://content.time.com/time/magazine/article/0,9171,925718,00.html",
+      "source_ids": ["time-index19820823"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-921247",
+      "headline": "Washington politics",
+      "category": "politics",
+      "publication_date": "1982-08-30",
+      "url": "https://content.time.com/time/magazine/article/0,9171,921247,00.html",
+      "source_ids": ["time-index19820830"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-921251",
+      "headline": "Falling interest rates",
+      "category": "economy",
+      "publication_date": "1982-08-30",
+      "url": "https://content.time.com/time/magazine/article/0,9171,921251,00.html",
+      "source_ids": ["time-index19820830"],
+      "selected": true,
+      "selection_note": "Body checked and selected for topic diversity."
+    },
+    {
+      "id": "news-921258",
+      "headline": "Beirut evacuation",
+      "category": "world",
+      "publication_date": "1982-08-30",
+      "url": "https://content.time.com/time/magazine/article/0,9171,921258,00.html",
+      "source_ids": ["time-index19820830"],
+      "selected": true,
+      "selection_note": "Body checked and selected for topic diversity."
+    },
+    {
+      "id": "news-921264",
+      "headline": "Mexican debt pressure",
+      "category": "world",
+      "publication_date": "1982-08-30",
+      "url": "https://content.time.com/time/magazine/article/0,9171,921264,00.html",
+      "source_ids": ["time-index19820830"],
+      "selected": true,
+      "selection_note": "Body checked and selected for topic diversity."
+    },
+    {
+      "id": "news-921266",
+      "headline": "Atlantic salmon decline",
+      "category": "environment",
+      "publication_date": "1982-08-30",
+      "url": "https://content.time.com/time/magazine/article/0,9171,921266,00.html",
+      "source_ids": ["time-index19820830"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-921276",
+      "headline": "Space policy rivalry",
+      "category": "science",
+      "publication_date": "1982-08-30",
+      "url": "https://content.time.com/time/magazine/article/0,9171,921276,00.html",
+      "source_ids": ["time-index19820830"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-921274",
+      "headline": "Saturday Review closes",
+      "category": "media",
+      "publication_date": "1982-08-30",
+      "url": "https://content.time.com/time/magazine/article/0,9171,921274,00.html",
+      "source_ids": ["time-index19820830"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-921281",
+      "headline": "Home computer hobby",
+      "category": "technology",
+      "publication_date": "1982-08-30",
+      "url": "https://content.time.com/time/magazine/article/0,9171,921281,00.html",
+      "source_ids": ["time-index19820830"],
+      "selected": true,
+      "selection_note": "Body checked and selected for topic diversity."
+    },
+    {
+      "id": "news-921269",
+      "headline": "IBM industrial espionage allegations",
+      "category": "business",
+      "publication_date": "1982-08-30",
+      "url": "https://content.time.com/time/magazine/article/0,9171,921269,00.html",
+      "source_ids": ["time-index19820830"],
+      "selected": true,
+      "selection_note": "Body checked and selected for topic diversity."
+    },
+    {
+      "id": "news-921277",
+      "headline": "Music and sadexperience",
+      "category": "culture",
+      "publication_date": "1982-08-30",
+      "url": "https://content.time.com/time/magazine/article/0,9171,921277,00.html",
+      "source_ids": ["time-index19820830"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    }
+  ],
+  "stock_candidates": [
+    {
+      "ticker": "AAPL",
+      "company": "Apple Computer",
+      "source_ids": ["time-921281"],
+      "salience": "Home computer feature discusses Apple machines and consumer enthusiasm.",
+      "selected": true,
+      "selection_note": "Chosen using only contemporary attention.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "IBM",
+      "company": "International Business Machines",
+      "source_ids": ["time-921269"],
+      "salience": "Central company in industrial espionage investigation.",
+      "selected": true,
+      "selection_note": "Chosen using only contemporary attention.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "KO",
+      "company": "Coca-Cola",
+      "source_ids": ["time-925661"],
+      "salience": "Columbia ownership brings consumer brand rivalry into studio business.",
+      "selected": true,
+      "selection_note": "Chosen using only contemporary attention.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "INTC",
+      "company": "Intel",
+      "source_ids": ["time-925657"],
+      "salience": "Named in US–Japan chip competition.",
+      "selected": false,
+      "selection_note": "Not selected: valid attention but outside the chosen three; no future returns considered.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "AMD",
+      "company": "Advanced Micro Devices",
+      "source_ids": ["time-925657"],
+      "salience": "Named in US–Japan chip competition.",
+      "selected": false,
+      "selection_note": "Not selected: valid attention but outside the chosen three; no future returns considered.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "TXN",
+      "company": "Texas Instruments",
+      "source_ids": ["time-925657"],
+      "salience": "Named in US–Japan chip competition.",
+      "selected": false,
+      "selection_note": "Not selected: valid attention but outside the chosen three; no future returns considered.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "NSM",
+      "company": "National Semiconductor",
+      "source_ids": ["time-925657"],
+      "salience": "Named in US–Japan chip competition.",
+      "selected": false,
+      "selection_note": "Not selected: valid attention but outside the chosen three; no future returns considered.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "MOT",
+      "company": "Motorola",
+      "source_ids": ["time-925657"],
+      "salience": "Named in US–Japan chip competition.",
+      "selected": false,
+      "selection_note": "Not selected: valid attention but outside the chosen three; no future returns considered.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "XON",
+      "company": "Exxon",
+      "source_ids": ["time-925605"],
+      "salience": "Feature focuses on weakened earnings and retrenchment.",
+      "selected": false,
+      "selection_note": "Not selected: valid attention but outside the chosen three; no future returns considered.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "MOB",
+      "company": "Mobil",
+      "source_ids": ["time-925605"],
+      "salience": "Named in oil industry earnings pressure.",
+      "selected": false,
+      "selection_note": "Not selected: valid attention but outside the chosen three; no future returns considered.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "P",
+      "company": "Phillips Petroleum",
+      "source_ids": ["time-925605"],
+      "salience": "Named in oil industry earnings pressure.",
+      "selected": false,
+      "selection_note": "Not selected: valid attention but outside the chosen three; no future returns considered.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "BUD",
+      "company": "Anheuser-Busch",
+      "source_ids": ["time-950742"],
+      "salience": "Beer industry rivalry feature.",
+      "selected": false,
+      "selection_note": "Not selected: valid attention but outside the chosen three; no future returns considered.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "MO",
+      "company": "Philip Morris",
+      "source_ids": ["time-950742"],
+      "salience": "Miller ownership connects it to beer industry rivalry.",
+      "selected": false,
+      "selection_note": "Not selected: valid attention but outside the chosen three; no future returns considered.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    }
+  ],
+  "rejected_for_data_quality": [],
+  "rejection_note": "No selected candidate rejected after examining future investment performance. Unselected candidates reflect editorial alternatives or explicit unresolved data feasibility described in the research note."
+}
