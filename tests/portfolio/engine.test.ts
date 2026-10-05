@@ -32,6 +32,22 @@ describe('buy-and-hold portfolio', () => {
     expect(Object.values(result).reduce((a, b) => a + b)).toBe(10000);
     expect(input).toEqual({ us_total: 3500, cash: 500 });
   });
+  it('moves each $500 addition/removal between another investment and residual Cash', () => {
+    const draft = { us_total: 3500 };
+    const before = normalizeAllocations(ids, draft);
+    const added = normalizeAllocations(ids, { us_total: draft.us_total + 500 });
+    const removed = normalizeAllocations(ids, {
+      us_total: draft.us_total - 500,
+    });
+    expect([before.cash, added.cash, removed.cash]).toEqual([6500, 6000, 7000]);
+    for (const allocation of [before, added, removed]) {
+      expect(
+        Object.values(allocation).reduce((total, amount) => total + amount, 0),
+      ).toBe(10000);
+    }
+    // Confirmation/locking hands the engine all seven final amounts, including Cash.
+    expect(normalizeAllocations(ids, added)).toEqual(added);
+  });
   it.each([-500, 250, NaN, Infinity])(
     'rejects invalid allocation %s',
     (amount) =>

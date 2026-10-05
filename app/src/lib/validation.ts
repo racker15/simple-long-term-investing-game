@@ -7,6 +7,9 @@ import {
   type Scenario,
   type Session,
   type KnownAtStart,
+  type AssetId,
+  type BroadAssetId,
+  type HotStockId,
 } from './contracts';
 
 const ajv = new Ajv({ allErrors: true, strict: true, strictNumbers: true });
@@ -203,26 +206,73 @@ export function loadScenario(input: {
     );
   return input as Scenario;
 }
-// Explicit player projection: no cohort label, selection reason, provenance, or future fields.
-export type DecisionContext = Pick<
-  KnownAtStart,
-  | 'headlines'
-  | 'macro'
-  | 'forecasts'
-  | 'recent_returns'
-  | 'hot_stocks'
-  | 'asset_definitions'
-> & { date: string; display_date: string };
+// Explicit player projection: nested fields are allowlisted, never copied wholesale.
+export type DecisionHeadline = {
+  headline: string;
+  category: string;
+  summary: string;
+};
+export type DecisionMacro = { label: string; value: number; unit: string };
+export type DecisionForecast = { text: string };
+export type DecisionRecentReturn = {
+  asset_id: BroadAssetId;
+  three_month: number;
+  one_year: number;
+};
+export type DecisionHotStock = {
+  id: HotStockId;
+  company_name: string;
+  ticker: string;
+  description: string;
+  three_month: number;
+  one_year: number;
+};
+export type DecisionAsset = { id: AssetId; name: string; description: string };
+export type DecisionContext = {
+  date: string;
+  display_date: string;
+  headlines: DecisionHeadline[];
+  macro: DecisionMacro[];
+  forecasts: DecisionForecast[];
+  recent_returns: DecisionRecentReturn[];
+  hot_stocks: DecisionHotStock[];
+  asset_definitions: DecisionAsset[];
+};
 export function decisionContext(known: KnownAtStart): DecisionContext {
   return {
     date: known.metadata.date,
     display_date: known.metadata.display_date,
-    headlines: known.headlines,
-    macro: known.macro,
-    forecasts: known.forecasts,
-    recent_returns: known.recent_returns,
-    hot_stocks: known.hot_stocks,
-    asset_definitions: known.asset_definitions,
+    headlines: known.headlines.map(({ headline, category, summary }) => ({
+      headline,
+      category,
+      summary,
+    })),
+    macro: known.macro.map(({ label, value, unit }) => ({
+      label,
+      value,
+      unit,
+    })),
+    forecasts: known.forecasts.map(({ text }) => ({ text })),
+    recent_returns: known.recent_returns.map(
+      ({ asset_id, three_month, one_year }) => ({
+        asset_id,
+        three_month,
+        one_year,
+      }),
+    ),
+    hot_stocks: known.hot_stocks.map(
+      ({ id, company_name, ticker, description, three_month, one_year }) => ({
+        id,
+        company_name,
+        ticker,
+        description,
+        three_month,
+        one_year,
+      }),
+    ),
+    asset_definitions: known.asset_definitions.map(
+      ({ id, name, description }) => ({ id, name, description }),
+    ),
   };
 }
 export function validateSession(input: unknown): input is Session {

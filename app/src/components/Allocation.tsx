@@ -64,8 +64,8 @@ export function Allocation({
       ) : (
         <>
           <p>
-            Move money in $500 steps. Anything you leave unassigned stays in
-            Cash.
+            Move money in $500 steps. Cash is the amount remaining: adding to
+            another investment reduces Cash, and removing money increases it.
           </p>
           {context.asset_definitions.map((asset) => (
             <div className="allocation-row" key={asset.id}>
@@ -74,35 +74,46 @@ export function Allocation({
                 <p className="small">{asset.description}</p>
               </div>
               <div className="stepper">
-                <button
-                  className="secondary"
-                  aria-label={`Remove $500 from ${asset.name}`}
-                  disabled={!draft[asset.id]}
-                  onClick={() =>
-                    setDraft({
-                      ...draft,
-                      [asset.id]: (draft[asset.id] ?? 0) - ALLOCATION_STEP,
-                    })
-                  }
-                >
-                  −
-                </button>
-                <output aria-label={`${asset.name} allocation`}>
-                  {money(normalized[asset.id])}
-                </output>
-                <button
-                  className="secondary"
-                  aria-label={`Add $500 to ${asset.name}`}
-                  disabled={explicit >= INITIAL_CAPITAL}
-                  onClick={() =>
-                    setDraft({
-                      ...draft,
-                      [asset.id]: (draft[asset.id] ?? 0) + ALLOCATION_STEP,
-                    })
-                  }
-                >
-                  +
-                </button>
+                {asset.id === 'cash' ? (
+                  <>
+                    <span>Remaining</span>
+                    <output aria-label="Cash allocation">
+                      {money(normalized.cash)}
+                    </output>
+                  </>
+                ) : (
+                  <>
+                    <button
+                      className="secondary"
+                      aria-label={`Remove $500 from ${asset.name}`}
+                      disabled={!draft[asset.id]}
+                      onClick={() =>
+                        setDraft({
+                          ...draft,
+                          [asset.id]: (draft[asset.id] ?? 0) - ALLOCATION_STEP,
+                        })
+                      }
+                    >
+                      −
+                    </button>
+                    <output aria-label={`${asset.name} allocation`}>
+                      {money(normalized[asset.id])}
+                    </output>
+                    <button
+                      className="secondary"
+                      aria-label={`Add $500 to ${asset.name}`}
+                      disabled={explicit >= INITIAL_CAPITAL}
+                      onClick={() =>
+                        setDraft({
+                          ...draft,
+                          [asset.id]: (draft[asset.id] ?? 0) + ALLOCATION_STEP,
+                        })
+                      }
+                    >
+                      +
+                    </button>
+                  </>
+                )}
               </div>
             </div>
           ))}
@@ -110,8 +121,7 @@ export function Allocation({
             <strong>
               {money(INITIAL_CAPITAL)} / {money(INITIAL_CAPITAL)} allocated
             </strong>{' '}
-            · {money(INITIAL_CAPITAL - explicit)} automatically in Cash. Cash
-            controls reserve an explicit cash amount.
+            · {money(normalized.cash)} remaining in Cash.
           </p>
           <fieldset>
             <legend>

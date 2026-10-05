@@ -79,7 +79,7 @@ No stored benchmark series or winner summaries are accepted as scenario inputs. 
 
 ### Information firewall
 
-The starting content is physically separate from future outcomes. `ScenarioView` and `Allocation` receive only `DecisionContext`, produced from `KnownAtStart`. That projection excludes scenario selection metadata, provenance, and all future outcomes. Selection rationale and source IDs remain internal fields in the known bundle and are not rendered. Future events, comparisons, ranks, and reflection render only after commitment. Cohort labels appear only in the final scorecard, never in a checkpoint.
+The starting content is physically separate from future outcomes. `ScenarioView` and `Allocation` receive only `DecisionContext`, produced from `KnownAtStart`. That projection uses explicit player-facing nested types and allowlists the displayed date, headline/category/summary, macro values, forecast text, recent returns, hot-stock identity/description/returns, and asset IDs/names/descriptions. It excludes scenario selection metadata, provenance, and all future outcomes. Headline selection notes, hot-stock selection rationales, and every nested source ID remain in the known bundle and are absent from `DecisionContext`, so pre-investment components never receive them. Future events, comparisons, ranks, and reflection render only after commitment. Cohort labels appear only in the final scorecard, never in a checkpoint.
 
 All referenced pre-investment sources must have `publication_date <= scenario date`. Retrieval may be later: it describes when the project obtained a source, not when the information became public. Unknown references and invalid dates fail validation. Future source records are allowed in provenance but cannot be referenced from starting content.
 
@@ -95,7 +95,7 @@ Absolute monthly returns **greater than 80%** produce review warnings, not rejec
 
 ## Portfolio, results, and session state
 
-Initial capital is exactly $10,000. Explicit allocations must be finite nonnegative $500 multiples, use only playable assets, and total at most $10,000. Any remainder adds to explicit Cash. Positions compound independently each month with no trading or rebalancing. A −100% return makes the position permanently zero. No intermediate rounding is applied; display formatting rounds dollars only.
+Initial capital is exactly $10,000. Explicit allocations must be finite nonnegative $500 multiples, use only playable assets, and total at most $10,000. In the allocation editor, Cash is the prominently displayed residual with no +/− controls. The other six investments use $500 controls: adding reduces Cash and removing increases it, keeping the seven final allocations at exactly $10,000. Cash remains selectable for the winner prediction and appears in confirmation, calculations, and rankings. The engine also accepts normalized seven-asset allocations, adding any unallocated remainder to Cash. Positions compound independently each month with no trading or rebalancing. A −100% return makes the position permanently zero. No intermediate rounding is applied; display formatting rounds dollars only.
 
 Paths include each asset position, monthly total, ending value, total return, maximum drawdown, highest value, and lowest value. Drawdown and extrema include the initial $10,000 observation. The diversified comparison starts with $6,000 US Total, $2,000 international ex-US, and $2,000 bonds. The standalone US comparison starts with $10,000 US Total. Both use the identical buy-and-hold engine.
 

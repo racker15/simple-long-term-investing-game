@@ -62,8 +62,30 @@ test('five-scenario vertical slice, allocation controls, locked refresh, final s
       exact: true,
     }),
   ).toBeDisabled();
+  await expect(page.getByLabel('Cash allocation', { exact: true })).toHaveText(
+    '$10,000',
+  );
+  await expect(
+    page.getByRole('button', { name: 'Add $500 to Cash', exact: true }),
+  ).toHaveCount(0);
+  await expect(
+    page.getByRole('button', { name: 'Remove $500 from Cash', exact: true }),
+  ).toHaveCount(0);
+  await expect(page.getByRole('radio')).toHaveCount(7);
+  const totalAllocation = async () =>
+    expect(
+      await page
+        .locator('.allocation-row output')
+        .evaluateAll((outputs) =>
+          outputs.reduce(
+            (total, output) =>
+              total + Number(output.textContent!.replace(/[^0-9]/g, '')),
+            0,
+          ),
+        ),
+    ).toBe(10000);
+  await totalAllocation();
   for (const asset of [
-    'Cash',
     'Bonds',
     'US Total Market',
     'International ex-US',
@@ -74,14 +96,32 @@ test('five-scenario vertical slice, allocation controls, locked refresh, final s
     await page
       .getByRole('button', { name: `Add $500 to ${asset}`, exact: true })
       .click();
+    await expect(
+      page.getByLabel(`${asset} allocation`, { exact: true }),
+    ).toHaveText('$500');
+    await expect(
+      page.getByLabel('Cash allocation', { exact: true }),
+    ).toHaveText('$9,500');
+    await totalAllocation();
     await page
       .getByRole('button', { name: `Remove $500 from ${asset}`, exact: true })
       .click();
+    await expect(
+      page.getByLabel(`${asset} allocation`, { exact: true }),
+    ).toHaveText('$0');
+    await expect(
+      page.getByLabel('Cash allocation', { exact: true }),
+    ).toHaveText('$10,000');
+    await totalAllocation();
   }
   for (let i = 0; i < 20; i++)
     await page
       .getByRole('button', { name: 'Add $500 to US Total Market', exact: true })
       .click();
+  await expect(page.getByLabel('Cash allocation', { exact: true })).toHaveText(
+    '$0',
+  );
+  await totalAllocation();
   await expect(
     page.getByRole('button', { name: 'Add $500 to Bonds', exact: true }),
   ).toBeDisabled();
@@ -98,6 +138,25 @@ test('five-scenario vertical slice, allocation controls, locked refresh, final s
     .getByRole('radio', { name: 'Acme Computing', exact: true })
     .check();
   await page.getByRole('button', { name: 'Review decision' }).click();
+  const confirmation = page.locator('[aria-labelledby="allocation-title"] dl');
+  await expect(confirmation.locator('dt')).toHaveText([
+    'Cash',
+    'Bonds',
+    'US Total Market',
+    'International ex-US',
+    'Acme Computing',
+    'Example Telecom',
+    'Sample Retail',
+  ]);
+  await expect(confirmation.locator('dd')).toHaveText([
+    '$500',
+    '$0',
+    '$9,500',
+    '$0',
+    '$0',
+    '$0',
+    '$0',
+  ]);
   await page.getByRole('button', { name: 'Back to allocation' }).click();
   await invest(page);
   await expect(page.getByTestId('path-0')).toHaveAttribute(
