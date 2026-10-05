@@ -50,7 +50,9 @@ export function buildKnown(
   // This path neither loads outcomes nor requests any subsequent month.
   if (
     Object.values(stocks.series).some((series) =>
-      series.observations.some((row) => row.month > date.slice(0, 7)),
+      [...series.observations, ...series.prices].some(
+        (row) => row.month > date.slice(0, 7),
+      ),
     )
   )
     throw new Error(
@@ -75,7 +77,21 @@ export function buildKnown(
   return known;
 }
 
-export async function assertStartingLock() {
+export function scenarioPaths(id = '1999-09') {
+  if (!/^\d{4}-(0[1-9]|1[0-2])$/.test(id))
+    throw new Error('Invalid historical scenario ID');
+  return {
+    research: `data/research/${id}`,
+    scenario: `data/scenarios/${id}`,
+    stocks:
+      id === '1999-09'
+        ? 'data/normalized/stocks'
+        : `data/normalized/stocks/${id}`,
+  };
+}
+
+export async function assertStartingLock(id = '1999-09') {
+  const { research: RESEARCH } = scenarioPaths(id);
   const lock = await readJson<{ files: Record<string, string> }>(
     `${RESEARCH}/starting-lock.json`,
   );
@@ -86,19 +102,36 @@ export async function assertStartingLock() {
       );
 }
 
-if (process.argv[1]?.endsWith('/build/historical.ts')) {
-  if (process.argv.includes('--lock')) {
+export async function buildStartingScenario(
+  id: string,
+  check = false,
+  lock = false,
+) {
+  const {
+    research: RESEARCH,
+    scenario: SCENARIO,
+    stocks: STOCKS,
+  } = scenarioPaths(id);
+  if (lock) {
     const hasOutcomes = await access(`${SCENARIO}/future_outcomes.json`).then(
       () => true,
       () => false,
     );
+    const hasLock = await access(`${RESEARCH}/starting-lock.json`).then(
+      () => true,
+      () => false,
+    );
+    if (hasLock)
+      throw new Error(
+        'Starting context is already locked; an integrity repair requires a separate audit',
+      );
     if (hasOutcomes)
       throw new Error('Cannot relock starting context after outcomes exist');
   }
   const [inputs, broad, stocks, provenance] = await Promise.all([
     readJson<StartingInputs>(`${RESEARCH}/starting-inputs.json`),
     readJson<BroadDataset>('data/normalized/broad-assets/monthly-returns.json'),
-    readJson<StockDataset>('data/normalized/stocks/starting.json'),
+    readJson<StockDataset>(`${STOCKS}/starting.json`),
     readJson<Provenance>(`${RESEARCH}/starting-provenance.json`),
   ]);
   const known = buildKnown(inputs, broad, stocks);
@@ -114,22 +147,21 @@ if (process.argv[1]?.endsWith('/build/historical.ts')) {
         throw new Error(`Missing or post-cutoff starting source ${sourceId}`);
     }
   }
-  if (!process.argv.includes('--lock')) await assertStartingLock();
-  await writeJson(
-    `${SCENARIO}/known_at_start.json`,
-    known,
-    process.argv.includes('--check'),
-  );
-  if (process.argv.includes('--lock')) {
+  if (!lock) await assertStartingLock(id);
+  await writeJson(`${SCENARIO}/known_at_start.json`, known, check);
+  if (lock) {
     const paths = [
       `${RESEARCH}/starting-inputs.json`,
       `${RESEARCH}/starting-provenance.json`,
       `${RESEARCH}/candidate-pool.json`,
       `${SCENARIO}/known_at_start.json`,
-      'data/normalized/stocks/starting.json',
-      'data/normalized/stocks/sources.json',
+      `${STOCKS}/starting.json`,
+      `${STOCKS}/sources.json`,
       'data/normalized/broad-assets/sources.json',
       'data/normalized/broad-assets/monthly-returns.json',
+      ...(id === '1999-09'
+        ? []
+        : ['data/selection/protocol.json', 'data/selection/pilot-draw.json']),
     ];
     const files = Object.fromEntries(
       await Promise.all(
@@ -138,11 +170,22 @@ if (process.argv[1]?.endsWith('/build/historical.ts')) {
     );
     await writeJson(`${RESEARCH}/starting-lock.json`, {
       schema_version: 1,
-      scenario_id: '1999-09',
+      scenario_id: id,
       locked_at: '2026-10-05',
       stage:
         'Starting context locked before calculating selected stocks’ future windows or writing events, narrative, and reflections.',
       files,
     });
   }
+}
+
+if (process.argv[1]?.endsWith('/build/historical.ts')) {
+  const id =
+    process.argv.find((arg) => arg.startsWith('--scenario='))?.slice(11) ??
+    '1999-09';
+  await buildStartingScenario(
+    id,
+    process.argv.includes('--check'),
+    process.argv.includes('--lock'),
+  );
 }

@@ -11,8 +11,7 @@ import { readJson, writeJson } from '../lib/files';
 import type { SourceManifest } from '../lib/sources';
 import {
   assertStartingLock,
-  RESEARCH,
-  SCENARIO,
+  scenarioPaths,
   type StockDataset,
 } from './historical';
 
@@ -69,12 +68,13 @@ export function buildFuture(
 export function artifactProvenance(
   manifest: SourceManifest,
   publications: Record<string, { date: string; reference: string }>,
+  observationDate = '2004-09-30',
 ): Provenance['sources'] {
   return manifest.sources.map((source) => ({
     id: source.id,
     source_name: source.source_name,
     source_reference: source.download_url,
-    observation_date: '2004-09-30',
+    observation_date: observationDate,
     publication_date: publications[source.id].date,
     retrieved_at: source.retrieved_at,
     approximation: true,
@@ -82,8 +82,13 @@ export function artifactProvenance(
   }));
 }
 
-if (process.argv[1]?.endsWith('/build/outcomes.ts')) {
-  await assertStartingLock();
+export async function buildOutcomeScenario(id: string, check = false) {
+  const {
+    research: RESEARCH,
+    scenario: SCENARIO,
+    stocks: STOCKS,
+  } = scenarioPaths(id);
+  await assertStartingLock(id);
   const [
     known,
     broad,
@@ -97,28 +102,46 @@ if (process.argv[1]?.endsWith('/build/outcomes.ts')) {
   ] = await Promise.all([
     readJson<KnownAtStart>(`${SCENARIO}/known_at_start.json`),
     readJson<BroadDataset>('data/normalized/broad-assets/monthly-returns.json'),
-    readJson<StockDataset>('data/normalized/stocks/monthly-returns.json'),
+    readJson<StockDataset>(`${STOCKS}/monthly-returns.json`),
     readJson<OutcomeInputs>(`${RESEARCH}/outcome-inputs.json`),
     readJson<Provenance>(`${RESEARCH}/starting-provenance.json`),
     readJson<Provenance>(`${RESEARCH}/outcome-provenance.json`),
     readJson<SourceManifest>('data/normalized/broad-assets/sources.json'),
-    readJson<SourceManifest>('data/normalized/stocks/sources.json'),
+    readJson<SourceManifest>(
+      `${STOCKS}/${id === '1999-09' ? 'sources' : 'outcome-sources'}.json`,
+    ),
     readJson<{
       publications: Record<string, { date: string; reference: string }>;
     }>(`${RESEARCH}/artifact-publications.json`),
   ]);
   const future = buildFuture(known, broad, stocks, editorial);
+  const observationDate =
+    Object.values(future.monthly_returns)[0].at(-1)!.month + '-01';
   const provenance: Provenance = {
     scenario_id: known.metadata.scenario_id,
     sources: [
       ...startingSources.sources,
-      ...artifactProvenance(broadManifest, artifactDates.publications),
-      ...artifactProvenance(stockManifest, artifactDates.publications),
+      ...artifactProvenance(
+        broadManifest,
+        artifactDates.publications,
+        id === '1999-09' ? '2004-09-30' : observationDate,
+      ),
+      ...artifactProvenance(
+        stockManifest,
+        artifactDates.publications,
+        id === '1999-09' ? '2004-09-30' : observationDate,
+      ),
       ...outcomeSources.sources,
     ],
   };
   loadScenario({ known, future, provenance });
-  const check = process.argv.includes('--check');
   await writeJson(`${SCENARIO}/future_outcomes.json`, future, check);
   await writeJson(`${SCENARIO}/provenance.json`, provenance, check);
+}
+
+if (process.argv[1]?.endsWith('/build/outcomes.ts')) {
+  const id =
+    process.argv.find((arg) => arg.startsWith('--scenario='))?.slice(11) ??
+    '1999-09';
+  await buildOutcomeScenario(id, process.argv.includes('--check'));
 }

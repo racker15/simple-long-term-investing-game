@@ -1,0 +1,373 @@
+{
+  "scenario_id": "2016-02",
+  "cutoff": "2016-02-29",
+  "method": "Three contemporary TIME US issue indexes plus dated original public releases; short paraphrased metadata. Stock candidates from dated company releases. Editorial attention and breadth, not subsequent performance. Research note docs/recent-starting-research.md.",
+  "news_candidates": [
+    {
+      "topic": "Schwab leadership",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-01-25-us"]
+    },
+    {
+      "topic": "Automaker services",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-01-25-us"]
+    },
+    {
+      "topic": "Bowie remembrance",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-01-25-us"]
+    },
+    {
+      "topic": "Billions review",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-01-25-us"]
+    },
+    {
+      "topic": "Tolstoy television",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-01-25-us"]
+    },
+    {
+      "topic": "Roosevelt books",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-01-25-us"]
+    },
+    {
+      "topic": "Golden Globes",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-01-25-us"]
+    },
+    {
+      "topic": "Diabetes diets",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-01-25-us"]
+    },
+    {
+      "topic": "Teenage dancing",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-01-25-us"]
+    },
+    {
+      "topic": "Obama speech",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-01-25-us"]
+    },
+    {
+      "topic": "Cruz candidacy",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-01-25-us"]
+    },
+    {
+      "topic": "Chinese trade",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-01-25-us"]
+    },
+    {
+      "topic": "German migration",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-01-25-us"]
+    },
+    {
+      "topic": "Royal trials",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-01-25-us"]
+    },
+    {
+      "topic": "California gas-leak",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-01-25-us"]
+    },
+    {
+      "topic": "Davos employment",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-01-us"]
+    },
+    {
+      "topic": "Rachel Bloom",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-01-us"]
+    },
+    {
+      "topic": "45 Years",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-01-us"]
+    },
+    {
+      "topic": "Mojave review",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-01-us"]
+    },
+    {
+      "topic": "Opera novel",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-01-us"]
+    },
+    {
+      "topic": "Wheaton controversy",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-01-us"]
+    },
+    {
+      "topic": "Motherhood reflection",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-01-us"]
+    },
+    {
+      "topic": "Democratic redistribution",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-01-us"]
+    },
+    {
+      "topic": "Flint poisoning",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-01-us"]
+    },
+    {
+      "topic": "Herman Wouk",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-01-us"]
+    },
+    {
+      "topic": "Missing publishers",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-01-us"]
+    },
+    {
+      "topic": "Ice hotel",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-01-us"]
+    },
+    {
+      "topic": "Saudi oil",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-01-us"]
+    },
+    {
+      "topic": "Taiwan leadership",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-01-us"]
+    },
+    {
+      "topic": "Glenn Frey",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-01-us"]
+    },
+    {
+      "topic": "Internet access",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-01-us"]
+    },
+    {
+      "topic": "Weak passwords",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-01-us"]
+    },
+    {
+      "topic": "Barbie redesign",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-08-us"]
+    },
+    {
+      "topic": "Originals review",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-08-us"]
+    },
+    {
+      "topic": "Witness puzzles",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-08-us"]
+    },
+    {
+      "topic": "Coastguard film",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-08-us"]
+    },
+    {
+      "topic": "Gilda restoration",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-08-us"]
+    },
+    {
+      "topic": "Heart health",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-08-us"]
+    },
+    {
+      "topic": "Zika reporting",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-08-us"]
+    },
+    {
+      "topic": "Bloomberg deliberations",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-08-us"]
+    },
+    {
+      "topic": "Republican divisions",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-08-us"]
+    },
+    {
+      "topic": "Cam Newton",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-08-us"]
+    },
+    {
+      "topic": "Aircraft skylight",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-08-us"]
+    },
+    {
+      "topic": "Freed Trevithick",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-08-us"]
+    },
+    {
+      "topic": "Kether Donohue",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-08-us"]
+    },
+    {
+      "topic": "Iran diplomacy",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-08-us"]
+    },
+    {
+      "topic": "Planet Nine",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-08-us"]
+    },
+    {
+      "topic": "Vanishing waters",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-08-us"]
+    },
+    {
+      "topic": "Abe Vigoda",
+      "category": "Mixed contemporary issue topics",
+      "source_ids": ["time-2016-02-08-us"]
+    },
+    {
+      "topic": "Economic growth revised upward, but remains modest",
+      "category": "Economy",
+      "source_ids": ["bea-gdp"]
+    },
+    {
+      "topic": "Exxon reports lower annual earnings",
+      "category": "Business",
+      "source_ids": ["stock-xom"]
+    },
+    {
+      "topic": "Apple challenges demand for iPhone assistance",
+      "category": "Technology",
+      "source_ids": ["apple-letter"]
+    },
+    {
+      "topic": "WHO declares an international health emergency",
+      "category": "Global news",
+      "source_ids": ["who-zika"]
+    },
+    {
+      "topic": "Obama responds to Justice Scalia’s death",
+      "category": "US news",
+      "source_ids": ["scalia"]
+    },
+    {
+      "topic": "Scientists announce gravitational-wave detection",
+      "category": "Science",
+      "source_ids": ["ligo"]
+    },
+    {
+      "topic": "Denver wins Super Bowl 50",
+      "category": "Sports",
+      "source_ids": ["superbowl"]
+    },
+    {
+      "topic": "Spotlight wins best picture",
+      "category": "Culture",
+      "source_ids": ["oscars"]
+    }
+  ],
+  "stock_candidates": [
+    {
+      "ticker": "AAPL",
+      "source_ids": ["stock-aapl"],
+      "attention_signal": "Consumer technology, slowing-growth questions, and the public encryption dispute.",
+      "selected": true,
+      "decision": "Selected to represent one of three contemporary business themes; future performance not inspected."
+    },
+    {
+      "ticker": "MSFT",
+      "source_ids": ["stock-msft"],
+      "attention_signal": "A cloud-transition theme, based on the January quarterly announcement.",
+      "selected": true,
+      "decision": "Selected to represent one of three contemporary business themes; future performance not inspected."
+    },
+    {
+      "ticker": "XOM",
+      "source_ids": ["stock-xom"],
+      "attention_signal": "Energy-cycle pressure offers a different business theme from software and devices.",
+      "selected": true,
+      "decision": "Selected to represent one of three contemporary business themes; future performance not inspected."
+    },
+    {
+      "ticker": "AMZN",
+      "source_ids": ["candidate-amzn"],
+      "attention_signal": "Retail and cloud expansion",
+      "selected": false,
+      "decision": "Editorial alternative; not rejected for future performance or asserted data defects."
+    },
+    {
+      "ticker": "FB",
+      "source_ids": ["candidate-fb"],
+      "attention_signal": "Mobile advertising",
+      "selected": false,
+      "decision": "Editorial alternative; not rejected for future performance or asserted data defects."
+    },
+    {
+      "ticker": "NVDA",
+      "source_ids": ["candidate-nvda"],
+      "attention_signal": "Gaming and graphics hardware",
+      "selected": false,
+      "decision": "Editorial alternative; not rejected for future performance or asserted data defects."
+    },
+    {
+      "ticker": "BRK.B",
+      "source_ids": ["candidate-brk-b"],
+      "attention_signal": "Conglomerate earnings",
+      "selected": false,
+      "decision": "Editorial alternative; not rejected for future performance or asserted data defects."
+    },
+    {
+      "ticker": "WMT",
+      "source_ids": ["candidate-wmt"],
+      "attention_signal": "Retail and technology investment",
+      "selected": false,
+      "decision": "Editorial alternative; not rejected for future performance or asserted data defects."
+    },
+    {
+      "ticker": "DIS",
+      "source_ids": ["candidate-dis"],
+      "attention_signal": "Entertainment franchises",
+      "selected": false,
+      "decision": "Editorial alternative; not rejected for future performance or asserted data defects."
+    },
+    {
+      "ticker": "IBM",
+      "source_ids": ["candidate-ibm"],
+      "attention_signal": "Enterprise cloud transition",
+      "selected": false,
+      "decision": "Editorial alternative; not rejected for future performance or asserted data defects."
+    },
+    {
+      "ticker": "GE",
+      "source_ids": ["candidate-ge"],
+      "attention_signal": "Industrial restructuring",
+      "selected": false,
+      "decision": "Editorial alternative; not rejected for future performance or asserted data defects."
+    }
+  ],
+  "rejected_for_data_quality": [],
+  "rejection_note": "No candidate rejected based on future performance; selected histories assessed separately."
+}

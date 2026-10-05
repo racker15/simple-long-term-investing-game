@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "scenario_id": "2016-02",
+    "date": "2016-02-29",
+    "display_date": "February 29, 2016",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "random",
+      "draw_universe": "calendar-month-ends-1980-2020-v1",
+      "random_seed": "simple-long-term-investing-game/random-cohort/v1/2026-10-05",
+      "draw_index": 3,
+      "method": "Equal-weight temporal strata; FNV-1a UTF-16 seeded Mulberry32 uint32; unbiased remaining-pool draws; calendar spacing at least twelve months. See committed protocol and pilot draw log.",
+      "exclusions": [
+        "At least twelve months from other selected dates and reserved important dates",
+        "Required trailing twelve-month and subsequent sixty-month broad coverage",
+        "Documented starting-source or stock-history feasibility failure only"
+      ],
+      "replacement_for": "draw:2:2008-09-30"
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Economic growth revised upward, but remains modest",
+      "category": "Economy",
+      "summary": "The latest estimate puts fourth-quarter growth at a 1.0% annual pace.",
+      "selection_note": "Selected for contemporary attention and a mixed-topic view of the month, before requesting future stock observations.",
+      "source_ids": ["bea-gdp"]
+    },
+    {
+      "headline": "Exxon reports lower annual earnings",
+      "category": "Business",
+      "summary": "Weak commodity prices weigh on annual earnings, while refining and chemicals partly offset that pressure.",
+      "selection_note": "Selected for contemporary attention and a mixed-topic view of the month, before requesting future stock observations.",
+      "source_ids": ["stock-xom"]
+    },
+    {
+      "headline": "Apple challenges demand for iPhone assistance",
+      "category": "Technology",
+      "summary": "Apple publicly opposes a government demand for help accessing an iPhone, describing concerns about encryption and security.",
+      "selection_note": "Selected for contemporary attention and a mixed-topic view of the month, before requesting future stock observations.",
+      "source_ids": ["apple-letter"]
+    },
+    {
+      "headline": "WHO declares an international health emergency",
+      "category": "Global news",
+      "summary": "Clusters of birth defects and neurological illness prompt an emergency declaration. A link to Zika is suspected but not yet established.",
+      "selection_note": "Selected for contemporary attention and a mixed-topic view of the month, before requesting future stock observations.",
+      "source_ids": ["who-zika"]
+    },
+    {
+      "headline": "Obama responds to Justice Scalia’s death",
+      "category": "US news",
+      "summary": "The president comments on the Supreme Court justice’s death, as attention turns to filling the vacant seat.",
+      "selection_note": "Selected for contemporary attention and a mixed-topic view of the month, before requesting future stock observations.",
+      "source_ids": ["scalia"]
+    },
+    {
+      "headline": "Scientists announce gravitational-wave detection",
+      "category": "Science",
+      "summary": "LIGO reports the first direct detection of gravitational waves, from observations made the previous September.",
+      "selection_note": "Selected for contemporary attention and a mixed-topic view of the month, before requesting future stock observations.",
+      "source_ids": ["ligo"]
+    },
+    {
+      "headline": "Denver wins Super Bowl 50",
+      "category": "Sports",
+      "summary": "The Broncos defeat the Panthers to win the championship.",
+      "selection_note": "Selected for contemporary attention and a mixed-topic view of the month, before requesting future stock observations.",
+      "source_ids": ["superbowl"]
+    },
+    {
+      "headline": "Spotlight wins best picture",
+      "category": "Culture",
+      "summary": "The film receives the Academy Award for best picture at the February28 ceremony.",
+      "selection_note": "Selected for contemporary attention and a mixed-topic view of the month, before requesting future stock observations.",
+      "source_ids": ["oscars"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Inflation: January CPI, twelve-month change",
+      "value": 1.4,
+      "unit": "%",
+      "source_ids": ["bls-cpi"]
+    },
+    {
+      "label": "Unemployment: January, seasonally adjusted",
+      "value": 4.9,
+      "unit": "%",
+      "source_ids": ["bls-jobs"]
+    },
+    {
+      "label": "Federal funds target: upper end of 0.25–0.50% range",
+      "value": 0.5,
+      "unit": "%",
+      "source_ids": ["fomc"]
+    },
+    {
+      "label": "10-year Treasury: February 26 daily yield",
+      "value": 1.76,
+      "unit": "%",
+      "source_ids": ["h15"]
+    },
+    {
+      "label": "Real GDP: Q4 second estimate, annualized growth",
+      "value": 1,
+      "unit": "%",
+      "source_ids": ["bea-gdp"]
+    },
+    {
+      "label": "Professional 2016 growth forecast: annual-average growth",
+      "value": 2.1,
+      "unit": "%",
+      "source_ids": ["spf"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "Forty professional forecasters expect continued growth in 2016, but their outlook has weakened. Their median annual-average growth forecast is 2.1%; this is a growth forecast, not a probability of recession.",
+      "source_ids": ["spf"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:2016-02:apple",
+      "company_name": "Apple",
+      "ticker": "AAPL",
+      "description": "Consumer devices and services, with record quarterly revenue and cautious guidance.",
+      "selection_rationale": "Consumer technology, slowing-growth questions, and the public encryption dispute. Selected from contemporary sources before fetching future stock observations.",
+      "source_ids": ["stock-aapl", "asof-stock-prices"],
+      "three_month": -0.17823612600249283,
+      "one_year": -0.233361542244098
+    },
+    {
+      "id": "hot:2016-02:microsoft",
+      "company_name": "Microsoft",
+      "ticker": "MSFT",
+      "description": "Established software business emphasizing cloud services and Windows 10.",
+      "selection_rationale": "A cloud-transition theme, based on the January quarterly announcement. Selected from contemporary sources before fetching future stock observations.",
+      "source_ids": ["stock-msft", "asof-stock-prices"],
+      "three_month": -0.05712403176377079,
+      "one_year": 0.19198209654770126
+    },
+    {
+      "id": "hot:2016-02:exxonmobil",
+      "company_name": "ExxonMobil",
+      "ticker": "XOM",
+      "description": "An integrated energy company facing weak commodity prices.",
+      "selection_rationale": "Energy-cycle pressure offers a different business theme from software and devices. Selected from contemporary sources before fetching future stock observations.",
+      "source_ids": ["stock-xom", "asof-stock-prices"],
+      "three_month": -0.009583098019107172,
+      "one_year": -0.062266788468602785
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term Treasury cash equivalent, represented by the French monthly risk-free return.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "An intermediate US Treasury proxy, modeled from five-year yields; excludes corporate credit exposure.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "A broad US equity market proxy, including dividends; represents US stocks.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Developed non-US equity proxy: EAFE plus Canada, including dividends in US dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:2016-02:apple",
+      "name": "Apple",
+      "description": "Consumer devices and services, with record quarterly revenue and cautious guidance.",
+      "source_ids": ["stock-aapl", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2016-02:microsoft",
+      "name": "Microsoft",
+      "description": "Established software business emphasizing cloud services and Windows 10.",
+      "source_ids": ["stock-msft", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2016-02:exxonmobil",
+      "name": "ExxonMobil",
+      "description": "An integrated energy company facing weak commodity prices.",
+      "source_ids": ["stock-xom", "asof-stock-prices"]
+    }
+  ],
+  "recent_returns": [
+    {
+      "asset_id": "cash",
+      "three_month": 0.0004000500019998299,
+      "one_year": 0.0004000500019998299,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "bonds",
+      "three_month": 0.025646626988630628,
+      "one_year": 0.027478452461467295,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "us_total",
+      "three_month": -0.07784279048800002,
+      "one_year": -0.08175351427995114,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "international_ex_us",
+      "three_month": -0.08800073484399995,
+      "one_year": -0.12826802092083267,
+      "source_ids": ["asof-broad-proxies"]
+    }
+  ]
+}
