@@ -19,7 +19,9 @@
     "data:normalize": "node --import tsx scripts/normalize/broad-assets.ts && node --import tsx scripts/normalize/stocks.ts --starting && node --import tsx scripts/normalize/stocks.ts",
     "data:build": "node --import tsx scripts/build/historical.ts && node --import tsx scripts/build/outcomes.ts",
     "data:check": "node --import tsx scripts/build/historical.ts --check && node --import tsx scripts/build/outcomes.ts --check",
-    "check": "npm run format:check && npm run schemas:check && npm run data:check && npm run validate && npm run test && npm run build"
+    "check": "npm run format:check && npm run schemas:check && npm run data:check && npm run validate && npm run test && npm run build",
+    "dates:select": "node --import tsx scripts/select/dates.ts",
+    "dates:check": "node --import tsx scripts/select/dates.ts --check"
   },
   "dependencies": {
     "@sinclair/typebox": "^0.34.41",
