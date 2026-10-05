@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "scenario_id": "dev-fictional",
+    "date": "2000-01-31",
+    "display_date": "January 2000 — fictional development fixture",
+    "data_kind": "development_fixture",
+    "selection": {
+      "mode": "important",
+      "selection_reason": "Developer-selected fictional fixture; no historical significance is claimed."
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Acme announces a new pocket computer",
+      "category": "business",
+      "summary": "Invented news for development testing; this is not a real historical story.",
+      "selection_note": "Exercise the known-at-start view.",
+      "source_ids": ["fictional-start"]
+    },
+    {
+      "headline": "Example Telecom plans a nationwide expansion",
+      "category": "business",
+      "summary": "Invented news for development testing; this is not a real historical story.",
+      "selection_note": "Exercise the known-at-start view.",
+      "source_ids": ["fictional-start"]
+    },
+    {
+      "headline": "Imaginary city debates a new library",
+      "category": "US",
+      "summary": "Invented news for development testing; this is not a real historical story.",
+      "selection_note": "Exercise the known-at-start view.",
+      "source_ids": ["fictional-start"]
+    },
+    {
+      "headline": "Fictional countries propose a rail link",
+      "category": "global",
+      "summary": "Invented news for development testing; this is not a real historical story.",
+      "selection_note": "Exercise the known-at-start view.",
+      "source_ids": ["fictional-start"]
+    },
+    {
+      "headline": "Example laboratory unveils a water filter",
+      "category": "science",
+      "summary": "Invented news for development testing; this is not a real historical story.",
+      "selection_note": "Exercise the known-at-start view.",
+      "source_ids": ["fictional-start"]
+    },
+    {
+      "headline": "Sample film festival draws record attendance",
+      "category": "culture",
+      "summary": "Invented news for development testing; this is not a real historical story.",
+      "selection_note": "Exercise the known-at-start view.",
+      "source_ids": ["fictional-start"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Inflation",
+      "value": 2.5,
+      "unit": "%",
+      "source_ids": ["fictional-start"]
+    },
+    {
+      "label": "Unemployment",
+      "value": 4.2,
+      "unit": "%",
+      "source_ids": ["fictional-start"]
+    },
+    {
+      "label": "Policy rate",
+      "value": 4.5,
+      "unit": "%",
+      "source_ids": ["fictional-start"]
+    },
+    {
+      "label": "10-year Treasury",
+      "value": 5,
+      "unit": "%",
+      "source_ids": ["fictional-start"]
+    },
+    {
+      "label": "Consumer sentiment",
+      "value": 110,
+      "unit": "index",
+      "source_ids": ["fictional-start"]
+    },
+    {
+      "label": "Forecast contraction probability",
+      "value": 18,
+      "unit": "%",
+      "source_ids": ["fictional-start"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "Fictional forecasters expect moderate growth, with disagreement about its pace.",
+      "source_ids": ["fictional-start"]
+    }
+  ],
+  "recent_returns": [
+    {
+      "asset_id": "cash",
+      "three_month": 0.01,
+      "one_year": 0.04,
+      "source_ids": ["fictional-start"]
+    },
+    {
+      "asset_id": "bonds",
+      "three_month": 0.02,
+      "one_year": 0.05,
+      "source_ids": ["fictional-start"]
+    },
+    {
+      "asset_id": "us_total",
+      "three_month": 0.08,
+      "one_year": 0.18,
+      "source_ids": ["fictional-start"]
+    },
+    {
+      "asset_id": "international_ex_us",
+      "three_month": 0.05,
+      "one_year": 0.12,
+      "source_ids": ["fictional-start"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:dev-fictional:acme",
+      "company_name": "Acme Computing",
+      "ticker": "ACME-FAKE",
+      "description": "Fictional computing company drawing attention to its new devices.",
+      "selection_rationale": "Fictional contemporary attention; chosen to exercise development contracts.",
+      "three_month": 0.2,
+      "one_year": 0.7,
+      "source_ids": ["fictional-start"]
+    },
+    {
+      "id": "hot:dev-fictional:telecom",
+      "company_name": "Example Telecom",
+      "ticker": "EXT-FAKE",
+      "description": "Fictional telecom company expanding its network.",
+      "selection_rationale": "Fictional contemporary attention; chosen to exercise development contracts.",
+      "three_month": 0.15,
+      "one_year": 0.4,
+      "source_ids": ["fictional-start"]
+    },
+    {
+      "id": "hot:dev-fictional:retail",
+      "company_name": "Sample Retail",
+      "ticker": "SAM-FAKE",
+      "description": "Fictional retailer opening neighborhood stores.",
+      "selection_rationale": "Fictional contemporary attention; chosen to exercise development contracts.",
+      "three_month": 0.08,
+      "one_year": 0.2,
+      "source_ids": ["fictional-start"]
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term Treasury-style cash equivalent.",
+      "source_ids": ["fictional-start"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to governments and companies.",
+      "source_ids": ["fictional-start"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "A little piece of thousands of US companies.",
+      "source_ids": ["fictional-start"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "A little piece of companies outside the United States.",
+      "source_ids": ["fictional-start"]
+    },
+    {
+      "id": "hot:dev-fictional:acme",
+      "name": "Acme Computing",
+      "description": "Fictional computing company drawing attention to its new devices.",
+      "source_ids": ["fictional-start"]
+    },
+    {
+      "id": "hot:dev-fictional:telecom",
+      "name": "Example Telecom",
+      "description": "Fictional telecom company expanding its network.",
+      "source_ids": ["fictional-start"]
+    },
+    {
+      "id": "hot:dev-fictional:retail",
+      "name": "Sample Retail",
+      "description": "Fictional retailer opening neighborhood stores.",
+      "source_ids": ["fictional-start"]
+    }
+  ]
+}

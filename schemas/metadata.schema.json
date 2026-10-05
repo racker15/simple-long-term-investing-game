@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "type": "object",
+  "required": ["scenario_id", "date", "display_date", "data_kind", "selection"],
+  "properties": {
+    "scenario_id": { "pattern": "^[a-z0-9-]+$", "type": "string" },
+    "date": { "format": "date", "type": "string" },
+    "display_date": { "minLength": 1, "type": "string" },
+    "data_kind": {
+      "anyOf": [
+        { "const": "development_fixture", "type": "string" },
+        { "const": "historical", "type": "string" }
+      ]
+    },
+    "selection": {
+      "anyOf": [
+        {
+          "additionalProperties": false,
+          "type": "object",
+          "required": ["mode", "selection_reason"],
+          "properties": {
+            "mode": { "const": "important", "type": "string" },
+            "selection_reason": { "minLength": 1, "type": "string" }
+          }
+        },
+        {
+          "additionalProperties": false,
+          "type": "object",
+          "required": [
+            "mode",
+            "draw_universe",
+            "random_seed",
+            "draw_index",
+            "method",
+            "exclusions",
+            "replacement_for"
+          ],
+          "properties": {
+            "mode": { "const": "random", "type": "string" },
+            "draw_universe": { "minLength": 1, "type": "string" },
+            "random_seed": { "minLength": 1, "type": "string" },
+            "draw_index": { "minimum": 0, "type": "integer" },
+            "method": { "minLength": 1, "type": "string" },
+            "exclusions": {
+              "type": "array",
+              "items": { "minLength": 1, "type": "string" }
+            },
+            "replacement_for": {
+              "anyOf": [
+                { "type": "null" },
+                { "minLength": 1, "type": "string" }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}
