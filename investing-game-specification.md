@@ -59,7 +59,51 @@ The game may expand to 40–50 prebuilt scenarios later while preserving the app
 ---
 
 
-## 3. Core Game Loop
+
+## 3. Start-of-Game Session Setup
+
+Before the first scenario, ask the player how many scenarios they want to play in this session.
+
+The selector should be simple and child-friendly.
+
+Recommended initial choices:
+
+- **5 scenarios**
+- **10 scenarios** — default
+- **15 scenarios**
+- **20 scenarios**
+
+As the scenario library grows, add larger choices in **increments of five** up to the available unseen scenario pool.
+
+Session lengths should be multiples of five so the game can provide a consistent progress checkpoint after every five scenarios.
+
+### Session composition
+
+Build the session queue before the first scenario begins.
+
+Prefer scenarios the player has not previously completed.
+
+Across the full session, keep the mix of historically important and randomly selected scenarios as close to 50/50 as the chosen session length allows.
+
+For each five-scenario block, a 2/3 or 3/2 important/random split is acceptable. Alternate the imbalance across adjacent blocks when possible so that a 10-scenario session can total 5 important and 5 random.
+
+Do not reveal whether an upcoming scenario came from the “important” or “random” cohort before it is played. That label would itself leak information about how history later judged the date.
+
+### Session framing
+
+Tell the player:
+
+> **You’ll make one long-term investing decision in each historical moment. Every five scenarios, we’ll pause and look at how your decisions and expectations are turning out.**
+
+Do not describe the session as a test.
+
+The player should be able to see simple progress such as:
+
+> **Scenario 3 of 10**
+
+---
+
+## 4. Core Game Loop
 
 Each round has four simple stages.
 
@@ -116,7 +160,7 @@ The experience then explains what people were focused on, what actually mattered
 ---
 
 
-## 4. Historical Date Selection
+## 5. Historical Date Selection
 
 The 24-scenario MVP should contain two distinct date-selection cohorts.
 
@@ -187,7 +231,7 @@ Dates should use a consistent monthly convention. The implementation may use mon
 
 ---
 
-## 5. Screen 1 — “You Are Here”
+## 6. Screen 1 — “You Are Here”
 
 The first screen should feel more like opening a newspaper than opening Bloomberg.
 
@@ -207,7 +251,7 @@ The player may scroll through the historical context before investing, but there
 
 ---
 
-## 6. Historical News Feed
+## 7. Historical News Feed
 
 The historical news feed is the most important atmospheric component.
 
@@ -274,7 +318,7 @@ Stories that later proved irrelevant are desirable because they reinforce the ga
 
 ---
 
-## 7. “The World Right Now”
+## 8. “The World Right Now”
 
 Under the headlines, show a small economic dashboard.
 
@@ -305,7 +349,7 @@ A **More context** affordance may expose extra economic data without cluttering 
 
 ---
 
-## 8. Recent Market Performance
+## 9. Recent Market Performance
 
 Show only recent performance before the player invests.
 
@@ -328,7 +372,7 @@ If the public source available for an older scenario is an imperfect but directi
 
 ---
 
-## 9. “Stocks Everyone Is Talking About”
+## 10. “Stocks Everyone Is Talking About”
 
 Each scenario contains exactly **3 individual hot stocks**.
 
@@ -353,7 +397,7 @@ The individual stocks exist to expose the player to the attraction of concentrat
 
 ---
 
-## 10. Selecting the Three Hot Stocks
+## 11. Selecting the Three Hot Stocks
 
 Hot-stock selection must avoid deliberate hindsight.
 
@@ -396,7 +440,7 @@ The game does not need CRSP-grade delisting accounting.
 
 ---
 
-## 11. Screen 2 — Allocate $10,000
+## 12. Screen 2 — Allocate $10,000
 
 The investment decision should be deliberately simple.
 
@@ -443,7 +487,7 @@ Do not offer a “Global Total” choice that overlaps with US Total Market.
 
 ---
 
-## 12. Allocation Interface
+## 13. Allocation Interface
 
 The interface should resemble a simple allocation exercise, not a brokerage ticket.
 
@@ -491,7 +535,7 @@ The interaction must work well by tap/click on mobile and desktop.
 ---
 
 
-## 13. Prediction and Commit Screen
+## 14. Prediction and Commit Screen
 
 After the allocation is complete, ask exactly one expectation question:
 
@@ -529,7 +573,7 @@ Do not generate a risk score.
 
 ---
 
-## 14. Information Firewall
+## 15. Information Firewall
 
 Each scenario should be stored in two conceptual halves:
 
@@ -565,7 +609,7 @@ This is an **editorial and software leakage control**, not an anti-cheating secu
 ---
 
 
-## 15. Screen 3 — Five-Year Reveal
+## 16. Screen 3 — Five-Year Reveal
 
 After the player commits, reveal the next five years.
 
@@ -613,7 +657,7 @@ Do not pause for trading decisions during the reveal.
 
 ---
 
-## 16. Comparison Lines
+## 17. Comparison Lines
 
 The default chart should show:
 
@@ -648,7 +692,7 @@ not:
 ---
 
 
-## 17. Outcome and Expectation Summary
+## 18. Outcome and Expectation Summary
 
 After the chart path has been revealed, show the ending values.
 
@@ -693,7 +737,7 @@ Do not award coins, points, streaks, grades, or cumulative rewards for beating t
 ---
 
 
-## 18. Historical Events on the Chart
+## 19. Historical Events on the Chart
 
 After the result is revealed, place approximately **3–5 event markers** on the chart.
 
@@ -715,7 +759,7 @@ They exist to give historical context to the path the player just experienced, n
 
 ---
 
-## 19. “What Happened Next?”
+## 20. “What Happened Next?”
 
 Below the graph, include a short, neutral explanation of the five-year period.
 
@@ -734,7 +778,7 @@ The tone should be descriptive rather than prescriptive.
 ---
 
 
-## 20. Reflection
+## 21. Reflection
 
 Do not end each round with a single neat “lesson” that implies the five-year result should have been predictable.
 
@@ -764,59 +808,188 @@ Sometimes the correct reflection is that the popular expectation was broadly rig
 
 ---
 
-## 21. Next Round
 
-Provide only two obvious actions:
+## 22. Between-Scenario Flow and Five-Scenario Checkpoints
 
-- **Try another year**
-- **Replay this year**
+After an ordinary scenario, provide a clear **Next scenario** action.
 
-If replayed, clearly mark:
+After every fifth completed scenario in the current session, pause before continuing and show a **How you are doing** checkpoint scorecard.
 
-> You have already seen this future.
-
-Replays should not count toward first-time behavioral statistics.
-
----
-
-
-## 22. Player History
-
-After several rounds, optionally show behavioral history.
-
-The purpose is reflection on the player's decision patterns and expectations, not measuring skill at beating a benchmark.
+The checkpoint covers only the most recent five-scenario block.
 
 Example:
 
-> Across 12 first-time rounds:
->
-> **Average in individual stocks:** 27%  
-> **Average in broad stock funds:** 48%  
-> **Average in bonds/cash:** 25%
->
-> You correctly picked the eventual best-performing investment in **4 of 12 rounds**.
->
-> In **8 of 12 rounds**, something other than your expected winner finished first.
+> ## How you are doing — Scenarios 1–5
 
-Useful behavioral summaries include:
+### Your decisions
 
-- average allocation to individual stocks;
-- average allocation to broad equity;
-- average allocation to bonds/cash;
-- frequency of concentrated allocations;
-- frequency with which the expected winner actually won;
-- frequency with which the player's portfolio experienced a 20%+ drawdown;
-- frequency of major reversal, such as the apparent leader after one year differing from the five-year leader.
+Show:
 
-Do not make cumulative “beat the US market” performance the primary score or objective.
+- average allocation to broad stock funds;
+- average allocation to the three hot stocks;
+- average allocation to bonds;
+- average allocation to cash;
+- how often the player made a highly concentrated allocation, using a simple predeclared threshold.
 
-Per-scenario benchmark comparisons remain available for context.
+### Your expectations
 
-The purpose is to help the player notice how often confidence, narratives, and short-term appearances diverged from long-term outcomes.
+Show:
+
+- expected winner correctly identified: **2 of 5**;
+- expected winner finished in the bottom half: **2 of 5**;
+- one-year leader differed from five-year winner: **3 of 5**.
+
+### What your portfolios experienced
+
+Show:
+
+- average ending value of the five $10,000 hypothetical portfolios;
+- diversified-benchmark average ending value for the same five scenarios;
+- player portfolio finished above the diversified benchmark: **2 of 5**;
+- portfolio experienced a 20%+ peak-to-trough drawdown: **3 of 5**.
+
+These figures are descriptive, not a grade.
+
+Do not combine them into one numeric score.
+
+### One compact observation
+
+Generate or select one short observation grounded in the block's statistics, for example:
+
+> **Your expectations were more confident than the outcomes:** you picked the eventual winner once, while three of the five apparent leaders changed before year five.
+
+or:
+
+> **This block was unusually straightforward:** the investment leading after year one also won after five years in four of five scenarios.
+
+The observation must not shame the player or pretend that a low prediction hit rate indicates poor judgment.
+
+### Continue or end
+
+If the chosen session length has not been reached, offer:
+
+- **Continue**
+- **End session now**
+
+If the player ends early at a five-scenario checkpoint, show the normal end-of-session scorecard using the completed blocks.
+
+If the session target has been reached, go directly to the end-of-session scorecard.
+
+Replaying a previously completed scenario should not alter first-time session statistics unless the session itself explicitly includes replays.
 
 ---
 
-## 23. Child-Friendly Design
+
+## 23. End-of-Session Scorecard
+
+At the end of the selected session, show a required **How you did** scorecard.
+
+Do not reduce the session to a single score, letter grade, or “beat the market” result.
+
+The scorecard has two levels:
+
+1. **Overall session**
+2. **Each five-scenario sub-session**
+
+### Overall session summary
+
+Show the same core measures used at five-scenario checkpoints, aggregated across the entire session.
+
+#### How you invested
+
+- average allocation to broad stock funds;
+- average allocation to individual hot stocks;
+- average allocation to bonds;
+- average allocation to cash;
+- concentration frequency.
+
+#### What you expected
+
+- number and percentage of scenarios where the expected winner actually won;
+- number where the expected winner finished in the bottom half;
+- number where the year-one leader differed from the five-year winner.
+
+#### What happened to your portfolios
+
+- average five-year ending value;
+- median five-year ending value;
+- average diversified-benchmark ending value;
+- number of scenarios where the player's portfolio finished above the diversified benchmark;
+- number of scenarios with a 20%+ drawdown;
+- largest drawdown experienced in any scenario.
+
+#### Important vs. random history
+
+After the entire session is over, reveal which scenarios came from the historically important cohort and which came from the random cohort.
+
+Summarize the two groups separately where sample size is large enough to be meaningful.
+
+Useful comparisons include:
+
+- prediction hit rate;
+- average ending portfolio value;
+- benchmark-beating frequency;
+- leader-reversal frequency;
+- drawdown frequency.
+
+The purpose is to show that an ordinary-looking date can produce surprising outcomes and that a historically famous date was not necessarily easier to predict while living through it.
+
+Do not over-interpret differences from small samples.
+
+### Five-scenario block scorecards
+
+Below the overall summary, show one compact card for every completed five-scenario block:
+
+> **Scenarios 1–5**  
+> Winner predictions: 2/5  
+> Avg. hot-stock allocation: 31%  
+> Avg. ending value: $12,140  
+> Above diversified benchmark: 2/5  
+> 20%+ drawdowns: 3/5  
+> Leader changed by year five: 3/5
+
+> **Scenarios 6–10**  
+> Winner predictions: 1/5  
+> Avg. hot-stock allocation: 18%  
+> Avg. ending value: $13,020  
+> Above diversified benchmark: 3/5  
+> 20%+ drawdowns: 2/5  
+> Leader changed by year five: 4/5
+
+This lets the player compare how their behavior and outcomes changed across the session without implying that later blocks are necessarily “better.”
+
+### End-of-session synthesis
+
+Finish with a short synthesis based on the player's actual session data.
+
+Good examples:
+
+> **The future was hard to rank:** your expected winner was correct in 3 of 10 scenarios, and the investment leading after one year changed by year five in 6 of 10.
+
+> **Your allocations became less concentrated over the session, but both concentrated and diversified choices sometimes worked.**
+
+Avoid generic praise and avoid statements such as “you should have known.”
+
+### Persistent player history
+
+Outside an active session, the game may also maintain cumulative history across sessions.
+
+Keep cumulative history secondary to the current session scorecard.
+
+Useful cumulative measures include:
+
+- scenarios completed;
+- average allocation by asset category;
+- prediction hit rate;
+- concentration frequency;
+- drawdown frequency;
+- leader-reversal frequency.
+
+Do not make cumulative benchmark outperformance the primary score or objective.
+
+---
+
+## 24. Child-Friendly Design
 
 The game should be understandable by approximately a **10–12-year-old** without looking childish.
 
@@ -862,7 +1035,7 @@ The visual language should be closer to a **museum exhibit or interactive newspa
 
 ---
 
-## 24. Data Philosophy
+## 25. Data Philosophy
 
 The game optimizes for **historical authenticity, transparency, and educational usefulness**, not institutional backtest perfection.
 
@@ -901,7 +1074,7 @@ Every scenario should retain enough metadata to answer:
 
 ---
 
-## 25. Preferred Public Source Families
+## 26. Preferred Public Source Families
 
 The implementation may change sources over time, but the preferred starting points are:
 
@@ -952,7 +1125,7 @@ A stock is eligible only when the project can build a sufficiently coherent pre-
 
 ---
 
-## 26. Data Integrity Rules
+## 27. Data Integrity Rules
 
 ### No intentional future leakage
 
@@ -991,7 +1164,7 @@ Generated scenario files should be deterministic once curated source inputs and 
 ---
 
 
-## 27. MVP Scope
+## 28. MVP Scope
 
 Build **24 prebuilt scenarios**.
 
@@ -1040,7 +1213,7 @@ The desired lesson is that the outcome was uncertain at the time—including cas
 
 ---
 
-## 28. Explicit Non-Goals
+## 29. Explicit Non-Goals
 
 The MVP should not contain:
 
@@ -1064,7 +1237,7 @@ The scarcity of decisions is a feature.
 ---
 
 
-## 29. Product Principle
+## 30. Product Principle
 
 Every proposed feature should pass this test:
 
