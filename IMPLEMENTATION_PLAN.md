@@ -29,6 +29,7 @@ Do not optimize the scenario set to prove that hot stocks lose, that indexes alw
 
 ---
 
+
 ## 2. High-Level Architecture
 
 Use a static-scenario architecture.
@@ -39,22 +40,27 @@ A research pipeline collects, normalizes, and curates historical data into versi
 
 ### Runtime web app
 
-The web app loads prebuilt scenario data and performs only:
+The web app loads prebuilt scenario data and performs:
 
-- allocation interaction
-- portfolio math
-- chart rendering
-- reveal sequencing
-- local player-history tracking
+- start-of-session scenario-count selection;
+- session-queue construction;
+- allocation interaction;
+- expected-winner capture;
+- portfolio math;
+- chart rendering;
+- reveal sequencing;
+- five-scenario checkpoint aggregation;
+- end-of-session scorecard aggregation;
+- local player-history tracking.
 
 The runtime app should not need:
 
-- a brokerage API
-- a market-data API
-- live web access
-- an LLM
-- dynamic article retrieval
-- arbitrary-date reconstruction
+- a brokerage API;
+- a market-data API;
+- live web access;
+- an LLM;
+- dynamic article retrieval;
+- arbitrary-date reconstruction.
 
 This keeps the user experience fast and makes scenarios reviewable.
 
@@ -773,13 +779,138 @@ Reject or revise scenarios for weak research, poor data, hindsight leakage, or d
 ---
 
 
-## 14. UI Implementation Phases
 
-### Phase 1 — Static scenario viewer
+## 14. Session State and Scorecard Model
+
+Treat a play session as an explicit runtime object.
+
+Suggested shape:
+
+```ts
+type Session = {
+  sessionId: string;
+  targetScenarioCount: number;
+  scenarioIds: string[];
+  currentIndex: number;
+  completed: ScenarioResult[];
+  startedAt: string;
+  endedAt?: string;
+};
+```
+
+Each first-time scenario result should retain enough derived state to reproduce checkpoint and final scorecards:
+
+```ts
+type ScenarioResult = {
+  scenarioId: string;
+  selectionMode: "important" | "random";
+  allocations: Record<string, number>;
+  expectedWinner: string;
+  actualWinner: string;
+  expectedWinnerRank: number;
+  endingPortfolioValue: number;
+  endingBenchmarkValue: number;
+  maxDrawdown: number;
+  yearOneLeader: string;
+  yearFiveLeader: string;
+};
+```
+
+### Session-count selector
+
+Before a session begins, offer scenario counts in multiples of five.
+
+Initial choices:
+
+- 5
+- 10
+- 15
+- 20
+
+Default to 10.
+
+As the library expands, expose additional multiples of five up to the usable unseen-scenario pool.
+
+### Session queue construction
+
+Construct the full session queue before scenario 1.
+
+Rules:
+
+- prefer unplayed scenarios;
+- avoid duplicates within a session;
+- keep important/random cohort mix as close to 50/50 as the session length permits;
+- within each five-scenario block, use a 2/3 or 3/2 cohort split when possible;
+- alternate the imbalance between adjacent blocks when possible;
+- randomize presentation order;
+- do **not** expose `selectionMode` to the player until the final scorecard.
+
+### Checkpoint aggregation
+
+After scenarios 5, 10, 15, and so on, compute statistics for exactly the most recent five first-time scenarios.
+
+Required block metrics:
+
+- average allocation to broad equities;
+- average allocation to hot stocks;
+- average allocation to bonds;
+- average allocation to cash;
+- concentration frequency;
+- expected-winner hit count;
+- expected-winner bottom-half count;
+- year-one versus year-five leader-reversal count;
+- average ending portfolio value;
+- average diversified-benchmark ending value;
+- benchmark-beating count;
+- 20%+ drawdown count;
+- largest drawdown in the block.
+
+The checkpoint may derive one short explanatory observation from deterministic rules or from a small set of templates. An LLM is not required at runtime.
+
+### End-of-session aggregation
+
+At normal session completion, compute:
+
+- all checkpoint metrics across the full session;
+- median ending portfolio value;
+- largest session drawdown;
+- overall prediction hit rate;
+- overall leader-reversal frequency;
+- separate important-versus-random cohort summaries where sample sizes permit;
+- one compact record for each five-scenario block.
+
+The final UI must show both:
+
+1. overall session summary;
+2. each five-scenario block summary.
+
+### Early ending
+
+Allow **End session now** only at a five-scenario checkpoint.
+
+This guarantees that every completed session is composed of whole five-scenario blocks and always has comparable block scorecards.
+
+### Persistence
+
+Persist active-session state locally so an accidental refresh does not lose progress.
+
+Persist completed session summaries separately from cumulative lifetime history.
+
+Replays outside the active first-time queue do not modify completed session statistics.
+
+---
+
+
+## 15. UI Implementation Phases
+
+### Phase 1 — Session setup and static scenario viewer
 
 Build:
 
-- scenario selection;
+- start-of-session scenario-count selector;
+- session progress indicator;
+- deterministic session-queue constructor;
+- scenario selection/loading;
 - date header;
 - news feed;
 - macro dashboard;
@@ -844,10 +975,36 @@ Add:
 - What faded away
 - What nobody knew
 
-### Phase 7 — Player history
+### Phase 7 — Five-scenario checkpoint scorecard
+
+Build the required checkpoint shown after every five completed scenarios.
+
+Display:
+
+- allocation behavior;
+- expectation accuracy;
+- leader reversals;
+- average portfolio and benchmark outcomes;
+- benchmark-beating count;
+- drawdown frequency;
+- one compact block observation;
+- Continue or End session now.
+
+### Phase 8 — End-of-session scorecard
+
+Build:
+
+- overall session summary;
+- important-versus-random comparison;
+- one card for each five-scenario block;
+- data-grounded session synthesis;
+- start-new-session action.
+
+### Phase 9 — Persistent player history
 
 Use local browser storage for:
 
+- sessions played;
 - scenarios played;
 - first-time allocations;
 - expected winners;
@@ -862,8 +1019,7 @@ Do not make cumulative benchmark outperformance the primary player score.
 
 ---
 
-
-## 15. Initial Scenario Set
+## 16. Initial Scenario Set
 
 Start with a smaller qualification batch before building all 24.
 
@@ -907,7 +1063,7 @@ A random pilot does not fail qualification merely because its future is uneventf
 ---
 
 
-## 16. Suggested First Six Engineering Milestones
+## 17. Suggested First Six Engineering Milestones
 
 ### M1 — Repository and schema foundation
 
@@ -967,7 +1123,7 @@ Scale to 12 important + 12 random only after the pipeline, schema, and education
 
 ---
 
-## 17. Codex / ChatGPT Work Split
+## 18. Codex / ChatGPT Work Split
 
 ### Codex should own
 
@@ -1000,7 +1156,7 @@ Numerical values must come from explicit source material or deterministic derive
 
 ---
 
-## 18. Source Caching and Reproducibility
+## 19. Source Caching and Reproducibility
 
 Public websites and APIs can change.
 
@@ -1024,7 +1180,7 @@ Scenario builds should not silently change when upstream sources change.
 ---
 
 
-## 19. CI Checks
+## 20. CI Checks
 
 Add CI that validates every committed scenario.
 
@@ -1059,7 +1215,8 @@ CI cannot prove absence of editorial hindsight, so the random-date draw log and 
 ---
 
 
-## 20. Acceptance Criteria for MVP
+
+## 21. Acceptance Criteria for MVP
 
 The MVP is complete when:
 
@@ -1071,6 +1228,11 @@ The MVP is complete when:
 - each has approximately six macro/context indicators;
 - each has recent broad-market performance;
 - each has exactly three hot stocks selected without using future desirability;
+- the player chooses a session length before play;
+- available session lengths are multiples of five;
+- the initial selector supports at least 5, 10, 15, and 20 scenarios;
+- the full session queue is constructed before scenario 1;
+- session composition is approximately balanced between important and random scenarios without exposing that classification during play;
 - the player can allocate exactly $10,000 in $500 increments;
 - the player makes exactly one expected-winner prediction before reveal;
 - each round locks the allocation and prediction;
@@ -1084,13 +1246,21 @@ The MVP is complete when:
 - event annotations avoid unsupported causal claims;
 - each scenario includes “What happened next?”;
 - each scenario includes the four reflection categories: focused on, mattered, faded away, nobody knew;
+- a **How you are doing** checkpoint appears after every five scenarios;
+- each checkpoint summarizes exactly that five-scenario block;
+- checkpoints allow continuing or ending the session at the block boundary;
+- session completion shows a required **How you did** scorecard;
+- the final scorecard shows both overall-session metrics and each five-scenario block;
+- the final scorecard reveals and compares important-versus-random scenarios without over-interpreting small samples;
+- no scorecard reduces performance to a single numeric grade or leaderboard score;
+- active-session state survives a normal browser refresh;
 - no pre-investment content intentionally uses post-date information;
 - all material scenario inputs retain source provenance;
 - cumulative player history emphasizes behavior and expectation accuracy rather than benchmark-beating as a score.
 
 ---
 
-## 21. Non-Goals for Implementation
+## 22. Non-Goals for Implementation
 
 Do not spend MVP effort on:
 
@@ -1112,7 +1282,7 @@ Do not spend MVP effort on:
 
 ---
 
-## 22. Guiding Engineering Principle
+## 23. Guiding Engineering Principle
 
 Prefer the **simplest reproducible historical representation that preserves the educational lesson**.
 
