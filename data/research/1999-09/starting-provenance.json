@@ -1,0 +1,183 @@
+{
+  "scenario_id": "1999-09",
+  "sources": [
+    {
+      "id": "bls-cpi-aug",
+      "source_name": "BLS: CPI August 1999 release",
+      "source_reference": "https://www.bls.gov/news.release/history/cpi_09151999.txt",
+      "publication_date": "1999-09-15",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original release, CPI-U all items, unadjusted 12-month change 2.3%. September CPI was released after cutoff and is excluded.",
+      "observation_date": "1999-08-31"
+    },
+    {
+      "id": "bls-jobs-aug",
+      "source_name": "BLS: Employment Situation August 1999",
+      "source_reference": "https://www.bls.gov/news.release/history/empsit_09031999.txt",
+      "publication_date": "1999-09-03",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original release, seasonally adjusted civilian unemployment rate 4.2%. September employment report is excluded.",
+      "observation_date": "1999-08-31"
+    },
+    {
+      "id": "fomc-aug",
+      "source_name": "Federal Reserve FOMC announcement",
+      "source_reference": "https://www.federalreserve.gov/boarddocs/press/general/1999/19990824/",
+      "publication_date": "1999-08-24",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Federal funds target raised 25 basis points to 5.25%; policy rate, not monthly effective-rate average.",
+      "observation_date": "1999-08-24"
+    },
+    {
+      "id": "h15-sep27",
+      "source_name": "Federal Reserve H.15 release",
+      "source_reference": "https://www.federalreserve.gov/releases/h15/19990927/",
+      "publication_date": "1999-09-27",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Ten-year constant-maturity Treasury yield, weekly average ending September 24: 5.88%. Use this dated release instead of a retrospectively downloaded September monthly average.",
+      "observation_date": "1999-09-24"
+    },
+    {
+      "id": "confidence-sep",
+      "source_name": "AP via CBS: September consumer confidence",
+      "source_reference": "https://www.cbsnews.com/news/big-ticket-orders-rise-in-aug/",
+      "publication_date": "1999-09-29",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "September Conference Board survey, 1985=100. AP reports the release issued the previous day. Survey observation is represented by release day, not calendar month-end.",
+      "observation_date": "1999-09-28"
+    },
+    {
+      "id": "spf-q2-summary",
+      "source_name": "University of Wisconsin Internet Scout: Philadelphia Fed SPF Q2 summary",
+      "source_reference": "https://scout.wisc.edu/report/be/1999/0826",
+      "publication_date": "1999-08-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Secondary contemporary summary explicitly says the Q2 SPF survey of 37 forecasters estimated up to 3.9 percent growth in 1999. Older survey; not a Q3 median, annualized quarter forecast, or recession probability. Original report: https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/1999/spfq299.pdf?la=en. Primary PDF could not be inspected under current network policy, so this narrower secondary wording is preserved."
+    },
+    {
+      "id": "msft-antitrust",
+      "source_name": "CNNfn: Microsoft trial closing arguments",
+      "source_reference": "https://money.cnn.com/1999/09/21/technology/microsoft/",
+      "publication_date": "1999-09-21",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporaneous public archive. Short factual summary; no article text redistributed."
+    },
+    {
+      "id": "cisco-optical",
+      "source_name": "Cisco announcement: Cerent and Monterey agreements",
+      "source_reference": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y1999/m08/cisco-systems-to-acquire-cerent-corporation-and-monterey-networks-for-combined-7-4-billion.html",
+      "publication_date": "1999-08-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporaneous public archive. Short factual summary; no article text redistributed."
+    },
+    {
+      "id": "amazon-zshops",
+      "source_name": "Amazon public press release: zShops",
+      "source_reference": "https://press.aboutamazon.com/1999/9/amazon-com-launches-three-innovations-to-advance-e-commerce-for-shoppers-sellers",
+      "publication_date": "1999-09-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Page header says September 29, but release dateline says September 30. Conservatively use September 30; both precede or equal cutoff. Company description reflects its retail and merchant services then."
+    },
+    {
+      "id": "wired-sep11",
+      "source_name": "WIRED: weekly news digest, September 11",
+      "source_reference": "https://www.wired.com/1999/09/wired-news-week-3/",
+      "publication_date": "1999-09-11",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporaneous public archive. Short factual summary; no article text redistributed."
+    },
+    {
+      "id": "wired-sep18",
+      "source_name": "WIRED: weekly news digest, September 18",
+      "source_reference": "https://www.wired.com/1999/09/the-wired-news-week-32/",
+      "publication_date": "1999-09-18",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporaneous public archive. Short factual summary; no article text redistributed."
+    },
+    {
+      "id": "wired-sep4",
+      "source_name": "WIRED: weekly news digest, September 4",
+      "source_reference": "https://www.wired.com/1999/09/wired-news-week-2/",
+      "publication_date": "1999-09-04",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporaneous public archive. Short factual summary; no article text redistributed."
+    },
+    {
+      "id": "timor-refugees",
+      "source_name": "Inter Press Service: East Timor refugee crisis",
+      "source_reference": "https://www.ipsnews.net/1999/09/east-timor-refugee-crisis-militia-activity-far-from-over/",
+      "publication_date": "1999-09-22",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporaneous public archive. Short factual summary; no article text redistributed."
+    },
+    {
+      "id": "floyd",
+      "source_name": "AP via CBS: Floyd on Virginia coast",
+      "source_reference": "https://www.cbsnews.com/news/floyd-batters-virginia-coast/",
+      "publication_date": "1999-09-16",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporaneous public archive. Short factual summary; no article text redistributed."
+    },
+    {
+      "id": "serena",
+      "source_name": "AP via CBS: US Open championship",
+      "source_reference": "https://www.cbsnews.com/news/serena-wins-us-open-title/",
+      "publication_date": "1999-09-11",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporaneous public archive. Short factual summary; no article text redistributed."
+    },
+    {
+      "id": "dreamcast",
+      "source_name": "WIRED: Dreamcast launch",
+      "source_reference": "https://www.wired.com/1999/09/dreamcast-rocks-around-the-clock/",
+      "publication_date": "1999-09-09",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporaneous public archive. Short factual summary; no article text redistributed."
+    },
+    {
+      "id": "intel-network",
+      "source_name": "CNNfn: Intel communications initiative",
+      "source_reference": "https://money.cnn.com/1999/09/01/technology/intel/",
+      "publication_date": "1999-09-01",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporaneous public archive. Short factual summary; no article text redistributed."
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Month-end observable market inputs: reconstructed broad proxies",
+      "source_reference": "data/normalized/broad-assets/sources.json; https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html; https://www.federalreserve.gov/releases/h15/19990927/",
+      "publication_date": "1999-09-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Modeled availability date for underlying prices, dividends, and daily Treasury yields through the cutoff close. NOT the publication date of the French/FRED archives or these calculated proxy returns. Current reconstructed French history (US/RF 2026, international 2025) and GS5 history are used for consistent trailing/future estimates. Month-end aggregates and synthetic bond values are approximations available conceptually from then-observable inputs; exact 1999 vintage replication is not claimed. Actual snapshots, retrieval URLs, SHA256s and transformations are in the referenced manifest. No future observations enter trailing compounding.",
+      "observation_date": "1999-09-30"
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Month-end observable stock prices: reconstructed adjusted-return estimates",
+      "source_reference": "data/normalized/stocks/sources.json; https://finance.yahoo.com/",
+      "publication_date": "1999-09-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Modeled availability date for underlying daily closes and then-effective splits/dividends through cutoff; NOT the publication date of the 2016 Yahoo CSV snapshot. Ratios of retrospectively adjusted closes estimate then-observable total returns; later common scale adjustments cancel in ratios. Actual snapshot date, revision-pinned public mirror, raw SHA256s and provider chain are separately recorded. No future monthly return calculation occurs in the starting build. Six-decimal source rounding is retained.",
+      "observation_date": "1999-09-30"
+    }
+  ]
+}

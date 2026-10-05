@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "scenario_id": "1999-09",
+    "date": "1999-09-30",
+    "display_date": "September 30, 1999",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "important",
+      "selection_reason": "An important-date pilot near the end of the 1990s expansion, with strong public attention to software, Internet infrastructure, online retail, and the coming year 2000. Not a random draw."
+    }
+  },
+  "headlines": [
+    {
+      "headline": "The Fed raises its policy rate",
+      "category": "Economy",
+      "summary": "The Federal Reserve lifts its federal funds target to 5.25%, citing strong demand and tight labor markets.",
+      "selection_note": "Shows the policy debate surrounding an ongoing expansion.",
+      "source_ids": ["fomc-aug"]
+    },
+    {
+      "headline": "Microsoft and the government make closing arguments",
+      "category": "Business",
+      "summary": "The antitrust trial reaches closing arguments. Microsoft describes itself as a tough but fair competitor; government lawyers challenge its conduct.",
+      "selection_note": "Prominent unresolved legal issue affecting a major software company; no later ruling is described.",
+      "source_ids": ["msft-antitrust"]
+    },
+    {
+      "headline": "Amazon opens zShops to outside merchants",
+      "category": "Business",
+      "summary": "Amazon introduces a way for other sellers to offer goods on its site, alongside new payment and shopping search services.",
+      "selection_note": "Retail product expansion is salient on the cutoff date; no future success is assumed.",
+      "source_ids": ["amazon-zshops"]
+    },
+    {
+      "headline": "Refugees remain at risk in East Timor",
+      "category": "Global news",
+      "summary": "International troops consolidate their presence in Dili while displaced people and militia activity remain urgent concerns following the independence vote.",
+      "selection_note": "Include a major international humanitarian story outside financial-market coverage.",
+      "source_ids": ["timor-refugees"]
+    },
+    {
+      "headline": "Floyd brings flooding and power outages",
+      "category": "US news",
+      "summary": "The storm floods highways and interrupts power along the Virginia coast.",
+      "selection_note": "Reflects immediate everyday concerns, without assigning it a five-year market effect.",
+      "source_ids": ["floyd"]
+    },
+    {
+      "headline": "Utilities rehearse for the year 2000",
+      "category": "Technology",
+      "summary": "A September 9 power-grid exercise tests preparations for the date change. Officials and programmers continue debating the risks of computer failures.",
+      "selection_note": "Contemporary operational concern; summarize preparations without knowing the eventual rollover result.",
+      "source_ids": ["wired-sep11"]
+    },
+    {
+      "headline": "Dreamcast arrives amid gaming excitement",
+      "category": "Culture",
+      "summary": "Sega launches its new game console in the United States, drawing attention from players eager to try the new system.",
+      "selection_note": "Consumer entertainment with limited direct relevance to the offered investments.",
+      "source_ids": ["dreamcast"]
+    },
+    {
+      "headline": "Serena Williams wins the US Open",
+      "category": "Sports",
+      "summary": "At 17, Williams beats Martina Hingis to win her first Grand Slam title.",
+      "selection_note": "A prominent sporting moment, not selected for later investment relevance.",
+      "source_ids": ["serena"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Inflation: August CPI, 12-month change",
+      "value": 2.3,
+      "unit": "%",
+      "source_ids": ["bls-cpi-aug"]
+    },
+    {
+      "label": "Unemployment: August, seasonally adjusted",
+      "value": 4.2,
+      "unit": "%",
+      "source_ids": ["bls-jobs-aug"]
+    },
+    {
+      "label": "Federal funds target",
+      "value": 5.25,
+      "unit": "%",
+      "source_ids": ["fomc-aug"]
+    },
+    {
+      "label": "10-year Treasury yield: week to Sep 24",
+      "value": 5.88,
+      "unit": "%",
+      "source_ids": ["h15-sep27"]
+    },
+    {
+      "label": "September consumer confidence",
+      "value": 134.2,
+      "unit": "index (1985 = 100)",
+      "source_ids": ["confidence-sep"]
+    },
+    {
+      "label": "1999 growth outlook: Q2 SPF summary, up to",
+      "value": 3.9,
+      "unit": "%",
+      "source_ids": ["spf-q2-summary"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "An August summary of the Philadelphia Fed\u2019s second-quarter survey reports that 37 professional forecasters estimated up to 3.9% growth in 1999. This is an older growth outlook, not a probability of recession.",
+      "source_ids": ["spf-q2-summary"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:1999-09:microsoft",
+      "company_name": "Microsoft",
+      "ticker": "MSFT",
+      "description": "A major personal-computer software company, facing a federal antitrust trial.",
+      "selection_rationale": "Selected for sustained software prominence and the September 21 closing arguments, before processing any future returns.",
+      "source_ids": ["msft-antitrust", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1999-09:cisco",
+      "company_name": "Cisco Systems",
+      "ticker": "CSCO",
+      "description": "A networking equipment supplier expanding into optical transport for data, voice, and video networks.",
+      "selection_rationale": "Selected for the publicly announced $7.4 billion Cerent/Monterey agreements and Internet infrastructure attention, before processing any future returns.",
+      "source_ids": ["cisco-optical", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1999-09:amazon",
+      "company_name": "Amazon.com",
+      "ticker": "AMZN",
+      "description": "An online retailer expanding its site to include merchandise offered by outside sellers.",
+      "selection_rationale": "Selected for the contemporary zShops announcement and online retail attention, before processing any future returns.",
+      "source_ids": ["amazon-zshops", "asof-stock-prices"]
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term Treasury cash equivalent, represented by the French monthly risk-free return.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "An intermediate US Treasury proxy, modeled from five-year yields; excludes corporate credit exposure.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "A broad US equity market proxy, including dividends; represents US stocks.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Developed non-US equity proxy: EAFE plus Canada, including dividends in US dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:1999-09:microsoft",
+      "name": "Microsoft",
+      "description": "A major personal-computer software company, facing a federal antitrust trial.",
+      "source_ids": ["msft-antitrust", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1999-09:cisco",
+      "name": "Cisco Systems",
+      "description": "A networking equipment supplier expanding into optical transport for data, voice, and video networks.",
+      "source_ids": ["cisco-optical", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1999-09:amazon",
+      "name": "Amazon.com",
+      "description": "An online retailer expanding its site to include merchandise offered by outside sellers.",
+      "source_ids": ["amazon-zshops", "asof-stock-prices"]
+    }
+  ]
+}
