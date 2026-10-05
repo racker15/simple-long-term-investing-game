@@ -18,6 +18,8 @@ export function monthIndex(month: string): number {
 }
 
 export function shiftMonth(month: string, offset: number): string {
+  if (!Number.isInteger(offset))
+    throw new Error('Month offset must be an integer');
   const index = monthIndex(month) + offset;
   return `${Math.floor(index / 12)
     .toString()
@@ -137,22 +139,18 @@ export function treasuryProxy(
 
 export function treasuryReturns(yields: MonthlyValue[]): MonthlyReturn[] {
   assertMonthlyValues(yields);
-  return yields
-    .slice(1)
-    .map((row, i) => ({
-      month: row.month,
-      return: treasuryProxy(yields[i].value, row.value),
-    }));
+  return yields.slice(1).map((row, i) => ({
+    month: row.month,
+    return: treasuryProxy(yields[i].value, row.value),
+  }));
 }
 
 export function adjustedPriceReturns(prices: MonthlyValue[]): MonthlyReturn[] {
   assertMonthlyValues(prices);
   if (prices.some((row) => row.value <= 0))
     throw new Error('Adjusted prices must be positive');
-  return prices
-    .slice(1)
-    .map((row, i) => ({
-      month: row.month,
-      return: row.value / prices[i].value - 1,
-    }));
+  return prices.slice(1).map((row, i) => ({
+    month: row.month,
+    return: row.value / prices[i].value - 1,
+  }));
 }

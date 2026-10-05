@@ -1,4 +1,4 @@
-import { readFile } from 'node:fs/promises';
+import { access, readFile } from 'node:fs/promises';
 import {
   BROAD_ASSET_IDS,
   type KnownAtStart,
@@ -87,6 +87,14 @@ export async function assertStartingLock() {
 }
 
 if (process.argv[1]?.endsWith('/build/historical.ts')) {
+  if (process.argv.includes('--lock')) {
+    const hasOutcomes = await access(`${SCENARIO}/future_outcomes.json`).then(
+      () => true,
+      () => false,
+    );
+    if (hasOutcomes)
+      throw new Error('Cannot relock starting context after outcomes exist');
+  }
   const [inputs, broad, stocks, provenance] = await Promise.all([
     readJson<StartingInputs>(`${RESEARCH}/starting-inputs.json`),
     readJson<BroadDataset>('data/normalized/broad-assets/monthly-returns.json'),

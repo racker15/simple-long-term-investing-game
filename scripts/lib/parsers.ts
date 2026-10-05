@@ -118,9 +118,16 @@ export function parseYahooDailyCsv(
       (row) => row.date.slice(0, 7) >= start && row.date.slice(0, 7) <= end,
     )
     .sort((a, b) => a.date.localeCompare(b.date));
-  const months = new Map<string, number>();
-  for (const row of rows) months.set(row.date.slice(0, 7), row.value);
-  const prices = [...months].map(([month, value]) => ({ month, value }));
+  const months = new Map<string, { date: string; value: number }>();
+  for (const row of rows) months.set(row.date.slice(0, 7), row);
+  const prices = [...months].map(([month, row]) => {
+    const monthEnd = new Date(
+      Date.UTC(Number(month.slice(0, 4)), Number(month.slice(5)), 0),
+    ).getUTCDate();
+    if (monthEnd - Number(row.date.slice(8)) > 4)
+      throw new Error(`Stale month-end observation for ${symbol} at ${month}`);
+    return { month, value: row.value };
+  });
   assertMonthlyValues(prices);
   if (
     prices[0].month !== start ||

@@ -1,0 +1,79 @@
+{
+  "scenario_id": "1999-09",
+  "events": [
+    {
+      "month": "2000-01",
+      "title": "The millennium rollover causes limited disruption",
+      "description": "The GAO reports limited disruptions following extensive preparation, while documenting some errors and their resolution.",
+      "source_ids": ["gao-y2k"]
+    },
+    {
+      "month": "2000-03",
+      "title": "The Nasdaq reaches its technology-boom peak",
+      "description": "The Nasdaq Composite reaches a closing peak on March 10. Its later decline makes this a turning point in retrospect, not a signal available at the starting date.",
+      "source_ids": ["nasdaq-retrospective"]
+    },
+    {
+      "month": "2001-09",
+      "title": "September 11 attacks disrupt the United States",
+      "description": "Attacks in New York and Washington are followed by a four-day equity trading halt. Markets reopen on September 17 amid central-bank responses.",
+      "source_ids": ["september-attacks"]
+    },
+    {
+      "month": "2001-11",
+      "title": "The NBER announces a recession",
+      "description": "The committee identifies March 2001 as the end of the long expansion. Business-cycle dating is retrospective; the turning point was not officially known in March.",
+      "source_ids": ["nber-peak"]
+    },
+    {
+      "month": "2004-06",
+      "title": "The Fed begins raising its policy target",
+      "description": "The Federal Reserve raises its federal funds target from 1% to 1.25%, describing solid economic expansion.",
+      "source_ids": ["fomc-jun04"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "September 1999 did not mark an immediate end to technology enthusiasm. The Nasdaq Composite continued rising and reached its closing peak in March 2000. Its subsequent decline unfolded over several years, with sharp rallies along the way. A compelling business theme and a rising share price did not settle what an investment would earn over a particular five-year window. The United States also moved from expansion into recession. In November 2001, the NBER identified a business-cycle peak in March; it later dated the trough to November 2001. Those dates were determined retrospectively. The September 11 attacks caused immense human loss and disrupted markets while the economy was already weakening. By June 2004, the Fed was raising its policy target from 1% as output expanded. In this scenario\u2019s reconstructed return data, the US and developed non-US equity proxies finish near their starting values after substantial fluctuations. Cash earns a modest cumulative return, and the intermediate Treasury proxy gains more. All three selected stocks finish below their September 1999 starting values, despite very different paths. These are results for this window and these proxies, rather than a general ranking of investment strategies. The millennium change produced limited disruption after extensive preparation. Many immediate headlines receded, while uncertainty about businesses, valuations, and the economy remained.",
+    "source_ids": [
+      "gao-y2k",
+      "nasdaq-retrospective",
+      "september-attacks",
+      "nber-peak",
+      "nber-trough",
+      "fomc-jun04",
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-msft",
+      "yahoo-csco",
+      "yahoo-amzn"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "People were following software competition, expanding Internet businesses, the approaching year 2000, global crises, storms, and entertainment. The sporting and gaming stories were part of that moment too.",
+    "what_actually_mattered": "For these investments, the price paid, the sequence of monthly returns, and exposure to individual companies versus diversified assets shaped the result. Economic contraction and changing interest rates formed part of the environment; the event markers do not isolate their effects.",
+    "what_faded_away": "The immediate rollover deadline passed with limited disruption after substantial preparation. Daily product and sporting headlines gave way to new concerns. Their prominence in September did not make them reliable five-year return forecasts.",
+    "what_nobody_knew": "The timing and depth of the market decline, the attacks of September 11, and each investment\u2019s recovery path were unavailable to a September 1999 decision maker. Even the recession\u2019s turning points were identified later. Contemporary attention was understandable; certainty about future rankings was not available.",
+    "source_ids": [
+      "gao-y2k",
+      "nasdaq-retrospective",
+      "september-attacks",
+      "nber-peak",
+      "nber-trough",
+      "fomc-jun04",
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-msft",
+      "yahoo-csco",
+      "yahoo-amzn",
+      "dreamcast",
+      "serena",
+      "wired-sep11",
+      "msft-antitrust",
+      "amazon-zshops",
+      "timor-refugees",
+      "floyd"
+    ]
+  }
+}
