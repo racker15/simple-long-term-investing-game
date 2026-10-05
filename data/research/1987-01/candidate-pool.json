@@ -1,0 +1,646 @@
+{
+  "scenario_id": "1987-01",
+  "cutoff": "1987-01-31",
+  "method": "Dated contemporary issue and original release evidence in docs/early-starting-research.md; editorial attention and breadth before future outcomes. Magazine discovery pool is not exhaustive or probability sampled.",
+  "news_candidates": [
+    {
+      "id": "news-963149",
+      "headline": "Aviation return",
+      "category": "US news",
+      "publication_date": "1987-01-05",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963149,00.html",
+      "source_ids": ["time-index19870105"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963151",
+      "headline": "Law enforcement andwar",
+      "category": "US news",
+      "publication_date": "1987-01-05",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963151,00.html",
+      "source_ids": ["time-index19870105"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963152",
+      "headline": "Roots of poverty",
+      "category": "society",
+      "publication_date": "1987-01-05",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963152,00.html",
+      "source_ids": ["time-index19870105"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963153",
+      "headline": "Catastrophichealth coverage proposal",
+      "category": "health",
+      "publication_date": "1987-01-05",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963153,00.html",
+      "source_ids": ["time-index19870105"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963160",
+      "headline": "Howard Beach racial violence",
+      "category": "US news",
+      "publication_date": "1987-01-05",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963160,00.html",
+      "source_ids": ["time-index19870105"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963166",
+      "headline": "Iran Contra developments",
+      "category": "politics",
+      "publication_date": "1987-01-05",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963166,00.html",
+      "source_ids": ["time-index19870105"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963161",
+      "headline": "Chinese student protests",
+      "category": "world",
+      "publication_date": "1987-01-05",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963161,00.html",
+      "source_ids": ["time-index19870105"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963165",
+      "headline": "Gorbachev foreignpolicy",
+      "category": "world",
+      "publication_date": "1987-01-05",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963165,00.html",
+      "source_ids": ["time-index19870105"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963189",
+      "headline": "Chad conflict",
+      "category": "world",
+      "publication_date": "1987-01-05",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963189,00.html",
+      "source_ids": ["time-index19870105"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963179",
+      "headline": "Food tastes",
+      "category": "food",
+      "publication_date": "1987-01-05",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963179,00.html",
+      "source_ids": ["time-index19870105"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963170",
+      "headline": "Sports year in review",
+      "category": "sports",
+      "publication_date": "1987-01-05",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963170,00.html",
+      "source_ids": ["time-index19870105"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963158",
+      "headline": "Music year in review",
+      "category": "culture",
+      "publication_date": "1987-01-05",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963158,00.html",
+      "source_ids": ["time-index19870105"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963184",
+      "headline": "Corazon Aquino interview",
+      "category": "world",
+      "publication_date": "1987-01-05",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963184,00.html",
+      "source_ids": ["time-index19870105"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963196",
+      "headline": "Drunkdriving enforcement",
+      "category": "US news",
+      "publication_date": "1987-01-12",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963196,00.html",
+      "source_ids": ["time-index19870112"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963209",
+      "headline": "Air traffic control safety",
+      "category": "US news",
+      "publication_date": "1987-01-12",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963209,00.html",
+      "source_ids": ["time-index19870112"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963224",
+      "headline": "Hanford plutonium concern",
+      "category": "environment",
+      "publication_date": "1987-01-12",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963224,00.html",
+      "source_ids": ["time-index19870112"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963208",
+      "headline": "Chinese student discontent",
+      "category": "world",
+      "publication_date": "1987-01-12",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963208,00.html",
+      "source_ids": ["time-index19870112"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963227",
+      "headline": "South African schooling",
+      "category": "world",
+      "publication_date": "1987-01-12",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963227,00.html",
+      "source_ids": ["time-index19870112"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963238",
+      "headline": "Afghanistan diplomacy",
+      "category": "world",
+      "publication_date": "1987-01-12",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963238,00.html",
+      "source_ids": ["time-index19870112"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963214",
+      "headline": "Fetalcell medicine",
+      "category": "health",
+      "publication_date": "1987-01-12",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963214,00.html",
+      "source_ids": ["time-index19870112"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963226",
+      "headline": "ATV injuries",
+      "category": "health",
+      "publication_date": "1987-01-12",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963226,00.html",
+      "source_ids": ["time-index19870112"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963232",
+      "headline": "College football bowls",
+      "category": "sports",
+      "publication_date": "1987-01-12",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963232,00.html",
+      "source_ids": ["time-index19870112"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963200",
+      "headline": "Tax reform debate",
+      "category": "economy",
+      "publication_date": "1987-01-12",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963200,00.html",
+      "source_ids": ["time-index19870112"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963202",
+      "headline": "Rockwell advertising dispute",
+      "category": "business",
+      "publication_date": "1987-01-12",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963202,00.html",
+      "source_ids": ["time-index19870112"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963203",
+      "headline": "Mobile banking on beaches",
+      "category": "business",
+      "publication_date": "1987-01-12",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963203,00.html",
+      "source_ids": ["time-index19870112"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963195",
+      "headline": "Academic employment mobility",
+      "category": "education",
+      "publication_date": "1987-01-12",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963195,00.html",
+      "source_ids": ["time-index19870112"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963248",
+      "headline": "Railroad wreck investigation",
+      "category": "US news",
+      "publication_date": "1987-01-19",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963248,00.html",
+      "source_ids": ["time-index19870119"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963277",
+      "headline": "Worker retraining proposals",
+      "category": "economy",
+      "publication_date": "1987-01-19",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963277,00.html",
+      "source_ids": ["time-index19870119"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963246",
+      "headline": "Afghanistan Soviet contacts",
+      "category": "world",
+      "publication_date": "1987-01-19",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963246,00.html",
+      "source_ids": ["time-index19870119"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963259",
+      "headline": "Chad proxywar",
+      "category": "world",
+      "publication_date": "1987-01-19",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963259,00.html",
+      "source_ids": ["time-index19870119"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963280",
+      "headline": "South African resistance",
+      "category": "world",
+      "publication_date": "1987-01-19",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963280,00.html",
+      "source_ids": ["time-index19870119"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963251",
+      "headline": "Astronomy observations",
+      "category": "science",
+      "publication_date": "1987-01-19",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963251,00.html",
+      "source_ids": ["time-index19870119"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963254",
+      "headline": "Autoimport market share",
+      "category": "business",
+      "publication_date": "1987-01-19",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963254,00.html",
+      "source_ids": ["time-index19870119"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963256",
+      "headline": "Cannon film financing",
+      "category": "culture",
+      "publication_date": "1987-01-19",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963256,00.html",
+      "source_ids": ["time-index19870119"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963273",
+      "headline": "Transatlantic fiberoptic plan",
+      "category": "technology",
+      "publication_date": "1987-01-19",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963273,00.html",
+      "source_ids": ["time-index19870119"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963282",
+      "headline": "Dow2000 milestone",
+      "category": "business",
+      "publication_date": "1987-01-19",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963282,00.html",
+      "source_ids": ["time-index19870119"],
+      "selected": true,
+      "selection_note": "Body checked and selected for topic diversity."
+    },
+    {
+      "id": "news-963291",
+      "headline": "Computer consortium defections",
+      "category": "technology",
+      "publication_date": "1987-01-19",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963291,00.html",
+      "source_ids": ["time-index19870119"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963292",
+      "headline": "USX and Icahn confrontation",
+      "category": "business",
+      "publication_date": "1987-01-19",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963292,00.html",
+      "source_ids": ["time-index19870119"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963298",
+      "headline": "Utah midair collision",
+      "category": "US news",
+      "publication_date": "1987-01-26",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963298,00.html",
+      "source_ids": ["time-index19870126"],
+      "selected": true,
+      "selection_note": "Body checked and selected for topic diversity."
+    },
+    {
+      "id": "news-963328",
+      "headline": "Minimum wage debate",
+      "category": "economy",
+      "publication_date": "1987-01-26",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963328,00.html",
+      "source_ids": ["time-index19870126"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963311",
+      "headline": "China party leadership change",
+      "category": "world",
+      "publication_date": "1987-01-26",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963311,00.html",
+      "source_ids": ["time-index19870126"],
+      "selected": true,
+      "selection_note": "Body checked and selected for topic diversity."
+    },
+    {
+      "id": "news-963319",
+      "headline": "European cold weather",
+      "category": "weather",
+      "publication_date": "1987-01-26",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963319,00.html",
+      "source_ids": ["time-index19870126"],
+      "selected": true,
+      "selection_note": "Body checked and selected for topic diversity."
+    },
+    {
+      "id": "news-963344",
+      "headline": "Afghanistan truce",
+      "category": "world",
+      "publication_date": "1987-01-26",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963344,00.html",
+      "source_ids": ["time-index19870126"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963316",
+      "headline": "DNA criminalinvestigation",
+      "category": "science",
+      "publication_date": "1987-01-26",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963316,00.html",
+      "source_ids": ["time-index19870126"],
+      "selected": true,
+      "selection_note": "Body checked and selected for topic diversity."
+    },
+    {
+      "id": "news-963322",
+      "headline": "Physical fitness assessment",
+      "category": "health",
+      "publication_date": "1987-01-26",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963322,00.html",
+      "source_ids": ["time-index19870126"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963318",
+      "headline": "Super Bowl matchup preview",
+      "category": "sports",
+      "publication_date": "1987-01-26",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963318,00.html",
+      "source_ids": ["time-index19870126"],
+      "selected": true,
+      "selection_note": "Body checked and selected for topic diversity."
+    },
+    {
+      "id": "news-963296",
+      "headline": "US dollar selling",
+      "category": "economy",
+      "publication_date": "1987-01-26",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963296,00.html",
+      "source_ids": ["time-index19870126"],
+      "selected": true,
+      "selection_note": "Body checked and selected for topic diversity."
+    },
+    {
+      "id": "news-963310",
+      "headline": "Portable copier technology",
+      "category": "technology",
+      "publication_date": "1987-01-26",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963310,00.html",
+      "source_ids": ["time-index19870126"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963315",
+      "headline": "Chip workplace health risks",
+      "category": "health",
+      "publication_date": "1987-01-26",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963315,00.html",
+      "source_ids": ["time-index19870126"],
+      "selected": false,
+      "selection_note": "Index candidate; not selected. No body-level claims asserted."
+    },
+    {
+      "id": "news-963313",
+      "headline": "Platoon cast preparation",
+      "category": "culture",
+      "publication_date": "1987-01-26",
+      "url": "https://content.time.com/time/magazine/article/0,9171,963313,00.html",
+      "source_ids": ["time-index19870126"],
+      "selected": true,
+      "selection_note": "Body checked and selected for topic diversity."
+    }
+  ],
+  "stock_candidates": [
+    {
+      "ticker": "IBM",
+      "company": "International Business Machines",
+      "source_ids": ["time-963282", "compute1986"],
+      "salience": "Named prominent bluechip; IBM-compatible competition has consumer attention.",
+      "selected": true,
+      "selection_note": "Chosen using only contemporary attention.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "GE",
+      "company": "General Electric",
+      "source_ids": ["time-963282"],
+      "salience": "Named prominent bluechip in contemporary market coverage.",
+      "selected": true,
+      "selection_note": "Chosen using only contemporary attention.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "AAPL",
+      "company": "Apple Computer",
+      "source_ids": ["compute1986", "compute1987"],
+      "salience": "Apple IIGS and Macintosh attract product coverage while clone competition raises uncertainty.",
+      "selected": true,
+      "selection_note": "Chosen using only contemporary attention.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "WEC",
+      "company": "Westinghouse Electric",
+      "source_ids": ["time-963282"],
+      "salience": "Named prominent bluechip.",
+      "selected": false,
+      "selection_note": "Not selected: valid attention but outside the chosen three; no future returns considered.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "GM",
+      "company": "General Motors",
+      "source_ids": ["time-963282"],
+      "salience": "Named prominent bluechip.",
+      "selected": false,
+      "selection_note": "Not selected: valid attention but outside the chosen three; no future returns considered.",
+      "identity_note": "Original 1987 GM requires historical series; modern GM history beginning2010 IPO is not eligible. Excluded from offeredthree for issuer-data feasibility, not future return."
+    },
+    {
+      "ticker": "T",
+      "company": "AT&T",
+      "source_ids": ["time-963273", "time-963315"],
+      "salience": "Atlantic fiberoptic project andmanufacturing healthstory.",
+      "selected": false,
+      "selection_note": "Not selected: valid attention but outside the chosen three; no future returns considered.",
+      "identity_note": "Original 1987 AT&T is not the later SBC economic issuer underlying modern Yahoo T history. Historicalmapping pending."
+    },
+    {
+      "ticker": "INTC",
+      "company": "Intel",
+      "source_ids": ["time-963315"],
+      "salience": "Semiconductor workplace health coverage.",
+      "selected": false,
+      "selection_note": "Not selected: valid attention but outside the chosen three; no future returns considered.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "AMD",
+      "company": "Advanced Micro Devices",
+      "source_ids": ["time-963315", "time-963291"],
+      "salience": "Semiconductor health andresearch consortium coverage.",
+      "selected": false,
+      "selection_note": "Not selected: valid attention but outside the chosen three; no future returns considered.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "TXN",
+      "company": "Texas Instruments",
+      "source_ids": ["time-963315"],
+      "salience": "Semiconductor workplace health coverage.",
+      "selected": false,
+      "selection_note": "Not selected: valid attention but outside the chosen three; no future returns considered.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "NSM",
+      "company": "National Semiconductor",
+      "source_ids": ["time-963315", "time-963291"],
+      "salience": "Semiconductor health andresearch consortium coverage.",
+      "selected": false,
+      "selection_note": "Not selected: valid attention but outside the chosen three; no future returns considered.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "DEC",
+      "company": "Digital Equipment",
+      "source_ids": ["time-963315", "time-963291"],
+      "salience": "Commissioned workplace study andresearch consortium role.",
+      "selected": false,
+      "selection_note": "Not selected: valid attention but outside the chosen three; no future returns considered.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "UIS",
+      "company": "Unisys",
+      "source_ids": ["time-963291"],
+      "salience": "Researchconsortium departure.",
+      "selected": false,
+      "selection_note": "Not selected: valid attention but outside the chosen three; no future returns considered.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "MMM",
+      "company": "3 M",
+      "source_ids": ["time-963291"],
+      "salience": "Listed consortium participant.",
+      "selected": false,
+      "selection_note": "Not selected: valid attention but outside the chosen three; no future returns considered.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "BA",
+      "company": "Boeing",
+      "source_ids": ["time-963291"],
+      "salience": "Listed consortium participant.",
+      "selected": false,
+      "selection_note": "Not selected: valid attention but outside the chosen three; no future returns considered.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    },
+    {
+      "ticker": "HON",
+      "company": "Honeywell",
+      "source_ids": ["time-963291"],
+      "salience": "Listed consortium participant; historicalissuer mapping pending.",
+      "selected": false,
+      "selection_note": "Not selected: valid attention but outside the chosen three; no future returns considered.",
+      "identity_note": "Issuer-level discovery candidate; security mapping requires verification before price use."
+    }
+  ],
+  "rejected_for_data_quality": [],
+  "rejection_note": "No selected candidate rejected after examining future investment performance. Unselected candidates reflect editorial alternatives or explicit unresolved data feasibility described in the research note."
+}
