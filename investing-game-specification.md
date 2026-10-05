@@ -1,10 +1,11 @@
 # Historical Long-Term Investing Game Specification
 
+
 ## 1. Product Purpose
 
-Build a simple educational web game that teaches players how to think about **long-term investing while surrounded by short-term news, forecasts, recent market performance, and popular narratives**.
+Build a simple educational web game about the difficulty of making long-term investing decisions **in the moment**, when the future is unknowable and attention is dominated by contemporary news, forecasts, recent returns, and popular narratives.
 
-The experience should recreate what the world actually looked and felt like at a specific historical moment, ask the player to make **one $10,000 investment decision**, and then reveal what happened over the following five years.
+The experience should recreate what the world actually looked and felt like at a specific historical moment, ask the player to make **one $10,000 investment decision**, capture one simple expectation about the future, and then reveal what actually happened over the following five years.
 
 The player cannot trade after making the allocation.
 
@@ -12,59 +13,160 @@ The game is intentionally **not** a trading simulator. It should feel closer to 
 
 The central question is:
 
-> **Given only what you could reasonably have known at the time, what would you have done?**
+> **Given only what you could reasonably have known at the time, what would you have done—and how different was the future from what seemed likely then?**
 
-The educational objective is not to reward forecasting skill. It is to help the player experience the difficulty of making a durable long-term decision while contemporary discourse is noisy, emotionally salient, and often focused on events that later prove unimportant.
+The educational objective is not to reward forecasting skill or to prove that any one asset class is always best. It is to help the player experience several related truths:
+
+- investment decisions must be made with incomplete information;
+- contemporary narratives can feel much more predictive than they really are;
+- recent winners can keep winning or fail spectacularly;
+- expert forecasts can be useful without making the future obvious;
+- events that dominate attention can later prove financially unimportant;
+- events that matter enormously may not yet be imaginable;
+- whether a decision looks smart can depend heavily on when it is judged.
+
+The game should not teach that hot stocks are always bad, that news should always be ignored, or that the consensus is always wrong. Sometimes the obvious-looking investment should work. The lesson is **uncertainty, not contrarianism**.
 
 ---
 
-## 2. Product Model: Curated Historical Scenarios
 
-The product is a **curated historical game**, not a generative historical simulator.
+## 2. Product Model: Prebuilt Historical Scenarios
 
-For the MVP, every playable historical date is researched, assembled, reviewed, and stored ahead of time.
+The product uses **prebuilt, researched historical scenarios**, not a generative historical simulator.
 
-The production game should not dynamically ask an LLM to reconstruct an arbitrary date.
+For the MVP, every playable scenario is researched, assembled, reviewed, and stored ahead of time. The production game should not dynamically ask an LLM to reconstruct an arbitrary date.
+
+However, the **dates themselves must not all be chosen because history later made them interesting**.
 
 Initial target:
 
-- approximately **24 carefully curated scenarios**
+- **24 prebuilt scenarios**
 - approximately 1980–2020 starting dates
 - each scenario has exactly five subsequent years of monthly outcome data
-- dates include both famous periods and deliberately ordinary periods
-- approximately half of the scenarios should not be obvious crisis or market-turning-point dates
+- **12 historically important dates**
+- **12 randomly selected eligible dates**
+- all 24 receive the same research and quality standards after selection
 
-The game may expand to 40–50 curated scenarios later.
+The 50/50 mix is deliberate:
+
+- the **important half** gives the player recognizable periods where historical context is especially educational;
+- the **random half** represents the fact that an investor living through a month does not know whether that month will later be considered important.
+
+A random scenario may turn out to be boring, surprising, disastrous, or spectacular. Do not replace a random date merely because its subsequent five-year story lacks drama.
+
+The game may expand to 40–50 prebuilt scenarios later while preserving the approximate 50/50 important-versus-random mix.
 
 ---
 
+
 ## 3. Core Game Loop
 
-Each round has only three major steps.
+Each round has four simple stages.
 
 ### Step 1 — Step Into History
 
-The player is placed at a real historical date and shown a compact snapshot of the world as it appeared then.
+The player is placed at a real historical date and shown a compact snapshot of the world as it appeared then:
+
+- contemporary headlines
+- economic conditions
+- professional forecasts
+- recent broad-market performance
+- exactly three hot stocks
 
 ### Step 2 — Invest $10,000
 
 The player allocates $10,000 among seven investment choices.
 
+After allocating, ask exactly one expectation question:
+
+> **Which investment do you think will do best over the next five years?**
+
+The player selects one of the same seven choices.
+
+Do not ask for a predicted return, price target, recession call, or other forecast.
+
 ### Step 3 — See What Happened
 
 The portfolio is locked.
 
-The game immediately reveals the next five years as a monthly total-return chart.
+The next five years are revealed as a monthly total-return chart.
 
 There are no intermediate decisions.
 
 No buying, selling, timing, rebalancing, or changing the portfolio is allowed during the five-year period.
 
+The visual emphasis is the **path through time**, not merely the ending score.
+
+### Step 4 — Expectation vs. Reality
+
+After the chart is revealed, compare the player's ex-ante expectation with what actually happened.
+
+Examples:
+
+> **You expected Cisco to do best.**  
+> It finished 5th of 7.
+
+or:
+
+> **You expected Amazon to do best.**  
+> It did.
+
+The experience then explains what people were focused on, what actually mattered, what faded from importance, and what was not reasonably knowable at the starting date.
+
 ---
+
 
 ## 4. Historical Date Selection
 
-Scenario dates should collectively expose players to different investing environments, including:
+The 24-scenario MVP should contain two distinct date-selection cohorts.
+
+### Cohort A — Historically Important Dates: 50%
+
+Select approximately 12 dates because the period is historically useful or recognizable.
+
+These may include:
+
+- major bull or bear markets
+- recessions
+- crashes
+- recoveries
+- bubbles
+- high-inflation or high-rate environments
+- geopolitical crises
+- major technological transitions
+- other periods that later became historically significant
+
+These dates may knowingly use historical importance as a selection criterion.
+
+Even here, do not choose dates merely to manufacture a particular investment moral such as “hot stocks lose.”
+
+### Cohort B — Random Dates: 50%
+
+Select approximately 12 dates randomly from an eligible monthly universe spanning the target period.
+
+The random-selection process should be defined **before examining the subsequent five-year returns**.
+
+It may be stratified by decade or broad era to avoid accidental clustering, but future investment outcomes must not influence whether a selected date is retained.
+
+A random date may be rejected only for predeclared operational reasons such as:
+
+- insufficient public data;
+- inability to construct the required five-year asset series;
+- irreparable source gaps;
+- duplicate or near-duplicate coverage of another selected month.
+
+Do **not** reject a random date because:
+
+- nothing dramatic happened;
+- all major assets behaved similarly;
+- the hot stocks performed as expected;
+- the subsequent five years are not narratively exciting.
+
+For random dates, record the selection method and random seed/draw metadata so the process is auditable.
+
+### Collection-wide environment coverage
+
+Across both cohorts, the scenario set should expose players to environments including:
 
 - ordinary expansion periods
 - bull markets
@@ -80,10 +182,6 @@ Scenario dates should collectively expose players to different investing environ
 - periods dominated by technology enthusiasm
 - periods dominated by pessimism
 - periods when financial news was relatively boring
-
-Do not select dates merely because hindsight makes them famous.
-
-A scenario should be interesting because of the **decision environment at that time**, not because the designer knows something dramatic happens immediately afterward.
 
 Dates should use a consistent monthly convention. The implementation may use month-end or the first trading day of a month, but the convention must be consistent within the return engine and documented.
 
@@ -392,9 +490,24 @@ The interaction must work well by tap/click on mobile and desktop.
 
 ---
 
-## 13. Commit Screen
 
-Before revealing the future:
+## 13. Prediction and Commit Screen
+
+After the allocation is complete, ask exactly one expectation question:
+
+> ## What do you think will do best over the next five years?
+>
+> Cash  
+> Bonds  
+> US Total Market  
+> International ex-US  
+> Cisco  
+> Microsoft  
+> Yahoo
+
+The player taps one choice.
+
+Then show the commitment:
 
 > ## Ready?
 >
@@ -402,9 +515,13 @@ Before revealing the future:
 >
 > You cannot make any changes for five years.
 >
+> You think **Cisco** will do best.
+>
 > **Invest and see what happens**
 
-Do not warn about upcoming events.
+The prediction is deliberately simple. Do not ask for a percentage return, market level, or probability forecast.
+
+Do not warn about upcoming historical events.
 
 Do not provide hints.
 
@@ -447,9 +564,10 @@ This is an **editorial and software leakage control**, not an anti-cheating secu
 
 ---
 
+
 ## 15. Screen 3 — Five-Year Reveal
 
-After the player commits, immediately reveal the next five years.
+After the player commits, reveal the next five years.
 
 The centerpiece is one large chart.
 
@@ -476,6 +594,22 @@ The portfolio is buy-and-hold.
 There is **no periodic rebalancing**.
 
 Each initial allocation evolves independently, so outperforming assets naturally become a larger share of the portfolio over time.
+
+### Reveal behavior
+
+The chart should reveal the 60-month path progressively over a short, bounded animation rather than instantly jumping to the ending value.
+
+The purpose is to make the player experience:
+
+- drawdowns;
+- recoveries;
+- reversals in apparent winners;
+- long periods when a decision looks wrong before recovering;
+- periods when an early winner later collapses.
+
+Respect reduced-motion settings and provide the complete static chart when animation is disabled.
+
+Do not pause for trading decisions during the reveal.
 
 ---
 
@@ -513,34 +647,51 @@ not:
 
 ---
 
-## 17. Outcome Summary
 
-Above or below the chart, show:
+## 17. Outcome and Expectation Summary
+
+After the chart path has been revealed, show the ending values.
+
+Example:
 
 > ## Five years later
 >
 > Your $10,000 became:
 >
 > **$12,840**
->
-> US Total Market:
-> **$9,950**
->
-> Diversified benchmark:
-> **$11,730**
 
-Also show a small number of understandable statistics:
+Then show comparisons with lower visual emphasis:
 
-- total five-year return
-- ending value
-- lowest observed monthly portfolio value
-- highest observed monthly portfolio value
+> US Total Market: **$9,950**  
+> Diversified benchmark: **$11,730**
+
+Also show:
+
+- total five-year return;
+- lowest observed monthly portfolio value;
+- highest observed monthly portfolio value.
+
+Then explicitly compare expectation with reality:
+
+> ## What did you expect?
+>
+> You picked **Cisco** to do best.
+>
+> **Actual best performer: Bonds**  
+> Cisco finished **5th of 7**.
+
+If the player's prediction was correct, say so plainly. The product must not assume that popular or concentrated choices are destined to fail.
+
+Where useful, call out path dependence:
+
+> After 18 months, your portfolio was down 32%. By year five, it had recovered and finished ahead of the US market.
 
 Avoid arcade-game scoring.
 
-Do not award coins, points, streaks, or grades for beating the market.
+Do not award coins, points, streaks, grades, or cumulative rewards for beating the market.
 
 ---
+
 
 ## 18. Historical Events on the Chart
 
@@ -552,9 +703,15 @@ Examples:
 - September 2001 — September 11 attacks; US markets temporarily close
 - October 2002 — US bear market reaches its low
 
+Label these as **major events during the period**, not automatically as explanations for specific market movements.
+
+Avoid implying simple causality unless it is unusually well supported.
+
+The chart should teach that markets and economies do not always provide a clean narrative explanation for every rise or fall.
+
 Event annotations are revealed only after the investment is committed.
 
-They exist to explain the path the player just experienced, not to turn the game into a history quiz.
+They exist to give historical context to the path the player just experienced, not to turn the game into a history quiz.
 
 ---
 
@@ -576,23 +733,34 @@ The tone should be descriptive rather than prescriptive.
 
 ---
 
+
 ## 20. Reflection
 
-Finish each scenario with three compact observations:
+Do not end each round with a single neat “lesson” that implies the five-year result should have been predictable.
 
-### At the time
+Instead, use four compact scenario-specific reflections.
 
-What narratives, recent returns, or concerns were especially salient?
+### What people were focused on
 
-### What happened
+What narratives, recent returns, forecasts, fears, or enthusiasms were especially salient at the starting date?
 
-What actually occurred over the next five years?
+### What actually mattered
 
-### Long-term lesson
+Which subsequent developments appear to have materially shaped the five-year investing environment?
 
-What investing principle can be learned without pretending the future was predictable?
+Use cautious language about causality.
 
-These observations must be scenario-specific.
+### What faded away
+
+Which stories or concerns seemed prominent at the start but later became much less consequential to the five-year outcome?
+
+### What nobody knew
+
+Identify an important subsequent development that was not reasonably knowable at the starting date.
+
+This section should reinforce uncertainty rather than imply that the player missed an obvious clue.
+
+Sometimes the correct reflection is that the popular expectation was broadly right. Sometimes the surprise is the size, timing, or path of the outcome rather than its direction.
 
 ---
 
@@ -611,32 +779,40 @@ Replays should not count toward first-time behavioral statistics.
 
 ---
 
+
 ## 22. Player History
 
 After several rounds, optionally show behavioral history.
+
+The purpose is reflection on the player's decision patterns and expectations, not measuring skill at beating a benchmark.
 
 Example:
 
 > Across 12 first-time rounds:
 >
-> **Average in individual stocks:** 31%  
-> **Average in diversified stock funds:** 48%  
-> **Average in bonds/cash:** 21%
+> **Average in individual stocks:** 27%  
+> **Average in broad stock funds:** 48%  
+> **Average in bonds/cash:** 25%
 >
-> Your portfolios beat the US market in 5 of 12 periods.
-
-Emphasize patterns in the player's choices, not a leaderboard score.
+> You correctly picked the eventual best-performing investment in **4 of 12 rounds**.
+>
+> In **8 of 12 rounds**, something other than your expected winner finished first.
 
 Useful behavioral summaries include:
 
-- average allocation to individual stocks
-- average allocation to broad equity
-- average allocation to bonds/cash
-- frequency of concentrated allocations
-- frequency of beating the US market benchmark
-- average ending portfolio value across played scenarios
+- average allocation to individual stocks;
+- average allocation to broad equity;
+- average allocation to bonds/cash;
+- frequency of concentrated allocations;
+- frequency with which the expected winner actually won;
+- frequency with which the player's portfolio experienced a 20%+ drawdown;
+- frequency of major reversal, such as the apparent leader after one year differing from the five-year leader.
 
-The purpose is reflection, not competition.
+Do not make cumulative “beat the US market” performance the primary score or objective.
+
+Per-scenario benchmark comparisons remain available for context.
+
+The purpose is to help the player notice how often confidence, narratives, and short-term appearances diverged from long-term outcomes.
 
 ---
 
@@ -814,42 +990,53 @@ Generated scenario files should be deterministic once curated source inputs and 
 
 ---
 
+
 ## 27. MVP Scope
 
-Build approximately **24 scenarios**.
+Build **24 prebuilt scenarios**.
 
-Candidate eras should span the full range rather than cluster around the 2000s.
+The scenario set must contain:
 
-An illustrative—not final—set of years:
+- **12 historically important dates**
+- **12 randomly selected eligible dates**
 
-- 1982
-- 1985
-- 1987
-- 1990
-- 1994
-- 1995
-- 1997
-- 1998
-- 1999
-- 2000
-- 2001
-- 2003
-- 2005
-- 2007
-- 2008
-- 2009
-- 2011
-- 2013
-- 2015
-- 2016
-- 2018
-- 2019
-- early 2020
-- late 2020
+Candidate eras should span the full target range rather than cluster around the 2000s.
 
-The exact month for each should be chosen during curation.
+### Important-date cohort
 
-Several dates must be intentionally ordinary.
+Choose dates that provide useful exposure to recognizable economic and investing environments.
+
+The important cohort should include a mix of famous crises, booms, recoveries, and major transitions.
+
+### Random-date cohort
+
+Define the eligible month universe and random-selection method before inspecting future outcomes.
+
+Prefer a reproducible stratified random draw across decades or broad eras so that the sample is geographically temporal rather than accidentally concentrated.
+
+Record:
+
+- eligible universe definition;
+- exclusions known before the draw;
+- random seed;
+- selected dates;
+- any post-draw rejection and its allowed operational reason;
+- replacement draw, if needed.
+
+Do not replace a valid random date because its future is boring or because its outcome weakens a preferred teaching narrative.
+
+### Outcome neutrality
+
+Do not curate the collection so that:
+
+- hot stocks usually lose;
+- diversified portfolios always win;
+- forecasts usually fail;
+- the consensus is usually wrong.
+
+Across the collection, audit for obvious one-sided outcome patterns, but **do not manipulate individual scenarios to hit a target result distribution**.
+
+The desired lesson is that the outcome was uncertain at the time—including cases where the obvious-looking bet worked.
 
 ---
 
@@ -876,12 +1063,26 @@ The scarcity of decisions is a feature.
 
 ---
 
+
 ## 29. Product Principle
 
 Every proposed feature should pass this test:
 
-> **Does this help the player understand what making a long-term investment decision felt like at that historical moment?**
+> **Does this help the player experience what it was like to make a long-term investment decision without knowing the future?**
 
 If not, remove it.
 
-The player sees a noisy world, makes one consequential but simple choice, and then discovers how little of the next five years was obvious at the time.
+The player sees a noisy world, makes one consequential but simple allocation, records one expectation, and then watches an unknowable five-year future unfold.
+
+The game's thesis is:
+
+> **Investment decisions must be made using the information available now, while outcomes are determined by a future nobody gets to see. Contemporary news, expert forecasts, recent returns, and popular investments can all contain useful information—but their importance is much easier to understand in hindsight than in the moment.**
+
+The game should preserve genuine ambiguity. Sometimes the popular stock wins. Sometimes diversification wins. Sometimes bonds or cash surprise. Sometimes the major headline matters. Sometimes it fades away. Sometimes the most consequential event has not happened yet.
+
+The product succeeds when the player finishes a round thinking:
+
+> **“That outcome makes sense now that I know it—but I could not have known it then.”**
+
+---
+
