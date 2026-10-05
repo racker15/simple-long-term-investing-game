@@ -6,6 +6,16 @@ An educational static web application about making a five-year investing decisio
 
 The product sources remain [investing-game-specification.md](investing-game-specification.md) and [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md).
 
+## Product scope
+
+The intended audience is roughly **8–12 years old**. This project is a simple educational game, not a professional finance product or research-grade historical database.
+
+Historical scenarios should be believable, materially accurate, and free of hindsight leakage, but the project deliberately accepts transparent approximations when extra precision would not meaningfully change the player's experience. Do not treat institutional-grade index reconstruction, exhaustive source corroboration, archive availability, or forensic corporate-action accounting as default release requirements.
+
+**News-source variety is desirable**, especially when it helps avoid presenting one publication's editorial lens as the whole period, but it is not a hard quota. Use the best readily available contemporary sources and stop once the scenario is credible.
+
+All player-facing historical news and summaries are stored in the static scenario data. The live app does **not** download publisher articles. External URLs are research/provenance references only, so an old source page becoming unavailable does not break the game.
+
 ## Run locally
 
 Use Node.js 22.12+ (CI uses Node 24) and npm.
