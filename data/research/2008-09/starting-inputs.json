@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "scenario_id": "2008-09",
+    "date": "2008-09-30",
+    "display_date": "September 30, 2008",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "important",
+      "selection_reason": "September financial-system disruption, bank failures, and emergency policy responses; chosen for its contemporary environment, without screening investment winners."
+    }
+  },
+  "headlines": [
+    {
+      "headline": "House rejects financial rescue plan",
+      "category": "Economy",
+      "summary": "Lawmakers reject the proposed bailout amid constituent opposition and partisan disputes.",
+      "source_ids": ["n08-house"],
+      "selection_note": "Immediate, consequential but unresolved public debate."
+    },
+    {
+      "headline": "Federal Reserve authorizes emergency AIG loan",
+      "category": "Business",
+      "summary": "The Fed authorizes lending of up to $85 billion to the insurer.",
+      "source_ids": ["n08-aig"],
+      "selection_note": "Original official announcement of current crisis response."
+    },
+    {
+      "headline": "Sarah Palin draws energetic campaign crowds",
+      "category": "US news",
+      "summary": "McCain's running mate attracts attention and new enthusiasm at rallies.",
+      "source_ids": ["n08-palin"],
+      "selection_note": "Domestic election atmosphere with uncertain result."
+    },
+    {
+      "headline": "Pakistan takes center stage in security debate",
+      "category": "Global news",
+      "summary": "A new president faces instability and tensions after a reported US-led raid.",
+      "source_ids": ["n08-pakistan"],
+      "selection_note": "Global cover-section issue independent of asset returns."
+    },
+    {
+      "headline": "CERN sends first beam around new collider",
+      "category": "Science",
+      "summary": "Protons circulate around the 27-kilometre accelerator for the first time.",
+      "source_ids": ["n08-lhc"],
+      "selection_note": "Prominent science milestone without later discoveries."
+    },
+    {
+      "headline": "Apple unveils redesigned iPod nano",
+      "category": "Technology",
+      "summary": "The new music player offers a slimmer design and playlist-generation features.",
+      "source_ids": ["n08-ipod"],
+      "selection_note": "Consumer technology continues amid financial anxiety."
+    },
+    {
+      "headline": "Metallica's new album draws attention",
+      "category": "Entertainment",
+      "summary": "A contemporary review discusses the band's ninth album and faster sound.",
+      "source_ids": ["n08-metal"],
+      "selection_note": "Entertainment coverage with no investment moral."
+    },
+    {
+      "headline": "Unemployment rises to 6.1 percent",
+      "category": "Economy",
+      "summary": "The original release reports declining payroll employment and rising unemployment.",
+      "source_ids": ["n08-jobs"],
+      "selection_note": "Household economy with available vintage."
+    }
+  ],
+  "macro": [
+    {
+      "label": "CPI-U twelve-month inflation: August 2008 vs August 2007, unadjusted",
+      "value": 5.4,
+      "unit": "%",
+      "source_ids": ["cpi08"]
+    },
+    {
+      "label": "Unemployment: August 2008, seasonally adjusted",
+      "value": 6.1,
+      "unit": "%",
+      "source_ids": ["emp08"]
+    },
+    {
+      "label": "Federal funds target: Decision effective September 16",
+      "value": 2.0,
+      "unit": "%",
+      "source_ids": ["fed08"]
+    },
+    {
+      "label": "Ten-year Treasury yield: Week ending 2008-09-26",
+      "value": 3.84,
+      "unit": "%",
+      "source_ids": ["h1508"]
+    },
+    {
+      "label": "Consumer confidence: September 2008",
+      "value": 59.8,
+      "unit": "index (1985 = 100)",
+      "source_ids": ["conf08"]
+    },
+    {
+      "label": "Professional GDP forecast: 2008Q4 quarter-on-quarter annualized median",
+      "value": 0.7,
+      "unit": "%",
+      "source_ids": ["spf08"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "August's professional survey expects weak growth and a substantial chance of fourth-quarter contraction.",
+      "source_ids": ["spf08"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:2008-09:apple",
+      "company_name": "Apple",
+      "ticker": "AAPL",
+      "description": "New music-player line and continuing consumer-device attention.",
+      "selection_rationale": "Select: consumer technology amid broader uncertainty. Starting choices recorded before retrieving selected future stock observations.",
+      "source_ids": ["apple08", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2008-09:microsoft",
+      "company_name": "Microsoft",
+      "ticker": "MSFT",
+      "description": "Authorized another $40 billion buyback and raised quarterly dividend 18%.",
+      "selection_rationale": "Select: established software and capital-return theme. Starting choices recorded before retrieving selected future stock observations.",
+      "source_ids": ["msft08", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2008-09:exxonmobil",
+      "company_name": "Exxon Mobil",
+      "ticker": "XOM",
+      "description": "July release reported $11.68 billion quarterly income amid high energy prices.",
+      "selection_rationale": "Select: energy theme separate from technology/financial rescue. Starting choices recorded before retrieving selected future stock observations.",
+      "source_ids": ["xom08", "asof-stock-prices"]
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term Treasury cash equivalent, represented by the French monthly risk-free return.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "An intermediate US Treasury proxy, modeled from five-year yields; excludes corporate credit exposure.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "A broad US equity market proxy, including dividends; represents US stocks.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Developed non-US equity proxy: EAFE plus Canada, including dividends in US dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:2008-09:apple",
+      "name": "Apple",
+      "description": "New music-player line and continuing consumer-device attention.",
+      "source_ids": ["apple08", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2008-09:microsoft",
+      "name": "Microsoft",
+      "description": "Authorized another $40 billion buyback and raised quarterly dividend 18%.",
+      "source_ids": ["msft08", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2008-09:exxonmobil",
+      "name": "Exxon Mobil",
+      "description": "July release reported $11.68 billion quarterly income amid high energy prices.",
+      "source_ids": ["xom08", "asof-stock-prices"]
+    }
+  ]
+}

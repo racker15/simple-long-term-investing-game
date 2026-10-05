@@ -1,0 +1,613 @@
+{
+  "scenario_id": "2008-09",
+  "cutoff": "2008-09-30",
+  "method": "Dated contemporary issue and original release evidence in docs/modern-starting-research.md; editorial attention and breadth before future outcomes. Magazine discovery pool is not exhaustive or probability sampled.",
+  "news_candidates": [
+    {
+      "id": "08-01",
+      "topic": "McCain's biography and honor",
+      "category": "US",
+      "publication_date": "2008-09-08",
+      "source_ids": ["t0808"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-02",
+      "topic": "Interview tests McCain's campaign image",
+      "category": "US",
+      "publication_date": "2008-09-08",
+      "source_ids": ["t0808"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-03",
+      "topic": "Two advisers shape McCain campaign",
+      "category": "US",
+      "publication_date": "2008-09-08",
+      "source_ids": ["t0808"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-04",
+      "topic": "Cindy McCain enters campaign spotlight",
+      "category": "US",
+      "publication_date": "2008-09-08",
+      "source_ids": ["t0808"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-05",
+      "topic": "McCain family's military background",
+      "category": "US",
+      "publication_date": "2008-09-08",
+      "source_ids": ["t0808"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-06",
+      "topic": "Influence of Bush's campaign methods",
+      "category": "US",
+      "publication_date": "2008-09-08",
+      "source_ids": ["t0808"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-07",
+      "topic": "Republican prospects after electoral setbacks",
+      "category": "US",
+      "publication_date": "2008-09-08",
+      "source_ids": ["t0808"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-08",
+      "topic": "Voters interested in divided government",
+      "category": "US",
+      "publication_date": "2008-09-08",
+      "source_ids": ["t0808"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-09",
+      "topic": "Restoring polluted Jordan River",
+      "category": "global",
+      "publication_date": "2008-09-08",
+      "source_ids": ["t0808"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-10",
+      "topic": "iPhone competes for workplace users",
+      "category": "technology",
+      "publication_date": "2008-09-08",
+      "source_ids": ["t0808"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-11",
+      "topic": "Candidates promote national service",
+      "category": "US",
+      "publication_date": "2008-09-22",
+      "source_ids": ["t0822"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-12",
+      "topic": "Suggestions for volunteering in America",
+      "category": "society",
+      "publication_date": "2008-09-22",
+      "source_ids": ["t0822"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-13",
+      "topic": "Obama's appeal for citizen service",
+      "category": "US",
+      "publication_date": "2008-09-22",
+      "source_ids": ["t0822"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-14",
+      "topic": "McCain's appeal for citizen service",
+      "category": "US",
+      "publication_date": "2008-09-22",
+      "source_ids": ["t0822"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-15",
+      "topic": "Palin energizes campaign audiences",
+      "category": "US",
+      "publication_date": "2008-09-22",
+      "source_ids": ["t0822"],
+      "selected": true,
+      "selected_headline_id": "n08-palin"
+    },
+    {
+      "id": "08-16",
+      "topic": "Teen girls and public stereotypes",
+      "category": "society",
+      "publication_date": "2008-09-22",
+      "source_ids": ["t0822"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-17",
+      "topic": "Palin's nostalgic political message",
+      "category": "US",
+      "publication_date": "2008-09-22",
+      "source_ids": ["t0822"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-18",
+      "topic": "Alaska's reliance on federal funding",
+      "category": "economy",
+      "publication_date": "2008-09-22",
+      "source_ids": ["t0822"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-19",
+      "topic": "Republican campaign attacks the press",
+      "category": "media",
+      "publication_date": "2008-09-22",
+      "source_ids": ["t0822"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-20",
+      "topic": "CERN's first circulating beams",
+      "category": "science",
+      "publication_date": "2008-09-22",
+      "source_ids": ["t0822"],
+      "selected": true,
+      "selected_headline_id": "n08-lhc"
+    },
+    {
+      "id": "08-21",
+      "topic": "Development of sports medicine",
+      "category": "sports",
+      "publication_date": "2008-09-22",
+      "source_ids": ["t0822"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-22",
+      "topic": "Remembering basketball coach Don Haskins",
+      "category": "sports",
+      "publication_date": "2008-09-22",
+      "source_ids": ["t0822"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-23",
+      "topic": "Pakistan's security and political crisis",
+      "category": "global",
+      "publication_date": "2008-09-22",
+      "source_ids": ["t0822"],
+      "selected": true,
+      "selected_headline_id": "n08-pakistan"
+    },
+    {
+      "id": "08-24",
+      "topic": "Airport expansion threatens Bensenville homes",
+      "category": "US",
+      "publication_date": "2008-09-22",
+      "source_ids": ["t0822"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-25",
+      "topic": "Misleading claims for green products",
+      "category": "environment",
+      "publication_date": "2008-09-22",
+      "source_ids": ["t0822"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-26",
+      "topic": "Fannie and Freddie government intervention",
+      "category": "business",
+      "publication_date": "2008-09-22",
+      "source_ids": ["t0822"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-27",
+      "topic": "Healthy living's financial implications",
+      "category": "finance",
+      "publication_date": "2008-09-22",
+      "source_ids": ["t0822"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-28",
+      "topic": "Ricky Gervais in Ghost Town",
+      "category": "film",
+      "publication_date": "2008-09-22",
+      "source_ids": ["t0822"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-29",
+      "topic": "Coen brothers' new spy comedy",
+      "category": "film",
+      "publication_date": "2008-09-22",
+      "source_ids": ["t0822"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-30",
+      "topic": "Marilynne Robinson's new family novel",
+      "category": "books",
+      "publication_date": "2008-09-22",
+      "source_ids": ["t0822"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-31",
+      "topic": "Metallica returns with fast new album",
+      "category": "music",
+      "publication_date": "2008-09-22",
+      "source_ids": ["t0822"],
+      "selected": true,
+      "selected_headline_id": "n08-metal"
+    },
+    {
+      "id": "08-32",
+      "topic": "Water-bottle firm's rapid sales growth",
+      "category": "business",
+      "publication_date": "2008-09-22",
+      "source_ids": ["t0822"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-33",
+      "topic": "Wall Street's risk-taking faces reckoning",
+      "category": "finance",
+      "publication_date": "2008-09-29",
+      "source_ids": ["t0829"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-34",
+      "topic": "Obama's calm worries Democrats",
+      "category": "US",
+      "publication_date": "2008-09-29",
+      "source_ids": ["t0829"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-35",
+      "topic": "Mothers as important swing voters",
+      "category": "US",
+      "publication_date": "2008-09-29",
+      "source_ids": ["t0829"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-36",
+      "topic": "Candidates' inaccurate campaign claims",
+      "category": "US",
+      "publication_date": "2008-09-29",
+      "source_ids": ["t0829"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-37",
+      "topic": "Biotechnology and political debate",
+      "category": "science",
+      "publication_date": "2008-09-29",
+      "source_ids": ["t0829"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-38",
+      "topic": "Commentary on McCain's campaign honesty",
+      "category": "US",
+      "publication_date": "2008-09-29",
+      "source_ids": ["t0829"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-39",
+      "topic": "Fashion shows and celebrity culture",
+      "category": "fashion",
+      "publication_date": "2008-09-29",
+      "source_ids": ["t0829"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-40",
+      "topic": "History of televised presidential debates",
+      "category": "US",
+      "publication_date": "2008-09-29",
+      "source_ids": ["t0829"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-41",
+      "topic": "Quantitative analysis of personal data",
+      "category": "books",
+      "publication_date": "2008-09-29",
+      "source_ids": ["t0829"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-42",
+      "topic": "Remembering novelist Richard Wright",
+      "category": "literature",
+      "publication_date": "2008-09-29",
+      "source_ids": ["t0829"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-43",
+      "topic": "Lehman staff depart after bankruptcy",
+      "category": "business",
+      "publication_date": "2008-09-29",
+      "source_ids": ["t0829"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-44",
+      "topic": "Remembering politician Peter Camejo",
+      "category": "US",
+      "publication_date": "2008-09-29",
+      "source_ids": ["t0829"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-45",
+      "topic": "Maternal mortality in poor countries",
+      "category": "global",
+      "publication_date": "2008-09-29",
+      "source_ids": ["t0829"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-46",
+      "topic": "Berlin pub's East German nostalgia",
+      "category": "global",
+      "publication_date": "2008-09-29",
+      "source_ids": ["t0829"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-47",
+      "topic": "Advice during volatile financial markets",
+      "category": "finance",
+      "publication_date": "2008-09-29",
+      "source_ids": ["t0829"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-48",
+      "topic": "GM reveals its electric-car plans",
+      "category": "technology",
+      "publication_date": "2008-09-29",
+      "source_ids": ["t0829"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-49",
+      "topic": "New shows after writers' strike",
+      "category": "television",
+      "publication_date": "2008-09-29",
+      "source_ids": ["t0829"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "08-50",
+      "topic": "Mourning David Foster Wallace",
+      "category": "literature",
+      "publication_date": "2008-09-29",
+      "source_ids": ["t0829"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "n08-house",
+      "topic": "House rejects financial rescue plan",
+      "category": "Economy",
+      "publication_date": "2008-09-29",
+      "source_ids": ["n08-house"],
+      "selected": true,
+      "selected_headline_id": "n08-house"
+    },
+    {
+      "id": "n08-aig",
+      "topic": "Federal Reserve authorizes emergency AIG loan",
+      "category": "Business",
+      "publication_date": "2008-09-16",
+      "source_ids": ["n08-aig"],
+      "selected": true,
+      "selected_headline_id": "n08-aig"
+    },
+    {
+      "id": "n08-ipod",
+      "topic": "Apple unveils redesigned iPod nano",
+      "category": "Technology",
+      "publication_date": "2008-09-09",
+      "source_ids": ["n08-ipod"],
+      "selected": true,
+      "selected_headline_id": "n08-ipod"
+    },
+    {
+      "id": "n08-jobs",
+      "topic": "Unemployment rises to 6.1 percent",
+      "category": "Economy",
+      "publication_date": "2008-09-05",
+      "source_ids": ["n08-jobs"],
+      "selected": true,
+      "selected_headline_id": "n08-jobs"
+    },
+    {
+      "id": "alt-msft08",
+      "topic": "Microsoft capital-return announcement",
+      "category": "Business",
+      "publication_date": "2008-09-22",
+      "source_ids": ["msft08"],
+      "selected": false,
+      "selection_note": "Alternative contemporary corporate topic; limited eight-story feed."
+    },
+    {
+      "id": "alt-xom08",
+      "topic": "ExxonMobil earnings release, SEC exhibit",
+      "category": "Business",
+      "publication_date": "2008-07-31",
+      "source_ids": ["xom08"],
+      "selected": false,
+      "selection_note": "Alternative contemporary corporate topic; limited eight-story feed."
+    },
+    {
+      "id": "alt-banks08",
+      "topic": "Fed Goldman/Morgan Stanley approval",
+      "category": "Business",
+      "publication_date": "2008-09-21",
+      "source_ids": ["banks08"],
+      "selected": false,
+      "selection_note": "Alternative contemporary corporate topic; limited eight-story feed."
+    },
+    {
+      "id": "alt-jpm08",
+      "topic": "JPMorgan Washington Mutual release, SEC exhibit",
+      "category": "Business",
+      "publication_date": "2008-09-25",
+      "source_ids": ["jpm08"],
+      "selected": false,
+      "selection_note": "Alternative contemporary corporate topic; limited eight-story feed."
+    }
+  ],
+  "stock_candidates": [
+    {
+      "company": "Apple",
+      "ticker": "AAPL",
+      "source_ids": ["apple08"],
+      "rationale": "New music-player line and continuing consumer-device attention.",
+      "selected": true,
+      "selection_note": "Select: consumer technology amid broader uncertainty."
+    },
+    {
+      "company": "Microsoft",
+      "ticker": "MSFT",
+      "source_ids": ["msft08"],
+      "rationale": "Authorized another $40 billion buyback and raised quarterly dividend 18%.",
+      "selected": true,
+      "selection_note": "Select: established software and capital-return theme."
+    },
+    {
+      "company": "Exxon Mobil",
+      "ticker": "XOM",
+      "source_ids": ["xom08"],
+      "rationale": "July release reported $11.68 billion quarterly income amid high energy prices.",
+      "selected": true,
+      "selection_note": "Select: energy theme separate from technology/financial rescue."
+    },
+    {
+      "company": "American International Group",
+      "ticker": "AIG",
+      "source_ids": ["aig08"],
+      "rationale": "Up to $85 billion Fed credit authorized September 16.",
+      "selected": false,
+      "selection_note": "Exclude editorially: rescue already prominent in news feed."
+    },
+    {
+      "company": "Goldman Sachs",
+      "ticker": "GS",
+      "source_ids": ["banks08"],
+      "rationale": "Fed approved bank-holding-company application.",
+      "selected": false,
+      "selection_note": "Exclude editorially: avoid three financial-crisis stocks."
+    },
+    {
+      "company": "Morgan Stanley",
+      "ticker": "MS",
+      "source_ids": ["banks08"],
+      "rationale": "Fed approved bank-holding-company application.",
+      "selected": false,
+      "selection_note": "Exclude editorially: same regulatory transition theme."
+    },
+    {
+      "company": "JPMorgan Chase",
+      "ticker": "JPM",
+      "source_ids": ["jpm08"],
+      "rationale": "Announced acquisition of Washington Mutual banking operations.",
+      "selected": false,
+      "selection_note": "Exclude editorially: banking theme already dominates news."
+    },
+    {
+      "company": "Bank of America",
+      "ticker": "BAC",
+      "source_ids": ["bac08"],
+      "rationale": "Announced agreement to acquire Merrill Lynch.",
+      "selected": false,
+      "selection_note": "Exclude editorially: banking theme already dominates news."
+    },
+    {
+      "company": "Merrill Lynch",
+      "ticker": "MER",
+      "source_ids": ["bac08"],
+      "rationale": "Announced merger agreement with Bank of America.",
+      "selected": false,
+      "selection_note": "Exclude editorially: duplicated merger story."
+    },
+    {
+      "company": "General Motors",
+      "ticker": "GM",
+      "source_ids": ["t0829"],
+      "rationale": "Electric-car unveiling highlighted in contemporary TIME technology section.",
+      "selected": false,
+      "selection_note": "Exclude editorially: Apple covers consumer product attention."
+    }
+  ],
+  "rejected_for_data_quality": [],
+  "rejection_note": "No selected candidate rejected after examining future investment performance. Unselected candidates reflect editorial alternatives or explicit unresolved data feasibility described in the research note."
+}

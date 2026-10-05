@@ -1,0 +1,265 @@
+{
+  "scenario_id": "2008-09",
+  "sources": [
+    {
+      "id": "aig08",
+      "source_name": "Federal Reserve AIG loan announcement",
+      "source_reference": "https://www.federalreserve.gov/newsevents/pressreleases/other20080916a.htm",
+      "publication_date": "2008-09-16",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-16"
+    },
+    {
+      "id": "apple08",
+      "source_name": "Apple product release",
+      "source_reference": "https://www.apple.com/ca/newsroom/2008/09/09Apple-Introduces-New-iPod-nano/",
+      "publication_date": "2008-09-09",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-09"
+    },
+    {
+      "id": "bac08",
+      "source_name": "Merrill/Bank of America agreement, SEC 8-K",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/65100/000095012308011151/y71399e8vk.htm",
+      "publication_date": "2008-09-15",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-15"
+    },
+    {
+      "id": "banks08",
+      "source_name": "Fed Goldman/Morgan Stanley approval",
+      "source_reference": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20080921a.htm",
+      "publication_date": "2008-09-21",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-21"
+    },
+    {
+      "id": "conf08",
+      "source_name": "AP/Long Island Business News contemporary Conference Board report",
+      "source_reference": "https://libn.com/2008/09/30/consumer-confidence-unexpectedly-improves-in-sept/",
+      "publication_date": "2008-09-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Contemporary secondary confidence report; original survey release not inspected. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-30"
+    },
+    {
+      "id": "cpi08",
+      "source_name": "BLS August CPI original release",
+      "source_reference": "https://www.bls.gov/news.release/archives/cpi_09162008.htm",
+      "publication_date": "2008-09-16",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-08-31"
+    },
+    {
+      "id": "emp08",
+      "source_name": "BLS August employment original release",
+      "source_reference": "https://www.bls.gov/news.release/archives/empsit_09052008.htm",
+      "publication_date": "2008-09-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-08-31"
+    },
+    {
+      "id": "fed08",
+      "source_name": "FOMC original statement",
+      "source_reference": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20080916a.htm",
+      "publication_date": "2008-09-16",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-16"
+    },
+    {
+      "id": "h1508",
+      "source_name": "Fed H.15 original release",
+      "source_reference": "https://www.federalreserve.gov/releases/h15/20080929/",
+      "publication_date": "2008-09-29",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-26"
+    },
+    {
+      "id": "jpm08",
+      "source_name": "JPMorgan Washington Mutual release, SEC exhibit",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/19617/000119312508201638/dex991.htm",
+      "publication_date": "2008-09-25",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-25"
+    },
+    {
+      "id": "msft08",
+      "source_name": "Microsoft capital-return announcement",
+      "source_reference": "https://news.microsoft.com/source/2008/09/22/microsoft-announces-share-repurchase-program-and-increases-quarterly-dividend/",
+      "publication_date": "2008-09-22",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-22"
+    },
+    {
+      "id": "spf08",
+      "source_name": "Philadelphia Fed SPF 2008Q3 original report",
+      "source_reference": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/2008/spfq308.pdf?la=en",
+      "publication_date": "2008-08-12",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-08-12"
+    },
+    {
+      "id": "t0808",
+      "source_name": "TIME US issue index",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601080908,00.html",
+      "publication_date": "2008-09-08",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Issue-index metadata; conservative issue date; not full article text. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-08"
+    },
+    {
+      "id": "t0822",
+      "source_name": "TIME US issue index",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601080922,00.html",
+      "publication_date": "2008-09-22",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Issue-index metadata; conservative issue date; not full article text. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-22"
+    },
+    {
+      "id": "t0829",
+      "source_name": "TIME US issue index",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601080929,00.html",
+      "publication_date": "2008-09-29",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Issue-index metadata; conservative issue date; not full article text. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-29"
+    },
+    {
+      "id": "xom08",
+      "source_name": "ExxonMobil earnings release, SEC exhibit",
+      "source_reference": "https://investor.exxonmobil.com/sec-filings/all-sec-filings/content/0000034088-08-000102/r8k2q991.htm",
+      "publication_date": "2008-07-31",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-06-30"
+    },
+    {
+      "id": "n08-aig",
+      "source_name": "Federal Reserve — Federal Reserve authorizes emergency AIG loan",
+      "source_reference": "https://www.federalreserve.gov/newsevents/pressreleases/other20080916a.htm",
+      "publication_date": "2008-09-16",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-16"
+    },
+    {
+      "id": "n08-house",
+      "source_name": "Fortune/CNN Money — Bailout sinks as voters revolt",
+      "source_reference": "https://money.cnn.com/2008/09/29/magazines/fortune/nobailout_easton.fortune/index.htm?cnn=yes",
+      "publication_date": "2008-09-29",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-29"
+    },
+    {
+      "id": "n08-ipod",
+      "source_name": "Apple — Apple Introduces New iPod nano",
+      "source_reference": "https://www.apple.com/ca/newsroom/2008/09/09Apple-Introduces-New-iPod-nano/",
+      "publication_date": "2008-09-09",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-09"
+    },
+    {
+      "id": "n08-jobs",
+      "source_name": "BLS — Employment Situation: August 2008",
+      "source_reference": "https://www.bls.gov/news.release/archives/empsit_09052008.htm",
+      "publication_date": "2008-09-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-08-31"
+    },
+    {
+      "id": "n08-lhc",
+      "source_name": "CERN — First beam in the LHC – accelerating science",
+      "source_reference": "https://home.cern/first-beam-in-the-lhc-accelerating-science/",
+      "publication_date": "2008-09-10",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-10"
+    },
+    {
+      "id": "n08-metal",
+      "source_name": "TIME — Metallica's Insanely Fast New Album",
+      "source_reference": "https://time.com/archive/6686300/metallicas-insanely-fast-new-album/",
+      "publication_date": "2008-09-11",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-11"
+    },
+    {
+      "id": "n08-pakistan",
+      "source_name": "TIME — The Central Front",
+      "source_reference": "https://time.com/archive/6686267/the-central-front/",
+      "publication_date": "2008-09-11",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-11"
+    },
+    {
+      "id": "n08-palin",
+      "source_name": "TIME — The Sarah Show",
+      "source_reference": "https://time.com/archive/6686272/the-sarah-show/",
+      "publication_date": "2008-09-11",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2008-09-11"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-asset observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "observation_date": "2008-09-30",
+      "publication_date": "2008-09-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Modeled availability of underlying market observations through cutoff. This is NOT the publication date of the modern French/FRED/Yahoo archive. Current retrospective reconstruction, not exact contemporary database vintages; later uniform adjustment scaling cancels in historical ratios. Actual source snapshot/retrieval dates and hashes are recorded separately in archive manifests."
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/2008-09/starting.json",
+      "observation_date": "2008-09-30",
+      "publication_date": "2008-09-30",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Modeled availability of underlying market observations through cutoff. This is NOT the publication date of the modern French/FRED/Yahoo archive. Current retrospective reconstruction, not exact contemporary database vintages; later uniform adjustment scaling cancels in historical ratios. Actual source snapshot/retrieval dates and hashes are recorded separately in archive manifests."
+    }
+  ]
+}
