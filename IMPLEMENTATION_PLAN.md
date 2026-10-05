@@ -1,21 +1,31 @@
 # IMPLEMENTATION_PLAN
 
+
 ## 1. Objective
 
-Build the curated historical long-term investing game described in `investing-game-specification.md`.
+Build the prebuilt historical long-term investing game described in `investing-game-specification.md`.
+
+The implementation should optimize for the educational objective:
+
+> **Help the player experience how difficult it is to make a long-term investment decision in the moment, and how actual outcomes often differ from what contemporary narratives make plausible.**
 
 The implementation should prioritize:
 
-- educational clarity
-- reproducible historical scenarios
-- public-source-first data collection
-- simple, auditable data transformations
-- deterministic scenario playback
-- minimal runtime dependencies
-- a child-friendly UI
-- explicit separation between information known at the start date and future outcomes
+- educational clarity;
+- reproducible historical scenarios;
+- a **50% historically important / 50% randomly selected date mix**;
+- public-source-first data collection;
+- simple, auditable data transformations;
+- deterministic scenario playback;
+- explicit capture of one player expectation before reveal;
+- comparison of expectation with reality;
+- minimal runtime dependencies;
+- a child-friendly UI;
+- explicit separation between information known at the start date and future outcomes.
 
 The MVP is **not** a real-time or generative simulation.
+
+Do not optimize the scenario set to prove that hot stocks lose, that indexes always win, or that experts are usually wrong. The collection should preserve genuine uncertainty.
 
 ---
 
@@ -131,6 +141,7 @@ The game can be hosted as a fully static site.
 
 ---
 
+
 ## 5. Scenario Data Model
 
 Each scenario has three files.
@@ -146,6 +157,10 @@ Suggested shape:
   "scenario_id": "1999-09",
   "date": "1999-09-30",
   "display_date": "September 1999",
+  "selection": {
+    "mode": "important",
+    "selection_reason": "Late-1990s technology boom"
+  },
   "intro": {
     "starting_amount": 10000,
     "holding_period_months": 60
@@ -157,6 +172,22 @@ Suggested shape:
   "asset_definitions": {}
 }
 ```
+
+For a random scenario, store reproducibility metadata such as:
+
+```json
+{
+  "selection": {
+    "mode": "random",
+    "draw_universe": "eligible-months-v1",
+    "random_seed": "2026-mvp-01",
+    "draw_index": 7,
+    "replacement_for": null
+  }
+}
+```
+
+The player's expected winner is **runtime player state**, not scenario source data.
 
 ### `future_outcomes.json`
 
@@ -183,9 +214,10 @@ Suggested shape:
   "events": [],
   "what_happened_next": "",
   "reflection": {
-    "at_the_time": "",
-    "what_happened": "",
-    "long_term_lesson": ""
+    "what_people_were_focused_on": "",
+    "what_actually_mattered": "",
+    "what_faded_away": "",
+    "what_nobody_knew": ""
   }
 }
 ```
@@ -350,24 +382,23 @@ If not, drop the candidate.
 
 ---
 
+
 ## 7. Hot-Stock Selection Process
 
-Use a two-stage process.
+Use a two-stage process based only on information available by the scenario date.
 
 ### Stage 1 — Candidate generation
 
-For each scenario date, identify approximately 10–20 plausible candidates using only pre-date information.
+For each scenario date, identify approximately 10–20 plausible candidates using pre-date signals such as:
 
-Signals may include:
-
-- high news volume
-- unusually strong or weak trailing returns
-- major IPO
-- major product or strategic announcement
-- high market capitalization
-- unusual public attention
-- large corporate controversy
-- strong thematic relevance to contemporary discourse
+- high news volume;
+- unusually strong or weak trailing returns;
+- major IPO;
+- major product or strategic announcement;
+- high market capitalization;
+- unusual public attention;
+- large corporate controversy;
+- strong thematic relevance to contemporary discourse.
 
 Do not require a rigid mathematical formula for the MVP.
 
@@ -379,25 +410,37 @@ Choose exactly three.
 
 Selection criteria:
 
-- genuinely salient at that time
-- sufficiently different narratives where possible
-- high-quality-enough public historical data
-- five-year outcome can be represented without excessive ambiguity
+- genuinely salient at that time;
+- sufficiently different narratives where possible;
+- high-quality-enough public historical data;
+- five-year outcome can be represented without excessive ambiguity.
 
 Store an internal rationale.
+
+### No outcome-driven stock selection
+
+Do **not** select or reject a stock because its subsequent five-year return creates a better story.
+
+In particular, do not intentionally choose:
+
+- a future bankruptcy to punish a popular stock;
+- a future superstar to manufacture surprise;
+- three future losers to make diversification look superior.
+
+Five-year outcome data may be checked for **data reconstructability**, but not used as an editorial desirability test.
 
 ### Data-quality gate
 
 Drop a candidate if:
 
-- ticker continuity is unclear
-- acquisition treatment is too complex
-- spinoffs materially distort the result
-- adjusted data is obviously broken
-- long gaps exist
-- the terminal outcome is ambiguous
+- ticker continuity is unclear;
+- acquisition treatment is too complex;
+- spinoffs materially distort the result;
+- adjusted data is obviously broken;
+- long gaps exist;
+- the terminal outcome is ambiguous.
 
-Bias introduced by this gate is accepted.
+Bias introduced by this data-quality gate is accepted and should be documented.
 
 ---
 
@@ -476,79 +519,101 @@ However, final scenario data should store citations and be reviewed before relea
 
 ---
 
+
 ## 10. Scenario-Curation Workflow
 
-Build scenarios one at a time.
+Build scenarios one at a time, but select the scenario set using the cohort rules before researching outcomes.
 
-Recommended checklist:
+### A. Establish the important-date cohort
 
-### A. Choose date
+Choose 12 historically important dates across the target period.
 
-Confirm:
+Historical significance may be used deliberately for this half.
 
-- five future years of usable data
-- era is not overrepresented
-- date is historically interesting but not necessarily famous
+Do not choose dates because they produce a preferred investment winner or moral.
 
-### B. Build known-at-start macro bundle
+### B. Establish the random-date cohort
 
-Collect:
+Define the eligible monthly universe before examining future returns.
 
-- inflation
-- unemployment
-- Fed rate
-- 10Y yield
-- sentiment/confidence
-- forecast/downside measure
+Recommended approach:
 
-### C. Build recent asset-performance bundle
+1. divide the target period into predeclared time strata, such as decades or broad eras;
+2. define operational exclusions based only on known data feasibility;
+3. use a deterministic pseudorandom seed;
+4. draw 12 dates;
+5. record the draw metadata;
+6. retain selected dates unless an allowed operational exclusion is discovered.
 
-Calculate:
+Allowed post-draw rejection reasons include:
 
-- trailing 3 months
-- trailing 12 months
+- required source data is unavailable;
+- a five-year broad-asset series cannot be constructed;
+- the month is effectively duplicated by another selected scenario under a predeclared spacing rule.
 
-For:
+Do not reject a random date because the subsequent outcome is boring, unsurprising, or educationally inconvenient.
 
-- cash
-- bonds
-- US Total
-- International ex-US
+### C. Lock the starting information bundle
 
-### D. Build headline pool
+Before using future outcomes to write narrative material, build and commit the known-at-start bundle:
 
-Collect broad contemporary stories.
+- date;
+- macro data;
+- professional forecasts;
+- recent broad-asset returns;
+- candidate headline pool;
+- final 6–8 headlines;
+- hot-stock candidate list;
+- final three hot stocks;
+- hot-stock trailing performance;
+- selection rationales.
 
-Curate to 6–8.
+For random scenarios especially, this establishes a clear ex-ante record.
 
-### E. Build hot-stock candidate list
-
-Collect 10–20 names.
-
-Assess:
-
-- pre-date salience
-- trailing performance
-- data quality
-- five-year survivability/reconstructability
-
-Select exactly three.
-
-### F. Build five-year return series
+### D. Build future return series
 
 For all seven assets, create 60 monthly returns.
 
-### G. Build post-reveal history
+Future data may be used now for:
+
+- return construction;
+- corporate-action simplification;
+- chart events;
+- post-reveal explanation.
+
+Do not go back and change the date or stock choices merely to improve the narrative, except for documented data-quality failures.
+
+### E. Build post-reveal historical context
 
 Add:
 
-- 3–5 major event markers
-- 150–250 word “What happened next?”
-- three reflection statements
+- 3–5 major events during the period;
+- 150–250 word “What happened next?” narrative;
+- “What people were focused on”;
+- “What actually mattered”;
+- “What faded away”;
+- “What nobody knew.”
 
-### H. Validate
+Avoid forcing a single moral.
+
+### F. Validate
 
 Run automated checks and human QA.
+
+### G. Collection-level educational audit
+
+After multiple scenarios exist, inspect the collection for accidental one-sided patterns such as:
+
+- nearly every hot stock losing;
+- diversified portfolios always winning;
+- professional forecasts nearly always appearing foolish;
+- every important headline proving irrelevant.
+
+If such patterns occur, first determine whether they are genuine consequences of the selected dates.
+
+Do **not** manipulate valid random scenarios simply to force balance.
+
+The audit is a warning against editorial bias, not a target-return quota.
 
 ---
 
@@ -653,6 +718,7 @@ during CI rather than trusting hand-entered summary values.
 
 ---
 
+
 ## 13. Scenario Quality Rubric
 
 Before accepting a scenario, score it qualitatively.
@@ -677,13 +743,35 @@ Would a contemporaneous observer recognize the selected stocks as notable?
 
 Can all seven asset histories be explained and reproduced?
 
-### Educational value
+### Expectation value
 
-Does the five-year reveal illustrate something useful without forcing a single moral?
+Does the scenario give the player enough real contemporary evidence to form an expectation, without signaling the future?
 
-Reject or revise weak scenarios.
+### Honest outcome
+
+Is the five-year path presented without forcing it into a preselected moral?
+
+A scenario is **not weak merely because the expected outcome occurs**.
+
+A random scenario is **not weak merely because nothing dramatic happens**.
+
+### Reflection quality
+
+Does the post-reveal material distinguish:
+
+- what people were focused on;
+- what actually mattered;
+- what faded away;
+- what nobody reasonably knew?
+
+### Collection role
+
+Does the scenario add a meaningfully different information environment or random observation to the collection?
+
+Reject or revise scenarios for weak research, poor data, hindsight leakage, or duplicate coverage—not because their future outcome lacks surprise.
 
 ---
+
 
 ## 14. UI Implementation Phases
 
@@ -691,68 +779,89 @@ Reject or revise weak scenarios.
 
 Build:
 
-- scenario selection
-- date header
-- news feed
-- macro dashboard
-- recent returns
-- hot-stock cards
+- scenario selection;
+- date header;
+- news feed;
+- macro dashboard;
+- recent returns;
+- hot-stock cards.
 
 No allocation logic yet.
 
-### Phase 2 — Allocation interface
+### Phase 2 — Allocation and expectation interface
 
 Build:
 
-- seven rows
-- $500 increments
-- automatic cash remainder
-- $10,000 cap
-- confirmation screen
+- seven allocation rows;
+- $500 increments;
+- automatic cash remainder;
+- $10,000 cap;
+- exactly one “Which investment will do best?” choice;
+- confirmation screen showing both allocation and expected winner.
 
 ### Phase 3 — Portfolio engine
 
 Implement:
 
-- monthly compounding
-- no rebalancing
-- benchmark calculation
-- reusable deterministic math library
+- monthly compounding;
+- no rebalancing;
+- benchmark calculation;
+- reusable deterministic math library.
 
 Add tests before chart work.
 
-### Phase 4 — Reveal chart
+### Phase 4 — Five-year reveal
 
 Build:
 
-- portfolio line
-- US Total line
-- diversified benchmark line
-- event annotations
-- tap/click event details
-- responsive rendering
+- progressively revealed 60-month chart;
+- portfolio line;
+- US Total comparison line;
+- diversified benchmark line;
+- event annotations;
+- tap/click event details;
+- responsive rendering;
+- reduced-motion fallback.
 
-### Phase 5 — Explanations and reflection
+The chart path should be visually primary; the ending benchmark comparison should be secondary.
+
+### Phase 5 — Expectation vs. reality
+
+Add:
+
+- expected winner;
+- actual winner;
+- rank of expected winner;
+- optional path-dependence observation such as a one-year leader differing from the five-year leader.
+
+### Phase 6 — Historical reflection
 
 Add:
 
 - What happened next?
-- At the time
-- What happened
-- Long-term lesson
+- What people were focused on
+- What actually mattered
+- What faded away
+- What nobody knew
 
-### Phase 6 — Player history
+### Phase 7 — Player history
 
 Use local browser storage for:
 
-- scenarios played
-- first-time allocations
-- replay state
-- aggregate allocation behavior
+- scenarios played;
+- first-time allocations;
+- expected winners;
+- replay state;
+- aggregate allocation behavior;
+- prediction-hit frequency;
+- selected path-dependence statistics.
 
 Do not require accounts for the MVP.
 
+Do not make cumulative benchmark outperformance the primary player score.
+
 ---
+
 
 ## 15. Initial Scenario Set
 
@@ -760,29 +869,43 @@ Start with a smaller qualification batch before building all 24.
 
 ### Pilot set: 6 scenarios
 
-Choose six dates spanning very different environments, for example:
+Use:
 
-- early 1980s high-rate environment
-- mid-1980s ordinary expansion
-- late-1990s technology boom
-- early-2000s post-bubble period
-- 2008 financial crisis
-- mid/late-2010s ordinary bull-market period
+- **3 historically important dates**
+- **3 randomly selected eligible dates**
 
-Do not finalize the exact dates until source availability is checked.
+The important dates should span visibly different environments.
+
+The three random dates should be drawn using the same intended production protocol, including recorded seed and allowed exclusion rules.
+
+Do not select all six manually.
+
+### Full MVP set
+
+Scale to:
+
+- **12 important dates**
+- **12 random dates**
+
+Preserve approximate temporal coverage across 1980–2020.
 
 ### Qualification gate
 
 Do not scale to 24 until the six pilots demonstrate:
 
-- viable news sourcing
-- viable stock histories
-- workable bond proxy
-- consistent scenario schema
-- visually clear UI
-- manageable research effort
+- viable news sourcing;
+- viable stock histories;
+- workable bond proxy;
+- consistent scenario schema;
+- functional important/random selection metadata;
+- visually clear UI;
+- useful expectation-versus-reality reveal;
+- manageable research effort.
+
+A random pilot does not fail qualification merely because its future is uneventful.
 
 ---
+
 
 ## 16. Suggested First Six Engineering Milestones
 
@@ -790,48 +913,57 @@ Do not scale to 24 until the six pilots demonstrate:
 
 Deliver:
 
-- app skeleton
-- JSON schemas
-- scenario loader
-- validator framework
-- one hand-authored dummy scenario
+- app skeleton;
+- JSON schemas;
+- scenario loader;
+- validator framework;
+- selection-mode metadata;
+- one hand-authored dummy scenario.
 
 ### M2 — Broad-asset data pipeline
 
 Deliver reproducible monthly series for:
 
-- Cash
-- Bonds
-- US Total
-- International ex-US
+- Cash;
+- Bonds;
+- US Total;
+- International ex-US.
 
 Cover enough history for the pilot dates.
 
-### M3 — First real scenario
-
-Build one full historical scenario end to end.
-
-Recommended target: a well-documented late-1990s date because news and stock data are relatively accessible.
-
-### M4 — Portfolio game loop
+### M3 — Scenario-selection protocol and first real scenario
 
 Deliver:
 
-- allocation screen
-- commit step
-- five-year calculation
-- chart
-- benchmark comparison
+- eligible random-date universe definition;
+- deterministic random seed mechanism;
+- allowed exclusion rules;
+- one full important historical scenario end to end.
+
+### M4 — Portfolio and expectation game loop
+
+Deliver:
+
+- allocation screen;
+- expected-winner choice;
+- commit step;
+- five-year calculation;
+- progressive chart reveal;
+- benchmark comparison;
+- expectation-versus-reality result.
 
 ### M5 — Six-scenario qualification set
 
-Complete six curated scenarios.
+Complete:
 
-Run data and UX review.
+- 3 important scenarios;
+- 3 random scenarios selected by the production protocol.
+
+Run data, editorial-bias, and UX review.
 
 ### M6 — Scale to 24 scenarios
 
-Only after the pipeline and schema stabilize.
+Scale to 12 important + 12 random only after the pipeline, schema, and educational loop stabilize.
 
 ---
 
@@ -891,48 +1023,70 @@ Scenario builds should not silently change when upstream sources change.
 
 ---
 
+
 ## 19. CI Checks
 
 Add CI that validates every committed scenario.
 
 Minimum CI:
 
-- schema validation
-- no future publication dates in known-at-start data
-- exactly three hot stocks
-- 60 return observations for each asset
-- numeric sanity checks
-- recomputed benchmark results
-- deterministic portfolio test fixtures
+- schema validation;
+- no future publication dates in known-at-start data;
+- valid `selection.mode` of `important` or `random`;
+- required random-selection metadata for random scenarios;
+- exactly three hot stocks;
+- 60 return observations for each asset;
+- numeric sanity checks;
+- recomputed benchmark results;
+- deterministic portfolio test fixtures.
+
+For a complete 24-scenario MVP dataset, validate:
+
+- exactly 12 important scenarios;
+- exactly 12 random scenarios.
 
 Optional later:
 
-- dead-link report
-- duplicate headline detection
-- source-domain distribution report
-- scenario-era balance report
+- dead-link report;
+- duplicate headline detection;
+- source-domain distribution report;
+- scenario-era balance report;
+- collection-level outcome-bias report;
+- one-year-leader versus five-year-leader reversal report.
+
+CI cannot prove absence of editorial hindsight, so the random-date draw log and known-at-start commit history remain part of the review process.
 
 ---
+
 
 ## 20. Acceptance Criteria for MVP
 
 The MVP is complete when:
 
-- 24 curated scenarios are available
-- each scenario contains 6–8 sourced contemporary stories
-- each has six-ish macro/context indicators
-- each has recent broad-market performance
-- each has exactly three hot stocks
-- the player can allocate exactly $10,000 in $500 increments
-- each round locks the allocation
-- each result displays 60 months of portfolio history
-- dividends/adjusted returns are reflected where source data supports them
-- bankruptcy can resolve to zero
-- the app shows US Total and diversified benchmark comparisons
-- each scenario includes 3–5 post-reveal historical event annotations
-- each scenario includes a historical summary and reflection
-- no pre-investment content intentionally uses post-date information
-- all material scenario inputs retain source provenance
+- 24 prebuilt scenarios are available;
+- exactly 12 use historically important dates;
+- exactly 12 use the documented random-date selection protocol;
+- every random scenario retains its draw provenance;
+- each scenario contains 6–8 sourced contemporary stories;
+- each has approximately six macro/context indicators;
+- each has recent broad-market performance;
+- each has exactly three hot stocks selected without using future desirability;
+- the player can allocate exactly $10,000 in $500 increments;
+- the player makes exactly one expected-winner prediction before reveal;
+- each round locks the allocation and prediction;
+- each result displays 60 months of portfolio history;
+- the chart emphasizes the path rather than only the endpoint;
+- dividends/adjusted returns are reflected where source data supports them;
+- bankruptcy can resolve to zero;
+- the app shows US Total and diversified benchmark comparisons;
+- the app explicitly compares expected winner with actual winner;
+- each scenario includes 3–5 post-reveal historical event annotations;
+- event annotations avoid unsupported causal claims;
+- each scenario includes “What happened next?”;
+- each scenario includes the four reflection categories: focused on, mattered, faded away, nobody knew;
+- no pre-investment content intentionally uses post-date information;
+- all material scenario inputs retain source provenance;
+- cumulative player history emphasizes behavior and expectation accuracy rather than benchmark-beating as a score.
 
 ---
 
