@@ -1,5 +1,79 @@
 import { test, expect } from '@playwright/test';
 
+for (const { scenario, years, firstMonth, lastMonth } of [
+  {
+    scenario: '1982-08',
+    years: ['1982', '1983', '1984', '1985', '1986', '1987'],
+    firstMonth: '1982-09',
+    lastMonth: '1987-08',
+  },
+  {
+    scenario: '1999-09',
+    years: ['1999', '2000', '2001', '2002', '2003', '2004'],
+    firstMonth: '1999-10',
+    lastMonth: '2004-09',
+  },
+  {
+    scenario: '2016-02',
+    years: ['2016', '2017', '2018', '2019', '2020', '2021'],
+    firstMonth: '2016-03',
+    lastMonth: '2021-02',
+  },
+]) {
+  test(`${scenario} reveal uses historical year labels and a $10,000 reference`, async ({
+    page,
+  }) => {
+    await page.goto(`/?scenario=${scenario}`);
+    await expect(page.getByTestId('chart-year')).toHaveCount(0);
+    await expect(
+      page.locator('[data-testid^="starting-value-reference-"]'),
+    ).toHaveCount(0);
+    await page.getByRole('radio', { name: 'Cash', exact: true }).check();
+    await page.getByRole('button', { name: 'Review decision' }).click();
+    await page
+      .getByRole('button', { name: 'Invest and see what happens' })
+      .click();
+
+    await expect(page.getByTestId('chart-year')).toHaveText(years);
+    for (const [panel, pathId] of [
+      ['portfolio', 'path-0'],
+      ['hot-stocks', 'hot-stock-path-0'],
+    ]) {
+      const reference = page.getByTestId(`starting-value-reference-${panel}`);
+      await expect(reference).toContainText('$10,000');
+      await expect(reference.locator('line')).toHaveAttribute(
+        'stroke-dasharray',
+        '2 5',
+      );
+      const referenceY = Number(
+        await reference.locator('line').getAttribute('y1'),
+      );
+      const firstPathPoint = (await page
+        .getByTestId(pathId)
+        .getAttribute('points'))!
+        .split(' ')[0]
+        .split(',');
+      expect(Number(firstPathPoint[1])).toBeCloseTo(referenceY, 5);
+      expect(await reference.locator('line').getAttribute('y2')).toBe(
+        String(referenceY),
+      );
+    }
+
+    await page.getByText('Monthly values', { exact: true }).click();
+    await expect(page.locator('figure tbody tr').first()).toContainText(
+      firstMonth,
+    );
+    await expect(page.locator('figure tbody tr').last()).toContainText(
+      lastMonth,
+    );
+    expect(
+      await page.evaluate(
+        () => document.documentElement.scrollWidth <= window.innerWidth,
+      ),
+    ).toBe(true);
+  });
+}
+
 test('historical preview holds outcomes until investment and keeps production sessions separate', async ({
   page,
 }, testInfo) => {

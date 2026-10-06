@@ -52,6 +52,7 @@ export function Reveal({
         diversified={comparisons.diversified}
         usTotal={comparisons.us_total}
         hotStocks={hotStocks}
+        startMonth={scenario.known.metadata.date.slice(0, 7)}
         events={scenario.future.events}
         onFinished={finish}
       />

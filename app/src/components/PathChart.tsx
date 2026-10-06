@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import type { FutureOutcomes } from '../lib/contracts';
+import { INITIAL_CAPITAL, type FutureOutcomes } from '../lib/contracts';
 import type { PortfolioPath } from '../lib/portfolio';
 import { money } from '../lib/format';
 export function PathChart({
@@ -7,6 +7,7 @@ export function PathChart({
   diversified,
   usTotal,
   hotStocks,
+  startMonth,
   events,
   onFinished,
 }: {
@@ -19,6 +20,7 @@ export function PathChart({
     ticker: string;
     path: PortfolioPath;
   }[];
+  startMonth: string;
   events: FutureOutcomes['events'];
   onFinished: () => void;
 }) {
@@ -75,7 +77,7 @@ export function PathChart({
     })),
   ];
   const series = chartSeries.map(({ path }) => [
-    10000,
+    INITIAL_CAPITAL,
     ...path.points.map((point) => point.total),
   ]);
   const portfolioSeries = series.slice(0, 3);
@@ -95,6 +97,13 @@ export function PathChart({
     175 - ((value - portfolioMinimum) / portfolioSpan) * 135;
   const hotStockY = (value: number) =>
     355 - ((value - hotStockMinimum) / hotStockSpan) * 120;
+  const yearLabels = [
+    { month: 0, year: startMonth.slice(0, 4) },
+    ...[12, 24, 36, 48, 60].map((month) => ({
+      month,
+      year: player.points[month - 1].month.slice(0, 4),
+    })),
+  ];
   const markers = events
     .map((event, i) => ({ event, i }))
     .filter(
@@ -126,20 +135,39 @@ export function PathChart({
           portfolioMinimum,
           (portfolioMinimum + portfolioMaximum) / 2,
           portfolioMaximum,
-        ].map((value) => (
-          <g key={value}>
-            <line
-              x1={plotStart}
-              x2={plotEnd}
-              y1={portfolioY(value)}
-              y2={portfolioY(value)}
-              stroke="#d7ded9"
-            />
-            <text x="150" y={portfolioY(value) + 4} textAnchor="end">
-              {money(value)}
-            </text>
-          </g>
-        ))}
+        ]
+          .filter(
+            (value) =>
+              Math.abs(portfolioY(value) - portfolioY(INITIAL_CAPITAL)) > 30,
+          )
+          .map((value) => (
+            <g key={value}>
+              <line
+                x1={plotStart}
+                x2={plotEnd}
+                y1={portfolioY(value)}
+                y2={portfolioY(value)}
+                stroke="#d7ded9"
+              />
+              <text x="150" y={portfolioY(value) + 4} textAnchor="end">
+                {money(value)}
+              </text>
+            </g>
+          ))}
+        <g data-testid="starting-value-reference-portfolio">
+          <line
+            x1={plotStart}
+            x2={plotEnd}
+            y1={portfolioY(INITIAL_CAPITAL)}
+            y2={portfolioY(INITIAL_CAPITAL)}
+            stroke="#89998f"
+            strokeWidth="1.5"
+            strokeDasharray="2 5"
+          />
+          <text x="150" y={portfolioY(INITIAL_CAPITAL) + 4} textAnchor="end">
+            {money(INITIAL_CAPITAL)}
+          </text>
+        </g>
         {portfolioSeries.map((values, i) => (
           <polyline
             key={i}
@@ -163,20 +191,39 @@ export function PathChart({
           hotStockMinimum,
           (hotStockMinimum + hotStockMaximum) / 2,
           hotStockMaximum,
-        ].map((value) => (
-          <g key={value}>
-            <line
-              x1={plotStart}
-              x2={plotEnd}
-              y1={hotStockY(value)}
-              y2={hotStockY(value)}
-              stroke="#d7ded9"
-            />
-            <text x="150" y={hotStockY(value) + 4} textAnchor="end">
-              {money(value)}
-            </text>
-          </g>
-        ))}
+        ]
+          .filter(
+            (value) =>
+              Math.abs(hotStockY(value) - hotStockY(INITIAL_CAPITAL)) > 30,
+          )
+          .map((value) => (
+            <g key={value}>
+              <line
+                x1={plotStart}
+                x2={plotEnd}
+                y1={hotStockY(value)}
+                y2={hotStockY(value)}
+                stroke="#d7ded9"
+              />
+              <text x="150" y={hotStockY(value) + 4} textAnchor="end">
+                {money(value)}
+              </text>
+            </g>
+          ))}
+        <g data-testid="starting-value-reference-hot-stocks">
+          <line
+            x1={plotStart}
+            x2={plotEnd}
+            y1={hotStockY(INITIAL_CAPITAL)}
+            y2={hotStockY(INITIAL_CAPITAL)}
+            stroke="#89998f"
+            strokeWidth="1.5"
+            strokeDasharray="2 5"
+          />
+          <text x="150" y={hotStockY(INITIAL_CAPITAL) + 4} textAnchor="end">
+            {money(INITIAL_CAPITAL)}
+          </text>
+        </g>
         {hotStockSeries.map((values, i) => {
           const seriesIndex = i + 3;
           return (
@@ -226,12 +273,15 @@ export function PathChart({
               </a>
             );
           })}
-        <text x={x(0)} y="400" textAnchor="middle">
-          Start
-        </text>
-        {[12, 24, 36, 48, 60].map((month) => (
-          <text key={month} x={x(month)} y="400" textAnchor="middle">
-            Year {month / 12}
+        {yearLabels.map(({ month, year }) => (
+          <text
+            key={month}
+            data-testid="chart-year"
+            x={x(month)}
+            y="400"
+            textAnchor={month === 0 ? 'start' : month === 60 ? 'end' : 'middle'}
+          >
+            {year}
           </text>
         ))}
       </svg>
