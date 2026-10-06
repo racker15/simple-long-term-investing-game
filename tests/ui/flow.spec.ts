@@ -140,8 +140,10 @@ test('five-scenario vertical slice, allocation controls, locked refresh, final s
     .getByRole('radio', { name: 'Acme Computing', exact: true })
     .check();
   await page.getByRole('button', { name: 'Review decision' }).click();
-  const confirmation = page.locator('[aria-labelledby="allocation-title"] dl');
-  await expect(confirmation.locator('dt')).toHaveText([
+  const confirmation = page.locator(
+    '[aria-labelledby="allocation-title"] .allocation-row',
+  );
+  await expect(confirmation.locator('strong')).toHaveText([
     'Cash',
     'Bonds',
     'US Total Market',
@@ -150,7 +152,7 @@ test('five-scenario vertical slice, allocation controls, locked refresh, final s
     'Example Telecom',
     'Sample Retail',
   ]);
-  await expect(confirmation.locator('dd')).toHaveText([
+  await expect(confirmation.locator('output')).toHaveText([
     '$500',
     '$0',
     '$9,500',
@@ -272,6 +274,7 @@ test('animation skips only to its next required pause', async ({ page }) => {
     .getByRole('button', { name: 'Invest and see what happens' })
     .click();
   await expect(page.locator('main')).toBeFocused();
+  await page.getByRole('button', { name: 'Play reveal', exact: true }).click();
   for (const year of [1, 3, 5]) {
     await page
       .getByRole('button', {

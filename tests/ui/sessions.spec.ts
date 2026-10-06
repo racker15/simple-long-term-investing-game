@@ -290,6 +290,7 @@ test('year-one and year-three pauses show only returns reached so far', async ({
   await page
     .getByRole('button', { name: 'Invest and see what happens' })
     .click();
+  await page.getByRole('button', { name: 'Play reveal', exact: true }).click();
   await expect(
     page.getByRole('heading', { name: 'Paused after 1 year', exact: true }),
   ).toBeVisible();
@@ -573,4 +574,350 @@ test('a restored fifty-round session finishes all blocks and exhausts first-time
     page.getByText('Your learning history — 50 scenarios', { exact: true }),
   ).toBeVisible();
   expect((await history(page)).finished).toHaveLength(1);
+});
+
+test('review keeps the allocation in place and makes the next action visible', async ({
+  page,
+}, testInfo) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  const add = page.getByRole('button', {
+    name: 'Add $500 to US Total Market',
+    exact: true,
+  });
+  await add.click();
+  await page.getByRole('radio', { name: 'Cash', exact: true }).check();
+  const review = page.getByRole('button', { name: 'Review decision' });
+  await review.scrollIntoViewIfNeeded();
+  const before = await page.evaluate(() => ({
+    scroll: window.scrollY,
+    rows: [...document.querySelectorAll('.allocation-row')].map(
+      (row) => row.getBoundingClientRect().top + window.scrollY,
+    ),
+  }));
+  await review.click();
+  const investButton = page.getByRole('button', {
+    name: 'Invest and see what happens',
+  });
+  await expect(investButton).toBeFocused();
+  await expect(investButton).toBeInViewport({ ratio: 1 });
+  await expect(
+    page.getByRole('status').filter({ hasText: 'Locked and ready' }),
+  ).toBeVisible();
+  await expect(page.locator('.allocation-panel')).toHaveClass(
+    /allocation-locked/,
+  );
+  await expect(add).toBeDisabled();
+  await expect(
+    page.getByRole('radio', { name: 'Cash', exact: true }),
+  ).toBeDisabled();
+  await expect(page.getByLabel('US Total Market allocation')).toHaveText(
+    '$500',
+  );
+  const after = await page.evaluate(() => ({
+    scroll: window.scrollY,
+    rows: [...document.querySelectorAll('.allocation-row')].map(
+      (row) => row.getBoundingClientRect().top + window.scrollY,
+    ),
+  }));
+  expect(after.rows).toEqual(before.rows);
+  expect(after.scroll).toBeGreaterThanOrEqual(before.scroll - 1);
+  await page.screenshot({
+    path: testInfo.outputPath('session-locked-allocation.png'),
+    fullPage: true,
+  });
+  await page.getByRole('button', { name: 'Back to allocation' }).click();
+  await expect(review).toBeFocused();
+  await expect(review).toBeInViewport({ ratio: 1 });
+  await expect(add).toBeEnabled();
+  await expect(
+    page.getByRole('radio', { name: 'Cash', exact: true }),
+  ).toBeChecked();
+  await expect(page.locator('.allocation-panel')).not.toHaveClass(
+    /allocation-locked/,
+  );
+  await expect(page.getByLabel('US Total Market allocation')).toHaveText(
+    '$500',
+  );
+  await review.click();
+  await expect(investButton).toBeInViewport({ ratio: 1 });
+  await investButton.click();
+  await finishReplay(page);
+});
+
+test('right-hand labels match every line and return at each reveal', async ({
+  page,
+}, testInfo) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  const id = (await history(page)).active.scenario_ids[0];
+  const future = JSON.parse(
+    readFileSync(`data/scenarios/${id}/future_outcomes.json`, 'utf8'),
+  );
+  await page.getByRole('radio', { name: 'Cash', exact: true }).check();
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await page
+    .getByRole('button', { name: 'Invest and see what happens' })
+    .click();
+  await page.getByRole('button', { name: 'Play reveal', exact: true }).click();
+  for (const months of [12, 36, 60]) {
+    await expect(
+      page.getByRole('heading', {
+        name:
+          months === 60
+            ? 'Five-year path complete'
+            : `Paused after ${months / 12} ${months === 12 ? 'year' : 'years'}`,
+        exact: true,
+      }),
+    ).toBeVisible();
+    for (let i = 0; i < 6; i++) {
+      const label = page.getByTestId(`chart-end-${i}`);
+      const line = page.getByTestId(
+        i < 3 ? `path-${i}` : `hot-stock-path-${i - 3}`,
+      );
+      const color = await line.getAttribute('stroke');
+      await expect(label.locator('circle').first()).toHaveAttribute(
+        'fill',
+        color!,
+      );
+      const endpoint = (await line.getAttribute('points'))!
+        .split(' ')
+        .at(-1)!
+        .split(',');
+      await expect(label.locator('circle').first()).toHaveAttribute(
+        'cx',
+        endpoint[0],
+      );
+      await expect(label.locator('circle').first()).toHaveAttribute(
+        'cy',
+        endpoint[1],
+      );
+      const name = await label.locator('.endpoint-name').textContent();
+      const result = await label.locator('.endpoint-return').textContent();
+      await expect(page.getByTestId(`chart-return-${i}`)).toContainText(name!);
+      await expect(page.getByTestId(`chart-return-${i}`)).toContainText(
+        result!,
+      );
+    }
+    const cashValue = future.monthly_returns.cash
+      .slice(0, months)
+      .reduce(
+        (total: number, row: { return: number }) => total * (1 + row.return),
+        10000,
+      );
+    await expect(
+      page.getByTestId('chart-end-0').locator('.endpoint-return'),
+    ).toHaveText(percent(cashValue / 10000 - 1));
+    const positions = await page
+      .locator('.endpoint-name')
+      .evaluateAll((nodes) =>
+        nodes.map((node) => Number(node.getAttribute('y'))),
+      );
+    for (const offset of [0, 3]) {
+      const ys = positions.slice(offset, offset + 3).sort((a, b) => a - b);
+      expect(ys[1] - ys[0]).toBeGreaterThanOrEqual(38);
+      expect(ys[2] - ys[1]).toBeGreaterThanOrEqual(38);
+    }
+    await page.locator('.chart-scroll').evaluate((node) => {
+      node.scrollLeft = node.scrollWidth;
+    });
+    await page.getByTestId('chart-end-5').scrollIntoViewIfNeeded();
+    await expect(page.getByTestId('chart-end-5')).toBeInViewport();
+    await page.locator('.chart').screenshot({
+      path: testInfo.outputPath(`session-end-labels-${months}.png`),
+    });
+    expect(
+      await page.evaluate(
+        () => document.documentElement.scrollWidth <= innerWidth,
+      ),
+    ).toBe(true);
+    if (months < 60)
+      await page
+        .getByRole('button', {
+          name: `Continue to year ${months === 12 ? 3 : 5}`,
+          exact: true,
+        })
+        .click();
+  }
+});
+
+test('each reveal waits for Play and animates for eight seconds with moving endpoint labels', async ({
+  page,
+}) => {
+  test.setTimeout(60000);
+  await page.clock.install({ time: new Date('2026-10-06T00:00:00Z') });
+  await page.emulateMedia({ reducedMotion: 'no-preference' });
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await page.getByRole('radio', { name: 'Cash', exact: true }).check();
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await page.clock.pauseAt(await page.evaluate(() => Date.now() + 1000));
+  await page
+    .getByRole('button', { name: 'Invest and see what happens' })
+    .click();
+  await expect(
+    page.getByRole('heading', { name: 'Ready to play', exact: true }),
+  ).toBeVisible();
+  await page.clock.runFor(15000);
+  await expect(page.getByTestId('path-0')).toHaveAttribute('points', /^\S+$/);
+  await expect(
+    page.getByTestId('chart-end-0').locator('.endpoint-return'),
+  ).toHaveText('0%');
+  await page.getByRole('button', { name: 'Play reveal', exact: true }).click();
+  for (const year of [1, 3, 5]) {
+    const revealing = page.getByRole('heading', {
+      name: `Revealing through year ${year}…`,
+      exact: true,
+    });
+    await expect(revealing).toBeVisible();
+    const dot = page.getByTestId('chart-end-0').locator('circle').first();
+    const startX = Number(await dot.getAttribute('cx'));
+    await page.clock.runFor(4000);
+    await expect(revealing).toBeVisible();
+    const middleX = Number(await dot.getAttribute('cx'));
+    expect(middleX).toBeGreaterThan(startX);
+    expect(middleX).toBeLessThan(540);
+    for (let i = 0; i < 6; i++) {
+      const line = page.getByTestId(
+        i < 3 ? `path-${i}` : `hot-stock-path-${i - 3}`,
+      );
+      const endpoint = (await line.getAttribute('points'))!
+        .split(' ')
+        .at(-1)!
+        .split(',');
+      const label = page.getByTestId(`chart-end-${i}`);
+      await expect(label.locator('circle').first()).toHaveAttribute(
+        'cx',
+        endpoint[0],
+      );
+      await expect(label.locator('circle').first()).toHaveAttribute(
+        'cy',
+        endpoint[1],
+      );
+      await expect(label.locator('.endpoint-return')).not.toContainText('NaN');
+    }
+    await page.clock.runFor(3990);
+    await expect(revealing).toBeVisible();
+    await page.clock.runFor(40);
+    await expect(
+      page.getByRole('heading', {
+        name:
+          year === 5
+            ? 'Five-year path complete'
+            : `Paused after ${year} ${year === 1 ? 'year' : 'years'}`,
+        exact: true,
+      }),
+    ).toBeVisible();
+    await expect(dot).toHaveAttribute('cx', '540');
+    await expect(page.getByTestId('path-0')).toHaveAttribute(
+      'points',
+      new RegExp(`\\S+( \\S+){${year * 12}}$`),
+    );
+    if (year < 5) {
+      await page.clock.runFor(6000);
+      await expect(
+        page.getByRole('heading', { name: 'Five years later', exact: true }),
+      ).toHaveCount(0);
+      await page
+        .getByRole('button', {
+          name: `Continue to year ${year === 1 ? 3 : 5}`,
+          exact: true,
+        })
+        .click();
+    }
+  }
+});
+
+test('replay reveal keeps the locked choice and never records a second result', async ({
+  page,
+}) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await page
+    .getByRole('button', { name: 'Add $500 to Bonds', exact: true })
+    .click();
+  await page.getByRole('radio', { name: 'Bonds', exact: true }).check();
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await page
+    .getByRole('button', { name: 'Invest and see what happens' })
+    .click();
+  await expect(
+    page.getByRole('heading', { name: 'Ready to play', exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole('heading', { name: 'Five years later', exact: true }),
+  ).toHaveCount(0);
+  await finishReplay(page);
+  const saved = await history(page);
+  const ending = await page.locator('.ending').textContent();
+  for (let attempt = 0; attempt < 2; attempt++) {
+    await page
+      .getByRole('button', { name: 'Replay reveal', exact: true })
+      .click();
+    await expect(
+      page.getByRole('button', { name: 'Play reveal', exact: true }),
+    ).toBeFocused();
+    await expect(
+      page.getByRole('heading', { name: 'Ready to play', exact: true }),
+    ).toBeVisible();
+    await expect(page.getByTestId('path-0')).toHaveAttribute('points', /^\S+$/);
+    await expect(
+      page.getByRole('heading', { name: 'Five years later', exact: true }),
+    ).toHaveCount(0);
+    await expect(
+      page.getByRole('heading', { name: 'Invest your $10,000', exact: true }),
+    ).toHaveCount(0);
+    await expect(
+      page.getByRole('button', { name: 'Next scenario', exact: true }),
+    ).toHaveCount(0);
+    expect(await history(page)).toEqual(saved);
+    if (attempt === 1) {
+      await page.reload();
+      await expect(
+        page.getByRole('heading', { name: 'Ready to play', exact: true }),
+      ).toBeVisible();
+      expect(await history(page)).toEqual(saved);
+    }
+    await finishReplay(page);
+    await expect(page.locator('.ending')).toHaveText(ending!);
+    expect(await history(page)).toEqual(saved);
+  }
+  await page
+    .getByRole('button', { name: 'Next scenario', exact: true })
+    .click();
+  await expect(
+    page.getByText('Scenario 2 of 10', { exact: true }),
+  ).toBeVisible();
+  expect((await history(page)).active.completed).toHaveLength(1);
+});
+
+test('a long suspended frame gap cannot consume a reveal stage', async ({
+  page,
+}) => {
+  test.setTimeout(60000);
+  await page.clock.install({ time: new Date('2026-10-06T00:00:00Z') });
+  await page.emulateMedia({ reducedMotion: 'no-preference' });
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await page.getByRole('radio', { name: 'Cash', exact: true }).check();
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await page.clock.pauseAt(await page.evaluate(() => Date.now() + 1000));
+  await page
+    .getByRole('button', { name: 'Invest and see what happens' })
+    .click();
+  await page.getByRole('button', { name: 'Play reveal', exact: true }).click();
+  await page.clock.runFor(2000);
+  const before = await page.getByTestId('path-0').getAttribute('points');
+  await page.clock.fastForward(10000);
+  await expect(page.getByTestId('path-0')).toHaveAttribute('points', before!);
+  await expect(
+    page.getByRole('heading', {
+      name: 'Revealing through year 1…',
+      exact: true,
+    }),
+  ).toBeVisible();
+  await page.clock.runFor(6100);
+  await expect(
+    page.getByRole('heading', { name: 'Paused after 1 year', exact: true }),
+  ).toBeVisible();
 });

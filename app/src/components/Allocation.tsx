@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useLayoutEffect, useRef, useState } from 'react';
 import {
   ALLOCATION_STEP,
   INITIAL_CAPITAL,
@@ -68,147 +68,146 @@ export function Allocation({
     updateExpected(next);
   }
   const [confirming, setConfirming] = useState(false);
+  const action = useRef<HTMLButtonElement>(null);
+  const wasConfirming = useRef(false);
+  useLayoutEffect(() => {
+    if (!confirming && !wasConfirming.current) return;
+    wasConfirming.current = confirming;
+    action.current?.focus({ preventScroll: true });
+    action.current?.scrollIntoView({ block: 'nearest', behavior: 'instant' });
+  }, [confirming]);
   const explicit = Object.values(draft).reduce<number>(
     (sum, value) => sum + (value ?? 0),
     0,
   );
   const normalized = normalizeAllocations(ids, draft);
   return (
-    <section className="panel" aria-labelledby="allocation-title">
+    <section
+      className={`panel allocation-panel${confirming ? ' allocation-locked' : ''}`}
+      aria-labelledby="allocation-title"
+    >
       <h2 id="allocation-title">Invest your $10,000</h2>
       {warning && <p role="status">{warning}</p>}
-      {confirming ? (
-        <>
-          <h3>Ready?</h3>
-          <p>
-            You are investing $10,000 in {context.display_date}. You cannot make
-            changes for five years.
-          </p>
-          <dl>
-            {context.asset_definitions.map((asset) => (
-              <div key={asset.id}>
-                <dt>{asset.name}</dt>
-                <dd>{money(normalized[asset.id])}</dd>
-              </div>
-            ))}
-          </dl>
-          <p>
-            You think{' '}
-            <strong>
-              {
-                context.asset_definitions.find((asset) => asset.id === expected)
-                  ?.name
-              }
-            </strong>{' '}
-            will do best.
-          </p>
-          <div className="actions">
-            <button
-              onClick={() => {
-                if (!expected) return;
-                const durablyCommitted = onCommit(normalized, expected);
-                if (storageKey && durablyCommitted === true) {
-                  try {
-                    localStorage.removeItem(storageKey);
-                  } catch {
-                    /* The committed decision is stored separately. */
-                  }
-                }
-              }}
-            >
-              Invest and see what happens
-            </button>
-            <button className="secondary" onClick={() => setConfirming(false)}>
-              Back to allocation
-            </button>
+      <p>
+        Move money in $500 steps. Cash is the amount remaining: adding to
+        another investment reduces Cash, and removing money increases it.
+      </p>
+      {context.asset_definitions.map((asset) => (
+        <div className="allocation-row" key={asset.id}>
+          <div>
+            <strong>{asset.name}</strong>
+            <p className="small">{asset.description}</p>
           </div>
-        </>
-      ) : (
-        <>
-          <p>
-            Move money in $500 steps. Cash is the amount remaining: adding to
-            another investment reduces Cash, and removing money increases it.
-          </p>
+          <div className="stepper">
+            {asset.id === 'cash' ? (
+              <>
+                <span>Remaining</span>
+                <output aria-label="Cash allocation">
+                  {money(normalized.cash)}
+                </output>
+              </>
+            ) : (
+              <>
+                <button
+                  className="secondary"
+                  aria-label={`Remove $500 from ${asset.name}`}
+                  disabled={confirming || !draft[asset.id]}
+                  onClick={() =>
+                    setDraft({
+                      ...draft,
+                      [asset.id]: (draft[asset.id] ?? 0) - ALLOCATION_STEP,
+                    })
+                  }
+                >
+                  −
+                </button>
+                <output aria-label={`${asset.name} allocation`}>
+                  {money(normalized[asset.id])}
+                </output>
+                <button
+                  className="secondary"
+                  aria-label={`Add $500 to ${asset.name}`}
+                  disabled={confirming || explicit >= INITIAL_CAPITAL}
+                  onClick={() =>
+                    setDraft({
+                      ...draft,
+                      [asset.id]: (draft[asset.id] ?? 0) + ALLOCATION_STEP,
+                    })
+                  }
+                >
+                  +
+                </button>
+              </>
+            )}
+          </div>
+        </div>
+      ))}
+      <p aria-live="polite">
+        <strong>
+          {money(INITIAL_CAPITAL)} / {money(INITIAL_CAPITAL)} allocated
+        </strong>{' '}
+        · {money(normalized.cash)} remaining in Cash.
+      </p>
+      <fieldset disabled={confirming}>
+        <legend>
+          Which investment do you think will do best over the next five years?
+        </legend>
+        <div className="prediction-grid">
           {context.asset_definitions.map((asset) => (
-            <div className="allocation-row" key={asset.id}>
-              <div>
-                <strong>{asset.name}</strong>
-                <p className="small">{asset.description}</p>
-              </div>
-              <div className="stepper">
-                {asset.id === 'cash' ? (
-                  <>
-                    <span>Remaining</span>
-                    <output aria-label="Cash allocation">
-                      {money(normalized.cash)}
-                    </output>
-                  </>
-                ) : (
-                  <>
-                    <button
-                      className="secondary"
-                      aria-label={`Remove $500 from ${asset.name}`}
-                      disabled={!draft[asset.id]}
-                      onClick={() =>
-                        setDraft({
-                          ...draft,
-                          [asset.id]: (draft[asset.id] ?? 0) - ALLOCATION_STEP,
-                        })
-                      }
-                    >
-                      −
-                    </button>
-                    <output aria-label={`${asset.name} allocation`}>
-                      {money(normalized[asset.id])}
-                    </output>
-                    <button
-                      className="secondary"
-                      aria-label={`Add $500 to ${asset.name}`}
-                      disabled={explicit >= INITIAL_CAPITAL}
-                      onClick={() =>
-                        setDraft({
-                          ...draft,
-                          [asset.id]: (draft[asset.id] ?? 0) + ALLOCATION_STEP,
-                        })
-                      }
-                    >
-                      +
-                    </button>
-                  </>
-                )}
-              </div>
-            </div>
+            <label key={asset.id}>
+              <input
+                type="radio"
+                name="expected-winner"
+                value={asset.id}
+                checked={expected === asset.id}
+                onChange={() => setExpected(asset.id)}
+              />
+              {asset.name}
+            </label>
           ))}
-          <p aria-live="polite">
-            <strong>
-              {money(INITIAL_CAPITAL)} / {money(INITIAL_CAPITAL)} allocated
-            </strong>{' '}
-            · {money(normalized.cash)} remaining in Cash.
+        </div>
+      </fieldset>
+      {confirming && (
+        <div className="allocation-lock" role="status">
+          <strong>
+            <span aria-hidden="true">✓ </span>Locked and ready
+          </strong>
+          <p>
+            Your $10,000 choice for {context.display_date} is ready. Choose
+            Invest to begin five years, or go back to make changes.
           </p>
-          <fieldset>
-            <legend>
-              Which investment do you think will do best over the next five
-              years?
-            </legend>
-            <div className="prediction-grid">
-              {context.asset_definitions.map((asset) => (
-                <label key={asset.id}>
-                  <input
-                    type="radio"
-                    name="expected-winner"
-                    value={asset.id}
-                    checked={expected === asset.id}
-                    onChange={() => setExpected(asset.id)}
-                  />
-                  {asset.name}
-                </label>
-              ))}
-            </div>
-          </fieldset>
-          <button disabled={!expected} onClick={() => setConfirming(true)}>
-            Review decision
+        </div>
+      )}
+      {confirming ? (
+        <div className="actions">
+          <button
+            ref={action}
+            onClick={() => {
+              if (!expected) return;
+              const durablyCommitted = onCommit(normalized, expected);
+              if (storageKey && durablyCommitted === true) {
+                try {
+                  localStorage.removeItem(storageKey);
+                } catch {
+                  /* The committed decision is stored separately. */
+                }
+              }
+            }}
+          >
+            Invest and see what happens
           </button>
-        </>
+          <button className="secondary" onClick={() => setConfirming(false)}>
+            Back to allocation
+          </button>
+        </div>
+      ) : (
+        <button
+          ref={action}
+          disabled={!expected}
+          onClick={() => setConfirming(true)}
+        >
+          Review decision
+        </button>
       )}
     </section>
   );

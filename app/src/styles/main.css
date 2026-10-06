@@ -375,3 +375,43 @@ footer {
   text-align: left;
   font-weight: 400;
 }
+
+.allocation-locked {
+  background: #f0f8f3;
+  box-shadow: inset 0 0 0 2px #28734b;
+}
+.allocation-locked .allocation-row {
+  border-bottom-color: #adcdb8;
+}
+.allocation-lock {
+  color: #174d30;
+  border-left: 4px solid #28734b;
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+  background: #dcefe2;
+}
+.allocation-lock p {
+  margin: 0.4rem 0 0;
+}
+
+.chart-scroll {
+  overflow-x: auto;
+}
+.chart-scroll svg {
+  min-width: 720px;
+}
+.chart .endpoint-name {
+  font-size: 14px;
+  font-weight: 600;
+}
+.chart .endpoint-return {
+  font-size: 14px;
+}
+
+.chart .financial-return--negative {
+  fill: #b42318;
+}
+
+.allocation-panel button {
+  scroll-margin-block: 1rem;
+}
