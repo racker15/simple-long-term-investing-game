@@ -970,6 +970,8 @@ Add tests before chart work.
 Build:
 
 - progressively revealed 60-month chart;
+- sparse historical year labels derived from the scenario dates;
+- a secondary dotted $10,000 starting-value reference across each chart panel;
 - portfolio line;
 - US Total comparison line;
 - diversified benchmark line;
