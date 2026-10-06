@@ -262,12 +262,12 @@ test('checkpoint continues and supports ending after a whole block', async ({
 });
 test('animation skips only to its next required pause', async ({ page }) => {
   await page.clock.install({ time: new Date('2026-10-06T00:00:00Z') });
-  await page.clock.pauseAt(new Date('2026-10-06T00:00:01Z'));
   await page.emulateMedia({ reducedMotion: 'no-preference' });
   await page.goto('/?demo=1');
   await page.getByRole('button', { name: 'Begin session' }).click();
   await page.getByRole('radio', { name: 'Cash', exact: true }).check();
   await page.getByRole('button', { name: 'Review decision' }).click();
+  await page.clock.pauseAt(await page.evaluate(() => Date.now() + 1000));
   await page
     .getByRole('button', { name: 'Invest and see what happens' })
     .click();
