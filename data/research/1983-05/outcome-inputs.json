@@ -1,0 +1,54 @@
+{
+  "scenario_id": "1983-05",
+  "events": [
+    {
+      "month": "1986-01",
+      "title": "Challenger is lost",
+      "description": "Seven people die when the shuttle breaks apart after launch. NASA pauses shuttle flights and investigates.",
+      "source_ids": ["nasa-challenger"]
+    },
+    {
+      "month": "1987-06",
+      "title": "A speech at the Berlin Wall",
+      "description": "President Reagan calls for the wall to be opened and removed. The wall remains in place at this point.",
+      "source_ids": ["reagan-wall"]
+    },
+    {
+      "month": "1987-10",
+      "title": "Black Monday shakes markets",
+      "description": "The Dow falls 22.6% in one day. Your chart shows monthly returns, so its October drop is a different number.",
+      "source_ids": ["fed-crash1987"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Computers were exciting, but the international share basket finished far ahead of Apple and IBM in this window. Disney also rose strongly. The 1987 crash interrupted the journey, although all seven choices still ended above their starting values. This is a reminder that a famous growth story and a high investment return are different things.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aapl",
+      "yahoo-ibm",
+      "yahoo-dis",
+      "nasa-challenger",
+      "reagan-wall",
+      "fed-crash1987"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "The recovery and new technology competed for attention with elections, jobs and cultural events. Apple and IBM were easy companies to notice.",
+    "what_actually_mattered": "The price paid for an investment mattered alongside its story. A broad basket outside the US beat these famous computer companies over this particular window.",
+    "what_faded_away": "Excitement about a movie or a new computer could not settle a five-year investing decision. An interesting headline was only a small piece of information.",
+    "what_nobody_knew": "No one knew the date of the coming crash or the final ranking. Diversification spread company risk, but it did not remove market drops.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aapl",
+      "yahoo-ibm",
+      "yahoo-dis",
+      "nasa-challenger",
+      "reagan-wall",
+      "fed-crash1987"
+    ]
+  }
+}

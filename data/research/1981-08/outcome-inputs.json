@@ -1,0 +1,56 @@
+{
+  "scenario_id": "1981-08",
+  "events": [
+    {
+      "month": "1982-11",
+      "title": "The recession reaches a turning point",
+      "description": "Economic activity reaches the low point later identified by the NBER. Its official announcement follows in July 1983.",
+      "source_ids": ["nber-1982-trough"]
+    },
+    {
+      "month": "1983-03",
+      "title": "Missile-defense research sparks debate",
+      "description": "President Reagan proposes research into defenses against nuclear missiles. Supporters and critics debate its possibilities and risks.",
+      "source_ids": ["reagan-sdi"]
+    },
+    {
+      "month": "1986-01",
+      "title": "Challenger is lost",
+      "description": "Seven people die when the shuttle breaks apart after launch. NASA pauses shuttle flights and investigates.",
+      "source_ids": ["nasa-challenger"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "The recession grew worse before recovery arrived. Yet every choice finished higher over five years. Coca-Cola led this set, and the international share basket beat the US basket. High interest rates helped cash earn income, while falling rates later helped bond prices. A difficult first year and a strong five-year result can both be true.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ibm",
+      "yahoo-ko",
+      "yahoo-xom",
+      "nber-1982-trough",
+      "reagan-sdi",
+      "nasa-challenger",
+      "fed-1981-recession"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "Air travel, the oil market and the strong dollar drew attention. IBM’s new home computer showed how quickly technology was changing.",
+    "what_actually_mattered": "Your starting price and the full five-year path mattered. An exciting new product was only one part of a company’s investment story.",
+    "what_faded_away": "The unusual baseball season and immediate arguments about air traffic did not provide a dependable five-year investing plan.",
+    "what_nobody_knew": "Nobody could know that Coca-Cola would lead these seven choices. Popularity, recent returns and a clever story were not guarantees.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ibm",
+      "yahoo-ko",
+      "yahoo-xom",
+      "nber-1982-trough",
+      "reagan-sdi",
+      "nasa-challenger",
+      "fed-1981-recession"
+    ]
+  }
+}

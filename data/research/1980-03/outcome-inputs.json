@@ -1,0 +1,56 @@
+{
+  "scenario_id": "1980-03",
+  "events": [
+    {
+      "month": "1981-04",
+      "title": "The first space shuttle launches",
+      "description": "Columbia carries two astronauts into orbit on the first shuttle mission. The flight opens a new chapter in US space travel.",
+      "source_ids": ["nasa-sts1"]
+    },
+    {
+      "month": "1981-08",
+      "title": "IBM introduces its personal computer",
+      "description": "IBM launches a computer aimed at businesses and homes. It uses components and software from outside suppliers.",
+      "source_ids": ["ibm-pc-history"]
+    },
+    {
+      "month": "1982-11",
+      "title": "The recession reaches a turning point",
+      "description": "Economic activity reaches the low point later identified by the NBER. Its official announcement follows in July 1983.",
+      "source_ids": ["nber-1982-trough"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "High inflation was followed by another recession, then recovery. All seven choices ended higher after five years, but their gains differed greatly. IBM finished first in this set; Texas Instruments finished last. A promising industry did not make every company an equally rewarding investment. These dollar gains also do not tell you how much prices rose while you waited.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ibm",
+      "yahoo-txn",
+      "yahoo-xom",
+      "nasa-sts1",
+      "ibm-pc-history",
+      "nber-1982-trough",
+      "fed-1981-recession"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "People worried about rising prices, expensive borrowing and another recession. Computers and medical research offered exciting possibilities.",
+    "what_actually_mattered": "The seven return paths mattered more than one dramatic headline. Interest and dividends added to returns, and each company faced its own risks.",
+    "what_faded_away": "Campaign tactics and excitement about breakfast cereals did not tell you which investment would lead five years later.",
+    "what_nobody_knew": "The exact turns in the economy and the ranking of these choices were unknown. High starting interest rates did not make the next five years easy to predict.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ibm",
+      "yahoo-txn",
+      "yahoo-xom",
+      "nasa-sts1",
+      "ibm-pc-history",
+      "nber-1982-trough",
+      "fed-1981-recession"
+    ]
+  }
+}

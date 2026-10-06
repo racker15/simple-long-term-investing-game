@@ -8,7 +8,7 @@ The product sources remain [investing-game-specification.md](investing-game-spec
 
 ## Expansion toward 50 scenarios
 
-Draft expansion currently registers **8 complete historical scenarios**. September and October 1982 are the first two additions from the preregistered 25-important/25-random plan. Their starting context was committed before outcome assembly. The original six pilot bundles remain unchanged. Closely spaced random dates and overlapping five-year windows are retained rather than screened for a preferred result. The normal demonstration remains fictional; content expansion does not itself enable the later production-session UI.
+Draft expansion currently registers **12 complete historical scenarios**. Six early-1980s additions are now complete from the preregistered 25-important/25-random plan. Their starting context was committed before outcome assembly. The original six pilot bundles remain unchanged. Closely spaced random dates and overlapping five-year windows are retained rather than screened for a preferred result. The normal demonstration remains fictional; content expansion does not itself enable the later production-session UI.
 
 ## Product scope
 
@@ -33,7 +33,7 @@ npm run dev
 
 Open the Vite URL (normally `http://localhost:5173`). No account, server, API keys, database, or external runtime data service is required.
 
-During `npm run dev`, the isolated historical preview accepts each registered ID: `1982-08`, `1987-01`, `1999-09`, `2004-05`, `2008-09` and `2016-02`. For example, open `http://localhost:5173/?scenario=1982-08`. The preview loads prepared outcomes only after investment, saves no session history, and is excluded from production builds. The normal `/` demo remains fictional. Registry and browser verification status are recorded in [scenario qualification](docs/scenario-qualification.md).
+During `npm run dev`, the isolated historical preview accepts every registered ID in `data/scenarios/manifest.json`. For example, open `http://localhost:5173/?scenario=1982-08`. The preview loads prepared outcomes only after investment, saves no session history, and is excluded from production builds. The normal `/` demo remains fictional. Registry and browser verification status are recorded in [scenario qualification](docs/scenario-qualification.md).
 
 ```sh
 npm run format       # format implementation files; preserve the product source documents

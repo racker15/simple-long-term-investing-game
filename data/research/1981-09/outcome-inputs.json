@@ -1,0 +1,56 @@
+{
+  "scenario_id": "1981-09",
+  "events": [
+    {
+      "month": "1982-11",
+      "title": "The recession reaches a turning point",
+      "description": "Economic activity reaches the low point later identified by the NBER. Its official announcement follows in July 1983.",
+      "source_ids": ["nber-1982-trough"]
+    },
+    {
+      "month": "1983-03",
+      "title": "Missile-defense research sparks debate",
+      "description": "President Reagan proposes research into defenses against nuclear missiles. Supporters and critics debate its possibilities and risks.",
+      "source_ids": ["reagan-sdi"]
+    },
+    {
+      "month": "1986-01",
+      "title": "Challenger is lost",
+      "description": "Seven people die when the shuttle breaks apart after launch. NASA pauses shuttle flights and investigates.",
+      "source_ids": ["nasa-challenger"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "The economy had more painful months ahead before recovery began. Over the full five years, however, all seven choices gained. Coca-Cola finished first, with international shares also rising strongly. Compare this with the nearby August scenario: just one month changes the starting prices and final values. Neither date was an obvious winning entry point at the time.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ibm",
+      "yahoo-ko",
+      "yahoo-xom",
+      "nber-1982-trough",
+      "reagan-sdi",
+      "nasa-challenger",
+      "fed-1981-recession"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "Budget cuts, labor conflict in Poland and cheap airline fares filled the news. Investors also faced high interest rates and an uncertain economy.",
+    "what_actually_mattered": "Returns accumulated month after month. Different starting prices changed the final amounts, even when the selected companies and much of the history overlapped.",
+    "what_faded_away": "A boxing result and a fare war were memorable stories, but neither revealed the eventual order of these investments.",
+    "what_nobody_knew": "The length of the recession and the exact size of later gains were unknown. A forecast was a useful opinion, not a promise.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ibm",
+      "yahoo-ko",
+      "yahoo-xom",
+      "nber-1982-trough",
+      "reagan-sdi",
+      "nasa-challenger",
+      "fed-1981-recession"
+    ]
+  }
+}

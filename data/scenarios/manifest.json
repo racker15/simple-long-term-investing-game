@@ -2,6 +2,24 @@
   "schema_version": 1,
   "scenarios": [
     {
+      "scenario_id": "1980-03",
+      "date": "1980-03-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "1981-08",
+      "date": "1981-08-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "1981-09",
+      "date": "1981-09-30",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
       "scenario_id": "1982-08",
       "date": "1982-08-31",
       "data_kind": "historical",
@@ -16,6 +34,12 @@
     {
       "scenario_id": "1982-10",
       "date": "1982-10-31",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "1983-05",
+      "date": "1983-05-31",
       "data_kind": "historical",
       "selection_mode": "random"
     },
