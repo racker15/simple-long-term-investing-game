@@ -1165,7 +1165,44 @@ test('completed gallery bookmarks and original replay do not change first choice
   await page.getByText('Completed scenarios (5)', { exact: true }).click();
   await page.getByLabel('Show bookmarks only').check();
   await expect(page.locator('.history-cards article')).toHaveCount(1);
+  await page.route('**/*future_outcomes*', (route) => route.abort());
   await page.getByRole('button', { name: /^Replay original / }).click();
+  await expect(page.getByRole('alert')).toContainText(
+    'saved story could not load',
+  );
+  let navigations = 0;
+  page.on('framenavigated', (frame) => {
+    if (frame === page.mainFrame()) navigations++;
+  });
+  await page.evaluate(
+    (key) =>
+      localStorage.setItem(
+        key,
+        JSON.stringify({
+          version: 1,
+          active: null,
+          pending: null,
+          finished: [],
+        }),
+      ),
+    key,
+  );
+  await page
+    .getByRole('button', { name: 'Retry saved replay', exact: true })
+    .click();
+  await expect(
+    page.getByText('safe reload is unavailable', { exact: false }),
+  ).toBeVisible();
+  expect(navigations).toBe(0);
+  await page.evaluate(
+    ({ key, saved }) => localStorage.setItem(key, JSON.stringify(saved)),
+    { key, saved },
+  );
+  await page.unroute('**/*future_outcomes*');
+  await page
+    .getByRole('button', { name: 'Retry saved replay', exact: true })
+    .click();
+
   await expect(
     page.getByRole('heading', { name: 'Ready to play', exact: true }),
   ).toBeVisible();
@@ -1185,6 +1222,21 @@ test('completed gallery bookmarks and original replay do not change first choice
     }),
   ).toBeVisible();
   expect(await history(page)).toEqual(saved);
+  // Another tab can finish a session whose older break marker remains.
+  await page.evaluate(
+    ({ key, saved, session }) => {
+      localStorage.setItem(key, JSON.stringify({ ...saved, active: session }));
+      localStorage.setItem('investing-game:break:v1', session.session_id);
+    },
+    { key, saved, session },
+  );
+  await page.reload();
+  await expect(
+    page.getByRole('heading', { name: 'How you did', exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole('button', { name: 'Resume session', exact: true }),
+  ).toHaveCount(0);
 });
 
 test('taking a break pauses a running reveal without losing its place', async ({
@@ -1249,5 +1301,36 @@ test('a storage failure cannot erase an in-tab draft when taking a break', async
   ).toBeChecked();
   await expect(
     page.getByText('Your edits could not be saved.', { exact: false }),
+  ).toBeVisible();
+});
+
+test('a long suspended frame gap cannot consume a reveal stage', async ({
+  page,
+}) => {
+  test.setTimeout(60000);
+  await page.clock.install({ time: new Date('2026-10-06T00:00:00Z') });
+  await page.emulateMedia({ reducedMotion: 'no-preference' });
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await page.getByRole('radio', { name: 'Cash', exact: true }).check();
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await page.clock.pauseAt(await page.evaluate(() => Date.now() + 1000));
+  await page
+    .getByRole('button', { name: 'Invest and see what happens' })
+    .click();
+  await page.getByRole('button', { name: 'Play reveal', exact: true }).click();
+  await page.clock.runFor(2000);
+  const before = await page.getByTestId('path-0').getAttribute('points');
+  await page.clock.fastForward(10000);
+  await expect(page.getByTestId('path-0')).toHaveAttribute('points', before!);
+  await expect(
+    page.getByRole('heading', {
+      name: 'Revealing through year 1…',
+      exact: true,
+    }),
+  ).toBeVisible();
+  await page.clock.runFor(6100);
+  await expect(
+    page.getByRole('heading', { name: 'Paused after 1 year', exact: true }),
   ).toBeVisible();
 });

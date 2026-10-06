@@ -5,12 +5,15 @@ import { Reveal } from './Reveal';
 export function OriginalReplay({
   result,
   onClose,
+  canRestore,
 }: {
   result: ScenarioResult;
   onClose: () => void;
+  canRestore: () => boolean;
 }) {
   const [scenario, setScenario] = useState<Scenario | null>(null);
   const [error, setError] = useState('');
+  const [reloadWarning, setReloadWarning] = useState('');
   const [retry, setRetry] = useState(0);
   useEffect(() => {
     let cancelled = false;
@@ -43,10 +46,26 @@ export function OriginalReplay({
           This is your original locked choice. Replaying does not change your
           history.
         </p>
+        {reloadWarning && <p role="status">{reloadWarning}</p>}
         {error ? (
           <>
             <p role="alert">{error}</p>
-            <button onClick={() => setRetry((value) => value + 1)}>
+            <button
+              onClick={() => {
+                try {
+                  if (canRestore()) {
+                    window.location.reload();
+                    return;
+                  }
+                } catch {
+                  /* Keep the in-tab original result if persistence is unavailable. */
+                }
+                setReloadWarning(
+                  'The story could not load and safe reload is unavailable because this view or progress was not saved. Keep this tab open; your original choice is unchanged.',
+                );
+                setRetry((value) => value + 1);
+              }}
+            >
               Retry saved replay
             </button>
           </>

@@ -6,6 +6,7 @@ import {
 } from '../lib/contracts';
 import type { PortfolioPath } from '../lib/portfolio';
 import { money, percent } from '../lib/format';
+import { activeFrameMilliseconds } from '../lib/playback-clock';
 import { investmentStyle } from '../lib/investment-style';
 import { SignedReturn } from './SignedReturn';
 export function PathChart({
@@ -83,9 +84,15 @@ export function PathChart({
     const from = target === 12 ? 0 : target === 36 ? 12 : 36;
     const stageStart = visible;
     const remainingMs = (8000 * (target - stageStart)) / (target - from);
-    const startTime = performance.now();
+    let previousFrame = performance.now();
+    let playedMs = 0;
     function frame(now: number) {
-      const progress = Math.min(1, (now - startTime) / remainingMs);
+      playedMs += activeFrameMilliseconds(
+        now - previousFrame,
+        document.visibilityState === 'visible',
+      );
+      previousFrame = now;
+      const progress = Math.min(1, playedMs / remainingMs);
       setVisible(stageStart + (target - stageStart) * progress);
       if (progress < 1) animation.current = requestAnimationFrame(frame);
     }
@@ -357,8 +364,10 @@ export function PathChart({
       </ol>
       <p className="portfolio-now">
         Your portfolio:{' '}
-        <strong>{percent(valueAt(series[0]) / INITIAL_CAPITAL - 1)}</strong> ·{' '}
-        {money(valueAt(series[0]))}
+        <strong>
+          <SignedReturn value={valueAt(series[0]) / INITIAL_CAPITAL - 1} />
+        </strong>{' '}
+        · {money(valueAt(series[0]))}
       </p>
       <div
         className="chart-scroll"

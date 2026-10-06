@@ -75,6 +75,7 @@ export default function App() {
     try {
       return (
         !!initial.history.active &&
+        initial.history.active.phase !== 'final' &&
         localStorage.getItem(BREAK_KEY) === initial.history.active.session_id
       );
     } catch {
@@ -214,6 +215,10 @@ export default function App() {
     return (
       <OriginalReplay
         result={originalReview}
+        canRestore={() =>
+          localStorage.getItem(ORIGINAL_KEY) === originalReview.scenario_id &&
+          localStorage.getItem(HISTORY_KEY) === JSON.stringify(current.current)
+        }
         onClose={() => {
           try {
             localStorage.removeItem(ORIGINAL_KEY);
@@ -280,7 +285,7 @@ export default function App() {
               Take a break
             </button>
           ))}
-        <div hidden={takingBreak && !!session}>
+        <div hidden={takingBreak && !!session && session.phase !== 'final'}>
           {!session ? (
             <section className="panel start">
               <p className="eyebrow">
