@@ -574,3 +574,72 @@ test('a restored fifty-round session finishes all blocks and exhausts first-time
   ).toBeVisible();
   expect((await history(page)).finished).toHaveLength(1);
 });
+
+test('review keeps the allocation in place and makes the next action visible', async ({
+  page,
+}, testInfo) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  const add = page.getByRole('button', {
+    name: 'Add $500 to US Total Market',
+    exact: true,
+  });
+  await add.click();
+  await page.getByRole('radio', { name: 'Cash', exact: true }).check();
+  const review = page.getByRole('button', { name: 'Review decision' });
+  await review.scrollIntoViewIfNeeded();
+  const before = await page.evaluate(() => ({
+    scroll: window.scrollY,
+    rows: [...document.querySelectorAll('.allocation-row')].map(
+      (row) => row.getBoundingClientRect().top + window.scrollY,
+    ),
+  }));
+  await review.click();
+  const investButton = page.getByRole('button', {
+    name: 'Invest and see what happens',
+  });
+  await expect(investButton).toBeFocused();
+  await expect(investButton).toBeInViewport({ ratio: 1 });
+  await expect(
+    page.getByRole('status').filter({ hasText: 'Locked and ready' }),
+  ).toBeVisible();
+  await expect(page.locator('.allocation-panel')).toHaveClass(
+    /allocation-locked/,
+  );
+  await expect(add).toBeDisabled();
+  await expect(
+    page.getByRole('radio', { name: 'Cash', exact: true }),
+  ).toBeDisabled();
+  await expect(page.getByLabel('US Total Market allocation')).toHaveText(
+    '$500',
+  );
+  const after = await page.evaluate(() => ({
+    scroll: window.scrollY,
+    rows: [...document.querySelectorAll('.allocation-row')].map(
+      (row) => row.getBoundingClientRect().top + window.scrollY,
+    ),
+  }));
+  expect(after.rows).toEqual(before.rows);
+  expect(after.scroll).toBeGreaterThanOrEqual(before.scroll - 1);
+  await page.screenshot({
+    path: testInfo.outputPath('session-locked-allocation.png'),
+    fullPage: true,
+  });
+  await page.getByRole('button', { name: 'Back to allocation' }).click();
+  await expect(review).toBeFocused();
+  await expect(review).toBeInViewport({ ratio: 1 });
+  await expect(add).toBeEnabled();
+  await expect(
+    page.getByRole('radio', { name: 'Cash', exact: true }),
+  ).toBeChecked();
+  await expect(page.locator('.allocation-panel')).not.toHaveClass(
+    /allocation-locked/,
+  );
+  await expect(page.getByLabel('US Total Market allocation')).toHaveText(
+    '$500',
+  );
+  await review.click();
+  await expect(investButton).toBeInViewport({ ratio: 1 });
+  await investButton.click();
+  await finishReplay(page);
+});
