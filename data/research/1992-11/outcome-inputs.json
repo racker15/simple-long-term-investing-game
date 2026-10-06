@@ -1,0 +1,54 @@
+{
+  "scenario_id": "1992-11",
+  "events": [
+    {
+      "month": "1993-12",
+      "title": "Hubble gets corrective optics",
+      "description": "Astronauts service the space telescope to improve its images.",
+      "source_ids": ["hubble-repair"]
+    },
+    {
+      "month": "1994-04",
+      "title": "South Africa holds a democratic election",
+      "description": "The country holds its first national democratic election open to all races.",
+      "source_ids": ["south-africa-vote"]
+    },
+    {
+      "month": "1995-08",
+      "title": "Windows 95 reaches stores",
+      "description": "Microsoft launches a new operating system with a Start menu and taskbar.",
+      "source_ids": ["windows95"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "IBM more than tripled, leading these choices after a difficult early stretch. Ford, Disney and the US basket also more than doubled. A famous company could struggle and recover, but a recovery was never guaranteed. This result should not turn every troubled company into an automatic bargain.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-f",
+      "yahoo-dis",
+      "yahoo-ibm",
+      "hubble-repair",
+      "south-africa-vote",
+      "windows95"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "Clinton was preparing to take office, carmakers had mixed fortunes, and researchers were testing cleaner ways to wash clothes.",
+    "what_actually_mattered": "Company paths mattered over the entire holding period. Ending well did not mean avoiding losses along the way, and these three shares did not represent every business.",
+    "what_faded_away": "The excitement of a new presidency and a holiday movie did not reveal the final stock ranking. Interesting news and useful price forecasts are different things.",
+    "what_nobody_knew": "IBM’s eventual lead could not be read from its starting reputation or partnerships. Investors still had to face uncertainty while events unfolded.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-f",
+      "yahoo-dis",
+      "yahoo-ibm",
+      "hubble-repair",
+      "south-africa-vote",
+      "windows95"
+    ]
+  }
+}

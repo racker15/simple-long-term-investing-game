@@ -30,3 +30,11 @@ November 1984, September/November 1985, October 1987, December 1988 and January/
 August 1990 and February/November 1991 add three complete scenarios. Their starting context was committed at `d5099a44d4cd563671ea674a9852c93ee95a7bb8` before outcome retrieval. February includes the end-of-month Gulf cease-fire; November contrasts two computer partners whose subsequent shares diverged. Seven paths cover all 60 months. Twenty-two scenarios are registered; twenty-eight selected dates remain.
 
 The fifth batch passed the full local check: 131 tests, data rebuilding, schemas, formatting, TypeScript and production build.
+
+## Sixth batch
+
+December 1991 and February/November 1992 are complete. Starting bundles were separately committed at `39064cd980ea5ce02d02b14aedd945cbc512c901` before future histories. New stock choices include Honda, Hasbro and Ford, selected from contemporary coverage. Twenty-five complete scenarios are registered, halfway to the target.
+
+February 1994 is also complete, after starting lock `51751d83a3a99896590caabaef1016d5aeade4c8`. Its first rate-tightening announcement is known at the start. The collection now has 26 complete scenarios and 24 remaining selected dates. An interim aggregate validation correctly rejected the incomplete 1994 folder; no completed status was claimed from that attempt.
+
+Final combined check passed with 135 tests, all 26 scenario validations, exact rebuilding, schemas, formatting, TypeScript and production build.
