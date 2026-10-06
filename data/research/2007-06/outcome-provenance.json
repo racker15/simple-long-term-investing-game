@@ -1,0 +1,35 @@
+{
+  "scenario_id": "2007-06",
+  "sources": [
+    {
+      "id": "financial-crisis",
+      "source_name": "Federal Reserve History: Great Recession and Its Aftermath",
+      "source_reference": "https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath",
+      "publication_date": "2013-11-22",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Retrospective institutional history.",
+      "observation_date": "2008-09-30"
+    },
+    {
+      "id": "deepwater",
+      "source_name": "NOAA Fisheries: Deepwater Horizon Oil Spill 2010",
+      "source_reference": "https://www.fisheries.noaa.gov/content/deepwater-horizon-oil-spill-2010",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Retrospective incident history.",
+      "observation_date": "2010-04-20"
+    },
+    {
+      "id": "japan-quake",
+      "source_name": "USGS: Japan Lashed by Powerful Earthquake, Devastating Tsunami",
+      "source_reference": "https://www.usgs.gov/centers/pcmsc/news/japan-lashed-powerful-earthquake-devastating-tsunami",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Institutional account of the March11 disaster.",
+      "observation_date": "2011-03-11"
+    }
+  ]
+}

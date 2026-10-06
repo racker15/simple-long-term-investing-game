@@ -50,3 +50,9 @@ The combined 31-scenario check passed: 140 tests, all data validation/rebuild ch
 January/March/June 2000 starts were committed at `6d685968970958efe69c2d1422ac21cd5e2dc187`; December 2000, September 2001 and March 2003 at `679203e5c4daf05266b23528280fbd62860d94d9`. All six are complete. December TIME full articles were unavailable, so brief original issue-index summaries plus contemporary NASA and newspaper sources supply the news; this is disclosed in provenance. The date was not replaced. Thirty-seven scenarios are registered; thirteen selected dates remain.
 
 All 37 scenarios passed the combined check, including 146 tests, rebuilding, validation, schemas, formatting, TypeScript and production build.
+
+## Eleventh and twelfth batches
+
+September 2005, July 2006 and June 2007 starts were committed at `41e0172a01657625cb173bfb9526143406ca2092`; August/November 2007 and March 2009 at `00f38eba17590043db11827ae71dcbfa048c55d2`. All six are complete, bringing the collection to 43. Seven selected dates remain. AIG’s August 2009 gain of about 245% is retained after checking raw month-end prices and reverse-split timing. Its January 2011 warrant dividend is explicitly modeled through the vendor’s cash-equivalent adjusted-price proxy, not a separate warrant-holding strategy; no second distribution is added.
+
+The 43-scenario aggregate check passed with 152 tests, all rebuilding/validation checks, schemas, formatting, TypeScript and production build. The validator flags AIG’s reviewed August 2009 extreme return; the observation is retained and explained.

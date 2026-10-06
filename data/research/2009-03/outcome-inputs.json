@@ -1,0 +1,54 @@
+{
+  "scenario_id": "2009-03",
+  "events": [
+    {
+      "month": "2010-04",
+      "title": "Deepwater Horizon disaster",
+      "description": "An offshore drilling explosion kills workers and leads to a major oil spill.",
+      "source_ids": ["deepwater"]
+    },
+    {
+      "month": "2011-03",
+      "title": "Japan is struck by an earthquake and tsunami",
+      "description": "Coastal communities suffer devastating damage and begin a long recovery.",
+      "source_ids": ["japan-quake"]
+    },
+    {
+      "month": "2012-08",
+      "title": "Curiosity reaches Mars",
+      "description": "NASA lands a large rover to study the planet.",
+      "source_ids": ["curiosity"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "All seven choices rose over five years, with Amazon leading this set. Moody’s and AIG also gained strongly from this starting date. AIG’s chart includes an extraordinary jump of about 245% in August 2009, plus sharp falls at other times. Starting after a collapse can produce striking gains, but recovery was not guaranteed.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aig",
+      "yahoo-mco",
+      "yahoo-amzn",
+      "deepwater",
+      "japan-quake",
+      "curiosity"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "Government rescues, AIG bonuses and debt ratings drew scrutiny. Charities struggled, while companies still launched new products.",
+    "what_actually_mattered": "The starting point mattered greatly. These results begin after earlier crisis losses; they do not undo what an investor who bought much earlier had lost.",
+    "what_faded_away": "A rescue headline did not promise gains for existing shareholders. Nor did a critic’s view of an electronic reader settle its company’s future.",
+    "what_nobody_knew": "The timing and strength of recovery were unknown. Large gains on a finished chart can hide the fear and sharp swings along the way.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aig",
+      "yahoo-mco",
+      "yahoo-amzn",
+      "deepwater",
+      "japan-quake",
+      "curiosity"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "scenario_id": "2006-07",
+  "events": [
+    {
+      "month": "2008-09",
+      "title": "The financial crisis intensifies",
+      "description": "Lehman Brothers files for bankruptcy. Authorities support other financial firms as stress spreads.",
+      "source_ids": ["financial-crisis"]
+    },
+    {
+      "month": "2010-04",
+      "title": "Deepwater Horizon disaster",
+      "description": "An offshore drilling explosion kills workers and leads to a major oil spill.",
+      "source_ids": ["deepwater"]
+    },
+    {
+      "month": "2011-03",
+      "title": "Japan is struck by an earthquake and tsunami",
+      "description": "Coastal communities suffer devastating damage and begin a long recovery.",
+      "source_ids": ["japan-quake"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Apple grew to nearly six times its starting value, far ahead of this set. Bonds gained more than the US share basket, and HP’s gain was much smaller than Apple’s. These companies all sold technology, but their shareholders had very different experiences through the financial crisis.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-hpq",
+      "yahoo-aapl",
+      "yahoo-msft",
+      "financial-crisis",
+      "deepwater",
+      "japan-quake"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "Computer makers were competing for home users, the new Fed chair weighed inflation, and diplomacy struggled with armed conflict.",
+    "what_actually_mattered": "One industry label hid large differences between companies. The broad baskets spread those risks, while bonds followed a different path.",
+    "what_faded_away": "A new shop, a delayed product and a strong quarter did not reveal the final ranking. Each was only part of a longer story.",
+    "what_nobody_knew": "Nobody knew Apple’s eventual gain or the crisis ahead. Picking the winner now is easier than deciding among uncertain businesses then.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-hpq",
+      "yahoo-aapl",
+      "yahoo-msft",
+      "financial-crisis",
+      "deepwater",
+      "japan-quake"
+    ]
+  }
+}

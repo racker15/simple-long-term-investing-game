@@ -212,8 +212,44 @@
       "selection_mode": "random"
     },
     {
+      "scenario_id": "2005-09",
+      "date": "2005-09-30",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "2006-07",
+      "date": "2006-07-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "2007-06",
+      "date": "2007-06-30",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "2007-08",
+      "date": "2007-08-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "2007-11",
+      "date": "2007-11-30",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
       "scenario_id": "2008-09",
       "date": "2008-09-30",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "2009-03",
+      "date": "2009-03-31",
       "data_kind": "historical",
       "selection_mode": "important"
     },

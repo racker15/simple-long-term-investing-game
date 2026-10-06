@@ -1,0 +1,1259 @@
+{
+  "scenario_id": "2009-03",
+  "overlap_tolerance": 5e-6,
+  "series": {
+    "AIG": {
+      "raw_sha256": "a7cf5e6ba7499f0b41e1a37dc51640a209c54195826f99800b9ff7648d4f3cb4",
+      "monthly_endpoints": [
+        {
+          "month": "2008-03",
+          "trading_date": "2008-03-31",
+          "adjusted_close": 525.1237182617188
+        },
+        {
+          "month": "2008-04",
+          "trading_date": "2008-04-30",
+          "adjusted_close": 560.9415893554688
+        },
+        {
+          "month": "2008-05",
+          "trading_date": "2008-05-30",
+          "adjusted_close": 437.0972900390625
+        },
+        {
+          "month": "2008-06",
+          "trading_date": "2008-06-30",
+          "adjusted_close": 323.0608215332031
+        },
+        {
+          "month": "2008-07",
+          "trading_date": "2008-07-31",
+          "adjusted_close": 318.054931640625
+        },
+        {
+          "month": "2008-08",
+          "trading_date": "2008-08-29",
+          "adjusted_close": 262.3800048828125
+        },
+        {
+          "month": "2008-09",
+          "trading_date": "2008-09-30",
+          "adjusted_close": 41.068748474121094
+        },
+        {
+          "month": "2008-10",
+          "trading_date": "2008-10-31",
+          "adjusted_close": 23.555944442749023
+        },
+        {
+          "month": "2008-11",
+          "trading_date": "2008-11-28",
+          "adjusted_close": 24.78923988342285
+        },
+        {
+          "month": "2008-12",
+          "trading_date": "2008-12-31",
+          "adjusted_close": 19.362735748291016
+        },
+        {
+          "month": "2009-01",
+          "trading_date": "2009-01-30",
+          "adjusted_close": 15.786182403564453
+        },
+        {
+          "month": "2009-02",
+          "trading_date": "2009-02-27",
+          "adjusted_close": 5.179840564727783
+        },
+        {
+          "month": "2009-03",
+          "trading_date": "2009-03-31",
+          "adjusted_close": 12.332954406738281
+        },
+        {
+          "month": "2009-04",
+          "trading_date": "2009-04-30",
+          "adjusted_close": 17.019479751586914
+        },
+        {
+          "month": "2009-05",
+          "trading_date": "2009-05-29",
+          "adjusted_close": 20.842689514160156
+        },
+        {
+          "month": "2009-06",
+          "trading_date": "2009-06-30",
+          "adjusted_close": 14.306227684020996
+        },
+        {
+          "month": "2009-07",
+          "trading_date": "2009-07-31",
+          "adjusted_close": 8.102753639221191
+        },
+        {
+          "month": "2009-08",
+          "trading_date": "2009-08-31",
+          "adjusted_close": 27.952648162841797
+        },
+        {
+          "month": "2009-09",
+          "trading_date": "2009-09-30",
+          "adjusted_close": 27.200340270996094
+        },
+        {
+          "month": "2009-10",
+          "trading_date": "2009-10-30",
+          "adjusted_close": 20.7316951751709
+        },
+        {
+          "month": "2009-11",
+          "trading_date": "2009-11-30",
+          "adjusted_close": 17.51279640197754
+        },
+        {
+          "month": "2009-12",
+          "trading_date": "2009-12-31",
+          "adjusted_close": 18.487091064453125
+        },
+        {
+          "month": "2010-01",
+          "trading_date": "2010-01-29",
+          "adjusted_close": 14.941375732421875
+        },
+        {
+          "month": "2010-02",
+          "trading_date": "2010-02-26",
+          "adjusted_close": 15.274360656738281
+        },
+        {
+          "month": "2010-03",
+          "trading_date": "2010-03-31",
+          "adjusted_close": 21.05236053466797
+        },
+        {
+          "month": "2010-04",
+          "trading_date": "2010-04-30",
+          "adjusted_close": 23.987598419189453
+        },
+        {
+          "month": "2010-05",
+          "trading_date": "2010-05-28",
+          "adjusted_close": 21.816999435424805
+        },
+        {
+          "month": "2010-06",
+          "trading_date": "2010-06-30",
+          "adjusted_close": 21.237348556518555
+        },
+        {
+          "month": "2010-07",
+          "trading_date": "2010-07-30",
+          "adjusted_close": 23.72244644165039
+        },
+        {
+          "month": "2010-08",
+          "trading_date": "2010-08-31",
+          "adjusted_close": 20.92286491394043
+        },
+        {
+          "month": "2010-09",
+          "trading_date": "2010-09-30",
+          "adjusted_close": 24.110929489135742
+        },
+        {
+          "month": "2010-10",
+          "trading_date": "2010-10-29",
+          "adjusted_close": 25.90537452697754
+        },
+        {
+          "month": "2010-11",
+          "trading_date": "2010-11-30",
+          "adjusted_close": 25.46138572692871
+        },
+        {
+          "month": "2010-12",
+          "trading_date": "2010-12-31",
+          "adjusted_close": 35.531246185302734
+        },
+        {
+          "month": "2011-01",
+          "trading_date": "2011-01-31",
+          "adjusted_close": 29.99683952331543
+        },
+        {
+          "month": "2011-02",
+          "trading_date": "2011-02-28",
+          "adjusted_close": 27.55100440979004
+        },
+        {
+          "month": "2011-03",
+          "trading_date": "2011-03-31",
+          "adjusted_close": 26.12364387512207
+        },
+        {
+          "month": "2011-04",
+          "trading_date": "2011-04-29",
+          "adjusted_close": 23.157413482666016
+        },
+        {
+          "month": "2011-05",
+          "trading_date": "2011-05-31",
+          "adjusted_close": 21.187358856201172
+        },
+        {
+          "month": "2011-06",
+          "trading_date": "2011-06-30",
+          "adjusted_close": 21.79696273803711
+        },
+        {
+          "month": "2011-07",
+          "trading_date": "2011-07-29",
+          "adjusted_close": 21.33604621887207
+        },
+        {
+          "month": "2011-08",
+          "trading_date": "2011-08-31",
+          "adjusted_close": 18.830730438232422
+        },
+        {
+          "month": "2011-09",
+          "trading_date": "2011-09-30",
+          "adjusted_close": 16.31798553466797
+        },
+        {
+          "month": "2011-10",
+          "trading_date": "2011-10-31",
+          "adjusted_close": 18.354948043823242
+        },
+        {
+          "month": "2011-11",
+          "trading_date": "2011-11-30",
+          "adjusted_close": 17.329025268554688
+        },
+        {
+          "month": "2011-12",
+          "trading_date": "2011-12-30",
+          "adjusted_close": 17.24725341796875
+        },
+        {
+          "month": "2012-01",
+          "trading_date": "2012-01-31",
+          "adjusted_close": 18.667177200317383
+        },
+        {
+          "month": "2012-02",
+          "trading_date": "2012-02-29",
+          "adjusted_close": 21.722620010375977
+        },
+        {
+          "month": "2012-03",
+          "trading_date": "2012-03-30",
+          "adjusted_close": 22.91952133178711
+        },
+        {
+          "month": "2012-04",
+          "trading_date": "2012-04-30",
+          "adjusted_close": 25.298452377319336
+        },
+        {
+          "month": "2012-05",
+          "trading_date": "2012-05-31",
+          "adjusted_close": 21.69288444519043
+        },
+        {
+          "month": "2012-06",
+          "trading_date": "2012-06-29",
+          "adjusted_close": 23.856224060058594
+        },
+        {
+          "month": "2012-07",
+          "trading_date": "2012-07-31",
+          "adjusted_close": 23.24662971496582
+        },
+        {
+          "month": "2012-08",
+          "trading_date": "2012-08-31",
+          "adjusted_close": 25.52147674560547
+        },
+        {
+          "month": "2012-09",
+          "trading_date": "2012-09-28",
+          "adjusted_close": 24.376625061035156
+        },
+        {
+          "month": "2012-10",
+          "trading_date": "2012-10-31",
+          "adjusted_close": 25.967531204223633
+        },
+        {
+          "month": "2012-11",
+          "trading_date": "2012-11-30",
+          "adjusted_close": 24.629375457763672
+        },
+        {
+          "month": "2012-12",
+          "trading_date": "2012-12-31",
+          "adjusted_close": 26.242589950561523
+        },
+        {
+          "month": "2013-01",
+          "trading_date": "2013-01-31",
+          "adjusted_close": 28.123437881469727
+        },
+        {
+          "month": "2013-02",
+          "trading_date": "2013-02-28",
+          "adjusted_close": 28.257259368896484
+        },
+        {
+          "month": "2013-03",
+          "trading_date": "2013-03-28",
+          "adjusted_close": 28.859416961669922
+        },
+        {
+          "month": "2013-04",
+          "trading_date": "2013-04-30",
+          "adjusted_close": 30.79228401184082
+        },
+        {
+          "month": "2013-05",
+          "trading_date": "2013-05-31",
+          "adjusted_close": 33.05228805541992
+        },
+        {
+          "month": "2013-06",
+          "trading_date": "2013-06-28",
+          "adjusted_close": 33.2307014465332
+        },
+        {
+          "month": "2013-07",
+          "trading_date": "2013-07-31",
+          "adjusted_close": 33.832862854003906
+        },
+        {
+          "month": "2013-08",
+          "trading_date": "2013-08-30",
+          "adjusted_close": 34.53910827636719
+        },
+        {
+          "month": "2013-09",
+          "trading_date": "2013-09-30",
+          "adjusted_close": 36.22597122192383
+        },
+        {
+          "month": "2013-10",
+          "trading_date": "2013-10-31",
+          "adjusted_close": 38.47565841674805
+        },
+        {
+          "month": "2013-11",
+          "trading_date": "2013-11-29",
+          "adjusted_close": 37.06029510498047
+        },
+        {
+          "month": "2013-12",
+          "trading_date": "2013-12-31",
+          "adjusted_close": 38.1053581237793
+        },
+        {
+          "month": "2014-01",
+          "trading_date": "2014-01-31",
+          "adjusted_close": 35.798892974853516
+        },
+        {
+          "month": "2014-02",
+          "trading_date": "2014-02-28",
+          "adjusted_close": 37.149925231933594
+        },
+        {
+          "month": "2014-03",
+          "trading_date": "2014-03-31",
+          "adjusted_close": 37.42031478881836
+        }
+      ],
+      "future_dividends": [
+        {
+          "ex_date": "2011-01-20",
+          "vendor_adjusted_amount": 8.7
+        },
+        {
+          "ex_date": "2013-09-10",
+          "vendor_adjusted_amount": 0.1
+        },
+        {
+          "ex_date": "2013-12-03",
+          "vendor_adjusted_amount": 0.1
+        },
+        {
+          "ex_date": "2014-03-07",
+          "vendor_adjusted_amount": 0.125
+        }
+      ],
+      "future_splits": [
+        {
+          "trading_date": "2009-07-01",
+          "numerator": 1.0,
+          "denominator": 20.0,
+          "ratio": "1:20"
+        }
+      ],
+      "maximum_rebased_overlap_relative_difference": 5.344615443547696e-7,
+      "review": {
+        "source_ids": [
+          "yahoo-aig",
+          "aig-warrants",
+          "aig-split",
+          "aig-warrants",
+          "aig-split",
+          "aig-warrants",
+          "aig-split"
+        ],
+        "assessment": "Reviewed the 1-for-20 reverse split before July 2009 trading and the later warrant distribution. August 2009 raw month-end closes rise from 13.14 to 45.33, matching the approximately 244.98% adjusted return; it is not the reverse split repeated as profit. Yahoo records an 8.7 cash-equivalent adjustment in January 2011 for the warrant dividend; retain that adjusted-price reinvestment proxy without adding it again.",
+        "limitations": "The warrant dividend is not ordinary cash. This educational proxy uses the vendor distribution-value adjustment rather than modeling a separate holding of warrants, their exercise or later sale. It is not an exact transaction-level shareholder account."
+      },
+      "extreme_return_review": {
+        "month": "2009-08",
+        "raw_close_previous": 13.14,
+        "raw_close_current": 45.33,
+        "explanation": "Both month-end prices are after the reverse split; retain observed monthly gain."
+      }
+    },
+    "MCO": {
+      "raw_sha256": "2f3c5682ead8c20907c1fdc00cb3a8118f62aa4ad2791ad49c4af219141c1d41",
+      "monthly_endpoints": [
+        {
+          "month": "2008-03",
+          "trading_date": "2008-03-31",
+          "adjusted_close": 27.903024673461914
+        },
+        {
+          "month": "2008-04",
+          "trading_date": "2008-04-30",
+          "adjusted_close": 29.609405517578125
+        },
+        {
+          "month": "2008-05",
+          "trading_date": "2008-05-30",
+          "adjusted_close": 29.772329330444336
+        },
+        {
+          "month": "2008-06",
+          "trading_date": "2008-06-30",
+          "adjusted_close": 27.65260124206543
+        },
+        {
+          "month": "2008-07",
+          "trading_date": "2008-07-31",
+          "adjusted_close": 27.949682235717773
+        },
+        {
+          "month": "2008-08",
+          "trading_date": "2008-08-29",
+          "adjusted_close": 32.72852325439453
+        },
+        {
+          "month": "2008-09",
+          "trading_date": "2008-09-30",
+          "adjusted_close": 27.36768341064453
+        },
+        {
+          "month": "2008-10",
+          "trading_date": "2008-10-31",
+          "adjusted_close": 20.606260299682617
+        },
+        {
+          "month": "2008-11",
+          "trading_date": "2008-11-28",
+          "adjusted_close": 17.56812286376953
+        },
+        {
+          "month": "2008-12",
+          "trading_date": "2008-12-31",
+          "adjusted_close": 16.25718879699707
+        },
+        {
+          "month": "2009-01",
+          "trading_date": "2009-01-30",
+          "adjusted_close": 17.33344078063965
+        },
+        {
+          "month": "2009-02",
+          "trading_date": "2009-02-27",
+          "adjusted_close": 14.589168548583984
+        },
+        {
+          "month": "2009-03",
+          "trading_date": "2009-03-31",
+          "adjusted_close": 18.628625869750977
+        },
+        {
+          "month": "2009-04",
+          "trading_date": "2009-04-30",
+          "adjusted_close": 23.992883682250977
+        },
+        {
+          "month": "2009-05",
+          "trading_date": "2009-05-29",
+          "adjusted_close": 22.340356826782227
+        },
+        {
+          "month": "2009-06",
+          "trading_date": "2009-06-30",
+          "adjusted_close": 21.492095947265625
+        },
+        {
+          "month": "2009-07",
+          "trading_date": "2009-07-31",
+          "adjusted_close": 19.36326789855957
+        },
+        {
+          "month": "2009-08",
+          "trading_date": "2009-08-31",
+          "adjusted_close": 22.31239128112793
+        },
+        {
+          "month": "2009-09",
+          "trading_date": "2009-09-30",
+          "adjusted_close": 16.75887107849121
+        },
+        {
+          "month": "2009-10",
+          "trading_date": "2009-10-30",
+          "adjusted_close": 19.396377563476562
+        },
+        {
+          "month": "2009-11",
+          "trading_date": "2009-11-30",
+          "adjusted_close": 19.108585357666016
+        },
+        {
+          "month": "2009-12",
+          "trading_date": "2009-12-31",
+          "adjusted_close": 22.045198440551758
+        },
+        {
+          "month": "2010-01",
+          "trading_date": "2010-01-29",
+          "adjusted_close": 22.695049285888672
+        },
+        {
+          "month": "2010-02",
+          "trading_date": "2010-02-26",
+          "adjusted_close": 21.98187828063965
+        },
+        {
+          "month": "2010-03",
+          "trading_date": "2010-03-31",
+          "adjusted_close": 24.566509246826172
+        },
+        {
+          "month": "2010-04",
+          "trading_date": "2010-04-30",
+          "adjusted_close": 20.412912368774414
+        },
+        {
+          "month": "2010-05",
+          "trading_date": "2010-05-28",
+          "adjusted_close": 17.011032104492188
+        },
+        {
+          "month": "2010-06",
+          "trading_date": "2010-06-30",
+          "adjusted_close": 16.529741287231445
+        },
+        {
+          "month": "2010-07",
+          "trading_date": "2010-07-30",
+          "adjusted_close": 19.54193878173828
+        },
+        {
+          "month": "2010-08",
+          "trading_date": "2010-08-31",
+          "adjusted_close": 17.62531852722168
+        },
+        {
+          "month": "2010-09",
+          "trading_date": "2010-09-30",
+          "adjusted_close": 20.82689094543457
+        },
+        {
+          "month": "2010-10",
+          "trading_date": "2010-10-29",
+          "adjusted_close": 22.561084747314453
+        },
+        {
+          "month": "2010-11",
+          "trading_date": "2010-11-30",
+          "adjusted_close": 22.45616340637207
+        },
+        {
+          "month": "2010-12",
+          "trading_date": "2010-12-31",
+          "adjusted_close": 22.213436126708984
+        },
+        {
+          "month": "2011-01",
+          "trading_date": "2011-01-31",
+          "adjusted_close": 24.582088470458984
+        },
+        {
+          "month": "2011-02",
+          "trading_date": "2011-02-28",
+          "adjusted_close": 26.800373077392578
+        },
+        {
+          "month": "2011-03",
+          "trading_date": "2011-03-31",
+          "adjusted_close": 28.489051818847656
+        },
+        {
+          "month": "2011-04",
+          "trading_date": "2011-04-29",
+          "adjusted_close": 32.882972717285156
+        },
+        {
+          "month": "2011-05",
+          "trading_date": "2011-05-31",
+          "adjusted_close": 33.652339935302734
+        },
+        {
+          "month": "2011-06",
+          "trading_date": "2011-06-30",
+          "adjusted_close": 32.336936950683594
+        },
+        {
+          "month": "2011-07",
+          "trading_date": "2011-07-29",
+          "adjusted_close": 30.026552200317383
+        },
+        {
+          "month": "2011-08",
+          "trading_date": "2011-08-31",
+          "adjusted_close": 26.11279296875
+        },
+        {
+          "month": "2011-09",
+          "trading_date": "2011-09-30",
+          "adjusted_close": 25.790935516357422
+        },
+        {
+          "month": "2011-10",
+          "trading_date": "2011-10-31",
+          "adjusted_close": 30.059782028198242
+        },
+        {
+          "month": "2011-11",
+          "trading_date": "2011-11-30",
+          "adjusted_close": 29.518230438232422
+        },
+        {
+          "month": "2011-12",
+          "trading_date": "2011-12-30",
+          "adjusted_close": 28.64228057861328
+        },
+        {
+          "month": "2012-01",
+          "trading_date": "2012-01-31",
+          "adjusted_close": 31.66128921508789
+        },
+        {
+          "month": "2012-02",
+          "trading_date": "2012-02-29",
+          "adjusted_close": 32.97132873535156
+        },
+        {
+          "month": "2012-03",
+          "trading_date": "2012-03-30",
+          "adjusted_close": 35.95165252685547
+        },
+        {
+          "month": "2012-04",
+          "trading_date": "2012-04-30",
+          "adjusted_close": 34.969600677490234
+        },
+        {
+          "month": "2012-05",
+          "trading_date": "2012-05-31",
+          "adjusted_close": 31.381132125854492
+        },
+        {
+          "month": "2012-06",
+          "trading_date": "2012-06-29",
+          "adjusted_close": 31.346811294555664
+        },
+        {
+          "month": "2012-07",
+          "trading_date": "2012-07-31",
+          "adjusted_close": 34.76023483276367
+        },
+        {
+          "month": "2012-08",
+          "trading_date": "2012-08-31",
+          "adjusted_close": 34.1024169921875
+        },
+        {
+          "month": "2012-09",
+          "trading_date": "2012-09-28",
+          "adjusted_close": 38.037986755371094
+        },
+        {
+          "month": "2012-10",
+          "trading_date": "2012-10-31",
+          "adjusted_close": 41.47406005859375
+        },
+        {
+          "month": "2012-11",
+          "trading_date": "2012-11-30",
+          "adjusted_close": 41.98162841796875
+        },
+        {
+          "month": "2012-12",
+          "trading_date": "2012-12-31",
+          "adjusted_close": 43.48529815673828
+        },
+        {
+          "month": "2013-01",
+          "trading_date": "2013-01-31",
+          "adjusted_close": 47.37408447265625
+        },
+        {
+          "month": "2013-02",
+          "trading_date": "2013-02-28",
+          "adjusted_close": 41.71096420288086
+        },
+        {
+          "month": "2013-03",
+          "trading_date": "2013-03-28",
+          "adjusted_close": 46.27608108520508
+        },
+        {
+          "month": "2013-04",
+          "trading_date": "2013-04-30",
+          "adjusted_close": 52.811336517333984
+        },
+        {
+          "month": "2013-05",
+          "trading_date": "2013-05-31",
+          "adjusted_close": 57.83453369140625
+        },
+        {
+          "month": "2013-06",
+          "trading_date": "2013-06-28",
+          "adjusted_close": 53.038204193115234
+        },
+        {
+          "month": "2013-07",
+          "trading_date": "2013-07-31",
+          "adjusted_close": 58.99226379394531
+        },
+        {
+          "month": "2013-08",
+          "trading_date": "2013-08-30",
+          "adjusted_close": 55.54335403442383
+        },
+        {
+          "month": "2013-09",
+          "trading_date": "2013-09-30",
+          "adjusted_close": 61.45945739746094
+        },
+        {
+          "month": "2013-10",
+          "trading_date": "2013-10-31",
+          "adjusted_close": 61.747859954833984
+        },
+        {
+          "month": "2013-11",
+          "trading_date": "2013-11-29",
+          "adjusted_close": 65.43507385253906
+        },
+        {
+          "month": "2013-12",
+          "trading_date": "2013-12-31",
+          "adjusted_close": 68.8019790649414
+        },
+        {
+          "month": "2014-01",
+          "trading_date": "2014-01-31",
+          "adjusted_close": 65.39127349853516
+        },
+        {
+          "month": "2014-02",
+          "trading_date": "2014-02-28",
+          "adjusted_close": 69.51142883300781
+        },
+        {
+          "month": "2014-03",
+          "trading_date": "2014-03-31",
+          "adjusted_close": 69.79296875
+        }
+      ],
+      "future_dividends": [
+        {
+          "ex_date": "2009-05-18",
+          "vendor_adjusted_amount": 0.1
+        },
+        {
+          "ex_date": "2009-08-18",
+          "vendor_adjusted_amount": 0.1
+        },
+        {
+          "ex_date": "2009-11-18",
+          "vendor_adjusted_amount": 0.1
+        },
+        {
+          "ex_date": "2010-02-17",
+          "vendor_adjusted_amount": 0.105
+        },
+        {
+          "ex_date": "2010-05-18",
+          "vendor_adjusted_amount": 0.105
+        },
+        {
+          "ex_date": "2010-08-18",
+          "vendor_adjusted_amount": 0.105
+        },
+        {
+          "ex_date": "2010-11-17",
+          "vendor_adjusted_amount": 0.105
+        },
+        {
+          "ex_date": "2011-02-16",
+          "vendor_adjusted_amount": 0.115
+        },
+        {
+          "ex_date": "2011-05-18",
+          "vendor_adjusted_amount": 0.14
+        },
+        {
+          "ex_date": "2011-08-17",
+          "vendor_adjusted_amount": 0.14
+        },
+        {
+          "ex_date": "2011-11-16",
+          "vendor_adjusted_amount": 0.14
+        },
+        {
+          "ex_date": "2012-02-15",
+          "vendor_adjusted_amount": 0.16
+        },
+        {
+          "ex_date": "2012-05-17",
+          "vendor_adjusted_amount": 0.16
+        },
+        {
+          "ex_date": "2012-08-16",
+          "vendor_adjusted_amount": 0.16
+        },
+        {
+          "ex_date": "2012-11-16",
+          "vendor_adjusted_amount": 0.16
+        },
+        {
+          "ex_date": "2013-02-15",
+          "vendor_adjusted_amount": 0.2
+        },
+        {
+          "ex_date": "2013-05-16",
+          "vendor_adjusted_amount": 0.2
+        },
+        {
+          "ex_date": "2013-08-16",
+          "vendor_adjusted_amount": 0.25
+        },
+        {
+          "ex_date": "2013-11-18",
+          "vendor_adjusted_amount": 0.25
+        },
+        {
+          "ex_date": "2014-02-18",
+          "vendor_adjusted_amount": 0.28
+        }
+      ],
+      "future_splits": [],
+      "maximum_rebased_overlap_relative_difference": 1.097680851547267e-6,
+      "review": {
+        "source_ids": ["yahoo-mco"],
+        "assessment": "Reviewed vendor-adjusted monthly endpoints and reported dividends/splits. No gaps or terminal corporate-event substitution in this selected window; use the vendor-adjusted dividend/split return proxy without adding payments again.",
+        "limitations": "A public adjusted-price approximation, not transaction-level reinvestment accounting or a contemporary vendor vintage. Later uniform adjustment scaling cancels in ratios."
+      }
+    },
+    "AMZN": {
+      "raw_sha256": "1ca0f35c6e2c71329a46fd413e4eb47d682b180dbfe054a68c2d1d3848085b25",
+      "monthly_endpoints": [
+        {
+          "month": "2008-03",
+          "trading_date": "2008-03-31",
+          "adjusted_close": 3.565000057220459
+        },
+        {
+          "month": "2008-04",
+          "trading_date": "2008-04-30",
+          "adjusted_close": 3.93149995803833
+        },
+        {
+          "month": "2008-05",
+          "trading_date": "2008-05-30",
+          "adjusted_close": 4.080999851226807
+        },
+        {
+          "month": "2008-06",
+          "trading_date": "2008-06-30",
+          "adjusted_close": 3.6665000915527344
+        },
+        {
+          "month": "2008-07",
+          "trading_date": "2008-07-31",
+          "adjusted_close": 3.816999912261963
+        },
+        {
+          "month": "2008-08",
+          "trading_date": "2008-08-29",
+          "adjusted_close": 4.040500164031982
+        },
+        {
+          "month": "2008-09",
+          "trading_date": "2008-09-30",
+          "adjusted_close": 3.638000011444092
+        },
+        {
+          "month": "2008-10",
+          "trading_date": "2008-10-31",
+          "adjusted_close": 2.861999988555908
+        },
+        {
+          "month": "2008-11",
+          "trading_date": "2008-11-28",
+          "adjusted_close": 2.134999990463257
+        },
+        {
+          "month": "2008-12",
+          "trading_date": "2008-12-31",
+          "adjusted_close": 2.563999891281128
+        },
+        {
+          "month": "2009-01",
+          "trading_date": "2009-01-30",
+          "adjusted_close": 2.940999984741211
+        },
+        {
+          "month": "2009-02",
+          "trading_date": "2009-02-27",
+          "adjusted_close": 3.239500045776367
+        },
+        {
+          "month": "2009-03",
+          "trading_date": "2009-03-31",
+          "adjusted_close": 3.671999931335449
+        },
+        {
+          "month": "2009-04",
+          "trading_date": "2009-04-30",
+          "adjusted_close": 4.026000022888184
+        },
+        {
+          "month": "2009-05",
+          "trading_date": "2009-05-29",
+          "adjusted_close": 3.8994998931884766
+        },
+        {
+          "month": "2009-06",
+          "trading_date": "2009-06-30",
+          "adjusted_close": 4.183000087738037
+        },
+        {
+          "month": "2009-07",
+          "trading_date": "2009-07-31",
+          "adjusted_close": 4.288000106811523
+        },
+        {
+          "month": "2009-08",
+          "trading_date": "2009-08-31",
+          "adjusted_close": 4.059500217437744
+        },
+        {
+          "month": "2009-09",
+          "trading_date": "2009-09-30",
+          "adjusted_close": 4.668000221252441
+        },
+        {
+          "month": "2009-10",
+          "trading_date": "2009-10-30",
+          "adjusted_close": 5.940499782562256
+        },
+        {
+          "month": "2009-11",
+          "trading_date": "2009-11-30",
+          "adjusted_close": 6.795499801635742
+        },
+        {
+          "month": "2009-12",
+          "trading_date": "2009-12-31",
+          "adjusted_close": 6.72599983215332
+        },
+        {
+          "month": "2010-01",
+          "trading_date": "2010-01-29",
+          "adjusted_close": 6.270500183105469
+        },
+        {
+          "month": "2010-02",
+          "trading_date": "2010-02-26",
+          "adjusted_close": 5.920000076293945
+        },
+        {
+          "month": "2010-03",
+          "trading_date": "2010-03-31",
+          "adjusted_close": 6.78849983215332
+        },
+        {
+          "month": "2010-04",
+          "trading_date": "2010-04-30",
+          "adjusted_close": 6.855000019073486
+        },
+        {
+          "month": "2010-05",
+          "trading_date": "2010-05-28",
+          "adjusted_close": 6.2729997634887695
+        },
+        {
+          "month": "2010-06",
+          "trading_date": "2010-06-30",
+          "adjusted_close": 5.4629998207092285
+        },
+        {
+          "month": "2010-07",
+          "trading_date": "2010-07-30",
+          "adjusted_close": 5.894499778747559
+        },
+        {
+          "month": "2010-08",
+          "trading_date": "2010-08-31",
+          "adjusted_close": 6.241499900817871
+        },
+        {
+          "month": "2010-09",
+          "trading_date": "2010-09-30",
+          "adjusted_close": 7.853000164031982
+        },
+        {
+          "month": "2010-10",
+          "trading_date": "2010-10-29",
+          "adjusted_close": 8.261500358581543
+        },
+        {
+          "month": "2010-11",
+          "trading_date": "2010-11-30",
+          "adjusted_close": 8.770000457763672
+        },
+        {
+          "month": "2010-12",
+          "trading_date": "2010-12-31",
+          "adjusted_close": 9.0
+        },
+        {
+          "month": "2011-01",
+          "trading_date": "2011-01-31",
+          "adjusted_close": 8.482000350952148
+        },
+        {
+          "month": "2011-02",
+          "trading_date": "2011-02-28",
+          "adjusted_close": 8.66450023651123
+        },
+        {
+          "month": "2011-03",
+          "trading_date": "2011-03-31",
+          "adjusted_close": 9.006500244140625
+        },
+        {
+          "month": "2011-04",
+          "trading_date": "2011-04-29",
+          "adjusted_close": 9.790499687194824
+        },
+        {
+          "month": "2011-05",
+          "trading_date": "2011-05-31",
+          "adjusted_close": 9.834500312805176
+        },
+        {
+          "month": "2011-06",
+          "trading_date": "2011-06-30",
+          "adjusted_close": 10.224499702453613
+        },
+        {
+          "month": "2011-07",
+          "trading_date": "2011-07-29",
+          "adjusted_close": 11.12600040435791
+        },
+        {
+          "month": "2011-08",
+          "trading_date": "2011-08-31",
+          "adjusted_close": 10.761500358581543
+        },
+        {
+          "month": "2011-09",
+          "trading_date": "2011-09-30",
+          "adjusted_close": 10.81149959564209
+        },
+        {
+          "month": "2011-10",
+          "trading_date": "2011-10-31",
+          "adjusted_close": 10.67549991607666
+        },
+        {
+          "month": "2011-11",
+          "trading_date": "2011-11-30",
+          "adjusted_close": 9.614500045776367
+        },
+        {
+          "month": "2011-12",
+          "trading_date": "2011-12-30",
+          "adjusted_close": 8.654999732971191
+        },
+        {
+          "month": "2012-01",
+          "trading_date": "2012-01-31",
+          "adjusted_close": 9.722000122070312
+        },
+        {
+          "month": "2012-02",
+          "trading_date": "2012-02-29",
+          "adjusted_close": 8.98449993133545
+        },
+        {
+          "month": "2012-03",
+          "trading_date": "2012-03-30",
+          "adjusted_close": 10.125499725341797
+        },
+        {
+          "month": "2012-04",
+          "trading_date": "2012-04-30",
+          "adjusted_close": 11.595000267028809
+        },
+        {
+          "month": "2012-05",
+          "trading_date": "2012-05-31",
+          "adjusted_close": 10.645500183105469
+        },
+        {
+          "month": "2012-06",
+          "trading_date": "2012-06-29",
+          "adjusted_close": 11.417499542236328
+        },
+        {
+          "month": "2012-07",
+          "trading_date": "2012-07-31",
+          "adjusted_close": 11.664999961853027
+        },
+        {
+          "month": "2012-08",
+          "trading_date": "2012-08-31",
+          "adjusted_close": 12.41349983215332
+        },
+        {
+          "month": "2012-09",
+          "trading_date": "2012-09-28",
+          "adjusted_close": 12.715999603271484
+        },
+        {
+          "month": "2012-10",
+          "trading_date": "2012-10-31",
+          "adjusted_close": 11.644499778747559
+        },
+        {
+          "month": "2012-11",
+          "trading_date": "2012-11-30",
+          "adjusted_close": 12.602499961853027
+        },
+        {
+          "month": "2012-12",
+          "trading_date": "2012-12-31",
+          "adjusted_close": 12.543499946594238
+        },
+        {
+          "month": "2013-01",
+          "trading_date": "2013-01-31",
+          "adjusted_close": 13.274999618530273
+        },
+        {
+          "month": "2013-02",
+          "trading_date": "2013-02-28",
+          "adjusted_close": 13.213500022888184
+        },
+        {
+          "month": "2013-03",
+          "trading_date": "2013-03-28",
+          "adjusted_close": 13.32450008392334
+        },
+        {
+          "month": "2013-04",
+          "trading_date": "2013-04-30",
+          "adjusted_close": 12.690500259399414
+        },
+        {
+          "month": "2013-05",
+          "trading_date": "2013-05-31",
+          "adjusted_close": 13.460000038146973
+        },
+        {
+          "month": "2013-06",
+          "trading_date": "2013-06-28",
+          "adjusted_close": 13.884499549865723
+        },
+        {
+          "month": "2013-07",
+          "trading_date": "2013-07-31",
+          "adjusted_close": 15.060999870300293
+        },
+        {
+          "month": "2013-08",
+          "trading_date": "2013-08-30",
+          "adjusted_close": 14.048999786376953
+        },
+        {
+          "month": "2013-09",
+          "trading_date": "2013-09-30",
+          "adjusted_close": 15.631999969482422
+        },
+        {
+          "month": "2013-10",
+          "trading_date": "2013-10-31",
+          "adjusted_close": 18.201499938964844
+        },
+        {
+          "month": "2013-11",
+          "trading_date": "2013-11-29",
+          "adjusted_close": 19.680999755859375
+        },
+        {
+          "month": "2013-12",
+          "trading_date": "2013-12-31",
+          "adjusted_close": 19.93950080871582
+        },
+        {
+          "month": "2014-01",
+          "trading_date": "2014-01-31",
+          "adjusted_close": 17.934499740600586
+        },
+        {
+          "month": "2014-02",
+          "trading_date": "2014-02-28",
+          "adjusted_close": 18.104999542236328
+        },
+        {
+          "month": "2014-03",
+          "trading_date": "2014-03-31",
+          "adjusted_close": 16.818500518798828
+        }
+      ],
+      "future_dividends": [],
+      "future_splits": [],
+      "maximum_rebased_overlap_relative_difference": 0.0,
+      "review": {
+        "source_ids": ["yahoo-amzn"],
+        "assessment": "Reviewed vendor-adjusted monthly endpoints and reported dividends/splits. No gaps or terminal corporate-event substitution in this selected window; use the vendor-adjusted dividend/split return proxy without adding payments again.",
+        "limitations": "A public adjusted-price approximation, not transaction-level reinvestment accounting or a contemporary vendor vintage. Later uniform adjustment scaling cancels in ratios."
+      }
+    }
+  }
+}
