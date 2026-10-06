@@ -1,0 +1,54 @@
+{
+  "scenario_id": "1997-04",
+  "events": [
+    {
+      "month": "1997-07",
+      "title": "A rover mission reaches Mars",
+      "description": "Pathfinder lands carrying the small Sojourner rover.",
+      "source_ids": ["pathfinder"]
+    },
+    {
+      "month": "1999-01",
+      "title": "The euro begins",
+      "description": "Eleven countries start sharing a currency for financial transactions. Euro notes and coins will arrive later.",
+      "source_ids": ["euro-launch"]
+    },
+    {
+      "month": "2001-09",
+      "title": "The September 11 attacks",
+      "description": "Terrorist attacks kill thousands of people in the United States. Families, communities and rescuers face devastating losses.",
+      "source_ids": ["september-attacks"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Apple nearly tripled over five years, while Disney and Nike finished lower. The US basket gained, but less than Apple. A struggling company recovered in this window, yet that does not make every troubled business a bargain. Apple’s path included a very large monthly fall before the end.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-nke",
+      "yahoo-dis",
+      "yahoo-aapl",
+      "pathfinder",
+      "euro-launch",
+      "september-attacks"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "Tiger Woods’s victory, executive pay and new technology were prominent stories. Apple’s leadership faced criticism while shareholders struggled.",
+    "what_actually_mattered": "Each company followed its own path. The broad basket spread company-specific risk, even though it did not match the biggest gain.",
+    "what_faded_away": "An eye-catching executive pay figure did not forecast five-year returns. A sporting victory did not settle the investment outcome of a sponsor.",
+    "what_nobody_knew": "The later rankings were unknown. Recognizing Apple’s name today can make its difficult position at the start look less risky than it felt.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-nke",
+      "yahoo-dis",
+      "yahoo-aapl",
+      "pathfinder",
+      "euro-launch",
+      "september-attacks"
+    ]
+  }
+}

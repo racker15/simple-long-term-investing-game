@@ -38,3 +38,9 @@ December 1991 and February/November 1992 are complete. Starting bundles were sep
 February 1994 is also complete, after starting lock `51751d83a3a99896590caabaef1016d5aeade4c8`. Its first rate-tightening announcement is known at the start. The collection now has 26 complete scenarios and 24 remaining selected dates. An interim aggregate validation correctly rejected the incomplete 1994 folder; no completed status was claimed from that attempt.
 
 Final combined check passed with 135 tests, all 26 scenario validations, exact rebuilding, schemas, formatting, TypeScript and production build.
+
+## Seventh and eighth batches
+
+August 1995, September 1996 and April 1997 starting choices were committed at `58bb922ff86753274a437704507fe623f7ccc070`; July 1997 and August 1998 at `512620e29d09e553a25e2d78441a944a4157e5cc`. All five now contain complete outcomes and reflections. Netscape’s IPO is included as news, but its lack of a trailing listed year prevents a playable stock under the existing return contract; this was recorded before outcomes. The July 1997 window retains weak stock outcomes, including losses in all three company choices. Thirty-one scenarios are registered, with nineteen selected dates remaining.
+
+The combined 31-scenario check passed: 140 tests, all data validation/rebuild checks, schemas, formatting, TypeScript and production build.

@@ -1,0 +1,54 @@
+{
+  "scenario_id": "1996-09",
+  "events": [
+    {
+      "month": "1997-07",
+      "title": "A rover mission reaches Mars",
+      "description": "Pathfinder lands carrying the small Sojourner rover.",
+      "source_ids": ["pathfinder"]
+    },
+    {
+      "month": "1999-01",
+      "title": "The euro begins",
+      "description": "Eleven countries start sharing a currency for financial transactions. Euro notes and coins will arrive later.",
+      "source_ids": ["euro-launch"]
+    },
+    {
+      "month": "2001-09",
+      "title": "The September 11 attacks",
+      "description": "Terrorist attacks kill thousands of people in the United States. Families, communities and rescuers face devastating losses.",
+      "source_ids": ["september-attacks"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Microsoft more than tripled, while Nike lost about one-fifth of its value. Apple gained overall but suffered a fall of more than half in one month during the window. The US basket gained more steadily than that single share, though it also fell sharply at times. The ending number alone leaves out much of the experience.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-nke",
+      "yahoo-aapl",
+      "yahoo-msft",
+      "pathfinder",
+      "euro-launch",
+      "september-attacks"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "Investors compared famous fund managers with indexes. Computer competition, an internet attack and Tiger Woods’s professional debut also drew attention.",
+    "what_actually_mattered": "The route to the final value mattered. A positive five-year total could include losses that would have been hard to sit through.",
+    "what_faded_away": "An athlete’s promising career did not guarantee a rising sponsor’s share price. The most popular investment manager was not automatically the best choice either.",
+    "what_nobody_knew": "The exact technology-stock reversals and the September 11 attacks were unknown. No confident starting story removed those risks.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-nke",
+      "yahoo-aapl",
+      "yahoo-msft",
+      "pathfinder",
+      "euro-launch",
+      "september-attacks"
+    ]
+  }
+}

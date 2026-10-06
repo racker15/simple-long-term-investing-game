@@ -1,0 +1,1254 @@
+{
+  "scenario_id": "1996-09",
+  "overlap_tolerance": 5e-6,
+  "series": {
+    "NKE": {
+      "raw_sha256": "9054c33a2733fa370d862b0461e1b42225768029a6fe94fe728fa3ac7e836b13",
+      "monthly_endpoints": [
+        {
+          "month": "1995-09",
+          "trading_date": "1995-09-29",
+          "adjusted_close": 2.471789598464966
+        },
+        {
+          "month": "1995-10",
+          "trading_date": "1995-10-31",
+          "adjusted_close": 2.5190563201904297
+        },
+        {
+          "month": "1995-11",
+          "trading_date": "1995-11-30",
+          "adjusted_close": 2.5802247524261475
+        },
+        {
+          "month": "1995-12",
+          "trading_date": "1995-12-29",
+          "adjusted_close": 3.099321126937866
+        },
+        {
+          "month": "1996-01",
+          "trading_date": "1996-01-31",
+          "adjusted_close": 3.104886293411255
+        },
+        {
+          "month": "1996-02",
+          "trading_date": "1996-02-29",
+          "adjusted_close": 2.8934404850006104
+        },
+        {
+          "month": "1996-03",
+          "trading_date": "1996-03-29",
+          "adjusted_close": 3.618781566619873
+        },
+        {
+          "month": "1996-04",
+          "trading_date": "1996-04-30",
+          "adjusted_close": 3.897148847579956
+        },
+        {
+          "month": "1996-05",
+          "trading_date": "1996-05-31",
+          "adjusted_close": 4.470584869384766
+        },
+        {
+          "month": "1996-06",
+          "trading_date": "1996-06-28",
+          "adjusted_close": 4.578114986419678
+        },
+        {
+          "month": "1996-07",
+          "trading_date": "1996-07-31",
+          "adjusted_close": 4.583683490753174
+        },
+        {
+          "month": "1996-08",
+          "trading_date": "1996-08-30",
+          "adjusted_close": 4.812030792236328
+        },
+        {
+          "month": "1996-09",
+          "trading_date": "1996-09-30",
+          "adjusted_close": 5.426590442657471
+        },
+        {
+          "month": "1996-10",
+          "trading_date": "1996-10-31",
+          "adjusted_close": 5.270592212677002
+        },
+        {
+          "month": "1996-11",
+          "trading_date": "1996-11-29",
+          "adjusted_close": 5.070017337799072
+        },
+        {
+          "month": "1996-12",
+          "trading_date": "1996-12-31",
+          "adjusted_close": 5.3535542488098145
+        },
+        {
+          "month": "1997-01",
+          "trading_date": "1997-01-31",
+          "adjusted_close": 6.100825786590576
+        },
+        {
+          "month": "1997-02",
+          "trading_date": "1997-02-28",
+          "adjusted_close": 6.413120746612549
+        },
+        {
+          "month": "1997-03",
+          "trading_date": "1997-03-31",
+          "adjusted_close": 5.525065898895264
+        },
+        {
+          "month": "1997-04",
+          "trading_date": "1997-04-30",
+          "adjusted_close": 5.022789478302002
+        },
+        {
+          "month": "1997-05",
+          "trading_date": "1997-05-30",
+          "adjusted_close": 5.134405612945557
+        },
+        {
+          "month": "1997-06",
+          "trading_date": "1997-06-30",
+          "adjusted_close": 5.2169413566589355
+        },
+        {
+          "month": "1997-07",
+          "trading_date": "1997-07-31",
+          "adjusted_close": 5.596761226654053
+        },
+        {
+          "month": "1997-08",
+          "trading_date": "1997-08-29",
+          "adjusted_close": 4.770092964172363
+        },
+        {
+          "month": "1997-09",
+          "trading_date": "1997-09-30",
+          "adjusted_close": 4.74108362197876
+        },
+        {
+          "month": "1997-10",
+          "trading_date": "1997-10-31",
+          "adjusted_close": 4.215539455413818
+        },
+        {
+          "month": "1997-11",
+          "trading_date": "1997-11-28",
+          "adjusted_close": 4.355314254760742
+        },
+        {
+          "month": "1997-12",
+          "trading_date": "1997-12-31",
+          "adjusted_close": 3.4991471767425537
+        },
+        {
+          "month": "1998-01",
+          "trading_date": "1998-01-30",
+          "adjusted_close": 3.5887250900268555
+        },
+        {
+          "month": "1998-02",
+          "trading_date": "1998-02-27",
+          "adjusted_close": 3.930241823196411
+        },
+        {
+          "month": "1998-03",
+          "trading_date": "1998-03-31",
+          "adjusted_close": 3.9691853523254395
+        },
+        {
+          "month": "1998-04",
+          "trading_date": "1998-04-30",
+          "adjusted_close": 4.2831315994262695
+        },
+        {
+          "month": "1998-05",
+          "trading_date": "1998-05-29",
+          "adjusted_close": 4.126157760620117
+        },
+        {
+          "month": "1998-06",
+          "trading_date": "1998-06-30",
+          "adjusted_close": 4.37316370010376
+        },
+        {
+          "month": "1998-07",
+          "trading_date": "1998-07-31",
+          "adjusted_close": 3.9970381259918213
+        },
+        {
+          "month": "1998-08",
+          "trading_date": "1998-08-31",
+          "adjusted_close": 3.1156692504882812
+        },
+        {
+          "month": "1998-09",
+          "trading_date": "1998-09-30",
+          "adjusted_close": 3.3120291233062744
+        },
+        {
+          "month": "1998-10",
+          "trading_date": "1998-10-30",
+          "adjusted_close": 3.9024598598480225
+        },
+        {
+          "month": "1998-11",
+          "trading_date": "1998-11-30",
+          "adjusted_close": 3.598808765411377
+        },
+        {
+          "month": "1998-12",
+          "trading_date": "1998-12-31",
+          "adjusted_close": 3.6546380519866943
+        },
+        {
+          "month": "1999-01",
+          "trading_date": "1999-01-29",
+          "adjusted_close": 4.099501132965088
+        },
+        {
+          "month": "1999-02",
+          "trading_date": "1999-02-26",
+          "adjusted_close": 4.814664363861084
+        },
+        {
+          "month": "1999-03",
+          "trading_date": "1999-03-31",
+          "adjusted_close": 5.203012943267822
+        },
+        {
+          "month": "1999-04",
+          "trading_date": "1999-04-30",
+          "adjusted_close": 5.608879566192627
+        },
+        {
+          "month": "1999-05",
+          "trading_date": "1999-05-28",
+          "adjusted_close": 5.49614143371582
+        },
+        {
+          "month": "1999-06",
+          "trading_date": "1999-06-30",
+          "adjusted_close": 5.722172737121582
+        },
+        {
+          "month": "1999-07",
+          "trading_date": "1999-07-30",
+          "adjusted_close": 4.69511604309082
+        },
+        {
+          "month": "1999-08",
+          "trading_date": "1999-08-31",
+          "adjusted_close": 4.221087455749512
+        },
+        {
+          "month": "1999-09",
+          "trading_date": "1999-09-30",
+          "adjusted_close": 5.140960693359375
+        },
+        {
+          "month": "1999-10",
+          "trading_date": "1999-10-29",
+          "adjusted_close": 5.06187105178833
+        },
+        {
+          "month": "1999-11",
+          "trading_date": "1999-11-30",
+          "adjusted_close": 4.157965660095215
+        },
+        {
+          "month": "1999-12",
+          "trading_date": "1999-12-31",
+          "adjusted_close": 4.486410140991211
+        },
+        {
+          "month": "2000-01",
+          "trading_date": "2000-01-31",
+          "adjusted_close": 4.118669509887695
+        },
+        {
+          "month": "2000-02",
+          "trading_date": "2000-02-29",
+          "adjusted_close": 2.5741682052612305
+        },
+        {
+          "month": "2000-03",
+          "trading_date": "2000-03-31",
+          "adjusted_close": 3.5933985710144043
+        },
+        {
+          "month": "2000-04",
+          "trading_date": "2000-04-28",
+          "adjusted_close": 3.939134120941162
+        },
+        {
+          "month": "2000-05",
+          "trading_date": "2000-05-31",
+          "adjusted_close": 3.8881237506866455
+        },
+        {
+          "month": "2000-06",
+          "trading_date": "2000-06-30",
+          "adjusted_close": 3.615966558456421
+        },
+        {
+          "month": "2000-07",
+          "trading_date": "2000-07-31",
+          "adjusted_close": 3.9735889434814453
+        },
+        {
+          "month": "2000-08",
+          "trading_date": "2000-08-31",
+          "adjusted_close": 3.5946764945983887
+        },
+        {
+          "month": "2000-09",
+          "trading_date": "2000-09-29",
+          "adjusted_close": 3.6443331241607666
+        },
+        {
+          "month": "2000-10",
+          "trading_date": "2000-10-31",
+          "adjusted_close": 3.6329615116119385
+        },
+        {
+          "month": "2000-11",
+          "trading_date": "2000-11-30",
+          "adjusted_close": 3.8774302005767822
+        },
+        {
+          "month": "2000-12",
+          "trading_date": "2000-12-29",
+          "adjusted_close": 5.083817481994629
+        },
+        {
+          "month": "2001-01",
+          "trading_date": "2001-01-31",
+          "adjusted_close": 5.0107197761535645
+        },
+        {
+          "month": "2001-02",
+          "trading_date": "2001-02-28",
+          "adjusted_close": 3.555143117904663
+        },
+        {
+          "month": "2001-03",
+          "trading_date": "2001-03-30",
+          "adjusted_close": 3.681427001953125
+        },
+        {
+          "month": "2001-04",
+          "trading_date": "2001-04-30",
+          "adjusted_close": 3.81463360786438
+        },
+        {
+          "month": "2001-05",
+          "trading_date": "2001-05-31",
+          "adjusted_close": 3.7498531341552734
+        },
+        {
+          "month": "2001-06",
+          "trading_date": "2001-06-29",
+          "adjusted_close": 3.836552858352661
+        },
+        {
+          "month": "2001-07",
+          "trading_date": "2001-07-31",
+          "adjusted_close": 4.3445611000061035
+        },
+        {
+          "month": "2001-08",
+          "trading_date": "2001-08-31",
+          "adjusted_close": 4.568413734436035
+        },
+        {
+          "month": "2001-09",
+          "trading_date": "2001-09-28",
+          "adjusted_close": 4.282232284545898
+        }
+      ],
+      "future_dividends": [
+        {
+          "ex_date": "1996-12-13",
+          "vendor_adjusted_amount": 0.00625
+        },
+        {
+          "ex_date": "1997-03-18",
+          "vendor_adjusted_amount": 0.00625
+        },
+        {
+          "ex_date": "1997-06-16",
+          "vendor_adjusted_amount": 0.00625
+        },
+        {
+          "ex_date": "1997-09-18",
+          "vendor_adjusted_amount": 0.00625
+        },
+        {
+          "ex_date": "1997-12-18",
+          "vendor_adjusted_amount": 0.0075
+        },
+        {
+          "ex_date": "1998-03-18",
+          "vendor_adjusted_amount": 0.0075
+        },
+        {
+          "ex_date": "1998-06-15",
+          "vendor_adjusted_amount": 0.0075
+        },
+        {
+          "ex_date": "1998-09-17",
+          "vendor_adjusted_amount": 0.0075
+        },
+        {
+          "ex_date": "1998-12-17",
+          "vendor_adjusted_amount": 0.0075
+        },
+        {
+          "ex_date": "1999-03-18",
+          "vendor_adjusted_amount": 0.0075
+        },
+        {
+          "ex_date": "1999-06-14",
+          "vendor_adjusted_amount": 0.0075
+        },
+        {
+          "ex_date": "1999-09-16",
+          "vendor_adjusted_amount": 0.0075
+        },
+        {
+          "ex_date": "1999-12-16",
+          "vendor_adjusted_amount": 0.0075
+        },
+        {
+          "ex_date": "2000-03-16",
+          "vendor_adjusted_amount": 0.0075
+        },
+        {
+          "ex_date": "2000-06-14",
+          "vendor_adjusted_amount": 0.0075
+        },
+        {
+          "ex_date": "2000-09-14",
+          "vendor_adjusted_amount": 0.0075
+        },
+        {
+          "ex_date": "2000-12-14",
+          "vendor_adjusted_amount": 0.0075
+        },
+        {
+          "ex_date": "2001-03-15",
+          "vendor_adjusted_amount": 0.0075
+        },
+        {
+          "ex_date": "2001-06-13",
+          "vendor_adjusted_amount": 0.0075
+        },
+        {
+          "ex_date": "2001-09-17",
+          "vendor_adjusted_amount": 0.0075
+        }
+      ],
+      "future_splits": [
+        {
+          "trading_date": "1996-10-24",
+          "numerator": 2.0,
+          "denominator": 1.0,
+          "ratio": "2:1"
+        }
+      ],
+      "maximum_rebased_overlap_relative_difference": 1.055584510134544e-6,
+      "review": {
+        "source_ids": ["yahoo-nke"],
+        "assessment": "Reviewed vendor-adjusted monthly endpoints and reported dividends/splits. No gaps or terminal corporate-event substitution in this selected window; use the vendor-adjusted dividend/split return proxy without adding payments again.",
+        "limitations": "A public adjusted-price approximation, not transaction-level reinvestment accounting or a contemporary vendor vintage. Later uniform adjustment scaling cancels in ratios."
+      }
+    },
+    "AAPL": {
+      "raw_sha256": "a1b4bb302858107f30409e4c2c599bcd49f55aab61f68f62dfd6c12d1c833987",
+      "monthly_endpoints": [
+        {
+          "month": "1995-09",
+          "trading_date": "1995-09-29",
+          "adjusted_close": 0.27766820788383484
+        },
+        {
+          "month": "1995-10",
+          "trading_date": "1995-10-31",
+          "adjusted_close": 0.27068030834198
+        },
+        {
+          "month": "1995-11",
+          "trading_date": "1995-11-30",
+          "adjusted_close": 0.28507640957832336
+        },
+        {
+          "month": "1995-12",
+          "trading_date": "1995-12-29",
+          "adjusted_close": 0.23834215104579926
+        },
+        {
+          "month": "1996-01",
+          "trading_date": "1996-01-31",
+          "adjusted_close": 0.20656359195709229
+        },
+        {
+          "month": "1996-02",
+          "trading_date": "1996-02-29",
+          "adjusted_close": 0.20562893152236938
+        },
+        {
+          "month": "1996-03",
+          "trading_date": "1996-03-29",
+          "adjusted_close": 0.1836637705564499
+        },
+        {
+          "month": "1996-04",
+          "trading_date": "1996-04-30",
+          "adjusted_close": 0.1822618842124939
+        },
+        {
+          "month": "1996-05",
+          "trading_date": "1996-05-31",
+          "adjusted_close": 0.1953473687171936
+        },
+        {
+          "month": "1996-06",
+          "trading_date": "1996-06-28",
+          "adjusted_close": 0.1570255309343338
+        },
+        {
+          "month": "1996-07",
+          "trading_date": "1996-07-31",
+          "adjusted_close": 0.1645033359527588
+        },
+        {
+          "month": "1996-08",
+          "trading_date": "1996-08-30",
+          "adjusted_close": 0.1813272386789322
+        },
+        {
+          "month": "1996-09",
+          "trading_date": "1996-09-30",
+          "adjusted_close": 0.16590522229671478
+        },
+        {
+          "month": "1996-10",
+          "trading_date": "1996-10-31",
+          "adjusted_close": 0.17198023200035095
+        },
+        {
+          "month": "1996-11",
+          "trading_date": "1996-11-29",
+          "adjusted_close": 0.18039265275001526
+        },
+        {
+          "month": "1996-12",
+          "trading_date": "1996-12-31",
+          "adjusted_close": 0.15609097480773926
+        },
+        {
+          "month": "1997-01",
+          "trading_date": "1997-01-31",
+          "adjusted_close": 0.1243123784661293
+        },
+        {
+          "month": "1997-02",
+          "trading_date": "1997-02-28",
+          "adjusted_close": 0.12150764465332031
+        },
+        {
+          "month": "1997-03",
+          "trading_date": "1997-03-31",
+          "adjusted_close": 0.13646234571933746
+        },
+        {
+          "month": "1997-04",
+          "trading_date": "1997-04-30",
+          "adjusted_close": 0.1271161586046219
+        },
+        {
+          "month": "1997-05",
+          "trading_date": "1997-05-30",
+          "adjusted_close": 0.1243123784661293
+        },
+        {
+          "month": "1997-06",
+          "trading_date": "1997-06-30",
+          "adjusted_close": 0.10655295848846436
+        },
+        {
+          "month": "1997-07",
+          "trading_date": "1997-07-31",
+          "adjusted_close": 0.13085466623306274
+        },
+        {
+          "month": "1997-08",
+          "trading_date": "1997-08-29",
+          "adjusted_close": 0.16263321042060852
+        },
+        {
+          "month": "1997-09",
+          "trading_date": "1997-09-30",
+          "adjusted_close": 0.16216596961021423
+        },
+        {
+          "month": "1997-10",
+          "trading_date": "1997-10-31",
+          "adjusted_close": 0.12734980881214142
+        },
+        {
+          "month": "1997-11",
+          "trading_date": "1997-11-28",
+          "adjusted_close": 0.13272389769554138
+        },
+        {
+          "month": "1997-12",
+          "trading_date": "1997-12-31",
+          "adjusted_close": 0.0981413722038269
+        },
+        {
+          "month": "1998-01",
+          "trading_date": "1998-01-30",
+          "adjusted_close": 0.13692966103553772
+        },
+        {
+          "month": "1998-02",
+          "trading_date": "1998-02-27",
+          "adjusted_close": 0.1766541302204132
+        },
+        {
+          "month": "1998-03",
+          "trading_date": "1998-03-31",
+          "adjusted_close": 0.20562893152236938
+        },
+        {
+          "month": "1998-04",
+          "trading_date": "1998-04-30",
+          "adjusted_close": 0.20469433069229126
+        },
+        {
+          "month": "1998-05",
+          "trading_date": "1998-05-29",
+          "adjusted_close": 0.1990857571363449
+        },
+        {
+          "month": "1998-06",
+          "trading_date": "1998-06-30",
+          "adjusted_close": 0.2145078480243683
+        },
+        {
+          "month": "1998-07",
+          "trading_date": "1998-07-31",
+          "adjusted_close": 0.25890547037124634
+        },
+        {
+          "month": "1998-08",
+          "trading_date": "1998-08-31",
+          "adjusted_close": 0.23320186138153076
+        },
+        {
+          "month": "1998-09",
+          "trading_date": "1998-09-30",
+          "adjusted_close": 0.28507640957832336
+        },
+        {
+          "month": "1998-10",
+          "trading_date": "1998-10-30",
+          "adjusted_close": 0.2775985598564148
+        },
+        {
+          "month": "1998-11",
+          "trading_date": "1998-11-30",
+          "adjusted_close": 0.23880960047245026
+        },
+        {
+          "month": "1998-12",
+          "trading_date": "1998-12-31",
+          "adjusted_close": 0.3061060607433319
+        },
+        {
+          "month": "1999-01",
+          "trading_date": "1999-01-29",
+          "adjusted_close": 0.307976096868515
+        },
+        {
+          "month": "1999-02",
+          "trading_date": "1999-02-26",
+          "adjusted_close": 0.2603074312210083
+        },
+        {
+          "month": "1999-03",
+          "trading_date": "1999-03-31",
+          "adjusted_close": 0.26871973276138306
+        },
+        {
+          "month": "1999-04",
+          "trading_date": "1999-04-30",
+          "adjusted_close": 0.3439604640007019
+        },
+        {
+          "month": "1999-05",
+          "trading_date": "1999-05-28",
+          "adjusted_close": 0.32947319746017456
+        },
+        {
+          "month": "1999-06",
+          "trading_date": "1999-06-30",
+          "adjusted_close": 0.34629711508750916
+        },
+        {
+          "month": "1999-07",
+          "trading_date": "1999-07-30",
+          "adjusted_close": 0.41639822721481323
+        },
+        {
+          "month": "1999-08",
+          "trading_date": "1999-08-31",
+          "adjusted_close": 0.4879004955291748
+        },
+        {
+          "month": "1999-09",
+          "trading_date": "1999-09-30",
+          "adjusted_close": 0.47341328859329224
+        },
+        {
+          "month": "1999-10",
+          "trading_date": "1999-10-29",
+          "adjusted_close": 0.5991275310516357
+        },
+        {
+          "month": "1999-11",
+          "trading_date": "1999-11-30",
+          "adjusted_close": 0.7318509817123413
+        },
+        {
+          "month": "1999-12",
+          "trading_date": "1999-12-31",
+          "adjusted_close": 0.768771231174469
+        },
+        {
+          "month": "2000-01",
+          "trading_date": "2000-01-31",
+          "adjusted_close": 0.7757807970046997
+        },
+        {
+          "month": "2000-02",
+          "trading_date": "2000-02-29",
+          "adjusted_close": 0.8570981621742249
+        },
+        {
+          "month": "2000-03",
+          "trading_date": "2000-03-31",
+          "adjusted_close": 1.0155251026153564
+        },
+        {
+          "month": "2000-04",
+          "trading_date": "2000-04-28",
+          "adjusted_close": 0.9276657700538635
+        },
+        {
+          "month": "2000-05",
+          "trading_date": "2000-05-31",
+          "adjusted_close": 0.6281021237373352
+        },
+        {
+          "month": "2000-06",
+          "trading_date": "2000-06-30",
+          "adjusted_close": 0.7832584977149963
+        },
+        {
+          "month": "2000-07",
+          "trading_date": "2000-07-31",
+          "adjusted_close": 0.7598915100097656
+        },
+        {
+          "month": "2000-08",
+          "trading_date": "2000-08-31",
+          "adjusted_close": 0.9113094806671143
+        },
+        {
+          "month": "2000-09",
+          "trading_date": "2000-09-29",
+          "adjusted_close": 0.3850862383842468
+        },
+        {
+          "month": "2000-10",
+          "trading_date": "2000-10-31",
+          "adjusted_close": 0.2925533354282379
+        },
+        {
+          "month": "2000-11",
+          "trading_date": "2000-11-30",
+          "adjusted_close": 0.2467545121908188
+        },
+        {
+          "month": "2000-12",
+          "trading_date": "2000-12-29",
+          "adjusted_close": 0.22245287895202637
+        },
+        {
+          "month": "2001-01",
+          "trading_date": "2001-01-31",
+          "adjusted_close": 0.3233981132507324
+        },
+        {
+          "month": "2001-02",
+          "trading_date": "2001-02-28",
+          "adjusted_close": 0.27292555570602417
+        },
+        {
+          "month": "2001-03",
+          "trading_date": "2001-03-30",
+          "adjusted_close": 0.3300527334213257
+        },
+        {
+          "month": "2001-04",
+          "trading_date": "2001-04-30",
+          "adjusted_close": 0.3811986446380615
+        },
+        {
+          "month": "2001-05",
+          "trading_date": "2001-05-31",
+          "adjusted_close": 0.29834869503974915
+        },
+        {
+          "month": "2001-06",
+          "trading_date": "2001-06-29",
+          "adjusted_close": 0.3476998507976532
+        },
+        {
+          "month": "2001-07",
+          "trading_date": "2001-07-31",
+          "adjusted_close": 0.28100132942199707
+        },
+        {
+          "month": "2001-08",
+          "trading_date": "2001-08-31",
+          "adjusted_close": 0.27741187810897827
+        },
+        {
+          "month": "2001-09",
+          "trading_date": "2001-09-28",
+          "adjusted_close": 0.23194889724254608
+        }
+      ],
+      "future_dividends": [],
+      "future_splits": [
+        {
+          "trading_date": "2000-06-21",
+          "numerator": 2.0,
+          "denominator": 1.0,
+          "ratio": "2:1"
+        }
+      ],
+      "maximum_rebased_overlap_relative_difference": 3.958842988982525e-7,
+      "review": {
+        "source_ids": ["yahoo-aapl"],
+        "assessment": "Reviewed vendor-adjusted monthly endpoints and reported dividends/splits. No gaps or terminal corporate-event substitution in this selected window; use the vendor-adjusted dividend/split return proxy without adding payments again.",
+        "limitations": "A public adjusted-price approximation, not transaction-level reinvestment accounting or a contemporary vendor vintage. Later uniform adjustment scaling cancels in ratios."
+      }
+    },
+    "MSFT": {
+      "raw_sha256": "6bce10b8b95a6048e073381d866a7acfa69e34eee915223b747737fe427d8b33",
+      "monthly_endpoints": [
+        {
+          "month": "1995-09",
+          "trading_date": "1995-09-29",
+          "adjusted_close": 3.4333720207214355
+        },
+        {
+          "month": "1995-10",
+          "trading_date": "1995-10-31",
+          "adjusted_close": 3.793781280517578
+        },
+        {
+          "month": "1995-11",
+          "trading_date": "1995-11-30",
+          "adjusted_close": 3.3053314685821533
+        },
+        {
+          "month": "1995-12",
+          "trading_date": "1995-12-29",
+          "adjusted_close": 3.329043388366699
+        },
+        {
+          "month": "1996-01",
+          "trading_date": "1996-01-31",
+          "adjusted_close": 3.5092477798461914
+        },
+        {
+          "month": "1996-02",
+          "trading_date": "1996-02-29",
+          "adjusted_close": 3.743990421295166
+        },
+        {
+          "month": "1996-03",
+          "trading_date": "1996-03-29",
+          "adjusted_close": 3.912339210510254
+        },
+        {
+          "month": "1996-04",
+          "trading_date": "1996-04-30",
+          "adjusted_close": 4.296456813812256
+        },
+        {
+          "month": "1996-05",
+          "trading_date": "1996-05-31",
+          "adjusted_close": 4.5051164627075195
+        },
+        {
+          "month": "1996-06",
+          "trading_date": "1996-06-28",
+          "adjusted_close": 4.55728006362915
+        },
+        {
+          "month": "1996-07",
+          "trading_date": "1996-07-31",
+          "adjusted_close": 4.471920013427734
+        },
+        {
+          "month": "1996-08",
+          "trading_date": "1996-08-30",
+          "adjusted_close": 4.647384166717529
+        },
+        {
+          "month": "1996-09",
+          "trading_date": "1996-09-30",
+          "adjusted_close": 5.003048896789551
+        },
+        {
+          "month": "1996-10",
+          "trading_date": "1996-10-31",
+          "adjusted_close": 5.206963062286377
+        },
+        {
+          "month": "1996-11",
+          "trading_date": "1996-11-29",
+          "adjusted_close": 5.9514946937561035
+        },
+        {
+          "month": "1996-12",
+          "trading_date": "1996-12-31",
+          "adjusted_close": 6.269221305847168
+        },
+        {
+          "month": "1997-01",
+          "trading_date": "1997-01-31",
+          "adjusted_close": 7.739311218261719
+        },
+        {
+          "month": "1997-02",
+          "trading_date": "1997-02-28",
+          "adjusted_close": 7.397873878479004
+        },
+        {
+          "month": "1997-03",
+          "trading_date": "1997-03-31",
+          "adjusted_close": 6.956847667694092
+        },
+        {
+          "month": "1997-04",
+          "trading_date": "1997-04-30",
+          "adjusted_close": 9.218889236450195
+        },
+        {
+          "month": "1997-05",
+          "trading_date": "1997-05-30",
+          "adjusted_close": 9.408577919006348
+        },
+        {
+          "month": "1997-06",
+          "trading_date": "1997-06-30",
+          "adjusted_close": 9.58878231048584
+        },
+        {
+          "month": "1997-07",
+          "trading_date": "1997-07-31",
+          "adjusted_close": 10.726922035217285
+        },
+        {
+          "month": "1997-08",
+          "trading_date": "1997-08-29",
+          "adjusted_close": 10.029809951782227
+        },
+        {
+          "month": "1997-09",
+          "trading_date": "1997-09-30",
+          "adjusted_close": 10.039295196533203
+        },
+        {
+          "month": "1997-10",
+          "trading_date": "1997-10-31",
+          "adjusted_close": 9.863829612731934
+        },
+        {
+          "month": "1997-11",
+          "trading_date": "1997-11-28",
+          "adjusted_close": 10.73639965057373
+        },
+        {
+          "month": "1997-12",
+          "trading_date": "1997-12-31",
+          "adjusted_close": 9.806922912597656
+        },
+        {
+          "month": "1998-01",
+          "trading_date": "1998-01-30",
+          "adjusted_close": 11.319694519042969
+        },
+        {
+          "month": "1998-02",
+          "trading_date": "1998-02-27",
+          "adjusted_close": 12.860918045043945
+        },
+        {
+          "month": "1998-03",
+          "trading_date": "1998-03-31",
+          "adjusted_close": 13.581744194030762
+        },
+        {
+          "month": "1998-04",
+          "trading_date": "1998-04-30",
+          "adjusted_close": 13.676584243774414
+        },
+        {
+          "month": "1998-05",
+          "trading_date": "1998-05-29",
+          "adjusted_close": 12.870400428771973
+        },
+        {
+          "month": "1998-06",
+          "trading_date": "1998-06-30",
+          "adjusted_close": 16.4460391998291
+        },
+        {
+          "month": "1998-07",
+          "trading_date": "1998-07-31",
+          "adjusted_close": 16.68315315246582
+        },
+        {
+          "month": "1998-08",
+          "trading_date": "1998-08-31",
+          "adjusted_close": 14.558636665344238
+        },
+        {
+          "month": "1998-09",
+          "trading_date": "1998-09-30",
+          "adjusted_close": 16.702123641967773
+        },
+        {
+          "month": "1998-10",
+          "trading_date": "1998-10-30",
+          "adjusted_close": 16.066669464111328
+        },
+        {
+          "month": "1998-11",
+          "trading_date": "1998-11-30",
+          "adjusted_close": 18.513656616210938
+        },
+        {
+          "month": "1998-12",
+          "trading_date": "1998-12-31",
+          "adjusted_close": 21.046005249023438
+        },
+        {
+          "month": "1999-01",
+          "trading_date": "1999-01-29",
+          "adjusted_close": 26.556472778320312
+        },
+        {
+          "month": "1999-02",
+          "trading_date": "1999-02-26",
+          "adjusted_close": 22.781658172607422
+        },
+        {
+          "month": "1999-03",
+          "trading_date": "1999-03-31",
+          "adjusted_close": 27.20140838623047
+        },
+        {
+          "month": "1999-04",
+          "trading_date": "1999-04-30",
+          "adjusted_close": 24.678544998168945
+        },
+        {
+          "month": "1999-05",
+          "trading_date": "1999-05-28",
+          "adjusted_close": 24.488866806030273
+        },
+        {
+          "month": "1999-06",
+          "trading_date": "1999-06-30",
+          "adjusted_close": 27.37213706970215
+        },
+        {
+          "month": "1999-07",
+          "trading_date": "1999-07-30",
+          "adjusted_close": 26.044313430786133
+        },
+        {
+          "month": "1999-08",
+          "trading_date": "1999-08-31",
+          "adjusted_close": 28.092941284179688
+        },
+        {
+          "month": "1999-09",
+          "trading_date": "1999-09-30",
+          "adjusted_close": 27.485960006713867
+        },
+        {
+          "month": "1999-10",
+          "trading_date": "1999-10-29",
+          "adjusted_close": 28.092941284179688
+        },
+        {
+          "month": "1999-11",
+          "trading_date": "1999-11-30",
+          "adjusted_close": 27.632963180541992
+        },
+        {
+          "month": "1999-12",
+          "trading_date": "1999-12-31",
+          "adjusted_close": 35.433929443359375
+        },
+        {
+          "month": "2000-01",
+          "trading_date": "2000-01-31",
+          "adjusted_close": 29.705299377441406
+        },
+        {
+          "month": "2000-02",
+          "trading_date": "2000-02-29",
+          "adjusted_close": 27.125537872314453
+        },
+        {
+          "month": "2000-03",
+          "trading_date": "2000-03-31",
+          "adjusted_close": 32.24714660644531
+        },
+        {
+          "month": "2000-04",
+          "trading_date": "2000-04-28",
+          "adjusted_close": 21.169300079345703
+        },
+        {
+          "month": "2000-05",
+          "trading_date": "2000-05-31",
+          "adjusted_close": 18.987884521484375
+        },
+        {
+          "month": "2000-06",
+          "trading_date": "2000-06-30",
+          "adjusted_close": 24.280202865600586
+        },
+        {
+          "month": "2000-07",
+          "trading_date": "2000-07-31",
+          "adjusted_close": 21.18826675415039
+        },
+        {
+          "month": "2000-08",
+          "trading_date": "2000-08-31",
+          "adjusted_close": 21.18826675415039
+        },
+        {
+          "month": "2000-09",
+          "trading_date": "2000-09-29",
+          "adjusted_close": 18.304990768432617
+        },
+        {
+          "month": "2000-10",
+          "trading_date": "2000-10-31",
+          "adjusted_close": 20.90373992919922
+        },
+        {
+          "month": "2000-11",
+          "trading_date": "2000-11-30",
+          "adjusted_close": 17.413454055786133
+        },
+        {
+          "month": "2000-12",
+          "trading_date": "2000-12-29",
+          "adjusted_close": 13.164422988891602
+        },
+        {
+          "month": "2001-01",
+          "trading_date": "2001-01-31",
+          "adjusted_close": 18.532623291015625
+        },
+        {
+          "month": "2001-02",
+          "trading_date": "2001-02-28",
+          "adjusted_close": 17.906644821166992
+        },
+        {
+          "month": "2001-03",
+          "trading_date": "2001-03-30",
+          "adjusted_close": 16.59779167175293
+        },
+        {
+          "month": "2001-04",
+          "trading_date": "2001-04-30",
+          "adjusted_close": 20.562301635742188
+        },
+        {
+          "month": "2001-05",
+          "trading_date": "2001-05-31",
+          "adjusted_close": 20.996305465698242
+        },
+        {
+          "month": "2001-06",
+          "trading_date": "2001-06-29",
+          "adjusted_close": 22.15568733215332
+        },
+        {
+          "month": "2001-07",
+          "trading_date": "2001-07-31",
+          "adjusted_close": 20.088829040527344
+        },
+        {
+          "month": "2001-08",
+          "trading_date": "2001-08-31",
+          "adjusted_close": 17.3148193359375
+        },
+        {
+          "month": "2001-09",
+          "trading_date": "2001-09-28",
+          "adjusted_close": 15.530223846435547
+        }
+      ],
+      "future_dividends": [],
+      "future_splits": [
+        {
+          "trading_date": "1996-12-09",
+          "numerator": 2.0,
+          "denominator": 1.0,
+          "ratio": "2:1"
+        },
+        {
+          "trading_date": "1998-02-23",
+          "numerator": 2.0,
+          "denominator": 1.0,
+          "ratio": "2:1"
+        },
+        {
+          "trading_date": "1999-03-29",
+          "numerator": 2.0,
+          "denominator": 1.0,
+          "ratio": "2:1"
+        }
+      ],
+      "maximum_rebased_overlap_relative_difference": 5.267264286956674e-7,
+      "review": {
+        "source_ids": ["yahoo-msft"],
+        "assessment": "Reviewed vendor-adjusted monthly endpoints and reported dividends/splits. No gaps or terminal corporate-event substitution in this selected window; use the vendor-adjusted dividend/split return proxy without adding payments again.",
+        "limitations": "A public adjusted-price approximation, not transaction-level reinvestment accounting or a contemporary vendor vintage. Later uniform adjustment scaling cancels in ratios."
+      }
+    }
+  }
+}

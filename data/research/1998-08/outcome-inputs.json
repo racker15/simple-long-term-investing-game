@@ -1,0 +1,54 @@
+{
+  "scenario_id": "1998-08",
+  "events": [
+    {
+      "month": "1998-09",
+      "title": "Banks rescue a large investment fund",
+      "description": "Private banks and securities firms invest in Long-Term Capital Management after heavy losses.",
+      "source_ids": ["ltcm"]
+    },
+    {
+      "month": "1999-01",
+      "title": "The euro begins",
+      "description": "Eleven countries adopt a shared currency for financial transactions. Notes and coins come later.",
+      "source_ids": ["euro-launch"]
+    },
+    {
+      "month": "2001-09",
+      "title": "The September 11 attacks",
+      "description": "Terrorist attacks kill thousands in the United States. Communities mourn and help those affected.",
+      "source_ids": ["september-attacks"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Amazon more than tripled over five years, leading this set, but its path included very large monthly falls. Apple gained less, while Microsoft lagged both cash and bonds. The US basket and cash ended quite close. The final ranking hides how differently these investments felt along the way.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aapl",
+      "yahoo-amzn",
+      "yahoo-msft",
+      "ltcm",
+      "euro-launch",
+      "september-attacks"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "Russia’s financial crisis unsettled investors. Apple had a new computer, Amazon was adding music, and Microsoft faced a disputed antitrust case.",
+    "what_actually_mattered": "The size of gains and losses along the path mattered as well as the endpoint. Owning one fast-changing business could create much sharper swings than holding cash.",
+    "what_faded_away": "A product’s early sales and a legal headline did not give a complete five-year answer. No single story captured everything affecting a company.",
+    "what_nobody_knew": "Nobody knew Amazon’s eventual result or the depth of the falls along the way. Its later fame can make a risky starting decision seem obvious in hindsight.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aapl",
+      "yahoo-amzn",
+      "yahoo-msft",
+      "ltcm",
+      "euro-launch",
+      "september-attacks"
+    ]
+  }
+}

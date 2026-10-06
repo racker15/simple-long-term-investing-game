@@ -134,6 +134,36 @@
       "selection_mode": "important"
     },
     {
+      "scenario_id": "1995-08",
+      "date": "1995-08-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "1996-09",
+      "date": "1996-09-30",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "1997-04",
+      "date": "1997-04-30",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "1997-07",
+      "date": "1997-07-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "1998-08",
+      "date": "1998-08-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
       "scenario_id": "1999-09",
       "date": "1999-09-30",
       "data_kind": "historical",

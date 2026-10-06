@@ -1,0 +1,54 @@
+{
+  "scenario_id": "1995-08",
+  "events": [
+    {
+      "month": "1997-07",
+      "title": "A rover mission reaches Mars",
+      "description": "Pathfinder lands carrying the small Sojourner rover.",
+      "source_ids": ["pathfinder"]
+    },
+    {
+      "month": "1998-09",
+      "title": "A major investment fund needs rescue",
+      "description": "Banks and securities firms invest in Long-Term Capital Management after heavy losses threaten its survival.",
+      "source_ids": ["ltcm"]
+    },
+    {
+      "month": "1999-01",
+      "title": "The euro begins",
+      "description": "Eleven countries start sharing a currency for financial transactions. Euro notes and coins will arrive later.",
+      "source_ids": ["euro-launch"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Intel finished at nearly ten times its starting value, and Microsoft at about six times. Disney and both broad share baskets also gained. The window ends in August 2000; changes after that date are outside this result. A five-year endpoint is only one slice of history.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-msft",
+      "yahoo-dis",
+      "yahoo-intc",
+      "pathfinder",
+      "ltcm",
+      "euro-launch"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "Windows 95, Netscape’s stock-market debut and Disney’s expansion made technology and entertainment exciting news.",
+    "what_actually_mattered": "The chosen chip and software shares gained much more than the broad basket in this window. They still had difficult months, and their results do not describe every technology company.",
+    "what_faded_away": "The launch-day buzz did not tell you the size of five-year gains. New leadership and big deals were plans whose results still had to unfold.",
+    "what_nobody_knew": "Nobody knew the exact path or the final ranking. Stopping the chart in August 2000 leaves later events outside the result.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-msft",
+      "yahoo-dis",
+      "yahoo-intc",
+      "pathfinder",
+      "ltcm",
+      "euro-launch"
+    ]
+  }
+}

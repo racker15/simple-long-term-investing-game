@@ -1,0 +1,54 @@
+{
+  "scenario_id": "1997-07",
+  "events": [
+    {
+      "month": "1998-09",
+      "title": "Banks rescue a large investment fund",
+      "description": "Private banks and securities firms invest in Long-Term Capital Management after heavy losses.",
+      "source_ids": ["ltcm"]
+    },
+    {
+      "month": "1999-01",
+      "title": "The euro begins",
+      "description": "Eleven countries adopt a shared currency for financial transactions. Notes and coins come later.",
+      "source_ids": ["euro-launch"]
+    },
+    {
+      "month": "2001-09",
+      "title": "The September 11 attacks",
+      "description": "Terrorist attacks kill thousands in the United States. Communities mourn and help those affected.",
+      "source_ids": ["september-attacks"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Bonds led this set over five years. The US share basket finished only a little higher, while the international basket and all three company shares lost value. This was a difficult window for stock investors. It does not prove that stocks always lose or bonds always win; a different starting date can change the result.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-dis",
+      "yahoo-nke",
+      "yahoo-intc",
+      "ltcm",
+      "euro-launch",
+      "september-attacks"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "Thailand changed its currency policy, index funds were drawing money, and companies were changing leaders and products.",
+    "what_actually_mattered": "The mix of assets mattered. Cash and the Treasury-bond estimate rose while many shares fell. They spread risk beyond the fortunes of individual businesses.",
+    "what_faded_away": "A well-known brand and a popular theater production did not prevent losses in a company’s shares. Recent market success was not a promise of five more good years.",
+    "what_nobody_knew": "The coming sequence of crises and market falls was unknown. A sensible plan still had to allow for outcomes that the starting headlines did not predict.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-dis",
+      "yahoo-nke",
+      "yahoo-intc",
+      "ltcm",
+      "euro-launch",
+      "september-attacks"
+    ]
+  }
+}
