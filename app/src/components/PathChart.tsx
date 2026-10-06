@@ -36,17 +36,41 @@ export function PathChart({
     if (paused && target < 60)
       checkpointHeading.current?.focus({ preventScroll: true });
   }, [paused, target]);
+  const animation = useRef<number | null>(null);
   useEffect(() => {
-    if (visible >= target) {
-      if (target === 60) onFinished();
-      return;
+    if (reducedMotion) return;
+    const from = target === 12 ? 0 : target === 36 ? 12 : 36;
+    const started = performance.now();
+    function frame(now: number) {
+      const progress = Math.min(1, (now - started) / 5000);
+      setVisible(from + (target - from) * progress);
+      if (progress < 1) animation.current = requestAnimationFrame(frame);
     }
-    const timer = window.setTimeout(
-      () => setVisible((value) => Math.min(target, value + 2)),
-      80,
+    animation.current = requestAnimationFrame(frame);
+    return () => {
+      if (animation.current !== null) cancelAnimationFrame(animation.current);
+    };
+  }, [target, reducedMotion]);
+  useEffect(() => {
+    if (visible === 60) onFinished();
+  }, [visible, onFinished]);
+  function skip() {
+    if (animation.current !== null) cancelAnimationFrame(animation.current);
+    setVisible(target);
+  }
+  function valueAt(values: number[]) {
+    const month = Math.floor(visible);
+    const fraction = visible - month;
+    return (
+      values[month] +
+      (fraction ? (values[month + 1] - values[month]) * fraction : 0)
     );
-    return () => window.clearTimeout(timer);
-  }, [visible, target, onFinished]);
+  }
+  function revealedValues(values: number[]) {
+    const reached = values.slice(0, Math.floor(visible) + 1);
+    if (!Number.isInteger(visible)) reached.push(valueAt(values));
+    return reached;
+  }
   function resume(next: 36 | 60) {
     setTarget(next);
     if (reducedMotion) setVisible(next);
@@ -100,10 +124,10 @@ export function PathChart({
   const portfolioSeries = series.slice(0, 3);
   const hotStockSeries = series.slice(3);
   const portfolioValues = portfolioSeries.flatMap((values) =>
-    values.slice(0, visible + 1),
+    revealedValues(values),
   );
   const hotStockValues = hotStockSeries.flatMap((values) =>
-    values.slice(0, visible + 1),
+    revealedValues(values),
   );
   const portfolioMinimum = Math.min(...portfolioValues);
   const portfolioMaximum = Math.max(...portfolioValues);
@@ -127,9 +151,9 @@ export function PathChart({
     const labels = values
       .map((points, i) => ({
         index: offset + i,
-        value: points[visible],
-        pointY: y(points[visible]),
-        labelY: y(points[visible]),
+        value: valueAt(points),
+        pointY: y(valueAt(points)),
+        labelY: y(valueAt(points)),
       }))
       .sort((a, b) => a.pointY - b.pointY);
     labels.forEach((label, i) => {
@@ -165,7 +189,8 @@ export function PathChart({
         Your portfolio and market comparisons are above. The hot stocks below
         use their own dollar scale. The timeline expands as you continue. Only
         the months reached so far are shown. End labels show returns since the
-        start; stock labels use their ticker symbols.
+        start; stock labels use their ticker symbols. Each reveal takes five
+        seconds. Movement between monthly observations is visual interpolation.
       </figcaption>
       <h2 ref={checkpointHeading} tabIndex={-1} aria-live="polite">
         {paused
@@ -190,7 +215,7 @@ export function PathChart({
             Two chart panels share the same timeline and use separate dollar
             scales. The upper panel shows your portfolio and two broad
             comparisons. The lower panel shows all three hot stocks. Values are
-            shown only through month {visible}; later outcomes remain hidden.
+            shown only through the current reveal; later outcomes remain hidden.
           </desc>
           <text x={plotStart} y="20">
             Your portfolio and broad comparisons
@@ -240,9 +265,11 @@ export function PathChart({
               stroke={chartSeries[i].color}
               strokeWidth={chartSeries[i].width}
               strokeDasharray={chartSeries[i].dash}
-              points={values
-                .slice(0, visible + 1)
-                .map((value, index) => `${x(index)},${portfolioY(value)}`)
+              points={revealedValues(values)
+                .map(
+                  (value, index) =>
+                    `${x(Math.min(index, visible))},${portfolioY(value)}`,
+                )
                 .join(' ')}
             >
               <title>{chartSeries[i].label}</title>
@@ -298,56 +325,61 @@ export function PathChart({
                 fill="none"
                 stroke={chartSeries[seriesIndex].color}
                 strokeWidth={chartSeries[seriesIndex].width}
-                points={values
-                  .slice(0, visible + 1)
-                  .map((value, index) => `${x(index)},${hotStockY(value)}`)
+                points={revealedValues(values)
+                  .map(
+                    (value, index) =>
+                      `${x(Math.min(index, visible))},${hotStockY(value)}`,
+                  )
                   .join(' ')}
               >
                 <title>{chartSeries[seriesIndex].label}</title>
               </polyline>
             );
           })}
-          {paused &&
-            endpointLabels.map(({ index, value, pointY, labelY }) => (
-              <g
-                key={chartSeries[index].testId}
-                data-testid={`chart-end-${index}`}
+          {endpointLabels.map(({ index, value, pointY, labelY }) => (
+            <g
+              key={chartSeries[index].testId}
+              data-testid={`chart-end-${index}`}
+            >
+              <title>
+                {chartSeries[index].label}:{' '}
+                {percent(value / INITIAL_CAPITAL - 1)} since the start
+              </title>
+              <circle
+                cx={x(visible)}
+                cy={pointY}
+                r="4"
+                fill={chartSeries[index].color}
+                stroke="white"
+                strokeWidth="1"
+              />
+              <path
+                d={`M ${x(visible) + 4} ${pointY} L ${x(visible) + 23} ${labelY} L ${x(visible) + 31} ${labelY}`}
+                fill="none"
+                stroke={chartSeries[index].color}
+              />
+              <circle
+                cx={x(visible) + 37}
+                cy={labelY}
+                r="4"
+                fill={chartSeries[index].color}
+              />
+              <text
+                className="endpoint-name"
+                x={x(visible) + 49}
+                y={labelY - 3}
               >
-                <title>
-                  {chartSeries[index].label}:{' '}
-                  {percent(value / INITIAL_CAPITAL - 1)} since the start
-                </title>
-                <circle
-                  cx={plotEnd}
-                  cy={pointY}
-                  r="4"
-                  fill={chartSeries[index].color}
-                  stroke="white"
-                  strokeWidth="1"
-                />
-                <path
-                  d={`M ${plotEnd + 4} ${pointY} L 563 ${labelY} L 571 ${labelY}`}
-                  fill="none"
-                  stroke={chartSeries[index].color}
-                />
-                <circle
-                  cx="577"
-                  cy={labelY}
-                  r="4"
-                  fill={chartSeries[index].color}
-                />
-                <text className="endpoint-name" x="589" y={labelY - 3}>
-                  {chartSeries[index].endLabel}
-                </text>
-                <text
-                  className={`endpoint-return${value < INITIAL_CAPITAL ? ' financial-return--negative' : ''}`}
-                  x="589"
-                  y={labelY + 14}
-                >
-                  {percent(value / INITIAL_CAPITAL - 1)}
-                </text>
-              </g>
-            ))}
+                {chartSeries[index].endLabel}
+              </text>
+              <text
+                className={`endpoint-return${value < INITIAL_CAPITAL ? ' financial-return--negative' : ''}`}
+                x={x(visible) + 49}
+                y={labelY + 14}
+              >
+                {percent(value / INITIAL_CAPITAL - 1)}
+              </text>
+            </g>
+          ))}
           {visible >= 60 &&
             markers.map(({ event, i }) => {
               const title = events
@@ -401,15 +433,15 @@ export function PathChart({
             </span>{' '}
             {item.label}:{' '}
             <SignedReturn
-              value={series[index][visible] / INITIAL_CAPITAL - 1}
+              value={valueAt(series[index]) / INITIAL_CAPITAL - 1}
             />{' '}
-            ({money(series[index][visible])})
+            ({money(valueAt(series[index]))})
           </span>
         ))}
       </div>
       <p>
-        Returns above are from the starting date through month {visible}. Each
-        comparison starts with $10,000.
+        Returns above are from the starting date through the current reveal.
+        Each comparison starts with $10,000.
       </p>
       {paused && target < 60 ? (
         <>
@@ -422,7 +454,7 @@ export function PathChart({
           </button>
         </>
       ) : !paused ? (
-        <button className="secondary" onClick={() => setVisible(target)}>
+        <button className="secondary" onClick={skip}>
           Skip animation to year {target / 12}
         </button>
       ) : null}

@@ -719,6 +719,7 @@ test('right-hand labels match every line and return at each reveal', async ({
     await page.locator('.chart-scroll').evaluate((node) => {
       node.scrollLeft = node.scrollWidth;
     });
+    await page.getByTestId('chart-end-5').scrollIntoViewIfNeeded();
     await expect(page.getByTestId('chart-end-5')).toBeInViewport();
     await page.locator('.chart').screenshot({
       path: testInfo.outputPath(`session-end-labels-${months}.png`),
@@ -735,5 +736,82 @@ test('right-hand labels match every line and return at each reveal', async ({
           exact: true,
         })
         .click();
+  }
+});
+
+test('each reveal animates for five seconds with moving endpoint labels', async ({
+  page,
+}) => {
+  await page.clock.install({ time: new Date('2026-10-06T00:00:00Z') });
+  await page.emulateMedia({ reducedMotion: 'no-preference' });
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await page.getByRole('radio', { name: 'Cash', exact: true }).check();
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await page.clock.pauseAt(await page.evaluate(() => Date.now() + 1000));
+  await page
+    .getByRole('button', { name: 'Invest and see what happens' })
+    .click();
+  for (const year of [1, 3, 5]) {
+    const revealing = page.getByRole('heading', {
+      name: `Revealing through year ${year}…`,
+      exact: true,
+    });
+    await expect(revealing).toBeVisible();
+    const dot = page.getByTestId('chart-end-0').locator('circle').first();
+    const startX = Number(await dot.getAttribute('cx'));
+    await page.clock.runFor(2500);
+    await expect(revealing).toBeVisible();
+    const middleX = Number(await dot.getAttribute('cx'));
+    expect(middleX).toBeGreaterThan(startX);
+    expect(middleX).toBeLessThan(540);
+    for (let i = 0; i < 6; i++) {
+      const line = page.getByTestId(
+        i < 3 ? `path-${i}` : `hot-stock-path-${i - 3}`,
+      );
+      const endpoint = (await line.getAttribute('points'))!
+        .split(' ')
+        .at(-1)!
+        .split(',');
+      const label = page.getByTestId(`chart-end-${i}`);
+      await expect(label.locator('circle').first()).toHaveAttribute(
+        'cx',
+        endpoint[0],
+      );
+      await expect(label.locator('circle').first()).toHaveAttribute(
+        'cy',
+        endpoint[1],
+      );
+      await expect(label.locator('.endpoint-return')).not.toContainText('NaN');
+    }
+    await page.clock.runFor(2490);
+    await expect(revealing).toBeVisible();
+    await page.clock.runFor(40);
+    await expect(
+      page.getByRole('heading', {
+        name:
+          year === 5
+            ? 'Five-year path complete'
+            : `Paused after ${year} ${year === 1 ? 'year' : 'years'}`,
+        exact: true,
+      }),
+    ).toBeVisible();
+    await expect(dot).toHaveAttribute('cx', '540');
+    await expect(page.getByTestId('path-0')).toHaveAttribute(
+      'points',
+      new RegExp(`\\S+( \\S+){${year * 12}}$`),
+    );
+    if (year < 5) {
+      await page.clock.runFor(6000);
+      await expect(
+        page.getByRole('heading', { name: 'Five years later', exact: true }),
+      ).toHaveCount(0);
+      await page
+        .getByRole('button', {
+          name: `Continue to year ${year === 1 ? 3 : 5}`,
+          exact: true,
+        })
+        .click();
+    }
   }
 });
