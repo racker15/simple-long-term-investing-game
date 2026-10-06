@@ -1,0 +1,25 @@
+{
+  "scenario_id": "2016-02",
+  "stocks": {
+    "AAPL": {
+      "source_ids": ["recent-apple-2020", "recent-apple-actions"],
+      "assessment": "Apple common stock;20 vendor dividends.4:1 splitannounced July 30 2020, payable Aug 28, firstadjustedtrading Aug 31. Pre-split vendor dividends already divided by 4 (e.g.$0.1425 correspondsoriginal$0.57). Primary table corroborates declarations/record/payment amounts; no duplicate split/dividend addition. No terminal shareholder mapping identified.",
+      "limitations": "Absence of a terminal event is an issuer-lineage/vendor-history assessment, not a comprehensive independent corporate-actions database. Continuous daily observations do not alone prove that every distribution adjustment is correct."
+    },
+    "MSFT": {
+      "source_ids": ["recent-msft-actions", "recent-msft-splits"],
+      "assessment": "Microsoft common stock;20 vendor dividends, no in-window split (officiallatest 2003). Primary currenttable establishes dividend policy/split history, but complete downloadable historicaldividendfile could not be independently retrieved. Vendor ex-dates/amounts not all reconciled individually. No terminal mapping applied.",
+      "limitations": "Absence of a terminal event is an issuer-lineage/vendor-history assessment, not a comprehensive independent corporate-actions database. Continuous daily observations do not alone prove that every distribution adjustment is correct."
+    },
+    "XOM": {
+      "source_ids": [
+        "recent-xom-splits",
+        "recent-xom-dividends-2018",
+        "recent-xom-dividends-2020",
+        "recent-xom-2020"
+      ],
+      "assessment": "Exxon Mobil common stock;20 vendor dividends, no in-window split (latest 2001). Annual investor data corroborate 2016–2020 cashdividendsperoriginalshare 2.98/3.06/3.23/3.43/3.48. Interactive historicaldividendtable was not retrievable; every vendor ex-date not individually reconciled. 2020 operatingloss is not a bankruptcy/delisting or terminalzero return; no successor exchange applied.",
+      "limitations": "Absence of a terminal event is an issuer-lineage/vendor-history assessment, not a comprehensive independent corporate-actions database. Continuous daily observations do not alone prove that every distribution adjustment is correct."
+    }
+  }
+}

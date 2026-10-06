@@ -1,0 +1,235 @@
+{
+  "scenario_id": "1987-01",
+  "sources": [
+    {
+      "id": "fed1986",
+      "source_name": "Federal Reserve Midyear 1986 Monetary Policy Report and Volcker public testimony",
+      "source_reference": "https://fraser.stlouisfed.org/files/docs/publications/bog_mpo/bog_19860718.pdf",
+      "publication_date": "1986-07-23",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Report dated July 18 is included with public July 23 testimony; use verified public testimony date conservatively. Summaryp 4:1987 real GNP fourth quarter/fourth quarter central tendency 3–3.5%, full range 2–4.25%; institutional forecast, not SPF or median. Stale July 1986 vintage as of Jan 1987. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "jobs1987",
+      "source_name": "BLS Employment Situation: December 1986",
+      "source_reference": "https://fraser.stlouisfed.org/docs/releases/bls/bls_employnews_198612.pdf",
+      "publication_date": "1987-01-09",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original embargo 8:30 ESTJan 9. Civilian unemployment 6.7%; overall including Armed Forces 6.6% is a different statistic. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "1986-12-31"
+    },
+    {
+      "id": "h151987",
+      "source_name": "Federal Reserve H 15 Jan 28, 1987",
+      "source_reference": "https://fraser.stlouisfed.org/docs/releases/h15/1980s/H15_19870128.pdf",
+      "publication_date": "1987-01-28",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Immediate-release date printed Jan 28 despite routine Monday release text. Daily Jan 23:prime 7.50, discount 5.50,10-year Treasury 7.06. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "1987-01-23"
+    },
+    {
+      "id": "apcpi1987",
+      "source_name": "Associated Press inflation report in Pampa News Jan 21, 1987",
+      "source_reference": "https://newspapers.swco.ttu.edu/bitstreams/d18ca4df-2080-4f4e-b3a4-6f066c7d0277/download",
+      "publication_date": "1987-01-21",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporary AP reporting says government reported today 1986 prices rose 1.1%. This is primary contemporary reporting, not original BLS release, which was not retrieved. Later February 1987 CPI Detailed Report corroborates but is ineligible as starting source. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "1986-12-31"
+    },
+    {
+      "id": "compute1986",
+      "source_name": "COMPUTE! issue 79, December 1986, p 32: IBM compatibles coming home",
+      "source_reference": "https://www.atarimagazines.com/compute/issue79/The_MS-DOS_Invasion.php",
+      "publication_date": "1986-12-31",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Original issue month December 1986. Exact first public day unknown; conservative month-end availability approximation. Archive transcription of contemporary magazine. IBM-compatible competition threatens Apple; Apple IIGS explicitly named. Not a precise release date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "compute1987",
+      "source_name": "COMPUTE! issue 80, January 1987, p 18: graphics on16 bit computers",
+      "source_reference": "https://www.atarimagazines.com/compute/issue80/the_great_graphics_leap.php",
+      "publication_date": "1987-01-31",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Original issue month January 1987. Exact first public day unknown; conservative month-end availability approximation. Apple IIGS and Macintosh receive product coverage; source is supplementary, Decemberissue supplies stronger pre-cutoff date margin. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963282",
+      "source_name": "TIME: Dow closes above2000 amid investor enthusiasm",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963282,00.html",
+      "publication_date": "1987-01-19",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963296",
+      "source_name": "TIME: Dollar slide unsettles currency markets",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963296,00.html",
+      "publication_date": "1987-01-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963311",
+      "source_name": "TIME: Deng moves against Chinese student protest pressure",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963311,00.html",
+      "publication_date": "1987-01-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963319",
+      "source_name": "TIME: Severe cold disrupts Europe",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963319,00.html",
+      "publication_date": "1987-01-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963316",
+      "source_name": "TIME: DNA techniques enter a British murder investigation",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963316,00.html",
+      "publication_date": "1987-01-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963318",
+      "source_name": "TIME: Giants and Broncos prepare for the Super Bowl",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963318,00.html",
+      "publication_date": "1987-01-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963313",
+      "source_name": "TIME: Platoon actors describe demanding war training",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963313,00.html",
+      "publication_date": "1987-01-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963298",
+      "source_name": "TIME: Midair collision renews air traffic safety concern",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963298,00.html",
+      "publication_date": "1987-01-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963291",
+      "source_name": "TIME: Computer research consortium loses members",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963291,00.html",
+      "publication_date": "1987-01-19",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963273",
+      "source_name": "TIME: Transatlanticfiberoptic plans",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963273,00.html",
+      "publication_date": "1987-01-19",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963315",
+      "source_name": "TIME: Semiconductor workplace health concern",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963315,00.html",
+      "publication_date": "1987-01-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963202",
+      "source_name": "TIME: Rockwell advertisement controversy",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963202,00.html",
+      "publication_date": "1987-01-12",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963256",
+      "source_name": "TIME: Warner investment in Cannon",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963256,00.html",
+      "publication_date": "1987-01-19",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-index19870105",
+      "source_name": "TIME issue index 1987-01-05",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601870105,00.html",
+      "publication_date": "1987-01-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Publisher table of contents verifies article identity and issue date. Discovery metadata only; no assumption that every article body has been read. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-index19870112",
+      "source_name": "TIME issue index 1987-01-12",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601870112,00.html",
+      "publication_date": "1987-01-12",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Publisher table of contents verifies article identity and issue date. Discovery metadata only; no assumption that every article body has been read. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-index19870119",
+      "source_name": "TIME issue index 1987-01-19",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601870119,00.html",
+      "publication_date": "1987-01-19",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Publisher table of contents verifies article identity and issue date. Discovery metadata only; no assumption that every article body has been read. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-index19870126",
+      "source_name": "TIME issue index 1987-01-26",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601870126,00.html",
+      "publication_date": "1987-01-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Publisher table of contents verifies article identity and issue date. Discovery metadata only; no assumption that every article body has been read. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-asset observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "observation_date": "1987-01-31",
+      "publication_date": "1987-01-31",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Modeled availability of underlying market observations through cutoff. This is NOT the publication date of the modern French/FRED/Yahoo archive. Current retrospective reconstruction, not exact contemporary database vintages; later uniform adjustment scaling cancels in historical ratios. Actual source snapshot/retrieval dates and hashes are recorded separately in archive manifests."
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/1987-01/starting.json",
+      "observation_date": "1987-01-31",
+      "publication_date": "1987-01-31",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Modeled availability of underlying market observations through cutoff. This is NOT the publication date of the modern French/FRED/Yahoo archive. Current retrospective reconstruction, not exact contemporary database vintages; later uniform adjustment scaling cancels in historical ratios. Actual source snapshot/retrieval dates and hashes are recorded separately in archive manifests."
+    }
+  ]
+}

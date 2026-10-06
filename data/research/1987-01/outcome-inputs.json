@@ -1,0 +1,71 @@
+{
+  "scenario_id": "1987-01",
+  "events": [
+    {
+      "month": "1987-05",
+      "title": "General Electric shares split two for one",
+      "description": "The pinned vendor history records split-adjusted trading on May 26. The split changes units; adjusted prices prevent treating it as a loss or gain.",
+      "source_ids": ["yahoo-ge"]
+    },
+    {
+      "month": "1987-06",
+      "title": "Apple shares split two for one",
+      "description": "Apple’s investor archive records its first two-for-one split on June 16. Returns use adjusted prices and do not add a separate split gain.",
+      "source_ids": ["apple-split-history"]
+    },
+    {
+      "month": "1987-10",
+      "title": "The October 19 stock-market crash strains trading",
+      "description": "Prices fall sharply during a trading crisis. The Federal Reserve’s retrospective study documents market-functioning problems alongside the declines.",
+      "source_ids": ["fed-crash87"]
+    },
+    {
+      "month": "1987-10",
+      "title": "The Federal Reserve publicly offers liquidity support",
+      "description": "On October 20 the Fed affirms readiness to supply liquidity and takes measures supporting financial-market functioning. The response is context, not a measured return attribution.",
+      "source_ids": ["fed-crash87"]
+    },
+    {
+      "month": "1991-04",
+      "title": "The NBER announces a recession start",
+      "description": "The committee identifies July 1990 as the economic peak. This is a retrospective determination, nine months after the dated turning point.",
+      "source_ids": ["nber-peak90"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "January 1987 began with enthusiasm about rising stock prices alongside currency concerns and a wide range of ordinary news. The next five years contained several distinct phases, so a single headline cannot summarize the investment experience. General Electric and Apple each implemented a two-for-one share split during 1987. Those changes alter share counts and quoted prices; consistent adjusted prices prevent splits from becoming artificial investment gains or losses. In October 1987, markets suffered a sudden crash and severe trading disruptions. The Federal Reserve’s later historical study describes strained market infrastructure and its visible liquidity response on October 20. This exhibit supplies monthly returns, which cannot reproduce the worst intraday experience or identify a tradeable advance warning. The economy subsequently entered another recession. In April 1991, the NBER identified July 1990 as the business-cycle peak, demonstrating again that official dating follows the underlying event. At the January 1992 endpoint, the committee had not yet announced the March 1991 trough; that announcement arrived in December 1992. The different company paths, diversified equity proxies, bonds and cash belong to the same holding window, with dividends handled through the adjusted-price convention. Their final ordering is computed from the monthly series and does not establish a universal strategy ranking. A prediction made from January news remained a prediction: the later crash, policy response and recovery path were not all specified in the information available then.",
+    "source_ids": [
+      "fed-crash87",
+      "nber-peak90",
+      "apple-split-history",
+      "yahoo-ge",
+      "yahoo-ibm",
+      "yahoo-aapl",
+      "french-us",
+      "french-international",
+      "fred-gs5"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "The starting snapshot includes stock-market enthusiasm and currency concerns, political events, severe weather, science, sport and film. The computer companies were prominent, but the news was broader than an investment narrative.",
+    "what_actually_mattered": "Investment weights, concentration, starting prices, dividend adjustments and the full sequence of monthly returns determine the simulated account. Economic contraction and market disruption form part of the setting; no event marker alone explains the ranking.",
+    "what_faded_away": "The Super Bowl preparations, the cold spell and individual film stories passed into later news cycles. Their contemporary importance to readers did not supply a dependable prediction of five-year returns.",
+    "what_nobody_knew": "The starting screen did not reveal October’s crash, the timing of the next recession or each company’s recovery path. Official recession dating itself arrived later. Knowing the eventual endpoint does not make uncertainty in January 1987 irrational.",
+    "source_ids": [
+      "fed-crash87",
+      "nber-peak90",
+      "apple-split-history",
+      "yahoo-ge",
+      "yahoo-ibm",
+      "yahoo-aapl",
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "time-963282",
+      "time-963296",
+      "time-963319",
+      "time-963318",
+      "time-963313"
+    ]
+  }
+}

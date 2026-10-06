@@ -1,0 +1,627 @@
+{
+  "scenario_id": "2004-05",
+  "cutoff": "2004-05-31",
+  "method": "Dated contemporary issue and original release evidence in docs/modern-starting-research.md; editorial attention and breadth before future outcomes. Magazine discovery pool is not exhaustive or probability sampled.",
+  "news_candidates": [
+    {
+      "id": "04-01",
+      "topic": "Abu Ghraib abuse scandal grows",
+      "category": "global",
+      "publication_date": "2004-05-17",
+      "source_ids": ["t0417"],
+      "selected": true,
+      "selected_headline_id": "n04-iraq"
+    },
+    {
+      "id": "04-02",
+      "topic": "Bush advisers' internal disagreements",
+      "category": "US",
+      "publication_date": "2004-05-17",
+      "source_ids": ["t0417"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-03",
+      "topic": "Psychological questions about prisoner abuse",
+      "category": "global",
+      "publication_date": "2004-05-17",
+      "source_ids": ["t0417"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-04",
+      "topic": "Military justice for accused soldiers",
+      "category": "global",
+      "publication_date": "2004-05-17",
+      "source_ids": ["t0417"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-05",
+      "topic": "Interrogation methods and limits",
+      "category": "global",
+      "publication_date": "2004-05-17",
+      "source_ids": ["t0417"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-06",
+      "topic": "Wider patterns of detainee mistreatment",
+      "category": "global",
+      "publication_date": "2004-05-17",
+      "source_ids": ["t0417"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-07",
+      "topic": "States pursue stem-cell research",
+      "category": "science",
+      "publication_date": "2004-05-17",
+      "source_ids": ["t0417"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-08",
+      "topic": "Oregon county's same-sex marriages",
+      "category": "US",
+      "publication_date": "2004-05-17",
+      "source_ids": ["t0417"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-09",
+      "topic": "Los Angeles newspaper revitalization",
+      "category": "media",
+      "publication_date": "2004-05-17",
+      "source_ids": ["t0417"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-10",
+      "topic": "Possible American connection to Madrid",
+      "category": "global",
+      "publication_date": "2004-05-17",
+      "source_ids": ["t0417"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-11",
+      "topic": "Kerry's political move toward center",
+      "category": "US",
+      "publication_date": "2004-05-17",
+      "source_ids": ["t0417"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-12",
+      "topic": "Aircraft and climate effects",
+      "category": "science",
+      "publication_date": "2004-05-17",
+      "source_ids": ["t0417"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-13",
+      "topic": "Relief for frustrated air travelers",
+      "category": "travel",
+      "publication_date": "2004-05-17",
+      "source_ids": ["t0417"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-14",
+      "topic": "Moore film beyond presidential criticism",
+      "category": "film",
+      "publication_date": "2004-05-17",
+      "source_ids": ["t0417"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-15",
+      "topic": "American Airlines' cost-cutting recovery effort",
+      "category": "business",
+      "publication_date": "2004-05-17",
+      "source_ids": ["t0417"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-16",
+      "topic": "Culinary schools attract young talent",
+      "category": "culture",
+      "publication_date": "2004-05-17",
+      "source_ids": ["t0417"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-17",
+      "topic": "Superman's appeal to contemporary readers",
+      "category": "entertainment",
+      "publication_date": "2004-05-17",
+      "source_ids": ["t0417"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-18",
+      "topic": "Sony's luxury consumer electronics",
+      "category": "technology",
+      "publication_date": "2004-05-17",
+      "source_ids": ["t0417"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-19",
+      "topic": "Iraq's implications for Bush's campaign",
+      "category": "US",
+      "publication_date": "2004-05-24",
+      "source_ids": ["t0424"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-20",
+      "topic": "Planning Iraq's June political handover",
+      "category": "global",
+      "publication_date": "2004-05-24",
+      "source_ids": ["t0424"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-21",
+      "topic": "Death of American businessman Nick Berg",
+      "category": "global",
+      "publication_date": "2004-05-24",
+      "source_ids": ["t0424"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-22",
+      "topic": "Responsibility for detainee abuse",
+      "category": "global",
+      "publication_date": "2004-05-24",
+      "source_ids": ["t0424"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-23",
+      "topic": "Brood X cicadas emerge",
+      "category": "science",
+      "publication_date": "2004-05-24",
+      "source_ids": ["t0424"],
+      "selected": true,
+      "selected_headline_id": "n04-cicada"
+    },
+    {
+      "id": "04-24",
+      "topic": "Climate disaster movie sparks debate",
+      "category": "film",
+      "publication_date": "2004-05-24",
+      "source_ids": ["t0424"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-25",
+      "topic": "Clouds and pollution dim sunlight",
+      "category": "science",
+      "publication_date": "2004-05-24",
+      "source_ids": ["t0424"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-26",
+      "topic": "Rail enthusiasts face security scrutiny",
+      "category": "US",
+      "publication_date": "2004-05-24",
+      "source_ids": ["t0424"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-27",
+      "topic": "Smarty Jones wins second Triple-Crown race",
+      "category": "sports",
+      "publication_date": "2004-05-24",
+      "source_ids": ["t0424"],
+      "selected": true,
+      "selected_headline_id": "n04-smarty"
+    },
+    {
+      "id": "04-28",
+      "topic": "Changing tactics in Gaza",
+      "category": "global",
+      "publication_date": "2004-05-24",
+      "source_ids": ["t0424"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-29",
+      "topic": "Gandhi family wins Indian election",
+      "category": "global",
+      "publication_date": "2004-05-24",
+      "source_ids": ["t0424"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-30",
+      "topic": "Backlash fails to stop outsourcing",
+      "category": "business",
+      "publication_date": "2004-05-24",
+      "source_ids": ["t0424"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-31",
+      "topic": "Fuel prices encourage hybrid vehicles",
+      "category": "business",
+      "publication_date": "2004-05-24",
+      "source_ids": ["t0424"],
+      "selected": true,
+      "selected_headline_id": "n04-hybrid"
+    },
+    {
+      "id": "04-32",
+      "topic": "Ford Escape hybrid road test",
+      "category": "business",
+      "publication_date": "2004-05-24",
+      "source_ids": ["t0424"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-33",
+      "topic": "Argument for modest inflation",
+      "category": "economy",
+      "publication_date": "2004-05-24",
+      "source_ids": ["t0424"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-34",
+      "topic": "New investigation of Emmett Till killing",
+      "category": "US",
+      "publication_date": "2004-05-24",
+      "source_ids": ["t0424"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-35",
+      "topic": "American Idol's talent business",
+      "category": "entertainment",
+      "publication_date": "2004-05-24",
+      "source_ids": ["t0424"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-36",
+      "topic": "New Sims game's aging characters",
+      "category": "gaming",
+      "publication_date": "2004-05-24",
+      "source_ids": ["t0424"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-37",
+      "topic": "D-Day anniversary remembrance",
+      "category": "history",
+      "publication_date": "2004-05-31",
+      "source_ids": ["t0431"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-38",
+      "topic": "Repairing the Atlantic alliance",
+      "category": "global",
+      "publication_date": "2004-05-31",
+      "source_ids": ["t0431"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-39",
+      "topic": "Roosevelt's wartime preparation strategy",
+      "category": "history",
+      "publication_date": "2004-05-31",
+      "source_ids": ["t0431"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-40",
+      "topic": "D-Day soldiers' firsthand experiences",
+      "category": "history",
+      "publication_date": "2004-05-31",
+      "source_ids": ["t0431"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-41",
+      "topic": "Nader complicates presidential campaign",
+      "category": "US",
+      "publication_date": "2004-05-31",
+      "source_ids": ["t0431"],
+      "selected": true,
+      "selected_headline_id": "n04-nader"
+    },
+    {
+      "id": "04-42",
+      "topic": "Appeal of Iraqi cleric al-Sadr",
+      "category": "global",
+      "publication_date": "2004-05-31",
+      "source_ids": ["t0431"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-43",
+      "topic": "US investigates former ally Chalabi",
+      "category": "global",
+      "publication_date": "2004-05-31",
+      "source_ids": ["t0431"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-44",
+      "topic": "Upcoming rare transit of Venus",
+      "category": "science",
+      "publication_date": "2004-05-31",
+      "source_ids": ["t0431"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-45",
+      "topic": "Further unrest in Gaza",
+      "category": "global",
+      "publication_date": "2004-05-31",
+      "source_ids": ["t0431"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-46",
+      "topic": "Grasso pay dispute and executive compensation",
+      "category": "business",
+      "publication_date": "2004-05-31",
+      "source_ids": ["t0431"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-47",
+      "topic": "Morrissey's new album",
+      "category": "music",
+      "publication_date": "2004-05-31",
+      "source_ids": ["t0431"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-48",
+      "topic": "Moore's film receives Cannes award",
+      "category": "film",
+      "publication_date": "2004-05-31",
+      "source_ids": ["t0431"],
+      "selected": true,
+      "selected_headline_id": "n04-cannes"
+    },
+    {
+      "id": "04-49",
+      "topic": "Network programming and male audiences",
+      "category": "television",
+      "publication_date": "2004-05-31",
+      "source_ids": ["t0431"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "04-50",
+      "topic": "Wearable digital photo displays",
+      "category": "technology",
+      "publication_date": "2004-05-31",
+      "source_ids": ["t0431"],
+      "selected": false,
+      "selected_headline_id": null
+    },
+    {
+      "id": "n04-jobs",
+      "topic": "April adds 288,000 jobs",
+      "category": "Economy",
+      "publication_date": "2004-05-07",
+      "source_ids": ["n04-jobs"],
+      "selected": true,
+      "selected_headline_id": "n04-jobs"
+    },
+    {
+      "id": "n04-software",
+      "topic": "Microsoft reports stronger software demand",
+      "category": "Business",
+      "publication_date": "2004-04-22",
+      "source_ids": ["n04-software"],
+      "selected": true,
+      "selected_headline_id": "n04-software"
+    },
+    {
+      "id": "alt-apple04",
+      "topic": "Apple earnings release",
+      "category": "Business",
+      "publication_date": "2004-04-14",
+      "source_ids": ["apple04"],
+      "selected": false,
+      "selection_note": "Alternative contemporary corporate topic; limited eight-story feed."
+    },
+    {
+      "id": "alt-ebay04",
+      "topic": "eBay earnings release PDF",
+      "category": "Business",
+      "publication_date": "2004-04-21",
+      "source_ids": ["ebay04"],
+      "selected": false,
+      "selection_note": "Alternative contemporary corporate topic; limited eight-story feed."
+    },
+    {
+      "id": "alt-amzn04",
+      "topic": "Amazon earnings release filed with SEC",
+      "category": "Business",
+      "publication_date": "2004-04-22",
+      "source_ids": ["amzn04"],
+      "selected": false,
+      "selection_note": "Alternative contemporary corporate topic; limited eight-story feed."
+    },
+    {
+      "id": "alt-csco04",
+      "topic": "Cisco earnings release",
+      "category": "Business",
+      "publication_date": "2004-05-11",
+      "source_ids": ["csco04"],
+      "selected": false,
+      "selection_note": "Alternative contemporary corporate topic; limited eight-story feed."
+    }
+  ],
+  "stock_candidates": [
+    {
+      "company": "Apple Computer",
+      "ticker": "AAPL",
+      "source_ids": ["apple04"],
+      "rationale": "iPod shipments grew sharply and quarterly revenue rose 29%.",
+      "selected": true,
+      "selection_note": "Select: recognizable consumer-device enthusiasm."
+    },
+    {
+      "company": "Microsoft",
+      "ticker": "MSFT",
+      "source_ids": ["msft04"],
+      "rationale": "Enterprise software demand and legal charges both drew attention.",
+      "selected": true,
+      "selection_note": "Select: major software franchise under scrutiny."
+    },
+    {
+      "company": "eBay",
+      "ticker": "EBAY",
+      "source_ids": ["ebay04"],
+      "rationale": "Record quarterly sales rose 59%; company raised full-year guidance.",
+      "selected": true,
+      "selection_note": "Select: expanding online marketplace distinct from devices/software."
+    },
+    {
+      "company": "Amazon.com",
+      "ticker": "AMZN",
+      "source_ids": ["amzn04"],
+      "rationale": "Record sales, a jewelry-store launch, and higher guidance.",
+      "selected": false,
+      "selection_note": "Exclude editorially: eBay covers online commerce."
+    },
+    {
+      "company": "Cisco Systems",
+      "ticker": "CSCO",
+      "source_ids": ["csco04"],
+      "rationale": "Quarterly sales rose 21.7%, with wireless/security/IP-telephony attention.",
+      "selected": false,
+      "selection_note": "Exclude editorially: avoid three enterprise technology stories."
+    },
+    {
+      "company": "Intel",
+      "ticker": "INTC",
+      "source_ids": ["earn04"],
+      "rationale": "Earnings report salient as a technology-spending gauge.",
+      "selected": false,
+      "selection_note": "Exclude editorially: existing technology coverage."
+    },
+    {
+      "company": "AMR / American Airlines",
+      "ticker": "AMR",
+      "source_ids": ["amr04"],
+      "rationale": "Corporate cost-cutting and employee relations draw coverage.",
+      "selected": false,
+      "selection_note": "Exclude editorially: only three stock slots."
+    },
+    {
+      "company": "Bank of America",
+      "ticker": "BAC",
+      "source_ids": ["earn04"],
+      "rationale": "Bank earnings among watched financial reports.",
+      "selected": false,
+      "selection_note": "Exclude editorially: limited three-stock slots."
+    },
+    {
+      "company": "Citigroup",
+      "ticker": "C",
+      "source_ids": ["earn04"],
+      "rationale": "Financial-sector report in the earnings attention list.",
+      "selected": false,
+      "selection_note": "Exclude editorially: limited three-stock slots."
+    },
+    {
+      "company": "Delta Air Lines",
+      "ticker": "DAL",
+      "source_ids": ["earn04"],
+      "rationale": "Weak recent shares and airline earnings attract attention.",
+      "selected": false,
+      "selection_note": "Exclude editorially: airline theme remains in headline discovery pool."
+    },
+    {
+      "company": "Hewlett-Packard",
+      "ticker": "HPQ",
+      "source_ids": ["earn04"],
+      "rationale": "Hardware business linked to corporate IT spending.",
+      "selected": false,
+      "selection_note": "Exclude editorially: Apple covers hardware/device theme."
+    },
+    {
+      "company": "Dell",
+      "ticker": "DELL",
+      "source_ids": ["earn04"],
+      "rationale": "Hardware business linked to corporate IT spending.",
+      "selected": false,
+      "selection_note": "Exclude editorially: Apple covers hardware/device theme."
+    },
+    {
+      "company": "IBM",
+      "ticker": "IBM",
+      "source_ids": ["earn04"],
+      "rationale": "Large technology company in earnings-spending discussion.",
+      "selected": false,
+      "selection_note": "Exclude editorially: software theme already covered."
+    },
+    {
+      "company": "Applied Materials",
+      "ticker": "AMAT",
+      "source_ids": ["earn04"],
+      "rationale": "Chip-equipment demand linked to semiconductor spending.",
+      "selected": false,
+      "selection_note": "Exclude editorially: avoid narrow chip-cycle duplication."
+    }
+  ],
+  "rejected_for_data_quality": [],
+  "rejection_note": "No selected candidate rejected after examining future investment performance. Unselected candidates reflect editorial alternatives or explicit unresolved data feasibility described in the research note."
+}

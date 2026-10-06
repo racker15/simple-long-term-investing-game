@@ -155,6 +155,39 @@ describe('scenario validation', () => {
     };
     expect(validateScenario(scenario).valid).toBe(true);
   });
+  it('allows an honestly undated outcome archive without treating retrieval as publication', () => {
+    const scenario = copy();
+    const source = scenario.provenance.sources.find(
+      (record) => record.id === 'fictional-outcomes',
+    )!;
+    source.publication_date = null;
+    source.notes =
+      'Current retrospective archive; original publication date is unknown.';
+    expect(validateScenario(scenario).errors).toEqual([]);
+    expect(
+      loadScenario(scenario).provenance.sources.find(
+        (record) => record.id === source.id,
+      )!.publication_date,
+    ).toBeNull();
+  });
+  it('rejects undated starting evidence even when its observation and retrieval precede the cutoff', () => {
+    const scenario = copy();
+    const source = scenario.provenance.sources.find(
+      (record) => record.id === 'fictional-start',
+    )!;
+    source.publication_date = null;
+    source.retrieved_at = '2000-01-30';
+    const report = validateScenario(scenario);
+    expect(report.valid).toBe(false);
+    expect(
+      report.errors.some(
+        (issue) =>
+          issue.path.startsWith('/known/') &&
+          issue.message.includes('established publication date'),
+      ),
+    ).toBe(true);
+    expect(() => loadScenario(scenario)).toThrow();
+  });
   it('checks cutoff recursively across all pre-investment fields', () => {
     const scenario = copy();
     scenario.known.hot_stocks[0].source_ids = ['fictional-outcomes'];

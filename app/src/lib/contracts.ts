@@ -35,7 +35,7 @@ export const provenanceRecordSchema = object({
   source_name: text(),
   source_reference: text(),
   observation_date: Type.Optional(date()),
-  publication_date: date(),
+  publication_date: Type.Union([date(), Type.Null()]),
   retrieved_at: date(),
   approximation: Type.Boolean(),
   notes: Type.String(),

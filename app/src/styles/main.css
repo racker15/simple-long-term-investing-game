@@ -295,9 +295,29 @@ footer {
 .table-scroll tbody th {
   white-space: nowrap;
 }
+.recent-performance tbody th {
+  white-space: normal;
+}
+.recent-performance td {
+  white-space: nowrap;
+}
 
 @media (max-width: 700px) {
   .chart text {
     font-size: 28px;
   }
+}
+
+.historical-previews {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin: 1rem 0 2rem;
+}
+.historical-previews a {
+  padding: 0.5rem 0;
+}
+.historical-previews a[aria-current='page'] {
+  font-weight: 700;
+  text-decoration-thickness: 2px;
 }

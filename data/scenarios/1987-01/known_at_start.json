@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "scenario_id": "1987-01",
+    "date": "1987-01-31",
+    "display_date": "January 31, 1987",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "random",
+      "draw_universe": "calendar-month-ends-1980-2020-v1",
+      "random_seed": "simple-long-term-investing-game/random-cohort/v1/2026-10-05",
+      "draw_index": 0,
+      "method": "Equal-weight temporal strata; FNV-1a UTF-16 seeded Mulberry32 uint32; unbiased remaining-pool draws; calendar spacing at least twelve months. See committed protocol and draw log.",
+      "exclusions": [
+        "At least twelve months from selected and important dates",
+        "Trailing twelve-month and following sixty-month broad coverage",
+        "Documented starting-source or selected-stock reconstructability failure only"
+      ],
+      "replacement_for": null
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Dow closes above 2,000 amid investor enthusiasm",
+      "category": "business",
+      "summary": "Wall Street celebrates the index milestone while analysts debate the strength of the economy.",
+      "source_ids": ["time-963282"],
+      "selection_note": "Market attention; IBM and GE explicitly named as prominent blue chips."
+    },
+    {
+      "headline": "Dollar slide unsettles currency markets",
+      "category": "economy",
+      "summary": "The report describes sharp dollar selling against the yen and mark and policy disagreement.",
+      "source_ids": ["time-963296"],
+      "selection_note": "Currency and trade context."
+    },
+    {
+      "headline": "Deng moves against Chinese student protest pressure",
+      "category": "world",
+      "summary": "Hu Yaobang resigns and Zhao Ziyang becomes acting party chief amid concern about reform.",
+      "source_ids": ["time-963311"],
+      "selection_note": "International politics."
+    },
+    {
+      "headline": "Severe cold disrupts Europe",
+      "category": "weather",
+      "summary": "Snow and cold interrupt transport and daily life across Europe.",
+      "source_ids": ["time-963319"],
+      "selection_note": "Weather and society, independent of stocks."
+    },
+    {
+      "headline": "DNA techniques enter a British murder investigation",
+      "category": "science",
+      "summary": "Genetic testing has exonerated a suspect and investigators plan wider local screening.",
+      "source_ids": ["time-963316"],
+      "selection_note": "Science; includes only developments reported then."
+    },
+    {
+      "headline": "The Super Bowl matchup draws football attention",
+      "category": "sports",
+      "summary": "A January magazine feature previews the Giants–Broncos matchup and discusses quarterbacks and defense.",
+      "source_ids": ["time-963318"],
+      "selection_note": "Sports; the issue contains a preview, not a game-result report."
+    },
+    {
+      "headline": "Platoon actors describe demanding war training",
+      "category": "culture",
+      "summary": "The film feature discusses cast preparation under former Marine Dale Dye.",
+      "source_ids": ["time-963313"],
+      "selection_note": "Culture, independent of stocks."
+    },
+    {
+      "headline": "Midair collision renews air traffic safety concern",
+      "category": "US news",
+      "summary": "A Utah collision prompts scrutiny of flying conditions and air traffic responsibilities.",
+      "source_ids": ["time-963298"],
+      "selection_note": "Domestic transport safety."
+    }
+  ],
+  "macro": [
+    {
+      "label": "CPI-U change, December 1986 twelve-month",
+      "value": 1.1,
+      "unit": "%",
+      "source_ids": ["apcpi1987"]
+    },
+    {
+      "label": "Civilian unemployment, December 1986",
+      "value": 6.7,
+      "unit": "%",
+      "source_ids": ["jobs1987"]
+    },
+    {
+      "label": "Federal Reserve discount rate, Jan 23",
+      "value": 5.5,
+      "unit": "%",
+      "source_ids": ["h151987"]
+    },
+    {
+      "label": "10-year Treasury yield, Jan 23",
+      "value": 7.06,
+      "unit": "%",
+      "source_ids": ["h151987"]
+    },
+    {
+      "label": "Bank prime rate, Jan 23",
+      "value": 7.5,
+      "unit": "%",
+      "source_ids": ["h151987"]
+    },
+    {
+      "label": "1987 real GNP outlook central range upper end: July 1986 forecast",
+      "value": 3.5,
+      "unit": "%",
+      "source_ids": ["fed1986"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The Federal Reserve’s institutional outlook for 1987 real GNP growth gives a 3–3.5% FOMC members and other Fedpresidents central tendency range, measured fourth quarter to fourth quarter. This is an older public forecast, not a median or realized growth.",
+      "source_ids": ["fed1986"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:1987-01:ibm",
+      "company_name": "International Business Machines",
+      "ticker": "IBM",
+      "description": "IBM is a prominent industrial company as compatible computers draw consumer attention.",
+      "selection_rationale": "Chosen using only contemporary attention. Starting choices recorded before retrieving selected future stock observations.",
+      "source_ids": ["time-963282", "compute1986", "asof-stock-prices"],
+      "three_month": 0.05063733655360125,
+      "one_year": -0.1228606673840058
+    },
+    {
+      "id": "hot:1987-01:general-electric",
+      "company_name": "General Electric",
+      "ticker": "GE",
+      "description": "A prominent industrial conglomerate featured in coverage of major US companies.",
+      "selection_rationale": "Chosen using only contemporary attention. Starting choices recorded before retrieving selected future stock observations.",
+      "source_ids": ["time-963282", "asof-stock-prices"],
+      "three_month": 0.3247509984967607,
+      "one_year": 0.457974924192889
+    },
+    {
+      "id": "hot:1987-01:apple",
+      "company_name": "Apple Computer",
+      "ticker": "AAPL",
+      "description": "Apple IIGS and Macintosh attract product coverage while clone competition raises uncertainty.",
+      "selection_rationale": "Chosen using only contemporary attention. Starting choices recorded before retrieving selected future stock observations.",
+      "source_ids": ["compute1986", "compute1987", "asof-stock-prices"],
+      "three_month": 0.6028884148545823,
+      "one_year": 1.3999927122599143
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term Treasury cash equivalent, represented by the French monthly risk-free return.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "An intermediate US Treasury proxy, modeled from five-year yields; excludes corporate credit exposure.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "A broad US equity market proxy, including dividends; represents US stocks.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Developed non-US equity proxy: EAFE plus Canada, including dividends in US dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:1987-01:ibm",
+      "name": "International Business Machines",
+      "description": "IBM is a prominent industrial company as compatible computers draw consumer attention.",
+      "source_ids": ["time-963282", "compute1986", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1987-01:general-electric",
+      "name": "General Electric",
+      "description": "A prominent industrial conglomerate featured in coverage of major US companies.",
+      "source_ids": ["time-963282", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1987-01:apple",
+      "name": "Apple Computer",
+      "description": "Apple IIGS and Macintosh attract product coverage while clone competition raises uncertainty.",
+      "source_ids": ["compute1986", "compute1987", "asof-stock-prices"]
+    }
+  ],
+  "recent_returns": [
+    {
+      "asset_id": "cash",
+      "three_month": 0.01305615026199991,
+      "one_year": 0.06009248422676827,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "bonds",
+      "three_month": 0.02502806540595537,
+      "one_year": 0.16776467745272328,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "us_total",
+      "three_month": 0.11455499615600018,
+      "one_year": 0.29829502209408165,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "international_ex_us",
+      "three_month": 0.243919041856,
+      "one_year": 0.8369115235252751,
+      "source_ids": ["asof-broad-proxies"]
+    }
+  ]
+}

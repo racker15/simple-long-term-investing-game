@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "universe_id": "calendar-month-ends-1980-2020-v1",
+  "seed": "simple-long-term-investing-game/random-cohort/v1/2026-10-05",
+  "algorithm": "fnv1a-utf16-mulberry32-unbiased-v1",
+  "start_month": "1980-01",
+  "end_month": "2020-12",
+  "trailing_months": 12,
+  "future_months": 60,
+  "minimum_spacing_months": 12,
+  "strata": [
+    {
+      "id": "early",
+      "start_month": "1980-01",
+      "end_month": "1992-12",
+      "weight": 1
+    },
+    {
+      "id": "middle",
+      "start_month": "1993-01",
+      "end_month": "2006-12",
+      "weight": 1
+    },
+    {
+      "id": "late",
+      "start_month": "2007-01",
+      "end_month": "2020-12",
+      "weight": 1
+    }
+  ],
+  "cohorts": {
+    "pilot": 3,
+    "production": 12
+  },
+  "important_dates": [
+    {
+      "date": "1982-08-31",
+      "reason": "High inflation and interest rates during the 1981\u201382 recession; a different monetary environment from the existing technology-boom pilot."
+    },
+    {
+      "date": "1999-09-30",
+      "reason": "Existing locked technology-boom pilot; preserved unchanged."
+    },
+    {
+      "date": "2008-09-30",
+      "reason": "September financial-system disruption, bank failures, and emergency policy responses; chosen for its contemporary environment, without screening investment winners."
+    }
+  ],
+  "audit_version": 2,
+  "replacement_order": "finish-original-slot-before-next",
+  "exhaustion": "persist-failed-audit"
+}

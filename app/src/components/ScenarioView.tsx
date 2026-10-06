@@ -42,7 +42,7 @@ export function ScenarioView({ context }: { context: DecisionContext }) {
           ))}
         </section>
       </div>
-      <section className="panel">
+      <section className="panel recent-performance">
         <h2>Recent performance</h2>
         <div className="table-scroll">
           <table>

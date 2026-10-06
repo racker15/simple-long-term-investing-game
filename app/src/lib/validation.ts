@@ -124,6 +124,7 @@ export function validateScenario(input: {
     fail('/provenance/sources', 'Source IDs must be unique');
   provenance.sources.forEach((source, i) => {
     if (
+      source.publication_date &&
       source.observation_date &&
       source.observation_date > source.publication_date
     )
@@ -131,7 +132,10 @@ export function validateScenario(input: {
         `/provenance/sources/${i}`,
         'Observation date must not follow publication date',
       );
-    if (source.retrieved_at < source.publication_date)
+    if (
+      source.publication_date &&
+      source.retrieved_at < source.publication_date
+    )
       fail(
         `/provenance/sources/${i}`,
         'Retrieval date must not precede publication date',
@@ -144,7 +148,12 @@ export function validateScenario(input: {
   ) => {
     const source = sources.get(sourceId);
     if (!source) fail(path, `Missing provenance record ${sourceId}`);
-    else if (knownAtStart && source.publication_date > scenarioDate)
+    else if (knownAtStart && source.publication_date === null)
+      fail(
+        path,
+        `Starting source ${sourceId} needs an established publication date`,
+      );
+    else if (knownAtStart && source.publication_date! > scenarioDate)
       fail(
         path,
         `Source ${sourceId} was published ${source.publication_date}, after scenario cutoff ${scenarioDate}`,

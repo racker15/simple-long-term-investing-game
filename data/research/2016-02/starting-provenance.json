@@ -1,0 +1,285 @@
+{
+  "scenario_id": "2016-02",
+  "sources": [
+    {
+      "id": "bls-cpi",
+      "source_name": "Bureau of Labor Statistics",
+      "source_reference": "https://www.bls.gov/news.release/archives/cpi_02192016.htm",
+      "observation_date": "2016-01-31",
+      "publication_date": "2016-02-19",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "bls-jobs",
+      "source_name": "Bureau of Labor Statistics",
+      "source_reference": "https://www.bls.gov/news.release/archives/empsit_02052016.htm",
+      "observation_date": "2016-01-31",
+      "publication_date": "2016-02-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "fomc",
+      "source_name": "Federal Reserve",
+      "source_reference": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20160127a.htm",
+      "observation_date": "2016-01-27",
+      "publication_date": "2016-01-27",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "h15",
+      "source_name": "Federal Reserve H.15",
+      "source_reference": "https://www.federalreserve.gov/releases/h15/20160229/h15.pdf",
+      "observation_date": "2016-02-26",
+      "publication_date": "2016-02-29",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Last daily reading in the February29 release, not a reconstruction of that Monday close."
+    },
+    {
+      "id": "bea-gdp",
+      "source_name": "Bureau of Economic Analysis",
+      "source_reference": "https://www.bea.gov/news/2016/gross-domestic-product-4th-quarter-and-annual-2015-second-estimate",
+      "observation_date": "2015-12-31",
+      "publication_date": "2016-02-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Second estimate of fourth-quarter2015 growth available by cutoff; not later revised GDP."
+    },
+    {
+      "id": "spf",
+      "source_name": "Philadelphia Fed Survey of Professional Forecasters",
+      "source_reference": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/2016/spfq116.pdf?la=en",
+      "observation_date": "2016-02-09",
+      "publication_date": "2016-02-12",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original PDF prints February12 release date; forty forecasters. Forecast target calendar2016, annual-average-over-annual-average growth, not a recession probability."
+    },
+    {
+      "id": "apple-letter",
+      "source_name": "Apple public customer letter",
+      "source_reference": "https://www.apple.com/customer-letter/",
+      "observation_date": "2016-02-16",
+      "publication_date": "2016-02-16",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Company position on encryption and government assistance; attributed as Apple’s position rather than a neutral legal finding."
+    },
+    {
+      "id": "who-zika",
+      "source_name": "World Health Organization",
+      "source_reference": "https://www.who.int/en/news-room/detail/01-02-2016-who-director-general-summarizes-the-outcome-of-the-emergency-committee-regarding-clusters-of-microcephaly-and-guillain-barr%C3%A9-syndrome",
+      "observation_date": "2016-02-01",
+      "publication_date": "2016-02-01",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Emergency concerned clusters of microcephaly and neurological disorders. Causal relation to Zika was then suspected, not proven."
+    },
+    {
+      "id": "scalia",
+      "source_name": "White House contemporary presidential remarks",
+      "source_reference": "https://obamawhitehouse.archives.gov/photos-and-video/video/2016/02/13/president-passing-supreme-court-justice-antonin-scalia",
+      "observation_date": "2016-02-13",
+      "publication_date": "2016-02-13",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "ligo",
+      "source_name": "LIGO / Caltech detection announcement",
+      "source_reference": "https://www.ligo.caltech.edu/LA/news/ligo20160211",
+      "observation_date": "2015-09-14",
+      "publication_date": "2016-02-11",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Detection observation September2015; public announcement February11,2016. These dates are distinct."
+    },
+    {
+      "id": "superbowl",
+      "source_name": "National Football League",
+      "source_reference": "https://www.nfl.com/news/broncos-outlast-panthers-claim-third-super-bowl-title-0ap3000000634371",
+      "observation_date": "2016-02-07",
+      "publication_date": "2016-02-07",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "oscars",
+      "source_name": "TIME contemporary Oscars report",
+      "source_reference": "https://time.com/4240857/oscars-2016-spotlight-best-picture/",
+      "observation_date": "2016-02-28",
+      "publication_date": "2016-02-29",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "TIME report timestamp February29 05:52:14UTC. Oscars.org2016 ceremony archive corroborates result but has no established original publication date and is not used for cutoff availability."
+    },
+    {
+      "id": "stock-aapl",
+      "source_name": "Apple contemporary results",
+      "source_reference": "https://www.apple.com/newsroom/2016/01/26Apple-Reports-Record-First-Quarter-Results/",
+      "observation_date": "2015-12-31",
+      "publication_date": "2016-01-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "stock-msft",
+      "source_name": "Microsoft contemporary results",
+      "source_reference": "https://www.microsoft.com/en-us/Investor/earnings/FY-2016-Q2/press-release-webcast",
+      "observation_date": "2015-12-31",
+      "publication_date": "2016-01-28",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "stock-xom",
+      "source_name": "ExxonMobil contemporary results",
+      "source_reference": "https://investor.exxonmobil.com/sec-filings/all-sec-filings/content/0000034088-16-000053/f8k4q991.htm",
+      "observation_date": "2015-12-31",
+      "publication_date": "2016-02-02",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "candidate-amzn",
+      "source_name": "Amazon contemporary release",
+      "source_reference": "https://ir.aboutamazon.com/news-release/news-release-details/2016/Amazoncom-Announces-Fourth-Quarter-Sales-up-22-to-357-Billion/default.aspx",
+      "observation_date": "2016-01-28",
+      "publication_date": "2016-01-28",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "candidate-fb",
+      "source_name": "Facebook contemporary release",
+      "source_reference": "https://investor.atmeta.com/investor-news/press-release-details/2016/Facebook-Reports-Fourth-Quarter-and-Full-Year-2015-Results/default.aspx",
+      "observation_date": "2016-01-27",
+      "publication_date": "2016-01-27",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "candidate-nvda",
+      "source_name": "NVIDIA contemporary release",
+      "source_reference": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-the-fourth-quarter-and-fiscal-2016-6622445",
+      "observation_date": "2016-02-17",
+      "publication_date": "2016-02-17",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "candidate-brk-b",
+      "source_name": "Berkshire Hathaway contemporary release",
+      "source_reference": "https://mail.berkshirehathaway.com/news/feb2716.pdf",
+      "observation_date": "2016-02-27",
+      "publication_date": "2016-02-27",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "candidate-wmt",
+      "source_name": "Walmart contemporary release",
+      "source_reference": "https://corporate.walmart.com/news/2016/02/18/walmart-reports-q4-adjusted-eps-of-1-49-fiscal-year-2016-adjusted-eps-of-4-59",
+      "observation_date": "2016-02-18",
+      "publication_date": "2016-02-18",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "candidate-dis",
+      "source_name": "Disney contemporary release",
+      "source_reference": "https://investors.thewaltdisneycompany.com/files/doc_events/2016/02/q1-fy16-earnings-transcript.pdf",
+      "observation_date": "2016-02-09",
+      "publication_date": "2016-02-09",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "candidate-ibm",
+      "source_name": "IBM contemporary release",
+      "source_reference": "https://www.ibm.com/investor/att/pdf/IBM-4Q15-Earnings-Press-Release.pdf",
+      "observation_date": "2016-01-19",
+      "publication_date": "2016-01-19",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "candidate-ge",
+      "source_name": "General Electric contemporary release",
+      "source_reference": "https://www.ge.com/news/press-releases/ge-agrees-sell-appliances-business",
+      "observation_date": "2016-01-15",
+      "publication_date": "2016-01-15",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Dated contemporary source in a current public archive. Original public date is distinct from retrieval; archive migration date is not established."
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-asset observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "observation_date": "2016-02-29",
+      "publication_date": "2016-02-29",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Modeled availability of underlying market observations. This is NOT the publication date of the modern French/FRED archive. Retrospective reconstruction using pinned proxies; exact contemporary vintages and aggregate publication lags are not reproduced. Separate outcome archive records retain actual modern availability dates."
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/2016-02/starting.json",
+      "observation_date": "2016-02-29",
+      "publication_date": "2016-02-29",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Modeled availability of underlying observed stock prices through cutoff. This is NOT the publication date of the modern Yahoo snapshot. Current retrospective adjustments, not an exact contemporary database vintage. Separate retrieval manifest records payload hash and actual2026retrieval."
+    },
+    {
+      "id": "time-2016-01-25-us",
+      "source_name": "TIME issue index",
+      "source_reference": "https://time.com/magazine/us/4180259/january-25th-2016-vol-187-no-2-u-s/",
+      "observation_date": "2016-01-25",
+      "publication_date": "2016-01-25",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Contemporary issue date used conservatively as availability; exact original online article dates and archive migration date are unverified. Pool uses short paraphrased topic metadata, not full article bodies. Index coverage is editorial and nonexhaustive."
+    },
+    {
+      "id": "time-2016-02-01-us",
+      "source_name": "TIME issue index",
+      "source_reference": "https://time.com/magazine/us/4188304/february-1st-2016-vol-187-no-3-u-s/",
+      "observation_date": "2016-02-01",
+      "publication_date": "2016-02-01",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Contemporary issue date used conservatively as availability; exact original online article dates and archive migration date are unverified. Pool uses short paraphrased topic metadata, not full article bodies. Index coverage is editorial and nonexhaustive."
+    },
+    {
+      "id": "time-2016-02-08-us",
+      "source_name": "TIME issue index",
+      "source_reference": "https://time.com/magazine/us/4197759/february-8th-2016-vol-187-no-4-u-s/",
+      "observation_date": "2016-02-08",
+      "publication_date": "2016-02-08",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Contemporary issue date used conservatively as availability; exact original online article dates and archive migration date are unverified. Pool uses short paraphrased topic metadata, not full article bodies. Index coverage is editorial and nonexhaustive."
+    }
+  ]
+}

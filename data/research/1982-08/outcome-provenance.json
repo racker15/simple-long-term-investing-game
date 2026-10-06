@@ -1,0 +1,79 @@
+{
+  "scenario_id": "1982-08",
+  "sources": [
+    {
+      "id": "nber-trough82",
+      "source_name": "NBER July 8, 1983 business-cycle announcement",
+      "source_reference": "https://www.nber.org/news/business-cycle-dating-committee-announcement-july-8-1983",
+      "publication_date": "1983-07-08",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Official announcement identifies November 1982 trough retrospectively; not an announcement in November. Current archive hosting date unknown.",
+      "observation_date": "1982-11-30"
+    },
+    {
+      "id": "ko-new-coke",
+      "source_name": "The Coca-Cola Company historical account of New Coke",
+      "source_reference": "https://www.coca-colacompany.com/about-us/history/new-coke-the-most-memorable-marketing-blunder-ever",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Issuer retrospective dates the new-formula announcement April 23, 1985 and original-formula return July 11, 1985. Promotional framing is not adopted as a return explanation. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "plaza85",
+      "source_name": "G5 finance ministers and central-bank governors joint communiqué",
+      "source_reference": "https://www.g7.utoronto.ca/finance/fm850922.htm",
+      "publication_date": "1985-09-22",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporary communiqué reproduced by University of Toronto with permission from a 1988 source edition. Mirror hosting date unknown. Event text describes stated intentions, not their measured effect.",
+      "observation_date": "1985-09-22"
+    },
+    {
+      "id": "apple-split-history",
+      "source_name": "Apple investor FAQ: historical stock splits",
+      "source_reference": "https://investor.apple.com/investor-relations/faq/default.aspx",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Issuer table dates two-for-one split June 16, 1987; later splits uniformly rescale the earlier prices. No extra split return is added. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "apple-dividend-history",
+      "source_name": "Apple historical dividend and split table",
+      "source_reference": "https://investor.apple.com/dividend-history/default.aspx",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original amounts are not split adjusted. April 22 1987 declaration: record May 15, payable June 15, $0.06; July 29 declaration: record Aug 14, payable Sept 15, $0.06. Vendor ex-dates May 11 and Aug 10 fall within Aug 1987 horizon, though second payment follows endpoint. Current backward-adjusted vendor amounts differ by later splits; not separately added. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "ibm-split-history",
+      "source_name": "IBM investor historical stock-split table",
+      "source_reference": "https://www.ibm.com/investor/att/pdf/ibm_ir_stock_splits.pdf",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Issuer table puts adjacent splits in 1979 and 1997; none during either selected 1982–87 or 1987–92 holding window. Current reconstruction also reflects later Kyndryl separation; no successor mapping applied within these windows. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "ko-split-history",
+      "source_name": "Coca-Cola investor historical stock-split table",
+      "source_reference": "https://investors.coca-colacompany.com/stock-info/splits",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Table labels June 16 1986 as record date for three-for-one split. Vendor first adjusted trading date July 1 1986 differs from record date, not ratio. Split is included through adjusted closes, not added again. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "ko-share-history",
+      "source_name": "Coca-Cola investor share history",
+      "source_reference": "https://investors.coca-colacompany.com/stock-info/share-history",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Table documents the Columbia Pictures acquisition in 1982–83 as exchange of shares for Columbia shareholders, not a distribution to existing KO holders. Later Columbia share distribution row is 1988–89, outside Aug 1987 horizon; the precise distribution date is not established here. KO cash dividends are vendor-adjusted; each payment is not independently reconciled. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    }
+  ]
+}

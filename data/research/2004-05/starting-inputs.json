@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "scenario_id": "2004-05",
+    "date": "2004-05-31",
+    "display_date": "May 31, 2004",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "random",
+      "draw_universe": "calendar-month-ends-1980-2020-v1",
+      "random_seed": "simple-long-term-investing-game/random-cohort/v1/2026-10-05",
+      "draw_index": 1,
+      "method": "Equal-weight temporal strata; FNV-1a UTF-16 seeded Mulberry32 uint32; unbiased remaining-pool draws; calendar spacing at least twelve months. See committed protocol and draw log.",
+      "exclusions": [
+        "At least twelve months from selected and important dates",
+        "Trailing twelve-month and following sixty-month broad coverage",
+        "Documented starting-source or selected-stock reconstructability failure only"
+      ],
+      "replacement_for": null
+    }
+  },
+  "headlines": [
+    {
+      "headline": "April adds 288,000 jobs",
+      "category": "Economy",
+      "summary": "Employers report broad job growth while unemployment stays at 5.6%.",
+      "source_ids": ["n04-jobs"],
+      "selection_note": "Economic backdrop with original release vintage."
+    },
+    {
+      "headline": "High gasoline prices put hybrids in focus",
+      "category": "Business",
+      "summary": "Automakers are bringing more fuel-efficient models to buyers.",
+      "source_ids": ["n04-hybrid"],
+      "selection_note": "Business and everyday household concern."
+    },
+    {
+      "headline": "Prisoner-abuse scandal pressures Washington",
+      "category": "Global news",
+      "summary": "Reports of abuse at Abu Ghraib prompt scrutiny of military leadership.",
+      "source_ids": ["n04-iraq"],
+      "selection_note": "Major contemporary cover story."
+    },
+    {
+      "headline": "Democrats worry about Nader's campaign",
+      "category": "US news",
+      "summary": "Nader seeks ballot access amid concern about a close presidential contest.",
+      "source_ids": ["n04-nader"],
+      "selection_note": "Domestic election atmosphere without later result."
+    },
+    {
+      "headline": "Billions of cicadas emerge across the East",
+      "category": "Science",
+      "summary": "Brood X's seventeen-year emergence is creating noise and local festivities.",
+      "source_ids": ["n04-cicada"],
+      "selection_note": "Science and everyday life with no investment connection required."
+    },
+    {
+      "headline": "Michael Moore's new film wins at Cannes",
+      "category": "Entertainment",
+      "summary": "Fahrenheit 9/11 receives the festival's top prize and fuels political debate.",
+      "source_ids": ["n04-cannes"],
+      "selection_note": "Entertainment and contemporary public attention."
+    },
+    {
+      "headline": "Smarty Jones nears a Triple Crown",
+      "category": "Sports",
+      "summary": "The Kentucky Derby winner also wins the Preakness; the Belmont still lies ahead.",
+      "source_ids": ["n04-smarty"],
+      "selection_note": "Sports narrative whose resolution is still unknown."
+    },
+    {
+      "headline": "Microsoft reports stronger software demand",
+      "category": "Business",
+      "summary": "Quarterly revenue rises 17% while legal charges reduce reported profit.",
+      "source_ids": ["n04-software"],
+      "selection_note": "Prominent corporate story with both demand and legal concerns."
+    }
+  ],
+  "macro": [
+    {
+      "label": "CPI-U twelve-month inflation: April 2004 vs April 2003, unadjusted",
+      "value": 2.3,
+      "unit": "%",
+      "source_ids": ["cpi04"]
+    },
+    {
+      "label": "Unemployment: April 2004, seasonally adjusted",
+      "value": 5.6,
+      "unit": "%",
+      "source_ids": ["emp04"]
+    },
+    {
+      "label": "Federal funds target: Decision effective May 4",
+      "value": 1.0,
+      "unit": "%",
+      "source_ids": ["fed04"]
+    },
+    {
+      "label": "Ten-year Treasury yield: Week ending 2004-05-21",
+      "value": 4.74,
+      "unit": "%",
+      "source_ids": ["h1504"]
+    },
+    {
+      "label": "Consumer confidence: May 2004",
+      "value": 93.2,
+      "unit": "index (1985 = 100)",
+      "source_ids": ["conf04"]
+    },
+    {
+      "label": "Professional GDP forecast: 2004Q3 quarter-on-quarter annualized median",
+      "value": 4.1,
+      "unit": "%",
+      "source_ids": ["spf04"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "May's professional survey expects continued growth.",
+      "source_ids": ["spf04"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:2004-05:apple",
+      "company_name": "Apple Computer",
+      "ticker": "AAPL",
+      "description": "iPod shipments grew sharply and quarterly revenue rose 29%.",
+      "selection_rationale": "Select: recognizable consumer-device enthusiasm. Starting choices recorded before retrieving selected future stock observations.",
+      "source_ids": ["apple04", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2004-05:microsoft",
+      "company_name": "Microsoft",
+      "ticker": "MSFT",
+      "description": "Enterprise software demand and legal charges both drew attention.",
+      "selection_rationale": "Select: major software franchise under scrutiny. Starting choices recorded before retrieving selected future stock observations.",
+      "source_ids": ["msft04", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2004-05:ebay",
+      "company_name": "eBay",
+      "ticker": "EBAY",
+      "description": "Record quarterly sales rose 59%; company raised full-year guidance.",
+      "selection_rationale": "Select: expanding online marketplace distinct from devices/software. Starting choices recorded before retrieving selected future stock observations.",
+      "source_ids": ["ebay04", "asof-stock-prices"]
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term Treasury cash equivalent, represented by the French monthly risk-free return.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "An intermediate US Treasury proxy, modeled from five-year yields; excludes corporate credit exposure.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "A broad US equity market proxy, including dividends; represents US stocks.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Developed non-US equity proxy: EAFE plus Canada, including dividends in US dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:2004-05:apple",
+      "name": "Apple Computer",
+      "description": "iPod shipments grew sharply and quarterly revenue rose 29%.",
+      "source_ids": ["apple04", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2004-05:microsoft",
+      "name": "Microsoft",
+      "description": "Enterprise software demand and legal charges both drew attention.",
+      "source_ids": ["msft04", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2004-05:ebay",
+      "name": "eBay",
+      "description": "Record quarterly sales rose 59%; company raised full-year guidance.",
+      "source_ids": ["ebay04", "asof-stock-prices"]
+    }
+  ]
+}

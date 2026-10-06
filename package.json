@@ -16,10 +16,13 @@
     "schemas:check": "node --import tsx scripts/build/schemas.ts --check",
     "validate": "node --import tsx scripts/validate/scenarios.ts",
     "data:fetch": "python3 scripts/fetch/sources.py data/normalized/broad-assets/sources.json && python3 scripts/fetch/sources.py data/normalized/stocks/sources.json",
-    "data:normalize": "node --import tsx scripts/normalize/broad-assets.ts && node --import tsx scripts/normalize/stocks.ts --starting && node --import tsx scripts/normalize/stocks.ts",
-    "data:build": "node --import tsx scripts/build/historical.ts && node --import tsx scripts/build/outcomes.ts",
-    "data:check": "node --import tsx scripts/build/historical.ts --check && node --import tsx scripts/build/outcomes.ts --check",
-    "check": "npm run format:check && npm run schemas:check && npm run data:check && npm run validate && npm run test && npm run build"
+    "data:normalize": "node --import tsx scripts/normalize/broad-assets.ts && node --import tsx scripts/normalize/stocks.ts --starting && node --import tsx scripts/normalize/stocks.ts && node --import tsx scripts/normalize/collection.ts",
+    "data:build": "node --import tsx scripts/build/collection.ts",
+    "data:check": "npm run dates:check && node --import tsx scripts/build/collection.ts --check",
+    "check": "npm run format:check && npm run schemas:check && npm run data:check && npm run validate && npm run test && npm run build",
+    "dates:select": "node --import tsx scripts/select/dates.ts",
+    "dates:check": "node --import tsx scripts/select/dates.ts --check",
+    "dates:production": "node --import tsx scripts/select/production.ts"
   },
   "dependencies": {
     "@sinclair/typebox": "^0.34.41",

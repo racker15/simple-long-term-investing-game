@@ -38,6 +38,12 @@ export function PathChart({
   const span = Math.max(1, maximum - minimum);
   const x = (index: number) => 125 + (index / 60) * 655;
   const y = (value: number) => 245 - ((value - minimum) / span) * 215;
+  const markers = events
+    .map((event, i) => ({ event, i }))
+    .filter(
+      ({ event, i }) =>
+        events.findIndex((row) => row.month === event.month) === i,
+    );
   return (
     <figure className="chart">
       <figcaption>
@@ -82,15 +88,19 @@ export function PathChart({
           />
         ))}
         {visible >= 60 &&
-          events.map((event, i) => {
+          markers.map(({ event, i }) => {
+            const title = events
+              .filter((row) => row.month === event.month)
+              .map((row) => row.title)
+              .join('; ');
             const index = player.points.findIndex(
               (point) => point.month === event.month,
             );
             return (
               <a
-                key={event.month}
+                key={`${event.month}:${event.title}`}
                 href={`#event-${i}`}
-                aria-label={`${event.month}: ${event.title}`}
+                aria-label={`${event.month}: ${title}`}
               >
                 <circle
                   cx={x(index + 1)}
@@ -101,7 +111,7 @@ export function PathChart({
                   strokeWidth="2"
                 >
                   <title>
-                    {event.month}: {event.title}
+                    {event.month}: {title}
                   </title>
                 </circle>
               </a>

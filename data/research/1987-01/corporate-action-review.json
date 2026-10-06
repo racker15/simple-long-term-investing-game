@@ -1,0 +1,20 @@
+{
+  "scenario_id": "1987-01",
+  "stocks": {
+    "IBM": {
+      "source_ids": ["ibm-split-history"],
+      "assessment": "International Business Machines common stock retained; no in-window split (issuer 1979 next 1997).20 vendor cash dividends. Later 2021 Kyndryl separation is outside horizon and affects retrospective vendor units. No in-window terminal/successor exchange identified; dividend reconstruction relies on vendor adjusted close.",
+      "limitations": "Absence of a terminal event is an issuer-lineage/vendor-history assessment, not a comprehensive independent corporate-actions database. Continuous daily observations do not alone prove that every distribution adjustment is correct."
+    },
+    "GE": {
+      "source_ids": ["ge-shareholder", "yahoo-ge"],
+      "assessment": "Historical General Electric conglomerate common stock, not an investment in the later standalone aviation business. Pinned vendor events record 2:1 May 26 1987 and 20 cash dividends; original GE 1987 splitannouncement not independently retrieved. Current issuer FAQ documents 2021 reverse split and 2023/24 separations outside Jan 1992 horizon. Uniform retrospective unit scaling cancels in within-window ratios; reconstruction of all distributions is a vendor assumption. Operating-business acquisitions do not automatically exchange GE shareholders’ holdings. No in-window delisting, bankruptcy or terminal successor mapping applied.",
+      "limitations": "Absence of a terminal event is an issuer-lineage/vendor-history assessment, not a comprehensive independent corporate-actions database. Continuous daily observations do not alone prove that every distribution adjustment is correct."
+    },
+    "AAPL": {
+      "source_ids": ["apple-split-history", "apple-dividend-history"],
+      "assessment": "Apple Computer common stock; two-for-one Jun 16 1987,19 vendor cash dividends between Feb 1987 and Jan 1992. Issuer table retains original declarations/record/payable dates, different from vendor ex-dates and later split-adjusted amounts. No in-window terminal shareholder exchange identified; returns rely on vendor adjustment methodology, without separately adding dividends.",
+      "limitations": "Absence of a terminal event is an issuer-lineage/vendor-history assessment, not a comprehensive independent corporate-actions database. Continuous daily observations do not alone prove that every distribution adjustment is correct."
+    }
+  }
+}

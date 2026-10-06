@@ -1,17 +1,18 @@
-# Historical data and the September 1999 pilot
+# Historical data and the six-scenario library
 
-The committed inputs are prepared static data. React performs no external market-data requests. The existing contracts, portfolio engine, and production queue requirements are unchanged.
+Chronology references use the original local authoring IDs; the [publication audit](git-publication.md) maps them to identical-tree commits in the PR.
+
+The committed inputs are prepared static data. React performs no external market-data requests. The portfolio engine and production queue requirements are unchanged; provenance now represents unknown publication dates explicitly for outcome-only archives.
 
 ## Scope note: current pipeline vs. required quality bar
 
-This document describes the detailed implementation used for the September 1999 pilot. Some of that implementation is intentionally more reproducible and precise than future scenarios need to be.
+This document describes the detailed implementation used for the six-scenario library, including the September 1999 pilot. Some of that implementation is intentionally more reproducible and precise than future scenarios need to be.
 
 The project is an educational game for roughly ages 8–12. The minimum standard for future scenario work is **reasonable historical accuracy and player-facing coherence**, not forensic financial reconstruction. Existing checksum pinning, byte-for-byte rebuilds, frozen locks, or source-specific precision checks may be retained where already useful, but should **not** be generalized into mandatory infrastructure unless they prevent a concrete data error or hindsight leak.
 
 In particular, future work does not need parts-per-million agreement between vendor snapshots, transaction-level dividend reconstruction, repeated live-URL verification, or exhaustive source-body archival checks when a simpler transparent approximation produces the same educational result.
 
 News-source variety remains desirable, but historical publisher links are provenance only. Player-facing headlines and summaries are stored locally, and the live application must not depend on publisher pages remaining reachable.
-
 
 ## Source coverage and interpretation
 
@@ -24,7 +25,7 @@ The canonical broad dataset is `data/normalized/broad-assets/monthly-returns.jso
 | International ex-US | [French International Index Portfolios](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/int_index_port_formed.html), first dividend-inclusive **USD** value-weight market `Mkt` table, “All 4 Data Items Not Reqd” | EAFE plus Canada country-weighted non-US developed-equity proxy. No US equity or project-level splice. Not all global ex-US stocks: emerging-market and small-stock coverage is incomplete. Country availability changes in the original methodology. Source inputs are MSCI through 2006 and Bloomberg from 2007. The original archive member is `Ind_all.Dat`. |
 | Bonds               | [Federal Reserve H.15/FRED `GS5`](https://fred.stlouisfed.org/series/GS5)                                                                                                                                                               | A constructed rolling five-year Treasury return, not the Bloomberg US Aggregate. No corporate credit, spread, fund-fee, or transaction-cost exposure.                                                                                                                                                                                                            |
 
-The manifests in `data/normalized/{broad-assets,stocks}/sources.json` record canonical URLs, actual download URLs, exact revision-pinned public mirrors, retrieval dates, series IDs, raw SHA256s, and transformations. The French mirrors retain the original library payloads; the Treasury mirror is a FRED CSV. This environment initially blocked direct Dartmouth/FRED/stock-site downloads, so ordinary public GitHub snapshots were used. No authentication, paywall, CAPTCHA, or proxy-policy workaround was used.
+The legacy manifests in `data/normalized/{broad-assets,stocks}/sources.json` record canonical URLs, actual download URLs, exact revision-pinned public mirrors, retrieval dates, series IDs, raw SHA256s, and transformations. New per-scenario stock manifests use current Yahoo snapshots, as described below. The French mirrors retain the original library payloads; the Treasury mirror is a FRED CSV. This environment initially blocked direct Dartmouth/FRED/stock-site downloads, so ordinary public GitHub snapshots were used. No authentication, paywall, CAPTCHA, or proxy-policy workaround was used.
 
 Raw payloads are ignored under `data/raw/`; normalized numerical returns and needed adjusted monthly observations are committed. No full article bodies or vendor price databases are included. Preserve upstream attribution and distinguish project code licensing from upstream source terms.
 
@@ -41,29 +42,46 @@ At constant yields, the return is the monthly coupon; falling yields increase pr
 
 ### Stocks
 
-The pilot uses Yahoo Finance's legacy daily `Adj Close` through April 28, 2016, preserved in a [public snapshot](https://github.com/rpandya1990/Stock-Prediction-Web-Application/tree/df6002f3b04ef7fcd43aa84ce5cb1428bf98b5fd/Scripts). The same revision's `historical.py` documents downloading Yahoo's `ichart.finance.yahoo.com/table.csv` and adding the Symbol column. The pipeline sorts valid dates, takes the last trading observation in each calendar month, and computes adjacent adjusted-price ratios minus one. It rejects duplicate daily dates, invalid prices, missing months/endpoints, and observations more than four calendar days before month-end. It never fills gaps.
+The unchanged September 1999 pilot uses Yahoo's legacy daily `Adj Close` through April 28, 2016, preserved in a [revision-pinned public snapshot](https://github.com/rpandya1990/Stock-Prediction-Web-Application/tree/df6002f3b04ef7fcd43aa84ce5cb1428bf98b5fd/Scripts). Its source script documents the legacy Yahoo download and added Symbol column. Five new scenarios use daily USD Yahoo chart snapshots retrieved October 5, 2026. The chart endpoint has no located supported, revision-pinned API contract. Per-scenario manifests retain request URLs, raw paths, hashes, symbols and transformations.
 
-The starting artifact contains only September 1998–September 1999 prices and October 1998–September 1999 returns. Only after the starting commit was the full September 1998–September 2004 monthly artifact built. Six-decimal source precision is retained. Splits and dividends rely on Yahoo's adjustments; total-return reinvestment is approximate. Later uniform adjustment scaling cancels in ratios. The 2016 Amazon scale predates its 2022 split, which does not change these ratios. Microsoft's November 2004 special dividend lies beyond the horizon. These three stocks require no successor, merger, acquisition-cash, bankruptcy, or spin-off mapping in the selected period. No other candidates' corporate actions were qualified.
+Use daily observations: monthly chart timestamps can denote month starts and must not be read as month-end prices. The parser validates matching symbol, USD currency, daily granularity, aligned timestamps/prices, finite positive values and valid dates. It selects the last actual trading observation of each calendar month, rejects duplicate dates and missing months/endpoints, and never fills gaps. Actual observation dates can precede calendar month end on weekends or holidays.
+
+Starting artifacts contain thirteen monthly price endpoints ending at cutoff and twelve trailing returns; they contain no future observation. Subsequent artifacts add sixty outcome months only after the committed starting lock. The outcome builder compares the future snapshot with the locked starting estimates. The original September 1999 stocks and all broad histories retain the existing `1e-12` agreement check. For the fifteen new stock histories, independently requested starting/future Yahoo snapshots have small differences even for overlapping dates. After rebasing to a common endpoint, the observed maximum relative overlap-price error was `1.3353e-6` (about 1.34 parts per million); the largest absolute trailing-return difference was `2.2464e-6`, for GE. The new-stock check requires all thirteen overlapping monthly endpoints to agree within a documented five-parts-per-million relative bound. It rejects larger differences, missing endpoints or inconsistent dates. The source of these vendor differences was not independently established; do not attribute them to a specific floating-point mechanism. Locked bytes stay unchanged, with no integrity repair or editorial reselection. Per-scenario action audits retain the overlap metrics. Stock identity is historical: a convenient modern ticker does not establish continuity for original AT&T, pre-bankruptcy GM or any acquired issuer.
+
+Yahoo's [official adjusted-close description](https://in.help.yahoo.com/kb/adjusted-close-sln28256.html) applies backward split and dividend multipliers, including a dividend factor based on the previous close. Adjacent adjusted-close ratios are **dividend-adjusted return proxies**, not audited broker dividend-reinvestment returns. They do not specify an investor's reinvestment price, tax, fees or fractional-share treatment. Do not add cash dividends or split gains again. A common later scale factor cancels in ratios, but does not independently prove every corporate-action factor is correct. Current history can be revised. The raw SHA identifies retrieved bytes; it cannot guarantee that a future fetch from an unversioned URL returns the same bytes.
+
+[Scenario qualification](scenario-qualification.md) links each stock/action review. Relevant examples include Microsoft's combined $3 special plus $0.08 ordinary dividend in November 2004, Apple's February 2005 and August 2020 splits, and Apple's later splits rescaling historical cash-dividend amounts. Ex-date, record date, distribution date and first adjusted trading date have different meanings. Current official archives with unknown original publication dates use null in outcome-only provenance and are referenced by the corporate-action audit; no invented historical publication date is used to qualify starting information.
 
 ## Reproduction
 
-Use Node 22.12+ and Python 3's standard library, from the repository root:
+Use Node 22.12+ and Python 3's standard library from the repository root. Normal development and CI are offline with respect to historical data:
 
 ```sh
 npm ci
-npm run data:fetch
-npm run data:normalize
+npm run dates:check
 npm run data:build
 npm run data:check
 npm run validate
 npm run check
 ```
 
-`data:fetch` requires public network access to `raw.githubusercontent.com`. It verifies exact bytes against the committed SHA256s before replacing the raw source set for each manifest. Retrieval uses Python's normal proxy-aware `urlopen`; there are no credentials or retries around access controls. The pinned revisions prevent ordinary upstream changes from silently altering the result.
+`data:build` iterates registered scenarios, rebuilds starts only from their starting artifacts and editorial inputs, checks their frozen hashes, then assembles outcomes and provenance. `data:check` replays the committed date draw and checks rebuilt scenario JSON byte for byte. These commands require committed normalized data, not downloads or ignored raw files. `npm run check` also checks formatting, schemas, validation, tests, types and production build. Browser tests are separate.
 
-`data:normalize` verifies raw checksums again and writes canonical data with fixed endpoints. Parser headers identify monthly versus annual French tables and USD versus local-currency international tables. FRED dots and French missing-value sentinels fail rather than becoming zeros. `data:build` derives trailing/future returns from normalized observations and assembles editorial inputs. `data:check` runs offline, compares deterministic rebuilt scenario JSON byte for byte, and checks the frozen starting hashes. CI needs only committed normalized data; no source website downloads are required.
+Optional source-level work requires network access and the relevant raw cache:
 
-For an intentional source refresh, edit a manifest to a reviewed public source/revision and run the fetch script with `--refresh`, then normalize and inspect differences. This pilot's frozen start must not be silently relocked after outcomes are seen. The authoring `--lock` command refuses when outcomes already exist. Changing starting content would require an explicit, explained integrity repair with an audit trail; it is not part of the normal rebuild.
+```sh
+# Legacy broad/pilot pinned manifests only:
+npm run data:fetch
+# Normalize legacy sources plus each registered new scenario's cached chart payloads:
+npm run data:normalize
+# Inspect a cached new stock snapshot without changing its outputs:
+node --import tsx scripts/normalize/yahoo-chart.ts --scenario=2016-02 --outcome --check
+python3 scripts/normalize/stock-actions.py 2016-02 --check
+```
+
+`data:fetch` downloads the legacy pinned broad/pilot manifests, verifies SHA256 bytes and does not refetch the five new Yahoo scenario snapshots. The source-specific `scripts/fetch/scenario-stocks.py` is an authoring tool: it refuses an existing snapshot manifest and requires an unchanged committed starting lock before `--outcome`. It is not an idempotent refresh command. Reconstructing a raw cache from an unversioned endpoint may fail checksum verification even when the URL remains accessible. Preserve available cached bytes; normalized endpoints provide deterministic offline rebuilding regardless of future vendor availability.
+
+Raw payloads are ignored under `data/raw/`; source manifests and normalized numerical artifacts are committed. No full article body or vendor database is redistributed. A source refresh is an explicit reviewed change, never a silent overwrite or relock. The authoring lock command refuses an existing lock or outcomes. Integrity repairs require a documented audit rather than re-curating starts after seeing outcomes.
 
 ### Window API and dates
 
@@ -73,7 +91,7 @@ For `1999-09-30`, three-month returns compound July–September, one-year return
 
 ## Point-in-time limits
 
-News and macro values use dated contemporary publications, not later releases bearing the same observation month:
+The unchanged September 1999 pilot illustrates the date discipline; the other five dates are detailed in [scenario qualification](scenario-qualification.md). News and macro values use dated contemporary publications, not later releases bearing the same observation month:
 
 | Indicator                   | Value and observation                                       | Publication used                                       |
 | --------------------------- | ----------------------------------------------------------- | ------------------------------------------------------ |
@@ -86,28 +104,26 @@ News and macro values use dated contemporary publications, not later releases be
 
 The last indicator is an **older secondary summary**, explicitly marked as an approximation. Direct inspection of the original Philadelphia Fed PDF was blocked in this environment. It is not represented as a Q3 median forecast, an annualized next-quarter growth rate, a probability of negative growth, or a recession probability. September CPI and employment releases are excluded because they came after the cutoff. Amazon's archive header says September 29 while its release dateline says September 30; the later date is used conservatively.
 
-Market return reconstruction has a different limitation. French/FRED series are modern reconstructed histories and the Yahoo adjusted-price snapshot was published in 2016. We do **not** claim those files were published in 1999. Starting provenance records `asof-broad-proxies` and `asof-stock-prices` use a **modeled availability date of September 30 for underlying market observations** and mark the reconstruction as approximate. Then-observable prices/dividends/yields conceptually support trailing estimates, but exact contemporary database vintages, aggregate publication timing, and retroactive source revisions are not replicated. This distinction is necessary because the existing provenance contract has a single publication-date field; the contract and cutoff validator remain unchanged.
+Market return reconstruction has a different limitation. French/FRED series are modern reconstructed histories and the Yahoo adjusted-price snapshot was published in 2016. We do **not** claim those files were published in 1999. Starting provenance records `asof-broad-proxies` and `asof-stock-prices` use a **modeled availability date of September 30 for underlying market observations** and mark the reconstruction as approximate. Then-observable prices/dividends/yields conceptually support trailing estimates, but exact contemporary database vintages, aggregate publication timing, and retroactive source revisions are not replicated. The publication field now permits null for genuinely undated outcome-only archives. Starting references still require an established pre-cutoff date; the original pilot records and lock remain unchanged.
 
 Separate retrospective artifact records reference the actual pinned mirror dates: October 5, 2026 for the French mirror revision; September 21, 2026 for the FRED mirror revision; May 3, 2016 for Yahoo. They are used for outcomes, never directly referenced by starting fields. `artifact-publications.json` retains the GitHub commit references. Schema date checks enforce the declared approximation; they cannot establish perfect real-time replication. This is the principal historical-data limitation reviewers should assess.
 
-## Editorial audit and integration
+## Selection, editorial audit and integration
 
-The starting choice was committed in [`6fade75`](https://github.com/racker15/simple-long-term-investing-game/commit/6fade75b7762330af672eea232b83fa8a1eb3afd) before selected-stock future windows, event markers, narrative, or reflections were constructed. `starting-lock.json` hashes the starting content, source manifests, normalized starting history, and editorial inputs.
+The [date-selection protocol](date-selection.md) was committed at `b4d70fb` before the real draw at `0316e1c`. All 492 nominal month ends in 1980–2020 have the required broad windows. Equal-weight early/middle/late strata produced January 1987, May 2004 and February 2016; the first late attempt duplicated reserved September 2008 and was rejected by the predeclared spacing rule. August 1982, September 1999 and September 2008 are the important dates. No operational exclusion or outcome-based replacement is recorded.
 
-The candidate pool contains 56 contemporary news topics and 12 stock candidates, drawn from WIRED digests, CNNfn, AP/CBS, Inter Press Service, company releases, and economic releases. It is an editorial pilot, not an exhaustive corpus or probability sample. Eight stories span economy, business, US weather, global news, technology, gaming, and sports. Dreamcast and Serena Williams remain because people paid attention to them then, without requiring a later investment connection.
+The existing September 1999 start stays locked at `6fade75`; the new start commits are `58d21c9` (1982), `bf18540` (1987), `6f9179b` (2004), `a09dc69` (2008) and `39d850d` (2016). Each `starting-lock.json` hashes editorial choices, starting data, source manifests and other inputs; new locks also pin the date protocol and draw. Selected dates do not become qualified registry entries merely by being selected.
 
-Microsoft was selected for software prominence and its September antitrust closing arguments; Cisco for its August optical-networking agreements; Amazon for its September merchant-services announcement. Their selection represents three distinct contemporary business themes. The other nine candidates were excluded editorially, not because of future returns or claimed data defects. **No selected stock was rejected for data quality.**
+Each discovery pool has at least fifty contemporary topics and at least ten stock candidates. Public publisher indexes, especially TIME, are overrepresented. Index-topic evidence is distinct from inspected article bodies; pools are editorial archive samples rather than an exhaustive or probability-sampled news corpus. Final feeds preserve mixed topics, including sport, culture and science, without requiring a subsequent investment connection. Selected stocks repeatedly emphasize established technology businesses. No claim is made that they fairly represent all then-prominent stocks, or that omitted banks, failed issuers and acquired firms had no usable history.
 
-`data/scenarios/manifest.json` registers one historical important-date scenario. The production queue still requires five or more unique scenarios. The default fictional demo and its tests remain intact. `app/src/data/historical.ts` exposes the starting projection and a lazy outcome loader through the same validator. The optional `?scenario=1999-09` development preview uses the existing allocation and reveal components, loads historical outcome/provenance chunks only after commitment, and saves no session progress. It is omitted from the production build.
+The [qualification record](scenario-qualification.md) gives each date's macro/news provenance, stock feasibility, action treatment, broad window, starting lock, research limits and player-review status. In particular, 1982's original CPI-U is 6.5%, not the experimental rental-equivalence measure or a modern revised series. January 1987 lacks verified consumer confidence and explicitly uses bank prime instead; its growth card is the upper end of a stale July 1986 forecast range. The 1999 older secondary SPF summary remains unchanged. Other forecasts use their original professional-survey vintage and stated horizon, not subsequent revisions.
 
-The five event markers give context, not a causal explanation of each monthly return. The 212-word outcome narrative and four reflections avoid claiming the five-year rankings were knowable. Build checks recompute comparisons and winners; none are stored as scenario inputs.
+The development historical preview accepts every registered ID through `?scenario=<YYYY-MM>`. It loads future/provenance chunks after commitment, saves no progress and is excluded from production builds. The normal demo remains fictional, defaulting to ten repeated fixture scenarios. With six unique historical entries the existing queue can supply a five-scenario request, but must reject requests for ten, fifteen or twenty; a historical session launcher is not supplied by this preview.
 
-## Verification and next milestone
+## Verification ledger
 
-Automated coverage includes parser table/units selection, malformed/missing observations, raw checksum failures, compounded windows and endpoints, 1975–2025 alignment, deterministic rebuilding, the starting hash lock, cutoff failures, source references, registry loading, queue insufficiency, and pre-investment rendering. Desktop/mobile browser tests exercise historical allocation, commitment, lazy loading, 60 rows, event/reflection reveal, overflow, and separation from fictional session history. Existing portfolio and firewall tests remain unchanged.
+The prior September 1999 milestone passed 86 unit/rendering tests and eight desktop/mobile browser tests on October 5, 2026, together with validation, formatting, schema/data checks, types and build. Those results are a baseline, not proof that the five new outcomes or all six previews passed after integration.
 
-Inspect browser screenshots in ignored `test-results/`; `npm run dev` enables a player review of the dated headlines, understandable macro labels, plausible stock prominence, and absence of future text before investment. Review the reveal for qualified historical explanation without hindsight-shaming or simplistic market causality.
+**Final six-scenario verification:** `npm run check` passed with 113 unit/rendering tests, and `npm run test:browser` passed 20 desktop/mobile tests. Hash-checked normalization replayed from the retained raw cache; all six builders reproduce their committed files offline. No historical return exceeds the 80% monthly warning threshold. Desktop/mobile starting and reveal screenshots were manually inspected, including forecast units, allocations, event markers and reflections. The [qualification ledger](scenario-qualification.md) records the evidence and remaining research limits.
 
-On October 5, 2026, all six payloads were fetched again and matched their pinned SHA256s. Normalization and scenario freshness checks passed. `npm run check` passed 86 unit/rendering tests, validation, schema/data freshness, formatting, type checking, and the production build; all eight desktop/mobile browser tests passed. The fictional bankruptcy warning remains expected, and the historical scenario has no extreme-return warnings. Player screenshot review confirmed readable macro labels and controls, mixed contemporary stories, no outcome language before investment, and a qualified reveal without claims that the rankings were obvious.
-
-The next milestone is to record the random-date protocol first, then qualify six historical scenarios: three important and three random. This change does not start the random draw, add more scenarios, introduce a backend, or publish the website.
+Do not expand to 24/50 scenarios until the six-scenario qualification is complete. The small cohorts and overlapping outcome periods are unsuitable for broad statistical conclusions; no website deployment or production lifetime history is included in this milestone.

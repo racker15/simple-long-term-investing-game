@@ -1,0 +1,265 @@
+{
+  "scenario_id": "2004-05",
+  "sources": [
+    {
+      "id": "amzn04",
+      "source_name": "Amazon earnings release filed with SEC",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/1018724/000119312504067509/dex991.htm",
+      "publication_date": "2004-04-22",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-03-31"
+    },
+    {
+      "id": "apple04",
+      "source_name": "Apple earnings release",
+      "source_reference": "https://www.apple.com/newsroom/2004/04/14Apple-Reports-Second-Quarter-Results/",
+      "publication_date": "2004-04-14",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-03-27"
+    },
+    {
+      "id": "conf04",
+      "source_name": "Irish Times contemporary report of Conference Board",
+      "source_reference": "https://www.irishtimes.com/news/dollar-drops-1-against-euro-sterling-1.980332",
+      "publication_date": "2004-05-25",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Contemporary secondary confidence report; original survey release not inspected. Observation month is May; use report date for the availability timestamp, not a future month-end survey completion. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-05-25"
+    },
+    {
+      "id": "cpi04",
+      "source_name": "BLS April CPI original release",
+      "source_reference": "https://www.bls.gov/news.release/archives/cpi_05142004.pdf",
+      "publication_date": "2004-05-14",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-04-30"
+    },
+    {
+      "id": "csco04",
+      "source_name": "Cisco earnings release",
+      "source_reference": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2004/m05/cisco-systems-reports-third-quarter-earnings-2004-.html",
+      "publication_date": "2004-05-11",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-05-01"
+    },
+    {
+      "id": "earn04",
+      "source_name": "CNN Money earnings attention report",
+      "source_reference": "https://money.cnn.com/2004/04/08/markets/earningsmatter/?cnn=yes",
+      "publication_date": "2004-04-09",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Search extraction only; complete article open failed. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-04-09"
+    },
+    {
+      "id": "ebay04",
+      "source_name": "eBay earnings release PDF",
+      "source_reference": "https://ebay.q4cdn.com/610426115/files/doc_news/archive/EBAY_News_2004_4_21_Earnings.pdf",
+      "publication_date": "2004-04-21",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-03-31"
+    },
+    {
+      "id": "emp04",
+      "source_name": "BLS April employment original release",
+      "source_reference": "https://www.bls.gov/news.release/archives/empsit_05072004.pdf",
+      "publication_date": "2004-05-07",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-04-30"
+    },
+    {
+      "id": "fed04",
+      "source_name": "FOMC original statement",
+      "source_reference": "https://www.federalreserve.gov/boarddocs/press/monetary/2004/20040504/default.htm",
+      "publication_date": "2004-05-04",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-05-04"
+    },
+    {
+      "id": "h1504",
+      "source_name": "Fed H.15 original release",
+      "source_reference": "https://www.federalreserve.gov/releases/h15/20040524/h15.pdf",
+      "publication_date": "2004-05-24",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-05-21"
+    },
+    {
+      "id": "msft04",
+      "source_name": "Microsoft earnings release",
+      "source_reference": "https://news.microsoft.com/source/2004/04/22/microsoft-reports-strong-third-quarter-revenue/",
+      "publication_date": "2004-04-22",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-03-31"
+    },
+    {
+      "id": "spf04",
+      "source_name": "Philadelphia Fed SPF 2004Q2 original report",
+      "source_reference": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/2004/spfq204.pdf?la=en",
+      "publication_date": "2004-05-24",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-05-24"
+    },
+    {
+      "id": "t0417",
+      "source_name": "TIME US issue index",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601040517,00.html",
+      "publication_date": "2004-05-17",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Issue-index metadata; conservative issue date; not full article text. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-05-17"
+    },
+    {
+      "id": "t0424",
+      "source_name": "TIME US issue index",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601040524,00.html",
+      "publication_date": "2004-05-24",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Issue-index metadata; conservative issue date; not full article text. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-05-24"
+    },
+    {
+      "id": "t0431",
+      "source_name": "TIME US issue index",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601040531,00.html",
+      "publication_date": "2004-05-31",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Issue-index metadata; conservative issue date; not full article text. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-05-31"
+    },
+    {
+      "id": "n04-cannes",
+      "source_name": "TIME — Movies: The Art of Burning Bush",
+      "source_reference": "https://time.com/archive/6738621/movies-the-art-of-burning-bush/",
+      "publication_date": "2004-05-31",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-05-31"
+    },
+    {
+      "id": "n04-cicada",
+      "source_name": "TIME — They're Baaack",
+      "source_reference": "https://time.com/archive/6738562/theyre-baaack/",
+      "publication_date": "2004-05-24",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-05-24"
+    },
+    {
+      "id": "n04-hybrid",
+      "source_name": "TIME — Make Vrooom For The Hybrids",
+      "source_reference": "https://time.com/archive/6738559/make-vrooom-for-the-hybrids/",
+      "publication_date": "2004-05-24",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-05-24"
+    },
+    {
+      "id": "n04-iraq",
+      "source_name": "TIME — The Scandal's Growing Stain",
+      "source_reference": "https://time.com/archive/6738501/the-scandals-growing-stain/",
+      "publication_date": "2004-05-17",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-05-17"
+    },
+    {
+      "id": "n04-jobs",
+      "source_name": "BLS — The Employment Situation: April 2004",
+      "source_reference": "https://www.bls.gov/news.release/archives/empsit_05072004.pdf",
+      "publication_date": "2004-05-07",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-04-30"
+    },
+    {
+      "id": "n04-nader",
+      "source_name": "TIME — The Nader Effect",
+      "source_reference": "https://time.com/archive/6738609/the-nader-effect/",
+      "publication_date": "2004-05-31",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-05-31"
+    },
+    {
+      "id": "n04-smarty",
+      "source_name": "TIME — Two Times a Jewel",
+      "source_reference": "https://time.com/archive/6738567/two-times-a-jewel/",
+      "publication_date": "2004-05-24",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-05-24"
+    },
+    {
+      "id": "n04-software",
+      "source_name": "Microsoft — Microsoft Reports Strong Third Quarter Revenue",
+      "source_reference": "https://news.microsoft.com/source/2004/04/22/microsoft-reports-strong-third-quarter-revenue/",
+      "publication_date": "2004-04-22",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Short faithful display paraphrase; original contemporary publication. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-04-22"
+    },
+    {
+      "id": "amr04",
+      "source_name": "TIME — American Airlines cost-cutting feature",
+      "source_reference": "https://time.com/archive/6738507/the-american-dream/",
+      "publication_date": "2004-05-17",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporary original feature; no later corporate event considered. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "2004-05-17"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-asset observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "observation_date": "2004-05-31",
+      "publication_date": "2004-05-31",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Modeled availability of underlying market observations through cutoff. This is NOT the publication date of the modern French/FRED/Yahoo archive. Current retrospective reconstruction, not exact contemporary database vintages; later uniform adjustment scaling cancels in historical ratios. Actual source snapshot/retrieval dates and hashes are recorded separately in archive manifests."
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/2004-05/starting.json",
+      "observation_date": "2004-05-31",
+      "publication_date": "2004-05-31",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Modeled availability of underlying market observations through cutoff. This is NOT the publication date of the modern French/FRED/Yahoo archive. Current retrospective reconstruction, not exact contemporary database vintages; later uniform adjustment scaling cancels in historical ratios. Actual source snapshot/retrieval dates and hashes are recorded separately in archive manifests."
+    }
+  ]
+}

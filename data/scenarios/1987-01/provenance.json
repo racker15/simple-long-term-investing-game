@@ -1,0 +1,350 @@
+{
+  "scenario_id": "1987-01",
+  "sources": [
+    {
+      "id": "fed1986",
+      "source_name": "Federal Reserve Midyear 1986 Monetary Policy Report and Volcker public testimony",
+      "source_reference": "https://fraser.stlouisfed.org/files/docs/publications/bog_mpo/bog_19860718.pdf",
+      "publication_date": "1986-07-23",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Report dated July 18 is included with public July 23 testimony; use verified public testimony date conservatively. Summaryp 4:1987 real GNP fourth quarter/fourth quarter central tendency 3–3.5%, full range 2–4.25%; institutional forecast, not SPF or median. Stale July 1986 vintage as of Jan 1987. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "jobs1987",
+      "source_name": "BLS Employment Situation: December 1986",
+      "source_reference": "https://fraser.stlouisfed.org/docs/releases/bls/bls_employnews_198612.pdf",
+      "publication_date": "1987-01-09",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original embargo 8:30 ESTJan 9. Civilian unemployment 6.7%; overall including Armed Forces 6.6% is a different statistic. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "1986-12-31"
+    },
+    {
+      "id": "h151987",
+      "source_name": "Federal Reserve H 15 Jan 28, 1987",
+      "source_reference": "https://fraser.stlouisfed.org/docs/releases/h15/1980s/H15_19870128.pdf",
+      "publication_date": "1987-01-28",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Immediate-release date printed Jan 28 despite routine Monday release text. Daily Jan 23:prime 7.50, discount 5.50,10-year Treasury 7.06. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "1987-01-23"
+    },
+    {
+      "id": "apcpi1987",
+      "source_name": "Associated Press inflation report in Pampa News Jan 21, 1987",
+      "source_reference": "https://newspapers.swco.ttu.edu/bitstreams/d18ca4df-2080-4f4e-b3a4-6f066c7d0277/download",
+      "publication_date": "1987-01-21",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Contemporary AP reporting says government reported today 1986 prices rose 1.1%. This is primary contemporary reporting, not original BLS release, which was not retrieved. Later February 1987 CPI Detailed Report corroborates but is ineligible as starting source. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication.",
+      "observation_date": "1986-12-31"
+    },
+    {
+      "id": "compute1986",
+      "source_name": "COMPUTE! issue 79, December 1986, p 32: IBM compatibles coming home",
+      "source_reference": "https://www.atarimagazines.com/compute/issue79/The_MS-DOS_Invasion.php",
+      "publication_date": "1986-12-31",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Original issue month December 1986. Exact first public day unknown; conservative month-end availability approximation. Archive transcription of contemporary magazine. IBM-compatible competition threatens Apple; Apple IIGS explicitly named. Not a precise release date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "compute1987",
+      "source_name": "COMPUTE! issue 80, January 1987, p 18: graphics on16 bit computers",
+      "source_reference": "https://www.atarimagazines.com/compute/issue80/the_great_graphics_leap.php",
+      "publication_date": "1987-01-31",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Original issue month January 1987. Exact first public day unknown; conservative month-end availability approximation. Apple IIGS and Macintosh receive product coverage; source is supplementary, Decemberissue supplies stronger pre-cutoff date margin. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963282",
+      "source_name": "TIME: Dow closes above2000 amid investor enthusiasm",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963282,00.html",
+      "publication_date": "1987-01-19",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963296",
+      "source_name": "TIME: Dollar slide unsettles currency markets",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963296,00.html",
+      "publication_date": "1987-01-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963311",
+      "source_name": "TIME: Deng moves against Chinese student protest pressure",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963311,00.html",
+      "publication_date": "1987-01-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963319",
+      "source_name": "TIME: Severe cold disrupts Europe",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963319,00.html",
+      "publication_date": "1987-01-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963316",
+      "source_name": "TIME: DNA techniques enter a British murder investigation",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963316,00.html",
+      "publication_date": "1987-01-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963318",
+      "source_name": "TIME: Giants and Broncos prepare for the Super Bowl",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963318,00.html",
+      "publication_date": "1987-01-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963313",
+      "source_name": "TIME: Platoon actors describe demanding war training",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963313,00.html",
+      "publication_date": "1987-01-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963298",
+      "source_name": "TIME: Midair collision renews air traffic safety concern",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963298,00.html",
+      "publication_date": "1987-01-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963291",
+      "source_name": "TIME: Computer research consortium loses members",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963291,00.html",
+      "publication_date": "1987-01-19",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963273",
+      "source_name": "TIME: Transatlanticfiberoptic plans",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963273,00.html",
+      "publication_date": "1987-01-19",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963315",
+      "source_name": "TIME: Semiconductor workplace health concern",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963315,00.html",
+      "publication_date": "1987-01-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963202",
+      "source_name": "TIME: Rockwell advertisement controversy",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963202,00.html",
+      "publication_date": "1987-01-12",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-963256",
+      "source_name": "TIME: Warner investment in Cannon",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,963256,00.html",
+      "publication_date": "1987-01-19",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-index19870105",
+      "source_name": "TIME issue index 1987-01-05",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601870105,00.html",
+      "publication_date": "1987-01-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Publisher table of contents verifies article identity and issue date. Discovery metadata only; no assumption that every article body has been read. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-index19870112",
+      "source_name": "TIME issue index 1987-01-12",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601870112,00.html",
+      "publication_date": "1987-01-12",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Publisher table of contents verifies article identity and issue date. Discovery metadata only; no assumption that every article body has been read. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-index19870119",
+      "source_name": "TIME issue index 1987-01-19",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601870119,00.html",
+      "publication_date": "1987-01-19",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Publisher table of contents verifies article identity and issue date. Discovery metadata only; no assumption that every article body has been read. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "time-index19870126",
+      "source_name": "TIME issue index 1987-01-26",
+      "source_reference": "https://content.time.com/time/magazine/0,9263,7601870126,00.html",
+      "publication_date": "1987-01-26",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Publisher table of contents verifies article identity and issue date. Discovery metadata only; no assumption that every article body has been read. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication."
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-asset observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "observation_date": "1987-01-31",
+      "publication_date": "1987-01-31",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Modeled availability of underlying market observations through cutoff. This is NOT the publication date of the modern French/FRED/Yahoo archive. Current retrospective reconstruction, not exact contemporary database vintages; later uniform adjustment scaling cancels in historical ratios. Actual source snapshot/retrieval dates and hashes are recorded separately in archive manifests."
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/1987-01/starting.json",
+      "observation_date": "1987-01-31",
+      "publication_date": "1987-01-31",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Modeled availability of underlying market observations through cutoff. This is NOT the publication date of the modern French/FRED/Yahoo archive. Current retrospective reconstruction, not exact contemporary database vintages; later uniform adjustment scaling cancels in historical ratios. Actual source snapshot/retrieval dates and hashes are recorded separately in archive manifests."
+    },
+    {
+      "id": "french-us",
+      "source_name": "Kenneth French Data Library",
+      "source_reference": "https://raw.githubusercontent.com/ethanteng/finsight/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609/src/datasets/F-F_Research_Data_Factors.csv",
+      "observation_date": "1992-01-31",
+      "publication_date": "2026-10-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/ethanteng/finsight/commit/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609), not original market reporting or first dataset publication. Canonical source: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html. Series: F-F_Research_Data_Factors: Mkt-RF + RF; RF. Raw SHA256: 9ddf8f5b510f8730acca0fc3d899085d757c92378d7ea66b7c8d864354fa1209. Use the first monthly table; convert percent to decimal. US equity total return = (Mkt-RF + RF)/100. Cash = RF/100. No ETF replication is claimed. Current reconstructed history, not a 1999 data-library vintage. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "french-international",
+      "source_name": "Kenneth French International Index Portfolios",
+      "source_reference": "https://raw.githubusercontent.com/ethanteng/finsight/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609/src/datasets/F-F_International_Indices.dat",
+      "observation_date": "1992-01-31",
+      "publication_date": "2026-10-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/ethanteng/finsight/commit/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609), not original market reporting or first dataset publication. Canonical source: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/int_index_port_formed.html. Series: International index: Major Markets market portfolio (USD, including dividends). Raw SHA256: 047aab4e9ae512f3759fde34e8e49b8ff12a162fad4e8d36ec5b8c99b8d06266. EAFE + Canada country-weighted market portfolio, without US equity. Source coverage begins January 1975. Country coverage changes in source methodology; MSCI inputs through 2006 and Bloomberg from 2007. No project-level splice. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "fred-gs5",
+      "source_name": "Federal Reserve H.15 via FRED",
+      "source_reference": "https://raw.githubusercontent.com/BuyRisk/buyrisk.github.io/c51c5c9592bf2de0758b7b2ed13a35930516fefa/data/sources/fred/GS5.csv",
+      "observation_date": "1992-01-31",
+      "publication_date": "2026-09-21",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/BuyRisk/buyrisk.github.io/commit/c51c5c9592bf2de0758b7b2ed13a35930516fefa), not original market reporting or first dataset publication. Canonical source: https://fred.stlouisfed.org/series/GS5. Series: GS5. Raw SHA256: b03972bed533eeffebe1d9b54d7e52dc5a67b0119cc82ebd92d799fbc184c165. Monthly average five-year constant-maturity Treasury yield. Synthetic rolling five-year par bond: monthly coupons, flat yield curve, one coupon plus repriced 59 remaining monthly payments. No credit/spread exposure or bond-fund fees; not a broad aggregate index. Uses preceding month yield for coupon, current month yield for repricing. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "yahoo-ibm",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "source_reference": "https://query1.finance.yahoo.com/v8/finance/chart/IBM?period1=504921600&period2=696902400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "1992-01-31",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Current retrospective Yahoo snapshot used for outcomes, retrieved 2026-10-05. Original publication and archive revision dates are unknown (publication_date is null); retrieval does not establish a contemporary vintage. Daily observations run through 1992-01-31. Retrieved raw payload SHA256: c7730de16837d0dfad54379b9ff8e4d74a209d60f7593401f49b611dc5342974. Endpoint is unversioned; the committed normalized monthly endpoints allow offline rebuilding. Daily USD adjusted close; last trading observation in each calendar month; adjacent price ratio minus one. Yahoo adjustments incorporate splits and cash dividends; do not add dividends again. Current reconstructed history, not a contemporary database vintage. Daily observations, nulls, currency, symbol, endpoints, and monthly gaps are strictly checked. No revision-pinned endpoint is available; the raw byte hash identifies this retrieval, not an immutable downloadable revision. Normalized monthly endpoints are committed for deterministic offline rebuilding. Corporate-action assessment belongs in the scenario research record."
+    },
+    {
+      "id": "yahoo-ge",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "source_reference": "https://query1.finance.yahoo.com/v8/finance/chart/GE?period1=504921600&period2=696902400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "1992-01-31",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Current retrospective Yahoo snapshot used for outcomes, retrieved 2026-10-05. Original publication and archive revision dates are unknown (publication_date is null); retrieval does not establish a contemporary vintage. Daily observations run through 1992-01-31. Retrieved raw payload SHA256: 8e1cc76ec1832262e8edd2da18e5e56a44ab627e0011a7f51573272112a6c6ee. Endpoint is unversioned; the committed normalized monthly endpoints allow offline rebuilding. Daily USD adjusted close; last trading observation in each calendar month; adjacent price ratio minus one. Yahoo adjustments incorporate splits and cash dividends; do not add dividends again. Current reconstructed history, not a contemporary database vintage. Daily observations, nulls, currency, symbol, endpoints, and monthly gaps are strictly checked. No revision-pinned endpoint is available; the raw byte hash identifies this retrieval, not an immutable downloadable revision. Normalized monthly endpoints are committed for deterministic offline rebuilding. Corporate-action assessment belongs in the scenario research record."
+    },
+    {
+      "id": "yahoo-aapl",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "source_reference": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?period1=504921600&period2=696902400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "1992-01-31",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Current retrospective Yahoo snapshot used for outcomes, retrieved 2026-10-05. Original publication and archive revision dates are unknown (publication_date is null); retrieval does not establish a contemporary vintage. Daily observations run through 1992-01-31. Retrieved raw payload SHA256: 15ef35b11ba0c26311c2b293b7a301d6e2b1d4055693bdf0af6979f1934c9042. Endpoint is unversioned; the committed normalized monthly endpoints allow offline rebuilding. Daily USD adjusted close; last trading observation in each calendar month; adjacent price ratio minus one. Yahoo adjustments incorporate splits and cash dividends; do not add dividends again. Current reconstructed history, not a contemporary database vintage. Daily observations, nulls, currency, symbol, endpoints, and monthly gaps are strictly checked. No revision-pinned endpoint is available; the raw byte hash identifies this retrieval, not an immutable downloadable revision. Normalized monthly endpoints are committed for deterministic offline rebuilding. Corporate-action assessment belongs in the scenario research record."
+    },
+    {
+      "id": "fed-crash87",
+      "source_name": "Federal Reserve FEDS2007-13: Mark Carlson historical study of1987 crash",
+      "source_reference": "https://www.federalreserve.gov/pubs/feds/2007/200713/200713pap.pdf",
+      "publication_date": "2007-05-01",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Archived abstract explicitly dated Last update: May1 2007 (https://www.federalreserve.gov/pubs/feds/2007/200713/200713abs.html); this is an archive revision date, not the original paper date (November2006) or event date. Retrospective Federal Reserve research distinguishes October19 crash and October20 visible liquidity support. It does not establish precise causal weights for scenario returns."
+    },
+    {
+      "id": "nber-peak90",
+      "source_name": "NBER April25 1991 business-cycle announcement",
+      "source_reference": "https://www.nber.org/news/business-cycle-dating-committee-announcement-april-25-1991",
+      "publication_date": "1991-04-25",
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Official announcement identifies July 1990 peak retrospectively. March 1991 trough was not announced until December 22 1992, after scenario endpoint; not presented as a contemporaneously known January 1992 fact.",
+      "observation_date": "1990-07-31"
+    },
+    {
+      "id": "apple-split-history",
+      "source_name": "Apple investor FAQ: historical stock splits",
+      "source_reference": "https://investor.apple.com/investor-relations/faq/default.aspx",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Issuer table dates two-for-one split June 16, 1987; later splits uniformly rescale the earlier prices. No extra split return is added. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "apple-dividend-history",
+      "source_name": "Apple historical dividend and split table",
+      "source_reference": "https://investor.apple.com/dividend-history/default.aspx",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Original amounts are not split adjusted. April 22 1987 declaration: record May 15, payable June 15, $0.06; July 29 declaration: record Aug 14, payable Sept 15, $0.06. Vendor ex-dates May 11 and Aug 10 fall within Aug 1987 horizon, though second payment follows endpoint. Current backward-adjusted vendor amounts differ by later splits; not separately added. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "ibm-split-history",
+      "source_name": "IBM investor historical stock-split table",
+      "source_reference": "https://www.ibm.com/investor/att/pdf/ibm_ir_stock_splits.pdf",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Issuer table puts adjacent splits in 1979 and 1997; none during either selected 1982–87 or 1987–92 holding window. Current reconstruction also reflects later Kyndryl separation; no successor mapping applied within these windows. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "ge-shareholder",
+      "source_name": "GE Aerospace shareholder services and FAQ",
+      "source_reference": "https://www.geaerospace.com/investor-relations/shareholder-services",
+      "publication_date": null,
+      "retrieved_at": "2026-10-05",
+      "approximation": false,
+      "notes": "Current legal issuer continues historical General Electric lineage; page documents 2021 reverse split and 2023/2024 separations outside Jan 1992 horizon. May 26 1987 two-for-one is recorded in pinned Yahoo events; not independently corroborated by an accessible original GE split announcement. Acquisitions of operating businesses do not themselves require exchanging GE shareholder holdings. Vendor reconstruction reliability remains a limitation. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "scenario_id": "1982-08",
+  "events": [
+    {
+      "month": "1983-07",
+      "title": "The NBER announces that the recession ended",
+      "description": "The committee dates the trough to November 1982. The later announcement illustrates the delay between economic turning points and official confirmation.",
+      "source_ids": ["nber-trough82"]
+    },
+    {
+      "month": "1985-04",
+      "title": "Coca-Cola announces a new formula",
+      "description": "The company changes its flagship formula. This product decision and its reception are business context, not an isolated explanation of the stock return.",
+      "source_ids": ["ko-new-coke"]
+    },
+    {
+      "month": "1985-07",
+      "title": "The original Coca-Cola formula returns",
+      "description": "The original formula returns as Coca-Cola classic after consumer objections. The episode shows that business plans can change during a holding period.",
+      "source_ids": ["ko-new-coke"]
+    },
+    {
+      "month": "1985-09",
+      "title": "The Plaza communiqué addresses exchange-rate imbalances",
+      "description": "Five countries state that further orderly appreciation of major non-dollar currencies is desirable and express readiness to cooperate. Dollar-based international returns also reflect currencies.",
+      "source_ids": ["plaza85"]
+    },
+    {
+      "month": "1987-06",
+      "title": "Apple implements a two-for-one stock split",
+      "description": "Each share becomes two shares; this changes units and quoted prices rather than creating a separate investment gain. Adjusted prices account for the split.",
+      "source_ids": ["apple-split-history"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "August 1982 was a difficult starting point: high unemployment, concern about inflation and borrowing costs, and uncertainty about recovery were already visible. In July 1983, the NBER announced that the recession had ended in November 1982. That confirmation came months after the turning point; a player at the start did not have an official recovery date. The holding period also contained developments far removed from the immediate recession news. Coca-Cola changed its flagship formula in April 1985 and restored the original formula that July after consumer objections. In September 1985, the Plaza communiqué stated that appreciation of major non-dollar currencies against the dollar was desirable. Exchange-rate exposure matters when international investments are measured in dollars, though this exhibit does not estimate the communiqué’s contribution to returns. Apple implemented a two-for-one split in June 1987. The split increased the number of shares and changed prices per share, without providing a separate gain. The return paths use dividend-adjusted prices and broad-asset proxies, so different investments can move in different directions during the same news cycle. Headlines describe parts of the environment rather than explain every monthly movement. The endpoint is August 1987. It deliberately stops before the later October stock-market crash: adding that event would change the selected five-year experiment. Contemporary uncertainty deserves to be understood on its own terms.",
+    "source_ids": [
+      "nber-trough82",
+      "ko-new-coke",
+      "plaza85",
+      "apple-split-history",
+      "yahoo-aapl",
+      "yahoo-ibm",
+      "yahoo-ko",
+      "french-us",
+      "french-international",
+      "fred-gs5"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "The locked headlines mix recession and interest-rate concerns with Beirut, Mexico’s debt problems, computer hobbies, corporate competition and horse racing. They are a dated editorial snapshot of what readers encountered.",
+    "what_actually_mattered": "The starting prices, chosen exposures, dividends and complete sequence of returns determine these simulated results. Changing economic and currency conditions provide context; the markers do not assign returns to particular headlines.",
+    "what_faded_away": "Immediate evacuation plans, hobby stories and sporting dates gave way to new news. Coca-Cola’s later formula controversy also changed direction quickly. News prominence is not the same as a reliable five-year investment forecast.",
+    "what_nobody_knew": "An August 1982 decision maker lacked the later recession-trough confirmation, the formula reversal and the exact monthly path of every investment. A later recovery does not make the starting uncertainty unreasonable. Events beyond August 1987 are outside this holding period.",
+    "source_ids": [
+      "nber-trough82",
+      "ko-new-coke",
+      "plaza85",
+      "apple-split-history",
+      "yahoo-aapl",
+      "yahoo-ibm",
+      "yahoo-ko",
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "time-921258",
+      "time-921264",
+      "time-921281",
+      "time-925713"
+    ]
+  }
+}

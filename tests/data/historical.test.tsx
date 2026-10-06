@@ -256,19 +256,20 @@ describe('September 1999 historical pilot', () => {
       'disagree',
     );
   });
-  it('loads through the registry and refuses to fake a five-scenario production queue', async () => {
-    expect(productionLibrary).toEqual([
-      { scenario_id: '1999-09', selection_mode: 'important' },
-    ]);
+  it('loads the pilot through the qualified registry and rejects missing scenarios', async () => {
+    expect(productionLibrary).toContainEqual({
+      scenario_id: '1999-09',
+      selection_mode: 'important',
+    });
     expect(await loadHistoricalScenario('1999-09')).toEqual(scenario);
     expect(historicalDecisionContext('1999-09')).toEqual(
       decisionContext(scenario.known),
     );
     expect(() => historicalDecisionContext('dev-fictional')).toThrow('Unknown');
     await expect(loadHistoricalScenario('missing')).rejects.toThrow('Unknown');
-    expect(() => buildSessionQueue(productionLibrary, 5, [], 'pilot')).toThrow(
-      'Need 5 unique scenarios, have 1',
-    );
+    expect(
+      new Set(buildSessionQueue(productionLibrary, 5, [], 'pilot')).size,
+    ).toBe(5);
   });
   it('renders only the decision projection, without cohort, selection notes, citations, or future text', () => {
     const context = historicalDecisionContext('1999-09');
