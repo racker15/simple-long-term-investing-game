@@ -28,8 +28,8 @@ import {
   firstTimeResults,
   type PlayerHistory,
 } from './lib/history';
-import { ScenarioView } from './components/ScenarioView';
-import { Allocation } from './components/Allocation';
+
+import { DecisionView } from './components/DecisionView';
 import { Reveal } from './components/Reveal';
 import { Checkpoint, FinalScorecard } from './components/Scorecard';
 import { PlayerHistory as LearningHistory } from './components/PlayerHistory';
@@ -321,8 +321,7 @@ export default function App() {
               <p role="status">Loading the five-year reveal…</p>
             ) : session.phase === 'decision' && id ? (
               <>
-                <ScenarioView context={historicalDecisionContext(id)} />
-                <Allocation
+                <DecisionView
                   key={id}
                   context={historicalDecisionContext(id)}
                   storageKey={`investing-game:draft:${session.session_id}:${id}:v1`}

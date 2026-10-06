@@ -1,7 +1,12 @@
 import { useEffect, useRef, useState } from 'react';
-import { INITIAL_CAPITAL, type FutureOutcomes } from '../lib/contracts';
+import {
+  INITIAL_CAPITAL,
+  type FutureOutcomes,
+  type AssetId,
+} from '../lib/contracts';
 import type { PortfolioPath } from '../lib/portfolio';
 import { money, percent } from '../lib/format';
+import { investmentStyle } from '../lib/investment-style';
 import { SignedReturn } from './SignedReturn';
 export function PathChart({
   player,
@@ -17,7 +22,7 @@ export function PathChart({
   diversified: PortfolioPath;
   usTotal: PortfolioPath;
   hotStocks: {
-    id: string;
+    id: AssetId;
     company_name: string;
     ticker: string;
     path: PortfolioPath;
@@ -93,9 +98,9 @@ export function PathChart({
       label: 'US Total Market',
       endLabel: 'US Total Market',
       path: usTotal,
-      color: '#7b8392',
+      color: investmentStyle('us_total', []).color,
       width: 2,
-      dash: undefined,
+      dash: '2 3',
       testId: 'path-1',
       assetId: undefined,
     },
@@ -113,9 +118,12 @@ export function PathChart({
       label: `${stock.company_name} (${stock.ticker})`,
       endLabel: stock.ticker,
       path: stock.path,
-      color: ['#2475a8', '#b34f65', '#7657a4'][index],
+      color: investmentStyle(
+        stock.id,
+        hotStocks.map((item) => item.id),
+      ).color,
       width: 2.5,
-      dash: undefined,
+      dash: [undefined, '6 2', '2 3'][index],
       testId: `hot-stock-path-${index}`,
       assetId: stock.id,
     })),
@@ -330,6 +338,7 @@ export function PathChart({
                 fill="none"
                 stroke={chartSeries[seriesIndex].color}
                 strokeWidth={chartSeries[seriesIndex].width}
+                strokeDasharray={chartSeries[seriesIndex].dash}
                 points={revealedValues(values)
                   .map(
                     (value, index) =>

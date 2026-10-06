@@ -1,4 +1,4 @@
-import { useLayoutEffect, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import {
   ALLOCATION_STEP,
   INITIAL_CAPITAL,
@@ -7,15 +7,23 @@ import {
 } from '../lib/contracts';
 import type { DecisionContext } from '../lib/validation';
 import { normalizeAllocations } from '../lib/portfolio';
-import { money } from '../lib/format';
+import { money, percent } from '../lib/format';
 import { readAllocationDraft } from '../lib/allocation-draft';
+import { AllocationBar, InvestmentMark } from './InvestmentVisual';
+export type AllocationSnapshot = {
+  allocations: Allocations;
+  expected: AssetId | '';
+  confirming: boolean;
+};
 export function Allocation({
   context,
   onCommit,
   storageKey,
+  onSnapshot,
 }: {
   context: DecisionContext;
   storageKey?: string;
+  onSnapshot?: (snapshot: AllocationSnapshot) => void;
   onCommit: (
     allocation: Allocations,
     expected: AssetId,
@@ -43,6 +51,9 @@ export function Allocation({
   const [draft, updateDraft] = useState<Partial<Allocations>>(initial.draft);
   const [expected, updateExpected] = useState<AssetId | ''>(initial.expected);
   const [warning, setWarning] = useState(initial.warning);
+  const [saved, setSaved] = useState(false);
+  const [undo, setUndo] = useState<Partial<Allocations> | null>(null);
+  const [changed, setChanged] = useState<string[]>([]);
   function persist(
     nextDraft: Partial<Allocations>,
     nextExpected: AssetId | '',
@@ -53,13 +64,18 @@ export function Allocation({
         storageKey,
         JSON.stringify({ draft: nextDraft, expected: nextExpected }),
       );
+      setSaved(true);
+      setWarning('');
     } catch {
+      setSaved(false);
       setWarning(
         'Your edits could not be saved. Keep this tab open to finish your choice.',
       );
     }
   }
   function setDraft(next: Partial<Allocations>) {
+    setUndo(draft);
+    setChanged(['cash', ...ids.filter((id) => next[id] !== draft[id])]);
     persist(next, expected);
     updateDraft(next);
   }
@@ -81,21 +97,49 @@ export function Allocation({
     0,
   );
   const normalized = normalizeAllocations(ids, draft);
+  useEffect(() => {
+    onSnapshot?.({
+      allocations: normalizeAllocations(ids, draft),
+      expected,
+      confirming,
+    });
+  }, [draft, expected, confirming, onSnapshot]);
+  useEffect(() => {
+    if (!changed.length) return;
+    const timer = window.setTimeout(() => setChanged([]), 600);
+    return () => window.clearTimeout(timer);
+  }, [changed]);
   return (
     <section
       className={`panel allocation-panel${confirming ? ' allocation-locked' : ''}`}
       aria-labelledby="allocation-title"
     >
-      <h2 id="allocation-title">Invest your $10,000</h2>
+      <h2 id="allocation-title" tabIndex={-1}>
+        Invest your $10,000
+      </h2>
       {warning && <p role="status">{warning}</p>}
+      <p className="small" role="status">
+        {storageKey
+          ? saved
+            ? 'Saved on this browser. Other devices will not have this choice.'
+            : 'Edits save on this browser when storage is available.'
+          : 'Preview only: this choice is not saved.'}
+      </p>
+      <AllocationBar context={context} allocations={normalized} />
       <p>
         Move money in $500 steps. Cash is the amount remaining: adding to
         another investment reduces Cash, and removing money increases it.
       </p>
       {context.asset_definitions.map((asset) => (
-        <div className="allocation-row" key={asset.id}>
+        <div
+          className={`allocation-row${changed.includes(asset.id) ? ' allocation-changed' : ''}`}
+          key={asset.id}
+        >
           <div>
-            <strong>{asset.name}</strong>
+            <strong>
+              <InvestmentMark id={asset.id} ids={ids} />
+              <span className="investment-name">{asset.name}</span>
+            </strong>
             <p className="small">{asset.description}</p>
           </div>
           <div className="stepper">
@@ -105,6 +149,7 @@ export function Allocation({
                 <output aria-label="Cash allocation">
                   {money(normalized.cash)}
                 </output>
+                <small>{percent(normalized.cash / INITIAL_CAPITAL)}</small>
               </>
             ) : (
               <>
@@ -112,6 +157,13 @@ export function Allocation({
                   className="secondary"
                   aria-label={`Remove $500 from ${asset.name}`}
                   disabled={confirming || !draft[asset.id]}
+                  title={
+                    confirming
+                      ? 'Locked for review'
+                      : !draft[asset.id]
+                        ? 'Nothing to remove here'
+                        : 'Move $500 back to cash'
+                  }
                   onClick={() =>
                     setDraft({
                       ...draft,
@@ -124,10 +176,18 @@ export function Allocation({
                 <output aria-label={`${asset.name} allocation`}>
                   {money(normalized[asset.id])}
                 </output>
+                <small>{percent(normalized[asset.id] / INITIAL_CAPITAL)}</small>
                 <button
                   className="secondary"
                   aria-label={`Add $500 to ${asset.name}`}
                   disabled={confirming || explicit >= INITIAL_CAPITAL}
+                  title={
+                    confirming
+                      ? 'Locked for review'
+                      : explicit >= INITIAL_CAPITAL
+                        ? 'All $10,000 is allocated'
+                        : 'Move $500 from cash'
+                  }
                   onClick={() =>
                     setDraft({
                       ...draft,
@@ -148,13 +208,37 @@ export function Allocation({
         </strong>{' '}
         · {money(normalized.cash)} remaining in Cash.
       </p>
+      {!confirming && undo && (
+        <button
+          className="secondary"
+          onClick={() => {
+            persist(undo, expected);
+            updateDraft(undo);
+            setUndo(null);
+            setChanged([]);
+          }}
+        >
+          Undo last allocation change
+        </button>
+      )}
+      {!confirming && explicit >= INITIAL_CAPITAL && (
+        <p className="small">
+          All $10,000 is allocated. Remove money from an investment before
+          adding elsewhere.
+        </p>
+      )}
       <fieldset disabled={confirming}>
         <legend>
           Which investment do you think will do best over the next five years?
         </legend>
         <div className="prediction-grid">
           {context.asset_definitions.map((asset) => (
-            <label key={asset.id}>
+            <label
+              key={asset.id}
+              className={
+                expected === asset.id ? 'prediction-selected' : undefined
+              }
+            >
               <input
                 type="radio"
                 name="expected-winner"
@@ -162,6 +246,7 @@ export function Allocation({
                 checked={expected === asset.id}
                 onChange={() => setExpected(asset.id)}
               />
+              <InvestmentMark id={asset.id} ids={ids} />
               {asset.name}
             </label>
           ))}

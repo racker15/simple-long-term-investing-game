@@ -889,3 +889,76 @@ test('replay reveal keeps the locked choice and never records a second result', 
   ).toBeVisible();
   expect((await history(page)).active.completed).toHaveLength(1);
 });
+
+test('decision orientation, allocation identity and Undo stay consistent', async ({
+  page,
+}, testInfo) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await expect(page.getByRole('list', { name: 'Round stages' })).toContainText(
+    'Explore the moment',
+  );
+  const headlines = page.locator('.stories details');
+  await expect(headlines.first()).toHaveAttribute('open', '');
+  await expect(headlines.nth(2)).not.toHaveAttribute('open', '');
+  await headlines.nth(2).locator('summary').click();
+  await expect(headlines.nth(2)).toHaveAttribute('open', '');
+  const allocation = page.locator('.allocation-panel');
+  await page
+    .getByRole('button', { name: 'Add $500 to Bonds', exact: true })
+    .click();
+  await expect(page.getByLabel('Bonds allocation', { exact: true })).toHaveText(
+    '$500',
+  );
+  await expect(allocation.locator('.allocation-bar')).toHaveAccessibleName(
+    /Bonds: \$500, 5%/,
+  );
+  await expect(allocation.getByRole('status')).toContainText(
+    'Saved on this browser',
+  );
+  await page
+    .getByRole('button', { name: 'Undo last allocation change', exact: true })
+    .click();
+  await expect(page.getByLabel('Bonds allocation', { exact: true })).toHaveText(
+    '$0',
+  );
+  await expect(page.getByLabel('Cash allocation', { exact: true })).toHaveText(
+    '$10,000',
+  );
+  await expect(
+    page.getByRole('button', {
+      name: 'Undo last allocation change',
+      exact: true,
+    }),
+  ).toHaveCount(0);
+  await page
+    .getByRole('button', { name: 'Add $500 to Bonds', exact: true })
+    .click();
+  await page.getByRole('radio', { name: 'Bonds', exact: true }).check();
+  await expect(
+    page.getByRole('radio', { name: 'Bonds', exact: true }).locator('..'),
+  ).toHaveClass('prediction-selected');
+  await page.reload();
+  await expect(page.getByLabel('Bonds allocation', { exact: true })).toHaveText(
+    '$500',
+  );
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await expect(
+    page.getByRole('button', {
+      name: 'Undo last allocation change',
+      exact: true,
+    }),
+  ).toHaveCount(0);
+  await expect(
+    page.getByRole('button', { name: 'Invest and see what happens' }),
+  ).toBeInViewport({ ratio: 1 });
+  await page.screenshot({
+    path: testInfo.outputPath('session-engagement-choice.png'),
+    fullPage: true,
+  });
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth,
+    ),
+  ).toBe(true);
+});
