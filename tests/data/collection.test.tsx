@@ -91,6 +91,11 @@ describe('locked six-scenario historical collection', () => {
       const months = Array.from({ length: 60 }, (_, i) =>
         shiftMonth(id, i + 1),
       );
+      const narrativeWords = scenario.future.what_happened_next.text
+        .trim()
+        .split(/\s+/).length;
+      expect(narrativeWords).toBeGreaterThanOrEqual(150);
+      expect(narrativeWords).toBeLessThanOrEqual(250);
       expect(Object.keys(scenario.future.monthly_returns)).toHaveLength(7);
       for (const rows of Object.values(scenario.future.monthly_returns)) {
         expect(rows.map((row) => row.month)).toEqual(months);
