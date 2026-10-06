@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import type { Scenario, ScenarioResult } from '../lib/contracts';
 import { calculatePortfolio, calculateComparisons } from '../lib/portfolio';
 import { resultExpectations } from '../lib/results';
@@ -19,11 +19,23 @@ export function Reveal({
 }) {
   const [finished, setFinished] = useState(false);
   const finish = useCallback(() => setFinished(true), []);
-  const portfolio = calculatePortfolio(
-    scenario.future.monthly_returns,
-    result.allocations,
+  const monthlyReturns = scenario.future.monthly_returns;
+  const portfolio = useMemo(
+    () => calculatePortfolio(monthlyReturns, result.allocations),
+    [monthlyReturns, result.allocations],
   );
-  const comparisons = calculateComparisons(scenario.future.monthly_returns);
+  const comparisons = useMemo(
+    () => calculateComparisons(monthlyReturns),
+    [monthlyReturns],
+  );
+  const hotStocks = useMemo(
+    () =>
+      scenario.known.hot_stocks.map((stock) => ({
+        ...stock,
+        path: calculatePortfolio(monthlyReturns, { [stock.id]: 10_000 }),
+      })),
+    [monthlyReturns, scenario.known.hot_stocks],
+  );
   const expectations = resultExpectations(result);
   const name = (id: string) =>
     scenario.known.asset_definitions.find((asset) => asset.id === id)?.name ??
@@ -39,6 +51,7 @@ export function Reveal({
         player={portfolio}
         diversified={comparisons.diversified}
         usTotal={comparisons.us_total}
+        hotStocks={hotStocks}
         events={scenario.future.events}
         onFinished={finish}
       />
@@ -76,6 +89,29 @@ export function Reveal({
                 <dd>{money(comparisons.diversified.ending_value)}</dd>
               </div>
             </dl>
+          </section>
+          <section className="panel" aria-labelledby="hot-stock-outcomes-title">
+            <h2 id="hot-stock-outcomes-title">
+              What happened to the hot stocks?
+            </h2>
+            <ul className="hot-stock-outcomes">
+              {hotStocks.map((stock, index) => (
+                <li
+                  className="hot-stock-outcome"
+                  data-testid={`hot-stock-outcome-${index}`}
+                  key={stock.id}
+                >
+                  <h3>
+                    {stock.company_name} <span>({stock.ticker})</span>
+                  </h3>
+                  <p>{stock.description}</p>
+                  <p>
+                    Five-year return:{' '}
+                    <strong>{percent(stock.path.total_return)}</strong>
+                  </p>
+                </li>
+              ))}
+            </ul>
           </section>
           <section className="panel">
             <h2>Expectation vs. reality</h2>

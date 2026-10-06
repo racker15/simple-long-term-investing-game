@@ -1,5 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
+import { percent } from '../../app/src/lib/format';
+import { calculatePortfolio } from '../../app/src/lib/portfolio';
 
 const ids = ['1982-08', '1987-01', '1999-09', '2004-05', '2008-09', '2016-02'];
 for (const id of ids) {
@@ -33,6 +35,12 @@ for (const id of ids) {
     await expect(
       page.getByRole('heading', { name: 'Five years later' }),
     ).toHaveCount(0);
+    await expect(
+      page.locator('[data-testid^="hot-stock-outcome-"]'),
+    ).toHaveCount(0);
+    await expect(page.locator('[data-testid^="hot-stock-path-"]')).toHaveCount(
+      0,
+    );
     for (const event of future.events)
       await expect(page.getByText(event.title, { exact: true })).toHaveCount(0);
     await expect(
@@ -59,6 +67,25 @@ for (const id of ids) {
     await expect(
       page.getByRole('heading', { name: 'Five years later', exact: true }),
     ).toBeVisible();
+    await expect(
+      page.locator('[data-testid^="hot-stock-outcome-"]'),
+    ).toHaveCount(3);
+    await expect(page.locator('[data-testid^="hot-stock-path-"]')).toHaveCount(
+      3,
+    );
+    for (const [index, stock] of known.hot_stocks.entries()) {
+      const expectedReturn = calculatePortfolio(future.monthly_returns, {
+        [stock.id]: 10_000,
+      }).total_return;
+      const outcome = page.getByTestId(`hot-stock-outcome-${index}`);
+      await expect(outcome).toContainText(stock.company_name);
+      await expect(outcome).toContainText(stock.ticker);
+      await expect(outcome).toContainText(stock.description);
+      await expect(outcome).toContainText(percent(expectedReturn));
+      const path = page.getByTestId(`hot-stock-path-${index}`);
+      await expect(path).toHaveAttribute('data-asset-id', stock.id);
+      await expect(path).toHaveAttribute('points', /\S+( \S+){60}$/);
+    }
     expect(
       requests.some((url) => url.includes(`/${id}/future_outcomes.json`)),
     ).toBe(true);
