@@ -973,12 +973,15 @@ Build:
 - portfolio line;
 - US Total comparison line;
 - diversified benchmark line;
+- one path for each of the scenario's three hot stocks;
+- show hot-stock paths in a clearly labeled lower panel with its own dollar scale and the same timeline as the portfolio and broad comparisons above;
+- a compact post-reveal outcome for each hot stock with its company name, ticker, short description, and five-year percentage return derived from the 60 monthly returns;
 - event annotations;
 - tap/click event details;
 - responsive rendering;
 - reduced-motion fallback.
 
-The chart path should be visually primary; the ending benchmark comparison should be secondary.
+Keep the player's portfolio and broad comparisons understandable beside the hot-stock paths. The chart path should be visually primary; the ending benchmark comparison should be secondary. Do not expose hot-stock future paths or returns before commitment.
 
 ### Phase 5 — Expectation vs. reality
 

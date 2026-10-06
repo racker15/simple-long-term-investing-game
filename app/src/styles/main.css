@@ -251,6 +251,40 @@ input[type='radio'] {
 .benchmark-key {
   color: #815423;
 }
+.hot-stock-key {
+  font-weight: 600;
+}
+.hot-stock-outcomes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.hot-stock-outcome {
+  min-width: 0;
+  border-top: 3px solid #2475a8;
+  background: #f7f8f5;
+  padding: 0.8rem;
+  overflow-wrap: anywhere;
+}
+.hot-stock-outcome:nth-child(2) {
+  border-color: #b34f65;
+}
+.hot-stock-outcome:nth-child(3) {
+  border-color: #7657a4;
+}
+.hot-stock-outcome h3,
+.hot-stock-outcome p {
+  margin: 0.35rem 0;
+}
+.hot-stock-outcome h3 span {
+  white-space: nowrap;
+}
+.hot-stock-outcome p:last-child {
+  margin-top: 0.7rem;
+}
 .ending {
   font-size: 1.3rem;
 }
@@ -274,6 +308,7 @@ footer {
   }
   .context-grid,
   .stock-grid,
+  .hot-stock-outcomes,
   .prediction-grid {
     grid-template-columns: 1fr;
   }

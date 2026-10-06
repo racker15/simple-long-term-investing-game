@@ -696,9 +696,23 @@ Default benchmark:
 - 20% International ex-US
 - 20% Bonds
 
-Do not show all seven asset lines initially.
+Also show the three scenario-specific hot stocks as paths on this chart. Each
+stock path starts at $10,000 and follows its 60 monthly returns. Keep the
+player's portfolio and the two broad comparisons easy to identify alongside
+the stocks.
 
-A **Compare investments** control may reveal individual asset results afterward.
+Use two simple panels with the same timeline: the upper panel shows the
+player's portfolio and broad comparisons, while the lower panel shows the
+three hot stocks. Label each panel's dollar scale clearly, including that the
+hot stocks use a separate scale. This keeps unusually large stock gains from
+flattening the portfolio paths and helps players read each panel correctly.
+
+After the chart is revealed, show a compact outcome for each hot stock with its
+company name, ticker, short plain-language description, and final five-year
+percentage return. Calculate that return from the same 60 monthly observations
+used for the chart; do not store a separate ending-return value. The stock
+paths and outcomes are future information and must not appear before the player
+commits.
 
 The primary question should remain:
 
@@ -727,6 +741,10 @@ Then show comparisons with lower visual emphasis:
 
 > US Total Market: **$9,950**  
 > Diversified benchmark: **$11,730**
+
+Also show the three hot-stock outcomes with the chart: company name, ticker, a
+short plain-language description, and the final five-year percentage return.
+Calculate each return from the scenario's canonical 60-month return series.
 
 Also show:
 
@@ -1304,4 +1322,3 @@ The product succeeds when the player finishes a round thinking:
 > **“That outcome makes sense now that I know it—but I could not have known it then.”**
 
 ---
-

@@ -74,7 +74,7 @@ The CI workflow runs both `npm run check` and browser tests. Browser screenshots
 - `scripts/fetch/`, `scripts/normalize/`, `scripts/build/`: public-source retrieval, normalization, deterministic historical assembly, schema export, and fictional fixture generation. `scripts/validate/`: collection validation and recomputation.
 - `tests/`: hand-checkable math fixtures, invalid-data cases, seeded queues, scorecards, session transitions, information-firewall rendering, and browser journeys.
 
-The app uses React, Vite, and strict TypeScript, with ordinary component state. SVG supplies the small three-line chart and clickable event markers; no chart or state-management framework is needed. There is no backend. Ajv checks the same schemas used to derive TypeScript types.
+The app uses React, Vite, and strict TypeScript, with ordinary component state. SVG supplies the portfolio, broad comparison, and three hot-stock paths with clickable event markers; no chart or state-management framework is needed. There is no backend. Ajv checks the same schemas used to derive TypeScript types.
 
 ## Canonical scenario contracts
 
@@ -97,7 +97,7 @@ No stored benchmark series or winner summaries are accepted as scenario inputs. 
 
 ### Information firewall
 
-The starting content is physically separate from future outcomes. `ScenarioView` and `Allocation` receive only `DecisionContext`, produced from `KnownAtStart`. That projection uses explicit player-facing nested types and allowlists the displayed date, headline/category/summary, macro values, forecast text, recent returns, hot-stock identity/description/returns, and asset IDs/names/descriptions. It excludes scenario selection metadata, provenance, and all future outcomes. Headline selection notes, hot-stock selection rationales, and every nested source ID remain in the known bundle and are absent from `DecisionContext`, so pre-investment components never receive them. Future events, comparisons, ranks, and reflection render only after commitment. Cohort labels appear only in the final scorecard, never in a checkpoint.
+The starting content is physically separate from future outcomes. `ScenarioView` and `Allocation` receive only `DecisionContext`, produced from `KnownAtStart`. That projection uses explicit player-facing nested types and allowlists the displayed date, headline/category/summary, macro values, forecast text, recent returns, hot-stock identity/description/returns, and asset IDs/names/descriptions. It excludes scenario selection metadata, provenance, and all future outcomes. Headline selection notes, hot-stock selection rationales, and every nested source ID remain in the known bundle and are absent from `DecisionContext`, so pre-investment components never receive them. Future events, comparisons, ranks, hot-stock paths and outcomes, and reflection render only after commitment. Cohort labels appear only in the final scorecard, never in a checkpoint.
 
 All referenced pre-investment sources must have a non-null `publication_date <= scenario date`. Retrieval may be later: it describes when the project obtained a source, not when the information became public. Unknown references and invalid dates fail validation. Future source records are allowed in provenance but cannot be referenced from starting content.
 

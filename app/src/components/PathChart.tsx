@@ -6,12 +6,19 @@ export function PathChart({
   player,
   diversified,
   usTotal,
+  hotStocks,
   events,
   onFinished,
 }: {
   player: PortfolioPath;
   diversified: PortfolioPath;
   usTotal: PortfolioPath;
+  hotStocks: {
+    id: string;
+    company_name: string;
+    ticker: string;
+    path: PortfolioPath;
+  }[];
   events: FutureOutcomes['events'];
   onFinished: () => void;
 }) {
@@ -29,15 +36,65 @@ export function PathChart({
     );
     return () => window.clearTimeout(timer);
   }, [visible, onFinished]);
-  const series = [player, usTotal, diversified].map((path) => [
+  const chartSeries = [
+    {
+      label: 'Your portfolio',
+      path: player,
+      color: '#164f45',
+      width: 4,
+      dash: undefined,
+      testId: 'path-0',
+      assetId: undefined,
+    },
+    {
+      label: 'US Total Market',
+      path: usTotal,
+      color: '#7b8392',
+      width: 2,
+      dash: undefined,
+      testId: 'path-1',
+      assetId: undefined,
+    },
+    {
+      label: 'Diversified benchmark',
+      path: diversified,
+      color: '#ae7641',
+      width: 2,
+      dash: '6 4',
+      testId: 'path-2',
+      assetId: undefined,
+    },
+    ...hotStocks.map((stock, index) => ({
+      label: `${stock.company_name} (${stock.ticker})`,
+      path: stock.path,
+      color: ['#2475a8', '#b34f65', '#7657a4'][index],
+      width: 2.5,
+      dash: undefined,
+      testId: `hot-stock-path-${index}`,
+      assetId: stock.id,
+    })),
+  ];
+  const series = chartSeries.map(({ path }) => [
     10000,
     ...path.points.map((point) => point.total),
   ]);
-  const minimum = Math.min(...series.flat()),
-    maximum = Math.max(...series.flat());
-  const span = Math.max(1, maximum - minimum);
-  const x = (index: number) => 125 + (index / 60) * 655;
-  const y = (value: number) => 245 - ((value - minimum) / span) * 215;
+  const portfolioSeries = series.slice(0, 3);
+  const hotStockSeries = series.slice(3);
+  const portfolioValues = portfolioSeries.flat();
+  const hotStockValues = hotStockSeries.flat();
+  const portfolioMinimum = Math.min(...portfolioValues);
+  const portfolioMaximum = Math.max(...portfolioValues);
+  const hotStockMinimum = Math.min(...hotStockValues);
+  const hotStockMaximum = Math.max(...hotStockValues);
+  const portfolioSpan = Math.max(1, portfolioMaximum - portfolioMinimum);
+  const hotStockSpan = Math.max(1, hotStockMaximum - hotStockMinimum);
+  const plotStart = 165;
+  const plotEnd = 780;
+  const x = (index: number) => plotStart + (index / 60) * (plotEnd - plotStart);
+  const portfolioY = (value: number) =>
+    175 - ((value - portfolioMinimum) / portfolioSpan) * 135;
+  const hotStockY = (value: number) =>
+    355 - ((value - hotStockMinimum) / hotStockSpan) * 120;
   const markers = events
     .map((event, i) => ({ event, i }))
     .filter(
@@ -47,46 +104,98 @@ export function PathChart({
   return (
     <figure className="chart">
       <figcaption>
-        Value of your original $10,000 · 60 monthly returns
+        Your portfolio and market comparisons are above. The hot stocks below
+        use their own dollar scale. Both panels follow the same five years.
       </figcaption>
       <svg
-        viewBox="0 0 800 300"
+        viewBox="0 0 800 420"
         role="img"
         aria-labelledby="path-title path-description"
       >
         <title id="path-title">Five-year portfolio path</title>
         <desc id="path-description">
-          Your portfolio, US Total Market, and diversified benchmark compared
-          over sixty months. A complete monthly value table follows.
+          Two chart panels share the same timeline and use separate dollar
+          scales. The upper panel shows your portfolio and two broad
+          comparisons. The lower panel shows all three hot stocks. A complete
+          monthly value table follows.
         </desc>
-        {[minimum, (minimum + maximum) / 2, maximum].map((value) => (
+        <text x={plotStart} y="20">
+          Your portfolio and broad comparisons
+        </text>
+        {[
+          portfolioMinimum,
+          (portfolioMinimum + portfolioMaximum) / 2,
+          portfolioMaximum,
+        ].map((value) => (
           <g key={value}>
             <line
-              x1="125"
-              x2="780"
-              y1={y(value)}
-              y2={y(value)}
+              x1={plotStart}
+              x2={plotEnd}
+              y1={portfolioY(value)}
+              y2={portfolioY(value)}
               stroke="#d7ded9"
             />
-            <text x="110" y={y(value) + 4} textAnchor="end">
+            <text x="150" y={portfolioY(value) + 4} textAnchor="end">
               {money(value)}
             </text>
           </g>
         ))}
-        {series.map((values, i) => (
+        {portfolioSeries.map((values, i) => (
           <polyline
             key={i}
-            data-testid={`path-${i}`}
+            data-testid={chartSeries[i].testId}
             fill="none"
-            stroke={['#164f45', '#7b8392', '#ae7641'][i]}
-            strokeWidth={i === 0 ? 4 : 2}
-            strokeDasharray={i === 2 ? '6 4' : undefined}
+            stroke={chartSeries[i].color}
+            strokeWidth={chartSeries[i].width}
+            strokeDasharray={chartSeries[i].dash}
             points={values
               .slice(0, visible + 1)
-              .map((value, index) => `${x(index)},${y(value)}`)
+              .map((value, index) => `${x(index)},${portfolioY(value)}`)
               .join(' ')}
-          />
+          >
+            <title>{chartSeries[i].label}</title>
+          </polyline>
         ))}
+        <text x={plotStart} y="215">
+          Hot stocks (shown on their own dollar scale)
+        </text>
+        {[
+          hotStockMinimum,
+          (hotStockMinimum + hotStockMaximum) / 2,
+          hotStockMaximum,
+        ].map((value) => (
+          <g key={value}>
+            <line
+              x1={plotStart}
+              x2={plotEnd}
+              y1={hotStockY(value)}
+              y2={hotStockY(value)}
+              stroke="#d7ded9"
+            />
+            <text x="150" y={hotStockY(value) + 4} textAnchor="end">
+              {money(value)}
+            </text>
+          </g>
+        ))}
+        {hotStockSeries.map((values, i) => {
+          const seriesIndex = i + 3;
+          return (
+            <polyline
+              key={chartSeries[seriesIndex].testId}
+              data-testid={chartSeries[seriesIndex].testId}
+              data-asset-id={chartSeries[seriesIndex].assetId}
+              fill="none"
+              stroke={chartSeries[seriesIndex].color}
+              strokeWidth={chartSeries[seriesIndex].width}
+              points={values
+                .slice(0, visible + 1)
+                .map((value, index) => `${x(index)},${hotStockY(value)}`)
+                .join(' ')}
+            >
+              <title>{chartSeries[seriesIndex].label}</title>
+            </polyline>
+          );
+        })}
         {visible >= 60 &&
           markers.map(({ event, i }) => {
             const title = events
@@ -104,7 +213,7 @@ export function PathChart({
               >
                 <circle
                   cx={x(index + 1)}
-                  cy={y(player.points[index].total)}
+                  cy={portfolioY(player.points[index].total)}
                   r="6"
                   fill="#164f45"
                   stroke="white"
@@ -117,11 +226,11 @@ export function PathChart({
               </a>
             );
           })}
-        <text x="125" y="278" textAnchor="middle">
+        <text x={x(0)} y="400" textAnchor="middle">
           Start
         </text>
         {[12, 24, 36, 48, 60].map((month) => (
-          <text key={month} x={x(month)} y="278" textAnchor="end">
+          <text key={month} x={x(month)} y="400" textAnchor="middle">
             Year {month / 12}
           </text>
         ))}
@@ -130,6 +239,15 @@ export function PathChart({
         <span className="player-key">━ Your portfolio</span>
         <span>━ US Total Market</span>
         <span className="benchmark-key">┄ Diversified benchmark</span>
+        {hotStocks.map((stock, index) => (
+          <span
+            className="hot-stock-key"
+            key={stock.id}
+            style={{ color: ['#2475a8', '#b34f65', '#7657a4'][index] }}
+          >
+            ━ {stock.company_name} ({stock.ticker})
+          </span>
+        ))}
       </p>
       {visible < 60 && (
         <button className="secondary" onClick={() => setVisible(60)}>
@@ -141,7 +259,8 @@ export function PathChart({
         <div className="table-scroll">
           <table>
             <caption>
-              Complete monthly values for all three portfolio paths
+              Complete monthly values for your portfolio, both comparisons, and
+              all three hot stocks
             </caption>
             <thead>
               <tr>
@@ -149,6 +268,11 @@ export function PathChart({
                 <th>Your portfolio</th>
                 <th>US Total</th>
                 <th>Diversified</th>
+                {hotStocks.map((stock) => (
+                  <th key={stock.id}>
+                    {stock.company_name} ({stock.ticker})
+                  </th>
+                ))}
               </tr>
             </thead>
             <tbody>
@@ -158,6 +282,9 @@ export function PathChart({
                   <td>{money(point.total)}</td>
                   <td>{money(usTotal.points[i].total)}</td>
                   <td>{money(diversified.points[i].total)}</td>
+                  {hotStocks.map((stock) => (
+                    <td key={stock.id}>{money(stock.path.points[i].total)}</td>
+                  ))}
                 </tr>
               ))}
             </tbody>
