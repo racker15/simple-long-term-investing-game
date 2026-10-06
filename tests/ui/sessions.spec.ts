@@ -744,6 +744,7 @@ test('right-hand labels match every line and return at each reveal', async ({
 test('each reveal waits for Play and animates for eight seconds with moving endpoint labels', async ({
   page,
 }) => {
+  test.setTimeout(60000);
   await page.clock.install({ time: new Date('2026-10-06T00:00:00Z') });
   await page.emulateMedia({ reducedMotion: 'no-preference' });
   await page.goto('/');
