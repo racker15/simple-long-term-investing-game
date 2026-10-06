@@ -4,6 +4,7 @@ import { calculatePortfolio, calculateComparisons } from '../lib/portfolio';
 import { resultExpectations } from '../lib/results';
 import { money, percent } from '../lib/format';
 import { PathChart } from './PathChart';
+import { SignedReturn } from './SignedReturn';
 export function Reveal({
   scenario,
   result,
@@ -67,7 +68,9 @@ export function Reveal({
             <dl>
               <div>
                 <dt>Total five-year return</dt>
-                <dd>{percent(portfolio.total_return)}</dd>
+                <dd>
+                  <SignedReturn value={portfolio.total_return} />
+                </dd>
               </div>
               <div>
                 <dt>Highest monthly value (including start)</dt>
@@ -108,7 +111,9 @@ export function Reveal({
                   <p>{stock.description}</p>
                   <p>
                     Five-year return:{' '}
-                    <strong>{percent(stock.path.total_return)}</strong>
+                    <strong>
+                      <SignedReturn value={stock.path.total_return} />
+                    </strong>
                   </p>
                 </li>
               ))}

@@ -1,5 +1,5 @@
 import type { DecisionContext } from '../lib/validation';
-import { percent } from '../lib/format';
+import { SignedReturn } from './SignedReturn';
 // This component cannot accept future outcomes. It renders only the starting snapshot.
 export function ScenarioView({ context }: { context: DecisionContext }) {
   const name = (id: string) =>
@@ -58,8 +58,12 @@ export function ScenarioView({ context }: { context: DecisionContext }) {
               {context.recent_returns.map((asset) => (
                 <tr key={asset.asset_id}>
                   <th scope="row">{name(asset.asset_id)}</th>
-                  <td>{percent(asset.three_month)}</td>
-                  <td>{percent(asset.one_year)}</td>
+                  <td>
+                    <SignedReturn value={asset.three_month} />
+                  </td>
+                  <td>
+                    <SignedReturn value={asset.one_year} />
+                  </td>
                 </tr>
               ))}
             </tbody>
@@ -74,8 +78,8 @@ export function ScenarioView({ context }: { context: DecisionContext }) {
               <h3>{stock.company_name}</h3>
               <p>{stock.ticker}</p>
               <p>
-                {percent(stock.three_month)} over 3 months ·{' '}
-                {percent(stock.one_year)} over 1 year
+                <SignedReturn value={stock.three_month} /> over 3 months ·{' '}
+                <SignedReturn value={stock.one_year} /> over 1 year
               </p>
               <p>{stock.description}</p>
             </article>
