@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { INITIAL_CAPITAL, type FutureOutcomes } from '../lib/contracts';
 import type { PortfolioPath } from '../lib/portfolio';
+import { activeFrameMilliseconds } from '../lib/playback-clock';
 import { money, percent } from '../lib/format';
 import { SignedReturn } from './SignedReturn';
 export function PathChart({
@@ -43,9 +44,15 @@ export function PathChart({
   useEffect(() => {
     if (!started || reducedMotion) return;
     const from = target === 12 ? 0 : target === 36 ? 12 : 36;
-    const startTime = performance.now();
+    let previousFrame = performance.now();
+    let playedMs = 0;
     function frame(now: number) {
-      const progress = Math.min(1, (now - startTime) / 8000);
+      playedMs += activeFrameMilliseconds(
+        now - previousFrame,
+        document.visibilityState === 'visible',
+      );
+      previousFrame = now;
+      const progress = Math.min(1, playedMs / 8000);
       setVisible(from + (target - from) * progress);
       if (progress < 1) animation.current = requestAnimationFrame(frame);
     }

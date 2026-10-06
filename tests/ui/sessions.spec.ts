@@ -889,3 +889,35 @@ test('replay reveal keeps the locked choice and never records a second result', 
   ).toBeVisible();
   expect((await history(page)).active.completed).toHaveLength(1);
 });
+
+
+test('a long suspended frame gap cannot consume a reveal stage', async ({
+  page,
+}) => {
+  test.setTimeout(60000);
+  await page.clock.install({ time: new Date('2026-10-06T00:00:00Z') });
+  await page.emulateMedia({ reducedMotion: 'no-preference' });
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await page.getByRole('radio', { name: 'Cash', exact: true }).check();
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await page.clock.pauseAt(await page.evaluate(() => Date.now() + 1000));
+  await page
+    .getByRole('button', { name: 'Invest and see what happens' })
+    .click();
+  await page.getByRole('button', { name: 'Play reveal', exact: true }).click();
+  await page.clock.runFor(2000);
+  const before = await page.getByTestId('path-0').getAttribute('points');
+  await page.clock.fastForward(10000);
+  await expect(page.getByTestId('path-0')).toHaveAttribute('points', before!);
+  await expect(
+    page.getByRole('heading', {
+      name: 'Revealing through year 1…',
+      exact: true,
+    }),
+  ).toBeVisible();
+  await page.clock.runFor(6100);
+  await expect(
+    page.getByRole('heading', { name: 'Paused after 1 year', exact: true }),
+  ).toBeVisible();
+});
