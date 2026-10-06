@@ -17,6 +17,7 @@ export function PathChart({
   events,
   onFinished,
   focusPlay = false,
+  suspended = false,
 }: {
   player: PortfolioPath;
   diversified: PortfolioPath;
@@ -31,6 +32,7 @@ export function PathChart({
   events: FutureOutcomes['events'];
   onFinished: () => void;
   focusPlay?: boolean;
+  suspended?: boolean;
 }) {
   const [systemReduced, setSystemReduced] = useState(
     () => window.matchMedia('(prefers-reduced-motion: reduce)').matches,
@@ -71,7 +73,7 @@ export function PathChart({
   }, [paused, target]);
   const animation = useRef<number | null>(null);
   useEffect(() => {
-    if (!started || completedOnce || visible >= target) return;
+    if (!started || suspended || completedOnce || visible >= target) return;
     if (reducedMotion) {
       setVisible(target);
       setManualPause(false);
@@ -91,7 +93,7 @@ export function PathChart({
     return () => {
       if (animation.current !== null) cancelAnimationFrame(animation.current);
     };
-  }, [target, reducedMotion, started, manualPause, completedOnce]);
+  }, [target, reducedMotion, started, manualPause, completedOnce, suspended]);
   useEffect(() => {
     if (visible === 60 && !completedOnce) {
       setCompletedOnce(true);
@@ -306,6 +308,14 @@ export function PathChart({
           <button onClick={() => resume(target === 12 ? 36 : 60)}>
             Continue to year {target === 12 ? 3 : 5}
           </button>
+          <details className="thought-prompt">
+            <summary>A thought to consider (optional)</summary>
+            <p>
+              Would this {target === 12 ? 'first year' : 'three-year path'} have
+              changed how you felt about your choice? You do not need to answer
+              or change anything.
+            </p>
+          </details>
         </>
       ) : !paused && !completedOnce ? (
         <div className="actions">
@@ -643,6 +653,7 @@ export function PathChart({
         <label>
           Animation
           <select
+            aria-label="Animation"
             value={motion}
             onChange={(event) => {
               const value = event.target.value as

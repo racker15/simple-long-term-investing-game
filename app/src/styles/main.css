@@ -713,3 +713,96 @@ main:has(.chart-wide) {
 .locked-choice {
   padding: 0.7rem 1rem;
 }
+
+.reflection-summary .takeaway {
+  font-family: Georgia, serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  border-left: 4px solid #ac824b;
+  padding-left: 1rem;
+}
+.expectation-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.expectation-pair > div,
+.milestone-comparison article {
+  background: #f6f3eb;
+  padding: 1rem;
+  border: 1px solid #dfdccf;
+  border-radius: 0.6rem;
+}
+.milestone-comparison {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+}
+.milestone-comparison h3,
+.expectation-pair h3 {
+  margin-top: 0;
+}
+.benchmark-basket {
+  margin-block: 1rem;
+}
+.benchmark-basket .allocation-bar {
+  max-width: 500px;
+}
+.thought-prompt {
+  font-size: 0.9rem;
+  margin: 0.7rem 0;
+}
+.history-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.history-cards .panel {
+  margin: 0;
+}
+.history-cards h3 {
+  margin-top: 0;
+}
+.history-gallery {
+  margin-block: 1.5rem;
+}
+.round-journey {
+  display: flex;
+  gap: 0.6rem;
+  list-style: none;
+  padding: 0;
+}
+.round-journey li {
+  display: grid;
+  place-items: center;
+  min-width: 2.5rem;
+  min-height: 2.5rem;
+  padding: 0.4rem;
+  border-radius: 50%;
+  border: 1px solid #b0bcae;
+  background: #f7f3e9;
+}
+.round-journey [aria-current] {
+  background: #164f45;
+  color: white;
+  border-color: #164f45;
+  font-weight: 700;
+}
+.break-action {
+  margin-bottom: 1rem;
+}
+.noticing {
+  background: #f7f3e9;
+  border-left: 4px solid #ac824b;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+@media (max-width: 700px) {
+  .expectation-pair,
+  .milestone-comparison,
+  .history-cards {
+    grid-template-columns: 1fr;
+  }
+}

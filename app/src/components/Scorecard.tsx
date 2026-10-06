@@ -7,6 +7,26 @@ import {
   type Aggregate,
 } from '../lib/scorecards';
 import { money, percent } from '../lib/format';
+function Noticing({ card }: { card: Aggregate }) {
+  return (
+    <section className="noticing">
+      <h3>What did you notice?</h3>
+      <p>
+        In {card.leader_reversals} of these {card.count} scenarios, the year-one
+        leader was different from the five-year winner.
+      </p>
+      <p>
+        You put at least half your money in one investment in{' '}
+        {card.concentration_count} scenarios. Your portfolio fell at least 20%
+        from an earlier high in {card.drawdown_20_count} scenarios.
+      </p>
+      <p className="small">
+        These counts describe what happened; they do not prove that one choice
+        caused another outcome. Which path surprised you most?
+      </p>
+    </section>
+  );
+}
 export function Metrics({ card }: { card: Aggregate }) {
   return (
     <div className="context-grid">
@@ -106,6 +126,7 @@ export function Checkpoint({
       <ResultHelp />
       <div className="panel">
         <Metrics card={card} />
+        <Noticing card={card} />
         <p>{scorecardObservation(card)}</p>
       </div>
       <div className="actions">
@@ -136,6 +157,7 @@ export function FinalScorecard({
       <section className="panel">
         <h2>Overall session — {results.length} scenarios</h2>
         <Metrics card={card.overall} />
+        <Noticing card={card.overall} />
         <p>
           Middle ending value (median):{' '}
           <strong>{money(card.median_ending_value)}</strong>

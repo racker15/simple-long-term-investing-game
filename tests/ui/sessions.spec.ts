@@ -1064,3 +1064,123 @@ test('manual animation pause keeps its place and resumes remaining playing time'
     page.getByRole('heading', { name: 'Paused after 1 year', exact: true }),
   ).toBeVisible();
 });
+
+test('a break preserves the draft and restores the same stage after refresh', async ({
+  page,
+}) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await page
+    .getByRole('button', { name: 'Add $500 to Bonds', exact: true })
+    .click();
+  await page.getByRole('radio', { name: 'Bonds', exact: true }).check();
+  const saved = await history(page);
+  await page.getByRole('button', { name: 'Take a break', exact: true }).click();
+  await expect(
+    page.getByRole('heading', { name: 'Take your time', exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole('button', { name: 'Review decision' }),
+  ).toHaveCount(0);
+  await page.reload();
+  await expect(
+    page.getByRole('button', { name: 'Resume session', exact: true }),
+  ).toBeVisible();
+  await page
+    .getByRole('button', { name: 'Resume session', exact: true })
+    .click();
+  await expect(page.getByLabel('Bonds allocation', { exact: true })).toHaveText(
+    '$500',
+  );
+  await expect(
+    page.getByRole('radio', { name: 'Bonds', exact: true }),
+  ).toBeChecked();
+  expect(await history(page)).toEqual(saved);
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await page
+    .getByRole('button', { name: 'Invest and see what happens' })
+    .click();
+  await page.getByRole('button', { name: 'Take a break', exact: true }).click();
+  await page
+    .getByRole('button', { name: 'Resume session', exact: true })
+    .click();
+  await finishReplay(page);
+  await expect(
+    page.getByRole('region', { name: 'What this path teaches' }),
+  ).toBeVisible();
+  await expect(page.locator('.milestone-comparison article')).toHaveCount(3);
+  await expect(
+    page.getByRole('heading', {
+      name: 'What people were saying then',
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole('heading', { name: 'What we learned later', exact: true }),
+  ).toBeVisible();
+});
+
+test('completed gallery bookmarks and original replay do not change first choices', async ({
+  page,
+}) => {
+  const ids = ['1982-08', '1987-01', '1999-09', '2004-05', '2008-09'];
+  let session = startSession(ids, 'gallery-check', '2026-10-06T00:00:00Z');
+  for (const id of ids) {
+    const scenario = loadScenario({
+      known: JSON.parse(
+        readFileSync(`data/scenarios/${id}/known_at_start.json`, 'utf8'),
+      ),
+      future: JSON.parse(
+        readFileSync(`data/scenarios/${id}/future_outcomes.json`, 'utf8'),
+      ),
+      provenance: JSON.parse(
+        readFileSync(`data/scenarios/${id}/provenance.json`, 'utf8'),
+      ),
+    });
+    session = lockResult(
+      session,
+      createResult(scenario, { cash: 10000 }, 'cash'),
+    );
+    session = advanceSession(session, '2026-10-06T00:10:00Z');
+  }
+  const saved = {
+    version: 1,
+    active: null,
+    pending: null,
+    finished: [session],
+  };
+  await page.goto('/');
+  await page.evaluate(
+    ({ key, saved }) => localStorage.setItem(key, JSON.stringify(saved)),
+    { key, saved },
+  );
+  await page.reload();
+  await page.getByText('Completed scenarios (5)', { exact: true }).click();
+  await expect(page.locator('.history-cards article')).toHaveCount(5);
+  const first = page.locator('.history-cards article').first();
+  await first.getByRole('button', { name: /^Bookmark / }).click();
+  await page.reload();
+  await page.getByText('Completed scenarios (5)', { exact: true }).click();
+  await page.getByLabel('Show bookmarks only').check();
+  await expect(page.locator('.history-cards article')).toHaveCount(1);
+  await page.getByRole('button', { name: /^Replay original / }).click();
+  await expect(
+    page.getByRole('heading', { name: 'Ready to play', exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole('heading', { name: 'Invest your $10,000', exact: true }),
+  ).toHaveCount(0);
+  await page.reload();
+  await finishReplay(page);
+  expect(await history(page)).toEqual(saved);
+  await page
+    .getByRole('button', { name: 'Back to history', exact: true })
+    .click();
+  await expect(
+    page.getByRole('heading', {
+      name: 'Try a long-term investing decision',
+      exact: true,
+    }),
+  ).toBeVisible();
+  expect(await history(page)).toEqual(saved);
+});
