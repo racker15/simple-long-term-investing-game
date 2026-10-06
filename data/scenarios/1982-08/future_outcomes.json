@@ -33,7 +33,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "August 1982 was a difficult starting point: high unemployment, concern about inflation and borrowing costs, and uncertainty about recovery were already visible. In July 1983, the NBER announced that the recession had ended in November 1982. That confirmation came months after the turning point; a player at the start did not have an official recovery date. The holding period also contained developments far removed from the immediate recession news. Coca-Cola changed its flagship formula in April 1985 and restored the original formula that July after consumer objections. In September 1985, the Plaza communiqué stated that appreciation of major non-dollar currencies against the dollar was desirable. Exchange-rate exposure matters when international investments are measured in dollars, though this exhibit does not estimate the communiqué’s contribution to returns. Apple implemented a two-for-one split in June 1987. The split increased the number of shares and changed prices per share, without providing a separate gain. The return paths use dividend-adjusted prices and broad-asset proxies, so different investments can move in different directions during the same news cycle. Headlines describe parts of the environment rather than explain every monthly movement. The endpoint is August 1987. It deliberately stops before the later October stock-market crash: adding that event would change the selected five-year experiment. Contemporary uncertainty deserves to be understood on its own terms.",
+    "text": "August 1982 began during a U.S. recession, a time when the economy shrinks and jobs can be hard to find. Many people were out of work, and prices and borrowing costs were still a worry. In July 1983, a group that tracks the U.S. economy announced that the recession had ended in November 1982. People did not know that at the time.\n\nCoca-Cola changed the recipe for its best-known drink in April 1985. Many customers objected, so the company brought the old recipe back that July.\n\nIn September 1985, the U.S. and four other countries agreed to help lower the U.S. dollar compared with other currencies. Exchange rates can change what an investment in another country is worth in dollars.\n\nIn June 1987, Apple split each share into two. Owners had twice as many shares, but the split alone did not double the value of their investment.\n\nThis story ends in August 1987. A stock market crash came two months later. In August, no one knew what the next years would bring or which investment would do best.",
     "source_ids": [
       "nber-trough82",
       "ko-new-coke",
@@ -48,10 +48,10 @@
     ]
   },
   "reflection": {
-    "what_people_were_focused_on": "The locked headlines mix recession and interest-rate concerns with Beirut, Mexico’s debt problems, computer hobbies, corporate competition and horse racing. They are a dated editorial snapshot of what readers encountered.",
-    "what_actually_mattered": "The starting prices, chosen exposures, dividends and complete sequence of returns determine these simulated results. Changing economic and currency conditions provide context; the markers do not assign returns to particular headlines.",
-    "what_faded_away": "Immediate evacuation plans, hobby stories and sporting dates gave way to new news. Coca-Cola’s later formula controversy also changed direction quickly. News prominence is not the same as a reliable five-year investment forecast.",
-    "what_nobody_knew": "An August 1982 decision maker lacked the later recession-trough confirmation, the formula reversal and the exact monthly path of every investment. A later recovery does not make the starting uncertainty unreasonable. Events beyond August 1987 are outside this holding period.",
+    "what_people_were_focused_on": "People saw news about the recession and interest rates, fighting in Beirut, Mexico’s debt trouble, home computers, business rivalries, and horse racing.",
+    "what_actually_mattered": "Different investments rose and fell at different times. The economy and currency changes were part of the story, but no single headline could show which choice would do best.",
+    "what_faded_away": "News about an evacuation in Beirut, home computers, and horse racing soon moved on. Coca-Cola’s recipe fight also passed. Big headlines did not always tell people what would matter years later.",
+    "what_nobody_knew": "In August 1982, no one knew when the recession would end, that Coca-Cola would bring back its old recipe, or how each investment would change by 1987. A later recovery did not make its timing easy to predict.",
     "source_ids": [
       "nber-trough82",
       "ko-new-coke",

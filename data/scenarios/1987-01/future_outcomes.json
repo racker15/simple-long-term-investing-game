@@ -33,7 +33,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "January 1987 began with enthusiasm about rising stock prices alongside currency concerns and a wide range of ordinary news. The next five years contained several distinct phases, so a single headline cannot summarize the investment experience. General Electric and Apple each implemented a two-for-one share split during 1987. Those changes alter share counts and quoted prices; consistent adjusted prices prevent splits from becoming artificial investment gains or losses. In October 1987, markets suffered a sudden crash and severe trading disruptions. The Federal Reserve’s later historical study describes strained market infrastructure and its visible liquidity response on October 20. This exhibit supplies monthly returns, which cannot reproduce the worst intraday experience or identify a tradeable advance warning. The economy subsequently entered another recession. In April 1991, the NBER identified July 1990 as the business-cycle peak, demonstrating again that official dating follows the underlying event. At the January 1992 endpoint, the committee had not yet announced the March 1991 trough; that announcement arrived in December 1992. The different company paths, diversified equity proxies, bonds and cash belong to the same holding window, with dividends handled through the adjusted-price convention. Their final ordering is computed from the monthly series and does not establish a universal strategy ranking. A prediction made from January news remained a prediction: the later crash, policy response and recovery path were not all specified in the information available then.",
+    "text": "January 1987 began with rising stock prices and worry about currency values. General Electric and Apple split their shares that year. Each old share became two shares, but the split alone did not add value to an investment.\n\nIn October 1987, the stock market crashed and trading was disrupted. In April 1991, a group that tracks the U.S. economy said a recession had begun in July 1990. The recession later ended in March 1991. The group did not announce that ending date until December 1992, after this story ends in January 1992.\n\nCompanies, a mix of many stocks, government bonds (loans to the government), and cash all followed different paths. The best result in these five years could not tell anyone which choice would do best in another five.",
     "source_ids": [
       "fed-crash87",
       "nber-peak90",
@@ -47,10 +47,10 @@
     ]
   },
   "reflection": {
-    "what_people_were_focused_on": "The starting snapshot includes stock-market enthusiasm and currency concerns, political events, severe weather, science, sport and film. The computer companies were prominent, but the news was broader than an investment narrative.",
-    "what_actually_mattered": "Investment weights, concentration, starting prices, dividend adjustments and the full sequence of monthly returns determine the simulated account. Economic contraction and market disruption form part of the setting; no event marker alone explains the ranking.",
-    "what_faded_away": "The Super Bowl preparations, the cold spell and individual film stories passed into later news cycles. Their contemporary importance to readers did not supply a dependable prediction of five-year returns.",
-    "what_nobody_knew": "The starting screen did not reveal October’s crash, the timing of the next recession or each company’s recovery path. Official recession dating itself arrived later. Knowing the eventual endpoint does not make uncertainty in January 1987 irrational.",
+    "what_people_were_focused_on": "News included a rising stock market and worries about currencies. People also read about politics, winter weather, science, sports, and movies.",
+    "what_actually_mattered": "The crash and later recession changed the world investors faced, while each company and broad stock investment had its own path. No single event tells the whole story.",
+    "what_faded_away": "The cold snap, Super Bowl preparations, and movie stories soon left the headlines. They mattered to people then, but they did not tell anyone what the next five years would bring.",
+    "what_nobody_knew": "People in January 1987 could not see the October crash coming. They also did not know when the next recession would start or end, or how each company would recover. Later events did not make the future obvious at the start.",
     "source_ids": [
       "fed-crash87",
       "nber-peak90",
