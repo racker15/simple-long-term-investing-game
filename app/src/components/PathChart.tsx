@@ -371,10 +371,13 @@ export function PathChart({
         >
           <title id="path-title">Five-year portfolio path</title>
           <desc id="path-description">
-            Two chart panels share the same timeline and use separate dollar
-            scales. The upper panel shows your portfolio and two broad
-            comparisons. The lower panel shows all three hot stocks. Values are
-            shown only through the current reveal; later outcomes remain hidden.
+            Two chart panels share the same timeline and use{' '}
+            {commonScale
+              ? 'a common percentage scale'
+              : 'separate dollar scales'}
+            . The upper panel shows your portfolio and two broad comparisons.
+            The lower panel shows all three hot stocks. Values are shown only
+            through the current reveal; later outcomes remain hidden.
           </desc>
           <text x={plotStart} y="20">
             Your portfolio and broad comparisons

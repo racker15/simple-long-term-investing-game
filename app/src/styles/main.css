@@ -806,3 +806,28 @@ main:has(.chart-wide) {
     grid-template-columns: 1fr;
   }
 }
+
+.investment-guide-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.investment-guide-grid svg {
+  width: 60px;
+  color: #526c5f;
+}
+.investment-guide-grid h3 {
+  margin: 0;
+}
+.investment-guide-grid p {
+  font-size: 0.85rem;
+}
+.chart-wide .chart-scroll svg {
+  min-width: 1000px;
+}
+@media (max-width: 700px) {
+  .investment-guide-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

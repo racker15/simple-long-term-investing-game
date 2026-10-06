@@ -258,6 +258,10 @@ export default function App() {
           (takingBreak ? (
             <section className="panel break-panel">
               <h1>Take your time</h1>
+              <p className="small">
+                Reloading during a reveal returns to Play with the same locked
+                choice.
+              </p>
               <p>
                 There is no deadline or streak to protect. Your current screen
                 stays here while you take a break.

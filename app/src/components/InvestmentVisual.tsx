@@ -82,3 +82,54 @@ export function StageStrip({
     </ol>
   );
 }
+
+export function InvestmentGuide() {
+  const choices = [
+    {
+      key: 'cash',
+      name: 'Cash',
+      text: 'Money held in cash.',
+      path: 'M5 12h54v32H5z M26 28a6 6 0 1 0 12 0a6 6 0 1 0 -12 0',
+    },
+    {
+      key: 'bonds',
+      name: 'Bonds',
+      text: 'Loans to governments or companies.',
+      path: 'M15 5h34v48H15z M22 16h20 M22 24h20 M22 32h13 M36 39l6 8l6 -8',
+    },
+    {
+      key: 'us_total',
+      name: 'A stock basket',
+      text: 'Small shares in many companies. US and international funds hold different groups.',
+      path: 'M9 22h46l-6 28H15z M21 22l6 -14 M43 22L37 8 M24 28v15 M40 28v15',
+    },
+    {
+      key: 'company',
+      name: 'One company',
+      text: 'A share of ownership in one business.',
+      path: 'M12 50V22l13 8V18l15 9V8h11v42z M20 37v7 M31 37v7 M43 37v7',
+    },
+  ];
+  return (
+    <details className="investment-guide">
+      <summary>What am I buying?</summary>
+      <div className="investment-guide-grid">
+        {choices.map((choice) => (
+          <article key={choice.key}>
+            <svg viewBox="0 0 64 60" aria-hidden="true">
+              <path
+                d={choice.path}
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinejoin="round"
+              />
+            </svg>
+            <h3>{choice.name}</h3>
+            <p>{choice.text}</p>
+          </article>
+        ))}
+      </div>
+    </details>
+  );
+}

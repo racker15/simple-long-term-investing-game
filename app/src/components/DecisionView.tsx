@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, type ComponentProps } from 'react';
 import { Allocation, type AllocationSnapshot } from './Allocation';
 import { ScenarioView } from './ScenarioView';
 import { AllocationBar, StageStrip } from './InvestmentVisual';
+import { money } from '../lib/format';
 import { normalizeAllocations } from '../lib/portfolio';
 export function DecisionView(props: ComponentProps<typeof Allocation>) {
   const ids = props.context.asset_definitions.map((asset) => asset.id);
@@ -46,6 +47,9 @@ export function DecisionView(props: ComponentProps<typeof Allocation>) {
             context={props.context}
             allocations={snapshot.allocations}
           />
+          <p className="small">
+            Cash remaining: <strong>{money(snapshot.allocations.cash)}</strong>
+          </p>
           <p>
             Prediction:{' '}
             <strong>

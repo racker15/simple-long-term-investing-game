@@ -1184,3 +1184,68 @@ test('completed gallery bookmarks and original replay do not change first choice
   ).toBeVisible();
   expect(await history(page)).toEqual(saved);
 });
+
+test('taking a break pauses a running reveal without losing its place', async ({
+  page,
+}) => {
+  test.setTimeout(60000);
+  await page.clock.install({ time: new Date('2026-10-06T00:00:00Z') });
+  await page.emulateMedia({ reducedMotion: 'no-preference' });
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await page.getByRole('radio', { name: 'Cash', exact: true }).check();
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await page.clock.pauseAt(await page.evaluate(() => Date.now() + 1000));
+  await page
+    .getByRole('button', { name: 'Invest and see what happens' })
+    .click();
+  await page.getByRole('button', { name: 'Play reveal', exact: true }).click();
+  await page.clock.runFor(2000);
+  await page.getByRole('button', { name: 'Take a break', exact: true }).click();
+  const before = await page.getByTestId('path-0').getAttribute('points');
+  await page.clock.runFor(15000);
+  await expect(page.getByTestId('path-0')).toHaveAttribute('points', before!);
+  await page
+    .getByRole('button', { name: 'Resume session', exact: true })
+    .click();
+  await page.clock.runFor(6100);
+  await expect(
+    page.getByRole('heading', { name: 'Paused after 1 year', exact: true }),
+  ).toBeVisible();
+  expect((await history(page)).active.completed).toHaveLength(1);
+});
+
+test('a storage failure cannot erase an in-tab draft when taking a break', async ({
+  page,
+}) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await page.evaluate(() => {
+    const original = Storage.prototype.setItem;
+    Storage.prototype.setItem = function (key, value) {
+      if (key.startsWith('investing-game:draft:'))
+        throw new DOMException('Quota full', 'QuotaExceededError');
+      original.call(this, key, value);
+    };
+  });
+  await page
+    .getByRole('button', { name: 'Add $500 to Bonds', exact: true })
+    .click();
+  await page.getByRole('radio', { name: 'Bonds', exact: true }).check();
+  await expect(
+    page.getByText('Your edits could not be saved.', { exact: false }),
+  ).toBeVisible();
+  await page.getByRole('button', { name: 'Take a break', exact: true }).click();
+  await page
+    .getByRole('button', { name: 'Resume session', exact: true })
+    .click();
+  await expect(page.getByLabel('Bonds allocation', { exact: true })).toHaveText(
+    '$500',
+  );
+  await expect(
+    page.getByRole('radio', { name: 'Bonds', exact: true }),
+  ).toBeChecked();
+  await expect(
+    page.getByText('Your edits could not be saved.', { exact: false }),
+  ).toBeVisible();
+});

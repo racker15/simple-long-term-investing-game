@@ -9,7 +9,11 @@ import type { DecisionContext } from '../lib/validation';
 import { normalizeAllocations } from '../lib/portfolio';
 import { money, percent } from '../lib/format';
 import { readAllocationDraft } from '../lib/allocation-draft';
-import { AllocationBar, InvestmentMark } from './InvestmentVisual';
+import {
+  AllocationBar,
+  InvestmentMark,
+  InvestmentGuide,
+} from './InvestmentVisual';
 export type AllocationSnapshot = {
   allocations: Allocations;
   expected: AssetId | '';
@@ -126,6 +130,7 @@ export function Allocation({
           : 'Preview only: this choice is not saved.'}
       </p>
       <AllocationBar context={context} allocations={normalized} />
+      <InvestmentGuide />
       <p>
         Move money in $500 steps. Cash is the amount remaining: adding to
         another investment reduces Cash, and removing money increases it.

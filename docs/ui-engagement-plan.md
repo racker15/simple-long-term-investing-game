@@ -74,3 +74,14 @@ Existing owner follow-up: explicit Play before motion, eight seconds per stage, 
 ## Verification and completion
 
 For every batch: unit/render and aggregate checks plus focused desktop/mobile production browser checks. Test keyboard, repeat/back/refresh, state restoration, quota failure, no future/cohort leakage and no duplicate results. No new account, live-data, tracking, social reward or trading features. Deployed smoke uses isolated browser storage and preserves the owner's origin and saved progress. Full-list approval is not a claim that all items are already implemented.
+
+## Implementation checkpoint
+
+All three batches now have implementations in this branch; final integrated verification and visual inspection are still in progress. First deployed behavior remains separately versioned on PR17. The original eight-second Play/replay controls are already deployed, while this engagement branch has not been deployed.
+
+- Items 1–28: `DecisionView`, `ScenarioView`, `Allocation`, `InvestmentVisual`, `investment-style` and shared CSS. Details retain all context; the era artwork uses only the starting year. Undo is one-step and available only before locking.
+- Items 29–42: `PathChart`. Manual pauses and session breaks suspend playing time. Labels retain a stable order instead of jumping when lines cross. Percentage comparison and monthly scrubbing unlock only after a full reveal. Wide mode uses the available page width and supports horizontal inspection on narrow screens.
+- Items 43–52: `ReflectionSummary`, `Reveal`, `ResultHelp`, and the optional checkpoint thought prompt. Summaries reuse researched scenario content and existing monthly math; no new prediction or causal claim is introduced.
+- Items 53–58: `App`, `Scorecard`, `HistoryGallery`, and `OriginalReplay`. Bookmark and view preferences are browser-local sidecars; original history contracts are unchanged. Break mode keeps draft components mounted, including during quota errors. A reload returns to the saved stage; a reveal restarts at Play with its locked choice.
+
+Practical limits: no cross-device save, no automatic assessment of reasoning quality, no claims of measured educational effectiveness, and no full accessibility certification. Motion preferences, keyboard paths, responsive layouts, data boundaries and recovery are checked directly. Ideas59–60 remain excluded.
