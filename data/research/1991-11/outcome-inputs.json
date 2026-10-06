@@ -1,0 +1,54 @@
+{
+  "scenario_id": "1991-11",
+  "events": [
+    {
+      "month": "1991-12",
+      "title": "The Soviet Union dissolves",
+      "description": "Independent countries replace the union after Gorbachev resigns.",
+      "source_ids": ["soviet-collapse"]
+    },
+    {
+      "month": "1993-04",
+      "title": "Web software is opened to everyone",
+      "description": "CERN puts its web software in the public domain.",
+      "source_ids": ["web-release"]
+    },
+    {
+      "month": "1993-12",
+      "title": "Astronauts repair Hubble",
+      "description": "A servicing mission installs corrective optics to improve the telescope’s pictures.",
+      "source_ids": ["hubble-repair"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Disney nearly tripled, while Apple lost about half its value. IBM gained, but less than the US share basket. Two companies could work together and still give their shareholders very different results. Spreading money across many businesses avoided depending entirely on either computer company.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-dis",
+      "yahoo-ibm",
+      "yahoo-aapl",
+      "soviet-collapse",
+      "web-release",
+      "hubble-repair"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "People watched political change, joblessness, crop damage and new films. IBM and Apple were trying an unusual partnership.",
+    "what_actually_mattered": "The results show both the opportunity and the risk in individual shares. The broad basket gained less than Disney but avoided Apple’s large loss.",
+    "what_faded_away": "An exciting partnership announcement did not tell you which partner’s stock would do better. A film review could not predict five years of returns either.",
+    "what_nobody_knew": "Nobody knew the final company ranking or the size of the ups and downs. Famous names and promising plans left plenty of uncertainty.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-dis",
+      "yahoo-ibm",
+      "yahoo-aapl",
+      "soviet-collapse",
+      "web-release",
+      "hubble-repair"
+    ]
+  }
+}

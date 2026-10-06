@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "yahoo-ibm",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/IBM/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/IBM?period1=617932800&period2=809913600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "IBM",
+      "raw_path": "data/raw/stocks/1990-08/outcome-IBM.json",
+      "sha256": "d77715f2099d302161f40bd3bd037c0ada33ac11fe2b8a5d070b427135cdbc9b",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at d5099a44d4cd563671ea674a9852c93ee95a7bb8 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-xom",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/XOM/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/XOM?period1=617932800&period2=809913600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "XOM",
+      "raw_path": "data/raw/stocks/1990-08/outcome-XOM.json",
+      "sha256": "12cb75a371d38f5e3f2de10fb163e983ab4daa792a0ddd1d2678c925d318a2e5",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at d5099a44d4cd563671ea674a9852c93ee95a7bb8 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-sony",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/SONY/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/SONY?period1=617932800&period2=809913600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "SONY",
+      "raw_path": "data/raw/stocks/1990-08/outcome-SONY.json",
+      "sha256": "8f05a219dec0d57a23f34f4aa20c002c3ff3023751f298c2750aee43c72bec2a",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at d5099a44d4cd563671ea674a9852c93ee95a7bb8 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    }
+  ]
+}

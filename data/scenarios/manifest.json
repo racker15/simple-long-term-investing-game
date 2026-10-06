@@ -92,6 +92,24 @@
       "selection_mode": "important"
     },
     {
+      "scenario_id": "1990-08",
+      "date": "1990-08-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "1991-02",
+      "date": "1991-02-28",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "1991-11",
+      "date": "1991-11-30",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
       "scenario_id": "1999-09",
       "date": "1999-09-30",
       "data_kind": "historical",

@@ -1,0 +1,54 @@
+{
+  "scenario_id": "1990-08",
+  "events": [
+    {
+      "month": "1991-12",
+      "title": "The Soviet Union dissolves",
+      "description": "Independent countries replace the union after Gorbachev resigns.",
+      "source_ids": ["soviet-collapse"]
+    },
+    {
+      "month": "1993-04",
+      "title": "Web software is opened to everyone",
+      "description": "CERN puts its web software in the public domain.",
+      "source_ids": ["web-release"]
+    },
+    {
+      "month": "1993-12",
+      "title": "Astronauts repair Hubble",
+      "description": "A servicing mission installs corrective optics to improve the telescope’s pictures.",
+      "source_ids": ["hubble-repair"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "The US share basket more than doubled over five years, leading these choices. Exxon gained too, while IBM finished with a smaller gain than cash. The Gulf crisis was frightening, but the starting headlines did not tell you the final ranking. Even investments that ended higher had uncomfortable months along the way.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ibm",
+      "yahoo-xom",
+      "yahoo-sony",
+      "soviet-collapse",
+      "web-release",
+      "hubble-repair"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "War fears, oil supplies and German reunification dominated major news. Companies were also developing products and entering new businesses.",
+    "what_actually_mattered": "The full five-year path mattered. A basket of many US companies did better than these three individual shares, though that will not happen in every scenario.",
+    "what_faded_away": "The shape of a stereo and a crayon-color change were memorable everyday stories. They offered little help in predicting these investments.",
+    "what_nobody_knew": "The timing of political change and new technology was uncertain. Nobody had a chart showing which investment would lead at the end.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ibm",
+      "yahoo-xom",
+      "yahoo-sony",
+      "soviet-collapse",
+      "web-release",
+      "hubble-repair"
+    ]
+  }
+}
