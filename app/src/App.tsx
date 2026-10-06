@@ -287,8 +287,8 @@ export default function App() {
         ) : (
           <>
             <p className="progress">
-              {session.phase === 'decision'
-                ? `Scenario ${session.current_index + 1} of ${session.target_count}`
+              {session.phase === 'decision' || session.phase === 'reveal'
+                ? `Scenario ${session.current_index + (session.phase === 'decision' ? 1 : 0)} of ${session.target_count}`
                 : `${session.current_index} of ${session.target_count} scenarios completed`}
             </p>
             {error ? (

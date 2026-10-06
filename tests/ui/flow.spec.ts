@@ -260,7 +260,9 @@ test('checkpoint continues and supports ending after a whole block', async ({
   ).toBeVisible();
   await noOverflow(page);
 });
-test('animated reveal is bounded and can be skipped', async ({ page }) => {
+test('animation skips only to its next required pause', async ({ page }) => {
+  await page.clock.install({ time: new Date('2026-10-06T00:00:00Z') });
+  await page.clock.pauseAt(new Date('2026-10-06T00:00:01Z'));
   await page.emulateMedia({ reducedMotion: 'no-preference' });
   await page.goto('/?demo=1');
   await page.getByRole('button', { name: 'Begin session' }).click();
@@ -269,9 +271,36 @@ test('animated reveal is bounded and can be skipped', async ({ page }) => {
   await page
     .getByRole('button', { name: 'Invest and see what happens' })
     .click();
-  await finishReplay(page);
-
+  for (const year of [1, 3, 5]) {
+    await page
+      .getByRole('button', {
+        name: `Skip animation to year ${year}`,
+        exact: true,
+      })
+      .click();
+    if (year < 5) {
+      await expect(
+        page.getByRole('heading', {
+          name: `Paused after ${year} ${year === 1 ? 'year' : 'years'}`,
+          exact: true,
+        }),
+      ).toBeVisible();
+      await expect(
+        page.getByRole('heading', { name: 'Five years later', exact: true }),
+      ).toHaveCount(0);
+      await page.clock.runFor(10000);
+      await expect(
+        page.getByRole('heading', { name: 'Five years later', exact: true }),
+      ).toHaveCount(0);
+      await page
+        .getByRole('button', {
+          name: `Continue to year ${year === 1 ? 3 : 5}`,
+          exact: true,
+        })
+        .click();
+    }
+  }
   await expect(
-    page.getByRole('heading', { name: 'Five years later' }),
+    page.getByRole('heading', { name: 'Five years later', exact: true }),
   ).toBeVisible();
 });
