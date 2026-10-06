@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "yahoo-cost",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/COST/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/COST?period1=1014940800&period2=1049155200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "COST",
+      "raw_path": "data/raw/stocks/2003-03/starting-COST.json",
+      "sha256": "dd1dc90086950b4cf9cd2d56351575968f078c2b7395fa712782ab24b9f938a7",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid trading-day adjusted close in each calendar month; adjacent ratio minus one. Includes vendor dividend/split adjustments; do not add dividends again. Retrospective reconstruction, not an original historical database vintage. Normalized endpoints are committed for reproducible offline calculations."
+    },
+    {
+      "id": "yahoo-intc",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/INTC/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?period1=1014940800&period2=1049155200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "INTC",
+      "raw_path": "data/raw/stocks/2003-03/starting-INTC.json",
+      "sha256": "f4d13051ab3d990b7abe2439d39a641ab08f5a52c57a4b09648443e72580a666",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid trading-day adjusted close in each calendar month; adjacent ratio minus one. Includes vendor dividend/split adjustments; do not add dividends again. Retrospective reconstruction, not an original historical database vintage. Normalized endpoints are committed for reproducible offline calculations."
+    },
+    {
+      "id": "yahoo-mrk",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/MRK/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/MRK?period1=1014940800&period2=1049155200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "MRK",
+      "raw_path": "data/raw/stocks/2003-03/starting-MRK.json",
+      "sha256": "1c9cf190d77d01f100c0aa158763512c9daabc871d13ef93b1b23be2d4d169ae",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid trading-day adjusted close in each calendar month; adjacent ratio minus one. Includes vendor dividend/split adjustments; do not add dividends again. Retrospective reconstruction, not an original historical database vintage. Normalized endpoints are committed for reproducible offline calculations."
+    }
+  ]
+}

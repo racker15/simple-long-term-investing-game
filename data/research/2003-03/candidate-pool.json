@@ -1,0 +1,488 @@
+{
+  "scenario_id": "2003-03",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004563,00.html",
+      "title": "At Close Range"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004562,00.html",
+      "title": "Dissent: Voices Of Outrage"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004566,00.html",
+      "title": "Real Battles In Real Time"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004567,00.html",
+      "title": "First Stop, Iraq"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004568,00.html",
+      "title": "Awestruck"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004569,00.html",
+      "title": "Targeting Saddam's Inner Circle"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004570,00.html",
+      "title": "Chemical Ali: Saddam's Henchman"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004571,00.html",
+      "title": "Eyewitness Account: Tragedy at Camp Pennsylvania"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004572,00.html",
+      "title": "Inside Saddam's Head"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004573,00.html",
+      "title": "With The Troops: Dispatches From The Front"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004574,00.html",
+      "title": "The American Prime Minister"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004589,00.html",
+      "title": "America Shows Its Colors"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004577,00.html",
+      "title": "Art: The Rise And Rise Of Asian Art"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004586,00.html",
+      "title": "A Jerk, Perhaps, But Our Jerk"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004587,00.html",
+      "title": "This Boy's Grim Life"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004578,00.html",
+      "title": "Beyond Brown Cow"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004579,00.html",
+      "title": "Initial Wear: Gimme a C!"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004580,00.html",
+      "title": "Hard Times, Cozy Advice"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004581,00.html",
+      "title": "No Time for Defense"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004582,00.html",
+      "title": "What Are Your Odds?"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977883_1977916,00.html",
+      "title": "Nov. 8, 1923"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977883_1977912,00.html",
+      "title": "Oct. 29, 1923"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977883_1977920,00.html",
+      "title": "Jan. 21, 1924"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977883_1977922,00.html",
+      "title": "Sept. 25, 1926"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977883_1977924,00.html",
+      "title": "May 21, 1927"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977883_1977937,00.html",
+      "title": "Oct. 6, 1927"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977883_1978079,00.html",
+      "title": "Sept. 3, 1928"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977883_1978080,00.html",
+      "title": "Nov. 18, 1928"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977883_1978091,00.html",
+      "title": "Oct. 29, 1929"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977883_1978093,00.html",
+      "title": "March 12, 1930"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977883_1978094,00.html",
+      "title": "March 4, 1933"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977883_1978096,00.html",
+      "title": "July 1, 1934"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977883_1978097,00.html",
+      "title": "June 10, 1935"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977883_1978103,00.html",
+      "title": "Aug. 9, 1936"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977883_1978106,00.html",
+      "title": "March 3, 1938"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977883_1978110,00.html",
+      "title": "Nov. 9, 1938"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977883_1978108,00.html",
+      "title": "April 15, 1938"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977883_1978111,00.html",
+      "title": "Sept. 1, 1939"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977887_1978146,00.html",
+      "title": "May 10, 1940"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977887_1978150,00.html",
+      "title": "Dec. 7, 1941"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977887_1978160,00.html",
+      "title": "June 6, 1944"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977887_1978171,00.html",
+      "title": "Aug. 6, 1945"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977887_1978172,00.html",
+      "title": "April 15, 1947"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977887_1978175,00.html",
+      "title": "Oct. 14, 1947"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977887_1978173,00.html",
+      "title": "Aug. 15, 1947"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977887_1978196,00.html",
+      "title": "Jan. 5, 1948"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977887_1978201,00.html",
+      "title": "May 14, 1948"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977887_1978213,00.html",
+      "title": "Oct. 20, 1952"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977887_1978215,00.html",
+      "title": "Feb. 28, 1953"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977887_1978217,00.html",
+      "title": "July 5, 1954"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977887_1978221,00.html",
+      "title": "Dec. 1, 1955"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977887_1978231,00.html",
+      "title": "July 17, 1959"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978369,00.html",
+      "title": "May 9, 1960"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978374,00.html",
+      "title": "Oct. 11, 1962"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978373,00.html",
+      "title": "Sept. 27, 1962"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978377,00.html",
+      "title": "Oct. 27, 1962"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978393,00.html",
+      "title": "Aug. 28, 1963"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978396,00.html",
+      "title": "Nov. 22, 1963"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978443,00.html",
+      "title": "Feb. 9, 1964"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978447,00.html",
+      "title": "June 30, 1966"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978450,00.html",
+      "title": "Aug. 5, 1966"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978509,00.html",
+      "title": "Dec. 3, 1967"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978512,00.html",
+      "title": "Jan. 31, 1968"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978514,00.html",
+      "title": "April 4, 1968"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978516,00.html",
+      "title": "June 5, 1968"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978520,00.html",
+      "title": "June 28, 1969"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978523,00.html",
+      "title": "July 20, 1969"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978528,00.html",
+      "title": "Nov. 15, 1971"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978532,00.html",
+      "title": "June 17, 1972"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978534,00.html",
+      "title": "Jan. 22, 1973"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978540,00.html",
+      "title": "April 30, 1975"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978542,00.html",
+      "title": "April 1, 1976"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978545,00.html",
+      "title": "May 25, 1977"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978547,00.html",
+      "title": "July 25, 1978"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978551,00.html",
+      "title": "Feb. 1, 1979"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978554,00.html",
+      "title": "Dec. 12, 1979"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977891_1978552,00.html",
+      "title": "May 3, 1979"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977895_1978701,00.html",
+      "title": "Sept. 20, 1980"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977895_1978704,00.html",
+      "title": "March 8, 1983"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977895_1978703,00.html",
+      "title": "July 27, 1982"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977895_1978706,00.html",
+      "title": "March 11, 1985"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977895_1978709,00.html",
+      "title": "Dec. 29, 1987"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977895_1978710,00.html",
+      "title": "Nov. 24, 1989"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977895_1978711,00.html",
+      "title": "Nov. 9, 1989"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977895_1978717,00.html",
+      "title": "Feb. 11, 1990"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977895_1978722,00.html",
+      "title": "Aug. 6, 1991"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977895_1978727,00.html",
+      "title": "Feb. 26, 1993"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977895_1979082,00.html",
+      "title": "April 19, 1995"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977895_1979084,00.html",
+      "title": "Aug. 9, 1995"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977895_1978730,00.html",
+      "title": "Oct. 3, 1995"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977895_1978734,00.html",
+      "title": "Aug. 31, 1997"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977895_1978737,00.html",
+      "title": "March 27, 1998"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977895_1978746,00.html",
+      "title": "Nov. 29, 1999"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977895_1978749,00.html",
+      "title": "Dec. 12, 2000"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977895_1978754,00.html",
+      "title": "Jan. 29, 2002"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977895_1978814,00.html",
+      "title": "Sept. 11, 2001"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004560,00.html",
+      "title": "History Doesn't Follow the Rules"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004561,00.html",
+      "title": "80 Days"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004564,00.html",
+      "title": "Fateful Meetings"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004565,00.html",
+      "title": "Great Performances to Savor"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977887_1978203,00.html",
+      "title": "Oct. 1, 1949"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977887_1978204,00.html",
+      "title": "Feb. 9, 1950"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977887_1978206,00.html",
+      "title": "Oct. 15, 1951"
+    },
+    {
+      "url": "https://www.time.com/time/specials/packages/article/0,28804,1977881_1977887_1978225,00.html",
+      "title": "Oct. 4, 1957"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004576,00.html",
+      "title": "People: Mar. 31, 2003"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004575,00.html",
+      "title": "How We Cover War and Uncover History"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1004588,00.html",
+      "title": "Letters: Mar. 31, 2003"
+    }
+  ],
+  "selected_news": [1, 3, 12, 15, 16, 18],
+  "stock_candidates": [
+    {
+      "ticker": "COST",
+      "selected": true,
+      "rationale": "The warehouse retailer is among value-focused stores drawing investor attention."
+    },
+    {
+      "ticker": "INTC",
+      "selected": true,
+      "rationale": "The chip maker is discussed as a possible beneficiary of renewed business investment."
+    },
+    {
+      "ticker": "MRK",
+      "selected": true,
+      "rationale": "The medicine maker attracts attention from investors seeking dividend-paying companies."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}
