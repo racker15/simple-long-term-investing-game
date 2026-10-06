@@ -411,3 +411,7 @@ footer {
 .chart .financial-return--negative {
   fill: #b42318;
 }
+
+.allocation-panel button {
+  scroll-margin-block: 1rem;
+}
