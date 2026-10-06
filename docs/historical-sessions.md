@@ -9,7 +9,7 @@ The next milestone after the 50-scenario expansion makes the normal app use the 
 - Keep fictional demo storage separate. The fictional demo is now development-only at `?demo=1`; historical single-date previews remain development-only at `?scenario=YYYY-MM`.
 - No accounts, server, runtime financial API, new dependencies or deployment.
 
-Replaying completed scenarios and a richer lifetime-history view remain later improvements. Once the pool is exhausted, previous scorecards remain accessible without silently recycling dates into first-time statistics. Storage is local to one browser; private browsing, cleared storage or another device do not carry progress. Concurrent-tab synchronization is not implemented.
+Completed dates can be replayed in a separate practice view. Practice choices and the open practice date survive refresh when storage is available; they never write to first-time session history. A secondary learning-history panel summarizes first-time allocations, predictions, concentration, drawdowns and leader changes without a benchmark-beating grade. Once the pool is exhausted, previous scorecards remain accessible without silently recycling dates into first-time statistics. Storage is local to one browser; private browsing, cleared storage or another device do not carry progress. Concurrent-tab synchronization is not implemented.
 
 ## Verification
 

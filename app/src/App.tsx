@@ -25,12 +25,16 @@ import {
   readHistory,
   rememberSession,
   playedIds,
+  firstTimeResults,
   type PlayerHistory,
 } from './lib/history';
 import { ScenarioView } from './components/ScenarioView';
 import { Allocation } from './components/Allocation';
 import { Reveal } from './components/Reveal';
 import { Checkpoint, FinalScorecard } from './components/Scorecard';
+import { PlayerHistory as LearningHistory } from './components/PlayerHistory';
+import { PracticeReplay } from './components/PracticeReplay';
+const PRACTICE_KEY = 'investing-game:practice-open:v1';
 const assets = (id: string) =>
   historicalDecisionContext(id).asset_definitions.map((asset) => asset.id);
 function restore() {
@@ -51,6 +55,18 @@ export default function App() {
   const [initial] = useState(restore);
   const [history, setHistory] = useState(initial.history);
   const current = useRef(history);
+  const [practiceId, setPracticeId] = useState<string | null>(() => {
+    try {
+      const saved = localStorage.getItem(PRACTICE_KEY);
+      return !initial.history.active &&
+        saved &&
+        playedIds(initial.history).includes(saved)
+        ? saved
+        : null;
+    } catch {
+      return null;
+    }
+  });
   const [warning, setWarning] = useState(initial.warning);
   const [target, setTarget] = useState<number>(DEFAULT_SESSION_LENGTH);
   const [scenario, setScenario] = useState<Scenario | null>(null);
@@ -136,6 +152,21 @@ export default function App() {
       return;
     save({ ...current.current, pending: { allocations, expected } });
   }
+  if (practiceId)
+    return (
+      <PracticeReplay
+        key={practiceId}
+        id={practiceId}
+        onClose={() => {
+          try {
+            localStorage.removeItem(PRACTICE_KEY);
+          } catch {
+            /* Current tab can still close practice. */
+          }
+          setPracticeId(null);
+        }}
+      />
+    );
   return (
     <>
       <header>
@@ -203,6 +234,35 @@ export default function App() {
                 You’ve explored all 50 historical scenarios. Your completed
                 scorecards are saved below.
               </p>
+            )}
+            <LearningHistory results={firstTimeResults(history)} />
+            {played.length > 0 && (
+              <details>
+                <summary>Practice a completed scenario</summary>
+                <p>
+                  Try different choices without changing your first-time
+                  results.
+                </p>
+                {played.map((completedId) => (
+                  <p key={completedId}>
+                    <button
+                      onClick={() => {
+                        try {
+                          localStorage.setItem(PRACTICE_KEY, completedId);
+                        } catch {
+                          setWarning(
+                            'Practice cannot be restored after refresh in this browser.',
+                          );
+                        }
+                        setPracticeId(completedId);
+                      }}
+                    >
+                      Replay{' '}
+                      {historicalDecisionContext(completedId).display_date}
+                    </button>
+                  </p>
+                ))}
+              </details>
             )}
             {history.finished.length > 0 && (
               <details>

@@ -75,6 +75,35 @@ test('real historical session completes, restores, archives once and chooses uns
   await expect(
     page.getByText('45 unseen scenarios available.', { exact: false }),
   ).toBeVisible();
+  await expect(
+    page.getByText('Your learning history — 5 scenarios', { exact: true }),
+  ).toBeVisible();
+  const beforePractice = await history(page);
+  await page
+    .getByText('Practice a completed scenario', { exact: true })
+    .click();
+  await page
+    .getByRole('button', { name: /^Replay / })
+    .first()
+    .click();
+  await expect(
+    page.getByText('Practice replay.', { exact: true }),
+  ).toBeVisible();
+  await invest(page);
+  await page.reload();
+  await expect(
+    page.getByRole('heading', { name: 'Expectation vs. reality' }),
+  ).toBeVisible();
+  expect(await history(page)).toEqual(beforePractice);
+  await page
+    .getByRole('button', { name: 'Try another practice choice' })
+    .click();
+  await expect(
+    page.getByRole('button', { name: 'Review decision' }),
+  ).toBeVisible();
+  await page.getByRole('button', { name: 'Back to sessions' }).click();
+  expect(await history(page)).toEqual(beforePractice);
+
   await page.getByRole('button', { name: 'Begin session' }).click();
   expect(
     (await history(page)).active.scenario_ids.every(

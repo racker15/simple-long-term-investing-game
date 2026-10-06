@@ -12,6 +12,7 @@ import {
   readHistory,
   rememberSession,
   playedIds,
+  firstTimeResults,
 } from '../../app/src/lib/history';
 const ids = ['a', 'b', 'c', 'd', 'e'];
 const started = () => startSession(ids, 'session', '2026-10-06T00:00:00Z');
@@ -72,6 +73,7 @@ it('archives a completed session once and retains first-time played IDs', () => 
     session,
   );
   expect(history.finished).toHaveLength(1);
+  expect(firstTimeResults(history)).toHaveLength(5);
   expect(playedIds(history)).toEqual(ids);
   expect(playedIds({ ...history, active: null })).toEqual(ids);
 });

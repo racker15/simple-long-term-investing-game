@@ -1,4 +1,9 @@
-import type { Allocations, AssetId, Session } from './contracts';
+import type {
+  Allocations,
+  AssetId,
+  Session,
+  ScenarioResult,
+} from './contracts';
 import { validateSession } from './validation';
 
 export const HISTORY_KEY = 'investing-game:historical-history:v1';
@@ -93,4 +98,15 @@ export function playedIds(history: PlayerHistory): string[] {
       ].map((r) => r.scenario_id),
     ),
   ];
+}
+
+export function firstTimeResults(history: PlayerHistory): ScenarioResult[] {
+  const first = new Map<string, ScenarioResult>();
+  for (const result of [
+    ...history.finished.flatMap((session) => session.completed),
+    ...(history.active?.completed ?? []),
+  ]) {
+    if (!first.has(result.scenario_id)) first.set(result.scenario_id, result);
+  }
+  return [...first.values()];
 }
