@@ -1,0 +1,54 @@
+{
+  "scenario_id": "1987-10",
+  "events": [
+    {
+      "month": "1989-11",
+      "title": "The Berlin Wall opens",
+      "description": "East Germans begin crossing the border freely. The change becomes a powerful symbol of a changing Europe.",
+      "source_ids": ["wall-opens"]
+    },
+    {
+      "month": "1990-04",
+      "title": "Hubble launches into orbit",
+      "description": "The space telescope leaves Earth aboard Discovery. Its first images later reveal a flaw in the main mirror.",
+      "source_ids": ["hubble-history"]
+    },
+    {
+      "month": "1991-12",
+      "title": "The Soviet Union breaks apart",
+      "description": "Gorbachev resigns as Soviet president. Independent states take the place of the union.",
+      "source_ids": ["soviet-collapse"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "You started after the October crash, so that fall was already in the starting prices. Over the next five years, McDonald’s led these choices and the US share basket nearly doubled. IBM ended below its starting value. A market recovery did not lift every company equally, and overseas shares followed a different path.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ibm",
+      "yahoo-mcd",
+      "yahoo-sony",
+      "wall-opens",
+      "hubble-history",
+      "soviet-collapse"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "The sudden market crash raised fears about the economy. Technology competition and a possible Sony record deal were smaller parts of the news.",
+    "what_actually_mattered": "What happened after you invested mattered. The crash before the start could shape feelings, but it was not a loss inside this five-year portfolio.",
+    "what_faded_away": "One terrifying day could not tell you which company would do best over five years. Attention-grabbing advertisements offered no shortcut either.",
+    "what_nobody_knew": "Nobody could know that McDonald’s would lead this set while IBM lost value. A famous company could still be a disappointing investment.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ibm",
+      "yahoo-mcd",
+      "yahoo-sony",
+      "wall-opens",
+      "hubble-history",
+      "soviet-collapse"
+    ]
+  }
+}

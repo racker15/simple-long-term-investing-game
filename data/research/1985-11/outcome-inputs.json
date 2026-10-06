@@ -1,0 +1,62 @@
+{
+  "scenario_id": "1985-11",
+  "events": [
+    {
+      "month": "1986-01",
+      "title": "Challenger is lost",
+      "description": "Seven people die when the shuttle breaks apart after launch. NASA pauses flights and investigates.",
+      "source_ids": ["nasa-challenger"]
+    },
+    {
+      "month": "1987-10",
+      "title": "Black Monday hits markets",
+      "description": "The Dow falls 22.6% in one day. The monthly chart combines that day with all the other trading days in October.",
+      "source_ids": ["fed-crash1987"]
+    },
+    {
+      "month": "1989-11",
+      "title": "The Berlin Wall opens",
+      "description": "East Germans begin crossing the border freely. The change becomes a powerful symbol of a changing Europe.",
+      "source_ids": ["wall-opens"]
+    },
+    {
+      "month": "1990-04",
+      "title": "Hubble launches into orbit",
+      "description": "The space telescope leaves Earth aboard Discovery. Its first images later reveal a flaw in the main mirror.",
+      "source_ids": ["hubble-history"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Disney led these seven choices over five years. Apple and Coca-Cola also rose strongly, while both broad share baskets gained less than those three companies. This window does not prove that picking individual stocks is easy. You only learn which ones did best after living through the risks, including the 1987 market crash.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aapl",
+      "yahoo-dis",
+      "yahoo-ko",
+      "nasa-challenger",
+      "fed-crash1987",
+      "wall-opens",
+      "hubble-history"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "People followed computer networks, the return of Halley’s comet and repeated disputes over government borrowing.",
+    "what_actually_mattered": "Company shares, bonds and broad baskets compounded differently. Spreading money across many companies reduced dependence on any single business, even when it missed the biggest gain.",
+    "what_faded_away": "The exact timing of a debt-limit extension did not provide a five-year market forecast. The comet’s brightness did not either.",
+    "what_nobody_knew": "Disney’s leading return was not printed in its movie reviews. Knowing the final winner now makes the decision look easier than it was.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aapl",
+      "yahoo-dis",
+      "yahoo-ko",
+      "nasa-challenger",
+      "fed-crash1987",
+      "wall-opens",
+      "hubble-history"
+    ]
+  }
+}

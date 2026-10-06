@@ -11,7 +11,7 @@ The first two additions have six contemporary stories, five economic indicators 
 
 ## Verification
 
-`npm run check` passed: formatting, schemas, deterministic data rebuilding, all scenario validation, 121 tests, TypeScript and production build. The development fixture's deliberate bankruptcy warning is expected. The first expansion commit also passed GitHub’s existing browser checks. New-date browser walkthroughs remain pending. No site deployment or merge is claimed.
+`npm run check` passed: formatting, schemas, deterministic data rebuilding, all scenario validation, 128 tests, TypeScript and production build. The development fixture's deliberate bankruptcy warning is expected. The first expansion commit also passed GitHub’s existing browser checks. New-date browser walkthroughs remain pending. No site deployment or merge is claimed.
 
 A transfer initially appended one newline to shared upstream research files. The new starting-lock hashes were corrected to exact upstream bytes, and new protocol/draw JSON received repository formatting. No starting prose, selection, stock choice or numeric value changed; the lock notes disclose this byte-format repair. The original pilot locks and data remain unchanged.
 
@@ -20,3 +20,7 @@ Remaining selected dates are research commitments, not complete scenarios. Only 
 ## Second batch
 
 March 1980, August 1981, September 1981 and May 1983 are complete. Their starts were committed at `7825f641cbd0f3370cac5d7f19378a46651c344b` before outcome retrieval. Each adds six contemporary stories, six approximate economic indicators, a dated professional forecast, seven five-year return paths and three sourced events. Forecast release timing before 1990 is explicitly approximate, rather than an invented exact archive date. All four passed offline rebuilding and the full 121-test check. Twelve scenarios are registered; thirty-eight selected dates remain.
+
+## Third and fourth batches
+
+November 1984, September/November 1985, October 1987, December 1988 and January/November 1989 are complete. Their separate starting commits are `469871da62f91731aede5576a186143a325c8773` and `ee0c2cbecd31bef59ac81275858cd59956b5b52a`. News includes space, everyday products, diplomacy, entertainment and science alongside markets. The October 1987 start explicitly includes Black Monday as already known; the crash is not incorrectly replayed as a subsequent loss. Original issue indexes disambiguate TIME archive pages migrated with a 2005 web date. Public adjusted-price histories include US-traded Sony shares with dollar-denominated returns. All seven passed the full check, now 128 tests. Nineteen scenarios are registered; thirty-one selected dates remain.

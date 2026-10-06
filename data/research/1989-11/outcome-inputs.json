@@ -1,0 +1,54 @@
+{
+  "scenario_id": "1989-11",
+  "events": [
+    {
+      "month": "1990-04",
+      "title": "Hubble launches into orbit",
+      "description": "The space telescope leaves Earth aboard Discovery. Its first images later reveal a flaw in the main mirror.",
+      "source_ids": ["hubble-history"]
+    },
+    {
+      "month": "1991-12",
+      "title": "The Soviet Union breaks apart",
+      "description": "Gorbachev resigns as Soviet president. Independent states take the place of the union.",
+      "source_ids": ["soviet-collapse"]
+    },
+    {
+      "month": "1993-04",
+      "title": "Web software becomes free to use",
+      "description": "CERN releases its World Wide Web software into the public domain, helping others build on it.",
+      "source_ids": ["web-release"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Coca-Cola led these choices over five years. Exxon and the US basket gained less, while Sony and international shares rose only modestly. Buying a film studio was a dramatic story, but it did not make Sony the best investment here. These results belong to this particular starting date and window, not a rule about whole industries.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-sony",
+      "yahoo-ko",
+      "yahoo-xom",
+      "hubble-history",
+      "soviet-collapse",
+      "web-release"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "The Berlin Wall had opened, financial oversight was under scrutiny, and Sony was expanding into Hollywood.",
+    "what_actually_mattered": "Returns depended on the full investment path, not the size of a headline. A large acquisition was a business decision whose investment result still had to unfold.",
+    "what_faded_away": "The excitement of a Hollywood deal did not tell you the eventual winner. A widely reported event was not the same as a useful price forecast.",
+    "what_nobody_knew": "The web’s growth and the Soviet Union’s breakup were still ahead. Even with that history revealed, the exact investment ranking would have been hard to predict.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-sony",
+      "yahoo-ko",
+      "yahoo-xom",
+      "hubble-history",
+      "soviet-collapse",
+      "web-release"
+    ]
+  }
+}

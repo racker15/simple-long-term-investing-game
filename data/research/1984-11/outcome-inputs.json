@@ -1,0 +1,54 @@
+{
+  "scenario_id": "1984-11",
+  "events": [
+    {
+      "month": "1986-01",
+      "title": "Challenger is lost",
+      "description": "Seven people die when the shuttle breaks apart after launch. NASA pauses flights and investigates.",
+      "source_ids": ["nasa-challenger"]
+    },
+    {
+      "month": "1987-10",
+      "title": "Black Monday hits markets",
+      "description": "The Dow falls 22.6% in one day. The monthly chart combines that day with all the other trading days in October.",
+      "source_ids": ["fed-crash1987"]
+    },
+    {
+      "month": "1989-11",
+      "title": "The Berlin Wall opens",
+      "description": "East Germans begin crossing the border freely. The change becomes a powerful symbol of a changing Europe.",
+      "source_ids": ["wall-opens"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "All seven choices grew over five years, but international shares grew the most in this set. The 1987 crash made the journey much rougher than the final totals suggest. Everyday-product companies also made strong gains. You did not need to pick a glamorous new technology to earn a good result, and one window cannot prove a permanent rule.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-pg",
+      "yahoo-cl",
+      "yahoo-ge",
+      "nasa-challenger",
+      "fed-crash1987",
+      "wall-opens"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "Voters had re-elected Reagan, tax changes were being debated, and even toothpaste packaging was a business battleground.",
+    "what_actually_mattered": "The money grew through many monthly changes. Broad foreign shares led these choices, while owning one company brought its own separate risks.",
+    "what_faded_away": "A new package or a movie opening did not reveal five years of returns. A memorable product story was not a complete investing plan.",
+    "what_nobody_knew": "The market crash and the opening of the Berlin Wall were still ahead. Neither the smoothness of the journey nor the winner was known.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-pg",
+      "yahoo-cl",
+      "yahoo-ge",
+      "nasa-challenger",
+      "fed-crash1987",
+      "wall-opens"
+    ]
+  }
+}
