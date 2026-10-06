@@ -56,3 +56,11 @@ All 37 scenarios passed the combined check, including 146 tests, rebuilding, val
 September 2005, July 2006 and June 2007 starts were committed at `41e0172a01657625cb173bfb9526143406ca2092`; August/November 2007 and March 2009 at `00f38eba17590043db11827ae71dcbfa048c55d2`. All six are complete, bringing the collection to 43. Seven selected dates remain. AIG’s August 2009 gain of about 245% is retained after checking raw month-end prices and reverse-split timing. Its January 2011 warrant dividend is explicitly modeled through the vendor’s cash-equivalent adjusted-price proxy, not a separate warrant-holding strategy; no second distribution is added.
 
 The 43-scenario aggregate check passed with 152 tests, all rebuilding/validation checks, schemas, formatting, TypeScript and production build. The validator flags AIG’s reviewed August 2009 extreme return; the observation is retained and explained.
+
+## Final seven dates: target reached
+
+August 2011, March 2012 and May 2013 starts were committed at `784ee7ae4a360d1ac1339e3f949871d82d455e76`; January 2016, December 2018 and January/March 2020 at `5d8533a35a8c13fb45f4bf756a555f47daabb400`, before their future-price retrieval. All seven now have complete outcomes. The manifest contains exactly **50 unique scenarios: 25 important and 25 random dates**, including all six unchanged pilots. There were no date replacements.
+
+The later starts use contemporary official announcements where the magazine archive was unavailable. January 2020 describes the coronavirus emergency without importing the later pandemic announcement. March 2020 already knows about the pandemic; its future events start later. Its professional forecast is explicitly identified as February's survey, before many March disruptions. Dollar-denominated Nintendo ADR returns preserve the existing currency convention.
+
+The complete collection passed the local aggregate check: 159 tests, deterministic rebuilding, schemas, scenario validation, formatting, TypeScript and production build. The reviewed AIG extreme-return warning remains visible. Editorial review across the complete collection and new-date browser walkthroughs are the next checks. This content milestone does not switch the normal fictional demo to historical sessions or claim deployment.

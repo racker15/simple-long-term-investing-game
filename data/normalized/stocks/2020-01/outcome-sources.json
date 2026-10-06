@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "yahoo-ba",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/BA/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/BA?period1=1546300800&period2=1738368000&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "BA",
+      "raw_path": "data/raw/stocks/2020-01/outcome-BA.json",
+      "sha256": "e02eb1a845555ffe009853323a3727f6b1850faa35030b5e5559733955643cac",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 5d8533a35a8c13fb45f4bf756a555f47daabb400 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-tsla",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/TSLA/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/TSLA?period1=1546300800&period2=1738368000&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "TSLA",
+      "raw_path": "data/raw/stocks/2020-01/outcome-TSLA.json",
+      "sha256": "cbe3f5bc79dd85171b39df595e7a3c5ede78357bc2013532f7139a81d46e437a",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 5d8533a35a8c13fb45f4bf756a555f47daabb400 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-dis",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/DIS/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/DIS?period1=1546300800&period2=1738368000&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "DIS",
+      "raw_path": "data/raw/stocks/2020-01/outcome-DIS.json",
+      "sha256": "58bbc78ce9a5bd3437cc05d7f266d9d18658de55764f0826d1edab70c6fc9400",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 5d8533a35a8c13fb45f4bf756a555f47daabb400 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    }
+  ]
+}

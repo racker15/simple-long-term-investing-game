@@ -1,0 +1,45 @@
+{
+  "scenario_id": "2016-01",
+  "sources": [
+    {
+      "id": "brexit",
+      "source_name": "Electoral Commission: EU referendum results",
+      "source_reference": "https://www.electoralcommission.org.uk/research-reports-and-data/our-reports-and-data-past-elections-and-referendums/eu-referendum",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Official results; vote did not itself end UK membership.",
+      "observation_date": "2016-06-24"
+    },
+    {
+      "id": "eclipse",
+      "source_name": "NASA: Total solar eclipse August 21 2017",
+      "source_reference": "https://www.nasa.gov/image-article/total-solar-eclipse-august-21-2017/",
+      "publication_date": "2017-08-21",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary image and account.",
+      "observation_date": "2017-08-21"
+    },
+    {
+      "id": "pandemic",
+      "source_name": "WHO: Director-General briefing March 11 2020",
+      "source_reference": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020",
+      "publication_date": "2020-03-11",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original pandemic characterization.",
+      "observation_date": "2020-03-11"
+    },
+    {
+      "id": "vaccine",
+      "source_name": "WHO: First emergency-use validation for a COVID-19 vaccine",
+      "source_reference": "https://www.who.int/news/item/31-12-2020-who-issues-its-first-emergency-use-validation-for-a-covid-19-vaccine-and-emphasizes-need-for-equitable-global-access",
+      "publication_date": "2020-12-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "WHO listing, not the first national authorization worldwide.",
+      "observation_date": "2020-12-31"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "scenario_id": "2012-03",
+  "events": [
+    {
+      "month": "2012-07",
+      "title": "A new particle is found",
+      "description": "CERN reports a particle consistent with the long-sought Higgs boson.",
+      "source_ids": ["higgs"]
+    },
+    {
+      "month": "2015-07",
+      "title": "A spacecraft visits Pluto",
+      "description": "New Horizons makes a close flyby after a journey of billions of miles.",
+      "source_ids": ["pluto"]
+    },
+    {
+      "month": "2016-06",
+      "title": "UK voters choose to leave the EU",
+      "description": "The referendum result begins a long process of leaving the European Union.",
+      "source_ids": ["brexit"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Amazon grew to more than four times its starting value. The US share basket and Apple both gained roughly 85–90%, while Exxon Mobil gained much less. A successful product or a profitable year did not tell you which investment would grow fastest over the next five years.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aapl",
+      "yahoo-amzn",
+      "yahoo-xom",
+      "higgs",
+      "pluto",
+      "brexit"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "The election, housing, oil prices and new technology drew attention. Scientists were still searching for the Higgs boson.",
+    "what_actually_mattered": "Companies followed different paths. Spreading money across many businesses meant relying less on any single product, oil price or company.",
+    "what_faded_away": "A record sales announcement was useful information about the past. It was not a promise of the same growth every year.",
+    "what_nobody_knew": "The future ranking was unknown. Amazon’s large gain looks obvious on the finished chart, but it was not printed in the starting news.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aapl",
+      "yahoo-amzn",
+      "yahoo-xom",
+      "higgs",
+      "pluto",
+      "brexit"
+    ]
+  }
+}

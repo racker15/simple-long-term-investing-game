@@ -1,0 +1,62 @@
+{
+  "scenario_id": "2020-01",
+  "events": [
+    {
+      "month": "2020-03",
+      "title": "WHO describes COVID-19 as a pandemic",
+      "description": "The coronavirus outbreak has spread widely across countries.",
+      "source_ids": ["pandemic"]
+    },
+    {
+      "month": "2020-12",
+      "title": "WHO lists a COVID-19 vaccine for emergency use",
+      "description": "Its first such listing supports wider access to the Pfizer-BioNTech vaccine.",
+      "source_ids": ["vaccine"]
+    },
+    {
+      "month": "2022-03",
+      "title": "The Fed starts raising interest rates",
+      "description": "It raises its target for short-term rates as inflation remains high.",
+      "source_ids": ["rates-2022"]
+    },
+    {
+      "month": "2022-07",
+      "title": "Webb reveals new views of space",
+      "description": "NASA releases a full set of images from the powerful space telescope.",
+      "source_ids": ["webb"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Tesla grew to more than nine times its starting value. The US share basket roughly doubled, while Boeing lost about 44% and Disney about 17%. Bonds ended slightly lower. The same five years could produce a huge gain or a lasting loss, depending on what you owned.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ba",
+      "yahoo-tsla",
+      "yahoo-dis",
+      "pandemic",
+      "vaccine",
+      "rates-2022",
+      "webb"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "The new coronavirus was an international emergency. Boeing faced grounded planes, Disney celebrated a film, and Britain prepared to leave the EU.",
+    "what_actually_mattered": "Single-company risks mattered. A basket spread money among many businesses, while a single share tied the result to one company’s fortunes.",
+    "what_faded_away": "A box-office record or a profitable quarter did not protect a company from later shocks. Starting news described only part of the risk.",
+    "what_nobody_knew": "People did not yet know how far the outbreak would spread or how economies would respond. The exact winners and losses were also unknown.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ba",
+      "yahoo-tsla",
+      "yahoo-dis",
+      "pandemic",
+      "vaccine",
+      "rates-2022",
+      "webb"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "yahoo-aapl",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/AAPL/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?period1=1298937600&period2=1491004800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "AAPL",
+      "raw_path": "data/raw/stocks/2012-03/outcome-AAPL.json",
+      "sha256": "26ba9a89ddfec8b31a975440f1a56ff01307abf7df17000eba92017f1a511b58",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 784ee7ae4a360d1ac1339e3f949871d82d455e76 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-amzn",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/AMZN/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN?period1=1298937600&period2=1491004800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "AMZN",
+      "raw_path": "data/raw/stocks/2012-03/outcome-AMZN.json",
+      "sha256": "9ba863a2012d60cd01ca167d98793c69594a9e1ca947b1eda8b424cab6174017",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 784ee7ae4a360d1ac1339e3f949871d82d455e76 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-xom",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/XOM/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/XOM?period1=1298937600&period2=1491004800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "XOM",
+      "raw_path": "data/raw/stocks/2012-03/outcome-XOM.json",
+      "sha256": "5593e42507a8d2a0ee9110bdaa9b7b0bfbfa5b15c83690b9fc28f5ac343279f8",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 784ee7ae4a360d1ac1339e3f949871d82d455e76 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    }
+  ]
+}

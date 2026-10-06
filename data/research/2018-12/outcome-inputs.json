@@ -1,0 +1,62 @@
+{
+  "scenario_id": "2018-12",
+  "events": [
+    {
+      "month": "2020-03",
+      "title": "WHO describes COVID-19 as a pandemic",
+      "description": "The coronavirus outbreak has spread widely across countries.",
+      "source_ids": ["pandemic"]
+    },
+    {
+      "month": "2020-12",
+      "title": "WHO lists a COVID-19 vaccine for emergency use",
+      "description": "Its first such listing supports wider access to the Pfizer-BioNTech vaccine.",
+      "source_ids": ["vaccine"]
+    },
+    {
+      "month": "2022-03",
+      "title": "The Fed starts raising interest rates",
+      "description": "It raises its target for short-term rates as inflation remains high.",
+      "source_ids": ["rates-2022"]
+    },
+    {
+      "month": "2022-07",
+      "title": "Webb reveals new views of space",
+      "description": "NASA releases a full set of images from the powerful space telescope.",
+      "source_ids": ["webb"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Apple grew to about five times its starting value, and Microsoft to almost four times. Nintendo nearly doubled, as did the US share basket. Bonds gained only a little. The five years included a pandemic and large changes in interest rates, none of which made prices move in a straight line.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ntdoy",
+      "yahoo-aapl",
+      "yahoo-msft",
+      "pandemic",
+      "vaccine",
+      "rates-2022",
+      "webb"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "People watched interest rates, climate talks, new games and an approaching spacecraft flyby. Technology companies reported their results.",
+    "what_actually_mattered": "A broad basket and individual companies had different outcomes. Even strong gains over five years included periods when prices fell.",
+    "what_faded_away": "A holiday hit or one strong quarter could not settle the next five years. Good company news did not remove the risk of its shares.",
+    "what_nobody_knew": "The pandemic was unknown. It is easier to explain the eventual winners after seeing the chart than to choose them beforehand.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ntdoy",
+      "yahoo-aapl",
+      "yahoo-msft",
+      "pandemic",
+      "vaccine",
+      "rates-2022",
+      "webb"
+    ]
+  }
+}

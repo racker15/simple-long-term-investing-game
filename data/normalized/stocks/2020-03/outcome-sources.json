@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "yahoo-dis",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/DIS/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/DIS?period1=1551398400&period2=1743465600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "DIS",
+      "raw_path": "data/raw/stocks/2020-03/outcome-DIS.json",
+      "sha256": "6db097da499d15ff39089218afe68fd6e8d4f04a78f2a4a584f2d94f1081f690",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 5d8533a35a8c13fb45f4bf756a555f47daabb400 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-amzn",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/AMZN/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN?period1=1551398400&period2=1743465600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "AMZN",
+      "raw_path": "data/raw/stocks/2020-03/outcome-AMZN.json",
+      "sha256": "d392476d4d6c7cf9819b4d728ba4f51c55115c73b9d71d494f460acf87e43ced",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 5d8533a35a8c13fb45f4bf756a555f47daabb400 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-nflx",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/NFLX/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/NFLX?period1=1551398400&period2=1743465600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "NFLX",
+      "raw_path": "data/raw/stocks/2020-03/outcome-NFLX.json",
+      "sha256": "c9ad027412c64f8964d2bf00a6c5f9c239ee117ca772d761ef02d0859a8a0958",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 5d8533a35a8c13fb45f4bf756a555f47daabb400 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    }
+  ]
+}

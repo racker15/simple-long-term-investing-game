@@ -1,0 +1,54 @@
+{
+  "scenario_id": "2020-03",
+  "events": [
+    {
+      "month": "2020-12",
+      "title": "WHO lists a COVID-19 vaccine for emergency use",
+      "description": "Its first such listing supports wider access to the Pfizer-BioNTech vaccine.",
+      "source_ids": ["vaccine"]
+    },
+    {
+      "month": "2022-03",
+      "title": "The Fed starts raising interest rates",
+      "description": "It raises its target for short-term rates as inflation remains high.",
+      "source_ids": ["rates-2022"]
+    },
+    {
+      "month": "2022-07",
+      "title": "Webb reveals new views of space",
+      "description": "NASA releases a full set of images from the powerful space telescope.",
+      "source_ids": ["webb"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Netflix and the US share basket more than doubled over five years. Amazon nearly doubled, but Disney finished only slightly higher. The bond estimate fell a little. This starting date came after a sharp market fall, so it gives a different picture from buying before the outbreak.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-dis",
+      "yahoo-amzn",
+      "yahoo-nflx",
+      "vaccine",
+      "rates-2022",
+      "webb"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "The pandemic had closed venues and changed daily life. Companies hired workers, adjusted services and tried to cope with sudden demand changes.",
+    "what_actually_mattered": "The starting price mattered as well as the company. Gains measured from this month do not erase losses suffered by someone who bought earlier.",
+    "what_faded_away": "A hiring plan or busy streaming service did not translate into a guaranteed stock return. Business activity and share prices are connected, but not identical.",
+    "what_nobody_knew": "The length of the disruption, the recovery and later interest rates were uncertain. The final chart leaves out how hard it felt to make choices then.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-dis",
+      "yahoo-amzn",
+      "yahoo-nflx",
+      "vaccine",
+      "rates-2022",
+      "webb"
+    ]
+  }
+}

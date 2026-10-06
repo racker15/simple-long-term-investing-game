@@ -1,0 +1,266 @@
+{
+  "scenario_id": "2012-03",
+  "sources": [
+    {
+      "id": "news-2012-03-2",
+      "source_name": "TIME: The End of the Road",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,2109122,00.html",
+      "publication_date": "2012-03-26",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-2012-03-7",
+      "source_name": "TIME: Exercising Your DNA",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,2109124,00.html",
+      "publication_date": "2012-03-26",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-2012-03-9",
+      "source_name": "TIME: Please, Please Go to Sleep",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,2109149,00.html",
+      "publication_date": "2012-03-26",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-2012-03-11",
+      "source_name": "TIME: Learning to Love the Housing Bailout",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,2109127,00.html",
+      "publication_date": "2012-03-26",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-2012-03-18",
+      "source_name": "TIME: Hunting the Higgs",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,2109118,00.html",
+      "publication_date": "2012-03-26",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-2012-03-21",
+      "source_name": "TIME: Crude Awakening",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,2109138,00.html",
+      "publication_date": "2012-03-26",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "new-ipad",
+      "source_name": "Apple: New iPad Tops Three Million",
+      "source_reference": "https://www.apple.com/newsroom/2012/03/19New-iPad-Tops-Three-Million/",
+      "publication_date": "2012-03-19",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original company sales announcement."
+    },
+    {
+      "id": "kindle-holiday",
+      "source_name": "Amazon: Best Black Friday Ever for Kindle Family",
+      "source_reference": "https://press.aboutamazon.com/2011/11/best-black-friday-ever-for-kindle-family-kindle-sales-increase-4x-over-last-year",
+      "publication_date": "2011-11-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original company report; sales claims attributed to the company."
+    },
+    {
+      "id": "exxon-results",
+      "source_name": "ExxonMobil: Fourth Quarter 2011 Results, SEC release",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/34088/000003408812000005/f8k4q991.htm",
+      "publication_date": "2012-01-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original results release."
+    },
+    {
+      "id": "spf-outlook",
+      "source_name": "Professional forecaster survey, 2012 Q1",
+      "source_reference": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/data-files/files/median_rgdp_growth.xlsx",
+      "publication_date": "2012-02-29",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Historical median DRGDP3 forecast (quarter after the survey quarter). Pre-1990 original release timing is uncertain; middle-month end is modeled availability, not an asserted original archive date. Retrospective forecast archive, not actual outcomes.",
+      "observation_date": "2012-02-29"
+    },
+    {
+      "id": "asof-macro-cpiaucsl",
+      "source_name": "Historical CPIAUCSL observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "publication_date": "2012-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2012-02-29"
+    },
+    {
+      "id": "asof-macro-unrate",
+      "source_name": "Historical UNRATE observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UNRATE",
+      "publication_date": "2012-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2012-02-29"
+    },
+    {
+      "id": "asof-macro-fedfunds",
+      "source_name": "Historical FEDFUNDS observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "publication_date": "2012-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2012-02-29"
+    },
+    {
+      "id": "asof-macro-gs10",
+      "source_name": "Historical GS10 observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/GS10",
+      "publication_date": "2012-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2012-02-29"
+    },
+    {
+      "id": "asof-macro-umcsent",
+      "source_name": "Historical UMCSENT observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UMCSENT",
+      "publication_date": "2012-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2012-02-29"
+    },
+    {
+      "id": "asof-macro-indpro",
+      "source_name": "Historical INDPRO observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/INDPRO",
+      "publication_date": "2012-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2012-02-29"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-market observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "publication_date": "2012-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying observations, not publication date of modern archives. Transparent Treasury and developed-market proxies; not exact contemporary database vintages.",
+      "observation_date": "2012-03-31"
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/2012-03/starting.json",
+      "publication_date": "2012-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying prices. Current retrospective adjusted-close reconstruction; the modern archive publication date is not asserted here.",
+      "observation_date": "2012-03-31"
+    },
+    {
+      "id": "french-us",
+      "source_name": "Kenneth French Data Library",
+      "source_reference": "https://raw.githubusercontent.com/ethanteng/finsight/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609/src/datasets/F-F_Research_Data_Factors.csv",
+      "observation_date": "2017-03-31",
+      "publication_date": "2026-10-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/ethanteng/finsight/commit/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609), not original market reporting or first dataset publication. Canonical source: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html. Series: F-F_Research_Data_Factors: Mkt-RF + RF; RF. Raw SHA256: 9ddf8f5b510f8730acca0fc3d899085d757c92378d7ea66b7c8d864354fa1209. Use the first monthly table; convert percent to decimal. US equity total return = (Mkt-RF + RF)/100. Cash = RF/100. No ETF replication is claimed. Current reconstructed history, not a 1999 data-library vintage. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "french-international",
+      "source_name": "Kenneth French International Index Portfolios",
+      "source_reference": "https://raw.githubusercontent.com/ethanteng/finsight/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609/src/datasets/F-F_International_Indices.dat",
+      "observation_date": "2017-03-31",
+      "publication_date": "2026-10-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/ethanteng/finsight/commit/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609), not original market reporting or first dataset publication. Canonical source: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/int_index_port_formed.html. Series: International index: Major Markets market portfolio (USD, including dividends). Raw SHA256: 047aab4e9ae512f3759fde34e8e49b8ff12a162fad4e8d36ec5b8c99b8d06266. EAFE + Canada country-weighted market portfolio, without US equity. Source coverage begins January 1975. Country coverage changes in source methodology; MSCI inputs through 2006 and Bloomberg from 2007. No project-level splice. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "fred-gs5",
+      "source_name": "Federal Reserve H.15 via FRED",
+      "source_reference": "https://raw.githubusercontent.com/BuyRisk/buyrisk.github.io/c51c5c9592bf2de0758b7b2ed13a35930516fefa/data/sources/fred/GS5.csv",
+      "observation_date": "2017-03-31",
+      "publication_date": "2026-09-21",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/BuyRisk/buyrisk.github.io/commit/c51c5c9592bf2de0758b7b2ed13a35930516fefa), not original market reporting or first dataset publication. Canonical source: https://fred.stlouisfed.org/series/GS5. Series: GS5. Raw SHA256: b03972bed533eeffebe1d9b54d7e52dc5a67b0119cc82ebd92d799fbc184c165. Monthly average five-year constant-maturity Treasury yield. Synthetic rolling five-year par bond: monthly coupons, flat yield curve, one coupon plus repriced 59 remaining monthly payments. No credit/spread exposure or bond-fund fees; not a broad aggregate index. Uses preceding month yield for coupon, current month yield for repricing. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "yahoo-aapl",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "source_reference": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?period1=1298937600&period2=1491004800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "2017-03-31",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Current retrospective Yahoo snapshot used for outcomes, retrieved 2026-10-06. Original publication and archive revision dates are unknown (publication_date is null); retrieval does not establish a contemporary vintage. Daily observations run through 2017-03-31. Retrieved raw payload SHA256: 26ba9a89ddfec8b31a975440f1a56ff01307abf7df17000eba92017f1a511b58. Endpoint is unversioned; the committed normalized monthly endpoints allow offline rebuilding. Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 784ee7ae4a360d1ac1339e3f949871d82d455e76 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-amzn",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "source_reference": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN?period1=1298937600&period2=1491004800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "2017-03-31",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Current retrospective Yahoo snapshot used for outcomes, retrieved 2026-10-06. Original publication and archive revision dates are unknown (publication_date is null); retrieval does not establish a contemporary vintage. Daily observations run through 2017-03-31. Retrieved raw payload SHA256: 9ba863a2012d60cd01ca167d98793c69594a9e1ca947b1eda8b424cab6174017. Endpoint is unversioned; the committed normalized monthly endpoints allow offline rebuilding. Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 784ee7ae4a360d1ac1339e3f949871d82d455e76 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-xom",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "source_reference": "https://query1.finance.yahoo.com/v8/finance/chart/XOM?period1=1298937600&period2=1491004800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "2017-03-31",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Current retrospective Yahoo snapshot used for outcomes, retrieved 2026-10-06. Original publication and archive revision dates are unknown (publication_date is null); retrieval does not establish a contemporary vintage. Daily observations run through 2017-03-31. Retrieved raw payload SHA256: 5593e42507a8d2a0ee9110bdaa9b7b0bfbfa5b15c83690b9fc28f5ac343279f8. Endpoint is unversioned; the committed normalized monthly endpoints allow offline rebuilding. Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 784ee7ae4a360d1ac1339e3f949871d82d455e76 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "higgs",
+      "source_name": "CERN: Experiments observe particle consistent with Higgs boson",
+      "source_reference": "https://home.cern/cern-experiments-observe-particle-consistent-with-long-sought-higgs-boson/",
+      "publication_date": "2012-07-04",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original announcement.",
+      "observation_date": "2012-07-04"
+    },
+    {
+      "id": "pluto",
+      "source_name": "NASA: New Horizons reaches Pluto",
+      "source_reference": "https://www.nasa.gov/news-release/nasas-three-billion-mile-journey-to-pluto-reaches-historic-encounter/",
+      "publication_date": "2015-07-14",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original flyby announcement.",
+      "observation_date": "2015-07-14"
+    },
+    {
+      "id": "brexit",
+      "source_name": "Electoral Commission: EU referendum results",
+      "source_reference": "https://www.electoralcommission.org.uk/research-reports-and-data/our-reports-and-data-past-elections-and-referendums/eu-referendum",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Official results; vote did not itself end UK membership.",
+      "observation_date": "2016-06-24"
+    }
+  ]
+}

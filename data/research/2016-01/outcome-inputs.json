@@ -1,0 +1,62 @@
+{
+  "scenario_id": "2016-01",
+  "events": [
+    {
+      "month": "2016-06",
+      "title": "UK voters choose to leave the EU",
+      "description": "The referendum result begins a long process of leaving the European Union.",
+      "source_ids": ["brexit"]
+    },
+    {
+      "month": "2017-08",
+      "title": "A total eclipse crosses the US",
+      "description": "People along a narrow path see the Moon completely cover the Sun.",
+      "source_ids": ["eclipse"]
+    },
+    {
+      "month": "2020-03",
+      "title": "WHO describes COVID-19 as a pandemic",
+      "description": "The coronavirus outbreak has spread widely across countries.",
+      "source_ids": ["pandemic"]
+    },
+    {
+      "month": "2020-12",
+      "title": "WHO lists a COVID-19 vaccine for emergency use",
+      "description": "Its first such listing supports wider access to the Pfizer-BioNTech vaccine.",
+      "source_ids": ["vaccine"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Tesla grew to about 21 times its starting value, far ahead of the other choices. The US share basket more than doubled. Disney and Boeing also gained overall, despite the pandemic arriving near the end. An extraordinary winner can dominate a chart without making that result predictable.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-dis",
+      "yahoo-ba",
+      "yahoo-tsla",
+      "brexit",
+      "eclipse",
+      "pandemic",
+      "vaccine"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "New films, electric cars, aircraft orders and a possible distant planet made news. Companies announced ambitious plans.",
+    "what_actually_mattered": "Company shares could move very differently from broad baskets. Tesla’s huge gain also came with sharp swings that an investor would have had to endure.",
+    "what_faded_away": "A record film or an aircraft sales report did not reveal the whole five-year journey. A company’s promise still had to become reality.",
+    "what_nobody_knew": "The pandemic and the size of Tesla’s gain were unknown. This selected winner does not mean every exciting young company would do the same.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-dis",
+      "yahoo-ba",
+      "yahoo-tsla",
+      "brexit",
+      "eclipse",
+      "pandemic",
+      "vaccine"
+    ]
+  }
+}

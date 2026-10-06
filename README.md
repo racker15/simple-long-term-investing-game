@@ -8,7 +8,7 @@ The product sources remain [investing-game-specification.md](investing-game-spec
 
 ## Expansion toward 50 scenarios
 
-Draft expansion currently registers **43 complete historical scenarios**. Thirty-seven additions from the 1980s through 2009 are now complete from the preregistered 25-important/25-random plan. Their starting context was committed before outcome assembly. The original six pilot bundles remain unchanged. Closely spaced random dates and overlapping five-year windows are retained rather than screened for a preferred result. The normal demonstration remains fictional; content expansion does not itself enable the later production-session UI.
+Draft expansion now registers **50 complete historical scenarios: 25 important dates and 25 preregistered random dates**. Forty-four additions from 1980 through 2020 complete the selected plan. Their starting context was committed before outcome assembly. The original six pilot bundles remain unchanged. Closely spaced random dates and overlapping five-year windows are retained rather than screened for a preferred result. The normal demonstration remains fictional; content expansion does not itself enable the later production-session UI.
 
 ## Product scope
 
