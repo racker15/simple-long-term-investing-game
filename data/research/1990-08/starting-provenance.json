@@ -1,0 +1,176 @@
+{
+  "scenario_id": "1990-08",
+  "sources": [
+    {
+      "id": "news-1990-08-19",
+      "source_name": "TIME: East Germany: Now You See It, Now You. . .",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,971012,00.html",
+      "publication_date": "1990-08-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1990-08-24",
+      "source_name": "TIME: The Gulf: Must This Mean War?",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,970978,00.html",
+      "publication_date": "1990-08-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1990-08-32",
+      "source_name": "TIME: Design: The New Shape of Sound",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,971004,00.html",
+      "publication_date": "1990-08-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1990-08-38",
+      "source_name": "TIME: SCHOOL SUPPLIES: Goodbye to Lemon Yellow",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,970976,00.html",
+      "publication_date": "1990-08-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1990-08-40",
+      "source_name": "TIME: Flying Too High in the Sky?",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,970982,00.html",
+      "publication_date": "1990-08-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1990-08-45",
+      "source_name": "TIME: Music: Hail to The New Orleans Chiefs!",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,970988,00.html",
+      "publication_date": "1990-08-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "ibm-smaller",
+      "source_name": "UPI: IBM unveils low-end AS400 models",
+      "source_reference": "https://www.upi.com/Archives/1990/08/21/IBM-unveils-low-end-AS400-models/6463651211200/",
+      "publication_date": "1990-08-21",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary product announcement."
+    },
+    {
+      "id": "exxon-cleanup",
+      "source_name": "UPI: Exxon reports 43.1 percent drop in earnings",
+      "source_reference": "https://www.upi.com/amp/Archives/1990/01/24/Exxon-reports-431-percent-drop-in-earnings/6780633157200/",
+      "publication_date": "1990-01-24",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary report ties an earnings decline to additional spill-cleanup costs."
+    },
+    {
+      "id": "sony-columbia",
+      "source_name": "UPI: Sony completes Columbia takeover",
+      "source_reference": "https://www.upi.com/Archives/1989/11/07/Sony-completes-Columbia-takeover/2362626418000/",
+      "publication_date": "1989-11-07",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary acquisition report already used in November 1989 context."
+    },
+    {
+      "id": "spf-outlook",
+      "source_name": "Professional forecaster survey, 1990 Q3",
+      "source_reference": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/data-files/files/median_rgdp_growth.xlsx",
+      "publication_date": "1990-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Historical median DRGDP3 forecast (quarter after the survey quarter). Pre-1990 original release timing is uncertain; middle-month end is modeled availability, not an asserted original archive date. Retrospective forecast archive, not actual outcomes.",
+      "observation_date": "1990-08-31"
+    },
+    {
+      "id": "asof-macro-cpiaucsl",
+      "source_name": "Historical CPIAUCSL observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "publication_date": "1990-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1990-07-31"
+    },
+    {
+      "id": "asof-macro-unrate",
+      "source_name": "Historical UNRATE observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UNRATE",
+      "publication_date": "1990-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1990-07-31"
+    },
+    {
+      "id": "asof-macro-fedfunds",
+      "source_name": "Historical FEDFUNDS observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "publication_date": "1990-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1990-07-31"
+    },
+    {
+      "id": "asof-macro-gs10",
+      "source_name": "Historical GS10 observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/GS10",
+      "publication_date": "1990-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1990-07-31"
+    },
+    {
+      "id": "asof-macro-umcsent",
+      "source_name": "Historical UMCSENT observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UMCSENT",
+      "publication_date": "1990-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1990-07-31"
+    },
+    {
+      "id": "asof-macro-indpro",
+      "source_name": "Historical INDPRO observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/INDPRO",
+      "publication_date": "1990-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1990-07-31"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-market observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "publication_date": "1990-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying observations, not publication date of modern archives. Transparent Treasury and developed-market proxies; not exact contemporary database vintages.",
+      "observation_date": "1990-08-31"
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/1990-08/starting.json",
+      "publication_date": "1990-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying prices. Current retrospective adjusted-close reconstruction; the modern archive publication date is not asserted here.",
+      "observation_date": "1990-08-31"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "scenario_id": "1991-11",
+    "date": "1991-11-30",
+    "display_date": "November 30, 1991",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "random",
+      "draw_universe": "calendar-month-ends-1980-2020-expansion-50-v1",
+      "random_seed": "simple-long-term-investing-game/50-scenarios/2026-10-06",
+      "draw_index": 7,
+      "method": "Preregistered FNV-1a/Mulberry32 unbiased draws without replacement from eligible month ends. Preserves six pilots; no outcome screening.",
+      "exclusions": [
+        "Exact duplicates of reserved important dates and retained random pilot dates",
+        "Genuine source or return-history unavailability only"
+      ],
+      "replacement_for": null
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Cambodia takes steps toward peace",
+      "category": "World",
+      "summary": "Prince Sihanouk returns under a peace agreement. Rival groups still face the difficult work of sharing power and preparing elections.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1991-11-15"]
+    },
+    {
+      "headline": "Yeltsin faces a challenge inside Russia",
+      "category": "World",
+      "summary": "A dispute with independence supporters leads to a failed emergency order. Russia’s political future remains unsettled.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1991-11-21"]
+    },
+    {
+      "headline": "Whiteflies damage California crops",
+      "category": "Environment",
+      "summary": "Tiny insects destroy melons and threaten other harvests. Farmers and researchers search for ways to protect the plants.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1991-11-23"]
+    },
+    {
+      "headline": "Extra unemployment help wins agreement",
+      "category": "Economy",
+      "summary": "Congress and President Bush agree to extend benefits for some workers who have exhausted their usual support.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1991-11-36"]
+    },
+    {
+      "headline": "Animated and live-action films turn design into fun",
+      "category": "Culture",
+      "summary": "Beauty and the Beast and The Addams Family attract attention for imaginative settings and lively visual details.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1991-11-45"]
+    },
+    {
+      "headline": "Computer rivals become partners",
+      "category": "Technology",
+      "summary": "IBM and Apple agree to develop computer technology together. Cooperation could help them tackle expensive technical challenges.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["computer-alliance"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (1991-10; approximate)",
+      "value": 2.8,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (1991-10; approximate)",
+      "value": 7,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (1991-10; approximate)",
+      "value": 5.2,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (1991-10; approximate)",
+      "value": 7.5,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (1991-10; approximate)",
+      "value": 78.3,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (1991-10; approximate)",
+      "value": -0.6,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 2.2% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:1991-11:disney",
+      "company_name": "Walt Disney",
+      "ticker": "DIS",
+      "description": "Its new animated film Beauty and the Beast brings music and elaborate visual design to cinemas.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-1991-11-45", "asof-stock-prices"],
+      "three_month": -0.11652788608116471,
+      "one_year": 0.05778103599940487
+    },
+    {
+      "id": "hot:1991-11:ibm",
+      "company_name": "IBM",
+      "ticker": "IBM",
+      "description": "The computer giant is forming partnerships, including a development agreement with Apple.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["computer-alliance", "asof-stock-prices"],
+      "three_month": -0.03327131009407236,
+      "one_year": -0.14780422161352602
+    },
+    {
+      "id": "hot:1991-11:apple",
+      "company_name": "Apple Computer",
+      "ticker": "AAPL",
+      "description": "The Macintosh maker is working with longtime rival IBM on future computer technology.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["computer-alliance", "asof-stock-prices"],
+      "three_month": -0.04014932961943585,
+      "one_year": 0.3938754561586135
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:1991-11:disney",
+      "name": "Walt Disney",
+      "description": "Its new animated film Beauty and the Beast brings music and elaborate visual design to cinemas.",
+      "source_ids": ["news-1991-11-45", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1991-11:ibm",
+      "name": "IBM",
+      "description": "The computer giant is forming partnerships, including a development agreement with Apple.",
+      "source_ids": ["computer-alliance", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1991-11:apple",
+      "name": "Apple Computer",
+      "description": "The Macintosh maker is working with longtime rival IBM on future computer technology.",
+      "source_ids": ["computer-alliance", "asof-stock-prices"]
+    }
+  ],
+  "recent_returns": [
+    {
+      "asset_id": "cash",
+      "three_month": 0.012753715347999961,
+      "one_year": 0.05830039462790482,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "bonds",
+      "three_month": 0.052457697115822155,
+      "one_year": 0.1421938943679526,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "us_total",
+      "three_month": -0.03270684793700007,
+      "one_year": 0.24913974572438646,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "international_ex_us",
+      "three_month": 0.025281987799999905,
+      "one_year": 0.08488412709614823,
+      "source_ids": ["asof-broad-proxies"]
+    }
+  ]
+}
