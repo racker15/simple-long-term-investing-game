@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "scenario_id": "2007-08",
+    "date": "2007-08-31",
+    "display_date": "August 31, 2007",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "important",
+      "selection_reason": "Credit-market disruption and emergency liquidity measures."
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Schools debate how to challenge gifted students",
+      "category": "Education",
+      "summary": "Families and educators ask whether advanced learners get the support they need. A single classroom must serve different abilities.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2007-08-0"]
+    },
+    {
+      "headline": "Housing troubles spread into finance",
+      "category": "Economy",
+      "summary": "Builders offer incentives as sales weaken. Problems with mortgages are also affecting lenders and investors.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2007-08-17"]
+    },
+    {
+      "headline": "Familiar names influence what people buy",
+      "category": "Science",
+      "summary": "Research explores why recognition can shape choices. Knowing a brand is not the same as knowing its quality.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2007-08-18"]
+    },
+    {
+      "headline": "Women coaches face obstacles",
+      "category": "Sports",
+      "summary": "Work schedules, family demands and hiring patterns affect careers. Advocates ask why coaching has not matched gains in participation.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2007-08-20"]
+    },
+    {
+      "headline": "High School Musical makes a young star",
+      "category": "Culture",
+      "summary": "Zac Efron and the Disney musical attract large audiences. Youth-focused entertainment becomes an important business.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2007-08-21"]
+    },
+    {
+      "headline": "Television adds environmental themes",
+      "category": "Environment",
+      "summary": "Networks plan programs about greener living and climate issues. Producers try to bring the subjects to wider audiences.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2007-08-23"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (2007-07; approximate)",
+      "value": 2.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (2007-07; approximate)",
+      "value": 4.7,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (2007-07; approximate)",
+      "value": 5.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (2007-07; approximate)",
+      "value": 5.0,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (2007-07; approximate)",
+      "value": 90.4,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (2007-07; approximate)",
+      "value": 2.6,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 2.7% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:2007-08:lennar",
+      "company_name": "Lennar",
+      "ticker": "LEN",
+      "description": "The homebuilder advertises new houses in a market where buyers are receiving large incentives.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-2007-08-17", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2007-08:kb-home",
+      "company_name": "KB Home",
+      "ticker": "KBH",
+      "description": "The builder faces a weakening housing market and pressure to attract buyers.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-2007-08-17", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2007-08:disney",
+      "company_name": "Walt Disney",
+      "ticker": "DIS",
+      "description": "High School Musical has become a prominent part of its youth entertainment business.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-2007-08-21", "asof-stock-prices"]
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:2007-08:lennar",
+      "name": "Lennar",
+      "description": "The homebuilder advertises new houses in a market where buyers are receiving large incentives.",
+      "source_ids": ["news-2007-08-17", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2007-08:kb-home",
+      "name": "KB Home",
+      "description": "The builder faces a weakening housing market and pressure to attract buyers.",
+      "source_ids": ["news-2007-08-17", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2007-08:disney",
+      "name": "Walt Disney",
+      "description": "High School Musical has become a prominent part of its youth entertainment business.",
+      "source_ids": ["news-2007-08-21", "asof-stock-prices"]
+    }
+  ]
+}

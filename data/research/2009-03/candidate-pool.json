@@ -1,0 +1,176 @@
+{
+  "scenario_id": "2009-03",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886538,00.html",
+      "title": "How AIG Became Too Big to Fail"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886552,00.html",
+      "title": "The Upside of Anger"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886533,00.html",
+      "title": "AIG's Deep Impact"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886543,00.html",
+      "title": "Joe Klein: Don't Panic — At Least Not Yet"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886571,00.html",
+      "title": "A New Era of Service Across America"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886549,00.html",
+      "title": "The Lost Art of Saying I'm Sorry"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886558,00.html",
+      "title": "How to Bring An End to the War Over Sex Ed"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886551,00.html",
+      "title": "The Moment"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886550,00.html",
+      "title": "The World"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886531,00.html",
+      "title": "Verbatim"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886559,00.html",
+      "title": "A Brief History Of: Ratings Agencies"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886534,00.html",
+      "title": "Pop Chart"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886542,00.html",
+      "title": "Milestones"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886556,00.html",
+      "title": "Richardson: A Star Always Worth Watching"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886567,00.html",
+      "title": "Ron Silver"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886555,00.html",
+      "title": "The Skimmer"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886541,00.html",
+      "title": "Are 3-D Movies Ready for Their Closeup?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886566,00.html",
+      "title": "Is Julia Roberts Still Queen of the Box Office?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886548,00.html",
+      "title": "Artist William Kentridge: Man of Constant Sorrow"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886536,00.html",
+      "title": "The Good Soldier"
+    },
+    {
+      "url": "https://content.time.com/time/specials/packages/article/0,28804,1870628_1888250_1888245,00.html",
+      "title": "Short List"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886553,00.html",
+      "title": "Arianna Huffington: The Web's New Oracle"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886532,00.html",
+      "title": "Strong Suits"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886544,00.html",
+      "title": "Nonprofit Squeeze: Donations Down, Volunteers Up"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886546,00.html",
+      "title": "Kindle 2 Will Woo You, Despite its Price"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886557,00.html",
+      "title": "The TIME 100"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886537,00.html",
+      "title": "The Last Shopping Mall? New Jersey Awaits Xanadu"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886539,00.html",
+      "title": "A Quiet Revolution Grows in the Muslim World"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1886540,00.html",
+      "title": "Inbox"
+    }
+  ],
+  "selected_news": [0, 4, 10, 16, 23, 24],
+  "stock_candidates": [
+    {
+      "ticker": "AIG",
+      "selected": true,
+      "rationale": "The insurer is receiving major government support and faces anger over executive bonuses."
+    },
+    {
+      "ticker": "MCO",
+      "selected": true,
+      "rationale": "The debt-rating company faces scrutiny of ratings given to mortgage-related investments."
+    },
+    {
+      "ticker": "AMZN",
+      "selected": true,
+      "rationale": "The online retailer has released the Kindle 2 electronic reader."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "yahoo-aig",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/AIG/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/AIG?period1=1204329600&period2=1238544000&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "AIG",
+      "raw_path": "data/raw/stocks/2009-03/starting-AIG.json",
+      "sha256": "f9ee1471b0b4314c8fb2ad6a040283d90138b80dfc3d25c6befab6d0c1d51b06",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid trading-day adjusted close in each calendar month; adjacent ratio minus one. Includes vendor dividend/split adjustments; do not add dividends again. Retrospective reconstruction, not an original historical database vintage. Normalized endpoints are committed for reproducible offline calculations."
+    },
+    {
+      "id": "yahoo-mco",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/MCO/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/MCO?period1=1204329600&period2=1238544000&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "MCO",
+      "raw_path": "data/raw/stocks/2009-03/starting-MCO.json",
+      "sha256": "37a341ff875b30fd06022bc4e8bbec9c279fac9a5393951ece16608442a34b36",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid trading-day adjusted close in each calendar month; adjacent ratio minus one. Includes vendor dividend/split adjustments; do not add dividends again. Retrospective reconstruction, not an original historical database vintage. Normalized endpoints are committed for reproducible offline calculations."
+    },
+    {
+      "id": "yahoo-amzn",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/AMZN/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN?period1=1204329600&period2=1238544000&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "AMZN",
+      "raw_path": "data/raw/stocks/2009-03/starting-AMZN.json",
+      "sha256": "24781d2a8ecb55e83a2d19a27db4ccbb3b84f0de25033df35cf2fc37f18c5b9e",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid trading-day adjusted close in each calendar month; adjacent ratio minus one. Includes vendor dividend/split adjustments; do not add dividends again. Retrospective reconstruction, not an original historical database vintage. Normalized endpoints are committed for reproducible offline calculations."
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "scenario_id": "2007-11",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/specials/2007/article/0,28804,1674995_1683300,00.html",
+      "title": "One Day in America"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684529,00.html",
+      "title": "Rudy Giuliani's Kerik Problem"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684512,00.html",
+      "title": "The NYPD Chief Who Did His Job Too Well"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684521,00.html",
+      "title": "Can McKinsey & Co. Fix the Government?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684525,00.html",
+      "title": "Love Thy Blackberry, Love Thy Kids"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684522,00.html",
+      "title": "Postcard: New Delhi"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684532,00.html",
+      "title": "Analyzing the Bhutto vs. Musharraf Showdown"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684518,00.html",
+      "title": "Discovering Planets Just Got Easier"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684536,00.html",
+      "title": "Children Can Outgrow ADHD"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684552,00.html",
+      "title": "Going After the Money Ministries"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684543,00.html",
+      "title": "Building the Best Driverless Robot Car"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684513,00.html",
+      "title": "Did Georgia Bring the Drought on Itself?"
+    },
+    {
+      "url": "https://content.time.com/time/specials/2007/article/0,28804,1638826_1684974_1685007,00.html",
+      "title": "People"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684523,00.html",
+      "title": "Politics"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684524,00.html",
+      "title": "Numbers"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684537,00.html",
+      "title": "Norman Mailer"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684539,00.html",
+      "title": "Verbatim"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684542,00.html",
+      "title": "Proposing a Hedge-Fund Tax Hike"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684548,00.html",
+      "title": "Briefing"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684551,00.html",
+      "title": "Milestones"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684554,00.html",
+      "title": "Global Warming's Impact Down Under"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684545,00.html",
+      "title": "Not Your Mother's Retirement Community"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684540,00.html",
+      "title": "Steve Martin, a Mild and Crazy Guy"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684509,00.html",
+      "title": "Why the Iraq Films Are Failing"
+    },
+    {
+      "url": "https://content.time.com/time/specials/2007/article/0,28804,1623143_1684965,00.html",
+      "title": "5 Things That Want to Entertain You"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684530,00.html",
+      "title": "What You Don't Know About Picasso"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684526,00.html",
+      "title": "Best Countries for Global Business"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684517,00.html",
+      "title": "The Highs and Lows of African Oil"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684528,00.html",
+      "title": "Why Denmark Loves Globalization"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684511,00.html",
+      "title": "Latin America's Peculiar New Strength"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684546,00.html",
+      "title": "Can China Lure Big Pharma?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684547,00.html",
+      "title": "Who Will Be Person of the Year in 2007?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684510,00.html",
+      "title": "BBC's Blues"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684520,00.html",
+      "title": "Secret to Success -- A Good Personality"
+    },
+    {
+      "url": "https://content.time.com/time/specials/2007/article/0,28804,1663316_1684619,00.html",
+      "title": "Love the Knot? Meet the Nest"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684538,00.html",
+      "title": "India Brews a Stronger Cup"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684516,00.html",
+      "title": "Diamonds in the Data"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1684550,00.html",
+      "title": "Inbox"
+    }
+  ],
+  "selected_news": [6, 7, 10, 11, 21, 35],
+  "stock_candidates": [
+    {
+      "ticker": "AMZN",
+      "selected": true,
+      "rationale": "The online retailer has introduced Kindle, a device for reading downloaded books."
+    },
+    {
+      "ticker": "C",
+      "selected": true,
+      "rationale": "Its chief executive is leaving after large losses linked to mortgage investments."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": true,
+      "rationale": "The company has entered the mobile-phone market with the iPhone."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "DIS",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}
