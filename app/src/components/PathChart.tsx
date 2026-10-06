@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { INITIAL_CAPITAL, type FutureOutcomes } from '../lib/contracts';
 import type { PortfolioPath } from '../lib/portfolio';
-import { money } from '../lib/format';
+import { money, percent } from '../lib/format';
 import { SignedReturn } from './SignedReturn';
 export function PathChart({
   player,
@@ -54,6 +54,7 @@ export function PathChart({
   const chartSeries = [
     {
       label: 'Your portfolio',
+      endLabel: 'Your portfolio',
       path: player,
       color: '#164f45',
       width: 4,
@@ -63,6 +64,7 @@ export function PathChart({
     },
     {
       label: 'US Total Market',
+      endLabel: 'US Total Market',
       path: usTotal,
       color: '#7b8392',
       width: 2,
@@ -72,6 +74,7 @@ export function PathChart({
     },
     {
       label: 'Diversified benchmark',
+      endLabel: 'Diversified benchmark',
       path: diversified,
       color: '#ae7641',
       width: 2,
@@ -81,6 +84,7 @@ export function PathChart({
     },
     ...hotStocks.map((stock, index) => ({
       label: `${stock.company_name} (${stock.ticker})`,
+      endLabel: stock.ticker,
       path: stock.path,
       color: ['#2475a8', '#b34f65', '#7657a4'][index],
       width: 2.5,
@@ -108,13 +112,40 @@ export function PathChart({
   const portfolioSpan = Math.max(1, portfolioMaximum - portfolioMinimum);
   const hotStockSpan = Math.max(1, hotStockMaximum - hotStockMinimum);
   const plotStart = 165;
-  const plotEnd = 780;
+  const plotEnd = 540;
   const x = (index: number) =>
     plotStart + (index / target) * (plotEnd - plotStart);
   const portfolioY = (value: number) =>
     175 - ((value - portfolioMinimum) / portfolioSpan) * 135;
   const hotStockY = (value: number) =>
     355 - ((value - hotStockMinimum) / hotStockSpan) * 120;
+  // Keep the three labels in each panel apart, while dots stay on exact values.
+  const endpointLabels = [
+    { offset: 0, values: portfolioSeries, y: portfolioY, top: 40, bottom: 175 },
+    { offset: 3, values: hotStockSeries, y: hotStockY, top: 235, bottom: 355 },
+  ].flatMap(({ offset, values, y, top, bottom }) => {
+    const labels = values
+      .map((points, i) => ({
+        index: offset + i,
+        value: points[visible],
+        pointY: y(points[visible]),
+        labelY: y(points[visible]),
+      }))
+      .sort((a, b) => a.pointY - b.pointY);
+    labels.forEach((label, i) => {
+      label.labelY = Math.max(
+        label.pointY,
+        i ? labels[i - 1].labelY + 38 : top,
+      );
+    });
+    for (let i = labels.length - 1; i >= 0; i--) {
+      labels[i].labelY = Math.min(
+        labels[i].labelY,
+        i === labels.length - 1 ? bottom : labels[i + 1].labelY - 38,
+      );
+    }
+    return labels;
+  });
   const yearLabels = [
     { month: 0, year: startMonth.slice(0, 4) },
     ...[12, 24, 36, 48, 60].map((month) => ({
@@ -133,7 +164,8 @@ export function PathChart({
       <figcaption>
         Your portfolio and market comparisons are above. The hot stocks below
         use their own dollar scale. The timeline expands as you continue. Only
-        the months reached so far are shown.
+        the months reached so far are shown. End labels show returns since the
+        start; stock labels use their ticker symbols.
       </figcaption>
       <h2 ref={checkpointHeading} tabIndex={-1} aria-live="polite">
         {paused
@@ -142,177 +174,225 @@ export function PathChart({
             : `Paused after ${target / 12} ${target === 12 ? 'year' : 'years'}`
           : `Revealing through year ${target / 12}…`}
       </h2>
-      <svg
-        viewBox="0 0 800 420"
-        role="img"
-        aria-labelledby="path-title path-description"
+      <div
+        className="chart-scroll"
+        tabIndex={0}
+        role="region"
+        aria-label="Investment paths; scroll horizontally on small screens"
       >
-        <title id="path-title">Five-year portfolio path</title>
-        <desc id="path-description">
-          Two chart panels share the same timeline and use separate dollar
-          scales. The upper panel shows your portfolio and two broad
-          comparisons. The lower panel shows all three hot stocks. Values are
-          shown only through month {visible}; later outcomes remain hidden.
-        </desc>
-        <text x={plotStart} y="20">
-          Your portfolio and broad comparisons
-        </text>
-        {[
-          portfolioMinimum,
-          (portfolioMinimum + portfolioMaximum) / 2,
-          portfolioMaximum,
-        ]
-          .filter(
-            (value) =>
-              Math.abs(portfolioY(value) - portfolioY(INITIAL_CAPITAL)) > 30,
-          )
-          .map((value) => (
-            <g key={value}>
-              <line
-                x1={plotStart}
-                x2={plotEnd}
-                y1={portfolioY(value)}
-                y2={portfolioY(value)}
-                stroke="#d7ded9"
-              />
-              <text x="150" y={portfolioY(value) + 4} textAnchor="end">
-                {money(value)}
-              </text>
-            </g>
-          ))}
-        <g data-testid="starting-value-reference-portfolio">
-          <line
-            x1={plotStart}
-            x2={plotEnd}
-            y1={portfolioY(INITIAL_CAPITAL)}
-            y2={portfolioY(INITIAL_CAPITAL)}
-            stroke="#89998f"
-            strokeWidth="1.5"
-            strokeDasharray="2 5"
-          />
-          <text x="150" y={portfolioY(INITIAL_CAPITAL) + 4} textAnchor="end">
-            {money(INITIAL_CAPITAL)}
+        <svg
+          viewBox="0 0 800 420"
+          role="img"
+          aria-labelledby="path-title path-description"
+        >
+          <title id="path-title">Five-year portfolio path</title>
+          <desc id="path-description">
+            Two chart panels share the same timeline and use separate dollar
+            scales. The upper panel shows your portfolio and two broad
+            comparisons. The lower panel shows all three hot stocks. Values are
+            shown only through month {visible}; later outcomes remain hidden.
+          </desc>
+          <text x={plotStart} y="20">
+            Your portfolio and broad comparisons
           </text>
-        </g>
-        {portfolioSeries.map((values, i) => (
-          <polyline
-            key={i}
-            data-testid={chartSeries[i].testId}
-            fill="none"
-            stroke={chartSeries[i].color}
-            strokeWidth={chartSeries[i].width}
-            strokeDasharray={chartSeries[i].dash}
-            points={values
-              .slice(0, visible + 1)
-              .map((value, index) => `${x(index)},${portfolioY(value)}`)
-              .join(' ')}
-          >
-            <title>{chartSeries[i].label}</title>
-          </polyline>
-        ))}
-        <text x={plotStart} y="215">
-          Hot stocks (shown on their own dollar scale)
-        </text>
-        {[
-          hotStockMinimum,
-          (hotStockMinimum + hotStockMaximum) / 2,
-          hotStockMaximum,
-        ]
-          .filter(
-            (value) =>
-              Math.abs(hotStockY(value) - hotStockY(INITIAL_CAPITAL)) > 30,
-          )
-          .map((value) => (
-            <g key={value}>
-              <line
-                x1={plotStart}
-                x2={plotEnd}
-                y1={hotStockY(value)}
-                y2={hotStockY(value)}
-                stroke="#d7ded9"
-              />
-              <text x="150" y={hotStockY(value) + 4} textAnchor="end">
-                {money(value)}
-              </text>
-            </g>
-          ))}
-        <g data-testid="starting-value-reference-hot-stocks">
-          <line
-            x1={plotStart}
-            x2={plotEnd}
-            y1={hotStockY(INITIAL_CAPITAL)}
-            y2={hotStockY(INITIAL_CAPITAL)}
-            stroke="#89998f"
-            strokeWidth="1.5"
-            strokeDasharray="2 5"
-          />
-          <text x="150" y={hotStockY(INITIAL_CAPITAL) + 4} textAnchor="end">
-            {money(INITIAL_CAPITAL)}
-          </text>
-        </g>
-        {hotStockSeries.map((values, i) => {
-          const seriesIndex = i + 3;
-          return (
+          {[
+            portfolioMinimum,
+            (portfolioMinimum + portfolioMaximum) / 2,
+            portfolioMaximum,
+          ]
+            .filter(
+              (value) =>
+                Math.abs(portfolioY(value) - portfolioY(INITIAL_CAPITAL)) > 30,
+            )
+            .map((value) => (
+              <g key={value}>
+                <line
+                  x1={plotStart}
+                  x2={plotEnd}
+                  y1={portfolioY(value)}
+                  y2={portfolioY(value)}
+                  stroke="#d7ded9"
+                />
+                <text x="150" y={portfolioY(value) + 4} textAnchor="end">
+                  {money(value)}
+                </text>
+              </g>
+            ))}
+          <g data-testid="starting-value-reference-portfolio">
+            <line
+              x1={plotStart}
+              x2={plotEnd}
+              y1={portfolioY(INITIAL_CAPITAL)}
+              y2={portfolioY(INITIAL_CAPITAL)}
+              stroke="#89998f"
+              strokeWidth="1.5"
+              strokeDasharray="2 5"
+            />
+            <text x="150" y={portfolioY(INITIAL_CAPITAL) + 4} textAnchor="end">
+              {money(INITIAL_CAPITAL)}
+            </text>
+          </g>
+          {portfolioSeries.map((values, i) => (
             <polyline
-              key={chartSeries[seriesIndex].testId}
-              data-testid={chartSeries[seriesIndex].testId}
-              data-asset-id={chartSeries[seriesIndex].assetId}
+              key={i}
+              data-testid={chartSeries[i].testId}
               fill="none"
-              stroke={chartSeries[seriesIndex].color}
-              strokeWidth={chartSeries[seriesIndex].width}
+              stroke={chartSeries[i].color}
+              strokeWidth={chartSeries[i].width}
+              strokeDasharray={chartSeries[i].dash}
               points={values
                 .slice(0, visible + 1)
-                .map((value, index) => `${x(index)},${hotStockY(value)}`)
+                .map((value, index) => `${x(index)},${portfolioY(value)}`)
                 .join(' ')}
             >
-              <title>{chartSeries[seriesIndex].label}</title>
+              <title>{chartSeries[i].label}</title>
             </polyline>
-          );
-        })}
-        {visible >= 60 &&
-          markers.map(({ event, i }) => {
-            const title = events
-              .filter((row) => row.month === event.month)
-              .map((row) => row.title)
-              .join('; ');
-            const index = player.points.findIndex(
-              (point) => point.month === event.month,
-            );
+          ))}
+          <text x={plotStart} y="215">
+            Hot stocks (shown on their own dollar scale)
+          </text>
+          {[
+            hotStockMinimum,
+            (hotStockMinimum + hotStockMaximum) / 2,
+            hotStockMaximum,
+          ]
+            .filter(
+              (value) =>
+                Math.abs(hotStockY(value) - hotStockY(INITIAL_CAPITAL)) > 30,
+            )
+            .map((value) => (
+              <g key={value}>
+                <line
+                  x1={plotStart}
+                  x2={plotEnd}
+                  y1={hotStockY(value)}
+                  y2={hotStockY(value)}
+                  stroke="#d7ded9"
+                />
+                <text x="150" y={hotStockY(value) + 4} textAnchor="end">
+                  {money(value)}
+                </text>
+              </g>
+            ))}
+          <g data-testid="starting-value-reference-hot-stocks">
+            <line
+              x1={plotStart}
+              x2={plotEnd}
+              y1={hotStockY(INITIAL_CAPITAL)}
+              y2={hotStockY(INITIAL_CAPITAL)}
+              stroke="#89998f"
+              strokeWidth="1.5"
+              strokeDasharray="2 5"
+            />
+            <text x="150" y={hotStockY(INITIAL_CAPITAL) + 4} textAnchor="end">
+              {money(INITIAL_CAPITAL)}
+            </text>
+          </g>
+          {hotStockSeries.map((values, i) => {
+            const seriesIndex = i + 3;
             return (
-              <a
-                key={`${event.month}:${event.title}`}
-                href={`#event-${i}`}
-                aria-label={`${event.month}: ${title}`}
+              <polyline
+                key={chartSeries[seriesIndex].testId}
+                data-testid={chartSeries[seriesIndex].testId}
+                data-asset-id={chartSeries[seriesIndex].assetId}
+                fill="none"
+                stroke={chartSeries[seriesIndex].color}
+                strokeWidth={chartSeries[seriesIndex].width}
+                points={values
+                  .slice(0, visible + 1)
+                  .map((value, index) => `${x(index)},${hotStockY(value)}`)
+                  .join(' ')}
               >
-                <circle
-                  cx={x(index + 1)}
-                  cy={portfolioY(player.points[index].total)}
-                  r="6"
-                  fill="#164f45"
-                  stroke="white"
-                  strokeWidth="2"
-                >
-                  <title>
-                    {event.month}: {title}
-                  </title>
-                </circle>
-              </a>
+                <title>{chartSeries[seriesIndex].label}</title>
+              </polyline>
             );
           })}
-        {yearLabels.map(({ month, year }) => (
-          <text
-            key={month}
-            data-testid="chart-year"
-            x={x(month)}
-            y="400"
-            textAnchor={
-              month === 0 ? 'start' : month === target ? 'end' : 'middle'
-            }
-          >
-            {year}
-          </text>
-        ))}
-      </svg>
+          {paused &&
+            endpointLabels.map(({ index, value, pointY, labelY }) => (
+              <g
+                key={chartSeries[index].testId}
+                data-testid={`chart-end-${index}`}
+              >
+                <title>
+                  {chartSeries[index].label}:{' '}
+                  {percent(value / INITIAL_CAPITAL - 1)} since the start
+                </title>
+                <circle
+                  cx={plotEnd}
+                  cy={pointY}
+                  r="4"
+                  fill={chartSeries[index].color}
+                  stroke="white"
+                  strokeWidth="1"
+                />
+                <path
+                  d={`M ${plotEnd + 4} ${pointY} L 563 ${labelY} L 571 ${labelY}`}
+                  fill="none"
+                  stroke={chartSeries[index].color}
+                />
+                <circle
+                  cx="577"
+                  cy={labelY}
+                  r="4"
+                  fill={chartSeries[index].color}
+                />
+                <text className="endpoint-name" x="589" y={labelY - 3}>
+                  {chartSeries[index].endLabel}
+                </text>
+                <text
+                  className={`endpoint-return${value < INITIAL_CAPITAL ? ' financial-return--negative' : ''}`}
+                  x="589"
+                  y={labelY + 14}
+                >
+                  {percent(value / INITIAL_CAPITAL - 1)}
+                </text>
+              </g>
+            ))}
+          {visible >= 60 &&
+            markers.map(({ event, i }) => {
+              const title = events
+                .filter((row) => row.month === event.month)
+                .map((row) => row.title)
+                .join('; ');
+              const index = player.points.findIndex(
+                (point) => point.month === event.month,
+              );
+              return (
+                <a
+                  key={`${event.month}:${event.title}`}
+                  href={`#event-${i}`}
+                  aria-label={`${event.month}: ${title}`}
+                >
+                  <circle
+                    cx={x(index + 1)}
+                    cy={portfolioY(player.points[index].total)}
+                    r="6"
+                    fill="#164f45"
+                    stroke="white"
+                    strokeWidth="2"
+                  >
+                    <title>
+                      {event.month}: {title}
+                    </title>
+                  </circle>
+                </a>
+              );
+            })}
+          {yearLabels.map(({ month, year }) => (
+            <text
+              key={month}
+              data-testid="chart-year"
+              x={x(month)}
+              y="400"
+              textAnchor={
+                month === 0 ? 'start' : month === target ? 'end' : 'middle'
+              }
+            >
+              {year}
+            </text>
+          ))}
+        </svg>
+      </div>
       <div className="legend" aria-label="Chart returns so far">
         {chartSeries.map((item, index) => (
           <span key={item.testId} data-testid={`chart-return-${index}`}>

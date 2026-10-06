@@ -643,3 +643,97 @@ test('review keeps the allocation in place and makes the next action visible', a
   await investButton.click();
   await finishReplay(page);
 });
+
+test('right-hand labels match every line and return at each reveal', async ({
+  page,
+}, testInfo) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  const id = (await history(page)).active.scenario_ids[0];
+  const future = JSON.parse(
+    readFileSync(`data/scenarios/${id}/future_outcomes.json`, 'utf8'),
+  );
+  await page.getByRole('radio', { name: 'Cash', exact: true }).check();
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await page
+    .getByRole('button', { name: 'Invest and see what happens' })
+    .click();
+  for (const months of [12, 36, 60]) {
+    await expect(
+      page.getByRole('heading', {
+        name:
+          months === 60
+            ? 'Five-year path complete'
+            : `Paused after ${months / 12} ${months === 12 ? 'year' : 'years'}`,
+        exact: true,
+      }),
+    ).toBeVisible();
+    for (let i = 0; i < 6; i++) {
+      const label = page.getByTestId(`chart-end-${i}`);
+      const line = page.getByTestId(
+        i < 3 ? `path-${i}` : `hot-stock-path-${i - 3}`,
+      );
+      const color = await line.getAttribute('stroke');
+      await expect(label.locator('circle').first()).toHaveAttribute(
+        'fill',
+        color!,
+      );
+      const endpoint = (await line.getAttribute('points'))!
+        .split(' ')
+        .at(-1)!
+        .split(',');
+      await expect(label.locator('circle').first()).toHaveAttribute(
+        'cx',
+        endpoint[0],
+      );
+      await expect(label.locator('circle').first()).toHaveAttribute(
+        'cy',
+        endpoint[1],
+      );
+      const name = await label.locator('.endpoint-name').textContent();
+      const result = await label.locator('.endpoint-return').textContent();
+      await expect(page.getByTestId(`chart-return-${i}`)).toContainText(name!);
+      await expect(page.getByTestId(`chart-return-${i}`)).toContainText(
+        result!,
+      );
+    }
+    const cashValue = future.monthly_returns.cash
+      .slice(0, months)
+      .reduce(
+        (total: number, row: { return: number }) => total * (1 + row.return),
+        10000,
+      );
+    await expect(
+      page.getByTestId('chart-end-0').locator('.endpoint-return'),
+    ).toHaveText(percent(cashValue / 10000 - 1));
+    const positions = await page
+      .locator('.endpoint-name')
+      .evaluateAll((nodes) =>
+        nodes.map((node) => Number(node.getAttribute('y'))),
+      );
+    for (const offset of [0, 3]) {
+      const ys = positions.slice(offset, offset + 3).sort((a, b) => a - b);
+      expect(ys[1] - ys[0]).toBeGreaterThanOrEqual(38);
+      expect(ys[2] - ys[1]).toBeGreaterThanOrEqual(38);
+    }
+    await page.locator('.chart-scroll').evaluate((node) => {
+      node.scrollLeft = node.scrollWidth;
+    });
+    await expect(page.getByTestId('chart-end-5')).toBeInViewport();
+    await page.locator('.chart').screenshot({
+      path: testInfo.outputPath(`session-end-labels-${months}.png`),
+    });
+    expect(
+      await page.evaluate(
+        () => document.documentElement.scrollWidth <= innerWidth,
+      ),
+    ).toBe(true);
+    if (months < 60)
+      await page
+        .getByRole('button', {
+          name: `Continue to year ${months === 12 ? 3 : 5}`,
+          exact: true,
+        })
+        .click();
+  }
+});

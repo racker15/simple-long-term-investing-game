@@ -393,3 +393,21 @@ footer {
 .allocation-lock p {
   margin: 0.4rem 0 0;
 }
+
+.chart-scroll {
+  overflow-x: auto;
+}
+.chart-scroll svg {
+  min-width: 720px;
+}
+.chart .endpoint-name {
+  font-size: 14px;
+  font-weight: 600;
+}
+.chart .endpoint-return {
+  font-size: 14px;
+}
+
+.chart .financial-return--negative {
+  fill: #b42318;
+}
