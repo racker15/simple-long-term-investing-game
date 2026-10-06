@@ -8,7 +8,11 @@ import {
   buildStartingScenario,
 } from '../../scripts/build/historical';
 import { buildOutcomeScenario } from '../../scripts/build/outcomes';
-import { loadHistoricalScenario } from '../../app/src/data/historical';
+import {
+  loadHistoricalScenario,
+  productionLibrary,
+} from '../../app/src/data/historical';
+import { buildSessionQueue } from '../../app/src/lib/queue';
 
 const important = protocol.important_dates.map((row) => row.month);
 const planned = [
@@ -71,6 +75,47 @@ describe('preregistered expansion to fifty historical scenarios', () => {
       ).toHaveLength(25);
     }
   });
+
+  it.each([5, 10, 15, 20])(
+    'supplies a balanced, unique %i-round queue from the real fifty-date library',
+    (length) => {
+      const queue = buildSessionQueue(
+        productionLibrary,
+        length,
+        [],
+        'fifty-dates',
+      );
+      expect(queue).toHaveLength(length);
+      expect(new Set(queue).size).toBe(length);
+      expect(
+        buildSessionQueue(
+          [...productionLibrary].reverse(),
+          length,
+          [],
+          'fifty-dates',
+        ),
+      ).toEqual(queue);
+      const importantCount = queue.filter((id) =>
+        important.includes(id),
+      ).length;
+      expect(
+        Math.abs(importantCount - (length - importantCount)),
+      ).toBeLessThanOrEqual(1);
+      for (let offset = 0; offset < length; offset += 5) {
+        const blockCount = queue
+          .slice(offset, offset + 5)
+          .filter((id) => important.includes(id)).length;
+        expect([2, 3]).toContain(blockCount);
+      }
+      const next = buildSessionQueue(
+        productionLibrary,
+        length,
+        queue,
+        'fifty-dates-next',
+      );
+      expect(next.every((id) => !queue.includes(id))).toBe(true);
+    },
+  );
 
   it.each(additions)(
     '$scenario_id has a locked start and a reproducible seven-choice, sixty-month reveal',
