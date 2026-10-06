@@ -1,3 +1,11 @@
+import { buildSessionQueue } from '../../app/src/lib/queue';
+import {
+  startSession,
+  lockResult,
+  advanceSession,
+} from '../../app/src/lib/session';
+import { createResult } from '../../app/src/lib/results';
+import { loadScenario } from '../../app/src/lib/validation';
 import { readFileSync } from 'node:fs';
 import { percent } from '../../app/src/lib/format';
 import { finishReplay } from './replay-helpers';
@@ -473,4 +481,96 @@ test('keyboard focus follows new screens without interrupting allocation edits',
   await expect(
     page.getByText('Scenario 2 of 10', { exact: true }),
   ).toBeVisible();
+});
+
+test('a restored fifty-round session finishes all blocks and exhausts first-time dates', async ({
+  page,
+}) => {
+  const manifest = JSON.parse(
+    readFileSync('data/scenarios/manifest.json', 'utf8'),
+  );
+  const library = manifest.scenarios.map(
+    (entry: {
+      scenario_id: string;
+      selection_mode: 'important' | 'random';
+    }) => ({
+      scenario_id: entry.scenario_id,
+      selection_mode: entry.selection_mode,
+    }),
+  );
+  const queue = buildSessionQueue(library, 50, [], 'full-library-recovery');
+  let saved = startSession(
+    queue,
+    'fifty-round-recovery',
+    '2026-10-06T00:00:00Z',
+  );
+  for (const id of queue.slice(0, 49)) {
+    const scenario = loadScenario({
+      known: JSON.parse(
+        readFileSync(`data/scenarios/${id}/known_at_start.json`, 'utf8'),
+      ),
+      future: JSON.parse(
+        readFileSync(`data/scenarios/${id}/future_outcomes.json`, 'utf8'),
+      ),
+      provenance: JSON.parse(
+        readFileSync(`data/scenarios/${id}/provenance.json`, 'utf8'),
+      ),
+    });
+    saved = lockResult(saved, createResult(scenario, { cash: 10000 }, 'cash'));
+    saved = advanceSession(saved, '2026-10-06T00:10:00Z');
+    if (saved.phase === 'checkpoint')
+      saved = advanceSession(saved, '2026-10-06T00:10:00Z');
+  }
+  await page.goto('/');
+  await page.evaluate(
+    ({ key, saved }) =>
+      localStorage.setItem(
+        key,
+        JSON.stringify({
+          version: 1,
+          active: saved,
+          pending: null,
+          finished: [],
+        }),
+      ),
+    { key, saved },
+  );
+  await page.reload();
+  await expect(
+    page.getByText('Scenario 50 of 50', { exact: true }),
+  ).toBeVisible();
+  await invest(page);
+  await page
+    .getByRole('button', { name: 'View final scorecard', exact: true })
+    .click();
+  await expect(
+    page.getByRole('heading', {
+      name: 'Overall session — 50 scenarios',
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole('heading', { name: 'Scenarios 46–50', exact: true }),
+  ).toBeVisible();
+  expect((await history(page)).finished).toHaveLength(1);
+  await page
+    .getByRole('button', { name: 'Start new session', exact: true })
+    .click();
+  await expect(page.getByRole('button', { name: 'Begin session' })).toHaveCount(
+    0,
+  );
+  await expect(
+    page.getByText('You’ve explored all 50 historical scenarios.', {
+      exact: false,
+    }),
+  ).toBeVisible();
+  await page
+    .getByText('Practice a completed scenario', { exact: true })
+    .click();
+  await expect(page.getByRole('button', { name: /^Replay / })).toHaveCount(50);
+  await page.reload();
+  await expect(
+    page.getByText('Your learning history — 50 scenarios', { exact: true }),
+  ).toBeVisible();
+  expect((await history(page)).finished).toHaveLength(1);
 });
