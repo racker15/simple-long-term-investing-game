@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "scenario_id": "1992-02",
+    "date": "1992-02-29",
+    "display_date": "February 29, 1992",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "random",
+      "draw_universe": "calendar-month-ends-1980-2020-expansion-50-v1",
+      "random_seed": "simple-long-term-investing-game/50-scenarios/2026-10-06",
+      "draw_index": 0,
+      "method": "Preregistered FNV-1a/Mulberry32 unbiased draws without replacement from eligible month ends. Preserves six pilots; no outcome screening.",
+      "exclusions": [
+        "Exact duplicates of reserved important dates and retained random pilot dates",
+        "Genuine source or return-history unavailability only"
+      ],
+      "replacement_for": null
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Space-plane research draws attention",
+      "category": "Technology",
+      "summary": "A reported Soviet engine test adds interest to the race for very fast aircraft. A passenger space plane is still a plan.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1992-02-0"]
+    },
+    {
+      "headline": "Winter athletes compete in Albertville",
+      "category": "Sports",
+      "summary": "Rain and soft ice challenge speed skaters at the Olympics. Familiar champions face younger rivals.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1992-02-17"]
+    },
+    {
+      "headline": "Japanese carmakers consider higher US prices",
+      "category": "Business",
+      "summary": "A stronger yen and trade tensions put pressure on prices. Buyers may compare the changes with American-made cars.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1992-02-23"]
+    },
+    {
+      "headline": "The US moves up an ozone deadline",
+      "category": "Environment",
+      "summary": "President Bush calls for an earlier end to production of chemicals that damage the ozone layer. Appliance makers must adapt.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1992-02-24"]
+    },
+    {
+      "headline": "Toy makers try surprising new designs",
+      "category": "Everyday life",
+      "summary": "The Toy Fair features monster faces and unusual dolls. Companies are competing for children’s attention.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1992-02-25"]
+    },
+    {
+      "headline": "Phone and cable companies eye the same customers",
+      "category": "Technology",
+      "summary": "Fiber-optic trials offer television, shopping and other services. New technology is beginning to blur old business boundaries.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1992-02-27"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (1992-01; approximate)",
+      "value": 2.7,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (1992-01; approximate)",
+      "value": 7.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (1992-01; approximate)",
+      "value": 4,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (1992-01; approximate)",
+      "value": 7,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (1992-01; approximate)",
+      "value": 67.5,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (1992-01; approximate)",
+      "value": 0.5,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 2.3% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:1992-02:honda",
+      "company_name": "Honda",
+      "ticker": "HMC",
+      "description": "The automaker is considering US price increases amid trade tensions. This is its US-traded share.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-1992-02-23", "asof-stock-prices"],
+      "three_month": 0.028089629518172732,
+      "one_year": 0.08476579567207465
+    },
+    {
+      "id": "hot:1992-02:hasbro",
+      "company_name": "Hasbro",
+      "ticker": "HAS",
+      "description": "The toy maker is introducing playful monster toys and new doll accessories.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-1992-02-25", "asof-stock-prices"],
+      "three_month": 0.0967262521169916,
+      "one_year": 0.6069410061729206
+    },
+    {
+      "id": "hot:1992-02:ibm",
+      "company_name": "IBM",
+      "ticker": "IBM",
+      "description": "The computer giant is working with partners on new technology.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["computer-alliance", "asof-stock-prices"],
+      "three_month": -0.048189301917563654,
+      "one_year": -0.290985012630986
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:1992-02:honda",
+      "name": "Honda",
+      "description": "The automaker is considering US price increases amid trade tensions. This is its US-traded share.",
+      "source_ids": ["news-1992-02-23", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1992-02:hasbro",
+      "name": "Hasbro",
+      "description": "The toy maker is introducing playful monster toys and new doll accessories.",
+      "source_ids": ["news-1992-02-25", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1992-02:ibm",
+      "name": "IBM",
+      "description": "The computer giant is working with partners on new technology.",
+      "source_ids": ["computer-alliance", "asof-stock-prices"]
+    }
+  ],
+  "recent_returns": [
+    {
+      "asset_id": "cash",
+      "three_month": 0.010033116176000112,
+      "one_year": 0.05199695888545408,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "bonds",
+      "three_month": 0.017530556395712882,
+      "one_year": 0.11473386096549643,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "us_total",
+      "three_month": 0.12460871180000033,
+      "one_year": 0.20329080724421345,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "international_ex_us",
+      "three_month": -0.010964708820000002,
+      "one_year": -0.06668207657045966,
+      "source_ids": ["asof-broad-proxies"]
+    }
+  ]
+}

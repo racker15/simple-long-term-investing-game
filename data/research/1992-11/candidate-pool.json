@@ -1,0 +1,296 @@
+{
+  "scenario_id": "1992-11",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977115,00.html",
+      "title": "Princess Diana and Prince Charles: Separate Lives"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977084,00.html",
+      "title": "A Mind-Set Under Siege"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977087,00.html",
+      "title": "Above The Fray"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977090,00.html",
+      "title": "Cat Counseling"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977092,00.html",
+      "title": "Clinton's First Fire Fight"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977095,00.html",
+      "title": "Cops On Trial"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977100,00.html",
+      "title": "Those Tapes Again"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977102,00.html",
+      "title": "Forward Spin: Nov. 30, 1992"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977111,00.html",
+      "title": "Move Over, M.B.A.s"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977113,00.html",
+      "title": "Now, That's Networking"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977122,00.html",
+      "title": "Stepping into The Washington Whirl"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977126,00.html",
+      "title": "The Foreigner-Tax Folly"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977130,00.html",
+      "title": "The Week: Nov. 30, 1992"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977133,00.html",
+      "title": "They Just Don't Get It"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977134,00.html",
+      "title": "Threatening A Letter"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977138,00.html",
+      "title": "Vox Pop: Nov. 30, 1992"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977097,00.html",
+      "title": "Dirty Tricks"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977104,00.html",
+      "title": "Hafez Assad: Land Before Peace"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977105,00.html",
+      "title": "Hanoi Show-and-Tell"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977108,00.html",
+      "title": "Lowering The Boom"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977110,00.html",
+      "title": "Making Amends On Asylum"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977119,00.html",
+      "title": "Signals From Two Old Foes"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977120,00.html",
+      "title": "Silence Is Not Golden"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977137,00.html",
+      "title": "Unsettling Remarks"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977139,00.html",
+      "title": "Warning Shot"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977141,00.html",
+      "title": "Yitzak Rabin: Peace Before Land"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977107,00.html",
+      "title": "Leaky Sanctions"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977123,00.html",
+      "title": "Subterranean Secrets"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977091,00.html",
+      "title": "Cleaner Dry Cleaners"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977096,00.html",
+      "title": "Can't Trust That Day"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977098,00.html",
+      "title": "Fish Hunks"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977109,00.html",
+      "title": "Making A Profit From Self-Referrals"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977089,00.html",
+      "title": "Befuddled by Women"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977116,00.html",
+      "title": "Serving Justice a Blow"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977124,00.html",
+      "title": "Telling Catholics What They Believe"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977131,00.html",
+      "title": "Society: Nov. 30, 1992"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977142,00.html",
+      "title": "Zone, Sweet Zone"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977127,00.html",
+      "title": "The Lioness in Winter"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977093,00.html",
+      "title": "Clinton's People: Tony Lake"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977094,00.html",
+      "title": "Clinton's People: GEORGE STEPHANOPOULOS"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977112,00.html",
+      "title": "Mr. Clinton Goes to Washington"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977128,00.html",
+      "title": "The Presidency: Tidings of Sadness and Loss"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977135,00.html",
+      "title": "Time Magazine Contents Page"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977136,00.html",
+      "title": "Time Magazine Masthead"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977088,00.html",
+      "title": "Auto Pileup"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977099,00.html",
+      "title": "Lights Out, Workaholics"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977101,00.html",
+      "title": "Finding Ways to Skin the Grape"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977114,00.html",
+      "title": "Over To You"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977129,00.html",
+      "title": "The Week Business"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977140,00.html",
+      "title": "Was GM Reckless?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977085,00.html",
+      "title": "A Musical Hit For London"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977086,00.html",
+      "title": "A Twice-Told Fairy Tale"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977106,00.html",
+      "title": "Jumpin'Jack Flash"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977117,00.html",
+      "title": "Shock Jock"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977118,00.html",
+      "title": "Short Takes: Nov. 30, 1992"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977121,00.html",
+      "title": "Sounds Of The Season"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977132,00.html",
+      "title": "The X Factor"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977103,00.html",
+      "title": "From The Publisher: Nov. 30, 1992"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,977125,00.html",
+      "title": "The Conservatives' Morning After"
+    }
+  ],
+  "selected_news": [18, 27, 28, 40, 44, 51],
+  "stock_candidates": [
+    {
+      "ticker": "F",
+      "selected": true,
+      "rationale": "Its car sales are rising while rival General Motors struggles."
+    },
+    {
+      "ticker": "DIS",
+      "selected": true,
+      "rationale": "Successful films and theme parks have helped profits recover."
+    },
+    {
+      "ticker": "IBM",
+      "selected": true,
+      "rationale": "The computer giant has joined development partnerships, including one with Apple."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "MCD",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}
