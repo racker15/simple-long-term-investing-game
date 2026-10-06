@@ -271,6 +271,7 @@ test('animation skips only to its next required pause', async ({ page }) => {
   await page
     .getByRole('button', { name: 'Invest and see what happens' })
     .click();
+  await expect(page.locator('main')).toBeFocused();
   for (const year of [1, 3, 5]) {
     await page
       .getByRole('button', {

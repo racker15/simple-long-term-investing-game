@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { INITIAL_CAPITAL, type FutureOutcomes } from '../lib/contracts';
 import type { PortfolioPath } from '../lib/portfolio';
 import { money } from '../lib/format';
@@ -31,6 +31,11 @@ export function PathChart({
   const [target, setTarget] = useState<12 | 36 | 60>(12);
   const [visible, setVisible] = useState(reducedMotion ? 12 : 0);
   const paused = visible === target;
+  const checkpointHeading = useRef<HTMLHeadingElement>(null);
+  useEffect(() => {
+    if (paused && target < 60)
+      checkpointHeading.current?.focus({ preventScroll: true });
+  }, [paused, target]);
   useEffect(() => {
     if (visible >= target) {
       if (target === 60) onFinished();
@@ -130,7 +135,7 @@ export function PathChart({
         use their own dollar scale. The timeline expands as you continue. Only
         the months reached so far are shown.
       </figcaption>
-      <h2 aria-live="polite">
+      <h2 ref={checkpointHeading} tabIndex={-1} aria-live="polite">
         {paused
           ? target === 60
             ? 'Five-year path complete'
@@ -310,12 +315,11 @@ export function PathChart({
       </svg>
       <div className="legend" aria-label="Chart returns so far">
         {chartSeries.map((item, index) => (
-          <span
-            key={item.testId}
-            data-testid={`chart-return-${index}`}
-            style={{ color: item.color }}
-          >
-            {item.dash ? '┄' : '━'} {item.label}:{' '}
+          <span key={item.testId} data-testid={`chart-return-${index}`}>
+            <span aria-hidden="true" style={{ color: item.color }}>
+              {item.dash ? '┄' : '━'}
+            </span>{' '}
+            {item.label}:{' '}
             <SignedReturn
               value={series[index][visible] / INITIAL_CAPITAL - 1}
             />{' '}
