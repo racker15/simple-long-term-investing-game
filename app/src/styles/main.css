@@ -637,3 +637,79 @@ summary {
     scroll-margin-bottom: 100px;
   }
 }
+
+.reveal-time {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.time-checkpoints {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 0.5rem;
+}
+.time-checkpoints li {
+  flex: 1;
+  text-align: center;
+  border-bottom: 3px solid #cbd7cc;
+  padding: 0.4rem;
+}
+.time-checkpoints [aria-current] {
+  border-color: #164f45;
+  font-weight: 700;
+}
+.portfolio-now {
+  font-size: 1.1rem;
+}
+button.chart-key {
+  background: transparent;
+  color: #626b79;
+  border: 1px solid transparent;
+  text-align: left;
+  padding: 0.25rem 0.4rem;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+button.chart-key:hover,
+button.chart-key[aria-pressed='true'] {
+  background: #e7f0e9;
+  color: #344b40;
+  border-color: #688c78;
+}
+.chart-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  border-top: 1px solid #d7ded9;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+.chart-tools label {
+  font-size: 0.85rem;
+}
+.chart-tools select {
+  margin: 0.2rem 0;
+}
+.month-scrubber {
+  display: block;
+  margin: 1rem 0;
+}
+.month-scrubber input {
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  accent-color: #164f45;
+}
+main:has(.chart-wide) {
+  max-width: 1600px;
+}
+.chart-help {
+  margin-block: 1rem;
+  font-size: 0.9rem;
+}
+.locked-choice {
+  padding: 0.7rem 1rem;
+}

@@ -32,9 +32,34 @@ export function PathChart({
   onFinished: () => void;
   focusPlay?: boolean;
 }) {
-  const [reducedMotion] = useState(
+  const [systemReduced, setSystemReduced] = useState(
     () => window.matchMedia('(prefers-reduced-motion: reduce)').matches,
   );
+  const [motion, setMotion] = useState<'system' | 'animate' | 'reduce'>(() => {
+    try {
+      const saved = localStorage.getItem('investing-game:motion:v1');
+      return saved === 'animate' || saved === 'reduce' ? saved : 'system';
+    } catch {
+      return 'system';
+    }
+  });
+  const [motionWarning, setMotionWarning] = useState('');
+  const reducedMotion =
+    motion === 'reduce' || (motion === 'system' && systemReduced);
+  useEffect(() => {
+    const query = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const update = () => setSystemReduced(query.matches);
+    query.addEventListener('change', update);
+    return () => query.removeEventListener('change', update);
+  }, []);
+  const [manualPause, setManualPause] = useState(false);
+  const [completedOnce, setCompletedOnce] = useState(false);
+  const [commonScale, setCommonScale] = useState(false);
+  const [showDrawdown, setShowDrawdown] = useState(false);
+  const [wide, setWide] = useState(false);
+  const [hovered, setHovered] = useState<number | null>(null);
+  const [selected, setSelected] = useState<number | null>(null);
+  const emphasized = selected ?? hovered;
   const [target, setTarget] = useState<12 | 36 | 60>(12);
   const [visible, setVisible] = useState(0);
   const [started, setStarted] = useState(false);
@@ -46,25 +71,37 @@ export function PathChart({
   }, [paused, target]);
   const animation = useRef<number | null>(null);
   useEffect(() => {
-    if (!started || reducedMotion) return;
+    if (!started || completedOnce || visible >= target) return;
+    if (reducedMotion) {
+      setVisible(target);
+      setManualPause(false);
+      return;
+    }
+    if (manualPause) return;
     const from = target === 12 ? 0 : target === 36 ? 12 : 36;
+    const stageStart = visible;
+    const remainingMs = (8000 * (target - stageStart)) / (target - from);
     const startTime = performance.now();
     function frame(now: number) {
-      const progress = Math.min(1, (now - startTime) / 8000);
-      setVisible(from + (target - from) * progress);
+      const progress = Math.min(1, (now - startTime) / remainingMs);
+      setVisible(stageStart + (target - stageStart) * progress);
       if (progress < 1) animation.current = requestAnimationFrame(frame);
     }
     animation.current = requestAnimationFrame(frame);
     return () => {
       if (animation.current !== null) cancelAnimationFrame(animation.current);
     };
-  }, [target, reducedMotion, started]);
+  }, [target, reducedMotion, started, manualPause, completedOnce]);
   useEffect(() => {
-    if (visible === 60) onFinished();
-  }, [visible, onFinished]);
+    if (visible === 60 && !completedOnce) {
+      setCompletedOnce(true);
+      onFinished();
+    }
+  }, [visible, completedOnce, onFinished]);
   function skip() {
     if (animation.current !== null) cancelAnimationFrame(animation.current);
     setVisible(target);
+    setManualPause(false);
   }
   function valueAt(values: number[]) {
     const month = Math.floor(visible);
@@ -80,6 +117,7 @@ export function PathChart({
     return reached;
   }
   function resume(next: 36 | 60) {
+    setManualPause(false);
     setTarget(next);
     if (reducedMotion) setVisible(next);
   }
@@ -140,10 +178,19 @@ export function PathChart({
   const hotStockValues = hotStockSeries.flatMap((values) =>
     revealedValues(values),
   );
-  const portfolioMinimum = Math.min(...portfolioValues);
-  const portfolioMaximum = Math.max(...portfolioValues);
-  const hotStockMinimum = Math.min(...hotStockValues);
-  const hotStockMaximum = Math.max(...hotStockValues);
+  const allValues = [...portfolioValues, ...hotStockValues];
+  const portfolioMinimum = Math.min(
+    ...(commonScale ? allValues : portfolioValues),
+  );
+  const portfolioMaximum = Math.max(
+    ...(commonScale ? allValues : portfolioValues),
+  );
+  const hotStockMinimum = Math.min(
+    ...(commonScale ? allValues : hotStockValues),
+  );
+  const hotStockMaximum = Math.max(
+    ...(commonScale ? allValues : hotStockValues),
+  );
   const portfolioSpan = Math.max(1, portfolioMaximum - portfolioMinimum);
   const hotStockSpan = Math.max(1, hotStockMaximum - hotStockMinimum);
   const plotStart = 165;
@@ -153,20 +200,18 @@ export function PathChart({
   const portfolioY = (value: number) =>
     175 - ((value - portfolioMinimum) / portfolioSpan) * 135;
   const hotStockY = (value: number) =>
-    355 - ((value - hotStockMinimum) / hotStockSpan) * 120;
+    370 - ((value - hotStockMinimum) / hotStockSpan) * 135;
   // Keep the three labels in each panel apart, while dots stay on exact values.
   const endpointLabels = [
     { offset: 0, values: portfolioSeries, y: portfolioY, top: 40, bottom: 175 },
-    { offset: 3, values: hotStockSeries, y: hotStockY, top: 235, bottom: 355 },
+    { offset: 3, values: hotStockSeries, y: hotStockY, top: 235, bottom: 370 },
   ].flatMap(({ offset, values, y, top, bottom }) => {
-    const labels = values
-      .map((points, i) => ({
-        index: offset + i,
-        value: valueAt(points),
-        pointY: y(valueAt(points)),
-        labelY: y(valueAt(points)),
-      }))
-      .sort((a, b) => a.pointY - b.pointY);
+    const labels = values.map((points, i) => ({
+      index: offset + i,
+      value: valueAt(points),
+      pointY: y(valueAt(points)),
+      labelY: y(valueAt(points)),
+    }));
     labels.forEach((label, i) => {
       label.labelY = Math.max(
         label.pointY,
@@ -180,6 +225,35 @@ export function PathChart({
       );
     }
     return labels;
+  });
+  const axisValue = (value: number) =>
+    commonScale ? percent(value / INITIAL_CAPITAL - 1) : money(value);
+  const currentMonth = Math.floor(visible);
+  const currentDate =
+    currentMonth === 0 ? startMonth : player.points[currentMonth - 1].month;
+  let peak = INITIAL_CAPITAL;
+  let peakMonth = 0;
+  let largestFall = {
+    fraction: 0,
+    peak: INITIAL_CAPITAL,
+    trough: INITIAL_CAPITAL,
+    start: 0,
+    end: 0,
+  };
+  revealedValues(series[0]).forEach((value, index) => {
+    if (value > peak) {
+      peak = value;
+      peakMonth = Math.min(index, visible);
+    }
+    const fraction = 1 - value / peak;
+    if (fraction > largestFall.fraction)
+      largestFall = {
+        fraction,
+        peak,
+        trough: value,
+        start: peakMonth,
+        end: Math.min(index, visible),
+      };
   });
   const yearLabels = [
     { month: 0, year: startMonth.slice(0, 4) },
@@ -195,23 +269,85 @@ export function PathChart({
         events.findIndex((row) => row.month === event.month) === i,
     );
   return (
-    <figure className="chart">
+    <figure className={`chart${wide ? ' chart-wide' : ''}`}>
       <figcaption>
-        Your portfolio and market comparisons are above. The hot stocks below
-        use their own dollar scale. The timeline expands as you continue. Only
-        the months reached so far are shown. End labels show returns since the
-        start; stock labels use their ticker symbols. Each reveal takes five
-        seconds. Movement between monthly observations is visual interpolation.
+        Follow the path, not just the ending. Every line starts with the same
+        $10,000.
       </figcaption>
       <h2 ref={checkpointHeading} tabIndex={-1} aria-live="polite">
         {!started
           ? 'Ready to play'
-          : paused
-            ? target === 60
-              ? 'Five-year path complete'
-              : `Paused after ${target / 12} ${target === 12 ? 'year' : 'years'}`
-            : `Revealing through year ${target / 12}…`}
+          : completedOnce && visible < 60
+            ? `Reviewing month ${currentMonth} of 60`
+            : manualPause && !paused
+              ? 'Animation paused'
+              : paused
+                ? target === 60
+                  ? 'Five-year path complete'
+                  : `Paused after ${target / 12} ${target === 12 ? 'year' : 'years'}`
+                : `Revealing through year ${target / 12}…`}
       </h2>
+      {!started ? (
+        <button
+          autoFocus={focusPlay}
+          onClick={() => {
+            setStarted(true);
+            if (reducedMotion) setVisible(12);
+          }}
+        >
+          Play reveal
+        </button>
+      ) : paused && target < 60 ? (
+        <>
+          <p>
+            The story is not finished. Notice the ups and downs so far before
+            continuing.
+          </p>
+          <button onClick={() => resume(target === 12 ? 36 : 60)}>
+            Continue to year {target === 12 ? 3 : 5}
+          </button>
+        </>
+      ) : !paused && !completedOnce ? (
+        <div className="actions">
+          <button onClick={() => setManualPause((value) => !value)}>
+            {manualPause ? 'Resume animation' : 'Pause animation'}
+          </button>
+          <button className="secondary" onClick={skip}>
+            Skip animation to year {target / 12}
+          </button>
+        </div>
+      ) : null}
+
+      <div className="reveal-time">
+        <strong>
+          {new Intl.DateTimeFormat('en-US', {
+            month: 'long',
+            year: 'numeric',
+            timeZone: 'UTC',
+          }).format(new Date(`${currentDate}-01T00:00:00Z`))}
+        </strong>
+        <span>Month {currentMonth} of 60</span>
+      </div>
+      <ol className="time-checkpoints" aria-label="Reveal checkpoints">
+        {[0, 12, 36, 60].map((month) => (
+          <li
+            key={month}
+            aria-current={
+              (month === 0 ? !started : target === month && started)
+                ? 'step'
+                : undefined
+            }
+          >
+            {month === 0 ? 'Start' : `Year ${month / 12}`}
+            {visible >= month && month > 0 ? ' ✓' : ''}
+          </li>
+        ))}
+      </ol>
+      <p className="portfolio-now">
+        Your portfolio:{' '}
+        <strong>{percent(valueAt(series[0]) / INITIAL_CAPITAL - 1)}</strong> ·{' '}
+        {money(valueAt(series[0]))}
+      </p>
       <div
         className="chart-scroll"
         tabIndex={0}
@@ -252,7 +388,7 @@ export function PathChart({
                   stroke="#d7ded9"
                 />
                 <text x="150" y={portfolioY(value) + 4} textAnchor="end">
-                  {money(value)}
+                  {axisValue(value)}
                 </text>
               </g>
             ))}
@@ -267,7 +403,7 @@ export function PathChart({
               strokeDasharray="2 5"
             />
             <text x="150" y={portfolioY(INITIAL_CAPITAL) + 4} textAnchor="end">
-              {money(INITIAL_CAPITAL)}
+              {axisValue(INITIAL_CAPITAL)}
             </text>
           </g>
           {portfolioSeries.map((values, i) => (
@@ -276,7 +412,8 @@ export function PathChart({
               data-testid={chartSeries[i].testId}
               fill="none"
               stroke={chartSeries[i].color}
-              strokeWidth={chartSeries[i].width}
+              strokeWidth={chartSeries[i].width + (emphasized === i ? 1 : 0)}
+              opacity={emphasized === null || emphasized === i ? 1 : 0.25}
               strokeDasharray={chartSeries[i].dash}
               points={revealedValues(values)
                 .map(
@@ -289,7 +426,9 @@ export function PathChart({
             </polyline>
           ))}
           <text x={plotStart} y="215">
-            Hot stocks (shown on their own dollar scale)
+            {commonScale
+              ? 'Hot stocks (same percentage scale)'
+              : 'Hot stocks (separate dollar scale)'}
           </text>
           {[
             hotStockMinimum,
@@ -310,7 +449,7 @@ export function PathChart({
                   stroke="#d7ded9"
                 />
                 <text x="150" y={hotStockY(value) + 4} textAnchor="end">
-                  {money(value)}
+                  {axisValue(value)}
                 </text>
               </g>
             ))}
@@ -325,7 +464,7 @@ export function PathChart({
               strokeDasharray="2 5"
             />
             <text x="150" y={hotStockY(INITIAL_CAPITAL) + 4} textAnchor="end">
-              {money(INITIAL_CAPITAL)}
+              {axisValue(INITIAL_CAPITAL)}
             </text>
           </g>
           {hotStockSeries.map((values, i) => {
@@ -337,7 +476,13 @@ export function PathChart({
                 data-asset-id={chartSeries[seriesIndex].assetId}
                 fill="none"
                 stroke={chartSeries[seriesIndex].color}
-                strokeWidth={chartSeries[seriesIndex].width}
+                strokeWidth={
+                  chartSeries[seriesIndex].width +
+                  (emphasized === seriesIndex ? 1 : 0)
+                }
+                opacity={
+                  emphasized === null || emphasized === seriesIndex ? 1 : 0.25
+                }
                 strokeDasharray={chartSeries[seriesIndex].dash}
                 points={revealedValues(values)
                   .map(
@@ -354,6 +499,7 @@ export function PathChart({
             <g
               key={chartSeries[index].testId}
               data-testid={`chart-end-${index}`}
+              opacity={emphasized === null || emphasized === index ? 1 : 0.3}
             >
               <title>
                 {chartSeries[index].label}:{' '}
@@ -394,6 +540,21 @@ export function PathChart({
               </text>
             </g>
           ))}
+          {showDrawdown && largestFall.fraction > 0 && (
+            <g data-testid="drawdown-bracket">
+              <path
+                d={`M ${x(largestFall.start)} ${portfolioY(largestFall.peak)} L ${x(largestFall.end)} ${portfolioY(largestFall.peak)} L ${x(largestFall.end)} ${portfolioY(largestFall.trough)}`}
+                fill="none"
+                stroke="#923b35"
+                strokeWidth="2"
+                strokeDasharray="4 3"
+              />
+              <title>
+                Observed fall: {percent(largestFall.fraction)} from an earlier
+                high
+              </title>
+            </g>
+          )}
           {visible >= 60 &&
             markers.map(({ event, i }) => {
               const title = events
@@ -441,7 +602,20 @@ export function PathChart({
       </div>
       <div className="legend" aria-label="Chart returns so far">
         {chartSeries.map((item, index) => (
-          <span key={item.testId} data-testid={`chart-return-${index}`}>
+          <button
+            type="button"
+            className="chart-key"
+            key={item.testId}
+            data-testid={`chart-return-${index}`}
+            aria-pressed={selected === index}
+            onMouseEnter={() => setHovered(index)}
+            onMouseLeave={() => setHovered(null)}
+            onFocus={() => setHovered(index)}
+            onBlur={() => setHovered(null)}
+            onClick={() =>
+              setSelected((value) => (value === index ? null : index))
+            }
+          >
             <span aria-hidden="true" style={{ color: item.color }}>
               {item.dash ? '┄' : '━'}
             </span>{' '}
@@ -450,38 +624,101 @@ export function PathChart({
               value={valueAt(series[index]) / INITIAL_CAPITAL - 1}
             />{' '}
             ({money(valueAt(series[index]))})
-          </span>
+          </button>
         ))}
       </div>
       <p>
         Returns above are from the starting date through the current reveal.
         Each comparison starts with $10,000.
       </p>
-      {!started ? (
+
+      <div className="chart-tools">
         <button
-          autoFocus={focusPlay}
-          onClick={() => {
-            setStarted(true);
-            if (reducedMotion) setVisible(12);
-          }}
+          className="secondary"
+          aria-pressed={wide}
+          onClick={() => setWide((value) => !value)}
         >
-          Play reveal
+          {wide ? 'Standard chart width' : 'Widen chart'}
         </button>
-      ) : paused && target < 60 ? (
-        <>
-          <p>
-            The story is not finished. Notice the ups and downs so far before
-            continuing.
-          </p>
-          <button onClick={() => resume(target === 12 ? 36 : 60)}>
-            Continue to year {target === 12 ? 3 : 5}
-          </button>
-        </>
-      ) : !paused ? (
-        <button className="secondary" onClick={skip}>
-          Skip animation to year {target / 12}
-        </button>
-      ) : null}
+        <label>
+          Animation
+          <select
+            value={motion}
+            onChange={(event) => {
+              const value = event.target.value as
+                'system' | 'animate' | 'reduce';
+              setMotion(value);
+              try {
+                localStorage.setItem('investing-game:motion:v1', value);
+                setMotionWarning('');
+              } catch {
+                setMotionWarning('Motion preference applies in this tab only.');
+              }
+            }}
+          >
+            <option value="system">Follow device setting</option>
+            <option value="animate">Animate</option>
+            <option value="reduce">Reduce motion</option>
+          </select>
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            checked={showDrawdown}
+            onChange={(event) => setShowDrawdown(event.target.checked)}
+          />
+          Show the largest fall seen so far
+        </label>
+        {completedOnce && (
+          <label>
+            <input
+              type="checkbox"
+              checked={commonScale}
+              onChange={(event) => setCommonScale(event.target.checked)}
+            />
+            Compare both panels on one percentage scale
+          </label>
+        )}
+      </div>
+      {motionWarning && <p role="status">{motionWarning}</p>}
+      {showDrawdown && (
+        <p>
+          Largest fall seen so far: {percent(largestFall.fraction)} from an
+          earlier high. A drawdown is a fall from a previous peak.
+        </p>
+      )}
+      {completedOnce && (
+        <label className="month-scrubber">
+          Inspect a revealed month: {currentMonth}
+          <input
+            aria-label="Inspect a revealed month"
+            type="range"
+            min="0"
+            max="60"
+            step="1"
+            value={currentMonth}
+            onChange={(event) => setVisible(Number(event.target.value))}
+          />
+        </label>
+      )}
+      <details className="chart-help">
+        <summary>How to read this chart</summary>
+        <p>
+          The top panel shows your portfolio and two comparisons. The lower
+          panel shows individual companies. Each reveal takes eight seconds of
+          playing time. Movement between monthly observations is visual
+          interpolation. Returns are cumulative from the original start, not
+          annual returns. Dollar values are not adjusted for inflation.
+        </p>
+        <p>
+          Axes use only values reached so far and may change as time moves.{' '}
+          {commonScale
+            ? 'Both panels now use the same percentage range.'
+            : 'The panels have separate dollar scales.'}{' '}
+          Select a legend label to follow one line. Swipe sideways on a narrow
+          screen.
+        </p>
+      </details>
       <details>
         <summary>Monthly values</summary>
         <div className="table-scroll">

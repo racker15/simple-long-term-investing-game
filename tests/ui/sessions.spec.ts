@@ -744,6 +744,7 @@ test('right-hand labels match every line and return at each reveal', async ({
 test('each reveal waits for Play and animates for eight seconds with moving endpoint labels', async ({
   page,
 }) => {
+  test.setTimeout(60000);
   await page.clock.install({ time: new Date('2026-10-06T00:00:00Z') });
   await page.emulateMedia({ reducedMotion: 'no-preference' });
   await page.goto('/');
@@ -913,7 +914,7 @@ test('decision orientation, allocation identity and Undo stay consistent', async
   await expect(allocation.locator('.allocation-bar')).toHaveAccessibleName(
     /Bonds: \$500, 5%/,
   );
-  await expect(allocation.getByRole('status')).toContainText(
+  await expect(allocation.locator('p[role="status"]')).toContainText(
     'Saved on this browser',
   );
   await page
@@ -961,4 +962,105 @@ test('decision orientation, allocation identity and Undo stay consistent', async
       () => document.documentElement.scrollWidth <= innerWidth,
     ),
   ).toBe(true);
+});
+
+test('revealed chart exploration preserves history and hides future controls until completion', async ({
+  page,
+}, testInfo) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await page.getByRole('radio', { name: 'Cash', exact: true }).check();
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await page
+    .getByRole('button', { name: 'Invest and see what happens' })
+    .click();
+  await expect(
+    page.getByLabel('Inspect a revealed month', { exact: true }),
+  ).toHaveCount(0);
+  await expect(
+    page.getByLabel('Compare both panels on one percentage scale'),
+  ).toHaveCount(0);
+  await finishReplay(page);
+  const saved = await history(page);
+  await page.getByTestId('chart-return-1').click();
+  await expect(page.getByTestId('chart-return-1')).toHaveAttribute(
+    'aria-pressed',
+    'true',
+  );
+  await expect(page.getByTestId('path-0')).toHaveAttribute('opacity', '0.25');
+  await expect(page.getByTestId('path-1')).toHaveAttribute('opacity', '1');
+  await page.getByTestId('chart-return-1').click();
+  await page.getByLabel('Compare both panels on one percentage scale').check();
+  await expect(
+    page.getByTestId('starting-value-reference-portfolio'),
+  ).toContainText('0%');
+  await page.getByLabel('Inspect a revealed month', { exact: true }).fill('12');
+  await expect(
+    page.getByRole('heading', {
+      name: 'Reviewing month 12 of 60',
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(page.getByTestId('path-0')).toHaveAttribute(
+    'points',
+    /\S+( \S+){12}$/,
+  );
+  await page.getByLabel('Show the largest fall seen so far').check();
+  await expect(
+    page.getByText('Largest fall seen so far:', { exact: false }),
+  ).toBeVisible();
+  await page.getByRole('button', { name: 'Widen chart', exact: true }).click();
+  await expect(page.locator('figure.chart')).toHaveClass(/chart-wide/);
+  await page
+    .getByRole('button', { name: 'Standard chart width', exact: true })
+    .click();
+  await page.getByLabel('Animation', { exact: true }).selectOption('reduce');
+  expect(
+    await page.evaluate(() => localStorage.getItem('investing-game:motion:v1')),
+  ).toBe('reduce');
+  expect(await history(page)).toEqual(saved);
+  await page
+    .locator('figure.chart')
+    .screenshot({ path: testInfo.outputPath('session-chart-exploration.png') });
+});
+
+test('manual animation pause keeps its place and resumes remaining playing time', async ({
+  page,
+}) => {
+  test.setTimeout(60000);
+  await page.clock.install({ time: new Date('2026-10-06T00:00:00Z') });
+  await page.emulateMedia({ reducedMotion: 'no-preference' });
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await page.getByRole('radio', { name: 'Cash', exact: true }).check();
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await page.clock.pauseAt(await page.evaluate(() => Date.now() + 1000));
+  await page
+    .getByRole('button', { name: 'Invest and see what happens' })
+    .click();
+  await page.getByRole('button', { name: 'Play reveal', exact: true }).click();
+  await page.clock.runFor(2000);
+  await page
+    .getByRole('button', { name: 'Pause animation', exact: true })
+    .click();
+  const points = await page.getByTestId('path-0').getAttribute('points');
+  await page.clock.runFor(10000);
+  await expect(page.getByTestId('path-0')).toHaveAttribute('points', points!);
+  await expect(
+    page.getByRole('heading', { name: 'Animation paused', exact: true }),
+  ).toBeVisible();
+  await page
+    .getByRole('button', { name: 'Resume animation', exact: true })
+    .click();
+  await page.clock.runFor(5000);
+  await expect(
+    page.getByRole('heading', {
+      name: 'Revealing through year 1…',
+      exact: true,
+    }),
+  ).toBeVisible();
+  await page.clock.runFor(1100);
+  await expect(
+    page.getByRole('heading', { name: 'Paused after 1 year', exact: true }),
+  ).toBeVisible();
 });

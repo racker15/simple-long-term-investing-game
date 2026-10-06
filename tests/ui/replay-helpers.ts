@@ -9,12 +9,6 @@ export async function finishReplay(page: Page) {
   ).toBeFocused();
   await page.keyboard.press('Tab');
   await expect(
-    page.getByRole('region', {
-      name: 'Investment paths; scroll horizontally on small screens',
-    }),
-  ).toBeFocused();
-  await page.keyboard.press('Tab');
-  await expect(
     page.getByRole('button', { name: 'Continue to year 3', exact: true }),
   ).toBeFocused();
   await expect(
