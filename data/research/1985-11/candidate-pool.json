@@ -1,0 +1,240 @@
+{
+  "scenario_id": "1985-11",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050626,00.html",
+      "title": "Colombia's Mortal Agony"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050627,00.html",
+      "title": "Volcano: In the Belly of the Beast: Scientists know what makes a volcano blow but still cannot say when"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050628,00.html",
+      "title": "Mexico:Trouble After an Earlier Disaster:"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050629,00.html",
+      "title": "Northern Ireland: Summit at Hillsborough Castle"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050630,00.html",
+      "title": "The Philippines: Recriminations and Questions"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050631,00.html",
+      "title": "The U.S. Is Responsible"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050632,00.html",
+      "title": "Israel: Unseemly Spat Peres takes on Sharon"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050642,00.html",
+      "title": "Science: Sighting a Cosmic Celebrity"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050614,00.html",
+      "title": "Behavior: Battling the Green-Eyed Monster"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050616,00.html",
+      "title": "In Arizona: Cowboy Poets"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050645,00.html",
+      "title": "Press: Looking Good in California"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050641,00.html",
+      "title": "Religion: Back to the Catholic Future"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050602,00.html",
+      "title": "Computers: Here Come the Networkers"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050601,00.html",
+      "title": "A Letter from the Publisher: Nov. 25, 1985"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050611,00.html",
+      "title": "Bob Dylan: It's All Right In Front"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050613,00.html",
+      "title": "Milestones: Nov. 25, 1985"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050615,00.html",
+      "title": "Bookends: Nov. 25, 1985"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050619,00.html",
+      "title": "Tortuous Path to the Summit"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050625,00.html",
+      "title": "American Notes"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050633,00.html",
+      "title": "World Notes: Nov. 25, 1985"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050640,00.html",
+      "title": "Business Notes: Nov. 25, 1985"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050643,00.html",
+      "title": "People: Nov. 25, 1985"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050617,00.html",
+      "title": "When History Reaches a Peak"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050618,00.html",
+      "title": "High Hopes, Low Expectations"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050620,00.html",
+      "title": "Countering America's Crusade"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050621,00.html",
+      "title": "Mikhail Gorbachev, Author"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050622,00.html",
+      "title": "No Default: Congress delays a showdown"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050623,00.html",
+      "title": "TransProtest: Robinson's raiders"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050624,00.html",
+      "title": "Big Splash in the Arid West"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050634,00.html",
+      "title": "Running Out of Steam"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050635,00.html",
+      "title": "Fix It Before It's Broke"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050636,00.html",
+      "title": "Turkey Wings: Airlines slice some tasty fares"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050637,00.html",
+      "title": "The Crushed Tin Cartel"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050638,00.html",
+      "title": "Sweat Stocks: Are brokers better on bikes?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050639,00.html",
+      "title": "Private Practice: Home health-test sales swell"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050644,00.html",
+      "title": "Education: I Will Keep My Promise"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050603,00.html",
+      "title": "Video: New Twists on Old Favorites"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050604,00.html",
+      "title": "Art: Move Over, Darth Vader"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050605,00.html",
+      "title": "Books: Let Them Eat Mezeskalacs"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050606,00.html",
+      "title": "Books: Pride and Prejudice"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050608,00.html",
+      "title": "Cinema: Dancing down the Steppes"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050609,00.html",
+      "title": "Cinema: Road Show...THE JOURNEY OF NATTY GANN"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050610,00.html",
+      "title": "Show Business: Hellhound on the Loose"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050612,00.html",
+      "title": "Music: A Bold, Brash 'Cello Symphony"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1050607,00.html",
+      "title": "Letters: Nov. 25, 1985"
+    }
+  ],
+  "selected_news": [0, 3, 7, 12, 26, 41],
+  "stock_candidates": [
+    {
+      "ticker": "AAPL",
+      "selected": true,
+      "rationale": "Its co-founder’s departure has added uncertainty to a struggling computer business."
+    },
+    {
+      "ticker": "DIS",
+      "selected": true,
+      "rationale": "Its new film The Journey of Natty Gann brings an adventurous young heroine to cinemas."
+    },
+    {
+      "ticker": "KO",
+      "selected": true,
+      "rationale": "The company now sells both the new drink and the revived classic formula."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "MCD",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "SONY",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}
