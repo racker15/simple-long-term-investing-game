@@ -287,6 +287,14 @@ test('year-one and year-three pauses show only returns reached so far', async ({
   ).toBeVisible();
   await page.waitForTimeout(1000);
   for (const months of [12, 36]) {
+    await expect(page.getByTestId('chart-return-1')).toHaveCSS(
+      'color',
+      'rgb(98, 107, 121)',
+    );
+    await expect(page.getByTestId('chart-return-2')).toHaveCSS(
+      'color',
+      'rgb(98, 107, 121)',
+    );
     await expect(page.getByTestId('path-0')).toHaveAttribute(
       'points',
       new RegExp(`\\S+( \\S+){${months}}$`),

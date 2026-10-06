@@ -315,12 +315,11 @@ export function PathChart({
       </svg>
       <div className="legend" aria-label="Chart returns so far">
         {chartSeries.map((item, index) => (
-          <span
-            key={item.testId}
-            data-testid={`chart-return-${index}`}
-            style={{ color: item.color }}
-          >
-            {item.dash ? '┄' : '━'} {item.label}:{' '}
+          <span key={item.testId} data-testid={`chart-return-${index}`}>
+            <span aria-hidden="true" style={{ color: item.color }}>
+              {item.dash ? '┄' : '━'}
+            </span>{' '}
+            {item.label}:{' '}
             <SignedReturn
               value={series[index][visible] / INITIAL_CAPITAL - 1}
             />{' '}
