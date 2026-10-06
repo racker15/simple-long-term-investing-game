@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { INITIAL_CAPITAL, type FutureOutcomes } from '../lib/contracts';
 import type { PortfolioPath } from '../lib/portfolio';
 import { money } from '../lib/format';
+import { SignedReturn } from './SignedReturn';
 export function PathChart({
   player,
   diversified,
@@ -24,20 +25,27 @@ export function PathChart({
   events: FutureOutcomes['events'];
   onFinished: () => void;
 }) {
-  const [visible, setVisible] = useState(() =>
-    window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 60 : 0,
+  const [reducedMotion] = useState(
+    () => window.matchMedia('(prefers-reduced-motion: reduce)').matches,
   );
+  const [target, setTarget] = useState<12 | 36 | 60>(12);
+  const [visible, setVisible] = useState(reducedMotion ? 12 : 0);
+  const paused = visible === target;
   useEffect(() => {
-    if (visible >= 60) {
-      onFinished();
+    if (visible >= target) {
+      if (target === 60) onFinished();
       return;
     }
     const timer = window.setTimeout(
-      () => setVisible((value) => Math.min(60, value + 2)),
+      () => setVisible((value) => Math.min(target, value + 2)),
       80,
     );
     return () => window.clearTimeout(timer);
-  }, [visible, onFinished]);
+  }, [visible, target, onFinished]);
+  function resume(next: 36 | 60) {
+    setTarget(next);
+    if (reducedMotion) setVisible(next);
+  }
   const chartSeries = [
     {
       label: 'Your portfolio',
@@ -82,8 +90,12 @@ export function PathChart({
   ]);
   const portfolioSeries = series.slice(0, 3);
   const hotStockSeries = series.slice(3);
-  const portfolioValues = portfolioSeries.flat();
-  const hotStockValues = hotStockSeries.flat();
+  const portfolioValues = portfolioSeries.flatMap((values) =>
+    values.slice(0, visible + 1),
+  );
+  const hotStockValues = hotStockSeries.flatMap((values) =>
+    values.slice(0, visible + 1),
+  );
   const portfolioMinimum = Math.min(...portfolioValues);
   const portfolioMaximum = Math.max(...portfolioValues);
   const hotStockMinimum = Math.min(...hotStockValues);
@@ -92,7 +104,8 @@ export function PathChart({
   const hotStockSpan = Math.max(1, hotStockMaximum - hotStockMinimum);
   const plotStart = 165;
   const plotEnd = 780;
-  const x = (index: number) => plotStart + (index / 60) * (plotEnd - plotStart);
+  const x = (index: number) =>
+    plotStart + (index / target) * (plotEnd - plotStart);
   const portfolioY = (value: number) =>
     175 - ((value - portfolioMinimum) / portfolioSpan) * 135;
   const hotStockY = (value: number) =>
@@ -103,7 +116,7 @@ export function PathChart({
       month,
       year: player.points[month - 1].month.slice(0, 4),
     })),
-  ];
+  ].filter((label) => label.month <= target);
   const markers = events
     .map((event, i) => ({ event, i }))
     .filter(
@@ -114,8 +127,16 @@ export function PathChart({
     <figure className="chart">
       <figcaption>
         Your portfolio and market comparisons are above. The hot stocks below
-        use their own dollar scale. Both panels follow the same five years.
+        use their own dollar scale. The timeline expands as you continue. Only
+        the months reached so far are shown.
       </figcaption>
+      <h2 aria-live="polite">
+        {paused
+          ? target === 60
+            ? 'Five-year path complete'
+            : `Paused after ${target / 12} ${target === 12 ? 'year' : 'years'}`
+          : `Revealing through year ${target / 12}…`}
+      </h2>
       <svg
         viewBox="0 0 800 420"
         role="img"
@@ -125,8 +146,8 @@ export function PathChart({
         <desc id="path-description">
           Two chart panels share the same timeline and use separate dollar
           scales. The upper panel shows your portfolio and two broad
-          comparisons. The lower panel shows all three hot stocks. A complete
-          monthly value table follows.
+          comparisons. The lower panel shows all three hot stocks. Values are
+          shown only through month {visible}; later outcomes remain hidden.
         </desc>
         <text x={plotStart} y="20">
           Your portfolio and broad comparisons
@@ -279,37 +300,54 @@ export function PathChart({
             data-testid="chart-year"
             x={x(month)}
             y="400"
-            textAnchor={month === 0 ? 'start' : month === 60 ? 'end' : 'middle'}
+            textAnchor={
+              month === 0 ? 'start' : month === target ? 'end' : 'middle'
+            }
           >
             {year}
           </text>
         ))}
       </svg>
-      <p className="legend">
-        <span className="player-key">━ Your portfolio</span>
-        <span>━ US Total Market</span>
-        <span className="benchmark-key">┄ Diversified benchmark</span>
-        {hotStocks.map((stock, index) => (
+      <div className="legend" aria-label="Chart returns so far">
+        {chartSeries.map((item, index) => (
           <span
-            className="hot-stock-key"
-            key={stock.id}
-            style={{ color: ['#2475a8', '#b34f65', '#7657a4'][index] }}
+            key={item.testId}
+            data-testid={`chart-return-${index}`}
+            style={{ color: item.color }}
           >
-            ━ {stock.company_name} ({stock.ticker})
+            {item.dash ? '┄' : '━'} {item.label}:{' '}
+            <SignedReturn
+              value={series[index][visible] / INITIAL_CAPITAL - 1}
+            />{' '}
+            ({money(series[index][visible])})
           </span>
         ))}
+      </div>
+      <p>
+        Returns above are from the starting date through month {visible}. Each
+        comparison starts with $10,000.
       </p>
-      {visible < 60 && (
-        <button className="secondary" onClick={() => setVisible(60)}>
-          Show complete path
+      {paused && target < 60 ? (
+        <>
+          <p>
+            The story is not finished. Notice the ups and downs so far before
+            continuing.
+          </p>
+          <button onClick={() => resume(target === 12 ? 36 : 60)}>
+            Continue to year {target === 12 ? 3 : 5}
+          </button>
+        </>
+      ) : !paused ? (
+        <button className="secondary" onClick={() => setVisible(target)}>
+          Skip animation to year {target / 12}
         </button>
-      )}
+      ) : null}
       <details>
         <summary>Monthly values</summary>
         <div className="table-scroll">
           <table>
             <caption>
-              Complete monthly values for your portfolio, both comparisons, and
+              Monthly values so far for your portfolio, both comparisons, and
               all three hot stocks
             </caption>
             <thead>

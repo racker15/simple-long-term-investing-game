@@ -969,6 +969,8 @@ Add tests before chart work.
 
 ### Phase 4 — Five-year reveal
 
+Owner update (October 6, 2026): reveal the investment path in three stages. Automatically pause after month 12 (one year) and month 36 (three years), with cumulative returns so far shown in the chart. Require an explicit click to continue each time, then finish at the original month 60 (five-year) endpoint. Reduced-motion mode jumps to each checkpoint but must not bypass either pause. An animation-skip control may skip only to the current checkpoint. Do not expose later path values, axis extrema, monthly rows, final winners, event explanations or reflections before their reveal stage; full outcome/reflection remains at year five. Keep the investment choice locked throughout.
+
 Build:
 
 - progressively revealed 60-month chart;

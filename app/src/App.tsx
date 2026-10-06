@@ -1,108 +1,179 @@
-import { useEffect, useState } from 'react';
-import { fixture } from './data/fixture';
+import { useEffect, useRef, useState } from 'react';
+import {
+  historicalDecisionContext,
+  loadHistoricalScenario,
+  productionLibrary,
+} from './data/historical';
 import {
   DEFAULT_SESSION_LENGTH,
   SESSION_LENGTHS,
-  type Session,
+  type Allocations,
+  type AssetId,
+  type Scenario,
 } from './lib/contracts';
-import { decisionContext, validateSession } from './lib/validation';
 import {
   startSession,
   lockResult,
   advanceSession,
   finishSession,
 } from './lib/session';
+import { buildSessionQueue } from './lib/queue';
 import { createResult } from './lib/results';
-import { sessionScorecard } from './lib/scorecards';
+import {
+  HISTORY_KEY,
+  emptyHistory,
+  readHistory,
+  rememberSession,
+  playedIds,
+  firstTimeResults,
+  type PlayerHistory,
+} from './lib/history';
 import { ScenarioView } from './components/ScenarioView';
 import { Allocation } from './components/Allocation';
 import { Reveal } from './components/Reveal';
 import { Checkpoint, FinalScorecard } from './components/Scorecard';
-const ACTIVE_KEY = 'investing-game:development-active:v1';
-const ARCHIVE_KEY = 'investing-game:development-summaries:v1';
-function restore(): { session: Session | null; warning: string } {
+import { PlayerHistory as LearningHistory } from './components/PlayerHistory';
+import { PracticeReplay } from './components/PracticeReplay';
+const PRACTICE_KEY = 'investing-game:practice-open:v1';
+const assets = (id: string) =>
+  historicalDecisionContext(id).asset_definitions.map((asset) => asset.id);
+function restore() {
   try {
-    const raw = localStorage.getItem(ACTIVE_KEY);
-    if (!raw) return { session: null, warning: '' };
-    const saved: unknown = JSON.parse(raw);
-    if (
-      validateSession(saved) &&
-      saved.development_mode &&
-      saved.scenario_ids.every(
-        (id) => id === fixture.known.metadata.scenario_id,
-      )
-    )
-      return { session: saved, warning: '' };
     return {
-      session: null,
-      warning: 'Saved development progress was invalid. Start a new session.',
+      history: readHistory(localStorage.getItem(HISTORY_KEY), assets),
+      warning: '',
     };
   } catch {
     return {
-      session: null,
+      history: emptyHistory(),
       warning:
-        'Browser storage is unavailable or unreadable. You can play, but progress may not survive refresh.',
+        'Saved progress could not be read. You can start a new session. Browser storage may be unavailable.',
     };
   }
 }
 export default function App() {
   const [initial] = useState(restore);
-  const [session, setSession] = useState<Session | null>(initial.session);
+  const [history, setHistory] = useState(initial.history);
+  const current = useRef(history);
+  const [practiceId, setPracticeId] = useState<string | null>(() => {
+    try {
+      const saved = localStorage.getItem(PRACTICE_KEY);
+      return !initial.history.active &&
+        saved &&
+        playedIds(initial.history).includes(saved)
+        ? saved
+        : null;
+    } catch {
+      return null;
+    }
+  });
   const [warning, setWarning] = useState(initial.warning);
   const [target, setTarget] = useState<number>(DEFAULT_SESSION_LENGTH);
-  useEffect(() => {
+  const [scenario, setScenario] = useState<Scenario | null>(null);
+  const [error, setError] = useState('');
+  const [retry, setRetry] = useState(0);
+  const session = history.active;
+  const pending = history.pending;
+  function save(next: PlayerHistory) {
+    current.current = next;
     try {
-      if (session) {
-        localStorage.setItem(ACTIVE_KEY, JSON.stringify(session));
-        if (session.phase === 'final') {
-          const raw: unknown = JSON.parse(
-            localStorage.getItem(ARCHIVE_KEY) ?? '[]',
-          );
-          const archive: {
-            session_id: string;
-            ended_at: string;
-            summary: unknown;
-          }[] = Array.isArray(raw) ? raw : [];
-          if (
-            !archive.some((saved) => saved?.session_id === session.session_id)
-          )
-            localStorage.setItem(
-              ARCHIVE_KEY,
-              JSON.stringify([
-                ...archive,
-                {
-                  session_id: session.session_id,
-                  ended_at: session.ended_at,
-                  summary: sessionScorecard(session.completed),
-                },
-              ]),
-            );
-        }
-      } else localStorage.removeItem(ACTIVE_KEY);
+      localStorage.setItem(HISTORY_KEY, JSON.stringify(next));
     } catch {
       setWarning(
-        'Progress could not be saved in this browser. Keep this tab open to finish your session.',
+        'Progress could not be saved. Keep this tab open to finish your session.',
       );
     }
-  }, [session]);
+    setHistory(next);
+  }
+  const id =
+    session?.scenario_ids[
+      session.phase === 'reveal'
+        ? session.current_index - 1
+        : session.current_index
+    ];
+  useEffect(() => {
+    let cancelled = false;
+    setScenario(null);
+    setError('');
+    if (!id || (!pending && session?.phase !== 'reveal')) return;
+    const snapshot = history;
+    loadHistoricalScenario(id)
+      .then((loaded) => {
+        if (cancelled || current.current !== snapshot) return;
+        setScenario(loaded);
+        if (snapshot.pending && snapshot.active)
+          save(
+            rememberSession(
+              snapshot,
+              lockResult(
+                snapshot.active,
+                createResult(
+                  loaded,
+                  snapshot.pending.allocations,
+                  snapshot.pending.expected,
+                ),
+              ),
+            ),
+          );
+      })
+      .catch(() => {
+        if (!cancelled)
+          setError(
+            'The five-year story could not load. Your decision is locked. Try loading it again.',
+          );
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [id, pending, session?.phase, retry]);
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
   }, [session?.phase, session?.current_index]);
-  const context = decisionContext(fixture.known);
+  const played = playedIds(history);
+  const unseen = productionLibrary.filter(
+    (entry) => !played.includes(entry.scenario_id),
+  );
+  const lengths = SESSION_LENGTHS.filter((count) => count <= unseen.length);
+  const chosenTarget = lengths.includes(
+    target as (typeof SESSION_LENGTHS)[number],
+  )
+    ? target
+    : lengths.at(-1);
   const next = () =>
-    session && setSession(advanceSession(session, new Date().toISOString()));
+    session &&
+    save(
+      rememberSession(
+        history,
+        advanceSession(session, new Date().toISOString()),
+      ),
+    );
+  function commit(allocations: Allocations, expected: AssetId) {
+    if (current.current.pending || current.current.active?.phase !== 'decision')
+      return;
+    save({ ...current.current, pending: { allocations, expected } });
+  }
+  if (practiceId)
+    return (
+      <PracticeReplay
+        key={practiceId}
+        id={practiceId}
+        onClose={() => {
+          try {
+            localStorage.removeItem(PRACTICE_KEY);
+          } catch {
+            /* Current tab can still close practice. */
+          }
+          setPracticeId(null);
+        }}
+      />
+    );
   return (
     <>
       <header>
         <a href="#main">Long-term investing</a>
-        <span>Development fixture</span>
+        <span>50 historical scenarios</span>
       </header>
       <main id="main">
-        <aside className="development-notice">
-          <strong>Development mode — all content is fictional.</strong> This
-          demo repeats one test scenario to exercise checkpoints. It contains no
-          real historical data.
-        </aside>
         {warning && (
           <p role="status" className="storage-warning">
             {warning}
@@ -115,95 +186,179 @@ export default function App() {
             </p>
             <h1>Try a long-term investing decision</h1>
             <p>
-              You’ll make one long-term investing decision in each historical
-              moment. Every five scenarios, we’ll pause and look at how your
-              decisions and expectations are turning out.
+              Travel to a moment in history. Choose how to invest $10,000,
+              predict a winner, then see what happened over five years.
             </p>
-            <label htmlFor="session-length">How many scenarios?</label>
-            <select
-              id="session-length"
-              value={target}
-              onChange={(event) => setTarget(Number(event.target.value))}
-            >
-              {SESSION_LENGTHS.map((count) => (
-                <option key={count} value={count}>
-                  {count} scenarios{count === 10 ? ' (default)' : ''}
-                </option>
-              ))}
-            </select>
             <p>
-              This development session repeats the same fictional setting. Try
-              different decisions to inspect their paths.
+              Every five scenarios, pause to explore your choices. You can
+              finish there or keep going. Progress saves in this browser.
             </p>
-            <button
-              onClick={() =>
-                setSession(
-                  startSession(
-                    Array(target).fill(fixture.known.metadata.scenario_id),
-                    crypto.randomUUID(),
-                    new Date().toISOString(),
-                    true,
-                  ),
-                )
-              }
-            >
-              Begin session
-            </button>
+            <p>
+              {unseen.length} unseen scenarios available. Each round starts
+              fresh with $10,000.
+            </p>
+            {chosenTarget ? (
+              <>
+                <label htmlFor="session-length">How many scenarios?</label>
+                <select
+                  id="session-length"
+                  value={chosenTarget}
+                  onChange={(e) => setTarget(Number(e.target.value))}
+                >
+                  {lengths.map((count) => (
+                    <option key={count} value={count}>
+                      {count} scenarios{count === 10 ? ' (default)' : ''}
+                    </option>
+                  ))}
+                </select>
+                <button
+                  onClick={() => {
+                    const seed = crypto.randomUUID();
+                    save(
+                      rememberSession(
+                        history,
+                        startSession(
+                          buildSessionQueue(unseen, chosenTarget, [], seed),
+                          seed,
+                          new Date().toISOString(),
+                        ),
+                      ),
+                    );
+                  }}
+                >
+                  Begin session
+                </button>
+              </>
+            ) : (
+              <p>
+                You’ve explored all 50 historical scenarios. Your completed
+                scorecards are saved below.
+              </p>
+            )}
+            <LearningHistory results={firstTimeResults(history)} />
+            {played.length > 0 && (
+              <details>
+                <summary>Practice a completed scenario</summary>
+                <p>
+                  Try different choices without changing your first-time
+                  results.
+                </p>
+                {played.map((completedId) => (
+                  <p key={completedId}>
+                    <button
+                      onClick={() => {
+                        try {
+                          localStorage.setItem(PRACTICE_KEY, completedId);
+                        } catch {
+                          setWarning(
+                            'Practice cannot be restored after refresh in this browser.',
+                          );
+                        }
+                        setPracticeId(completedId);
+                      }}
+                    >
+                      Replay{' '}
+                      {historicalDecisionContext(completedId).display_date}
+                    </button>
+                  </p>
+                ))}
+              </details>
+            )}
+            {history.finished.length > 0 && (
+              <details>
+                <summary>
+                  Past session scorecards ({history.finished.length})
+                </summary>
+                {history.finished.map((saved) => (
+                  <p key={saved.session_id}>
+                    <button
+                      onClick={() =>
+                        save({ ...history, active: saved, pending: null })
+                      }
+                    >
+                      View {saved.completed.length}-scenario session from{' '}
+                      {saved.started_at.slice(0, 10)}
+                    </button>
+                  </p>
+                ))}
+              </details>
+            )}
           </section>
         ) : (
           <>
             <p className="progress">
-              {session.phase === 'decision'
-                ? `Scenario ${session.current_index + 1} of ${session.target_count}`
+              {session.phase === 'decision' || session.phase === 'reveal'
+                ? `Scenario ${session.current_index + (session.phase === 'decision' ? 1 : 0)} of ${session.target_count}`
                 : `${session.current_index} of ${session.target_count} scenarios completed`}
             </p>
-            {session.phase === 'decision' && (
+            {error ? (
+              <section className="panel">
+                <p role="alert">{error}</p>
+                <button
+                  onClick={() => {
+                    try {
+                      if (
+                        localStorage.getItem(HISTORY_KEY) ===
+                        JSON.stringify(current.current)
+                      ) {
+                        window.location.reload();
+                        return;
+                      }
+                    } catch {
+                      /* Keep an unsaved decision in this tab. */
+                    }
+                    setRetry((value) => value + 1);
+                  }}
+                >
+                  Retry loading
+                </button>
+              </section>
+            ) : pending || (session.phase === 'reveal' && !scenario) ? (
+              <p role="status">Loading the five-year reveal…</p>
+            ) : session.phase === 'decision' && id ? (
               <>
-                <ScenarioView context={context} />
+                <ScenarioView context={historicalDecisionContext(id)} />
                 <Allocation
-                  key={session.current_index}
-                  context={context}
-                  onCommit={(allocation, expected) =>
-                    setSession(
-                      lockResult(
-                        session,
-                        createResult(fixture, allocation, expected),
-                      ),
-                    )
-                  }
+                  key={id}
+                  context={historicalDecisionContext(id)}
+                  onCommit={commit}
                 />
               </>
-            )}
-            {session.phase === 'reveal' && (
+            ) : session.phase === 'reveal' && scenario ? (
               <Reveal
-                key={session.current_index}
-                scenario={fixture}
+                key={id}
+                scenario={scenario}
                 result={session.completed.at(-1)!}
                 onNext={next}
                 isLast={session.current_index === session.target_count}
               />
-            )}
-            {session.phase === 'checkpoint' && (
+            ) : session.phase === 'checkpoint' ? (
               <Checkpoint
                 results={session.completed}
                 onContinue={next}
                 onEnd={() =>
-                  setSession(finishSession(session, new Date().toISOString()))
+                  save(
+                    rememberSession(
+                      history,
+                      finishSession(session, new Date().toISOString()),
+                    ),
+                  )
                 }
               />
-            )}
-            {session.phase === 'final' && (
+            ) : session.phase === 'final' ? (
               <FinalScorecard
                 results={session.completed}
-                onRestart={() => setSession(null)}
+                onRestart={() =>
+                  save({ ...history, active: null, pending: null })
+                }
               />
-            )}
+            ) : null}
           </>
         )}
       </main>
       <footer>
-        Decisions use information available now. Outcomes unfold in a future
-        nobody gets to see.
+        Learn from history. These examples use approximate historical data and
+        are not investment advice.
       </footer>
     </>
   );

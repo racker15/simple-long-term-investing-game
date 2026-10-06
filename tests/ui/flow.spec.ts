@@ -1,3 +1,4 @@
+import { finishReplay } from './replay-helpers';
 import { test, expect, type Page } from '@playwright/test';
 async function invest(page: Page) {
   await page
@@ -7,6 +8,7 @@ async function invest(page: Page) {
   await page
     .getByRole('button', { name: 'Invest and see what happens' })
     .click();
+  await finishReplay(page);
   await expect(
     page.getByRole('heading', { name: 'Expectation vs. reality' }),
   ).toBeVisible();
@@ -33,7 +35,7 @@ test('five-scenario vertical slice, allocation controls, locked refresh, final s
   page.on('console', (message) => {
     if (message.type() === 'error') errors.push(message.text());
   });
-  await page.goto('/');
+  await page.goto('/?demo=1');
   await expect(page.getByLabel('How many scenarios?')).toHaveValue('10');
   await noOverflow(page);
   await page.screenshot({ path: testInfo.outputPath('start.png') });
@@ -177,6 +179,7 @@ test('five-scenario vertical slice, allocation controls, locked refresh, final s
   await page.evaluate(() => window.scrollTo(0, 0));
   await page.screenshot({ path: testInfo.outputPath('reveal-viewport.png') });
   await page.reload();
+  await finishReplay(page);
   await expect(
     page.getByRole('heading', { name: 'Expectation vs. reality' }),
   ).toBeVisible();
@@ -220,7 +223,7 @@ test('five-scenario vertical slice, allocation controls, locked refresh, final s
 test('checkpoint continues and supports ending after a whole block', async ({
   page,
 }) => {
-  await page.goto('/');
+  await page.goto('/?demo=1');
   await page.getByLabel('How many scenarios?').selectOption('15');
   await page.getByRole('button', { name: 'Begin session' }).click();
   for (let i = 0; i < 5; i++) {
@@ -257,17 +260,47 @@ test('checkpoint continues and supports ending after a whole block', async ({
   ).toBeVisible();
   await noOverflow(page);
 });
-test('animated reveal is bounded and can be skipped', async ({ page }) => {
+test('animation skips only to its next required pause', async ({ page }) => {
+  await page.clock.install({ time: new Date('2026-10-06T00:00:00Z') });
   await page.emulateMedia({ reducedMotion: 'no-preference' });
-  await page.goto('/');
+  await page.goto('/?demo=1');
   await page.getByRole('button', { name: 'Begin session' }).click();
   await page.getByRole('radio', { name: 'Cash', exact: true }).check();
   await page.getByRole('button', { name: 'Review decision' }).click();
+  await page.clock.pauseAt(await page.evaluate(() => Date.now() + 1000));
   await page
     .getByRole('button', { name: 'Invest and see what happens' })
     .click();
-  await page.getByRole('button', { name: 'Show complete path' }).click();
+  for (const year of [1, 3, 5]) {
+    await page
+      .getByRole('button', {
+        name: `Skip animation to year ${year}`,
+        exact: true,
+      })
+      .click();
+    if (year < 5) {
+      await expect(
+        page.getByRole('heading', {
+          name: `Paused after ${year} ${year === 1 ? 'year' : 'years'}`,
+          exact: true,
+        }),
+      ).toBeVisible();
+      await expect(
+        page.getByRole('heading', { name: 'Five years later', exact: true }),
+      ).toHaveCount(0);
+      await page.clock.runFor(10000);
+      await expect(
+        page.getByRole('heading', { name: 'Five years later', exact: true }),
+      ).toHaveCount(0);
+      await page
+        .getByRole('button', {
+          name: `Continue to year ${year === 1 ? 3 : 5}`,
+          exact: true,
+        })
+        .click();
+    }
+  }
   await expect(
-    page.getByRole('heading', { name: 'Five years later' }),
+    page.getByRole('heading', { name: 'Five years later', exact: true }),
   ).toBeVisible();
 });

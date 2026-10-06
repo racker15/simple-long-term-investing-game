@@ -2,13 +2,13 @@
 
 An educational static web application about making a five-year investing decision with only the information available at the starting date. Players allocate $10,000, predict one investment winner, lock the decision, and inspect the path and descriptive scorecards. Benchmark outperformance is a comparison, never a game score.
 
-**Current milestone: a 50-scenario historical library.** The selected dates span 1980–2020, with 25 important dates and 25 preregistered random dates. Each scenario provides four broad-asset choices, three contemporary stock selections and seven 60-month return paths. Broad numerical coverage runs January 1975–December 2025. The original six-scenario qualification is recorded in [scenario qualification](docs/scenario-qualification.md); the expansion and its checks are recorded in [expansion progress](docs/expansion-progress.md). The normal `/` demo remains fictional and defaults to a ten-scenario demonstration. Historical content is available through the development preview; expanding the data library does not itself enable a production historical-session UI.
+**Current milestone: a 50-scenario historical library.** The selected dates span 1980–2020, with 25 important dates and 25 preregistered random dates. Each scenario provides four broad-asset choices, three contemporary stock selections and seven 60-month return paths. Broad numerical coverage runs January 1975–December 2025. The original six-scenario qualification is recorded in [scenario qualification](docs/scenario-qualification.md); the expansion and its checks are recorded in [expansion progress](docs/expansion-progress.md). The normal `/` game now plays historical sessions, defaulting to ten unique scenarios. Choose 5–50 rounds in multiples of five, limited by unseen dates. Completed dates are excluded from new first-time sessions and can be replayed separately for practice. A learning-history panel summarizes first choices across sessions. Progress and completed scorecards stay in this browser.
 
 The product sources remain [investing-game-specification.md](investing-game-specification.md) and [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md).
 
 ## Expansion toward 50 scenarios
 
-Draft expansion now registers **50 complete historical scenarios: 25 important dates and 25 preregistered random dates**. Forty-four additions from 1980 through 2020 complete the selected plan. Their starting context was committed before outcome assembly. The original six pilot starting bundles and return paths remain unchanged. Closely spaced random dates and overlapping five-year windows are retained rather than screened for a preferred result. The normal demonstration remains fictional; content expansion does not itself enable the later production-session UI.
+The library registers **50 complete historical scenarios: 25 important dates and 25 preregistered random dates**. Forty-four additions from 1980 through 2020 complete the selected plan. Their starting context was committed before outcome assembly. The original six pilot starting bundles and return paths remain unchanged. Closely spaced random dates and overlapping five-year windows are retained rather than screened for a preferred result. Historical sessions use this library directly.
 
 ## Product scope
 
@@ -33,7 +33,7 @@ npm run dev
 
 Open the Vite URL (normally `http://localhost:5173`). No account, server, API keys, database, or external runtime data service is required.
 
-During `npm run dev`, the isolated historical preview accepts every registered ID in `data/scenarios/manifest.json`. For example, open `http://localhost:5173/?scenario=1982-08`. The preview loads prepared outcomes only after investment, saves no session history, and is excluded from production builds. The normal `/` demo remains fictional. Registry and browser verification status are recorded in [expansion progress](docs/expansion-progress.md).
+During `npm run dev`, the isolated historical preview accepts every registered ID in `data/scenarios/manifest.json`. For example, open `http://localhost:5173/?scenario=1982-08`. The preview loads prepared outcomes only after investment, saves no session history, and is excluded from production builds. The normal `/` game uses historical sessions. The fictional developer demo remains available only during development at `/?demo=1`. Registry and browser verification status are recorded in [expansion progress](docs/expansion-progress.md).
 
 ```sh
 npm run format       # format implementation files; preserve the product source documents
@@ -70,7 +70,7 @@ The CI workflow runs both `npm run check` and browser tests. Browser screenshots
 - `app/src/lib/queue.ts`: seeded production session queues.
 - `app/src/lib/results.ts`, `scorecards.ts`, `session.ts`: result construction, aggregation, and explicit decision/reveal/checkpoint/final transitions.
 - `app/src/components/`: starting scenario, allocation/prediction/confirmation, progressive SVG chart, outcome/reflection, checkpoint, and final scorecard components.
-- `app/src/data/fixture.ts`: validated fixture loader. `App.tsx` is the small React coordinator and local-storage adapter.
+- `app/src/data/fixture.ts`: validated developer fixture loader. `App.tsx` coordinates historical sessions and browser storage; `DevelopmentApp.tsx` preserves the isolated fictional demo.
 - `app/src/data/historical.ts`: production manifest metadata, starting-context projection, and lazy static historical outcome loader.
 - `data/scenarios/dev-fictional/`: the one committed, clearly labeled fictional fixture.
 - `data/scenarios/<YYYY-MM>/`: 50 selected historical scenarios; `manifest.json` registers complete real scenarios only. Registration is the qualification gate, not the date-selection artifact.
@@ -139,7 +139,7 @@ These fill in unspecified thresholds/conventions; they do not change the product
 4. **Concentration:** at least 50% of initial capital in any single investment, including Cash. It describes behavior without judging the choice.
 5. **Cohort statistics:** at least five results in a subgroup. Smaller groups return `null`, and the UI explains why the summary is withheld. The repeated fixture is explicitly unsuitable for historical inference even when this count is reached.
 6. **Queue precedence:** maximize unseen scenarios first, then minimize full-session cohort imbalance among feasible choices. When this priority or cohort shortages prevent balance, the queue degrades without duplicates. Balanced pools produce alternating 2/3 and 3/2 five-scenario blocks and randomized order, reproducibly from a seed. Source-library input order does not affect the output.
-7. **Milestone scope:** 50 complete historical dates are registered under the pilot and expansion selection records. Content, rebuilding, narrative and whole-library browser checks are recorded in the expansion progress report. Production historical-session UI, polished design and lifetime history remain later work.
+7. **Milestone scope:** 50 complete historical dates are registered under the pilot and expansion selection records. Content, rebuilding, narrative and whole-library browser checks are recorded in the expansion progress report. Historical sessions, separate practice replays and first-time learning history are implemented in the current session milestone. Visual QA and final release review remain separate from deployment.
 
 Scorecards use the same aggregation primitive for blocks, overall results, and sufficiently large cohort groups. They show average allocations, concentration count/frequency, prediction hits/bottom-three finishes, leader reversals, average player/benchmark values, strict benchmark-beating counts (ties do not beat), 20%+ drawdown count, and largest drawdown. Final cards add median ending value, prediction hit rate, reversal frequency, and every completed five-result block. Ending values summarize independent $10,000 scenarios; they are not sequential wealth accumulation. No overall score, grade, points, or leaderboard is calculated.
 

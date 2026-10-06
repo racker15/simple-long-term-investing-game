@@ -1,3 +1,4 @@
+import { ResultHelp } from './ResultHelp';
 import { useCallback, useMemo, useState } from 'react';
 import type { Scenario, ScenarioResult } from '../lib/contracts';
 import { calculatePortfolio, calculateComparisons } from '../lib/portfolio';
@@ -81,7 +82,7 @@ export function Reveal({
                 <dd>{money(portfolio.lowest_value)}</dd>
               </div>
               <div>
-                <dt>Largest peak-to-trough fall</dt>
+                <dt>Largest fall from an earlier high</dt>
                 <dd>{percent(portfolio.max_drawdown)}</dd>
               </div>
               <div>
@@ -93,6 +94,7 @@ export function Reveal({
                 <dd>{money(comparisons.diversified.ending_value)}</dd>
               </div>
             </dl>
+            <ResultHelp />
           </section>
           <section className="panel" aria-labelledby="hot-stock-outcomes-title">
             <h2 id="hot-stock-outcomes-title">

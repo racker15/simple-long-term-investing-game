@@ -29,7 +29,7 @@ export function buildSessionQueue(
   seed: string,
 ): string[] {
   if (!SESSION_LENGTHS.includes(target as (typeof SESSION_LENGTHS)[number]))
-    throw new Error('Session length must be 5, 10, 15, or 20');
+    throw new Error('Session length must be a multiple of five from 5 to 50');
   if (new Set(library.map((s) => s.scenario_id)).size !== library.length)
     throw new Error('Scenario library contains duplicate IDs');
   if (

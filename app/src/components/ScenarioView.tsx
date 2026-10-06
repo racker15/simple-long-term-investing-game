@@ -36,7 +36,7 @@ export function ScenarioView({ context }: { context: DecisionContext }) {
               </div>
             ))}
           </dl>
-          <h3>Contemporary outlook</h3>
+          <h3>What experts expected</h3>
           {context.forecasts.map((forecast) => (
             <p key={forecast.text}>{forecast.text}</p>
           ))}

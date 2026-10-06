@@ -359,3 +359,19 @@ footer {
   font-weight: 700;
   text-decoration-thickness: 2px;
 }
+
+.result-help {
+  margin: 1rem 0;
+}
+.result-help dl > div {
+  display: block;
+}
+.result-help dt {
+  max-width: none;
+  font-weight: 600;
+}
+.result-help dd {
+  margin-top: 0.25rem;
+  text-align: left;
+  font-weight: 400;
+}

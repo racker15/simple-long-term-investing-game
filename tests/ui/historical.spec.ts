@@ -1,3 +1,4 @@
+import { finishReplay } from './replay-helpers';
 import { test, expect } from '@playwright/test';
 
 for (const { scenario, years, firstMonth, lastMonth } of [
@@ -33,6 +34,7 @@ for (const { scenario, years, firstMonth, lastMonth } of [
     await page
       .getByRole('button', { name: 'Invest and see what happens' })
       .click();
+    await finishReplay(page);
 
     await expect(page.getByTestId('chart-year')).toHaveText(years);
     for (const [panel, pathId] of [
@@ -131,6 +133,7 @@ test('historical preview holds outcomes until investment and keeps production se
   await page
     .getByRole('button', { name: 'Invest and see what happens' })
     .click();
+  await finishReplay(page);
   await expect(
     page.getByRole('heading', { name: 'Five years later' }),
   ).toBeVisible();
@@ -175,9 +178,14 @@ test('historical preview holds outcomes until investment and keeps production se
     page.getByRole('button', { name: 'Begin session' }),
   ).toBeVisible();
   await expect(
-    page.getByText('Development mode — all content is fictional.', {
-      exact: true,
+    page.getByText('50 unseen scenarios available.', {
+      exact: false,
     }),
   ).toBeVisible();
+  expect(
+    await page.evaluate(() =>
+      localStorage.getItem('investing-game:historical-history:v1'),
+    ),
+  ).toBeNull();
   expect(errors).toEqual([]);
 });
