@@ -52,7 +52,7 @@ describe('preregistered expansion to fifty historical scenarios', () => {
   });
 
   it('registers only selected complete dates and never pads the library with duplicates', () => {
-    expect(manifest.scenarios.length).toBeLessThanOrEqual(50);
+    expect(manifest.scenarios).toHaveLength(50);
     expect(new Set(manifest.scenarios.map((row) => row.scenario_id)).size).toBe(
       manifest.scenarios.length,
     );

@@ -3,7 +3,12 @@ import { readFileSync } from 'node:fs';
 import { percent } from '../../app/src/lib/format';
 import { calculatePortfolio } from '../../app/src/lib/portfolio';
 
-const ids = ['1982-08', '1987-01', '1999-09', '2004-05', '2008-09', '2016-02'];
+const manifest = JSON.parse(
+  readFileSync('data/scenarios/manifest.json', 'utf8'),
+);
+const ids: string[] = manifest.scenarios.map(
+  (entry: { scenario_id: string }) => entry.scenario_id,
+);
 for (const id of ids) {
   test(`${id} commits before requesting outcomes and reveals sixty months`, async ({
     page,
