@@ -192,7 +192,7 @@ export function PathChart({
         Your portfolio and market comparisons are above. The hot stocks below
         use their own dollar scale. The timeline expands as you continue. Only
         the months reached so far are shown. End labels show returns since the
-        start; stock labels use their ticker symbols. Each reveal takes five
+        start; stock labels use their ticker symbols. Each reveal takes eight
         seconds. Movement between monthly observations is visual interpolation.
       </figcaption>
       <h2 ref={checkpointHeading} tabIndex={-1} aria-live="polite">
