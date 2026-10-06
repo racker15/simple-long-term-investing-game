@@ -1,0 +1,59 @@
+{
+  "scenario_id": "2016-01",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [],
+  "selected_news": [],
+  "stock_candidates": [
+    {
+      "ticker": "DIS",
+      "selected": true,
+      "rationale": "The Force Awakens has become a major box-office success."
+    },
+    {
+      "ticker": "BA",
+      "selected": true,
+      "rationale": "The aircraft maker is reporting results and setting delivery expectations for the new year."
+    },
+    {
+      "ticker": "TSLA",
+      "selected": true,
+      "rationale": "The electric-car maker is adding Model X and preparing to show its next model."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}
