@@ -143,7 +143,7 @@ test('five-scenario vertical slice, allocation controls, locked refresh, final s
   const confirmation = page.locator(
     '[aria-labelledby="allocation-title"] .allocation-row',
   );
-  await expect(confirmation.locator('strong')).toHaveText([
+  await expect(confirmation.locator('.investment-name')).toHaveText([
     'Cash',
     'Bonds',
     'US Total Market',

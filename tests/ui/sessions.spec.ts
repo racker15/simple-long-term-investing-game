@@ -711,7 +711,9 @@ test('right-hand labels match every line and return at each reveal', async ({
     const positions = await page
       .locator('.endpoint-name')
       .evaluateAll((nodes) =>
-        nodes.map((node) => Number(node.getAttribute('y'))),
+        nodes.map((node) =>
+          Number(node.closest('[data-label-y]')!.getAttribute('data-label-y')),
+        ),
       );
     for (const offset of [0, 3]) {
       const ys = positions.slice(offset, offset + 3).sort((a, b) => a - b);
@@ -889,6 +891,417 @@ test('replay reveal keeps the locked choice and never records a second result', 
     page.getByText('Scenario 2 of 10', { exact: true }),
   ).toBeVisible();
   expect((await history(page)).active.completed).toHaveLength(1);
+});
+
+test('decision orientation, allocation identity and Undo stay consistent', async ({
+  page,
+}, testInfo) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await expect(page.getByRole('list', { name: 'Round stages' })).toContainText(
+    'Explore the moment',
+  );
+  const headlines = page.locator('.stories details');
+  await expect(headlines.first()).toHaveAttribute('open', '');
+  await expect(headlines.nth(2)).not.toHaveAttribute('open', '');
+  await headlines.nth(2).locator('summary').click();
+  await expect(headlines.nth(2)).toHaveAttribute('open', '');
+  const allocation = page.locator('.allocation-panel');
+  await page
+    .getByRole('button', { name: 'Add $500 to Bonds', exact: true })
+    .click();
+  await expect(page.getByLabel('Bonds allocation', { exact: true })).toHaveText(
+    '$500',
+  );
+  await expect(allocation.locator('.allocation-bar')).toHaveAccessibleName(
+    /Bonds: \$500, 5%/,
+  );
+  await expect(allocation.locator('p[role="status"]')).toContainText(
+    'Saved on this browser',
+  );
+  await page
+    .getByRole('button', { name: 'Undo last allocation change', exact: true })
+    .click();
+  await expect(page.getByLabel('Bonds allocation', { exact: true })).toHaveText(
+    '$0',
+  );
+  await expect(page.getByLabel('Cash allocation', { exact: true })).toHaveText(
+    '$10,000',
+  );
+  await expect(
+    page.getByRole('button', {
+      name: 'Undo last allocation change',
+      exact: true,
+    }),
+  ).toHaveCount(0);
+  await page
+    .getByRole('button', { name: 'Add $500 to Bonds', exact: true })
+    .click();
+  await page.getByRole('radio', { name: 'Bonds', exact: true }).check();
+  await expect(
+    page.getByRole('radio', { name: 'Bonds', exact: true }).locator('..'),
+  ).toHaveClass('prediction-selected');
+  await page.reload();
+  await expect(page.getByLabel('Bonds allocation', { exact: true })).toHaveText(
+    '$500',
+  );
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await expect(
+    page.getByRole('button', {
+      name: 'Undo last allocation change',
+      exact: true,
+    }),
+  ).toHaveCount(0);
+  await expect(
+    page.getByRole('button', { name: 'Invest and see what happens' }),
+  ).toBeInViewport({ ratio: 1 });
+  await page.screenshot({
+    path: testInfo.outputPath('session-engagement-choice.png'),
+    fullPage: true,
+  });
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth,
+    ),
+  ).toBe(true);
+});
+
+test('revealed chart exploration preserves history and hides future controls until completion', async ({
+  page,
+}, testInfo) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await page.getByRole('radio', { name: 'Cash', exact: true }).check();
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await page
+    .getByRole('button', { name: 'Invest and see what happens' })
+    .click();
+  await expect(
+    page.getByLabel('Inspect a revealed month', { exact: true }),
+  ).toHaveCount(0);
+  await expect(
+    page.getByLabel('Compare both panels on one percentage scale'),
+  ).toHaveCount(0);
+  await finishReplay(page);
+  const saved = await history(page);
+  await page.getByTestId('chart-return-1').click();
+  await expect(page.getByTestId('chart-return-1')).toHaveAttribute(
+    'aria-pressed',
+    'true',
+  );
+  await expect(page.getByTestId('path-0')).toHaveAttribute('opacity', '0.25');
+  await expect(page.getByTestId('path-1')).toHaveAttribute('opacity', '1');
+  await page.getByTestId('chart-return-1').click();
+  await page.getByLabel('Compare both panels on one percentage scale').check();
+  await expect(
+    page.getByTestId('starting-value-reference-portfolio'),
+  ).toContainText('0%');
+  await page.getByLabel('Inspect a revealed month', { exact: true }).fill('12');
+  await expect(
+    page.getByRole('heading', {
+      name: 'Reviewing month 12 of 60',
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(page.getByTestId('path-0')).toHaveAttribute(
+    'points',
+    /\S+( \S+){12}$/,
+  );
+  await page.getByLabel('Show the largest fall seen so far').check();
+  await expect(
+    page.getByText('Largest fall seen so far:', { exact: false }),
+  ).toBeVisible();
+  await page.getByRole('button', { name: 'Widen chart', exact: true }).click();
+  await expect(page.locator('figure.chart')).toHaveClass(/chart-wide/);
+  await page
+    .getByRole('button', { name: 'Standard chart width', exact: true })
+    .click();
+  await page.getByLabel('Animation', { exact: true }).selectOption('reduce');
+  expect(
+    await page.evaluate(() => localStorage.getItem('investing-game:motion:v1')),
+  ).toBe('reduce');
+  expect(await history(page)).toEqual(saved);
+  await page
+    .locator('figure.chart')
+    .screenshot({ path: testInfo.outputPath('session-chart-exploration.png') });
+});
+
+test('manual animation pause keeps its place and resumes remaining playing time', async ({
+  page,
+}) => {
+  test.setTimeout(60000);
+  await page.clock.install({ time: new Date('2026-10-06T00:00:00Z') });
+  await page.emulateMedia({ reducedMotion: 'no-preference' });
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await page.getByRole('radio', { name: 'Cash', exact: true }).check();
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await page.clock.pauseAt(await page.evaluate(() => Date.now() + 1000));
+  await page
+    .getByRole('button', { name: 'Invest and see what happens' })
+    .click();
+  await page.getByRole('button', { name: 'Play reveal', exact: true }).click();
+  await page.clock.runFor(2000);
+  await page
+    .getByRole('button', { name: 'Pause animation', exact: true })
+    .click();
+  const points = await page.getByTestId('path-0').getAttribute('points');
+  await page.clock.runFor(10000);
+  await expect(page.getByTestId('path-0')).toHaveAttribute('points', points!);
+  await expect(
+    page.getByRole('heading', { name: 'Animation paused', exact: true }),
+  ).toBeVisible();
+  await page
+    .getByRole('button', { name: 'Resume animation', exact: true })
+    .click();
+  await page.clock.runFor(5000);
+  await expect(
+    page.getByRole('heading', {
+      name: 'Revealing through year 1…',
+      exact: true,
+    }),
+  ).toBeVisible();
+  await page.clock.runFor(1100);
+  await expect(
+    page.getByRole('heading', { name: 'Paused after 1 year', exact: true }),
+  ).toBeVisible();
+});
+
+test('a break preserves the draft and restores the same stage after refresh', async ({
+  page,
+}) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await page
+    .getByRole('button', { name: 'Add $500 to Bonds', exact: true })
+    .click();
+  await page.getByRole('radio', { name: 'Bonds', exact: true }).check();
+  const saved = await history(page);
+  await page.getByRole('button', { name: 'Take a break', exact: true }).click();
+  await expect(
+    page.getByRole('heading', { name: 'Take your time', exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole('button', { name: 'Review decision' }),
+  ).toHaveCount(0);
+  await page.reload();
+  await expect(
+    page.getByRole('button', { name: 'Resume session', exact: true }),
+  ).toBeVisible();
+  await page
+    .getByRole('button', { name: 'Resume session', exact: true })
+    .click();
+  await expect(page.getByLabel('Bonds allocation', { exact: true })).toHaveText(
+    '$500',
+  );
+  await expect(
+    page.getByRole('radio', { name: 'Bonds', exact: true }),
+  ).toBeChecked();
+  expect(await history(page)).toEqual(saved);
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await page
+    .getByRole('button', { name: 'Invest and see what happens' })
+    .click();
+  await page.getByRole('button', { name: 'Take a break', exact: true }).click();
+  await page
+    .getByRole('button', { name: 'Resume session', exact: true })
+    .click();
+  await finishReplay(page);
+  await expect(
+    page.getByRole('region', { name: 'What this path teaches' }),
+  ).toBeVisible();
+  await expect(page.locator('.milestone-comparison article')).toHaveCount(3);
+  await expect(
+    page.getByRole('heading', {
+      name: 'What people were saying then',
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole('heading', { name: 'What we learned later', exact: true }),
+  ).toBeVisible();
+});
+
+test('completed gallery bookmarks and original replay do not change first choices', async ({
+  page,
+}) => {
+  const ids = ['1982-08', '1987-01', '1999-09', '2004-05', '2008-09'];
+  let session = startSession(ids, 'gallery-check', '2026-10-06T00:00:00Z');
+  for (const id of ids) {
+    const scenario = loadScenario({
+      known: JSON.parse(
+        readFileSync(`data/scenarios/${id}/known_at_start.json`, 'utf8'),
+      ),
+      future: JSON.parse(
+        readFileSync(`data/scenarios/${id}/future_outcomes.json`, 'utf8'),
+      ),
+      provenance: JSON.parse(
+        readFileSync(`data/scenarios/${id}/provenance.json`, 'utf8'),
+      ),
+    });
+    session = lockResult(
+      session,
+      createResult(scenario, { cash: 10000 }, 'cash'),
+    );
+    session = advanceSession(session, '2026-10-06T00:10:00Z');
+  }
+  const saved = {
+    version: 1,
+    active: null,
+    pending: null,
+    finished: [session],
+  };
+  await page.goto('/');
+  await page.evaluate(
+    ({ key, saved }) => localStorage.setItem(key, JSON.stringify(saved)),
+    { key, saved },
+  );
+  await page.reload();
+  await page.getByText('Completed scenarios (5)', { exact: true }).click();
+  await expect(page.locator('.history-cards article')).toHaveCount(5);
+  const first = page.locator('.history-cards article').first();
+  await first.getByRole('button', { name: /^Bookmark / }).click();
+  await page.reload();
+  await page.getByText('Completed scenarios (5)', { exact: true }).click();
+  await page.getByLabel('Show bookmarks only').check();
+  await expect(page.locator('.history-cards article')).toHaveCount(1);
+  await page.route('**/*future_outcomes*', (route) => route.abort());
+  await page.getByRole('button', { name: /^Replay original / }).click();
+  await expect(page.getByRole('alert')).toContainText(
+    'saved story could not load',
+  );
+  let navigations = 0;
+  page.on('framenavigated', (frame) => {
+    if (frame === page.mainFrame()) navigations++;
+  });
+  await page.evaluate(
+    (key) =>
+      localStorage.setItem(
+        key,
+        JSON.stringify({
+          version: 1,
+          active: null,
+          pending: null,
+          finished: [],
+        }),
+      ),
+    key,
+  );
+  await page
+    .getByRole('button', { name: 'Retry saved replay', exact: true })
+    .click();
+  await expect(
+    page.getByText('safe reload is unavailable', { exact: false }),
+  ).toBeVisible();
+  expect(navigations).toBe(0);
+  await page.evaluate(
+    ({ key, saved }) => localStorage.setItem(key, JSON.stringify(saved)),
+    { key, saved },
+  );
+  await page.unroute('**/*future_outcomes*');
+  await page
+    .getByRole('button', { name: 'Retry saved replay', exact: true })
+    .click();
+
+  await expect(
+    page.getByRole('heading', { name: 'Ready to play', exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole('heading', { name: 'Invest your $10,000', exact: true }),
+  ).toHaveCount(0);
+  await page.reload();
+  await finishReplay(page);
+  expect(await history(page)).toEqual(saved);
+  await page
+    .getByRole('button', { name: 'Back to history', exact: true })
+    .click();
+  await expect(
+    page.getByRole('heading', {
+      name: 'Try a long-term investing decision',
+      exact: true,
+    }),
+  ).toBeVisible();
+  expect(await history(page)).toEqual(saved);
+  // Another tab can finish a session whose older break marker remains.
+  await page.evaluate(
+    ({ key, saved, session }) => {
+      localStorage.setItem(key, JSON.stringify({ ...saved, active: session }));
+      localStorage.setItem('investing-game:break:v1', session.session_id);
+    },
+    { key, saved, session },
+  );
+  await page.reload();
+  await expect(
+    page.getByRole('heading', { name: 'How you did', exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole('button', { name: 'Resume session', exact: true }),
+  ).toHaveCount(0);
+});
+
+test('taking a break pauses a running reveal without losing its place', async ({
+  page,
+}) => {
+  test.setTimeout(60000);
+  await page.clock.install({ time: new Date('2026-10-06T00:00:00Z') });
+  await page.emulateMedia({ reducedMotion: 'no-preference' });
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await page.getByRole('radio', { name: 'Cash', exact: true }).check();
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await page.clock.pauseAt(await page.evaluate(() => Date.now() + 1000));
+  await page
+    .getByRole('button', { name: 'Invest and see what happens' })
+    .click();
+  await page.getByRole('button', { name: 'Play reveal', exact: true }).click();
+  await page.clock.runFor(2000);
+  await page.getByRole('button', { name: 'Take a break', exact: true }).click();
+  const before = await page.getByTestId('path-0').getAttribute('points');
+  await page.clock.runFor(15000);
+  await expect(page.getByTestId('path-0')).toHaveAttribute('points', before!);
+  await page
+    .getByRole('button', { name: 'Resume session', exact: true })
+    .click();
+  await page.clock.runFor(6100);
+  await expect(
+    page.getByRole('heading', { name: 'Paused after 1 year', exact: true }),
+  ).toBeVisible();
+  expect((await history(page)).active.completed).toHaveLength(1);
+});
+
+test('a storage failure cannot erase an in-tab draft when taking a break', async ({
+  page,
+}) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await page.evaluate(() => {
+    const original = Storage.prototype.setItem;
+    Storage.prototype.setItem = function (key, value) {
+      if (key.startsWith('investing-game:draft:'))
+        throw new DOMException('Quota full', 'QuotaExceededError');
+      original.call(this, key, value);
+    };
+  });
+  await page
+    .getByRole('button', { name: 'Add $500 to Bonds', exact: true })
+    .click();
+  await page.getByRole('radio', { name: 'Bonds', exact: true }).check();
+  await expect(
+    page.getByText('Your edits could not be saved.', { exact: false }),
+  ).toBeVisible();
+  await page.getByRole('button', { name: 'Take a break', exact: true }).click();
+  await page
+    .getByRole('button', { name: 'Resume session', exact: true })
+    .click();
+  await expect(page.getByLabel('Bonds allocation', { exact: true })).toHaveText(
+    '$500',
+  );
+  await expect(
+    page.getByRole('radio', { name: 'Bonds', exact: true }),
+  ).toBeChecked();
+  await expect(
+    page.getByText('Your edits could not be saved.', { exact: false }),
+  ).toBeVisible();
 });
 
 test('a long suspended frame gap cannot consume a reveal stage', async ({

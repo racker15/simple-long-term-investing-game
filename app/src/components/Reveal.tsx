@@ -1,3 +1,6 @@
+import { AllocationBar, StageStrip, InvestmentMark } from './InvestmentVisual';
+import { decisionContext } from '../lib/validation';
+import { ReflectionSummary, BenchmarkBasket } from './ReflectionSummary';
 import { ResultHelp } from './ResultHelp';
 import { useCallback, useMemo, useState } from 'react';
 import type { Scenario, ScenarioResult } from '../lib/contracts';
@@ -12,12 +15,14 @@ export function Reveal({
   onNext,
   isLast,
   continueLabel,
+  suspended = false,
 }: {
   scenario: Scenario;
   result: ScenarioResult;
   onNext: () => void;
   isLast: boolean;
   continueLabel?: string;
+  suspended?: boolean;
 }) {
   const [finished, setFinished] = useState(false);
   const [replay, setReplay] = useState(0);
@@ -48,13 +53,28 @@ export function Reveal({
     id;
   return (
     <section>
+      <StageStrip stage={finished ? 'reflect' : 'watch'} />
       <h1>See what happened</h1>
       <p>
         {scenario.known.metadata.display_date} →{' '}
         {portfolio.points.at(-1)!.month}
       </p>
+      <details className="locked-choice panel">
+        <summary>
+          Your locked choice · {name(result.expected_winner)} was your
+          prediction
+        </summary>
+        <AllocationBar
+          context={decisionContext(scenario.known)}
+          allocations={result.allocations}
+        />
+        <p className="small">
+          This is the same choice throughout the reveal and replay.
+        </p>
+      </details>
       <PathChart
         key={replay}
+        suspended={suspended}
         focusPlay={replay > 0}
         player={portfolio}
         diversified={comparisons.diversified}
@@ -75,6 +95,7 @@ export function Reveal({
           >
             Replay reveal
           </button>
+          <ReflectionSummary scenario={scenario} result={result} />
           <section className="panel">
             <h2>Five years later</h2>
             <p className="ending">
@@ -109,6 +130,7 @@ export function Reveal({
                 <dd>{money(comparisons.diversified.ending_value)}</dd>
               </div>
             </dl>
+            <BenchmarkBasket />
             <ResultHelp />
           </section>
           <section className="panel" aria-labelledby="hot-stock-outcomes-title">
@@ -139,8 +161,17 @@ export function Reveal({
           <section className="panel">
             <h2>Expectation vs. reality</h2>
             <p>
-              You expected <strong>{name(result.expected_winner)}</strong> to do
-              best. It finished{' '}
+              You expected{' '}
+              <strong className="prediction-selected">
+                <InvestmentMark
+                  id={result.expected_winner}
+                  ids={scenario.known.asset_definitions.map(
+                    (asset) => asset.id,
+                  )}
+                />
+                {name(result.expected_winner)}
+              </strong>{' '}
+              to do best. It finished{' '}
               <strong>{expectations.expected_winner_rank} of 7</strong>.
             </p>
             <p>

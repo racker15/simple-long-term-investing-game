@@ -11,9 +11,8 @@ import type {
   ScenarioResult,
 } from '../lib/contracts';
 import { createResult } from '../lib/results';
-import { Allocation } from './Allocation';
+import { DecisionView } from './DecisionView';
 import { Reveal } from './Reveal';
-import { ScenarioView } from './ScenarioView';
 
 export default function HistoricalPreview() {
   const requested =
@@ -91,8 +90,7 @@ export default function HistoricalPreview() {
           />
         ) : (
           <>
-            <ScenarioView context={context} />
-            <Allocation context={context} onCommit={commit} />
+            <DecisionView context={context} onCommit={commit} />
           </>
         )}
       </main>

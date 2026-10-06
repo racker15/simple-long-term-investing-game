@@ -14,8 +14,8 @@ import {
 } from './lib/session';
 import { createResult } from './lib/results';
 import { sessionScorecard } from './lib/scorecards';
-import { ScenarioView } from './components/ScenarioView';
-import { Allocation } from './components/Allocation';
+
+import { DecisionView } from './components/DecisionView';
 import { Reveal } from './components/Reveal';
 import { Checkpoint, FinalScorecard } from './components/Scorecard';
 const ACTIVE_KEY = 'investing-game:development-active:v1';
@@ -160,8 +160,7 @@ export default function App() {
             </p>
             {session.phase === 'decision' && (
               <>
-                <ScenarioView context={context} />
-                <Allocation
+                <DecisionView
                   key={session.current_index}
                   context={context}
                   onCommit={(allocation, expected) =>

@@ -11,9 +11,9 @@ import type {
 } from '../lib/contracts';
 import { normalizeAllocations } from '../lib/portfolio';
 import { createResult } from '../lib/results';
-import { Allocation } from './Allocation';
+import { DecisionView } from './DecisionView';
 import { Reveal } from './Reveal';
-import { ScenarioView } from './ScenarioView';
+
 type Choice = { allocations: Allocations; expected: AssetId };
 export function PracticeReplay({
   id,
@@ -140,8 +140,7 @@ export function PracticeReplay({
           <p role="status">Loading the practice reveal…</p>
         ) : (
           <>
-            <ScenarioView context={context} />
-            <Allocation
+            <DecisionView
               key={id + String(choice === null)}
               context={context}
               storageKey={`${key}:draft`}
