@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "scenario_id": "2005-09",
+    "date": "2005-09-30",
+    "display_date": "September 30, 2005",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "random",
+      "draw_universe": "calendar-month-ends-1980-2020-expansion-50-v1",
+      "random_seed": "simple-long-term-investing-game/50-scenarios/2026-10-06",
+      "draw_index": 6,
+      "method": "Preregistered FNV-1a/Mulberry32 unbiased draws without replacement from eligible month ends. Preserves six pilots; no outcome screening.",
+      "exclusions": [
+        "Exact duplicates of reserved important dates and retained random pilot dates",
+        "Genuine source or return-history unavailability only"
+      ],
+      "replacement_for": null
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Schools welcome children displaced by Katrina",
+      "category": "Education",
+      "summary": "Districts outside the hurricane zone take in evacuated students. They face questions about funding and support.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2005-09-5"]
+    },
+    {
+      "headline": "Relief organizations coordinate a huge response",
+      "category": "Community",
+      "summary": "The Red Cross and other groups collect donations and help hurricane survivors. Watchdogs examine how aid reaches people.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2005-09-6"]
+    },
+    {
+      "headline": "Oil-supply forecasts draw debate",
+      "category": "Economy",
+      "summary": "Analysts disagree about how much future demand producers can meet. Energy planning depends on uncertain estimates.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2005-09-29"]
+    },
+    {
+      "headline": "Toyota’s new president focuses on improvement",
+      "category": "Business",
+      "summary": "Katsuaki Watanabe wants the growing automaker to keep reducing waste and improving quality.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2005-09-30"]
+    },
+    {
+      "headline": "Disney rethinks its animation business",
+      "category": "Culture",
+      "summary": "Computer-generated films challenge traditional animation. New leaders hope upcoming projects can regain momentum.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2005-09-35"]
+    },
+    {
+      "headline": "New tools help readers find blogs",
+      "category": "Technology",
+      "summary": "Google launches a blog search service. Other tools help writers publish and readers navigate a crowded web.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2005-09-44"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (2005-08; approximate)",
+      "value": 3.6,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (2005-08; approximate)",
+      "value": 4.9,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (2005-08; approximate)",
+      "value": 3.5,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (2005-08; approximate)",
+      "value": 4.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (2005-08; approximate)",
+      "value": 89.1,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (2005-08; approximate)",
+      "value": 3.8,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 3.6% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:2005-09:toyota",
+      "company_name": "Toyota Motor",
+      "ticker": "TM",
+      "description": "Its new president emphasizes cost control and avoiding complacency as the automaker grows. This is its US-traded share.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-2005-09-30", "asof-stock-prices"],
+      "three_month": 0.3026286877951203,
+      "one_year": 0.22710549171026995
+    },
+    {
+      "id": "hot:2005-09:disney",
+      "company_name": "Walt Disney",
+      "ticker": "DIS",
+      "description": "New leadership is trying to rebuild its animation business amid computer-animation competition.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-2005-09-35", "asof-stock-prices"],
+      "three_month": -0.04169961936684419,
+      "one_year": 0.07962801356817106
+    },
+    {
+      "id": "hot:2005-09:exxonmobil",
+      "company_name": "ExxonMobil",
+      "ticker": "XOM",
+      "description": "The oil producer has reported record quarterly results amid strong energy prices.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["exxon-results", "asof-stock-prices"],
+      "three_month": 0.11103876658148892,
+      "one_year": 0.3416065883733632
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:2005-09:toyota",
+      "name": "Toyota Motor",
+      "description": "Its new president emphasizes cost control and avoiding complacency as the automaker grows. This is its US-traded share.",
+      "source_ids": ["news-2005-09-30", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2005-09:disney",
+      "name": "Walt Disney",
+      "description": "New leadership is trying to rebuild its animation business amid computer-animation competition.",
+      "source_ids": ["news-2005-09-35", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2005-09:exxonmobil",
+      "name": "ExxonMobil",
+      "description": "The oil producer has reported record quarterly results amid strong energy prices.",
+      "source_ids": ["exxon-results", "asof-stock-prices"]
+    }
+  ],
+  "recent_returns": [
+    {
+      "asset_id": "cash",
+      "three_month": 0.008322880879999772,
+      "one_year": 0.02487735539929803,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "bonds",
+      "three_month": -0.0008498657881063076,
+      "one_year": 0.008385510286806896,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "us_total",
+      "three_month": 0.040173737120000164,
+      "one_year": 0.1433047797295277,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "international_ex_us",
+      "three_month": 0.1072097372780001,
+      "one_year": 0.2704172315740929,
+      "source_ids": ["asof-broad-proxies"]
+    }
+  ]
+}
