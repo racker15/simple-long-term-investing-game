@@ -76,7 +76,7 @@ describe('preregistered expansion to fifty historical scenarios', () => {
     }
   });
 
-  it.each([5, 10, 15, 20])(
+  it.each([5, 10, 15, 20, 25, 30, 35, 40, 45, 50])(
     'supplies a balanced, unique %i-round queue from the real fifty-date library',
     (length) => {
       const queue = buildSessionQueue(
@@ -113,7 +113,9 @@ describe('preregistered expansion to fifty historical scenarios', () => {
         queue,
         'fifty-dates-next',
       );
-      expect(next.every((id) => !queue.includes(id))).toBe(true);
+      expect(next.filter((id) => !queue.includes(id))).toHaveLength(
+        Math.min(length, 50 - length),
+      );
     },
   );
 

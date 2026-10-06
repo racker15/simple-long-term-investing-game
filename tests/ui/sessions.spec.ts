@@ -63,6 +63,9 @@ test('real historical session completes, restores, archives once and chooses uns
     page.getByRole('heading', { name: 'How you did', exact: true }),
   ).toBeVisible();
   expect((await history(page)).finished).toHaveLength(1);
+  await expect(
+    page.getByText('Development scorecard', { exact: false }),
+  ).toHaveCount(0);
   expect(
     await page.evaluate(
       () => document.documentElement.scrollWidth <= innerWidth,
@@ -109,7 +112,7 @@ test('checkpoint can end a historical session after five rounds and reopen its s
 test('failed outcome fetch retains committed choice through refresh and retry', async ({
   page,
 }) => {
-  await page.route('**/*future_outcomes.json*', (route) => route.abort());
+  await page.route('**/*future_outcomes*', (route) => route.abort());
   await page.goto('/');
   await page.getByRole('button', { name: 'Begin session' }).click();
   await page.getByRole('radio', { name: 'Cash', exact: true }).check();
@@ -128,7 +131,7 @@ test('failed outcome fetch retains committed choice through refresh and retry', 
   await expect(
     page.getByRole('button', { name: 'Review decision' }),
   ).toHaveCount(0);
-  await page.unroute('**/*future_outcomes.json*');
+  await page.unroute('**/*future_outcomes*');
   // Retry reloads the document while retaining the committed decision.
   await page.getByRole('button', { name: 'Retry loading' }).click();
   await expect(
@@ -149,5 +152,22 @@ test('invalid saved historical progress shows a recoverable warning', async ({
   await page.getByRole('button', { name: 'Begin session' }).click();
   await expect(
     page.getByText('Scenario 1 of 10', { exact: true }),
+  ).toBeVisible();
+});
+
+test('long sessions expose all available multiples of five without leaking outcomes', async ({
+  page,
+}) => {
+  await page.goto('/');
+  await expect(page.locator('#session-length option')).toHaveCount(10);
+  await page.getByLabel('How many scenarios?').selectOption('50');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await expect(
+    page.getByText('Scenario 1 of 50', { exact: true }),
+  ).toBeVisible();
+  expect(new Set((await history(page)).active.scenario_ids).size).toBe(50);
+  await page.reload();
+  await expect(
+    page.getByText('Scenario 1 of 50', { exact: true }),
   ).toBeVisible();
 });

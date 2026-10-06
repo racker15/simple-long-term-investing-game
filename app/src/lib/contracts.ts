@@ -12,7 +12,7 @@ export type AssetId = BroadAssetId | HotStockId;
 export const INITIAL_CAPITAL = 10_000;
 export const ALLOCATION_STEP = 500;
 export const HOLDING_MONTHS = 60;
-export const SESSION_LENGTHS = [5, 10, 15, 20] as const;
+export const SESSION_LENGTHS = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50] as const;
 export const DEFAULT_SESSION_LENGTH = 10;
 const object = <T extends Record<string, TSchema>>(fields: T) =>
   Type.Object(fields, { additionalProperties: false });
@@ -196,9 +196,9 @@ export const sessionSchema = object({
   schema_version: Type.Literal(1),
   session_id: text(),
   target_count: Type.Union(SESSION_LENGTHS.map((n) => Type.Literal(n))),
-  scenario_ids: Type.Array(text(), { minItems: 5, maxItems: 20 }),
-  current_index: Type.Integer({ minimum: 0, maximum: 20 }),
-  completed: Type.Array(scenarioResultSchema, { maxItems: 20 }),
+  scenario_ids: Type.Array(text(), { minItems: 5, maxItems: 50 }),
+  current_index: Type.Integer({ minimum: 0, maximum: 50 }),
+  completed: Type.Array(scenarioResultSchema, { maxItems: 50 }),
   started_at: timestamp(),
   ended_at: Type.Optional(timestamp()),
   development_mode: Type.Boolean(),

@@ -22,7 +22,8 @@
     "check": "npm run format:check && npm run schemas:check && npm run data:check && npm run validate && npm run test && npm run build",
     "dates:select": "node --import tsx scripts/select/dates.ts",
     "dates:check": "node --import tsx scripts/select/dates.ts --check",
-    "dates:production": "node --import tsx scripts/select/production.ts"
+    "dates:production": "node --import tsx scripts/select/production.ts",
+    "test:browser:production": "playwright test --config playwright.production.config.ts"
   },
   "dependencies": {
     "@sinclair/typebox": "^0.34.41",

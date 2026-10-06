@@ -127,8 +127,8 @@ export function FinalScorecard({
     <section>
       <h1>How you did</h1>
       <p>
-        Development scorecard · repeated fictional fixture. These examples do
-        not represent independent historical evidence.
+        Each round began with $10,000. These results describe your choices in
+        these scenarios; they do not predict how you would do in the future.
       </p>
       <section className="panel">
         <h2>Overall session — {results.length} scenarios</h2>
