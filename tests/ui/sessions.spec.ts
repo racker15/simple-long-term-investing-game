@@ -167,6 +167,7 @@ test('real historical session completes, restores, archives once and chooses uns
     page.getByRole('button', { name: 'Review decision' }),
   ).toBeVisible();
   await page.getByRole('button', { name: 'Back to sessions' }).click();
+  await expect(page.locator('main')).toBeFocused();
   expect(await history(page)).toEqual(beforePractice);
 
   await page.getByRole('button', { name: 'Begin session' }).click();
@@ -436,4 +437,32 @@ test('quota failure during commitment preserves the durable unfinished choice', 
     await page.evaluate((k) => localStorage.getItem(k), draftKey),
   ).toBeNull();
   expect((await history(page)).active.completed).toHaveLength(1);
+});
+
+test('keyboard focus follows new screens without interrupting allocation edits', async ({
+  page,
+}) => {
+  await page.goto('/');
+  const main = page.locator('main');
+  await expect(main).toBeFocused();
+  await page.getByRole('button', { name: 'Begin session' }).focus();
+  await page.keyboard.press('Enter');
+  await expect(main).toBeFocused();
+  const add = page.getByRole('button', {
+    name: 'Add $500 to US Total Market',
+    exact: true,
+  });
+  await add.focus();
+  await page.keyboard.press('Enter');
+  await expect(add).toBeFocused();
+  await invest(page);
+  await expect(main).toBeFocused();
+  await page
+    .getByRole('button', { name: 'Next scenario', exact: true })
+    .focus();
+  await page.keyboard.press('Enter');
+  await expect(main).toBeFocused();
+  await expect(
+    page.getByText('Scenario 2 of 10', { exact: true }),
+  ).toBeVisible();
 });

@@ -79,6 +79,7 @@ export function PracticeReplay({
     };
   }, [id, choice, retry]);
   useEffect(() => {
+    document.getElementById('main')?.focus({ preventScroll: true });
     window.scrollTo({ top: 0, behavior: 'instant' });
   }, [reveal]);
   function restart() {
@@ -98,7 +99,7 @@ export function PracticeReplay({
         <a href="#main">Long-term investing</a>
         <span>Practice replay</span>
       </header>
-      <main id="main">
+      <main id="main" tabIndex={-1}>
         <aside className="development-notice">
           <strong>Practice replay.</strong> You have already explored this date.
           Trying another choice will not change your first-time history or

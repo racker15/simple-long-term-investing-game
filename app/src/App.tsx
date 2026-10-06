@@ -130,8 +130,9 @@ export default function App() {
     };
   }, [id, pending, session?.phase, retry]);
   useEffect(() => {
+    document.getElementById('main')?.focus({ preventScroll: true });
     window.scrollTo({ top: 0, behavior: 'instant' });
-  }, [session?.phase, session?.current_index]);
+  }, [session?.phase, session?.current_index, practiceId]);
   const played = playedIds(history);
   const unseen = productionLibrary.filter(
     (entry) => !played.includes(entry.scenario_id),
@@ -176,7 +177,7 @@ export default function App() {
         <a href="#main">Long-term investing</a>
         <span>50 historical scenarios</span>
       </header>
-      <main id="main">
+      <main id="main" tabIndex={-1}>
         {warning && (
           <p role="status" className="storage-warning">
             {warning}

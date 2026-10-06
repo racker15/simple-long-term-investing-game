@@ -20,7 +20,10 @@ export function Reveal({
   continueLabel?: string;
 }) {
   const [finished, setFinished] = useState(false);
-  const finish = useCallback(() => setFinished(true), []);
+  const finish = useCallback(() => {
+    setFinished(true);
+    document.getElementById('main')?.focus({ preventScroll: true });
+  }, []);
   const monthlyReturns = scenario.future.monthly_returns;
   const portfolio = useMemo(
     () => calculatePortfolio(monthlyReturns, result.allocations),

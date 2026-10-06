@@ -29,6 +29,7 @@ export default function HistoricalPreview() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   useEffect(() => {
+    document.getElementById('main')?.focus({ preventScroll: true });
     window.scrollTo({ top: 0, behavior: 'instant' });
   }, [reveal]);
   async function commit(allocations: Allocations, expected: AssetId) {
@@ -52,7 +53,7 @@ export default function HistoricalPreview() {
         <a href="#main">Long-term investing</a>
         <span>Historical preview</span>
       </header>
-      <main id="main">
+      <main id="main" tabIndex={-1}>
         <aside className="development-notice">
           <strong>Single-scenario development preview.</strong> Historical
           public data uses documented proxies. This preview is separate from

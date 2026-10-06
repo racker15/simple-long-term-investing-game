@@ -86,6 +86,7 @@ export default function App() {
     }
   }, [session]);
   useEffect(() => {
+    document.getElementById('main')?.focus({ preventScroll: true });
     window.scrollTo({ top: 0, behavior: 'instant' });
   }, [session?.phase, session?.current_index]);
   const context = decisionContext(fixture.known);
@@ -97,7 +98,7 @@ export default function App() {
         <a href="#main">Long-term investing</a>
         <span>Development fixture</span>
       </header>
-      <main id="main">
+      <main id="main" tabIndex={-1}>
         <aside className="development-notice">
           <strong>Development mode — all content is fictional.</strong> This
           demo repeats one test scenario to exercise checkpoints. It contains no
