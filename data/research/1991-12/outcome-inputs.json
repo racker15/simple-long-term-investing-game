@@ -1,0 +1,54 @@
+{
+  "scenario_id": "1991-12",
+  "events": [
+    {
+      "month": "1993-12",
+      "title": "Hubble gets corrective optics",
+      "description": "Astronauts service the space telescope to improve its images.",
+      "source_ids": ["hubble-repair"]
+    },
+    {
+      "month": "1994-04",
+      "title": "South Africa holds a democratic election",
+      "description": "The country holds its first national democratic election open to all races.",
+      "source_ids": ["south-africa-vote"]
+    },
+    {
+      "month": "1995-08",
+      "title": "Windows 95 reaches stores",
+      "description": "Microsoft launches a new operating system with a Start menu and taskbar.",
+      "source_ids": ["windows95"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Disney more than doubled, leading this set. The US share basket roughly doubled, and IBM nearly did. Wal-Mart lost about one-fifth of its value. The world’s political map changed, yet companies still followed different paths. Even a successful retailer could disappoint someone buying its stock at this starting date.\n\nDuring the period, astronauts fitted corrective equipment to Hubble in 1993. South Africa held its first national democratic election open to all races in 1994. Windows 95 reached shops in 1995, changing the experience of using many home computers.\n\nThese events help put the years in order. They do not prove why a particular stock rose or fell. A new product, an election and a scientific success can matter greatly without giving you a simple investing instruction.\n\nThe starting headlines included job cuts and hopes for recovery. An investor had to decide with that mixed picture. The completed chart supplies information that was missing then: the timing, size and order of the gains and losses.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-dis",
+      "yahoo-ibm",
+      "yahoo-wmt",
+      "hubble-repair",
+      "south-africa-vote",
+      "windows95"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "The Soviet Union had ended, South Africa was negotiating change, and the US economy needed support. Job cuts and holiday products appeared side by side.",
+    "what_actually_mattered": "Company share prices did not all follow the broad market. Owning many businesses reduced reliance on the fortunes of one retailer or entertainment company.",
+    "what_faded_away": "The popularity of a particular holiday product did not predict an entire company’s five-year return. A rate cut was also only one part of the picture.",
+    "what_nobody_knew": "No one could know the exact investment ranking. New political institutions and new products would take years to develop.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-dis",
+      "yahoo-ibm",
+      "yahoo-wmt",
+      "hubble-repair",
+      "south-africa-vote",
+      "windows95"
+    ]
+  }
+}

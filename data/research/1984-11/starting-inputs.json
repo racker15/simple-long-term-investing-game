@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "scenario_id": "1984-11",
+    "date": "1984-11-30",
+    "display_date": "November 30, 1984",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "important",
+      "selection_reason": "A presidential election during a strong US economic expansion."
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Reagan prepares for a second term",
+      "category": "US news",
+      "summary": "After a sweeping election victory, the president sets out plans on spending, diplomacy and the size of government.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1984-11-0"]
+    },
+    {
+      "headline": "Tax reform promises a lively debate",
+      "category": "Economy",
+      "summary": "Lawmakers propose simpler rates and fewer loopholes. Different families and businesses could face different bills.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1984-11-1"]
+    },
+    {
+      "headline": "Rajiv Gandhi calls an election in India",
+      "category": "World",
+      "summary": "The new prime minister seeks a public vote while facing unrest after his mother’s assassination.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1984-11-17"]
+    },
+    {
+      "headline": "Astronauts retrieve two stranded satellites",
+      "category": "Science",
+      "summary": "A shuttle crew captures satellites left in the wrong orbits and brings them back to Earth.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1984-11-20"]
+    },
+    {
+      "headline": "Toothpaste makers try a new kind of package",
+      "category": "Business",
+      "summary": "Pump containers join familiar tubes. Companies hope easier dispensing will persuade shoppers to pay more.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1984-11-41"]
+    },
+    {
+      "headline": "Supergirl arrives on movie screens",
+      "category": "Culture",
+      "summary": "The new film brings Superman’s cousin into her own adventure. Reviewers compare different versions of movie heroes.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1984-11-50"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (1984-10; approximate)",
+      "value": 4.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (1984-10; approximate)",
+      "value": 7.4,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (1984-10; approximate)",
+      "value": 10.0,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (1984-10; approximate)",
+      "value": 12.2,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (1984-10; approximate)",
+      "value": 96.3,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (1984-10; approximate)",
+      "value": 5.6,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 3.4% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:1984-11:procter-gamble",
+      "company_name": "Procter & Gamble",
+      "ticker": "PG",
+      "description": "Its Crest brand is trying pump packaging in the toothpaste contest.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-1984-11-41", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1984-11:colgate-palmolive",
+      "company_name": "Colgate-Palmolive",
+      "ticker": "CL",
+      "description": "A new toothpaste pump is one way it competes for everyday customers.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-1984-11-41", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1984-11:general-electric",
+      "company_name": "General Electric",
+      "ticker": "GE",
+      "description": "This large industrial company is named in the debate over corporate taxes.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-1984-11-1", "asof-stock-prices"]
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:1984-11:procter-gamble",
+      "name": "Procter & Gamble",
+      "description": "Its Crest brand is trying pump packaging in the toothpaste contest.",
+      "source_ids": ["news-1984-11-41", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1984-11:colgate-palmolive",
+      "name": "Colgate-Palmolive",
+      "description": "A new toothpaste pump is one way it competes for everyday customers.",
+      "source_ids": ["news-1984-11-41", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1984-11:general-electric",
+      "name": "General Electric",
+      "description": "This large industrial company is named in the debate over corporate taxes.",
+      "source_ids": ["news-1984-11-1", "asof-stock-prices"]
+    }
+  ]
+}

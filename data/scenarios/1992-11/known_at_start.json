@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "scenario_id": "1992-11",
+    "date": "1992-11-30",
+    "display_date": "November 30, 1992",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "random",
+      "draw_universe": "calendar-month-ends-1980-2020-expansion-50-v1",
+      "random_seed": "simple-long-term-investing-game/50-scenarios/2026-10-06",
+      "draw_index": 12,
+      "method": "Preregistered FNV-1a/Mulberry32 unbiased draws without replacement from eligible month ends. Preserves six pilots; no outcome screening.",
+      "exclusions": [
+        "Exact duplicates of reserved important dates and retained random pilot dates",
+        "Genuine source or return-history unavailability only"
+      ],
+      "replacement_for": null
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Vietnam opens wartime records to US visitors",
+      "category": "World",
+      "summary": "Officials share documents with a Senate delegation investigating missing Americans. The talks could help improve relations.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1992-11-18"]
+    },
+    {
+      "headline": "Scientists explore clues deep inside caves",
+      "category": "Science",
+      "summary": "Researchers study rock formations and water to learn about past climates and the surrounding environment.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1992-11-27"]
+    },
+    {
+      "headline": "A trial tests cleaner ways to clean clothes",
+      "category": "Environment",
+      "summary": "The EPA and industry groups test soaps, steam and pressing as alternatives to a widely used dry-cleaning solvent.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1992-11-28"]
+    },
+    {
+      "headline": "Clinton prepares to become president",
+      "category": "US news",
+      "summary": "The president-elect visits Washington and plans his administration. His promises still need to become policies.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1992-11-40"]
+    },
+    {
+      "headline": "General Motors faces more difficulties",
+      "category": "Business",
+      "summary": "Weak sales and financial pressures complicate the carmaker’s recovery plans. Ford and Chrysler report stronger sales.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1992-11-44"]
+    },
+    {
+      "headline": "Home Alone returns with a New York adventure",
+      "category": "Culture",
+      "summary": "The sequel brings back Kevin with a new setting and familiar comic problems. Reviewers compare it with the original hit.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1992-11-51"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (1992-10; approximate)",
+      "value": 3.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (1992-10; approximate)",
+      "value": 7.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (1992-10; approximate)",
+      "value": 3.1,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (1992-10; approximate)",
+      "value": 6.6,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (1992-10; approximate)",
+      "value": 73.3,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (1992-10; approximate)",
+      "value": 2.9,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 2.4% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:1992-11:ford",
+      "company_name": "Ford",
+      "ticker": "F",
+      "description": "Its car sales are rising while rival General Motors struggles.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-1992-11-44", "asof-stock-prices"],
+      "three_month": 0.041151937453142384,
+      "one_year": 0.8232747096038784
+    },
+    {
+      "id": "hot:1992-11:disney",
+      "company_name": "Walt Disney",
+      "ticker": "DIS",
+      "description": "Successful films and theme parks have helped profits recover.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["disney-earnings", "asof-stock-prices"],
+      "three_month": 0.2246520606411091,
+      "one_year": 0.6202379416608503
+    },
+    {
+      "id": "hot:1992-11:ibm",
+      "company_name": "IBM",
+      "ticker": "IBM",
+      "description": "The computer giant has joined development partnerships, including one with Apple.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["computer-alliance", "asof-stock-prices"],
+      "three_month": -0.19790114919279522,
+      "one_year": -0.21843504004291403
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:1992-11:ford",
+      "name": "Ford",
+      "description": "Its car sales are rising while rival General Motors struggles.",
+      "source_ids": ["news-1992-11-44", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1992-11:disney",
+      "name": "Walt Disney",
+      "description": "Successful films and theme parks have helped profits recover.",
+      "source_ids": ["disney-earnings", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1992-11:ibm",
+      "name": "IBM",
+      "description": "The computer giant has joined development partnerships, including one with Apple.",
+      "source_ids": ["computer-alliance", "asof-stock-prices"]
+    }
+  ],
+  "recent_returns": [
+    {
+      "asset_id": "cash",
+      "three_month": 0.007217263754000003,
+      "one_year": 0.036082107946042274,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "bonds",
+      "three_month": -0.0050083231926710825,
+      "one_year": 0.0899164570746025,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "us_total",
+      "three_month": 0.07206907062500001,
+      "one_year": 0.199365247468706,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "international_ex_us",
+      "three_month": -0.06728435860000015,
+      "one_year": -0.08963324382269822,
+      "source_ids": ["asof-broad-proxies"]
+    }
+  ]
+}

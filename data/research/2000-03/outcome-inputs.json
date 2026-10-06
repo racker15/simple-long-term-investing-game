@@ -1,0 +1,61 @@
+{
+  "scenario_id": "2000-03",
+  "events": [
+    {
+      "month": "2001-09",
+      "title": "The September 11 attacks",
+      "description": "Terrorist attacks kill thousands of people in the United States. Communities mourn and help those affected.",
+      "source_ids": ["september-attacks"]
+    },
+    {
+      "month": "2001-11",
+      "title": "Microsoft and the US government propose a settlement",
+      "description": "The agreement would restrict some business practices. Court review and other legal steps remain.",
+      "source_ids": ["microsoft-settlement"]
+    },
+    {
+      "month": "2002-01",
+      "title": "Euro cash enters everyday use",
+      "description": "Twelve countries introduce euro notes and coins.",
+      "source_ids": ["euro-cash"]
+    },
+    {
+      "month": "2003-02",
+      "title": "Columbia is lost",
+      "description": "The space shuttle breaks apart during its return to Earth, killing its seven crew members.",
+      "source_ids": ["columbia"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Bonds led the seven choices. All three company shares lost heavily: Cisco lost more than three-quarters, while Microsoft and Amazon lost about half. The US basket also fell, but much less than those individual stocks. A useful technology and a promising business could still be disappointing investments at the price paid.\n\nIn November 2001, Microsoft and the US government proposed a settlement of their competition case. The legal story had moved forward, though review was still required.\n\nThe period included the September 11 attacks, the arrival of euro notes and coins, and the loss of the Columbia shuttle. These events belong to the history of the five years. They do not by themselves explain the exact return of a software company, retailer or equipment maker.\n\nThe company losses show why the price at the start matters. A business can sell something people need and still give shareholders a poor return. Paying for great expectations leaves room for disappointment. A broad US basket lost value too, but it spread the risk across many companies instead of concentrating it in these three. That reduced the loss here without preventing it altogether.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-csco",
+      "yahoo-msft",
+      "yahoo-amzn",
+      "september-attacks",
+      "euro-cash",
+      "columbia",
+      "microsoft-settlement"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "Investors saw online books, internet broadcasting and networking equipment as signs of a changing economy. Taiwan’s election and scientific discoveries competed for attention.",
+    "what_actually_mattered": "The price paid and the full five-year path mattered. Spreading money across many companies reduced dependence on these three badly hit shares.",
+    "what_faded_away": "The number of people downloading a story did not reveal a software or networking company’s future return. Exciting new habits were not automatic stock-market gains.",
+    "what_nobody_knew": "Nobody knew the size of the losses ahead. The internet’s importance did not make every share price reasonable or every company a winner.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-csco",
+      "yahoo-msft",
+      "yahoo-amzn",
+      "september-attacks",
+      "euro-cash",
+      "columbia"
+    ]
+  }
+}

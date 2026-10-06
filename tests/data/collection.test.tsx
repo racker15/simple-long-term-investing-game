@@ -29,19 +29,20 @@ import {
 
 const ids = ['1982-08', '1987-01', '1999-09', '2004-05', '2008-09', '2016-02'];
 const important = new Set(['1982-08', '1999-09', '2008-09']);
+const pilotLibrary = productionLibrary.filter((entry) =>
+  ids.includes(entry.scenario_id),
+);
 
 describe('locked six-scenario historical collection', () => {
-  it('registers the exact qualified pool and makes reproducible five-distinct-date queues', () => {
-    expect(productionLibrary.map((entry) => entry.scenario_id).sort()).toEqual(
-      ids,
-    );
-    for (const entry of productionLibrary)
+  it('preserves the qualified pilot pool and makes reproducible five-distinct-date queues', () => {
+    expect(pilotLibrary.map((entry) => entry.scenario_id).sort()).toEqual(ids);
+    for (const entry of pilotLibrary)
       expect(entry.selection_mode).toBe(
         important.has(entry.scenario_id) ? 'important' : 'random',
       );
     for (let seed = 0; seed < 20; seed++) {
       const queue = buildSessionQueue(
-        productionLibrary,
+        pilotLibrary,
         5,
         [],
         `collection-${seed}`,
@@ -52,7 +53,7 @@ describe('locked six-scenario historical collection', () => {
       expect([2, 3]).toContain(queue.filter((id) => important.has(id)).length);
       expect(
         buildSessionQueue(
-          [...productionLibrary].reverse(),
+          [...pilotLibrary].reverse(),
           5,
           [],
           `collection-${seed}`,
@@ -61,16 +62,16 @@ describe('locked six-scenario historical collection', () => {
       const unseen = ids[seed % ids.length];
       expect(
         buildSessionQueue(
-          productionLibrary,
+          pilotLibrary,
           5,
           ids.filter((id) => id !== unseen),
           `return-${seed}`,
         ),
       ).toContain(unseen);
     }
-    expect(() =>
-      buildSessionQueue(productionLibrary, 10, [], 'collection'),
-    ).toThrow('Need 10 unique scenarios, have 6');
+    expect(() => buildSessionQueue(pilotLibrary, 10, [], 'collection')).toThrow(
+      'Need 10 unique scenarios, have 6',
+    );
   });
 
   it.each(ids)(
@@ -90,6 +91,11 @@ describe('locked six-scenario historical collection', () => {
       const months = Array.from({ length: 60 }, (_, i) =>
         shiftMonth(id, i + 1),
       );
+      const narrativeWords = scenario.future.what_happened_next.text
+        .trim()
+        .split(/\s+/).length;
+      expect(narrativeWords).toBeGreaterThanOrEqual(150);
+      expect(narrativeWords).toBeLessThanOrEqual(250);
       expect(Object.keys(scenario.future.monthly_returns)).toHaveLength(7);
       for (const rows of Object.values(scenario.future.monthly_returns)) {
         expect(rows.map((row) => row.month)).toEqual(months);

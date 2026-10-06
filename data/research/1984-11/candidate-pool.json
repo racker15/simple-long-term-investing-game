@@ -1,0 +1,288 @@
+{
+  "scenario_id": "1984-11",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926976,00.html",
+      "title": "Set for More of the Same"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926977,00.html",
+      "title": "Drawing the Lines on Tax Reform"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926978,00.html",
+      "title": "The Presidency by Hugh Sidey: Using the Tried and True"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926979,00.html",
+      "title": "Republican Wrangle in the Senate"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926980,00.html",
+      "title": "Warning Signals"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926981,00.html",
+      "title": "Healing Viet Nam's Wounds"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926987,00.html",
+      "title": "Ethiopia: The Land of the Dead"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926988,00.html",
+      "title": "Nicaragua: Broadsides in a War of Nerves"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926989,00.html",
+      "title": "Skirmishes Over a Primer"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926990,00.html",
+      "title": "Chile: State of Siege"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926991,00.html",
+      "title": "The Gulf: Making Up"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926992,00.html",
+      "title": "Britain: Bloody Strike"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926993,00.html",
+      "title": "Soviet Union: Out of Action"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926994,00.html",
+      "title": "Coming Home"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926995,00.html",
+      "title": "The Philippines: Murder in Broad Daylight"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926996,00.html",
+      "title": "Chad: Yes They Are, No They Are Not"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926997,00.html",
+      "title": "Morocco: An Angry King Pulls Out"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926998,00.html",
+      "title": "India: Rajiv Takes Charge"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926999,00.html",
+      "title": "AFGHANISTAN: The Sorrow of Parting"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926971,00.html",
+      "title": "Space,;Over Stories: Roaming the High Frontier"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926972,00.html",
+      "title": "Space: Rounding Up the Runaways"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926973,00.html",
+      "title": "Space: Knocking On Heaven's Gate"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926974,00.html",
+      "title": "Space: Business Heads for Zero Gravity"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926975,00.html",
+      "title": "Space: Competitor in the Cosmos"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927010,00.html",
+      "title": "Medicine: Baby Fae Loses Her Battle"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927011,00.html",
+      "title": "Medicine: Infamy Haunts a Top Award"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927012,00.html",
+      "title": "Press: Battling over a Paragraph"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927013,00.html",
+      "title": "Press: Charging CBS"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927014,00.html",
+      "title": "Religion: Breaking Up the Men's Club"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927015,00.html",
+      "title": "Religion: Tidings"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927016,00.html",
+      "title": "Sport: Planting Gold in the Garden"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926982,00.html",
+      "title": "Diplomacy: Close Call for a Private Jet"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926983,00.html",
+      "title": "Crime: Teen Violence in Detroit"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926984,00.html",
+      "title": "Welfare: Managing the Poor"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926985,00.html",
+      "title": "San Francisco: Death of a Master Chef"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926986,00.html",
+      "title": "Language: Salty Talk for the Navy"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927000,00.html",
+      "title": "Am I My Brother's Keeper?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927001,00.html",
+      "title": "Weakland at the Keyboard"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927002,00.html",
+      "title": "Clipped Wings"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927003,00.html",
+      "title": "Taken to Task"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927004,00.html",
+      "title": "Scandals: Busting a Banker"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927005,00.html",
+      "title": "Packaging: Putting a Squeeze on the Tube"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927006,00.html",
+      "title": "Recalls: Words of Warning About an I.U.D."
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927007,00.html",
+      "title": "Expositions: The New Orleans Fair Hangover"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927008,00.html",
+      "title": "Currencies: Out for ha'penny, out for a pound"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927018,00.html",
+      "title": "Music: Frankie Say We Go Big Bang"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927019,00.html",
+      "title": "Books: In the Land of Far Beyond"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927020,00.html",
+      "title": "Books: In Competence"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927021,00.html",
+      "title": "Books: Notable: Nov. 26, 1984"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927022,00.html",
+      "title": "Books: KATE QUINTON'S DAYS"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927023,00.html",
+      "title": "Cinema: Girl of Steel vs. Man of Iron"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927024,00.html",
+      "title": "Cinema: Commuter Nerds"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927009,00.html",
+      "title": "Milestones: Nov. 26, 1984"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927017,00.html",
+      "title": "People: Nov. 26, 1984"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926970,00.html",
+      "title": "A Letter From The Publisher: Nov. 26, 1984"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926969,00.html",
+      "title": "Letters: Nov. 26, 1984"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,927025,00.html",
+      "title": "Essay: At the Sound of the Beep..."
+    }
+  ],
+  "selected_news": [0, 1, 17, 20, 41, 50],
+  "stock_candidates": [
+    {
+      "ticker": "PG",
+      "selected": true,
+      "rationale": "Its Crest brand is trying pump packaging in the toothpaste contest."
+    },
+    {
+      "ticker": "CL",
+      "selected": true,
+      "rationale": "A new toothpaste pump is one way it competes for everyday customers."
+    },
+    {
+      "ticker": "GE",
+      "selected": true,
+      "rationale": "This large industrial company is named in the debate over corporate taxes."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "DIS",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "MCD",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "SONY",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

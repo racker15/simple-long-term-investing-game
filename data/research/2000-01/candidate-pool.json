@@ -1,0 +1,292 @@
+{
+  "scenario_id": "2000-01",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995945,00.html",
+      "title": "Point, Click, Win!"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995946,00.html",
+      "title": "A Sense Of Where You're Not"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995947,00.html",
+      "title": "Behind The Gore Punch"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995948,00.html",
+      "title": "Their True Primary Colors"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995949,00.html",
+      "title": "Health Care: A Litmus Test"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995950,00.html",
+      "title": "Don't Worry, Be Angry"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995956,00.html",
+      "title": "A Confederacy of Dunces"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995981,00.html",
+      "title": "McCain and His Gaydar"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995999,00.html",
+      "title": "A Crime In The Clan"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995951,00.html",
+      "title": "Kohlgate"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995983,00.html",
+      "title": "Inside The Scandal"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995954,00.html",
+      "title": "Bag Those Beams"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995957,00.html",
+      "title": "That Clicking Sound"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995955,00.html",
+      "title": "A New Air Force in D.C."
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995958,00.html",
+      "title": "DotCom Vs. NotCom"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995974,00.html",
+      "title": "Notebook: Jan. 31, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995975,00.html",
+      "title": "Middle East: Somebody Had to Say It: A Divided Jerusalem"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995976,00.html",
+      "title": "Willie Horton Watch"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995977,00.html",
+      "title": "The Tilted Mr. Ripley"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995978,00.html",
+      "title": "Milestones Jan. 31, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995985,00.html",
+      "title": "Eulogy: HEDY LAMARR"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995986,00.html",
+      "title": "New Alliances"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995987,00.html",
+      "title": "Numbers: Jan. 31, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995988,00.html",
+      "title": "Environment: Drilling for Trouble"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995989,00.html",
+      "title": "Name That Town"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995990,00.html",
+      "title": "Where Are They Now?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995991,00.html",
+      "title": "Wrestling Lit. 101"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995960,00.html",
+      "title": "How Natural Is Rape?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995961,00.html",
+      "title": "A Bed-and-Breakfast That's Tough to Leave"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995973,00.html",
+      "title": "News Quiz Crossword Jan. 31, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995952,00.html",
+      "title": "Critical Condition"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995953,00.html",
+      "title": "Taking CEO Pay To New Heights"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995992,00.html",
+      "title": "The New Philanthropy"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995962,00.html",
+      "title": "Television: Will Women Take A Breath Of Oxygen?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995963,00.html",
+      "title": "Books: Ahead to the Past"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995968,00.html",
+      "title": "Music: Room for Everybody"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995969,00.html",
+      "title": "Cinema: Divine Enlightenment"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995970,00.html",
+      "title": "Cinema: Eye of the Beholder"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995971,00.html",
+      "title": "Theater: Go West, Young Man"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995979,00.html",
+      "title": "Books: Best Buddy"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995993,00.html",
+      "title": "Books: Pilgrim"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995994,00.html",
+      "title": "Dance: Dancing Honeymoon"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995995,00.html",
+      "title": "Culture Shock"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995996,00.html",
+      "title": "Brutally Normal"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995998,00.html",
+      "title": "Television: What Do Wired Women Want?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995964,00.html",
+      "title": "Bad Boys Rule"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995965,00.html",
+      "title": "Retirement Tricks"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995966,00.html",
+      "title": "Aqua: The Movie"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995967,00.html",
+      "title": "Fortified Toddlers"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995980,00.html",
+      "title": "In Brief: Jan. 31, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995982,00.html",
+      "title": "Your Health: Jan. 31, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995984,00.html",
+      "title": "In Brief: Jan. 31, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995997,00.html",
+      "title": "In Brief: Jan. 31, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995942,00.html",
+      "title": "Careers: Catching Their Second Wind"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995943,00.html",
+      "title": "Walking in a Winter Wonderland"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995944,00.html",
+      "title": "Then & Now: Ladies Sing the Blues"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995959,00.html",
+      "title": "People: Jan. 31, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,995972,00.html",
+      "title": "Letters: Jan. 31, 2000"
+    }
+  ],
+  "selected_news": [2, 14, 20, 23, 31, 32],
+  "stock_candidates": [
+    {
+      "ticker": "AAPL",
+      "selected": true,
+      "rationale": "Its board has rewarded Steve Jobs after a business turnaround and renewed interest in its computers."
+    },
+    {
+      "ticker": "OXY",
+      "selected": true,
+      "rationale": "An oil-drilling project in Colombia faces opposition from an Indigenous community."
+    },
+    {
+      "ticker": "AMZN",
+      "selected": true,
+      "rationale": "The online retailer is adding ways for outside sellers to offer goods on its site."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "DIS",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

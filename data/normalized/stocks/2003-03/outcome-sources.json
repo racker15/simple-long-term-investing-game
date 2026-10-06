@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "yahoo-cost",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/COST/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/COST?period1=1014940800&period2=1207008000&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "COST",
+      "raw_path": "data/raw/stocks/2003-03/outcome-COST.json",
+      "sha256": "9e1be16ca09de88eba1fa7b4c5fd4c9c8857407d3b81299ca82d88602b5b29e7",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 679203e5c4daf05266b23528280fbd62860d94d9 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-intc",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/INTC/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?period1=1014940800&period2=1207008000&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "INTC",
+      "raw_path": "data/raw/stocks/2003-03/outcome-INTC.json",
+      "sha256": "9c55d12dbd091d2f452295b11429bcea6c1f37f8b61ad3452e69ce88af4043c1",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 679203e5c4daf05266b23528280fbd62860d94d9 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-mrk",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/MRK/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/MRK?period1=1014940800&period2=1207008000&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "MRK",
+      "raw_path": "data/raw/stocks/2003-03/outcome-MRK.json",
+      "sha256": "494c694ed058a62cdc2cdada948584552a6e2c339a690efe2298c7bcbf1ae9a2",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 679203e5c4daf05266b23528280fbd62860d94d9 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    }
+  ]
+}

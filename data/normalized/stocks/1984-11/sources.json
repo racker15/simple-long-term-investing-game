@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "yahoo-pg",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/PG/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/PG?period1=436492800&period2=470707200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "PG",
+      "raw_path": "data/raw/stocks/1984-11/starting-PG.json",
+      "sha256": "521af26a30cf09c3a3f4d4ff8f7ee2b8594f42cc9d756ea7e8e5cde7f389c41c",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid trading-day adjusted close in each calendar month; adjacent ratio minus one. Includes vendor dividend/split adjustments; do not add dividends again. Retrospective reconstruction, not an original historical database vintage. Normalized endpoints are committed for reproducible offline calculations."
+    },
+    {
+      "id": "yahoo-cl",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/CL/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/CL?period1=436492800&period2=470707200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "CL",
+      "raw_path": "data/raw/stocks/1984-11/starting-CL.json",
+      "sha256": "a6aadc55afa1fcff5f5ddb8094eea59b5609d6e4d0a9b6fa17c7316af7013ee5",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid trading-day adjusted close in each calendar month; adjacent ratio minus one. Includes vendor dividend/split adjustments; do not add dividends again. Retrospective reconstruction, not an original historical database vintage. Normalized endpoints are committed for reproducible offline calculations."
+    },
+    {
+      "id": "yahoo-ge",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/GE/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/GE?period1=436492800&period2=470707200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "GE",
+      "raw_path": "data/raw/stocks/1984-11/starting-GE.json",
+      "sha256": "0f7b8b56fdbdafc0648f76e395f9bfd43f2a0610228adbfc31b34844caed3fa7",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid trading-day adjusted close in each calendar month; adjacent ratio minus one. Includes vendor dividend/split adjustments; do not add dividends again. Retrospective reconstruction, not an original historical database vintage. Normalized endpoints are committed for reproducible offline calculations."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "scenario_id": "2016-01",
+  "sources": [
+    {
+      "id": "spf-outlook",
+      "source_name": "Professional forecaster survey, 2015 Q4",
+      "source_reference": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/data-files/files/median_rgdp_growth.xlsx",
+      "publication_date": "2015-11-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Historical median DRGDP3 forecast (quarter after the survey quarter). Pre-1990 original release timing is uncertain; middle-month end is modeled availability, not an asserted original archive date. Retrospective forecast archive, not actual outcomes.",
+      "observation_date": "2015-11-30"
+    },
+    {
+      "id": "asof-macro-cpiaucsl",
+      "source_name": "Historical CPIAUCSL observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "publication_date": "2016-01-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2015-12-31"
+    },
+    {
+      "id": "asof-macro-unrate",
+      "source_name": "Historical UNRATE observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UNRATE",
+      "publication_date": "2016-01-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2015-12-31"
+    },
+    {
+      "id": "asof-macro-fedfunds",
+      "source_name": "Historical FEDFUNDS observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "publication_date": "2016-01-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2015-12-31"
+    },
+    {
+      "id": "asof-macro-gs10",
+      "source_name": "Historical GS10 observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/GS10",
+      "publication_date": "2016-01-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2015-12-31"
+    },
+    {
+      "id": "asof-macro-umcsent",
+      "source_name": "Historical UMCSENT observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UMCSENT",
+      "publication_date": "2016-01-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2015-12-31"
+    },
+    {
+      "id": "asof-macro-indpro",
+      "source_name": "Historical INDPRO observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/INDPRO",
+      "publication_date": "2016-01-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2015-12-31"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-market observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "publication_date": "2016-01-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying observations, not publication date of modern archives. Transparent Treasury and developed-market proxies; not exact contemporary database vintages.",
+      "observation_date": "2016-01-31"
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/2016-01/starting.json",
+      "publication_date": "2016-01-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying prices. Current retrospective adjusted-close reconstruction; the modern archive publication date is not asserted here.",
+      "observation_date": "2016-01-31"
+    },
+    {
+      "id": "state-union",
+      "source_name": "White House: 2016 State of the Union",
+      "source_reference": "https://obamawhitehouse.archives.gov/sotu",
+      "publication_date": "2016-01-13",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary archive identifies the January 12 address.",
+      "observation_date": "2016-01-12"
+    },
+    {
+      "id": "planet-nine",
+      "source_name": "Caltech: Researchers Find Evidence of a Real Ninth Planet",
+      "source_reference": "https://www.caltech.edu/about/news/caltech-researchers-find-evidence-real-ninth-planet-49523",
+      "publication_date": "2016-01-20",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original research announcement; indirect evidence, not direct observation."
+    },
+    {
+      "id": "kerber-title",
+      "source_name": "ABC News: Australian Open final live report",
+      "source_reference": "https://www.abc.net.au/news/2016-01-30/australian-open-serena-williams-angelique-kerber-as-it-happened/7127256",
+      "publication_date": "2016-01-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary sports report."
+    },
+    {
+      "id": "star-wars-record",
+      "source_name": "Disney: The Force Awakens highest-grossing domestic film",
+      "source_reference": "https://thewaltdisneycompany.com/news/star-wars-the-force-awakens-becomes-highest-grossing-domestic-film-of-all-time/",
+      "publication_date": "2016-01-06",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Company report of nominal domestic box-office record; not inflation-adjusted."
+    },
+    {
+      "id": "boeing-results",
+      "source_name": "Boeing: Fourth-Quarter Results and 2016 Guidance",
+      "source_reference": "https://boeing.mediaroom.com/2016-01-27-Boeing-Reports-Fourth-Quarter-Results-and-Provides-2016-Guidance",
+      "publication_date": "2016-01-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original company results and forecast."
+    },
+    {
+      "id": "tesla-plans",
+      "source_name": "Tesla: Third Quarter 2015 shareholder letter",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/1318605/000119312515364285/d50904dex991.htm",
+      "publication_date": "2015-11-03",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original letter describes Model X launch and planned Model 3 unveiling. Plans remain uncertain at cutoff."
+    }
+  ]
+}

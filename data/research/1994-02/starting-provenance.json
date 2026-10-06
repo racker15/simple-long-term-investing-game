@@ -1,0 +1,176 @@
+{
+  "scenario_id": "1994-02",
+  "sources": [
+    {
+      "id": "news-1994-02-1",
+      "source_name": "TIME: A Cabinet That Sweats Like America",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,980216,00.html",
+      "publication_date": "1994-02-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1994-02-14",
+      "source_name": "TIME: Amid Disaster, Amazing Valor",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,980218,00.html",
+      "publication_date": "1994-02-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1994-02-17",
+      "source_name": "TIME: SPEED SKATING: Finally!",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,980221,00.html",
+      "publication_date": "1994-02-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1994-02-24",
+      "source_name": "TIME: The Deal That Forced Diller to Fold",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,980239,00.html",
+      "publication_date": "1994-02-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1994-02-29",
+      "source_name": "TIME: TELEVISION: The Origin of Our Species",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,980240,00.html",
+      "publication_date": "1994-02-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "microsoft-profit",
+      "source_name": "UPI: Microsoft quarterly earnings up 22 percent",
+      "source_reference": "https://www.upi.com/Archives/1994/01/19/Microsoftquarterly-earnings-up-22-percent/7058758955600/",
+      "publication_date": "1994-01-19",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary earnings report; retrieved search extract supports the short company description."
+    },
+    {
+      "id": "intel-pentium",
+      "source_name": "UPI: Intel begins shipping fifth-generation chip",
+      "source_reference": "https://www.upi.com/Archives/1993/03/22/Intel-begins-shipping-fifth-generation-chip/9715732776400/",
+      "publication_date": "1993-03-22",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary product announcement; retrieved search extract supports the short company description."
+    },
+    {
+      "id": "disney-video",
+      "source_name": "UPI: Aladdin home-video sales top 16 million",
+      "source_reference": "https://www.upi.com/Archives/1993/10/20/Aladdin-home-video-sales-top-16-million/1596751089600/",
+      "publication_date": "1993-10-20",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary sales report; retrieved search extract supports the short company description."
+    },
+    {
+      "id": "spf-outlook",
+      "source_name": "Professional forecaster survey, 1994 Q1",
+      "source_reference": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/data-files/files/median_rgdp_growth.xlsx",
+      "publication_date": "1994-02-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Historical median DRGDP3 forecast (quarter after the survey quarter). Pre-1990 original release timing is uncertain; middle-month end is modeled availability, not an asserted original archive date. Retrospective forecast archive, not actual outcomes.",
+      "observation_date": "1994-02-28"
+    },
+    {
+      "id": "asof-macro-cpiaucsl",
+      "source_name": "Historical CPIAUCSL observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "publication_date": "1994-02-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1994-01-31"
+    },
+    {
+      "id": "asof-macro-unrate",
+      "source_name": "Historical UNRATE observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UNRATE",
+      "publication_date": "1994-02-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1994-01-31"
+    },
+    {
+      "id": "asof-macro-fedfunds",
+      "source_name": "Historical FEDFUNDS observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "publication_date": "1994-02-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1994-01-31"
+    },
+    {
+      "id": "asof-macro-gs10",
+      "source_name": "Historical GS10 observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/GS10",
+      "publication_date": "1994-02-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1994-01-31"
+    },
+    {
+      "id": "asof-macro-umcsent",
+      "source_name": "Historical UMCSENT observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UMCSENT",
+      "publication_date": "1994-02-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1994-01-31"
+    },
+    {
+      "id": "asof-macro-indpro",
+      "source_name": "Historical INDPRO observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/INDPRO",
+      "publication_date": "1994-02-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1994-01-31"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-market observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "publication_date": "1994-02-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying observations, not publication date of modern archives. Transparent Treasury and developed-market proxies; not exact contemporary database vintages.",
+      "observation_date": "1994-02-28"
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/1994-02/starting.json",
+      "publication_date": "1994-02-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying prices. Current retrospective adjusted-close reconstruction; the modern archive publication date is not asserted here.",
+      "observation_date": "1994-02-28"
+    },
+    {
+      "id": "fed-tightening",
+      "source_name": "Federal Reserve: FOMC statement, February 4, 1994",
+      "source_reference": "https://www.federalreserve.gov/fomc/19940204default.htm",
+      "publication_date": "1994-02-04",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original policy statement announces slightly firmer reserve conditions and an expected small rise in short-term rates."
+    }
+  ]
+}

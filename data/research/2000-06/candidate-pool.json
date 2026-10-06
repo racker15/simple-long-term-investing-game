@@ -1,0 +1,292 @@
+{
+  "scenario_id": "2000-06",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997279,00.html",
+      "title": "Border Clash"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997280,00.html",
+      "title": "Campaign 2000: Restarting All Over"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997281,00.html",
+      "title": "The Bad Sunday In The Park"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997313,00.html",
+      "title": "Campaign 2000: The Man Who Wouldn't Be Vice President"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997331,00.html",
+      "title": "High Tech vs. Low Tech: Send Me Your Wired"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997283,00.html",
+      "title": "The Remaking of Kim Jong Il"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997284,00.html",
+      "title": "The Gen Y Revolution"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997285,00.html",
+      "title": "The King Of Cool"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1087654,00.html",
+      "title": "Who's Scary Now?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997289,00.html",
+      "title": "The Search For Smaller Tumors"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997282,00.html",
+      "title": "Battle of the Baptists"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997288,00.html",
+      "title": "Pedro"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997316,00.html",
+      "title": "Suburban Smackdown"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997286,00.html",
+      "title": "The Infoanarchist"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997319,00.html",
+      "title": "Digital-Music Detente"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997306,00.html",
+      "title": "Notebook: Jun. 26, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997307,00.html",
+      "title": "Ask Dr. Notebook"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997308,00.html",
+      "title": "A Smoother Dynasty"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997309,00.html",
+      "title": "Notebook Placemat"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997310,00.html",
+      "title": "Milestones Jun. 26, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997312,00.html",
+      "title": "Cops And Rockers"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997314,00.html",
+      "title": "Spin City: Egypt Buys and Sells a New Crash Tale"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997317,00.html",
+      "title": "A Plotline They Couldn't Refuse"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997320,00.html",
+      "title": "Numbers: Jun. 26, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997322,00.html",
+      "title": "Campaign Pledge Drive: Week Three"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997290,00.html",
+      "title": "Bylines of the Future"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997292,00.html",
+      "title": "A Nonswimmer's 25 Scariest Movies"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997293,00.html",
+      "title": "From Homeless to A Full Scholarship"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997304,00.html",
+      "title": "News Quiz Crossword Jun. 26, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997287,00.html",
+      "title": "J'Adore Content"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997294,00.html",
+      "title": "Television: We Like To Watch"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997295,00.html",
+      "title": "Architecture: The Frank Gehry Experience"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997296,00.html",
+      "title": "Cinema: A Cheer For Old Glory"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997297,00.html",
+      "title": "Cinema: Mr. Wrong Is Mr. Wright"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997298,00.html",
+      "title": "Cinema: Why We Now Can't Dig Shaft"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997302,00.html",
+      "title": "The Joy Of Cooking"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997303,00.html",
+      "title": "Spy Groove"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997311,00.html",
+      "title": "Cinema: Split Decision"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997321,00.html",
+      "title": "Television: Looking Online"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997323,00.html",
+      "title": "Cinema: Has Shaft Been Shafted?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997324,00.html",
+      "title": "Architecture"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997325,00.html",
+      "title": "Books: Gustav Mahler, Vol. 3, Vienna: Triumph And Disillusion (1904-1907)"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997326,00.html",
+      "title": "Books: Portrait Of An Artist, As An Old Man"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997327,00.html",
+      "title": "Cinema: Jesus' Son"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997328,00.html",
+      "title": "Music: Crush"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997329,00.html",
+      "title": "Music: Killing Puritans"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997299,00.html",
+      "title": "We Love the Boss"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997300,00.html",
+      "title": "Know Your Options"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997301,00.html",
+      "title": "La-Z-Boy Surfing"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997315,00.html",
+      "title": "In Brief: Jun. 26, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997318,00.html",
+      "title": "In Brief: Jun. 26, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997330,00.html",
+      "title": "In Brief: Jun. 26, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997275,00.html",
+      "title": "Bikes Are Back......Bigtime"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997276,00.html",
+      "title": "The New Centurion"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997277,00.html",
+      "title": "Health: Making A House Call"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997278,00.html",
+      "title": "Nostalgia: Oldies But Goodies"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997291,00.html",
+      "title": "People: Jun. 26, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,997305,00.html",
+      "title": "Letters: Jun. 26, 2000"
+    }
+  ],
+  "selected_news": [5, 11, 14, 31, 47, 52],
+  "stock_candidates": [
+    {
+      "ticker": "MSFT",
+      "selected": true,
+      "rationale": "A court has ordered a breakup, but that judgment is on hold pending appeal."
+    },
+    {
+      "ticker": "CSCO",
+      "selected": true,
+      "rationale": "The supplier is expanding the equipment used to carry internet data."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": true,
+      "rationale": "The computer company has attracted attention for its turnaround under Steve Jobs."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "DIS",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

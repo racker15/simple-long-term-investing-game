@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "scenario_id": "1987-10",
+  "locked_at": "2026-10-06",
+  "stage": "Starting context locked before calculating selected stocks’ future windows or writing events, narrative, and reflections.",
+  "files": {
+    "data/research/1987-10/starting-inputs.json": "50360f06ee9beab1d72a09fbc091a90aa98a33c971f6a8208363f60918ce9f6b",
+    "data/research/1987-10/starting-provenance.json": "837bac5fe2341d97e8cb2775ebf3c5d18b2b71049691e8294bdb996d89ba3b31",
+    "data/research/1987-10/candidate-pool.json": "e6c8b8bf122a82d40a9c68b3f0b47f24e2a13ef9a08832cc516d0ce20e104080",
+    "data/scenarios/1987-10/known_at_start.json": "942570d4e886af9515782bf82823f290f914645b6275168139e6a4b8a0576a6b",
+    "data/normalized/stocks/1987-10/starting.json": "51f44283f32ba9d3394353c9f42043289ca4569f420512c96850a5dcb7c703b4",
+    "data/normalized/stocks/1987-10/sources.json": "3520f8ac5efbf1f26da23da15c46d6032d633dbb9998da5d1c664c85142ffbea",
+    "data/normalized/broad-assets/sources.json": "6ad65125a8f80d5a37e805dd499ca6afdad1d0eca6f14cd0d3f8b9e10b99bf4b",
+    "data/normalized/broad-assets/monthly-returns.json": "671bb2af8473dc8f1f94de33c4a9f750b79603dc701b4b8abd89772bbecfb1c2",
+    "data/selection/protocol.json": "5f23ffc47e67a29e90cb2b7fca00963cbff3b89cfd9e53b9506861546efdffa0",
+    "data/selection/pilot-draw.json": "479f3cd0dba87808c0e5c94b25e3a224a66a39220a91b1b207a48f82d5d3e452",
+    "data/selection/expansion-50-protocol.json": "ae7c334bead14d517caa7b53bd7f245da7b327239bb1782c497bcaad62e83101",
+    "data/selection/expansion-50-draw.json": "9717c35dcb560e16e8a424dd78959e5028cd929e19ea6d40b469cc55049ceeab"
+  }
+}

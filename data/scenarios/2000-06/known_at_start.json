@@ -1,0 +1,217 @@
+{
+  "metadata": {
+    "scenario_id": "2000-06",
+    "date": "2000-06-30",
+    "display_date": "June 30, 2000",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "random",
+      "draw_universe": "calendar-month-ends-1980-2020-expansion-50-v1",
+      "random_seed": "simple-long-term-investing-game/50-scenarios/2026-10-06",
+      "draw_index": 16,
+      "method": "Preregistered FNV-1a/Mulberry32 unbiased draws without replacement from eligible month ends. Preserves six pilots; no outcome screening.",
+      "exclusions": [
+        "Exact duplicates of reserved important dates and retained random pilot dates",
+        "Genuine source or return-history unavailability only"
+      ],
+      "replacement_for": null
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Korean leaders meet in a historic summit",
+      "category": "World",
+      "summary": "A meeting between North and South Korea raises hopes for improved relations. Many difficult issues remain.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2000-06-5"]
+    },
+    {
+      "headline": "Pedro Martínez excites Boston baseball fans",
+      "category": "Sports",
+      "summary": "The Red Sox pitcher gives supporters reasons to hope. Fans are still waiting for a World Series title.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2000-06-11"]
+    },
+    {
+      "headline": "Online music firms and record labels seek deals",
+      "category": "Technology",
+      "summary": "Copyright disputes push companies toward negotiation. They are trying to work out how digital music should be sold and heard.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2000-06-14"]
+    },
+    {
+      "headline": "Seattle gets an unusual music museum",
+      "category": "Culture",
+      "summary": "Frank Gehry’s Experience Music Project uses dramatic shapes and materials to create a distinctive home for music exhibits.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2000-06-31"]
+    },
+    {
+      "headline": "Online access brings complex trading to more people",
+      "category": "Economy",
+      "summary": "Stock options become easier to trade. The contracts can carry large risks that ordinary share buying does not.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2000-06-47"]
+    },
+    {
+      "headline": "More older adults return to cycling",
+      "category": "Everyday life",
+      "summary": "Riders take up bicycles again for exercise and enjoyment. Clubs and classes help them build confidence.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2000-06-52"]
+    },
+    {
+      "headline": "Microsoft breakup order is put on hold",
+      "category": "Business",
+      "summary": "The court orders a split of the software company, then pauses the judgment while it is appealed. The outcome remains unresolved.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["microsoft-stay"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (2000-05; approximate)",
+      "value": 3.1,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (2000-05; approximate)",
+      "value": 4,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (2000-05; approximate)",
+      "value": 6.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (2000-05; approximate)",
+      "value": 6.4,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (2000-05; approximate)",
+      "value": 110.7,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (2000-05; approximate)",
+      "value": 4.5,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 3.6% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:2000-06:microsoft",
+      "company_name": "Microsoft",
+      "ticker": "MSFT",
+      "description": "A court has ordered a breakup, but that judgment is on hold pending appeal.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["microsoft-order", "microsoft-stay", "asof-stock-prices"],
+      "three_month": -0.24705905246623894,
+      "one_year": -0.11295893443182081
+    },
+    {
+      "id": "hot:2000-06:cisco",
+      "company_name": "Cisco Systems",
+      "ticker": "CSCO",
+      "description": "The supplier is expanding the equipment used to carry internet data.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["cisco-optical", "asof-stock-prices"],
+      "three_month": -0.17785033805913375,
+      "one_year": 0.9728415364213663
+    },
+    {
+      "id": "hot:2000-06:apple",
+      "company_name": "Apple Computer",
+      "ticker": "AAPL",
+      "description": "The computer company has attracted attention for its turnaround under Steve Jobs.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["apple-leadership", "asof-stock-prices"],
+      "three_month": -0.22871646157831893,
+      "one_year": 1.2618110466617312
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:2000-06:microsoft",
+      "name": "Microsoft",
+      "description": "A court has ordered a breakup, but that judgment is on hold pending appeal.",
+      "source_ids": ["microsoft-order", "microsoft-stay", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2000-06:cisco",
+      "name": "Cisco Systems",
+      "description": "The supplier is expanding the equipment used to carry internet data.",
+      "source_ids": ["cisco-optical", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2000-06:apple",
+      "name": "Apple Computer",
+      "description": "The computer company has attracted attention for its turnaround under Steve Jobs.",
+      "source_ids": ["apple-leadership", "asof-stock-prices"]
+    }
+  ],
+  "recent_returns": [
+    {
+      "asset_id": "cash",
+      "three_month": 0.013661491999999997,
+      "one_year": 0.05137026757896557,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "bonds",
+      "three_month": 0.024679961527828587,
+      "one_year": 0.04138243868706293,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "us_total",
+      "three_month": -0.04996460608400011,
+      "one_year": 0.10557386964991045,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "international_ex_us",
+      "three_month": -0.04330981152000002,
+      "one_year": 0.20712802258276386,
+      "source_ids": ["asof-broad-proxies"]
+    }
+  ]
+}

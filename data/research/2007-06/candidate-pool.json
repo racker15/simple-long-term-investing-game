@@ -1,0 +1,180 @@
+{
+  "scenario_id": "2007-06",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633089,00.html",
+      "title": "The New Action Heroes"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633082,00.html",
+      "title": "The Courage Primary"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633065,00.html",
+      "title": "Postcard: Coney Island"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633071,00.html",
+      "title": "The Veterans' Enemy at Home"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633086,00.html",
+      "title": "Ethanol: Seek & Find"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633076,00.html",
+      "title": "The Quiet Gay Revolution"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633078,00.html",
+      "title": "America's Foreign Policy Trap"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633081,00.html",
+      "title": "The Enemy's New Tools in Iraq"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633090,00.html",
+      "title": "Living Cheek by Beak in Indonesia"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633061,00.html",
+      "title": "Dashboard: Jun. 25, 2007"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633063,00.html",
+      "title": "What Paris in Jail Says About the Justice System"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633067,00.html",
+      "title": "A Surge in Iraq and a Purge in D.C."
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633072,00.html",
+      "title": "Hamas' Takeover of Gaza"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633073,00.html",
+      "title": "Numbers: Jun. 25, 2007"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633075,00.html",
+      "title": "Verbatim: Jun. 25, 2007"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633092,00.html",
+      "title": "Milestones Jun. 25, 2007"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633093,00.html",
+      "title": "People: Jun. 25, 2007"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633064,00.html",
+      "title": "ING Direct's Man on a Mission"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633069,00.html",
+      "title": "Where Retirement Works"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633088,00.html",
+      "title": "Touch Screens Take Over"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633070,00.html",
+      "title": "The Cancer Test"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633084,00.html",
+      "title": "A Gated Community for Organ Donors"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633060,00.html",
+      "title": "A Table for 20"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633066,00.html",
+      "title": "Home Economics on TV"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633074,00.html",
+      "title": "Comedians' Little Secret"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633091,00.html",
+      "title": "The White Stripes' Odd Appeal"
+    },
+    {
+      "url": "https://content.time.com/time/specials/2007/article/0,28804,1623143_1632988_1632951,00.html ",
+      "title": "Downtime: Jun. 25, 2007"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633062,00.html",
+      "title": "The Company Doctor"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633077,00.html",
+      "title": "Building a Better Mouse"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1633083,00.html",
+      "title": "Inbox: Jun. 25, 2007"
+    }
+  ],
+  "selected_news": [2, 12, 19, 25, 28],
+  "stock_candidates": [
+    {
+      "ticker": "AAPL",
+      "selected": true,
+      "rationale": "The company is bringing the iPhone to US shops and promoting its touchscreen design."
+    },
+    {
+      "ticker": "MSFT",
+      "selected": true,
+      "rationale": "Its Surface computing demonstration explores larger touch-controlled displays."
+    },
+    {
+      "ticker": "DIS",
+      "selected": true,
+      "rationale": "Bob Iger is reshaping the entertainment company’s strategy and digital offerings."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "MCD",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

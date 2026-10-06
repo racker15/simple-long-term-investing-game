@@ -1,0 +1,236 @@
+{
+  "scenario_id": "1987-10",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965805,00.html",
+      "title": "I Guess It's My Turn"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965810,00.html",
+      "title": "Candidates: Scandal on Saturday Night"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965811,00.html",
+      "title": "Florida: Salacious, But Sober"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965812,00.html",
+      "title": "New York: The Zaccaros Win One"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965813,00.html",
+      "title": "Revolutionaries: Buy My Book, You Racist Pig"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965814,00.html",
+      "title": "Washington: A Salute to The Sailors"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965834,00.html",
+      "title": "One Went Right"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965842,00.html",
+      "title": "Wall Street's October Massacre"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965843,00.html",
+      "title": "Where Are the Wingers?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965816,00.html",
+      "title": "Burkina Faso Upright Down"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965822,00.html",
+      "title": "Central America Golden Opportunity for Don Oscar"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965832,00.html",
+      "title": "Medal Fatigue"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965836,00.html",
+      "title": "Sri Lanka The Battle for Jaffna"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965838,00.html",
+      "title": "The Gulf Silkworm's Sting"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965844,00.html",
+      "title": "Greece: Papandreou's Hart Attack"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965845,00.html",
+      "title": "Haiti: Murder on the Campaign Trail"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965846,00.html",
+      "title": "Soviet Union: Your Check Is In the Mail"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965847,00.html",
+      "title": "The Philippines: Politics Makes Strange Beds"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965848,00.html",
+      "title": "West Germany: A Mystery in The Bath"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965807,00.html",
+      "title": "A Just War"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965829,00.html",
+      "title": "Living: Jeep Chic Shifts into High Four-wheelers are no longer just for macho men"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965828,00.html",
+      "title": "Sport: Internal Strife at the World Series"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965839,00.html",
+      "title": "Sport: The Line Crumbles"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965840,00.html",
+      "title": "Time Magazine Contents Page"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965841,00.html",
+      "title": "Time Magazine Masthead October 26, 1987"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965806,00.html",
+      "title": "We Are in a Heap of Trouble"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965817,00.html",
+      "title": "MARKETING: Mini-Ads, Maxi-Revenue"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965818,00.html",
+      "title": "NEW PRODUCTS: My, What Ugly Mugs!"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965819,00.html",
+      "title": "PACKAGING: Taking Offense At Breakfast"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965820,00.html",
+      "title": "PATENTS: Too Close For Corning"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965821,00.html",
+      "title": "TRAVEL: An American? Not Me"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965826,00.html",
+      "title": "Familiar Tune"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965837,00.html",
+      "title": "Staying Home Is Paying Off"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965824,00.html",
+      "title": "Education: Don't Go Near The Dollars"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965831,00.html",
+      "title": "Education: Meanwhile, At - Harvard"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965809,00.html",
+      "title": "Books: Academic Blight THE NEW HISTORY AND THE OLD"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965815,00.html",
+      "title": "Bookends: Oct. 26, 1987"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965825,00.html",
+      "title": "Music: Elvis Meets the Bacchae In Philadelphia, two new musicals  -  or are they really operas?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965830,00.html",
+      "title": "Books: Just A Few Minutes of Bliss LEAVING HOME"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965833,00.html",
+      "title": "Books: Misanthrope Woman in the Mists"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965835,00.html",
+      "title": "Theater: Skirmishing Along the Borders BURN THIS"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965823,00.html",
+      "title": "A Day in the Life . . . of the Soviet Union"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965827,00.html",
+      "title": "Inspiration and Originality: superconductors, molecules and gene theory"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,965808,00.html",
+      "title": "A Letter From the Publisher: Oct. 26, 1987"
+    }
+  ],
+  "selected_news": [0, 10, 20, 21, 26, 42],
+  "stock_candidates": [
+    {
+      "ticker": "IBM",
+      "selected": true,
+      "rationale": "The computer giant faces competition from Apple and makers of compatible PCs."
+    },
+    {
+      "ticker": "MCD",
+      "selected": true,
+      "rationale": "The restaurant chain is among advertisers trying space on video-rental boxes."
+    },
+    {
+      "ticker": "SONY",
+      "selected": true,
+      "rationale": "The electronics maker is in talks to buy a large record business. This is its US-traded share."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "DIS",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

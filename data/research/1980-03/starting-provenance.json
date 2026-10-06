@@ -1,0 +1,176 @@
+{
+  "scenario_id": "1980-03",
+  "sources": [
+    {
+      "id": "news-1980-03-27",
+      "source_name": "TIME: Business: Turmoil on the Money Front",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,921938,00.html",
+      "publication_date": "1980-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "news-1980-03-0",
+      "source_name": "TIME: Nation: The Races: Over Already?",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,921911,00.html",
+      "publication_date": "1980-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "news-1980-03-11",
+      "source_name": "TIME: IRAN: A Game Without End",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,921922,00.html",
+      "publication_date": "1980-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "news-1980-03-22",
+      "source_name": "TIME: The Big IF in Cancer",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,921948,00.html",
+      "publication_date": "1980-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "news-1980-03-30",
+      "source_name": "TIME: Business: Food in the A.M.",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,921941,00.html",
+      "publication_date": "1980-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "news-1980-03-37",
+      "source_name": "TIME: Music: Three Who Add Up to One",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,921936,00.html",
+      "publication_date": "1980-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "ibm-1979",
+      "source_name": "TIME: The Case of the Century",
+      "source_reference": "https://time.com/archive/6854331/business-the-case-of-the-century/",
+      "publication_date": "1979-05-21",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Prior contemporary reporting establishes computer-industry prominence and antitrust scrutiny."
+    },
+    {
+      "id": "txn-1979",
+      "source_name": "TIME: Shiny Apple",
+      "source_reference": "https://time.com/archive/6846259/business-shiny-apple/",
+      "publication_date": "1979-11-05",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary report identifies Texas Instruments as a personal-computer competitor; Apple was still privately held."
+    },
+    {
+      "id": "xom-1980",
+      "source_name": "TIME: Taxing Big Oil",
+      "source_reference": "https://time.com/archive/6700212/business-taxing-big-oil/",
+      "publication_date": "1980-02-04",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary coverage of oil-company earnings and proposed tax."
+    },
+    {
+      "id": "spf-outlook",
+      "source_name": "ASA/NBER professional forecasts, 1980 Q1",
+      "source_reference": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/data-files/files/median_rgdp_growth.xlsx",
+      "publication_date": "1980-02-29",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Historical median forecast, DRGDP3 (next quarter annualized real-output growth). The current archive is retrospective. For pre-1990 surveys, the Philadelphia Fed documentation says original release timing is uncertain but broadly similar to the middle-month schedule. Month-end availability is an explicit approximation, not an asserted exact original release date. Forecasts are not actual future outcomes.",
+      "observation_date": "1980-02-29"
+    },
+    {
+      "id": "asof-macro-cpiaucsl",
+      "source_name": "Historical CPIAUCSL observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "publication_date": "1980-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1980-02-29"
+    },
+    {
+      "id": "asof-macro-unrate",
+      "source_name": "Historical UNRATE observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UNRATE",
+      "publication_date": "1980-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1980-02-29"
+    },
+    {
+      "id": "asof-macro-fedfunds",
+      "source_name": "Historical FEDFUNDS observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "publication_date": "1980-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1980-02-29"
+    },
+    {
+      "id": "asof-macro-gs10",
+      "source_name": "Historical GS10 observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/GS10",
+      "publication_date": "1980-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1980-02-29"
+    },
+    {
+      "id": "asof-macro-umcsent",
+      "source_name": "Historical UMCSENT observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UMCSENT",
+      "publication_date": "1980-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1980-02-29"
+    },
+    {
+      "id": "asof-macro-indpro",
+      "source_name": "Historical INDPRO observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/INDPRO",
+      "publication_date": "1980-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1980-02-29"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-market observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "publication_date": "1980-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying observations, not publication date of modern archives. Transparent Treasury and developed-market proxies; not exact contemporary database vintages.",
+      "observation_date": "1980-03-31"
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/1980-03/starting.json",
+      "publication_date": "1980-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying prices. Current retrospective adjusted-close reconstruction; the modern archive publication date is not asserted here.",
+      "observation_date": "1980-03-31"
+    }
+  ]
+}

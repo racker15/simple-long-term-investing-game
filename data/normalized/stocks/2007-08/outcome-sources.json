@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "yahoo-len",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/LEN/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/LEN?period1=1154390400&period2=1346457600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "LEN",
+      "raw_path": "data/raw/stocks/2007-08/outcome-LEN.json",
+      "sha256": "cd78e82511aaa2abd452cee81c1ed9bf4106a10b0e9dc89472b2b5799c7f4a53",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 00f38eba17590043db11827ae71dcbfa048c55d2 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-kbh",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/KBH/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/KBH?period1=1154390400&period2=1346457600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "KBH",
+      "raw_path": "data/raw/stocks/2007-08/outcome-KBH.json",
+      "sha256": "119a21428a9bd53e602e385272429b36d713a8fb9314714baf9b1fb415d277f0",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 00f38eba17590043db11827ae71dcbfa048c55d2 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-dis",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/DIS/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/DIS?period1=1154390400&period2=1346457600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "DIS",
+      "raw_path": "data/raw/stocks/2007-08/outcome-DIS.json",
+      "sha256": "16b68a700cecf53a527dda4eb1c47d57e844c995cbac727042579c1bfa9d5a4d",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 00f38eba17590043db11827ae71dcbfa048c55d2 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    }
+  ]
+}

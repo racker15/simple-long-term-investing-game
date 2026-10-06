@@ -1,0 +1,284 @@
+{
+  "scenario_id": "1985-09",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959958,00.html",
+      "title": "A Gala with a Grim Side"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959961,00.html",
+      "title": "Congress: No Time for the Tax Bill"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959962,00.html",
+      "title": "New York: The End of the Road"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959963,00.html",
+      "title": "Pittsburgh: Baseball's Dealer Takes a Loss"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959964,00.html",
+      "title": "Utah: Uncle Sam's Bowling Alley"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959965,00.html",
+      "title": "Wyoming: The Governor Goes Broke"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959969,00.html",
+      "title": "Benjamin Weir's Secret Passage"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959970,00.html",
+      "title": "Blown Bliss"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959979,00.html",
+      "title": "Cap Takes a Hard Line"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,960001,00.html",
+      "title": "Setting the Summit Table"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,960005,00.html",
+      "title": "Stampeding Toward Protectionism"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,960006,00.html",
+      "title": "The Presidency: A Waste of Everybody's Time"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959980,00.html",
+      "title": "China Golden Handshakes in Peking"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959981,00.html",
+      "title": "A Noise Like Thunder"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959982,00.html",
+      "title": "Anatomy of an Earthquake"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959983,00.html",
+      "title": "The Trials of Job"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959984,00.html",
+      "title": "Worst of the Century"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959986,00.html",
+      "title": "Espionage a High-Level Game of Tit for Tat"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959987,00.html",
+      "title": "France Criminal, Absurd . . . and Stupid"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,960004,00.html",
+      "title": "South Africa Violations of Another Kind"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,960010,00.html",
+      "title": "Japan: Upping the Ante on Defense"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,960011,00.html",
+      "title": "Sweden A Narrow Win For Palme"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,960012,00.html",
+      "title": "Thailand: Payment for a Failed Coup"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,960013,00.html",
+      "title": "The Gulf: Anniversary of a Stalemate"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959960,00.html",
+      "title": "Behavior: A Madness in Their Method"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959988,00.html",
+      "title": "In Alabama: a Coon Dog Indeed"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,960003,00.html",
+      "title": "Living: Shining Legacy From the East"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959966,00.html",
+      "title": "Religion: An American Agenda for Rome U.S. Bishops Help Lay the Groundwork for A Vatican synod"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,960008,00.html",
+      "title": "Religion: Tv Protest"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959967,00.html",
+      "title": "Another Roadblock for a Dreamer"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959972,00.html",
+      "title": "Breaking Rank"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959975,00.html",
+      "title": "Agriculture: Desperate Measures in Florida"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959976,00.html",
+      "title": "Airlines: A Bid for a New Frontier"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959977,00.html",
+      "title": "Insurance: Taking a Bath in Space"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959978,00.html",
+      "title": "Regulation: A Freer Hand for At&T"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959985,00.html",
+      "title": "Business Notes Sep 30, 1985"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,960002,00.html",
+      "title": "Shaken to the Very Core"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,960007,00.html",
+      "title": "Education: The Publishers Flunk Science"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,960009,00.html",
+      "title": "Law: U.S. Policy Goes on Trial"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959968,00.html",
+      "title": "Books: Antidotes the Flamingo's Smile"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959971,00.html",
+      "title": "Bookends: Sep. 30, 1985"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959973,00.html",
+      "title": "Theater: Bright Lights and Heartache Song & Dance"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959974,00.html",
+      "title": "Theater: Brothers the Blood Knot"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959999,00.html",
+      "title": "Music: Rock Is a Four-Letter Word"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,960000,00.html",
+      "title": "Books: Roughing Up the Gentle Sex Stanley and the Women"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959989,00.html",
+      "title": "Milestones: Sep. 30, 1985"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959990,00.html",
+      "title": "Milestones: Sep. 30, 1985"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959991,00.html",
+      "title": "Milestones: Sep. 30, 1985"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959992,00.html",
+      "title": "Milestones: Sep. 30, 1985"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959993,00.html",
+      "title": "Milestones: Sep. 30, 1985"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959994,00.html",
+      "title": "Milestones: Sep. 30, 1985"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959995,00.html",
+      "title": "People: Sep. 30, 1985"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959996,00.html",
+      "title": "People: Sep. 30, 1985"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959997,00.html",
+      "title": "People: Sep. 30, 1985"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959998,00.html",
+      "title": "People: Sep. 30, 1985"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959959,00.html",
+      "title": "A Letter From the Publisher: Sep. 30, 1985"
+    }
+  ],
+  "selected_news": [1, 9, 13, 34, 36, 41],
+  "stock_candidates": [
+    {
+      "ticker": "AAPL",
+      "selected": true,
+      "rationale": "Steve Jobs has left the company he helped create and is starting another computer business."
+    },
+    {
+      "ticker": "KO",
+      "selected": true,
+      "rationale": "Customer protests have brought the old drink formula back as Classic Coke."
+    },
+    {
+      "ticker": "IBM",
+      "selected": true,
+      "rationale": "The computer giant has stopped making its disappointing PCjr home computer."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "DIS",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "MCD",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "SONY",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

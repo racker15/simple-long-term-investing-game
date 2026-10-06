@@ -1,0 +1,149 @@
+{
+  "scenario_id": "2020-03",
+  "sources": [
+    {
+      "id": "spf-outlook",
+      "source_name": "Professional forecaster survey, 2020 Q1",
+      "source_reference": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/data-files/files/median_rgdp_growth.xlsx",
+      "publication_date": "2020-02-29",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Historical median DRGDP3 forecast (quarter after the survey quarter). Pre-1990 original release timing is uncertain; middle-month end is modeled availability, not an asserted original archive date. Retrospective forecast archive, not actual outcomes.",
+      "observation_date": "2020-02-29"
+    },
+    {
+      "id": "asof-macro-cpiaucsl",
+      "source_name": "Historical CPIAUCSL observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "publication_date": "2020-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2020-02-29"
+    },
+    {
+      "id": "asof-macro-unrate",
+      "source_name": "Historical UNRATE observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UNRATE",
+      "publication_date": "2020-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2020-02-29"
+    },
+    {
+      "id": "asof-macro-fedfunds",
+      "source_name": "Historical FEDFUNDS observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "publication_date": "2020-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2020-02-29"
+    },
+    {
+      "id": "asof-macro-gs10",
+      "source_name": "Historical GS10 observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/GS10",
+      "publication_date": "2020-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2020-02-29"
+    },
+    {
+      "id": "asof-macro-umcsent",
+      "source_name": "Historical UMCSENT observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UMCSENT",
+      "publication_date": "2020-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2020-02-29"
+    },
+    {
+      "id": "asof-macro-indpro",
+      "source_name": "Historical INDPRO observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/INDPRO",
+      "publication_date": "2020-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2020-02-29"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-market observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "publication_date": "2020-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying observations, not publication date of modern archives. Transparent Treasury and developed-market proxies; not exact contemporary database vintages.",
+      "observation_date": "2020-03-31"
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/2020-03/starting.json",
+      "publication_date": "2020-03-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying prices. Current retrospective adjusted-close reconstruction; the modern archive publication date is not asserted here.",
+      "observation_date": "2020-03-31"
+    },
+    {
+      "id": "pandemic",
+      "source_name": "WHO: Director-General remarks, March 11",
+      "source_reference": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020",
+      "publication_date": "2020-03-11",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original public statement describing COVID-19 as a pandemic."
+    },
+    {
+      "id": "fed-cuts",
+      "source_name": "Federal Reserve: March 15 FOMC statement",
+      "source_reference": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm?source=news_body_link",
+      "publication_date": "2020-03-15",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original emergency policy announcement."
+    },
+    {
+      "id": "rover-name",
+      "source_name": "NASA: Mars 2020 Rover Gets a Name, Perseverance",
+      "source_reference": "https://www.nasa.gov/image-article/mars-2020-rover-gets-name-perseverance/",
+      "publication_date": "2020-03-05",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original naming-event report; no later mission outcome used."
+    },
+    {
+      "id": "disney-closures",
+      "source_name": "TheWrap: Disney parks to close amid coronavirus concerns",
+      "source_reference": "https://www.thewrap.com/disneyland-resort-and-theme-parks-to-close-as-coronavirus-spreads/",
+      "publication_date": "2020-03-12",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary report of company closure announcements. No assumption about eventual reopening."
+    },
+    {
+      "id": "amazon-hiring",
+      "source_name": "KPBS/NPR: Amazon to hire 100,000 workers",
+      "source_reference": "https://www.kpbs.org/news/2020/03/16/amazon-to-hire-100000-workers-to-meet-surge-in",
+      "publication_date": "2020-03-16",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary report of hiring plan."
+    },
+    {
+      "id": "streaming-traffic",
+      "source_name": "Netflix: Reducing traffic where needed",
+      "source_reference": "https://about.netflix.com/en/news/reducing-netflix-traffic-where-its-needed",
+      "publication_date": "2020-03-22",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original company explanation of temporary network measures."
+    }
+  ]
+}

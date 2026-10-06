@@ -3,32 +3,32 @@
   "events": [
     {
       "month": "2018-12",
-      "title": "Interest rates rise during continued expansion",
-      "description": "The Federal Reserve raises its target range to 2.25–2.50%, describing strong economic activity and a strengthening labor market.",
+      "title": "The Fed raises interest rates",
+      "description": "Its short-term target rises to 2.25–2.50% while the economy grows and the job market strengthens.",
       "source_ids": ["recent-fed-2018"]
     },
     {
       "month": "2020-03",
-      "title": "Emergency policy responds to coronavirus disruption",
-      "description": "The Federal Reserve cuts its target range to 0–0.25% and announces additional measures supporting markets and credit.",
+      "title": "The Fed responds to coronavirus disruption",
+      "description": "It cuts its short-term target to 0–0.25% and announces support for borrowing and financial markets.",
       "source_ids": ["recent-fed-2020"]
     },
     {
       "month": "2020-07",
-      "title": "Microsoft reports stronger cloud demand and mixed pandemic effects",
-      "description": "Fiscal 2020 commercial cloud annual revenue exceeds $50 billion; the company describes increased remote-work demand alongside weaker advertising and transactional licensing.",
+      "title": "Microsoft reports stronger cloud demand",
+      "description": "Services delivered over the internet bring in more revenue as remote work grows. Advertising and some other sales are weaker.",
       "source_ids": ["recent-msft-2020"]
     },
     {
       "month": "2020-08",
-      "title": "Apple shares begin trading after a four-for-one split",
-      "description": "The split announced July 30 starts adjusted trading August 31. Each existing share becomes four; the split itself does not create a return.",
+      "title": "Apple splits each share into four",
+      "description": "Owners receive four shares for each one they held. The split alone does not make their investment worth more.",
       "source_ids": ["recent-apple-2020", "recent-apple-actions"]
     },
     {
       "month": "2021-02",
-      "title": "ExxonMobil reports its 2020 annual loss",
-      "description": "The February 2 release reports a $22.4 billion GAAP loss for 2020 and substantial noncash impairments amid difficult energy-market conditions.",
+      "title": "ExxonMobil reports a large annual loss",
+      "description": "The company reports losing $22.4 billion in 2020, including reductions in the recorded value of assets, amid difficult energy markets.",
       "source_ids": ["recent-xom-2020"]
     }
   ],

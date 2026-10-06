@@ -1,0 +1,272 @@
+{
+  "scenario_id": "2005-09",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106333,00.html",
+      "title": "Chasing the Ghosts"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106307,00.html",
+      "title": "Saddam's Revenge"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106283,00.html",
+      "title": "Bloody Retaliation"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106282,00.html",
+      "title": "A Year of Crucial Missteps"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106310,00.html",
+      "title": "How to Spend (Almost) $1 Billion A Day"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106313,00.html",
+      "title": "Hurricane Katrina: Back to School: Public Bailout. Private Agenda?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106291,00.html",
+      "title": "Hurricane Katrina: The Red Cross: Trying to Get It Right This Time"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106295,00.html",
+      "title": "Hurricane Katrina: Guess Who's Coming ..."
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106324,00.html",
+      "title": "A Teen Twist on Sex"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106294,00.html",
+      "title": "The New Rules of Fight Club"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106315,00.html",
+      "title": "Cheney Wins -- Again"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106320,00.html",
+      "title": "Syria Gets the Cold Shoulder"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106318,00.html",
+      "title": "The Roberts Effect"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106288,00.html",
+      "title": "Arnold Will Be Back, But Will Hispanics?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106321,00.html",
+      "title": "Best Schools? The Alt Guides"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106297,00.html",
+      "title": "Dear Google, I Have Found Another Suitor"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106296,00.html",
+      "title": "Baby, Have We Got a Fight Song For You"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106303,00.html",
+      "title": "Numbers: Sep. 26, 2005"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106290,00.html",
+      "title": "Milestones Sep. 26, 2005"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106328,00.html",
+      "title": "Punchlines: Sep. 26, 2005"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106336,00.html",
+      "title": "Verbatim: Sep. 26, 2005"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106330,00.html",
+      "title": "Appreciation: Robert Wise"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106322,00.html",
+      "title": "Sharp's New Focus"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106316,00.html",
+      "title": "An Outsourced Merger Wave?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106292,00.html",
+      "title": "For Mountain Biking in Afghanistan"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106309,00.html",
+      "title": "Uniqlo's Casual Gambit"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106305,00.html",
+      "title": "Really Old Money"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106298,00.html",
+      "title": "China: A Rising Car Star?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106323,00.html",
+      "title": "Brands: Lacoste's Riposte"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106299,00.html",
+      "title": "Energy: The Real Oil Shock"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106335,00.html",
+      "title": "CEO Talks: Katsuaki Watanabe: Toyota's Tough Boss"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106314,00.html",
+      "title": "Investing: Betting Against The Crowd"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106304,00.html",
+      "title": "People to Watch in International Business"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106326,00.html",
+      "title": "The Global Life: The Buddhist Trail"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106337,00.html",
+      "title": "How to Fix the Airline Mess"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106334,00.html",
+      "title": "Can Mickey Find His Mojo?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106289,00.html",
+      "title": "Moon Struck"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106306,00.html",
+      "title": "Books: A Student Of History"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106325,00.html",
+      "title": "Movies: Sticking to Their Guns"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106329,00.html",
+      "title": "Television: Doom Is Big, and All Is Lost"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106286,00.html",
+      "title": "Movies: Guy Walks into a Shtetl"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106312,00.html",
+      "title": "Books: Taking the Cola Cure"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106331,00.html",
+      "title": "5 Riveting Soldier Blogs"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106301,00.html",
+      "title": "Style: Spring Ahead"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106319,00.html",
+      "title": "Technology: Blogging 2.0"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106327,00.html",
+      "title": "Travel: Not Really Roughing It"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106287,00.html",
+      "title": "You Wed Me at Hello"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106300,00.html",
+      "title": "First Look: Meryl Tries Out An, Um, Edgier Look"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106308,00.html",
+      "title": "Matt's Off The Market"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106293,00.html",
+      "title": "Thank Goodness They're Not Triplets"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106317,00.html",
+      "title": "10 Questions for Mahmoud Ahmadinedjad"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106332,00.html",
+      "title": "Letters: Sep. 26, 2005"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1106311,00.html",
+      "title": "Hail to the She"
+    }
+  ],
+  "selected_news": [5, 6, 29, 30, 35, 44],
+  "stock_candidates": [
+    {
+      "ticker": "TM",
+      "selected": true,
+      "rationale": "Its new president emphasizes cost control and avoiding complacency as the automaker grows. This is its US-traded share."
+    },
+    {
+      "ticker": "DIS",
+      "selected": true,
+      "rationale": "New leadership is trying to rebuild its animation business amid computer-animation competition."
+    },
+    {
+      "ticker": "XOM",
+      "selected": true,
+      "rationale": "The oil producer has reported record quarterly results amid strong energy prices."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "MCD",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

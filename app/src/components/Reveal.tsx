@@ -139,8 +139,8 @@ export function Reveal({
                 : 'Major events during the fictional period'}
             </h2>
             <p>
-              These markers provide context; they do not imply simple market
-              causality.
+              These events show what was happening. They do not explain every
+              rise or fall in prices.
             </p>
             {scenario.future.events.map((event, i) => (
               <details id={`event-${i}`} key={`${event.month}:${event.title}`}>
@@ -153,7 +153,11 @@ export function Reveal({
           </section>
           <section className="panel">
             <h2>What happened next?</h2>
-            <p>{scenario.future.what_happened_next.text}</p>
+            {scenario.future.what_happened_next.text
+              .split(/\n\s*\n/)
+              .map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
+              ))}
             {[
               [
                 'What people were focused on',

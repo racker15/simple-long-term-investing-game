@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "scenario_id": "2012-03",
+    "date": "2012-03-31",
+    "display_date": "March 31, 2012",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "random",
+      "draw_universe": "calendar-month-ends-1980-2020-expansion-50-v1",
+      "random_seed": "simple-long-term-investing-game/50-scenarios/2026-10-06",
+      "draw_index": 5,
+      "method": "Preregistered FNV-1a/Mulberry32 unbiased draws without replacement from eligible month ends. Preserves six pilots; no outcome screening.",
+      "exclusions": [
+        "Exact duplicates of reserved important dates and retained random pilot dates",
+        "Genuine source or return-history unavailability only"
+      ],
+      "replacement_for": null
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Republican candidates continue their contest",
+      "category": "US news",
+      "summary": "Gingrich, Santorum and Romney compete for the nomination. Commentators debate how long the race will last.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2012-03-2"]
+    },
+    {
+      "headline": "Exercise research examines how genes are switched on",
+      "category": "Science",
+      "summary": "A study explores changes in gene activity after exercise. This does not mean rewriting a person’s DNA code.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2012-03-7"]
+    },
+    {
+      "headline": "Researchers study children’s bedtime struggles",
+      "category": "Everyday life",
+      "summary": "Parents and scientists look at sleep habits and the challenge of settling down at night.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2012-03-9"]
+    },
+    {
+      "headline": "Mortgage relief sparks debate",
+      "category": "Economy",
+      "summary": "Officials disagree about reducing troubled borrowers’ debts. They weigh help for families against costs and fairness.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2012-03-11"]
+    },
+    {
+      "headline": "Physicists prepare another search for the Higgs",
+      "category": "Science",
+      "summary": "The Large Hadron Collider is getting ready for more collisions. Researchers hope stronger evidence will answer a major question.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2012-03-18"]
+    },
+    {
+      "headline": "US oil production rises, but fuel prices still bite",
+      "category": "Economy",
+      "summary": "Domestic output grows while global demand influences prices. More local production does not automatically mean cheap gasoline.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2012-03-21"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (2012-02; approximate)",
+      "value": 2.9,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (2012-02; approximate)",
+      "value": 8.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (2012-02; approximate)",
+      "value": 0.1,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (2012-02; approximate)",
+      "value": 2,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (2012-02; approximate)",
+      "value": 75.3,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (2012-02; approximate)",
+      "value": 4.4,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 2.3% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:2012-03:apple",
+      "company_name": "Apple",
+      "ticker": "AAPL",
+      "description": "The company reports strong early sales of its new iPad.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["new-ipad", "asof-stock-prices"],
+      "three_month": 0.4803706870354014,
+      "one_year": 0.7203243981394947
+    },
+    {
+      "id": "hot:2012-03:amazon",
+      "company_name": "Amazon.com",
+      "ticker": "AMZN",
+      "description": "Its Kindle Fire tablet joins its electronic readers and online shopping business.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["kindle-holiday", "asof-stock-prices"],
+      "three_month": 0.1699017952327302,
+      "one_year": 0.12424354087251133
+    },
+    {
+      "id": "hot:2012-03:exxonmobil",
+      "company_name": "ExxonMobil",
+      "ticker": "XOM",
+      "description": "The large oil producer is in focus as high fuel prices and energy supply draw attention.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["exxon-results", "news-2012-03-21", "asof-stock-prices"],
+      "three_month": 0.02884231644314994,
+      "one_year": 0.055562093126503065
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:2012-03:apple",
+      "name": "Apple",
+      "description": "The company reports strong early sales of its new iPad.",
+      "source_ids": ["new-ipad", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2012-03:amazon",
+      "name": "Amazon.com",
+      "description": "Its Kindle Fire tablet joins its electronic readers and online shopping business.",
+      "source_ids": ["kindle-holiday", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2012-03:exxonmobil",
+      "name": "ExxonMobil",
+      "description": "The large oil producer is in focus as high fuel prices and energy supply draw attention.",
+      "source_ids": ["exxon-results", "news-2012-03-21", "asof-stock-prices"]
+    }
+  ],
+  "recent_returns": [
+    {
+      "asset_id": "cash",
+      "three_month": 0,
+      "one_year": 0.00009999999999998899,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "bonds",
+      "three_month": -0.004117899419033844,
+      "one_year": 0.06635289972809488,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "us_total",
+      "three_month": 0.13115638151999987,
+      "one_year": 0.07212152676630756,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "international_ex_us",
+      "three_month": 0.11459821734800002,
+      "one_year": -0.06287163780121396,
+      "source_ids": ["asof-broad-proxies"]
+    }
+  ]
+}

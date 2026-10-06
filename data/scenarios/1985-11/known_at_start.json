@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "scenario_id": "1985-11",
+    "date": "1985-11-30",
+    "display_date": "November 30, 1985",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "random",
+      "draw_universe": "calendar-month-ends-1980-2020-expansion-50-v1",
+      "random_seed": "simple-long-term-investing-game/50-scenarios/2026-10-06",
+      "draw_index": 3,
+      "method": "Preregistered FNV-1a/Mulberry32 unbiased draws without replacement from eligible month ends. Preserves six pilots; no outcome screening.",
+      "exclusions": [
+        "Exact duplicates of reserved important dates and retained random pilot dates",
+        "Genuine source or return-history unavailability only"
+      ],
+      "replacement_for": null
+    }
+  },
+  "headlines": [
+    {
+      "headline": "A volcano brings disaster to Colombia",
+      "category": "World",
+      "summary": "Mudflows from Nevado del Ruiz devastate Armero. Rescuers search for survivors and help displaced families.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1985-11-0"]
+    },
+    {
+      "headline": "Britain and Ireland sign a new agreement",
+      "category": "World",
+      "summary": "The deal gives the Irish government a formal voice in Northern Ireland’s affairs. It aims to support a political solution.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1985-11-3"]
+    },
+    {
+      "headline": "Stargazers spot Halley’s comet",
+      "category": "Science",
+      "summary": "The returning comet is visible under favorable conditions. Astronomers warn that later views may vary.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1985-11-7"]
+    },
+    {
+      "headline": "Computer users meet over phone lines",
+      "category": "Technology",
+      "summary": "Online networks let people exchange messages and stories. These early communities are attracting new users.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1985-11-12"]
+    },
+    {
+      "headline": "Congress buys time in a borrowing dispute",
+      "category": "Economy",
+      "summary": "A temporary debt-limit extension avoids an immediate default. Arguments over spending cuts remain unresolved.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1985-11-26"]
+    },
+    {
+      "headline": "A young traveler stars in a Disney adventure",
+      "category": "Culture",
+      "summary": "The Journey of Natty Gann follows a girl crossing Depression-era America to find her father.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1985-11-41"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (1985-10; approximate)",
+      "value": 3.2,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (1985-10; approximate)",
+      "value": 7.1,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (1985-10; approximate)",
+      "value": 8,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (1985-10; approximate)",
+      "value": 10.2,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (1985-10; approximate)",
+      "value": 88.4,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (1985-10; approximate)",
+      "value": 0.5,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "A group of economists expects another slow year for much of East Asia in 1986. They think weaker US demand could limit export growth. That is their outlook, not a settled result.",
+      "source_ids": ["pacific-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:1985-11:apple",
+      "company_name": "Apple Computer",
+      "ticker": "AAPL",
+      "description": "Its co-founder’s departure has added uncertainty to a struggling computer business.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["apple-departure", "asof-stock-prices"],
+      "three_month": 0.3416774357111876,
+      "one_year": -0.18686547190768676
+    },
+    {
+      "id": "hot:1985-11:disney",
+      "company_name": "Walt Disney Productions",
+      "ticker": "DIS",
+      "description": "Its new film The Journey of Natty Gann brings an adventurous young heroine to cinemas.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-1985-11-41", "asof-stock-prices"],
+      "three_month": 0.11147627127448567,
+      "one_year": 0.7159480871452149
+    },
+    {
+      "id": "hot:1985-11:coca-cola",
+      "company_name": "Coca-Cola",
+      "ticker": "KO",
+      "description": "The company now sells both the new drink and the revived classic formula.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["coke-classic", "asof-stock-prices"],
+      "three_month": 0.1855876920045647,
+      "one_year": 0.40304302346292653
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:1985-11:apple",
+      "name": "Apple Computer",
+      "description": "Its co-founder’s departure has added uncertainty to a struggling computer business.",
+      "source_ids": ["apple-departure", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1985-11:disney",
+      "name": "Walt Disney Productions",
+      "description": "Its new film The Journey of Natty Gann brings an adventurous young heroine to cinemas.",
+      "source_ids": ["news-1985-11-41", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1985-11:coca-cola",
+      "name": "Coca-Cola",
+      "description": "The company now sells both the new drink and the revived classic formula.",
+      "source_ids": ["coke-classic", "asof-stock-prices"]
+    }
+  ],
+  "recent_returns": [
+    {
+      "asset_id": "cash",
+      "three_month": 0.018715487899999772,
+      "one_year": 0.07709588468173911,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "bonds",
+      "three_month": 0.04585731446819352,
+      "one_year": 0.19975754164309056,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "us_total",
+      "three_month": 0.07667648679500005,
+      "one_year": 0.3002289591429479,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "international_ex_us",
+      "three_month": 0.16041901698799998,
+      "one_year": 0.4957908757428382,
+      "source_ids": ["asof-broad-proxies"]
+    }
+  ]
+}

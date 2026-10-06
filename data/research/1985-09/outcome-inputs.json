@@ -1,0 +1,62 @@
+{
+  "scenario_id": "1985-09",
+  "events": [
+    {
+      "month": "1986-01",
+      "title": "Challenger is lost",
+      "description": "Seven people die when the shuttle breaks apart after launch. NASA pauses flights and investigates.",
+      "source_ids": ["nasa-challenger"]
+    },
+    {
+      "month": "1987-10",
+      "title": "Black Monday hits markets",
+      "description": "The Dow falls 22.6% in one day. The monthly chart combines that day with all the other trading days in October.",
+      "source_ids": ["fed-crash1987"]
+    },
+    {
+      "month": "1989-11",
+      "title": "The Berlin Wall opens",
+      "description": "East Germans begin crossing the border freely. The change becomes a powerful symbol of a changing Europe.",
+      "source_ids": ["wall-opens"]
+    },
+    {
+      "month": "1990-04",
+      "title": "Hubble launches into orbit",
+      "description": "The space telescope leaves Earth aboard Discovery. Its first images later reveal a flaw in the main mirror.",
+      "source_ids": ["hubble-history"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Apple and Coca-Cola finished close together at the top of this set, while IBM ended only slightly higher than it began. With the same $10,000 start, Coca-Cola reached about $38,700 and IBM about $10,300. All three were familiar companies, but their investment results were far apart.\n\nThese five years included the Challenger disaster, the October 1987 market crash and the opening of the Berlin Wall. In 1990, Hubble went into orbit, though its first images revealed a problem with the mirror. Progress could come with setbacks.\n\nThe share baskets gained overall, but neither matched the leading individual companies. They also did not depend on one company succeeding. That is a trade-off: spreading money around can mean missing a spectacular winner's full gain while reducing dependence on one business.\n\nThe final ranking was not available in September 1985. Nor could an investor know when the large market fall would arrive. The outcome is clear now because the whole five-year path has already happened.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aapl",
+      "yahoo-ko",
+      "yahoo-ibm",
+      "nasa-challenger",
+      "fed-crash1987",
+      "wall-opens",
+      "hubble-history"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "Apple’s leadership split, Coca-Cola’s formula reversal and plans for a weaker dollar all attracted attention.",
+    "what_actually_mattered": "Different companies followed very different paths. Size and reputation did not guarantee high returns, and a bad headline did not settle a company’s future.",
+    "what_faded_away": "The immediate tax-bill timetable and the first reactions to a new musical did not determine the final ranking.",
+    "what_nobody_knew": "No starting headline revealed that Apple and Coca-Cola would end so close together. Their past difficulties were clues to consider, not a ready-made answer.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aapl",
+      "yahoo-ko",
+      "yahoo-ibm",
+      "nasa-challenger",
+      "fed-crash1987",
+      "wall-opens",
+      "hubble-history"
+    ]
+  }
+}

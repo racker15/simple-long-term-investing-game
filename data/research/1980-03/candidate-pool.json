@@ -1,0 +1,268 @@
+{
+  "scenario_id": "1980-03",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921911,00.html",
+      "title": "Nation: The Races: Over Already?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921912,00.html",
+      "title": "Nation: But Can Reagan Be Elected?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921913,00.html",
+      "title": "Nation: J.B.A., J.B.A., J.B.A.!"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921914,00.html",
+      "title": "Nation: Where the Ax Will Fall"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921915,00.html",
+      "title": "THE PRESIDENCY: A Revolution Is Under Way"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921916,00.html",
+      "title": "Nation: Echoes of Camp David"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921917,00.html",
+      "title": "Nation: Right All Along?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921918,00.html",
+      "title": "Nation: Firemen in Jail"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921919,00.html",
+      "title": "Nation: Oops!"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921920,00.html",
+      "title": "Nation: Let the Great Head Count Begin"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921921,00.html",
+      "title": "Nation: Growing Up with the Country"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921922,00.html",
+      "title": "IRAN: A Game Without End"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921923,00.html",
+      "title": "World: Beheshti Flows with the Tide"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921924,00.html",
+      "title": "EXILES: Shah's Flight"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921925,00.html",
+      "title": "ITALY: The 38th Crisis"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921926,00.html",
+      "title": "EL SALVADOR: The Orgy of Violence Goes On"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921927,00.html",
+      "title": "UGANDA: Like the Wild, Wild West"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921928,00.html",
+      "title": "TAIWAN: Fair Trial"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921929,00.html",
+      "title": "DIPLOMACY: Big Scare"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921930,00.html",
+      "title": "MIDDLE EAST: Whose Land Is This?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921934,00.html",
+      "title": "Environment: Tailings' End"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921935,00.html",
+      "title": "Environment: No Sweat"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921948,00.html",
+      "title": "The Big IF in Cancer"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921949,00.html",
+      "title": "Medicine: Timetables for Cancer Checks"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921950,00.html",
+      "title": "Medicine: Who Gets IF? Almost Nobody"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921953,00.html",
+      "title": "Press: Stalking the Elusive Hemline"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921951,00.html",
+      "title": "Sport: A Resounding Chorus of Maybes"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921938,00.html",
+      "title": "Business: Turmoil on the Money Front"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921939,00.html",
+      "title": "Business: The Shaky House of Cards"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921940,00.html",
+      "title": "Business: Busted Bonanza"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921941,00.html",
+      "title": "Business: Food in the A.M."
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921942,00.html",
+      "title": "Business: The Raging Global Price Plague"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921943,00.html",
+      "title": "Business: Steel's Lament"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921944,00.html",
+      "title": "Business: Taxman Returns"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921945,00.html",
+      "title": "Executive View: Getting a Handle on Energy"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921931,00.html",
+      "title": "Education: Sexology, Squalor and No Bac"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921932,00.html",
+      "title": "Education: Milk vs. Cream?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921936,00.html",
+      "title": "Music: Three Who Add Up to One"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921937,00.html",
+      "title": "Television: Fathers and Sons"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921946,00.html",
+      "title": "Theater: New Crop of Kentucky Foals"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921954,00.html",
+      "title": "Art: Going Back to Africa"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921955,00.html",
+      "title": "Books: Infidel in the Wilderness"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921956,00.html",
+      "title": "Excerpt: Excerpt"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921957,00.html",
+      "title": "Books: Classy Sleaze"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921958,00.html",
+      "title": "Books: Devil's Due"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921959,00.html",
+      "title": "Cinema: Growing Up"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921960,00.html",
+      "title": "Cinema: Cop Song"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921952,00.html",
+      "title": "Milestones, Mar. 31, 1980"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921947,00.html",
+      "title": "People, Mar. 31, 1980"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921909,00.html",
+      "title": "A Letter From The Publisher, Mar. 31, 1980"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921910,00.html",
+      "title": "Letters, Mar. 31, 1980"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,921933,00.html",
+      "title": "Time Essay: On Reimagining America"
+    }
+  ],
+  "selected_news": [27, 0, 11, 22, 30, 37],
+  "stock_candidates": [
+    {
+      "ticker": "IBM",
+      "selected": true,
+      "rationale": "A major computer maker whose size has brought antitrust scrutiny."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "TXN",
+      "selected": true,
+      "rationale": "A chipmaker also competing in the new home-computer market."
+    },
+    {
+      "ticker": "INTC",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "XOM",
+      "selected": true,
+      "rationale": "Large oil profits have attracted attention and calls for a new tax."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "PEP",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "MCD",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "DIS",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

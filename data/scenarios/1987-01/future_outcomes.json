@@ -3,37 +3,37 @@
   "events": [
     {
       "month": "1987-05",
-      "title": "General Electric shares split two for one",
-      "description": "The pinned vendor history records split-adjusted trading on May 26. The split changes units; adjusted prices prevent treating it as a loss or gain.",
+      "title": "General Electric splits its shares",
+      "description": "Each old share becomes two. The number of shares changes, but the split itself does not create a profit.",
       "source_ids": ["yahoo-ge"]
     },
     {
       "month": "1987-06",
-      "title": "Apple shares split two for one",
-      "description": "Apple’s investor archive records its first two-for-one split on June 16. Returns use adjusted prices and do not add a separate split gain.",
+      "title": "Apple splits its shares",
+      "description": "Each old share becomes two. Doubling the share count is different from doubling the investment’s value.",
       "source_ids": ["apple-split-history"]
     },
     {
       "month": "1987-10",
-      "title": "The October 19 stock-market crash strains trading",
-      "description": "Prices fall sharply during a trading crisis. The Federal Reserve’s retrospective study documents market-functioning problems alongside the declines.",
+      "title": "The stock market crashes",
+      "description": "Prices fall sharply on October 19. Heavy trading also creates serious problems in how markets operate.",
       "source_ids": ["fed-crash87"]
     },
     {
       "month": "1987-10",
-      "title": "The Federal Reserve publicly offers liquidity support",
-      "description": "On October 20 the Fed affirms readiness to supply liquidity and takes measures supporting financial-market functioning. The response is context, not a measured return attribution.",
+      "title": "The Fed offers support",
+      "description": "The Federal Reserve says it is ready to provide money to help the financial system keep working after the crash.",
       "source_ids": ["fed-crash87"]
     },
     {
       "month": "1991-04",
-      "title": "The NBER announces a recession start",
-      "description": "The committee identifies July 1990 as the economic peak. This is a retrospective determination, nine months after the dated turning point.",
+      "title": "Economists announce a recession",
+      "description": "In April 1991, researchers say the economy stopped expanding in July 1990. The official judgment arrives months later.",
       "source_ids": ["nber-peak90"]
     }
   ],
   "what_happened_next": {
-    "text": "January 1987 began with rising stock prices and worry about currency values. General Electric and Apple split their shares that year. Each old share became two shares, but the split alone did not add value to an investment.\n\nIn October 1987, the stock market crashed and trading was disrupted. In April 1991, a group that tracks the U.S. economy said a recession had begun in July 1990. The recession later ended in March 1991. The group did not announce that ending date until December 1992, after this story ends in January 1992.\n\nCompanies, a mix of many stocks, government bonds (loans to the government), and cash all followed different paths. The best result in these five years could not tell anyone which choice would do best in another five.",
+    "text": "January 1987 began with rising stock prices and worry about currency values. General Electric and Apple split their shares that year. Each old share became two shares, but the split alone did not add value to an investment.\n\nIn October 1987, the stock market crashed and trading was disrupted. In April 1991, a group that tracks the U.S. economy said a recession had begun in July 1990. The recession later ended in March 1991. The group did not announce that ending date until December 1992, after this story ends in January 1992.\n\nCompanies, a mix of many stocks, government bonds (loans to the government), and cash all followed different paths. The best result in these five years could not tell anyone which choice would do best in another five.\n\nA company could remain important while its share price fell. Likewise, a market crash did not mean every investment would stay below its starting value forever. The amount invested, the type of holding and the dates all shaped the result.",
     "source_ids": [
       "fed-crash87",
       "nber-peak90",

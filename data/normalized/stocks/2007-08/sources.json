@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "yahoo-len",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/LEN/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/LEN?period1=1154390400&period2=1188604800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "LEN",
+      "raw_path": "data/raw/stocks/2007-08/starting-LEN.json",
+      "sha256": "440c9e4cae27d589fea2d288b43138e742f66d3dd306ec659044ee58ad52a328",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid trading-day adjusted close in each calendar month; adjacent ratio minus one. Includes vendor dividend/split adjustments; do not add dividends again. Retrospective reconstruction, not an original historical database vintage. Normalized endpoints are committed for reproducible offline calculations."
+    },
+    {
+      "id": "yahoo-kbh",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/KBH/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/KBH?period1=1154390400&period2=1188604800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "KBH",
+      "raw_path": "data/raw/stocks/2007-08/starting-KBH.json",
+      "sha256": "bdd73f4d14679c7da5c123edccfeda49c9a19df0dcb0ad9858d3a473f5a283fd",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid trading-day adjusted close in each calendar month; adjacent ratio minus one. Includes vendor dividend/split adjustments; do not add dividends again. Retrospective reconstruction, not an original historical database vintage. Normalized endpoints are committed for reproducible offline calculations."
+    },
+    {
+      "id": "yahoo-dis",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/DIS/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/DIS?period1=1154390400&period2=1188604800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "DIS",
+      "raw_path": "data/raw/stocks/2007-08/starting-DIS.json",
+      "sha256": "1659c82b9dbf18fcaf7ae4a056e728837a37031561582785e69de10c40f1db3c",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid trading-day adjusted close in each calendar month; adjacent ratio minus one. Includes vendor dividend/split adjustments; do not add dividends again. Retrospective reconstruction, not an original historical database vintage. Normalized endpoints are committed for reproducible offline calculations."
+    }
+  ]
+}

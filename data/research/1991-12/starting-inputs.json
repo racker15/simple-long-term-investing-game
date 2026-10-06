@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "scenario_id": "1991-12",
+    "date": "1991-12-31",
+    "display_date": "December 31, 1991",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "important",
+      "selection_reason": "The dissolution of the Soviet Union during a weak US recovery."
+    }
+  },
+  "headlines": [
+    {
+      "headline": "South Africa begins constitutional talks",
+      "category": "World",
+      "summary": "Political groups meet to work toward a system that includes the Black majority. They disagree about how the transition should happen.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1991-12-18"]
+    },
+    {
+      "headline": "General Motors announces major cuts",
+      "category": "Business",
+      "summary": "The carmaker plans plant closures and fewer jobs after large losses. Its leaders promise a smaller company.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1991-12-33"]
+    },
+    {
+      "headline": "The Federal Reserve cuts a lending rate",
+      "category": "Economy",
+      "summary": "The Fed lowers the rate it charges banks as the economy struggles. Commercial banks also cut their prime lending rate.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1991-12-35"]
+    },
+    {
+      "headline": "Bright stickers become big business",
+      "category": "Everyday life",
+      "summary": "Lisa Frank’s colorful designs spread from stickers to notebooks and pencils. The company plans more products.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1991-12-37"]
+    },
+    {
+      "headline": "A new opera arrives at the Met",
+      "category": "Culture",
+      "summary": "The Ghosts of Versailles receives its first performances. The opera house hopes a new work can attract audiences.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1991-12-43"]
+    },
+    {
+      "headline": "The Soviet Union comes to an end",
+      "category": "World",
+      "summary": "The Soviet parliament acknowledges the union’s dissolution after Gorbachev resigns. Independent countries face major changes.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["soviet-end"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (1991-11; approximate)",
+      "value": 3.1,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (1991-11; approximate)",
+      "value": 7.0,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (1991-11; approximate)",
+      "value": 4.8,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (1991-11; approximate)",
+      "value": 7.4,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (1991-11; approximate)",
+      "value": 69.1,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (1991-11; approximate)",
+      "value": 0.5,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 2.2% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:1991-12:disney",
+      "company_name": "Walt Disney",
+      "ticker": "DIS",
+      "description": "Beauty and the Beast is its newest animated musical.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["disney-beauty", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1991-12:ibm",
+      "company_name": "IBM",
+      "ticker": "IBM",
+      "description": "The computer company is developing technology with partners including Apple.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["computer-alliance", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1991-12:walmart",
+      "company_name": "Wal-Mart",
+      "ticker": "WMT",
+      "description": "The large discount retailer sells everyday goods, including popular children’s stationery.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["walmart-retail", "news-1991-12-37", "asof-stock-prices"]
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:1991-12:disney",
+      "name": "Walt Disney",
+      "description": "Beauty and the Beast is its newest animated musical.",
+      "source_ids": ["disney-beauty", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1991-12:ibm",
+      "name": "IBM",
+      "description": "The computer company is developing technology with partners including Apple.",
+      "source_ids": ["computer-alliance", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1991-12:walmart",
+      "name": "Wal-Mart",
+      "description": "The large discount retailer sells everyday goods, including popular children’s stationery.",
+      "source_ids": ["walmart-retail", "news-1991-12-37", "asof-stock-prices"]
+    }
+  ]
+}

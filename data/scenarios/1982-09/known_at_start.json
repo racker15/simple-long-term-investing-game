@@ -1,0 +1,204 @@
+{
+  "metadata": {
+    "scenario_id": "1982-09",
+    "date": "1982-09-30",
+    "display_date": "September 30, 1982",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "random",
+      "draw_universe": "calendar-month-ends-1980-2020-expansion-50-v1",
+      "random_seed": "simple-long-term-investing-game/50-scenarios/2026-10-06",
+      "draw_index": 18,
+      "method": "Preregistered FNV-1a/Mulberry32 unbiased draws without replacement from eligible month ends. Preserves six pilots; no outcome screening.",
+      "exclusions": [
+        "Exact duplicates of reserved important dates and retained random pilot dates",
+        "Genuine source or return-history unavailability only"
+      ],
+      "replacement_for": null
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Economists worry about a weak recovery",
+      "category": "Economy",
+      "summary": "Inflation has eased, but weak spending and large debts still worry economists. They disagree about when growth will return.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1982-09-21"]
+    },
+    {
+      "headline": "IBM takes employees to court over designs",
+      "category": "Business",
+      "summary": "IBM says three employees tried to sell secret computer designs. The accused dispute the claims.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1982-09-23"]
+    },
+    {
+      "headline": "Violence in Beirut strains US–Israel ties",
+      "category": "World",
+      "summary": "Killings of civilians in Beirut bring sharp criticism from President Reagan and new pressure for peace talks.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1982-09-0"]
+    },
+    {
+      "headline": "West Germany’s governing coalition breaks apart",
+      "category": "World",
+      "summary": "Four ministers resign after arguments over economic policy. Chancellor Schmidt calls for new elections.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1982-09-9"]
+    },
+    {
+      "headline": "Investigation of labor secretary ends",
+      "category": "US news",
+      "summary": "A prosecutor closes the inquiry into Raymond Donovan, saying there is not enough reliable evidence to bring charges.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1982-09-2"]
+    },
+    {
+      "headline": "Cats prepares for Broadway",
+      "category": "Culture",
+      "summary": "The hit London musical is rehearsing for New York. Its performers are learning to move like cats.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1982-09-31"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (1982-08; approximate)",
+      "value": 6,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (1982-08; approximate)",
+      "value": 9.8,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (1982-08; approximate)",
+      "value": 10.1,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (1982-08; approximate)",
+      "value": 13.1,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (1982-08; approximate)",
+      "value": 65.4,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "A panel of economists expects only a fragile recovery. Several predict about 3% growth late this year; others think recovery is much further away.",
+      "source_ids": ["news-1982-09-21"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:1982-09:apple",
+      "company_name": "Apple Computer",
+      "ticker": "AAPL",
+      "description": "Home computers are drawing attention, including Apple’s machines.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["time-921281", "asof-stock-prices"],
+      "three_month": 0.43135939890613106,
+      "one_year": 0.19672381190691612
+    },
+    {
+      "id": "hot:1982-09:ibm",
+      "company_name": "IBM",
+      "ticker": "IBM",
+      "description": "The computer giant is fighting to protect its designs.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["time-921269", "asof-stock-prices"],
+      "three_month": 0.2263797107972405,
+      "one_year": 0.4346644332013989
+    },
+    {
+      "id": "hot:1982-09:coca-cola",
+      "company_name": "Coca-Cola",
+      "ticker": "KO",
+      "description": "The soft-drink company also owns Columbia Pictures.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["time-925661", "asof-stock-prices"],
+      "three_month": 0.22647709159405482,
+      "one_year": 0.2954929613829844
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:1982-09:apple",
+      "name": "Apple Computer",
+      "description": "Home computers are drawing attention, including Apple’s machines.",
+      "source_ids": ["time-921281", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1982-09:ibm",
+      "name": "IBM",
+      "description": "The computer giant is fighting to protect its designs.",
+      "source_ids": ["time-921269", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1982-09:coca-cola",
+      "name": "Coca-Cola",
+      "description": "The soft-drink company also owns Columbia Pictures.",
+      "source_ids": ["time-925661", "asof-stock-prices"]
+    }
+  ],
+  "recent_returns": [
+    {
+      "asset_id": "cash",
+      "three_month": 0.02337251698000009,
+      "one_year": 0.11924005566509033,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "bonds",
+      "three_month": 0.11781355323056064,
+      "one_year": 0.3074051493097414,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "us_total",
+      "three_month": 0.11576611312999985,
+      "one_year": 0.09779574305226735,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "international_ex_us",
+      "three_month": -0.002198172400000087,
+      "one_year": -0.07396298754562247,
+      "source_ids": ["asof-broad-proxies"]
+    }
+  ]
+}

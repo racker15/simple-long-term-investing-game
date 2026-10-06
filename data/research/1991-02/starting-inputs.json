@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "scenario_id": "1991-02",
+    "date": "1991-02-28",
+    "display_date": "February 28, 1991",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "random",
+      "draw_universe": "calendar-month-ends-1980-2020-expansion-50-v1",
+      "random_seed": "simple-long-term-investing-game/50-scenarios/2026-10-06",
+      "draw_index": 14,
+      "method": "Preregistered FNV-1a/Mulberry32 unbiased draws without replacement from eligible month ends. Preserves six pilots; no outcome screening.",
+      "exclusions": [
+        "Exact duplicates of reserved important dates and retained random pilot dates",
+        "Genuine source or return-history unavailability only"
+      ],
+      "replacement_for": null
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Peru tackles a cholera outbreak",
+      "category": "World",
+      "summary": "Officials encourage safer water and food handling as illness spreads. Neighboring countries take precautions.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1991-02-14"]
+    },
+    {
+      "headline": "An experimental treatment targets severe infections",
+      "category": "Science",
+      "summary": "Researchers report promising antibody results. The treatment is still under review and is not a guaranteed cure.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1991-02-29"]
+    },
+    {
+      "headline": "Harley-Davidson and workers reach a tentative deal",
+      "category": "Business",
+      "summary": "A strike over pay arrangements interrupts a company known for cooperation with employees. Agreement could restore that cooperation.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1991-02-37"]
+    },
+    {
+      "headline": "Stocks rise while the economy remains weak",
+      "category": "Economy",
+      "summary": "Investors welcome lower oil prices and interest rates. Rising share prices do not mean every business is doing well.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1991-02-40"]
+    },
+    {
+      "headline": "Wal-Mart overtakes Sears",
+      "category": "Business",
+      "summary": "The discount chain becomes the largest North American retailer by sales. Sears is trying to rebuild its appeal.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1991-02-42"]
+    },
+    {
+      "headline": "Bush orders a Gulf cease-fire",
+      "category": "World",
+      "summary": "Kuwait is liberated. President Bush orders a cease-fire after declaring US military objectives met.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["gulf-ceasefire"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (1991-01; approximate)",
+      "value": 5.6,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (1991-01; approximate)",
+      "value": 6.4,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (1991-01; approximate)",
+      "value": 6.9,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (1991-01; approximate)",
+      "value": 8.1,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (1991-01; approximate)",
+      "value": 66.8,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (1991-01; approximate)",
+      "value": -1.0,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 0.2% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:1991-02:walmart",
+      "company_name": "Wal-Mart",
+      "ticker": "WMT",
+      "description": "The discount retailer has passed Sears in North American sales and still has room to expand.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-1991-02-42", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1991-02:harley-davidson",
+      "company_name": "Harley-Davidson",
+      "ticker": "HOG",
+      "description": "The motorcycle maker and its striking workers have reached a tentative contract agreement.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-1991-02-37", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1991-02:ibm",
+      "company_name": "IBM",
+      "ticker": "IBM",
+      "description": "The computer giant is competing for smaller businesses with lower-priced systems.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["ibm-smaller", "asof-stock-prices"]
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:1991-02:walmart",
+      "name": "Wal-Mart",
+      "description": "The discount retailer has passed Sears in North American sales and still has room to expand.",
+      "source_ids": ["news-1991-02-42", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1991-02:harley-davidson",
+      "name": "Harley-Davidson",
+      "description": "The motorcycle maker and its striking workers have reached a tentative contract agreement.",
+      "source_ids": ["news-1991-02-37", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1991-02:ibm",
+      "name": "IBM",
+      "description": "The computer giant is competing for smaller businesses with lower-priced systems.",
+      "source_ids": ["ibm-smaller", "asof-stock-prices"]
+    }
+  ]
+}

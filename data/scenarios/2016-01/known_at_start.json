@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "scenario_id": "2016-01",
+    "date": "2016-01-31",
+    "display_date": "January 31, 2016",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "random",
+      "draw_universe": "calendar-month-ends-1980-2020-expansion-50-v1",
+      "random_seed": "simple-long-term-investing-game/50-scenarios/2026-10-06",
+      "draw_index": 1,
+      "method": "Preregistered FNV-1a/Mulberry32 unbiased draws without replacement from eligible month ends. Preserves six pilots; no outcome screening.",
+      "exclusions": [
+        "Exact duplicates of reserved important dates and retained random pilot dates",
+        "Genuine source or return-history unavailability only"
+      ],
+      "replacement_for": null
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Obama gives his final State of the Union address",
+      "category": "US news",
+      "summary": "The president discusses the country’s future as his last year in office begins.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["state-union"]
+    },
+    {
+      "headline": "Researchers propose a distant ninth planet",
+      "category": "Science",
+      "summary": "Unusual orbits suggest a large unseen planet. Astronomers still need to find it directly.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["planet-nine"]
+    },
+    {
+      "headline": "Angelique Kerber wins the Australian Open",
+      "category": "Sports",
+      "summary": "She defeats Serena Williams in the final to win the women’s singles title.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["kerber-title"]
+    },
+    {
+      "headline": "The Force Awakens breaks a box-office record",
+      "category": "Culture",
+      "summary": "Disney reports a new domestic record in ticket-sales dollars. The total is not adjusted for inflation.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["star-wars-record"]
+    },
+    {
+      "headline": "Boeing sets out its outlook for 2016",
+      "category": "Business",
+      "summary": "The aircraft maker releases quarterly results and plans for the coming year. Forecasts depend on business conditions.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["boeing-results"]
+    },
+    {
+      "headline": "Tesla prepares for another vehicle launch",
+      "category": "Technology",
+      "summary": "The company plans to unveil Model 3 in March after launching Model X. Expanding production remains an important challenge.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["tesla-plans"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (2015-12; approximate)",
+      "value": 0.6,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (2015-12; approximate)",
+      "value": 5,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (2015-12; approximate)",
+      "value": 0.2,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (2015-12; approximate)",
+      "value": 2.2,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (2015-12; approximate)",
+      "value": 92.6,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (2015-12; approximate)",
+      "value": -4.5,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 2.5% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:2016-01:disney",
+      "company_name": "Walt Disney",
+      "ticker": "DIS",
+      "description": "The Force Awakens has become a major box-office success.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["star-wars-record", "asof-stock-prices"],
+      "three_month": -0.15215200388604544,
+      "one_year": 0.06634910480710832
+    },
+    {
+      "id": "hot:2016-01:boeing",
+      "company_name": "Boeing",
+      "ticker": "BA",
+      "description": "The aircraft maker is reporting results and setting delivery expectations for the new year.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["boeing-results", "asof-stock-prices"],
+      "three_month": -0.18367841256385764,
+      "one_year": -0.15264046741302928
+    },
+    {
+      "id": "hot:2016-01:tesla",
+      "company_name": "Tesla Motors",
+      "ticker": "TSLA",
+      "description": "The electric-car maker is adding Model X and preparing to show its next model.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["tesla-plans", "asof-stock-prices"],
+      "three_month": -0.07601599811412774,
+      "one_year": -0.060903677180481286
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:2016-01:disney",
+      "name": "Walt Disney",
+      "description": "The Force Awakens has become a major box-office success.",
+      "source_ids": ["star-wars-record", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2016-01:boeing",
+      "name": "Boeing",
+      "description": "The aircraft maker is reporting results and setting delivery expectations for the new year.",
+      "source_ids": ["boeing-results", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2016-01:tesla",
+      "name": "Tesla Motors",
+      "description": "The electric-car maker is adding Model X and preparing to show its next model.",
+      "source_ids": ["tesla-plans", "asof-stock-prices"]
+    }
+  ],
+  "recent_returns": [
+    {
+      "asset_id": "cash",
+      "three_month": 0.0002000099999999172,
+      "one_year": 0.0002000099999999172,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "bonds",
+      "three_month": -0.002252754300771209,
+      "one_year": 0.008079050241591057,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "us_total",
+      "three_month": -0.07221538054599996,
+      "one_year": -0.02507503471920003,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "international_ex_us",
+      "three_month": -0.09067251772000007,
+      "one_year": -0.07058699795923518,
+      "source_ids": ["asof-broad-proxies"]
+    }
+  ]
+}

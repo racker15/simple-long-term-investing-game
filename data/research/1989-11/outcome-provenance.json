@@ -1,0 +1,35 @@
+{
+  "scenario_id": "1989-11",
+  "sources": [
+    {
+      "id": "hubble-history",
+      "source_name": "NASA: A Chronology of the Hubble Space Telescope",
+      "source_reference": "https://www.nasa.gov/history/hubble/chron.html",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Retrospective chronology of launch and servicing; outcome context only.",
+      "observation_date": "1993-12-31"
+    },
+    {
+      "id": "soviet-collapse",
+      "source_name": "US Office of the Historian: The Collapse of the Soviet Union",
+      "source_reference": "https://history.state.gov/milestones/1989-1992/collapse-soviet-union",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Undated retrospective history; outcome context only.",
+      "observation_date": "1991-12-25"
+    },
+    {
+      "id": "web-release",
+      "source_name": "CERN: The birth of the Web",
+      "source_reference": "https://home.cern/science/computing/the-birth-of-the-web/",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Undated retrospective account of the April 30, 1993 software release.",
+      "observation_date": "1993-04-30"
+    }
+  ]
+}

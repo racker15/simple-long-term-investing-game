@@ -1,0 +1,168 @@
+{
+  "scenario_id": "2011-08",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089337,00.html",
+      "title": "The New Greatest Generation"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089335,00.html",
+      "title": "Lessons in Leadership"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089352,00.html",
+      "title": "All the Candidates' Pork"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089358,00.html",
+      "title": "Autism's Lone Wolf"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089360,00.html",
+      "title": "Scenes from A Revolution"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089336,00.html",
+      "title": "Shammi Kapoor"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089340,00.html",
+      "title": "Marketing China"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089342,00.html",
+      "title": "Milestones"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089345,00.html",
+      "title": "Briefing"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089346,00.html",
+      "title": "Deconstructing a Dollar Decline"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089348,00.html",
+      "title": "World"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089350,00.html",
+      "title": "The Big Questions: By Mark Halperin"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089355,00.html",
+      "title": "Family History"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089357,00.html",
+      "title": "Nancy Wake"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089359,00.html",
+      "title": "Keegan Bradley"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089373,00.html",
+      "title": "Nation"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089331,00.html",
+      "title": "Memory Games"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089334,00.html",
+      "title": "Google Takes Aim"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089338,00.html",
+      "title": "Go with the Floe"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089341,00.html",
+      "title": "Bling vs. Vroom"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089344,00.html",
+      "title": "10 Questions for Kevin Mitnick"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089347,00.html",
+      "title": "Pop Chart"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089349,00.html",
+      "title": "Pimp My Password"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089351,00.html",
+      "title": "That's the Spirit"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089333,00.html",
+      "title": "Firing Bankers for Fun and Profit"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089339,00.html",
+      "title": "It's Obama's Downgrade"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2089353,00.html",
+      "title": "Inbox"
+    }
+  ],
+  "selected_news": [0, 4, 9, 14, 16, 17],
+  "stock_candidates": [
+    {
+      "ticker": "AAPL",
+      "selected": true,
+      "rationale": "Tim Cook takes over as chief executive after Steve Jobs resigns."
+    },
+    {
+      "ticker": "BAC",
+      "selected": true,
+      "rationale": "Berkshire Hathaway agrees to invest. Its special deal has different terms from the ordinary shares you can buy here."
+    },
+    {
+      "ticker": "MSFT",
+      "selected": true,
+      "rationale": "The software maker has agreed to buy Skype, a voice and video communication service."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "DIS",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

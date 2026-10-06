@@ -1,0 +1,35 @@
+{
+  "scenario_id": "1983-05",
+  "sources": [
+    {
+      "id": "nasa-challenger",
+      "source_name": "NASA: Challenger STS-51L accident",
+      "source_reference": "https://www.nasa.gov/challenger-sts-51l-accident/",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Undated retrospective NASA history.",
+      "observation_date": "1986-01-28"
+    },
+    {
+      "id": "reagan-wall",
+      "source_name": "Reagan Presidential Library: The Berlin Wall",
+      "source_reference": "https://www.reaganlibrary.gov/permanent-exhibits/berlin-wall",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Museum exhibit identifies the June 12, 1987 speech; it does not date the fall of the wall to that year.",
+      "observation_date": "1987-06-12"
+    },
+    {
+      "id": "fed-crash1987",
+      "source_name": "Federal Reserve History: Stock Market Crash of 1987",
+      "source_reference": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987",
+      "publication_date": "2013-11-22",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Retrospective history; outcome context only.",
+      "observation_date": "1987-10-19"
+    }
+  ]
+}

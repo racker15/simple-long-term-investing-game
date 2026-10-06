@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "scenario_id": "2013-05",
+    "date": "2013-05-31",
+    "display_date": "May 31, 2013",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "important",
+      "selection_reason": "Debate about the eventual slowing of Federal Reserve asset purchases."
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Several government controversies draw scrutiny",
+      "category": "US news",
+      "summary": "Debates involve the IRS, the Benghazi response and press records. The issues have different facts and investigations.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2013-05-2"]
+    },
+    {
+      "headline": "A toy campaign challenges color stereotypes",
+      "category": "Everyday life",
+      "summary": "A petition asks Hasbro for more Easy-Bake Oven colors. Supporters want children to choose toys without labels about who they are for.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2013-05-8"]
+    },
+    {
+      "headline": "Daft Punk releases Random Access Memories",
+      "category": "Music",
+      "summary": "The duo mixes electronic music with older musical influences. Listeners and critics debate the new sound.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2013-05-9"]
+    },
+    {
+      "headline": "Dan Brown discusses his new novel",
+      "category": "Culture",
+      "summary": "Inferno uses big questions about population and technology in a fictional thriller.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2013-05-10"]
+    },
+    {
+      "headline": "AP phone-record seizure prompts press-freedom concerns",
+      "category": "US news",
+      "summary": "The Justice Department obtains reporters’ phone records in a leak investigation. News organizations challenge the decision.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2013-05-15"]
+    },
+    {
+      "headline": "Immigration proposals face detailed debate",
+      "category": "US news",
+      "summary": "Senators argue over border security and the path toward legal status. Amendments could change the proposed bill.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2013-05-20"]
+    },
+    {
+      "headline": "The Fed weighs how much support the economy needs",
+      "category": "Economy",
+      "summary": "Bernanke says bond purchases could increase or decrease as conditions change. Continued support and eventual reduction are both part of the discussion.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["bernanke-testimony"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (2013-04; approximate)",
+      "value": 1.1,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (2013-04; approximate)",
+      "value": 7.6,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (2013-04; approximate)",
+      "value": 0.1,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (2013-04; approximate)",
+      "value": 1.8,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (2013-04; approximate)",
+      "value": 76.4,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (2013-04; approximate)",
+      "value": 1.7,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 2.3% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:2013-05:hasbro",
+      "company_name": "Hasbro",
+      "ticker": "HAS",
+      "description": "A campaign asks the toy maker for Easy-Bake Oven colors that appeal to more children.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-2013-05-8", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2013-05:tesla",
+      "company_name": "Tesla Motors",
+      "ticker": "TSLA",
+      "description": "The electric-car maker has reported its first quarterly profit.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["tesla-profit", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2013-05:apple",
+      "company_name": "Apple",
+      "ticker": "AAPL",
+      "description": "The company announces a larger program of dividends and share buybacks.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["apple-capital", "asof-stock-prices"]
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:2013-05:hasbro",
+      "name": "Hasbro",
+      "description": "A campaign asks the toy maker for Easy-Bake Oven colors that appeal to more children.",
+      "source_ids": ["news-2013-05-8", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2013-05:tesla",
+      "name": "Tesla Motors",
+      "description": "The electric-car maker has reported its first quarterly profit.",
+      "source_ids": ["tesla-profit", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2013-05:apple",
+      "name": "Apple",
+      "description": "The company announces a larger program of dividends and share buybacks.",
+      "source_ids": ["apple-capital", "asof-stock-prices"]
+    }
+  ]
+}

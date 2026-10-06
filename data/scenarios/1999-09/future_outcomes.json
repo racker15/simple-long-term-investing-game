@@ -3,32 +3,32 @@
   "events": [
     {
       "month": "2000-01",
-      "title": "The millennium rollover causes limited disruption",
-      "description": "The GAO reports limited disruptions following extensive preparation, while documenting some errors and their resolution.",
+      "title": "The year 2000 brings limited computer disruption",
+      "description": "After years of preparation, the date change causes fewer problems than many people feared. Some errors still need fixing.",
       "source_ids": ["gao-y2k"]
     },
     {
       "month": "2000-03",
-      "title": "The Nasdaq reaches its technology-boom peak",
-      "description": "The Nasdaq Composite reaches a closing peak on March 10. Its later decline makes this a turning point in retrospect, not a signal available at the starting date.",
+      "title": "Technology shares reach a peak",
+      "description": "The Nasdaq stock index closes at a high on March 10. It is only later that people can identify this as the peak.",
       "source_ids": ["nasdaq-retrospective"]
     },
     {
       "month": "2001-09",
-      "title": "September 11 attacks disrupt the United States",
-      "description": "Attacks in New York and Washington are followed by a four-day equity trading halt. Markets reopen on September 17 amid central-bank responses.",
+      "title": "The September 11 attacks",
+      "description": "Thousands of people are killed. US stock markets close for four trading days and reopen on September 17.",
       "source_ids": ["september-attacks"]
     },
     {
       "month": "2001-11",
-      "title": "The NBER announces a recession",
-      "description": "The committee identifies March 2001 as the end of the long expansion. Business-cycle dating is retrospective; the turning point was not officially known in March.",
+      "title": "Economists announce a recession",
+      "description": "Researchers say the long period of economic growth ended in March 2001. Their announcement comes in November.",
       "source_ids": ["nber-peak"]
     },
     {
       "month": "2004-06",
-      "title": "The Fed begins raising its policy target",
-      "description": "The Federal Reserve raises its federal funds target from 1% to 1.25%, describing solid economic expansion.",
+      "title": "The Fed starts raising interest rates",
+      "description": "The Federal Reserve raises its target for short-term interest rates from 1% to 1.25% as the economy grows.",
       "source_ids": ["fomc-jun04"]
     }
   ],

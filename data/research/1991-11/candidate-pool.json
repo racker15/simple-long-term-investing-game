@@ -1,0 +1,272 @@
+{
+  "scenario_id": "1991-11",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974319,00.html",
+      "title": "Crime: Fire in the Sanctuary"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974320,00.html",
+      "title": "Elections: Pat for President?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974321,00.html",
+      "title": "Murders: More Death in The Mailroom"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974322,00.html",
+      "title": "Nuptials: A Present From a Prince: A Present From a Prince"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974331,00.html",
+      "title": "American Health Care Condition: Critical"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974336,00.html",
+      "title": "Driving Mr. President"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974338,00.html",
+      "title": "Forward Spin: Nov. 25, 1991"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974345,00.html",
+      "title": "Louisiana The No-Win Election"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974347,00.html",
+      "title": "Oregon's Value Judgment"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974350,00.html",
+      "title": "Politics Why Bigotry Still Works At Election Time"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974358,00.html",
+      "title": "The Gulf Will Do Nicely Without the Planes"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974359,00.html",
+      "title": "The Perks Go on . . . and on . . . and On"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974360,00.html",
+      "title": "The Political Interest The Abortion Issue -- Again"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974363,00.html",
+      "title": "Why the Preacher Is a Grinch"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974318,00.html",
+      "title": "America Abroad"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974329,00.html",
+      "title": "Cambodia One Step Out of a Nightmare"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974330,00.html",
+      "title": "China: Comes the Evolution"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974353,00.html",
+      "title": "Terrorism Solving the Lockerbie Case"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974364,00.html",
+      "title": "Austria: Notch One for Nativism"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974365,00.html",
+      "title": "Kenya: A Death Explained"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974366,00.html",
+      "title": "South Africa: Culling the Springboks"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974367,00.html",
+      "title": "Soviet Union: Face-Off With Boris"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974368,00.html",
+      "title": "Yugoslavia The Human Cost of War"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974342,00.html",
+      "title": "Invasion of The Superbug"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974351,00.html",
+      "title": "Reprieve For Breast Implants"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974352,00.html",
+      "title": "Short Road to Heart Attacks"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974316,00.html",
+      "title": ". . . But You Were Afraid to Ask"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974340,00.html",
+      "title": "How Safe Is Sex?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974355,00.html",
+      "title": "The Dangerous World of Wannabes"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974323,00.html",
+      "title": "Blondie, Meet Herb And Marcy"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974361,00.html",
+      "title": "Time Magazine Contents Page"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974362,00.html",
+      "title": "Time Magazine Masthead Vol. 138 No. 21 NOVEMBER 25, 1991"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974324,00.html",
+      "title": "Advertising: Battling the Bimbo Factor"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974325,00.html",
+      "title": "Airlines: Midway's Hard Landing"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974326,00.html",
+      "title": "Banking: Hunt for the B.C.C.I. Bunch"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974327,00.html",
+      "title": "Entertainment: Snow Job From Up North"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974328,00.html",
+      "title": "Unemployment: A Bit More Cushion"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974346,00.html",
+      "title": "Money Angles: What George -- and You -- Should Do Next"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974348,00.html",
+      "title": "Organized Crime An Offer They Can't Refuse"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974356,00.html",
+      "title": "The Economy Down and Dirty"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974317,00.html",
+      "title": "A Goner from the Git-Go"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974332,00.html",
+      "title": "Critics' Voices: Nov. 25, 1991"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974333,00.html",
+      "title": "Dashing And Demanding"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974335,00.html",
+      "title": "Divorce, Bochco-Style"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974343,00.html",
+      "title": "Art: It's A Steal"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974344,00.html",
+      "title": "Keep An Eye on the Furniture"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974349,00.html",
+      "title": "Playwright's Own Story"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974354,00.html",
+      "title": "The 30-Year Writer's Block"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974357,00.html",
+      "title": "The Ghosts of Studio B"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974337,00.html",
+      "title": "Father Of The Child Within: JOHN BRADSHAW"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974341,00.html",
+      "title": "Interview: MARKUS WOLF"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974339,00.html",
+      "title": "From The Publisher: Nov. 25, 1991"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974334,00.html",
+      "title": "ESSAY David Duke and American Decline"
+    }
+  ],
+  "selected_news": [15, 21, 23, 36, 45],
+  "stock_candidates": [
+    {
+      "ticker": "DIS",
+      "selected": true,
+      "rationale": "Its new animated film Beauty and the Beast brings music and elaborate visual design to cinemas."
+    },
+    {
+      "ticker": "IBM",
+      "selected": true,
+      "rationale": "The computer giant is forming partnerships, including a development agreement with Apple."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": true,
+      "rationale": "The Macintosh maker is working with longtime rival IBM on future computer technology."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "MCD",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "SONY",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

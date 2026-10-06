@@ -1,0 +1,184 @@
+{
+  "scenario_id": "2007-08",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653653,00.html",
+      "title": "Are We Failing Our Geniuses?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653640,00.html",
+      "title": "How Not to Raise a Genius"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653665,00.html",
+      "title": "Rove's Final Retreat"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653634,00.html",
+      "title": "Fighting for a Diploma"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653664,00.html",
+      "title": "Romney's Edge"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653638,00.html",
+      "title": "Requiem for Bat Boy"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653656,00.html",
+      "title": "Taking Aim At the Taliban"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653650,00.html",
+      "title": "Postcard: Spain"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653643,00.html",
+      "title": "When Sadness Is a Good Thing"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653646,00.html",
+      "title": "Dog Days No More."
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653652,00.html",
+      "title": "Dashboard: Aug. 27, 2007"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653644,00.html",
+      "title": "Verbatim: Aug. 27, 2007"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653641,00.html",
+      "title": "Numbers: Aug. 27, 2007"
+    },
+    {
+      "url": "https://content.time.com/time/specials/2007/article/0,28804,1638826_1653932,00.html",
+      "title": "People: Aug. 27, 2007"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653655,00.html",
+      "title": "Milestones Aug. 27, 2007"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653636,00.html",
+      "title": "The TV Mogul with the Common : Merv Griffin"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653672,00.html",
+      "title": "The Last Grande Dame: Brooke Astor"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653635,00.html",
+      "title": "Ground Zero of the Real Estate Bust"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653659,00.html",
+      "title": "Why We Buy the Products We Buy"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653666,00.html",
+      "title": "Profiting from the Unbanked"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653648,00.html",
+      "title": "Where Are the Women Coaches?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653663,00.html",
+      "title": "How Zac Efron Became the Cutest Guy Ever"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653657,00.html",
+      "title": "Once More, with (Chaste) Feeling"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653637,00.html",
+      "title": "Green Screens"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653649,00.html",
+      "title": "A Spy Tale with A Bitter Taste"
+    },
+    {
+      "url": "https://content.time.com/time/specials/2007/article/0,28804,1623143_1653966,00.html",
+      "title": "Downtime"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653660,00.html",
+      "title": "10 Questions for Rafael Nadal"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653647,00.html",
+      "title": "Inbox: Aug. 27, 2007"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653639,00.html",
+      "title": "Hip-hop's Down Beat"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653654,00.html",
+      "title": "Building a Dream"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1653658,00.html",
+      "title": "The Investment of St. Andrews"
+    }
+  ],
+  "selected_news": [0, 17, 18, 20, 21, 23],
+  "stock_candidates": [
+    {
+      "ticker": "LEN",
+      "selected": true,
+      "rationale": "The homebuilder advertises new houses in a market where buyers are receiving large incentives."
+    },
+    {
+      "ticker": "KBH",
+      "selected": true,
+      "rationale": "The builder faces a weakening housing market and pressure to attract buyers."
+    },
+    {
+      "ticker": "DIS",
+      "selected": true,
+      "rationale": "High School Musical has become a prominent part of its youth entertainment business."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

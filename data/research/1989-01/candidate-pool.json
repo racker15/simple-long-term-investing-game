@@ -1,0 +1,272 @@
+{
+  "scenario_id": "1989-01",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956811,00.html",
+      "title": "There's Been a Certain Liberation"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956812,00.html",
+      "title": "A Brightly Colored Tinderbox"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956815,00.html",
+      "title": "Aviation: Two Engines Are Better"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956816,00.html",
+      "title": "Baseball: Ninth-Inning Pardon"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956817,00.html",
+      "title": "Ethics: Experience Required"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956818,00.html",
+      "title": "Justice: The Last Word On Meese"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956819,00.html",
+      "title": "New York City: Bark, You're on Canine Camera"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956828,00.html",
+      "title": "George Bush: A New Breeze Is Blowing"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956847,00.html",
+      "title": "Slaughter in A School Yard"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956850,00.html",
+      "title": "The Education of a Standby"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956851,00.html",
+      "title": "The Gipper Says Goodbye"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956832,00.html",
+      "title": "Czechoslovakia:  Actions Speak Louder"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956833,00.html",
+      "title": "El Salvador An Offer They Couldn't Refuse"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956836,00.html",
+      "title": "Israel A Moral Dilemma"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956837,00.html",
+      "title": "Kampuchea Is Peace at Hand?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956848,00.html",
+      "title": "Soviet Union The Shaky Fortunes of Gorby Inc."
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956858,00.html",
+      "title": "West Germany Anger and Recrimination"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956859,00.html",
+      "title": "Poland: Never Say Never"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956860,00.html",
+      "title": "Brazil: A Fiscal Deep Freeze"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956861,00.html",
+      "title": "Britain: City of Filth"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956862,00.html",
+      "title": "Diplomacy: Talking About Talks"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956863,00.html",
+      "title": "Iraq: The Poison This Time"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956846,00.html",
+      "title": "Health & Fitness: Shortcut to The Rambo Look"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956849,00.html",
+      "title": "Medicine: Special Report: Good and Bad News About AIDS"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956853,00.html",
+      "title": "Medicine: The Other Dangers of Close Encounters"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956829,00.html",
+      "title": "Press: Covering The Bush White House"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956855,00.html",
+      "title": "Time Magazine Contents Page Vol. 133 No. 5 JANUARY 30, 1989"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956856,00.html",
+      "title": "Time Magazine Masthead Vol. 133 No. 5 JANUARY 30, 1989"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956820,00.html",
+      "title": "Boskin: I Have a Lot of Strong Principles"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956821,00.html",
+      "title": "BAD DEBTS: Paying Off the Czar's IOUs"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956822,00.html",
+      "title": "CONSUMER ELECTRONICS: A Little on The High Side"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956823,00.html",
+      "title": "HOMESTEADING: Go North, Young Man!"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956824,00.html",
+      "title": "OIL: So Happy Together?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956825,00.html",
+      "title": "TOBACCO: Less Smoke, More Fire"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956830,00.html",
+      "title": "FBI: Crackdown on The Chicago Boys"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956835,00.html",
+      "title": "Hitsville Goes Hollywood"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956838,00.html",
+      "title": "Knitting New Notions: U.S. economists jettison Reagan formulas"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956840,00.html",
+      "title": "One Toe over The Line:Banks get the go-ahead to enter Wall Street turf"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956857,00.html",
+      "title": "Education: To Conquer Fear of Counting"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956839,00.html",
+      "title": "Law: Let Punishment Fit the Crime"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956844,00.html",
+      "title": "Law: Sculpture Clash"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956813,00.html",
+      "title": "Art: Goya, A Despairing Assault on Terminal Evil"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956814,00.html",
+      "title": "Theater: A Ghostly Past, in Ragtime"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956826,00.html",
+      "title": "Music: Chocolate-Covered Razor Blades And other treats from a fun funk band"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956827,00.html",
+      "title": "Books: Clockwork Plot"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956831,00.html",
+      "title": "Critics' Choice: Jan. 30, 1989"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956841,00.html",
+      "title": "Cinema: Pedro on The Verge of a Nervy Breakthrough"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956843,00.html",
+      "title": "Books: Sallie's Turn"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956845,00.html",
+      "title": "Music: Second Storming of the Bastille"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956852,00.html",
+      "title": "Video: The History of the Bomb"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956842,00.html",
+      "title": "Running As His Own Man:  RONALD BROWN"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956834,00.html",
+      "title": "From the Publisher: Jan 30 1989"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,956854,00.html",
+      "title": "Essay: The Secret of Our Success"
+    }
+  ],
+  "selected_news": [7, 17, 30, 32, 36, 38],
+  "stock_candidates": [
+    {
+      "ticker": "BA",
+      "selected": true,
+      "rationale": "The aircraft maker is handling a large backlog of new airline orders."
+    },
+    {
+      "ticker": "IBM",
+      "selected": true,
+      "rationale": "The computer giant is refreshing its products while rivals challenge its position."
+    },
+    {
+      "ticker": "XOM",
+      "selected": true,
+      "rationale": "A large oil producer in an industry watching a rebound in crude prices."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "DIS",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "MCD",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

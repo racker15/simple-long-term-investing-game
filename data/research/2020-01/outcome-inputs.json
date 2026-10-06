@@ -1,0 +1,69 @@
+{
+  "scenario_id": "2020-01",
+  "events": [
+    {
+      "month": "2020-03",
+      "title": "WHO describes COVID-19 as a pandemic",
+      "description": "The coronavirus outbreak has spread widely across countries.",
+      "source_ids": ["pandemic"]
+    },
+    {
+      "month": "2020-12",
+      "title": "WHO lists a COVID-19 vaccine for emergency use",
+      "description": "Its first such listing supports wider access to the Pfizer-BioNTech vaccine.",
+      "source_ids": ["vaccine"]
+    },
+    {
+      "month": "2021-01",
+      "title": "Tesla reports nearly half a million deliveries",
+      "description": "The company says it delivered about 500,000 vehicles in 2020. Deliveries measure activity, not profit.",
+      "source_ids": ["tesla-deliveries"]
+    },
+    {
+      "month": "2022-03",
+      "title": "The Fed starts raising interest rates",
+      "description": "It raises its target for short-term rates as inflation remains high.",
+      "source_ids": ["rates-2022"]
+    },
+    {
+      "month": "2022-07",
+      "title": "Webb reveals new views of space",
+      "description": "NASA releases a full set of images from the powerful space telescope.",
+      "source_ids": ["webb"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Tesla grew to more than nine times its starting value. The US share basket roughly doubled, while Boeing lost about 44% and Disney about 17%. Bonds ended slightly lower. The same five years could produce a huge gain or a lasting loss, depending on what you owned.\n\nIn January 2021, Tesla reported delivering nearly half a million vehicles during 2020. That is a concrete business result, but vehicle deliveries and profit are different measures.\n\nWHO described COVID-19 as a pandemic in March 2020. Its first emergency-use vaccine listing came that December. Later, the Fed began raising interest rates in March 2022, and Webb released its first full set of scientific images in July. The years brought both disruption and progress.\n\nThe contrast between Tesla and Boeing is enormous, but the starting page did not contain their final ranking. It included a health emergency and company problems whose later scale was uncertain. Boeing’s fall also shows that five years does not guarantee recovery to your purchase price. A broad basket reduced reliance on any one company, while its own value still moved up and down along the way.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ba",
+      "yahoo-tsla",
+      "yahoo-dis",
+      "pandemic",
+      "vaccine",
+      "rates-2022",
+      "webb",
+      "tesla-deliveries"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "The new coronavirus was an international emergency. Boeing faced grounded planes, Disney celebrated a film, and Britain prepared to leave the EU.",
+    "what_actually_mattered": "Single-company risks mattered. A basket spread money among many businesses, while a single share tied the result to one company’s fortunes.",
+    "what_faded_away": "A box-office record or a profitable quarter did not protect a company from later shocks. Starting news described only part of the risk.",
+    "what_nobody_knew": "People did not yet know how far the outbreak would spread or how economies would respond. The exact winners and losses were also unknown.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ba",
+      "yahoo-tsla",
+      "yahoo-dis",
+      "pandemic",
+      "vaccine",
+      "rates-2022",
+      "webb"
+    ]
+  }
+}

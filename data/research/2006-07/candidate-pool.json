@@ -1,0 +1,188 @@
+{
+  "scenario_id": "2006-07",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218058,00.html",
+      "title": "Six Keys to Peace"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218051,00.html",
+      "title": "What Was He Thinking?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218062,00.html",
+      "title": "Inside Hizballah"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218049,00.html",
+      "title": "Hizballah Nation"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218048,00.html",
+      "title": "Why Iran Isn't Cheering"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218063,00.html",
+      "title": "The Damage Done"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218061,00.html",
+      "title": "Stem Cell Central"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218053,00.html",
+      "title": "Milestones Jul. 31, 2006"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218054,00.html",
+      "title": "What's Next: Jul. 31, 2006"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218055,00.html",
+      "title": "Illegals? Not In These Towns"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218064,00.html",
+      "title": "Lieberman's Last Stand"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218067,00.html",
+      "title": "A Battle for Military Bucks"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218069,00.html",
+      "title": "Where's the Buzz?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218070,00.html",
+      "title": "Update: Jul. 31, 2006"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218073,00.html",
+      "title": "Verbatim: Jul. 31, 2006"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218074,00.html",
+      "title": "Punchlines: Jul. 31, 2006"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218075,00.html",
+      "title": "Numbers: Jul. 31, 2006"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218076,00.html",
+      "title": "It's All Relative"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218080,00.html",
+      "title": "Need To Know: The Rising Toll in Iraq"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218059,00.html",
+      "title": "Back Into History"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218060,00.html",
+      "title": "The Rise and Fall of Ralph Reed"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218046,00.html",
+      "title": "Inside the Head of the New Fed Chief"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218065,00.html",
+      "title": "Can Dell Mount a Comeback?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218052,00.html",
+      "title": "Miami Without the Pastels"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218072,00.html",
+      "title": "Tony Bennett's Guide To Intimacy"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218077,00.html",
+      "title": "6 Restaurant Cookbooks to Keep You Dining In"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218057,00.html",
+      "title": "A Car Salesman You Can Trust"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218078,00.html",
+      "title": "Back To The '80s"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218056,00.html",
+      "title": "10 Questions For Morgan Spurlock"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218068,00.html",
+      "title": "People: Jul. 31, 2006"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218079,00.html",
+      "title": "Letters: Jul. 31, 2006"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1218047,00.html",
+      "title": "Guys Just Want to Have Fun"
+    }
+  ],
+  "selected_news": [0, 6, 21, 22, 24, 26],
+  "stock_candidates": [
+    {
+      "ticker": "HPQ",
+      "selected": true,
+      "rationale": "The computer maker is gaining ground while rival Dell struggles with slower growth."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": true,
+      "rationale": "The maker of Macs and iPods has reported rising sales and earnings."
+    },
+    {
+      "ticker": "MSFT",
+      "selected": true,
+      "rationale": "The company is preparing Windows Vista, with broad consumer availability planned for January 2007."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "DIS",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

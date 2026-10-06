@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "scenario_id": "2003-03",
+    "date": "2003-03-31",
+    "display_date": "March 31, 2003",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "important",
+      "selection_reason": "The invasion of Iraq amid uncertainty about economic recovery."
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Protesters oppose the Iraq war",
+      "category": "World",
+      "summary": "Demonstrations take place in US cities as the invasion begins. Participants call for an end to the fighting.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2003-03-1"]
+    },
+    {
+      "headline": "The United States begins an invasion of Iraq",
+      "category": "World",
+      "summary": "US-led forces attack Iraq. The fighting raises urgent questions about people’s safety and the country’s future.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2003-03-3"]
+    },
+    {
+      "headline": "Asian contemporary art reaches new audiences",
+      "category": "Culture",
+      "summary": "Exhibitions introduce visitors to artists using installations, painting and other forms to explore their experiences.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2003-03-12"]
+    },
+    {
+      "headline": "Specialty yogurts appear in more shops",
+      "category": "Everyday life",
+      "summary": "Shoppers find new styles and different kinds of milk. Producers compete with familiar supermarket brands.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2003-03-15"]
+    },
+    {
+      "headline": "Initials become a fashion trend",
+      "category": "Business",
+      "summary": "Shops put customers’ initials on bags, sweaters and accessories. Offering so many versions can complicate production.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2003-03-16"]
+    },
+    {
+      "headline": "Investors debate how war could affect the economy",
+      "category": "Economy",
+      "summary": "Some analysts expect renewed spending if uncertainty eases. Their outlook depends on events going well and could be wrong.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2003-03-18"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (2003-02; approximate)",
+      "value": 3.1,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (2003-02; approximate)",
+      "value": 5.9,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (2003-02; approximate)",
+      "value": 1.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (2003-02; approximate)",
+      "value": 3.9,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (2003-02; approximate)",
+      "value": 79.9,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (2003-02; approximate)",
+      "value": 3.2,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "An economist quoted by TIME expects about 3.5% annual growth in the second half of 2003. That forecast assumes the war goes well and no major new attack occurs.",
+      "source_ids": ["news-2003-03-18"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:2003-03:costco",
+      "company_name": "Costco",
+      "ticker": "COST",
+      "description": "The warehouse retailer is among value-focused stores drawing investor attention.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-2003-03-18", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2003-03:intel",
+      "company_name": "Intel",
+      "ticker": "INTC",
+      "description": "The chip maker is discussed as a possible beneficiary of renewed business investment.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-2003-03-18", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2003-03:merck",
+      "company_name": "Merck",
+      "ticker": "MRK",
+      "description": "The medicine maker attracts attention from investors seeking dividend-paying companies.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-2003-03-18", "asof-stock-prices"]
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:2003-03:costco",
+      "name": "Costco",
+      "description": "The warehouse retailer is among value-focused stores drawing investor attention.",
+      "source_ids": ["news-2003-03-18", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2003-03:intel",
+      "name": "Intel",
+      "description": "The chip maker is discussed as a possible beneficiary of renewed business investment.",
+      "source_ids": ["news-2003-03-18", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2003-03:merck",
+      "name": "Merck",
+      "description": "The medicine maker attracts attention from investors seeking dividend-paying companies.",
+      "source_ids": ["news-2003-03-18", "asof-stock-prices"]
+    }
+  ]
+}

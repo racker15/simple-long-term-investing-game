@@ -1,0 +1,35 @@
+{
+  "scenario_id": "2020-03",
+  "sources": [
+    {
+      "id": "vaccine",
+      "source_name": "WHO: First emergency-use validation for a COVID-19 vaccine",
+      "source_reference": "https://www.who.int/news/item/31-12-2020-who-issues-its-first-emergency-use-validation-for-a-covid-19-vaccine-and-emphasizes-need-for-equitable-global-access",
+      "publication_date": "2020-12-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "WHO listing, not the first national authorization worldwide.",
+      "observation_date": "2020-12-31"
+    },
+    {
+      "id": "rates-2022",
+      "source_name": "Federal Reserve: March 16 2022 policy statement",
+      "source_reference": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm",
+      "publication_date": "2022-03-16",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Raises target range to 0.25–0.5 percent.",
+      "observation_date": "2022-03-16"
+    },
+    {
+      "id": "webb",
+      "source_name": "NASA JPL: Webb first images of unseen universe",
+      "source_reference": "https://www.jpl.nasa.gov/news/nasa-reveals-webb-telescopes-first-images-of-unseen-universe/",
+      "publication_date": "2022-07-12",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "First full set of scientific images.",
+      "observation_date": "2022-07-12"
+    }
+  ]
+}

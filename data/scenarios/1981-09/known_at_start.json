@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "scenario_id": "1981-09",
+    "date": "1981-09-30",
+    "display_date": "September 30, 1981",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "random",
+      "draw_universe": "calendar-month-ends-1980-2020-expansion-50-v1",
+      "random_seed": "simple-long-term-investing-game/50-scenarios/2026-10-06",
+      "draw_index": 4,
+      "method": "Preregistered FNV-1a/Mulberry32 unbiased draws without replacement from eligible month ends. Preserves six pilots; no outcome screening.",
+      "exclusions": [
+        "Exact duplicates of reserved important dates and retained random pilot dates",
+        "Genuine source or return-history unavailability only"
+      ],
+      "replacement_for": null
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Another budget battle takes shape",
+      "category": "US news",
+      "summary": "Reagan seeks more spending cuts while critics question whether tax cuts and military spending can fit a balanced budget.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1981-09-0"]
+    },
+    {
+      "headline": "Moscow warns Poland over Solidarity",
+      "category": "World",
+      "summary": "Soviet leaders demand action against the independent union. Solidarity’s leaders resist the pressure.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1981-09-12"]
+    },
+    {
+      "headline": "Old Inca canals may help modern farmers",
+      "category": "Science",
+      "summary": "Archaeologists in Peru restore ancient waterways to bring water back to dry farmland.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1981-09-20"]
+    },
+    {
+      "headline": "Sugar Ray Leonard wins a major boxing title",
+      "category": "Sports",
+      "summary": "Leonard defeats Thomas Hearns to unite the world welterweight championship.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1981-09-29"]
+    },
+    {
+      "headline": "Major airlines begin a fare war",
+      "category": "Business",
+      "summary": "Pan Am cuts fares sharply, and rivals respond. Bargain tickets arrive while the air-control system is still rebuilding.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1981-09-30"]
+    },
+    {
+      "headline": "France plans to take over private banks",
+      "category": "Economy",
+      "summary": "The government moves toward state ownership of major private banks. Supporters and critics disagree about the likely effects.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1981-09-33"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (1981-08; approximate)",
+      "value": 10.8,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (1981-08; approximate)",
+      "value": 7.4,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (1981-08; approximate)",
+      "value": 17.8,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (1981-08; approximate)",
+      "value": 14.9,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (1981-08; approximate)",
+      "value": 77.2,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (1981-08; approximate)",
+      "value": 6,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The quarterly survey’s middle forecast expects roughly 2.1% growth next quarter at an annual pace. High rates and budget disputes still make the outlook hard to judge.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:1981-09:ibm",
+      "company_name": "IBM",
+      "ticker": "IBM",
+      "description": "Its new personal computer brings a giant into the home-computer contest.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["ibm-pc", "asof-stock-prices"],
+      "three_month": -0.05081054220796577,
+      "one_year": -0.10727721823108283
+    },
+    {
+      "id": "hot:1981-09:coca-cola",
+      "company_name": "Coca-Cola",
+      "ticker": "KO",
+      "description": "Coke and Pepsi compete fiercely for buyers around the world.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["coke-rivalry", "asof-stock-prices"],
+      "three_month": -0.010558639375303103,
+      "one_year": 0.1197958797047054
+    },
+    {
+      "id": "hot:1981-09:exxon",
+      "company_name": "Exxon",
+      "ticker": "XOM",
+      "description": "The oil giant faces weaker demand and lower industry profits.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["oil-profits", "asof-stock-prices"],
+      "three_month": -0.07169812784274865,
+      "one_year": -0.030503097294787507
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:1981-09:ibm",
+      "name": "IBM",
+      "description": "Its new personal computer brings a giant into the home-computer contest.",
+      "source_ids": ["ibm-pc", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1981-09:coca-cola",
+      "name": "Coca-Cola",
+      "description": "Coke and Pepsi compete fiercely for buyers around the world.",
+      "source_ids": ["coke-rivalry", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1981-09:exxon",
+      "name": "Exxon",
+      "description": "The oil giant faces weaker demand and lower industry profits.",
+      "source_ids": ["oil-profits", "asof-stock-prices"]
+    }
+  ],
+  "recent_returns": [
+    {
+      "asset_id": "cash",
+      "three_month": 0.03807316812799977,
+      "one_year": 0.14796817325928013,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "bonds",
+      "three_month": -0.030979221702648108,
+      "one_year": -0.018311020893887142,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "us_total",
+      "three_month": -0.11623289742999998,
+      "one_year": -0.020083882623604943,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "international_ex_us",
+      "three_month": -0.12326112094000008,
+      "one_year": -0.10009982681959206,
+      "source_ids": ["asof-broad-proxies"]
+    }
+  ]
+}

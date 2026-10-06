@@ -1,0 +1,196 @@
+{
+  "scenario_id": "1998-08",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,989003,00.html",
+      "title": "Russia: Yeltsin's Desperate Gamble"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,989004,00.html",
+      "title": "Is The IMF Killing Off Its Patients?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,989005,00.html",
+      "title": "Mystery In The Details"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,989006,00.html",
+      "title": "Faith Or Healing?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,989016,00.html",
+      "title": "Notebook: Aug. 31, 1998"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,989017,00.html",
+      "title": "Going All Out for Scandal"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,989018,00.html",
+      "title": "Milestones Aug. 31, 1998"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,988994,00.html",
+      "title": "Some Special Timing"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,989007,00.html",
+      "title": "The Few, The Proud, The Bus Riders"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,989009,00.html",
+      "title": "President Gantry Addresses the Flock"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,989010,00.html",
+      "title": "Art: Bonnard: A Shimmer Of Hints"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,989015,00.html",
+      "title": "Theater: Humming the Sets"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,989011,00.html",
+      "title": "What's In A Name?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,989012,00.html",
+      "title": "Follow The Teacher"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,989013,00.html",
+      "title": "A Risky Fashion"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,989019,00.html",
+      "title": "Your Money: Aug. 31, 1998"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,989020,00.html",
+      "title": "Your Technology Aug. 31, 1998"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,988987,00.html",
+      "title": "Bill Clinton: I Misled People"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,988988,00.html",
+      "title": "Devil Of A Blue Dress:"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,988989,00.html",
+      "title": "How to Survive The Scandal"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,988990,00.html",
+      "title": "Why Bill Clinton's Speech Will Live In Infamy"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,988991,00.html",
+      "title": "The View From Congress"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,988992,00.html",
+      "title": "Blowing His Stack"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,988993,00.html",
+      "title": "Lies, Tight Spots (and other near death experiences)"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,988995,00.html",
+      "title": "How We Really Feel About Fidelity"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,988996,00.html",
+      "title": "Finally, The Telltale Lie"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,988997,00.html",
+      "title": "Is This What We Expect?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,988998,00.html",
+      "title": "Lies My Presidents Told Me"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,988999,00.html",
+      "title": "Justice Should Come Before Closure"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,989000,00.html",
+      "title": "That's Where He Lost Me"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,989001,00.html",
+      "title": "Leading by Leaving"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,989002,00.html",
+      "title": "Can We Get On to Something Serious?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,989008,00.html",
+      "title": "People: Aug. 31, 1998"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,989014,00.html",
+      "title": "Letters: Aug. 31, 1998"
+    }
+  ],
+  "selected_news": [0, 1, 8, 10, 13, 16],
+  "stock_candidates": [
+    {
+      "ticker": "AAPL",
+      "selected": true,
+      "rationale": "Its new iMac has attracted strong early sales."
+    },
+    {
+      "ticker": "AMZN",
+      "selected": true,
+      "rationale": "The online bookstore has expanded into selling music."
+    },
+    {
+      "ticker": "MSFT",
+      "selected": true,
+      "rationale": "The software maker faces an antitrust lawsuit and disputes the government’s claims."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "DIS",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

@@ -1,0 +1,328 @@
+{
+  "scenario_id": "2000-03",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996429,00.html",
+      "title": "Aye, Aye, Ma'am"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996430,00.html",
+      "title": "Campaign 2000: Who Gets the 'A' in Education?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996431,00.html",
+      "title": "Campaign 2000: Blinded by the Light"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996432,00.html",
+      "title": "Pause in the Shootout"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996433,00.html",
+      "title": "Too Close Encounters"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996437,00.html",
+      "title": "The Faces Of India's Future"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996438,00.html",
+      "title": "Investing In India: How to Take a Plunge in Bombay"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996439,00.html",
+      "title": "Taiwan Takes a Stand"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996440,00.html",
+      "title": "Strait Talk"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996445,00.html",
+      "title": "Linking Man To a Monkey"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996446,00.html",
+      "title": "Cloning the New Babes"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996467,00.html",
+      "title": "Jewel From The Past: A Dino Named Bambi"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996463,00.html",
+      "title": "Notebook: Mar. 27, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996464,00.html",
+      "title": "The South"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996465,00.html",
+      "title": "Pep-Rallying the Market"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996466,00.html",
+      "title": "Milestones Mar. 27, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996469,00.html",
+      "title": "The Great Debate Debate"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996472,00.html",
+      "title": "Fight the Power, Part II"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996477,00.html",
+      "title": "Appreciation: Dan Marino"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996480,00.html",
+      "title": "For Your Consideration..."
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996481,00.html",
+      "title": "Ask Dr. Notebook"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996482,00.html",
+      "title": "Saints: Luckily, II, III, IV, VI, VII, VIII and XI Are Still Available"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996483,00.html",
+      "title": "The Presidential Race"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996484,00.html",
+      "title": "Numbers: Mar. 27, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996434,00.html",
+      "title": "They Have a Scheme"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996435,00.html",
+      "title": "Thanks for Asking"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996443,00.html",
+      "title": "Everyone's A Star.Com"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996449,00.html",
+      "title": "Is It Enough to Be Sorry?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996450,00.html",
+      "title": "The Pudding Prince of Frequent-Flyer Miles"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996462,00.html",
+      "title": "News Quiz Crossword Mar. 27, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996468,00.html",
+      "title": "Contributors: Mar. 27, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996470,00.html",
+      "title": "E-Publishing: Boo! How He Startled the Book World"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996475,00.html",
+      "title": "The Free Juke Box"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996479,00.html",
+      "title": "Digital Recording: Sex, Drugs, Rock 'n' Roll And a Good, Fast Modem"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996485,00.html",
+      "title": "Internet Radio: Live from Your Basement..."
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996441,00.html",
+      "title": "Far From Home"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996442,00.html",
+      "title": "Why Libya Wants In"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996444,00.html",
+      "title": "Digital Dreamer"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996473,00.html",
+      "title": "A Win for Gays"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996447,00.html",
+      "title": "History: The Amistad Sails Again"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996451,00.html",
+      "title": "Theater: Can You Feel a Hit Tonight?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996452,00.html",
+      "title": "Music: 'N Sync's Latest Dish"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996457,00.html",
+      "title": "Books: Portrait of a Dark Lady"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996458,00.html",
+      "title": "Moving Up"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996459,00.html",
+      "title": "Television: Fighting Inner Demons"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996460,00.html",
+      "title": "Television: Shadowland"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996476,00.html",
+      "title": "Books: Rebel Son"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996486,00.html",
+      "title": "Music: Let's Get Free"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996487,00.html",
+      "title": "Music: Kisses In The Rain"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996488,00.html",
+      "title": "Cinema: The Ninth Gate"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996489,00.html",
+      "title": "The Audrey Hepburn Story"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996490,00.html",
+      "title": "Cinema: Waking The Dead"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996453,00.html",
+      "title": "So, Who Cares?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996454,00.html",
+      "title": "Beware the Cult"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996455,00.html",
+      "title": "Finding Granddad"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996456,00.html",
+      "title": "Affair of the Heart"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996471,00.html",
+      "title": "In Brief: Mar. 27, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996474,00.html",
+      "title": "More Heart News"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996478,00.html",
+      "title": "In Brief: Mar. 27, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996491,00.html",
+      "title": "In Brief: Mar. 27, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996425,00.html",
+      "title": "Travel: 12 Terrific Train Trips"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996426,00.html",
+      "title": "Travel: Lessons From The City Of New Orleans"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996427,00.html",
+      "title": "Travel: Riding The Bullet That Is Yet To Be Fired"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996428,00.html",
+      "title": "Tribute: When Politics Rode the Rails"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996448,00.html",
+      "title": "People: Mar. 27, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996436,00.html",
+      "title": "Award Time"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,996461,00.html",
+      "title": "Letters: Mar. 27, 2000"
+    }
+  ],
+  "selected_news": [7, 11, 18, 28, 31, 34],
+  "stock_candidates": [
+    {
+      "ticker": "CSCO",
+      "selected": true,
+      "rationale": "The networking-equipment company is expanding into optical transport through acquisition agreements."
+    },
+    {
+      "ticker": "MSFT",
+      "selected": true,
+      "rationale": "The major software maker is involved in a government case about competition."
+    },
+    {
+      "ticker": "AMZN",
+      "selected": true,
+      "rationale": "The online retailer is broadening its marketplace for outside sellers."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

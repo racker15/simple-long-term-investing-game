@@ -1,0 +1,62 @@
+{
+  "scenario_id": "1989-01",
+  "events": [
+    {
+      "month": "1989-11",
+      "title": "The Berlin Wall opens",
+      "description": "East Germans begin crossing the border freely. The change becomes a powerful symbol of a changing Europe.",
+      "source_ids": ["wall-opens"]
+    },
+    {
+      "month": "1990-04",
+      "title": "Hubble launches into orbit",
+      "description": "The space telescope leaves Earth aboard Discovery. Its first images later reveal a flaw in the main mirror.",
+      "source_ids": ["hubble-history"]
+    },
+    {
+      "month": "1991-12",
+      "title": "The Soviet Union breaks apart",
+      "description": "Gorbachev resigns as Soviet president. Independent states take the place of the union.",
+      "source_ids": ["soviet-collapse"]
+    },
+    {
+      "month": "1993-04",
+      "title": "Web software becomes free to use",
+      "description": "CERN releases its World Wide Web software into the public domain, helping others build on it.",
+      "source_ids": ["web-release"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "The US share basket finished first among these choices. Exxon and Boeing also gained, while IBM lost nearly half its value. An investor could be right that computers would remain important and still lose money in a particular computer company's shares.\n\nMajor political changes unfolded during the same years. The Berlin Wall opened in 1989. The Soviet Union broke apart in 1991. Hubble went into orbit, and CERN later made its World Wide Web software free to use. These events changed the world people lived in, but they did not make every investment move together.\n\nA basket of many companies spread the effect of one company's troubles. Cash and government bonds offered different paths again. None of these choices required guessing the exact order of the three featured shares.\n\nThe finished chart makes the comparison easy. In January 1989, people had company reports, news and forecasts, but no list of future winners. A confident explanation about a business could still leave out risks that appeared later.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ba",
+      "yahoo-ibm",
+      "yahoo-xom",
+      "wall-opens",
+      "hubble-history",
+      "soviet-collapse",
+      "web-release"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "A new US president took office, Poland considered political change, and oil prices were rising again.",
+    "what_actually_mattered": "The seven paths were very different. A broad basket spread the effect of company troubles; cash and bonds earned returns through a different mix of risks.",
+    "what_faded_away": "An inaugural speech and a short-term oil-price move could not reveal which investment would lead five years later.",
+    "what_nobody_knew": "Nobody knew the exact path of world politics or IBM’s later decline. Being well known was not protection against losing money.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ba",
+      "yahoo-ibm",
+      "yahoo-xom",
+      "wall-opens",
+      "hubble-history",
+      "soviet-collapse",
+      "web-release"
+    ]
+  }
+}

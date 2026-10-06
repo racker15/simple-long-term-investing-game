@@ -1,0 +1,54 @@
+{
+  "scenario_id": "2005-09",
+  "events": [
+    {
+      "month": "2007-01",
+      "title": "Apple announces the iPhone",
+      "description": "A touchscreen device combines phone, music and internet functions.",
+      "source_ids": ["iphone"]
+    },
+    {
+      "month": "2008-09",
+      "title": "The financial crisis intensifies",
+      "description": "Lehman Brothers files for bankruptcy. Authorities support other financial firms as stress spreads.",
+      "source_ids": ["financial-crisis"]
+    },
+    {
+      "month": "2010-04",
+      "title": "Deepwater Horizon disaster",
+      "description": "An offshore drilling explosion kills workers and leads to a major oil spill.",
+      "source_ids": ["deepwater"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Disney led these choices, while Toyota lost value. Bonds gained more than either broad share basket. The five years included the financial crisis, which made the journey difficult even for investments that finished higher. Strong business news at the start did not guarantee a strong stock return.\n\nApple announced the iPhone in 2007. In September 2008, Lehman Brothers filed for bankruptcy as the financial crisis intensified. The Deepwater Horizon disaster followed in 2010, killing workers and causing a major oil spill. These were very different kinds of events within the same holding period.\n\nToyota’s loss does not mean its starting plans were foolish, and Disney’s gain does not make every entertainment share a good choice. A plan must meet competition, costs and events that have not happened yet. Bonds provided another kind of investment, with a different path from company shares. Looking at that mix is more useful than assuming the most impressive starting announcement must produce the best final balance.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-tm",
+      "yahoo-dis",
+      "yahoo-xom",
+      "iphone",
+      "financial-crisis",
+      "deepwater"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "Katrina recovery, energy supplies and competition in cars and entertainment were prominent concerns.",
+    "what_actually_mattered": "The mix of assets mattered through a severe financial shock. A famous company could finish below its starting value while a government-bond estimate gained.",
+    "what_faded_away": "A record earnings announcement described a past quarter, not the next five years. A confident new leader also had no control over every event ahead.",
+    "what_nobody_knew": "The crisis and the exact investment ranking were unknown. Today’s chart makes a difficult period look much simpler than it was.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-tm",
+      "yahoo-dis",
+      "yahoo-xom",
+      "iphone",
+      "financial-crisis",
+      "deepwater"
+    ]
+  }
+}

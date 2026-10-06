@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "yahoo-wmt",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/WMT/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/WMT?period1=633830400&period2=667785600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "WMT",
+      "raw_path": "data/raw/stocks/1991-02/starting-WMT.json",
+      "sha256": "2d85ed7c709fc1a2fab6a73fcc8777b886dd33829a1a3382cb0c3b4ab56ec782",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid trading-day adjusted close in each calendar month; adjacent ratio minus one. Includes vendor dividend/split adjustments; do not add dividends again. Retrospective reconstruction, not an original historical database vintage. Normalized endpoints are committed for reproducible offline calculations."
+    },
+    {
+      "id": "yahoo-hog",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/HOG/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/HOG?period1=633830400&period2=667785600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "HOG",
+      "raw_path": "data/raw/stocks/1991-02/starting-HOG.json",
+      "sha256": "1c646ed3cf492cccec3dd2d3ee73dce22da59f0edb8fa93559fdd878c25550df",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid trading-day adjusted close in each calendar month; adjacent ratio minus one. Includes vendor dividend/split adjustments; do not add dividends again. Retrospective reconstruction, not an original historical database vintage. Normalized endpoints are committed for reproducible offline calculations."
+    },
+    {
+      "id": "yahoo-ibm",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/IBM/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/IBM?period1=633830400&period2=667785600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "IBM",
+      "raw_path": "data/raw/stocks/1991-02/starting-IBM.json",
+      "sha256": "155e724441a1c816b2b1afb5d4c0badceff2f8e9d58d7ecdb58aa1a4caf3f0f8",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid trading-day adjusted close in each calendar month; adjacent ratio minus one. Includes vendor dividend/split adjustments; do not add dividends again. Retrospective reconstruction, not an original historical database vintage. Normalized endpoints are committed for reproducible offline calculations."
+    }
+  ]
+}

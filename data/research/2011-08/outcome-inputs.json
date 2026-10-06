@@ -1,0 +1,54 @@
+{
+  "scenario_id": "2011-08",
+  "events": [
+    {
+      "month": "2012-07",
+      "title": "A new particle is found",
+      "description": "CERN reports a particle consistent with the long-sought Higgs boson.",
+      "source_ids": ["higgs"]
+    },
+    {
+      "month": "2015-07",
+      "title": "A spacecraft visits Pluto",
+      "description": "New Horizons makes a close flyby after a journey of billions of miles.",
+      "source_ids": ["pluto"]
+    },
+    {
+      "month": "2016-06",
+      "title": "UK voters choose to leave the EU",
+      "description": "The referendum result begins a long process of leaving the European Union.",
+      "source_ids": ["brexit"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "The US share basket almost doubled over five years. Microsoft gained the most among these choices, while Apple and Bank of America also more than doubled. Cash barely grew. The gloomy starting headlines did not prevent gains, but the final chart hides many difficult decisions along the way.\n\nScientists reported a new particle consistent with the Higgs boson in 2012. New Horizons flew past Pluto in 2015. UK voters chose to leave the European Union in 2016, beginning a long political process. The investment period contained discoveries and difficult decisions far beyond company earnings.\n\nBank of America also requires a careful comparison. The ordinary shares in this game were different from the special investment Berkshire announced at the start. A famous investor may receive different terms from an everyday buyer. Even when two people invest in the same company, their risks and payments can differ. Looking at the deal, rather than just the famous name, helps avoid a misleading comparison.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aapl",
+      "yahoo-bac",
+      "yahoo-msft",
+      "higgs",
+      "pluto",
+      "brexit"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "People worried about government debt and unrest. Apple changed leaders, and a large investor made a special deal with Bank of America.",
+    "what_actually_mattered": "The type of investment mattered. Ordinary bank shares did not offer the same terms as Berkshire’s special deal, even though both involved the same bank.",
+    "what_faded_away": "The debt downgrade was real, but it did not supply a five-year price forecast. A frightening headline and a falling investment are not the same thing.",
+    "what_nobody_knew": "The size of the recovery was unknown. Someone buying then still had to decide how much risk they could handle.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aapl",
+      "yahoo-bac",
+      "yahoo-msft",
+      "higgs",
+      "pluto",
+      "brexit"
+    ]
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "scenario_id": "2020-01",
+    "date": "2020-01-31",
+    "display_date": "January 31, 2020",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "random",
+      "draw_universe": "calendar-month-ends-1980-2020-expansion-50-v1",
+      "random_seed": "simple-long-term-investing-game/50-scenarios/2026-10-06",
+      "draw_index": 21,
+      "method": "Preregistered FNV-1a/Mulberry32 unbiased draws without replacement from eligible month ends. Preserves six pilots; no outcome screening.",
+      "exclusions": [
+        "Exact duplicates of reserved important dates and retained random pilot dates",
+        "Genuine source or return-history unavailability only"
+      ],
+      "replacement_for": null
+    }
+  },
+  "headlines": [
+    {
+      "headline": "WHO declares an international health emergency",
+      "category": "World",
+      "summary": "A new coronavirus outbreak prompts a coordinated response. Its eventual scale and effects remain uncertain.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["virus-emergency"]
+    },
+    {
+      "headline": "The UK’s departure agreement is approved",
+      "category": "World",
+      "summary": "The EU completes approval of the agreement for Britain’s exit at the end of January. Negotiations over the future relationship remain ahead.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["brexit-agreement"]
+    },
+    {
+      "headline": "NASA reports a small planet in a promising zone",
+      "category": "Science",
+      "summary": "TOI 700 d orbits where temperatures might allow liquid water. That does not prove it has water or life.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["toi700"]
+    },
+    {
+      "headline": "Boeing faces the cost of the MAX grounding",
+      "category": "Business",
+      "summary": "The company reports quarterly losses. It says returning the aircraft to service safely is a priority.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["boeing-results"]
+    },
+    {
+      "headline": "Tesla reports a profitable quarter",
+      "category": "Technology",
+      "summary": "Vehicle deliveries rise and the company outlines expansion plans. The full year still records a loss.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["tesla-results"]
+    },
+    {
+      "headline": "The Rise of Skywalker passes a box-office milestone",
+      "category": "Culture",
+      "summary": "Disney reports more than one billion dollars in worldwide ticket sales for the film.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["star-wars"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (2019-12; approximate)",
+      "value": 2.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (2019-12; approximate)",
+      "value": 3.6,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (2019-12; approximate)",
+      "value": 1.6,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (2019-12; approximate)",
+      "value": 1.9,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (2019-12; approximate)",
+      "value": 99.3,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (2019-12; approximate)",
+      "value": -2.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 1.9% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:2020-01:boeing",
+      "company_name": "Boeing",
+      "ticker": "BA",
+      "description": "The aircraft maker reports losses as the 737 MAX remains grounded.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["boeing-results", "asof-stock-prices"],
+      "three_month": -0.058199665281408186,
+      "one_year": -0.15563726029164504
+    },
+    {
+      "id": "hot:2020-01:tesla",
+      "company_name": "Tesla",
+      "ticker": "TSLA",
+      "description": "The electric-car maker reports a quarterly profit and plans more production.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["tesla-results", "asof-stock-prices"],
+      "three_month": 1.0658262389195778,
+      "one_year": 1.1189824703407196
+    },
+    {
+      "id": "hot:2020-01:disney",
+      "company_name": "Walt Disney",
+      "ticker": "DIS",
+      "description": "Its latest Star Wars film has passed a major worldwide box-office milestone.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["star-wars", "asof-stock-prices"],
+      "three_month": 0.07095649776974366,
+      "one_year": 0.2553831513279028
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:2020-01:boeing",
+      "name": "Boeing",
+      "description": "The aircraft maker reports losses as the 737 MAX remains grounded.",
+      "source_ids": ["boeing-results", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2020-01:tesla",
+      "name": "Tesla",
+      "description": "The electric-car maker reports a quarterly profit and plans more production.",
+      "source_ids": ["tesla-results", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2020-01:disney",
+      "name": "Walt Disney",
+      "description": "Its latest Star Wars film has passed a major worldwide box-office milestone.",
+      "source_ids": ["star-wars", "asof-stock-prices"]
+    }
+  ],
+  "recent_returns": [
+    {
+      "asset_id": "cash",
+      "three_month": 0.0039050621840002187,
+      "one_year": 0.020591326585225778,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "bonds",
+      "three_month": 0.002609187708498828,
+      "one_year": 0.06727371925379844,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "us_total",
+      "three_month": 0.07037512221800002,
+      "one_year": 0.20270679870866082,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "international_ex_us",
+      "three_month": 0.02736508697599982,
+      "one_year": 0.11918546165393562,
+      "source_ids": ["asof-broad-proxies"]
+    }
+  ]
+}

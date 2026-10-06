@@ -1,0 +1,272 @@
+{
+  "scenario_id": "1981-09",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953113,00.html",
+      "title": "The Budget: Blood, Sweat and Tears"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953114,00.html",
+      "title": "Those Cuts: How Deep is Deep?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953115,00.html",
+      "title": "A Harvest Too Good to Afford"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953116,00.html",
+      "title": "Getting Together"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953117,00.html",
+      "title": "Arguing About Arabia's AWACS"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953118,00.html",
+      "title": "Pulpit Bullies"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953119,00.html",
+      "title": "The Presidency by Hugh Sidey: The Quality of Command"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953120,00.html",
+      "title": "Serving Two Masters"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953121,00.html",
+      "title": "The Front-Page Fulminator"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953122,00.html",
+      "title": "Voting with Their Feet"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953123,00.html",
+      "title": "A Grand Hail to an Ex-Chief"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953124,00.html",
+      "title": "Britain: Turmoil Right and Left"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953125,00.html",
+      "title": "Poland: The Bear Growls Back"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953126,00.html",
+      "title": "Fed Up with the Food Fight"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953127,00.html",
+      "title": "Return of the Red Army Faction"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953128,00.html",
+      "title": "Sudden Death"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953129,00.html",
+      "title": "Egypt: Seeing Red"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953130,00.html",
+      "title": "Costa Rica: Raiding Grandma's Cabinet"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953131,00.html",
+      "title": "Refugees: Free at Last"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953132,00.html",
+      "title": "The Guillotine Falls"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953142,00.html",
+      "title": "Environment: Reviving Inca Waterways"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953153,00.html",
+      "title": "Science: A Bygone Shrew"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953154,00.html",
+      "title": "Science: The Once and Future Zoo"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953155,00.html",
+      "title": "Medicine: Cancer Genes"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953112,00.html",
+      "title": "In Illinois: The Ghost of John L. Lewis"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953137,00.html",
+      "title": "Press: TV Tremors"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953138,00.html",
+      "title": "Press: Short Takes"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953135,00.html",
+      "title": "Religion: Egypt's Copts in Crisis"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953136,00.html",
+      "title": "Religion: Work Is for Man, Not Man for Work"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953144,00.html",
+      "title": "Sport: Sugar Knows How to Hit, Man"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953145,00.html",
+      "title": "Shootout in the Skies"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953146,00.html",
+      "title": "Supersonic Delivery"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953147,00.html",
+      "title": "Stuck in That 5.5% Rut"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953148,00.html",
+      "title": "France's Private Banks Go Public"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953149,00.html",
+      "title": "Dividends: War of the Chocolate Chips"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953150,00.html",
+      "title": "Selling Beauty"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953151,00.html",
+      "title": "Dividends: A $4 Billion Bit of Pique"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953152,00.html",
+      "title": "Some Tarnished Pennies"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953139,00.html",
+      "title": "Education: Pure Knowledge vs. Pure Profit"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953140,00.html",
+      "title": "Education: ABC Coverage"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953133,00.html",
+      "title": "We, the Jury, Find the . . ."
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953134,00.html",
+      "title": "Law: Eight Months to a Verdict"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953141,00.html",
+      "title": "Video: General Hospital: Critical Case"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953156,00.html",
+      "title": "Books: A Lot Lower Than the Angels"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953157,00.html",
+      "title": "Books: New Vibes"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953158,00.html",
+      "title": "Books: Wry Sense"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953159,00.html",
+      "title": "Cinema: Raise the Colors"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953160,00.html",
+      "title": "Cinema: Hold the Phone"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953162,00.html",
+      "title": "Milestones: Sep. 28, 1981"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953143,00.html",
+      "title": "People: Sep. 28, 1981"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953110,00.html",
+      "title": "A Letter From The Publisher: Sep. 28, 1981"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953111,00.html",
+      "title": "Letters: Sep. 28, 1981"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953161,00.html",
+      "title": "Essay: Trying to Trim the U.S. Courts"
+    }
+  ],
+  "selected_news": [0, 12, 20, 29, 30, 33],
+  "stock_candidates": [
+    {
+      "ticker": "IBM",
+      "selected": true,
+      "rationale": "Its new personal computer brings a giant into the home-computer contest."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "TXN",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "INTC",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "XOM",
+      "selected": true,
+      "rationale": "The oil giant faces weaker demand and lower industry profits."
+    },
+    {
+      "ticker": "KO",
+      "selected": true,
+      "rationale": "Coke and Pepsi compete fiercely for buyers around the world."
+    },
+    {
+      "ticker": "PEP",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "MCD",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "DIS",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}
