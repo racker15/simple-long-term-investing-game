@@ -1,3 +1,4 @@
+import { finishReplay } from './replay-helpers';
 import { test, expect, type Page } from '@playwright/test';
 async function invest(page: Page) {
   await page
@@ -7,6 +8,7 @@ async function invest(page: Page) {
   await page
     .getByRole('button', { name: 'Invest and see what happens' })
     .click();
+  await finishReplay(page);
   await expect(
     page.getByRole('heading', { name: 'Expectation vs. reality' }),
   ).toBeVisible();
@@ -177,6 +179,7 @@ test('five-scenario vertical slice, allocation controls, locked refresh, final s
   await page.evaluate(() => window.scrollTo(0, 0));
   await page.screenshot({ path: testInfo.outputPath('reveal-viewport.png') });
   await page.reload();
+  await finishReplay(page);
   await expect(
     page.getByRole('heading', { name: 'Expectation vs. reality' }),
   ).toBeVisible();
@@ -266,7 +269,8 @@ test('animated reveal is bounded and can be skipped', async ({ page }) => {
   await page
     .getByRole('button', { name: 'Invest and see what happens' })
     .click();
-  await page.getByRole('button', { name: 'Show complete path' }).click();
+  await finishReplay(page);
+
   await expect(
     page.getByRole('heading', { name: 'Five years later' }),
   ).toBeVisible();

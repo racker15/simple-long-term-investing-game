@@ -1,3 +1,6 @@
+import { readFileSync } from 'node:fs';
+import { percent } from '../../app/src/lib/format';
+import { finishReplay } from './replay-helpers';
 import { test, expect, type Page } from '@playwright/test';
 const key = 'investing-game:historical-history:v1';
 async function invest(page: Page) {
@@ -6,6 +9,7 @@ async function invest(page: Page) {
   await page
     .getByRole('button', { name: 'Invest and see what happens' })
     .click();
+  await finishReplay(page);
   await expect(
     page.getByRole('heading', { name: 'Expectation vs. reality' }),
   ).toBeVisible();
@@ -63,6 +67,7 @@ test('real historical session completes, restores, archives once and chooses uns
         ),
       ).toBe(true);
       await page.reload();
+      await finishReplay(page);
       await expect(
         page.getByRole('heading', { name: 'Expectation vs. reality' }),
       ).toBeVisible();
@@ -125,6 +130,7 @@ test('real historical session completes, restores, archives once and chooses uns
   ).toBeVisible();
   await invest(page);
   await page.reload();
+  await finishReplay(page);
   await expect(
     page.getByRole('heading', { name: 'Expectation vs. reality' }),
   ).toBeVisible();
@@ -197,6 +203,7 @@ test('failed outcome fetch retains committed choice through refresh and retry', 
   await page.unroute('**/*future_outcomes*');
   // Retry reloads the document while retaining the committed decision.
   await page.getByRole('button', { name: 'Retry loading' }).click();
+  await finishReplay(page);
   await expect(
     page.getByRole('heading', { name: 'Expectation vs. reality' }),
   ).toBeVisible();
@@ -233,4 +240,74 @@ test('long sessions expose all available multiples of five without leaking outco
   await expect(
     page.getByText('Scenario 1 of 50', { exact: true }),
   ).toBeVisible();
+});
+
+test('year-one and year-three pauses show only returns reached so far', async ({
+  page,
+}, testInfo) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  const id = (await history(page)).active.scenario_ids[0];
+  const future = JSON.parse(
+    readFileSync(`data/scenarios/${id}/future_outcomes.json`, 'utf8'),
+  );
+  await page.getByRole('radio', { name: 'Cash', exact: true }).check();
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await page
+    .getByRole('button', { name: 'Invest and see what happens' })
+    .click();
+  await expect(
+    page.getByRole('heading', { name: 'Paused after 1 year', exact: true }),
+  ).toBeVisible();
+  await page.waitForTimeout(1000);
+  for (const months of [12, 36]) {
+    await expect(page.getByTestId('path-0')).toHaveAttribute(
+      'points',
+      new RegExp(`\\S+( \\S+){${months}}$`),
+    );
+    const value = future.monthly_returns.cash
+      .slice(0, months)
+      .reduce(
+        (total: number, row: { return: number }) => total * (1 + row.return),
+        10000,
+      );
+    await expect(page.getByTestId('chart-return-0')).toContainText(
+      percent(value / 10000 - 1),
+    );
+    await expect(
+      page.getByRole('heading', { name: 'Expectation vs. reality' }),
+    ).toHaveCount(0);
+    await expect(
+      page.getByRole('heading', { name: 'What happened next?' }),
+    ).toHaveCount(0);
+    await page.getByText('Monthly values', { exact: true }).click();
+    await expect(page.locator('figure tbody tr')).toHaveCount(months);
+    await page.getByText('Monthly values', { exact: true }).click();
+    await page.screenshot({
+      path: testInfo.outputPath(`session-pause-${months}.png`),
+      fullPage: true,
+    });
+    expect(
+      await page.evaluate(
+        () => document.documentElement.scrollWidth <= innerWidth,
+      ),
+    ).toBe(true);
+    await page
+      .getByRole('button', {
+        name: `Continue to year ${months === 12 ? 3 : 5}`,
+        exact: true,
+      })
+      .click();
+    if (months === 12)
+      await expect(
+        page.getByRole('heading', {
+          name: 'Paused after 3 years',
+          exact: true,
+        }),
+      ).toBeVisible();
+  }
+  await expect(
+    page.getByRole('heading', { name: 'Five years later', exact: true }),
+  ).toBeVisible();
+  expect((await history(page)).active.completed).toHaveLength(1);
 });

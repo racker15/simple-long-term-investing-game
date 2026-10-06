@@ -1326,3 +1326,8 @@ The product succeeds when the player finishes a round thinking:
 > **“That outcome makes sense now that I know it—but I could not have known it then.”**
 
 ---
+
+
+## October 6, 2026 replay update
+
+The five-year replay pauses after one year and three years. At each pause, the chart shows investment values and cumulative returns from the original starting date through that checkpoint. The player clicks to continue to the next stage, ending at the original five-year mark. These pauses are for observing shorter-term fluctuations, not for changing the locked allocation. Reduced-motion playback keeps the same required pauses. Full five-year comparisons, winners and reflection appear only after the final stage. Chart scales and monthly data must use only the period revealed so far.

@@ -1,3 +1,4 @@
+import { finishReplay } from './replay-helpers';
 import { test, expect, type Locator } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 import { percent } from '../../app/src/lib/format';
@@ -101,6 +102,7 @@ for (const id of ids) {
     await page
       .getByRole('button', { name: 'Invest and see what happens' })
       .click();
+    await finishReplay(page);
     await expect(
       page.getByRole('heading', { name: 'Five years later', exact: true }),
     ).toBeVisible();
