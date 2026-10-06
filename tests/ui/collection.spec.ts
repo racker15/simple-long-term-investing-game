@@ -1,9 +1,17 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, type Locator } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 import { percent } from '../../app/src/lib/format';
 import { calculatePortfolio } from '../../app/src/lib/portfolio';
 
 const ids = ['1982-08', '1987-01', '1999-09', '2004-05', '2008-09', '2016-02'];
+
+async function expectReturnDisplay(display: Locator, value: number) {
+  await expect(display).toHaveText(percent(value));
+  await expect(display).toHaveClass(
+    value < 0 ? 'financial-return--negative' : '',
+  );
+}
+
 for (const id of ids) {
   test(`${id} commits before requesting outcomes and reveals sixty months`, async ({
     page,
@@ -31,6 +39,31 @@ for (const id of ids) {
         exact: true,
       }),
     ).toBeVisible();
+    const recentRows = page.locator('.recent-performance tbody tr');
+    for (const [index, asset] of known.recent_returns.entries()) {
+      const row = recentRows.nth(index);
+      for (const [column, value] of [
+        asset.three_month,
+        asset.one_year,
+      ].entries()) {
+        const display = row.locator('td').nth(column).locator('span');
+        await expectReturnDisplay(display, value);
+      }
+    }
+    for (const [index, stock] of known.hot_stocks.entries()) {
+      const displays = page
+        .locator('.stock-grid article')
+        .nth(index)
+        .locator('p')
+        .nth(1)
+        .locator('span');
+      for (const [column, value] of [
+        stock.three_month,
+        stock.one_year,
+      ].entries()) {
+        await expectReturnDisplay(displays.nth(column), value);
+      }
+    }
     await expect(page.getByRole('radio')).toHaveCount(7);
     await expect(
       page.getByRole('heading', { name: 'Five years later' }),
@@ -82,6 +115,9 @@ for (const id of ids) {
       await expect(outcome).toContainText(stock.ticker);
       await expect(outcome).toContainText(stock.description);
       await expect(outcome).toContainText(percent(expectedReturn));
+      await expect(outcome.locator('.financial-return--negative')).toHaveCount(
+        expectedReturn < 0 ? 1 : 0,
+      );
       const path = page.getByTestId(`hot-stock-path-${index}`);
       await expect(path).toHaveAttribute('data-asset-id', stock.id);
       await expect(path).toHaveAttribute('points', /\S+( \S+){60}$/);

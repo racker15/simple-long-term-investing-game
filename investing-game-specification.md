@@ -1034,6 +1034,8 @@ Do not make cumulative benchmark outperformance the primary score or objective.
 
 The game should be understandable by approximately a **10–12-year-old** without looking childish.
 
+Show negative investment-return or gain/loss values in red while keeping the numeric minus sign. Color reinforces the loss; it is not the only signal. Leave positive and zero values in the normal style.
+
 Use:
 
 - large readable typography

@@ -151,6 +151,9 @@ dd {
   text-align: right;
   font-weight: 600;
 }
+.financial-return--negative {
+  color: #b42318;
+}
 .table-scroll {
   overflow-x: auto;
 }
