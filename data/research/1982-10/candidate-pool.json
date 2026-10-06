@@ -1,0 +1,256 @@
+{
+  "scenario_id": "1982-10",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953583,00.html",
+      "title": "Facing the Jobs Issue"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953584,00.html",
+      "title": "Running with the PACs"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953585,00.html",
+      "title": "Attack PAC"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953586,00.html",
+      "title": "Unease Among the Freezers"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953587,00.html",
+      "title": "Senators: Toward a Furious Finish"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953588,00.html",
+      "title": "The House: Pipeline and Out of Line"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953589,00.html",
+      "title": "Texas Sniper"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953590,00.html",
+      "title": "More Headaches"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953591,00.html",
+      "title": "Yes, Go West"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953592,00.html",
+      "title": "Work Wanted"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953593,00.html",
+      "title": "The Presidency by Hugh Sidey: Lousy Bums and Other Asides"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953594,00.html",
+      "title": "Poland: The General Wins a Battle"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953595,00.html",
+      "title": "Middle East: Struggle for a Compromise"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953596,00.html",
+      "title": "Losing Favor"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953597,00.html",
+      "title": "Gulf States: Stay Just on the Horizon, Please"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953598,00.html",
+      "title": "A Distant Friend in Need"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953599,00.html",
+      "title": "Spain: Socialists on the Move"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953600,00.html",
+      "title": "Prizes: Two Disarming Choices"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953601,00.html",
+      "title": "Bolivia: Civilians Return"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953602,00.html",
+      "title": "Japan: Bowing Out"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953616,00.html",
+      "title": "Environment: To Kill or Not to Kill"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953626,00.html",
+      "title": "Science: Raising a Tudor Rose"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953622,00.html",
+      "title": "Medicine: Sharing the Nobel Prize"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953623,00.html",
+      "title": "Medicine: Maturing Early"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953624,00.html",
+      "title": "Medicine: New Wrinkle"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953582,00.html",
+      "title": "In Washington, D.C.: Last Stop for Union Station"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953603,00.html",
+      "title": "Religion: The Angel of Auschwitz"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953605,00.html",
+      "title": "Religion: Healer's Trials"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953625,00.html",
+      "title": "Computers: Opening the Trapdoor Knapsack"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953606,00.html",
+      "title": "The Volckernomics Puzzle"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953607,00.html",
+      "title": "Tiptoeing Back into the Market"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953608,00.html",
+      "title": "Thrown for a Mighty Big Loss"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953609,00.html",
+      "title": "New Bells Are Ringing"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953610,00.html",
+      "title": "Betting Big"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953611,00.html",
+      "title": "Trade Warfare"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953612,00.html",
+      "title": "Dividends: Hole in the Ground Inc."
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953613,00.html",
+      "title": "Cheap Detectives"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953614,00.html",
+      "title": "Jockey's Panty Raid"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953604,00.html",
+      "title": "Education: Where Has All the Money Gone?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953615,00.html",
+      "title": "Art: Through the Ironic Curtain"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953618,00.html",
+      "title": "Cinema: Did You Ever See a Boat Walking?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953619,00.html",
+      "title": "Theater: Gently Insidious Slope to Hell"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953620,00.html",
+      "title": "Books: A Sahara of Ice"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953621,00.html",
+      "title": "Books: Notable: ATLANTIC HIGH by William F. Buckley, Jr."
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953628,00.html",
+      "title": "Milestones: Oct. 25, 1982"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953617,00.html",
+      "title": "People: Oct. 25, 1982"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953580,00.html",
+      "title": "A Letter From The Publisher: Oct. 25, 1982"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953581,00.html",
+      "title": "Letters: Oct. 25, 1982"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,953627,00.html",
+      "title": "Essay: The Making and Keeping of Enemies"
+    }
+  ],
+  "selected_news": [29, 30, 0, 11, 21, 40],
+  "stock_candidates": [
+    {
+      "ticker": "AAPL",
+      "selected": true,
+      "rationale": "Home-computer attention in the locked August contemporary pool."
+    },
+    {
+      "ticker": "IBM",
+      "selected": true,
+      "rationale": "New products and industrial-secrets litigation."
+    },
+    {
+      "ticker": "KO",
+      "selected": true,
+      "rationale": "Consumer brand rivalry and film-studio ownership."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Oil company retrenchment was covered in August."
+    },
+    {
+      "ticker": "INTC",
+      "selected": false,
+      "rationale": "Semiconductor competition in the August contemporary pool."
+    },
+    {
+      "ticker": "TXN",
+      "selected": false,
+      "rationale": "Semiconductor competition and home computers."
+    },
+    {
+      "ticker": "HPQ",
+      "selected": false,
+      "rationale": "Computer industry participant; not chosen for this three-stock set."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Large industrial company; not chosen to keep three distinct stories."
+    },
+    {
+      "ticker": "PEP",
+      "selected": false,
+      "rationale": "Consumer brand competitor; Coca-Cola has the separate film business story."
+    },
+    {
+      "ticker": "T",
+      "selected": false,
+      "rationale": "Telephone-company restructuring adds unnecessary lineage complexity to this set."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "scenario_id": "1982-10",
+    "date": "1982-10-31",
+    "display_date": "October 31, 1982",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "random",
+      "draw_universe": "calendar-month-ends-1980-2020-expansion-50-v1",
+      "random_seed": "simple-long-term-investing-game/50-scenarios/2026-10-06",
+      "draw_index": 13,
+      "method": "Preregistered FNV-1a/Mulberry32 unbiased draws without replacement from eligible month ends. Preserves six pilots; no outcome screening.",
+      "exclusions": [
+        "Exact duplicates of reserved important dates and retained random pilot dates",
+        "Genuine source or return-history unavailability only"
+      ],
+      "replacement_for": null
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Lower interest rates lift hopes on Wall Street",
+      "category": "Economy",
+      "summary": "Investors debate whether easier borrowing will help the economy recover. Share prices have jumped, but the outlook is uncertain.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1982-10-29"]
+    },
+    {
+      "headline": "Small investors weigh a return to stocks",
+      "category": "Business",
+      "summary": "Some people are buying shares again after the rally. Others remember earlier losses and prefer to wait.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1982-10-30"]
+    },
+    {
+      "headline": "Jobs dominate the election debate",
+      "category": "US news",
+      "summary": "With unemployment above 10%, candidates argue about the economy ahead of November’s congressional elections.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1982-10-0"]
+    },
+    {
+      "headline": "Poland bans Solidarity",
+      "category": "World",
+      "summary": "The government abolishes the independent trade union. Workers protest, and the authorities break up demonstrations.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1982-10-11"]
+    },
+    {
+      "headline": "Mary Rose rises from the sea",
+      "category": "Science",
+      "summary": "A huge crane lifts the remains of Henry VIII’s warship. Experts now face the long job of preserving its wood.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1982-10-21"]
+    },
+    {
+      "headline": "A film brings a giant riverboat onto land",
+      "category": "Culture",
+      "summary": "Fitzcarraldo reaches audiences alongside a documentary about the difficult work of making it in the Amazon.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1982-10-40"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (1982-09; approximate)",
+      "value": 4.9,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (1982-09; approximate)",
+      "value": 10.1,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (1982-09; approximate)",
+      "value": 10.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (1982-09; approximate)",
+      "value": 12.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (1982-09; approximate)",
+      "value": 69.3,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "Morgan Stanley strategist Barton Biggs thinks lower rates could bring strong growth next year. Other observers warn that much of the market’s excitement is still based on hope.",
+      "source_ids": ["news-1982-10-29"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:1982-10:apple",
+      "company_name": "Apple Computer",
+      "ticker": "AAPL",
+      "description": "Home computers are drawing attention, including Apple’s machines.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["time-921281", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1982-10:ibm",
+      "company_name": "IBM",
+      "ticker": "IBM",
+      "description": "The computer giant is fighting to protect its designs.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["time-921269", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1982-10:coca-cola",
+      "company_name": "Coca-Cola",
+      "ticker": "KO",
+      "description": "The soft-drink company also owns Columbia Pictures.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["time-925661", "asof-stock-prices"]
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:1982-10:apple",
+      "name": "Apple Computer",
+      "description": "Home computers are drawing attention, including Apple’s machines.",
+      "source_ids": ["time-921281", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1982-10:ibm",
+      "name": "IBM",
+      "description": "The computer giant is fighting to protect its designs.",
+      "source_ids": ["time-921269", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1982-10:coca-cola",
+      "name": "Coca-Cola",
+      "description": "The soft-drink company also owns Columbia Pictures.",
+      "source_ids": ["time-925661", "asof-stock-prices"]
+    }
+  ]
+}

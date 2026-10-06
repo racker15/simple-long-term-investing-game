@@ -1,0 +1,156 @@
+{
+  "scenario_id": "1982-09",
+  "sources": [
+    {
+      "id": "news-1982-09-21",
+      "source_name": "TIME: A Weak Recovery (Maybe)",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,925743,00.html",
+      "publication_date": "1982-09-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "news-1982-09-23",
+      "source_name": "TIME: Sting II: IBM Strikes Again",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,925745,00.html",
+      "publication_date": "1982-09-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "news-1982-09-0",
+      "source_name": "TIME: A Troubled Alliance",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,925728,00.html",
+      "publication_date": "1982-09-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "news-1982-09-9",
+      "source_name": "TIME: West Germany: Collapse of a Coalition",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,925737,00.html",
+      "publication_date": "1982-09-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "news-1982-09-2",
+      "source_name": "TIME: Case Closed",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,925730,00.html",
+      "publication_date": "1982-09-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "news-1982-09-31",
+      "source_name": "TIME: Show Business: Making the Cats Meow",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,925758,00.html",
+      "publication_date": "1982-09-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "time-921269",
+      "source_name": "TIME: Alleged theft of IBM secrets draws FBI action",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,921269,00.html",
+      "publication_date": "1982-08-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication. Reused contemporary source from locked August pilot; company selection is not based on subsequent returns."
+    },
+    {
+      "id": "time-921281",
+      "source_name": "TIME: Home computers become a consuming hobby",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,921281,00.html",
+      "publication_date": "1982-08-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication. Reused contemporary source from locked August pilot; company selection is not based on subsequent returns."
+    },
+    {
+      "id": "time-925661",
+      "source_name": "TIME: Coca-Cola brings its soft drink rivalry to Columbia Pictures",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,925661,00.html",
+      "publication_date": "1982-08-09",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication. Reused contemporary source from locked August pilot; company selection is not based on subsequent returns."
+    },
+    {
+      "id": "asof-macro-cpiaucsl",
+      "source_name": "Historical CPIAUCSL observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "publication_date": "1982-09-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1982-08-31"
+    },
+    {
+      "id": "asof-macro-unrate",
+      "source_name": "Historical UNRATE observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UNRATE",
+      "publication_date": "1982-09-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1982-08-31"
+    },
+    {
+      "id": "asof-macro-fedfunds",
+      "source_name": "Historical FEDFUNDS observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "publication_date": "1982-09-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1982-08-31"
+    },
+    {
+      "id": "asof-macro-gs10",
+      "source_name": "Historical GS10 observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/GS10",
+      "publication_date": "1982-09-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1982-08-31"
+    },
+    {
+      "id": "asof-macro-umcsent",
+      "source_name": "Historical UMCSENT observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UMCSENT",
+      "publication_date": "1982-09-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1982-08-31"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-market observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "publication_date": "1982-09-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying observations, not publication date of modern archives. Transparent Treasury and developed-market proxies; not exact contemporary database vintages.",
+      "observation_date": "1982-09-30"
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/1982-09/starting.json",
+      "publication_date": "1982-09-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying prices. Current retrospective adjusted-close reconstruction; the modern archive publication date is not asserted here.",
+      "observation_date": "1982-09-30"
+    }
+  ]
+}
