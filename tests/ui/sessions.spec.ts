@@ -890,7 +890,6 @@ test('replay reveal keeps the locked choice and never records a second result', 
   expect((await history(page)).active.completed).toHaveLength(1);
 });
 
-
 test('a long suspended frame gap cannot consume a reveal stage', async ({
   page,
 }) => {
