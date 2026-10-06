@@ -16,7 +16,10 @@ export function Allocation({
 }: {
   context: DecisionContext;
   storageKey?: string;
-  onCommit: (allocation: Allocations, expected: AssetId) => void;
+  onCommit: (
+    allocation: Allocations,
+    expected: AssetId,
+  ) => boolean | void | Promise<void>;
 }) {
   const ids = context.asset_definitions.map((asset) => asset.id);
   const [initial] = useState(() => {
@@ -103,8 +106,8 @@ export function Allocation({
             <button
               onClick={() => {
                 if (!expected) return;
-                onCommit(normalized, expected);
-                if (storageKey) {
+                const durablyCommitted = onCommit(normalized, expected);
+                if (storageKey && durablyCommitted === true) {
                   try {
                     localStorage.removeItem(storageKey);
                   } catch {

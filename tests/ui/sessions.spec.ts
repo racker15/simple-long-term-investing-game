@@ -128,6 +128,31 @@ test('real historical session completes, restores, archives once and chooses uns
   await expect(
     page.getByText('Practice replay.', { exact: true }),
   ).toBeVisible();
+  const practiceKey = `investing-game:practice:${beforePractice.finished[0].completed[0].scenario_id}:v1`;
+  await page
+    .getByRole('button', { name: 'Add $500 to Bonds', exact: true })
+    .click();
+  await page.evaluate((k) => {
+    const original = Storage.prototype.setItem;
+    Storage.prototype.setItem = function (key, value) {
+      if (key === k) throw new DOMException('Quota full', 'QuotaExceededError');
+      original.call(this, key, value);
+    };
+  }, practiceKey);
+  await invest(page);
+  await expect(
+    page.getByText('Practice progress could not be saved.', { exact: false }),
+  ).toBeVisible();
+  expect(
+    await page.evaluate((k) => localStorage.getItem(k), `${practiceKey}:draft`),
+  ).not.toBeNull();
+  await page.reload();
+  await expect(page.getByLabel('Bonds allocation', { exact: true })).toHaveText(
+    '$500',
+  );
+  await expect(
+    page.getByRole('radio', { name: 'Cash', exact: true }),
+  ).toBeChecked();
   await invest(page);
   await page.reload();
   await finishReplay(page);
@@ -362,4 +387,53 @@ test('unfinished allocation and prediction survive refresh without loading outco
   await expect(
     page.getByRole('button', { name: 'Review decision' }),
   ).toBeDisabled();
+});
+
+test('quota failure during commitment preserves the durable unfinished choice', async ({
+  page,
+}) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await page
+    .getByRole('button', { name: 'Add $500 to US Total Market', exact: true })
+    .click();
+  await page
+    .getByRole('radio', { name: 'US Total Market', exact: true })
+    .check();
+  const saved = await history(page);
+  const draftKey = `investing-game:draft:${saved.active.session_id}:${saved.active.scenario_ids[0]}:v1`;
+  const before = await page.evaluate((k) => localStorage.getItem(k), draftKey);
+  await page.evaluate((k) => {
+    const original = Storage.prototype.setItem;
+    Storage.prototype.setItem = function (key, value) {
+      if (key === k) throw new DOMException('Quota full', 'QuotaExceededError');
+      original.call(this, key, value);
+    };
+  }, key);
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await page
+    .getByRole('button', { name: 'Invest and see what happens' })
+    .click();
+  await expect(
+    page.getByText('Progress could not be saved.', { exact: false }),
+  ).toBeVisible();
+  expect(await page.evaluate((k) => localStorage.getItem(k), draftKey)).toBe(
+    before,
+  );
+  await page.reload();
+  await expect(
+    page.getByLabel('US Total Market allocation', { exact: true }),
+  ).toHaveText('$500');
+  await expect(
+    page.getByRole('radio', { name: 'US Total Market', exact: true }),
+  ).toBeChecked();
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await page
+    .getByRole('button', { name: 'Invest and see what happens' })
+    .click();
+  await finishReplay(page);
+  expect(
+    await page.evaluate((k) => localStorage.getItem(k), draftKey),
+  ).toBeNull();
+  expect((await history(page)).active.completed).toHaveLength(1);
 });

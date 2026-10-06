@@ -145,17 +145,20 @@ export function PracticeReplay({
               context={context}
               storageKey={`${key}:draft`}
               onCommit={(allocations, expected) => {
-                if (locked.current) return;
+                if (locked.current) return false;
                 locked.current = true;
                 const next = { allocations, expected };
+                let persisted = false;
                 try {
                   localStorage.setItem(key, JSON.stringify(next));
+                  persisted = true;
                 } catch {
                   setWarning(
                     'Practice progress could not be saved. Keep this tab open.',
                   );
                 }
                 setChoice(next);
+                return persisted;
               }}
             />
           </>
