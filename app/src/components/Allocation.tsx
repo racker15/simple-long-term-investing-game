@@ -8,16 +8,62 @@ import {
 import type { DecisionContext } from '../lib/validation';
 import { normalizeAllocations } from '../lib/portfolio';
 import { money } from '../lib/format';
+import { readAllocationDraft } from '../lib/allocation-draft';
 export function Allocation({
   context,
   onCommit,
+  storageKey,
 }: {
   context: DecisionContext;
+  storageKey?: string;
   onCommit: (allocation: Allocations, expected: AssetId) => void;
 }) {
   const ids = context.asset_definitions.map((asset) => asset.id);
-  const [draft, setDraft] = useState<Partial<Allocations>>({});
-  const [expected, setExpected] = useState<AssetId | ''>('');
+  const [initial] = useState(() => {
+    try {
+      return {
+        ...readAllocationDraft(
+          storageKey ? localStorage.getItem(storageKey) : null,
+          ids,
+        ),
+        warning: '',
+      };
+    } catch {
+      return {
+        draft: {},
+        expected: '' as const,
+        warning:
+          'Your unfinished choice could not be restored. Please choose again; completed results are unchanged.',
+      };
+    }
+  });
+  const [draft, updateDraft] = useState<Partial<Allocations>>(initial.draft);
+  const [expected, updateExpected] = useState<AssetId | ''>(initial.expected);
+  const [warning, setWarning] = useState(initial.warning);
+  function persist(
+    nextDraft: Partial<Allocations>,
+    nextExpected: AssetId | '',
+  ) {
+    if (!storageKey) return;
+    try {
+      localStorage.setItem(
+        storageKey,
+        JSON.stringify({ draft: nextDraft, expected: nextExpected }),
+      );
+    } catch {
+      setWarning(
+        'Your edits could not be saved. Keep this tab open to finish your choice.',
+      );
+    }
+  }
+  function setDraft(next: Partial<Allocations>) {
+    persist(next, expected);
+    updateDraft(next);
+  }
+  function setExpected(next: AssetId) {
+    persist(draft, next);
+    updateExpected(next);
+  }
   const [confirming, setConfirming] = useState(false);
   const explicit = Object.values(draft).reduce<number>(
     (sum, value) => sum + (value ?? 0),
@@ -27,6 +73,7 @@ export function Allocation({
   return (
     <section className="panel" aria-labelledby="allocation-title">
       <h2 id="allocation-title">Invest your $10,000</h2>
+      {warning && <p role="status">{warning}</p>}
       {confirming ? (
         <>
           <h3>Ready?</h3>
@@ -53,7 +100,19 @@ export function Allocation({
             will do best.
           </p>
           <div className="actions">
-            <button onClick={() => expected && onCommit(normalized, expected)}>
+            <button
+              onClick={() => {
+                if (!expected) return;
+                onCommit(normalized, expected);
+                if (storageKey) {
+                  try {
+                    localStorage.removeItem(storageKey);
+                  } catch {
+                    /* The committed decision is stored separately. */
+                  }
+                }
+              }}
+            >
               Invest and see what happens
             </button>
             <button className="secondary" onClick={() => setConfirming(false)}>

@@ -311,3 +311,55 @@ test('year-one and year-three pauses show only returns reached so far', async ({
   ).toBeVisible();
   expect((await history(page)).active.completed).toHaveLength(1);
 });
+
+test('unfinished allocation and prediction survive refresh without loading outcomes', async ({
+  page,
+}) => {
+  const requests: string[] = [];
+  page.on('request', (request) => {
+    if (request.url().includes('future_outcomes')) requests.push(request.url());
+  });
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await page
+    .getByRole('button', { name: 'Add $500 to US Total Market', exact: true })
+    .click();
+  await page
+    .getByRole('button', { name: 'Add $500 to Bonds', exact: true })
+    .click();
+  await page
+    .getByRole('radio', { name: 'US Total Market', exact: true })
+    .check();
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await page.reload();
+  await expect(
+    page.getByLabel('US Total Market allocation', { exact: true }),
+  ).toHaveText('$500');
+  await expect(page.getByLabel('Bonds allocation', { exact: true })).toHaveText(
+    '$500',
+  );
+  await expect(page.getByLabel('Cash allocation', { exact: true })).toHaveText(
+    '$9,000',
+  );
+  await expect(
+    page.getByRole('radio', { name: 'US Total Market', exact: true }),
+  ).toBeChecked();
+  expect(requests).toHaveLength(0);
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await page
+    .getByRole('button', { name: 'Invest and see what happens' })
+    .click();
+  await finishReplay(page);
+  expect((await history(page)).active.completed[0].allocations.us_total).toBe(
+    500,
+  );
+  await page
+    .getByRole('button', { name: 'Next scenario', exact: true })
+    .click();
+  await expect(
+    page.getByLabel('US Total Market allocation', { exact: true }),
+  ).toHaveText('$0');
+  await expect(
+    page.getByRole('button', { name: 'Review decision' }),
+  ).toBeDisabled();
+});

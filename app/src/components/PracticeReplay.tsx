@@ -143,6 +143,7 @@ export function PracticeReplay({
             <Allocation
               key={id + String(choice === null)}
               context={context}
+              storageKey={`${key}:draft`}
               onCommit={(allocations, expected) => {
                 if (locked.current) return;
                 locked.current = true;

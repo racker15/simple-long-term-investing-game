@@ -321,6 +321,7 @@ export default function App() {
                 <Allocation
                   key={id}
                   context={historicalDecisionContext(id)}
+                  storageKey={`investing-game:draft:${session.session_id}:${id}:v1`}
                   onCommit={commit}
                 />
               </>
