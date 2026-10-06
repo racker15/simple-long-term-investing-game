@@ -1,5 +1,8 @@
 # IMPLEMENTATION_PLAN
 
+Current scope (owner update, October 6, 2026): 50 historical scenarios, split 25 important and 25 preregistered random dates. This supersedes the original 24-scenario target. The six-scenario pilot records and immutable starting information remain historical evidence. See [implementation status](docs/implementation-status.md) for shipped behavior, verification and release limits.
+
+
 
 ## 1. Objective
 
@@ -551,7 +554,7 @@ Build scenarios one at a time, but select the scenario set using the cohort rule
 
 ### A. Establish the important-date cohort
 
-Choose 12 historically important dates across the target period.
+Choose 25 historically important dates across the target period.
 
 Historical significance may be used deliberately for this half.
 
@@ -1054,7 +1057,7 @@ Do not make cumulative benchmark outperformance the primary player score.
 
 ## 16. Initial Scenario Set
 
-Start with a smaller qualification batch before building all 24.
+Start with a smaller qualification batch before building all 50.
 
 ### Pilot set: 6 scenarios
 
@@ -1073,14 +1076,14 @@ Do not select all six manually.
 
 Scale to:
 
-- **12 important dates**
-- **12 random dates**
+- **25 important dates**
+- **25 random dates**
 
 Preserve approximate temporal coverage across 1980–2020.
 
 ### Qualification gate
 
-Do not scale to 24 until the six pilots demonstrate:
+Do not scale to 50 until the six pilots demonstrate:
 
 - viable news sourcing;
 - viable stock histories;
@@ -1150,9 +1153,9 @@ Complete:
 
 Run data, editorial-bias, and UX review.
 
-### M6 — Scale to 24 scenarios
+### M6 — Scale to 50 scenarios
 
-Scale to 12 important + 12 random only after the pipeline, schema, and educational loop stabilize.
+Scale to 25 important + 25 random only after the pipeline, schema, and educational loop stabilize.
 
 ---
 
@@ -1229,10 +1232,10 @@ Minimum CI:
 - recomputed benchmark results;
 - deterministic portfolio test fixtures.
 
-For a complete 24-scenario MVP dataset, validate:
+For a complete 50-scenario MVP dataset, validate:
 
-- exactly 12 important scenarios;
-- exactly 12 random scenarios.
+- exactly 25 important scenarios;
+- exactly 25 random scenarios.
 
 Optional later:
 
@@ -1253,9 +1256,9 @@ CI cannot prove absence of editorial hindsight, so the random-date draw log and 
 
 The MVP is complete when:
 
-- 24 prebuilt scenarios are available;
-- exactly 12 use historically important dates;
-- exactly 12 use the documented random-date selection protocol;
+- 50 prebuilt scenarios are available;
+- exactly 25 use historically important dates;
+- exactly 25 use the documented random-date selection protocol;
 - every random scenario retains its draw provenance;
 - each scenario contains 6–8 sourced contemporary stories;
 - each has approximately six macro/context indicators;

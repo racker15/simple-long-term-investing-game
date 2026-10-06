@@ -1,5 +1,8 @@
 # Historical Long-Term Investing Game Specification
 
+Current scope (owner update, October 6, 2026): 50 historical scenarios, split 25 important and 25 preregistered random dates. This supersedes the original 24-scenario target. The six-scenario pilot records and immutable starting information remain historical evidence. See [implementation status](docs/implementation-status.md) for shipped behavior, verification and release limits.
+
+
 
 ## 1. Product Purpose
 
@@ -55,12 +58,12 @@ However, the **dates themselves must not all be chosen because history later mad
 
 Initial target:
 
-- **24 prebuilt scenarios**
+- **50 prebuilt scenarios**
 - approximately 1980–2020 starting dates
 - each scenario has exactly five subsequent years of monthly outcome data
-- **12 historically important dates**
-- **12 randomly selected eligible dates**
-- all 24 receive the same research and quality standards after selection
+- **25 historically important dates**
+- **25 randomly selected eligible dates**
+- all 50 receive the same research and quality standards after selection
 
 The 50/50 mix is deliberate:
 
@@ -177,11 +180,11 @@ The experience then explains what people were focused on, what actually mattered
 
 ## 5. Historical Date Selection
 
-The 24-scenario MVP should contain two distinct date-selection cohorts.
+The 50-scenario MVP should contain two distinct date-selection cohorts.
 
 ### Cohort A — Historically Important Dates: 50%
 
-Select approximately 12 dates because the period is historically useful or recognizable.
+Select 25 dates because the period is historically useful or recognizable.
 
 These may include:
 
@@ -201,7 +204,7 @@ Even here, do not choose dates merely to manufacture a particular investment mor
 
 ### Cohort B — Random Dates: 50%
 
-Select approximately 12 dates randomly from an eligible monthly universe spanning the target period.
+Select 25 dates randomly from an eligible monthly universe spanning the target period.
 
 The random-selection process should be defined **before examining the subsequent five-year returns**.
 
@@ -1234,12 +1237,12 @@ Reproducibility is a practical engineering property, not a requirement for foren
 
 ## 28. MVP Scope
 
-Build **24 prebuilt scenarios**.
+Build **50 prebuilt scenarios**.
 
 The scenario set must contain:
 
-- **12 historically important dates**
-- **12 randomly selected eligible dates**
+- **25 historically important dates**
+- **25 randomly selected eligible dates**
 
 Candidate eras should span the full target range rather than cluster around the 2000s.
 
