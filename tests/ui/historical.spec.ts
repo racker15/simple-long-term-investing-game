@@ -108,7 +108,7 @@ test('historical preview holds outcomes until investment and keeps production se
     page.getByRole('heading', { name: 'See what happened' }),
   ).toHaveCount(0);
   await expect(
-    page.getByText('The Nasdaq reaches its technology-boom peak', {
+    page.getByText('Technology shares reach a peak', {
       exact: true,
     }),
   ).toHaveCount(0);

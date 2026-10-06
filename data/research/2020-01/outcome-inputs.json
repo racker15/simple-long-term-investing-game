@@ -14,6 +14,12 @@
       "source_ids": ["vaccine"]
     },
     {
+      "month": "2021-01",
+      "title": "Tesla reports nearly half a million deliveries",
+      "description": "The company says it delivered about 500,000 vehicles in 2020. Deliveries measure activity, not profit.",
+      "source_ids": ["tesla-deliveries"]
+    },
+    {
       "month": "2022-03",
       "title": "The Fed starts raising interest rates",
       "description": "It raises its target for short-term rates as inflation remains high.",
@@ -27,7 +33,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Tesla grew to more than nine times its starting value. The US share basket roughly doubled, while Boeing lost about 44% and Disney about 17%. Bonds ended slightly lower. The same five years could produce a huge gain or a lasting loss, depending on what you owned.",
+    "text": "Tesla grew to more than nine times its starting value. The US share basket roughly doubled, while Boeing lost about 44% and Disney about 17%. Bonds ended slightly lower. The same five years could produce a huge gain or a lasting loss, depending on what you owned.\n\nIn January 2021, Tesla reported delivering nearly half a million vehicles during 2020. That is a concrete business result, but vehicle deliveries and profit are different measures.\n\nWHO described COVID-19 as a pandemic in March 2020. Its first emergency-use vaccine listing came that December. Later, the Fed began raising interest rates in March 2022, and Webb released its first full set of scientific images in July. The years brought both disruption and progress.\n\nThe contrast between Tesla and Boeing is enormous, but the starting page did not contain their final ranking. It included a health emergency and company problems whose later scale was uncertain. Boeing’s fall also shows that five years does not guarantee recovery to your purchase price. A broad basket reduced reliance on any one company, while its own value still moved up and down along the way.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -38,7 +44,8 @@
       "pandemic",
       "vaccine",
       "rates-2022",
-      "webb"
+      "webb",
+      "tesla-deliveries"
     ]
   },
   "reflection": {

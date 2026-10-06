@@ -8,6 +8,12 @@
       "source_ids": ["september-attacks"]
     },
     {
+      "month": "2001-11",
+      "title": "Microsoft and the US government propose a settlement",
+      "description": "The agreement would restrict some business practices. Court review and other legal steps remain.",
+      "source_ids": ["microsoft-settlement"]
+    },
+    {
       "month": "2002-01",
       "title": "Euro cash enters everyday use",
       "description": "Twelve countries introduce euro notes and coins.",
@@ -21,7 +27,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Bonds led the seven choices. All three company shares lost heavily: Cisco lost more than three-quarters, while Microsoft and Amazon lost about half. The US basket also fell, but much less than those individual stocks. A useful technology and a promising business could still be disappointing investments at the price paid.",
+    "text": "Bonds led the seven choices. All three company shares lost heavily: Cisco lost more than three-quarters, while Microsoft and Amazon lost about half. The US basket also fell, but much less than those individual stocks. A useful technology and a promising business could still be disappointing investments at the price paid.\n\nIn November 2001, Microsoft and the US government proposed a settlement of their competition case. The legal story had moved forward, though review was still required.\n\nThe period included the September 11 attacks, the arrival of euro notes and coins, and the loss of the Columbia shuttle. These events belong to the history of the five years. They do not by themselves explain the exact return of a software company, retailer or equipment maker.\n\nThe company losses show why the price at the start matters. A business can sell something people need and still give shareholders a poor return. Paying for great expectations leaves room for disappointment. A broad US basket lost value too, but it spread the risk across many companies instead of concentrating it in these three. That reduced the loss here without preventing it altogether.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +37,8 @@
       "yahoo-amzn",
       "september-attacks",
       "euro-cash",
-      "columbia"
+      "columbia",
+      "microsoft-settlement"
     ]
   },
   "reflection": {

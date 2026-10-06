@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "The economy began growing again, but you could not have known the turning point on decision day. Over this five-year window, all seven choices gained value. Apple finished ahead of the other six, while the international share basket also rose strongly. The route was not smooth, and choosing a different endpoint could change the ranking.",
+    "text": "The economy began growing again after November 1982. People did not know the precise turning point on decision day. The organization that dates US recessions announced it in July 1983, after more evidence had arrived.\n\nThe years ahead brought very different news. Reagan proposed missile-defense research in 1983. In 1986, the Challenger disaster killed its seven crew members and led NASA to pause shuttle flights. These events mattered to people's lives without neatly predicting which investment would finish first.\n\nAll seven choices gained value in this window. Apple led, turning $10,000 into about $62,100. The international share basket also rose strongly. IBM gained too, but much less than Apple. Both were famous computer companies; that did not make their shares interchangeable.\n\nAn investor had to hold through each month to reach these ending amounts. The gains were not handed out evenly each year. Starting or stopping at a different date could also change the result, even for the same company.",
     "source_ids": [
       "nber-1982-trough",
       "french-us",
@@ -34,7 +34,7 @@
   },
   "reflection": {
     "what_people_were_focused_on": "Recession, international debt and computer-company competition made the outlook uncertain.",
-    "what_actually_mattered": "Each holding compounded along its own path. Broad share baskets spread company-specific risk, but they still moved sharply. Interest paid by cash and bonds also added up over five years.",
+    "what_actually_mattered": "Each investment grew or shrank month by month. A share basket spread risk across many companies, but it could still fall sharply. Cash and bonds also paid income over the five years.",
     "what_faded_away": "A musical opening and a headline about stolen computer designs were memorable news. Neither told you the five-year ranking of these investments.",
     "what_nobody_knew": "No one could know the exact size or order of the gains in these seven choices. A gloomy starting point did not guarantee a poor five-year result.",
     "source_ids": [

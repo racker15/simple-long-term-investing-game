@@ -3,32 +3,32 @@
   "events": [
     {
       "month": "2004-06",
-      "title": "The Fed begins raising its policy target",
-      "description": "The Fed raises its federal funds target by 25 basis points to 1.25%, reporting solid output growth and improved labor markets.",
+      "title": "The Fed raises interest rates",
+      "description": "Its target for short-term interest rates rises from 1% to 1.25% as the economy grows and job conditions improve.",
       "source_ids": ["fomc-jun04"]
     },
     {
       "month": "2004-07",
-      "title": "Microsoft announces a large capital return",
-      "description": "Microsoft announces quarterly dividends, a four-year buyback plan and a special $3 dividend. The special dividend goes ex-dividend November 15 and is paid December 2.",
+      "title": "Microsoft plans payments to shareholders",
+      "description": "The company announces regular dividends, a one-time $3 payment per share and plans to buy back some of its shares.",
       "source_ids": ["msft-capital04", "msft-dividend-history"]
     },
     {
       "month": "2007-01",
-      "title": "Apple introduces iPhone",
-      "description": "Apple announces a device combining phone, music player and Internet functions. This is business context, not a guarantee of future shareholder returns.",
+      "title": "Apple introduces the iPhone",
+      "description": "A new touchscreen device combines a phone, music player and internet functions.",
       "source_ids": ["apple-iphone07"]
     },
     {
       "month": "2008-12",
-      "title": "The NBER announces a recession",
-      "description": "The NBER identifies December 2007 as the economic peak; the determination is retrospective.",
+      "title": "Economists announce a recession",
+      "description": "Researchers say the economy stopped expanding in December 2007. Their announcement comes a year later.",
       "source_ids": ["nber-peak08"]
     },
     {
       "month": "2008-12",
-      "title": "The Fed moves its target close to zero",
-      "description": "The Fed establishes a 0–0.25% target range amid declining activity and strained credit markets.",
+      "title": "The Fed cuts rates close to zero",
+      "description": "The Federal Reserve lowers its short-term target to 0–0.25% as the economy and lending conditions worsen.",
       "source_ids": ["fomc-dec08"]
     }
   ],

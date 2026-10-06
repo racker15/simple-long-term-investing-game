@@ -2,6 +2,18 @@
   "scenario_id": "2001-09",
   "events": [
     {
+      "month": "2001-10",
+      "title": "Apple introduces the iPod",
+      "description": "A pocket-sized digital music player becomes a new product for the computer maker.",
+      "source_ids": ["ipod-2001"]
+    },
+    {
+      "month": "2001-11",
+      "title": "Microsoft and the US government propose a settlement",
+      "description": "The agreement would restrict some business practices. Court review and other legal steps remain.",
+      "source_ids": ["microsoft-settlement"]
+    },
+    {
       "month": "2002-01",
       "title": "Euro cash enters everyday use",
       "description": "Twelve countries introduce euro notes and coins.",
@@ -21,7 +33,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Apple grew to nearly ten times its starting value, and Boeing more than doubled. The international basket also more than doubled, while Microsoft gained much less. You started after the September attacks, so earlier losses were already reflected in starting prices. These gains do not make a frightening event an automatic buying signal.",
+    "text": "Apple grew to nearly ten times its starting value, and Boeing more than doubled. The international basket also more than doubled, while Microsoft gained much less. You started after the September attacks, so earlier losses were already reflected in starting prices. These gains do not make a frightening event an automatic buying signal.\n\nIn November 2001, Microsoft and the US government proposed a settlement of their competition case. The legal story had moved forward, though review was still required.\n\nApple introduced the iPod in October 2001, expanding beyond computers into portable music. The business itself was changing while investors held its shares.\n\nLater in the window, euro notes and coins entered everyday use. The Columbia shuttle was lost in 2003. Hurricane Katrina struck the Gulf Coast in 2005, creating enormous needs for rescue and recovery. These events changed people’s lives while businesses and markets continued to respond to many different pressures.\n\nThe gain in Boeing is a useful contrast with its planned job cuts at the start. Bad business news does not give a precise five-year stock forecast, just as a product launch does not promise a gain. Your purchase price already reflected the information available that month. The difficult part was deciding what might happen next, without the benefit of the completed chart.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +43,9 @@
       "yahoo-aapl",
       "euro-cash",
       "columbia",
-      "katrina"
+      "katrina",
+      "ipod-2001",
+      "microsoft-settlement"
     ]
   },
   "reflection": {

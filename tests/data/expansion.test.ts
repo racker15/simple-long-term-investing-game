@@ -79,6 +79,11 @@ describe('preregistered expansion to fifty historical scenarios', () => {
       await buildStartingScenario(scenario_id, true);
       await buildOutcomeScenario(scenario_id, true);
       const scenario = await loadHistoricalScenario(scenario_id);
+      const narrativeWords = scenario.future.what_happened_next.text
+        .trim()
+        .split(/\s+/).length;
+      expect(narrativeWords).toBeGreaterThanOrEqual(150);
+      expect(narrativeWords).toBeLessThanOrEqual(250);
       expect(scenario.known.hot_stocks).toHaveLength(3);
       expect(scenario.known.headlines.length).toBeGreaterThanOrEqual(6);
       expect(scenario.known.headlines.length).toBeLessThanOrEqual(8);

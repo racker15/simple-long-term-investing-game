@@ -24,10 +24,16 @@
       "title": "WHO lists a COVID-19 vaccine for emergency use",
       "description": "Its first such listing supports wider access to the Pfizer-BioNTech vaccine.",
       "source_ids": ["vaccine"]
+    },
+    {
+      "month": "2021-01",
+      "title": "Tesla reports nearly half a million deliveries",
+      "description": "The company says it delivered about 500,000 vehicles in 2020. Deliveries measure activity, not profit.",
+      "source_ids": ["tesla-deliveries"]
     }
   ],
   "what_happened_next": {
-    "text": "Tesla grew to about 21 times its starting value, far ahead of the other choices. The US share basket more than doubled. Disney and Boeing also gained overall, despite the pandemic arriving near the end. An extraordinary winner can dominate a chart without making that result predictable.",
+    "text": "Tesla grew to about 21 times its starting value, far ahead of the other choices. The US share basket more than doubled. Disney and Boeing also gained overall, despite the pandemic arriving near the end. An extraordinary winner can dominate a chart without making that result predictable.\n\nIn January 2021, Tesla reported delivering nearly half a million vehicles during 2020. That is a concrete business result, but vehicle deliveries and profit are different measures.\n\nUK voters chose to leave the European Union in 2016, and a total eclipse crossed the US in 2017. In March 2020, WHO described COVID-19 as a pandemic. By December, WHO had listed its first COVID-19 vaccine for emergency use. The last year of this window was unlike what the starting headlines suggested.\n\nTesla’s result can make the other gains look small on the same chart. Yet doubling money is already a large change. A spectacular winner is not a reasonable promise for every exciting company. Compare the rises and falls along Tesla’s path with those of the broad basket, and remember that investors had to make decisions before they knew which line would finish highest.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -38,7 +44,8 @@
       "brexit",
       "eclipse",
       "pandemic",
-      "vaccine"
+      "vaccine",
+      "tesla-deliveries"
     ]
   },
   "reflection": {

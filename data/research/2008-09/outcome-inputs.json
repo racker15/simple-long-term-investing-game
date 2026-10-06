@@ -3,32 +3,32 @@
   "events": [
     {
       "month": "2008-12",
-      "title": "The NBER confirms a recession",
-      "description": "The NBER announces that the economic peak occurred in December 2007, before the locked September 2008 decision. The dating is retrospective.",
+      "title": "Economists confirm a recession",
+      "description": "Researchers identify December 2007 as the end of the expansion. The downturn had begun before your September 2008 decision.",
       "source_ids": ["nber-peak08"]
     },
     {
       "month": "2008-12",
-      "title": "The Fed establishes a near-zero target range",
-      "description": "The Fed sets a federal funds target range of 0–0.25% and describes weakening activity and tight credit.",
+      "title": "The Fed lowers rates close to zero",
+      "description": "The Federal Reserve sets its short-term target at 0–0.25% as the economy weakens and borrowing remains difficult.",
       "source_ids": ["fomc-dec08"]
     },
     {
       "month": "2010-09",
-      "title": "The NBER dates the recession’s end",
-      "description": "The NBER announces June 2009 as the trough. It explicitly distinguishes the start of recovery from a return to normal conditions.",
+      "title": "Economists date the recession’s end",
+      "description": "Researchers identify June 2009 as the low point. Recovery beginning does not mean conditions have already returned to normal.",
       "source_ids": ["nber-trough09"]
     },
     {
       "month": "2012-03",
-      "title": "Apple announces plans to resume dividends",
-      "description": "Apple announces a planned quarterly dividend and share repurchases; its first payment follows in August 2012.",
+      "title": "Apple plans to resume dividends",
+      "description": "The company announces payments to shareholders and plans to buy back shares. The first dividend follows in August.",
       "source_ids": ["apple-capital12", "apple-dividend-history"]
     },
     {
       "month": "2013-09",
-      "title": "The Fed continues asset purchases",
-      "description": "The Fed retains its near-zero rate target and continues purchases at $40 billion monthly in mortgage-backed securities and $45 billion in longer-term Treasuries.",
+      "title": "The Fed continues buying financial assets",
+      "description": "It keeps its short-term interest-rate target near zero and continues buying bonds to support the economy.",
       "source_ids": ["fomc-sep13"]
     }
   ],

@@ -243,6 +243,26 @@
       "approximation": false,
       "notes": "Retrospective storm history.",
       "observation_date": "2005-08-29"
+    },
+    {
+      "id": "ipod-2001",
+      "source_name": "Apple: Presents iPod",
+      "source_reference": "https://www.apple.com/newsroom/2001/10/23Apple-Presents-iPod/",
+      "publication_date": "2001-10-23",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original product announcement.",
+      "observation_date": "2001-10-23"
+    },
+    {
+      "id": "microsoft-settlement",
+      "source_name": "US DOJ: Microsoft settlement announcement",
+      "source_reference": "https://www.justice.gov/archive/atr/public/press_releases/2001/9463.htm",
+      "publication_date": "2001-11-02",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Proposed settlement, not final court approval or settlement by every state.",
+      "observation_date": "2001-11-02"
     }
   ]
 }

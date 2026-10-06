@@ -8,6 +8,18 @@
       "source_ids": ["september-attacks"]
     },
     {
+      "month": "2001-10",
+      "title": "Apple introduces the iPod",
+      "description": "A pocket-sized digital music player becomes a new product for the computer maker.",
+      "source_ids": ["ipod-2001"]
+    },
+    {
+      "month": "2001-11",
+      "title": "Microsoft and the US government propose a settlement",
+      "description": "The agreement would restrict some business practices. Court review and other legal steps remain.",
+      "source_ids": ["microsoft-settlement"]
+    },
+    {
       "month": "2002-01",
       "title": "Euro cash enters everyday use",
       "description": "Twelve countries introduce euro notes and coins.",
@@ -21,7 +33,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Apple gained about two-fifths over five years, while Cisco lost about seven-tenths and Microsoft also fell. Bonds gained while the US basket ended lower. Being in the broad technology industry did not give these three companies the same result. Even Apple’s positive endpoint hid a very rough journey.",
+    "text": "Apple gained about two-fifths over five years, while Cisco lost about seven-tenths and Microsoft also fell. Bonds gained while the US basket ended lower. Being in the broad technology industry did not give these three companies the same result. Even Apple’s positive endpoint hid a very rough journey.\n\nIn November 2001, Microsoft and the US government proposed a settlement of their competition case. The legal story had moved forward, though review was still required.\n\nApple introduced the iPod in October 2001, expanding beyond computers into portable music. The business itself was changing while investors held its shares.\n\nThe years ahead included the September 11 attacks, the introduction of euro cash and the Columbia shuttle disaster. People faced changes and losses far beyond their investment accounts. The monthly lines show the financial result, which is only one part of that larger history.\n\nApple’s final gain is especially worth comparing with its path. Finishing above the starting point does not mean an investment never fell below it. A person who had to sell during a bad month would not receive the five-year ending value. Likewise, a lawsuit or a promising device could not tell someone exactly when prices would turn. The uncertainty was present even for the investment that eventually gained.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +43,9 @@
       "yahoo-aapl",
       "september-attacks",
       "euro-cash",
-      "columbia"
+      "columbia",
+      "ipod-2001",
+      "microsoft-settlement"
     ]
   },
   "reflection": {

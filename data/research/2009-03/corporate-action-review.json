@@ -1,15 +1,7 @@
 {
   "stocks": {
     "AIG": {
-      "source_ids": [
-        "yahoo-aig",
-        "aig-warrants",
-        "aig-split",
-        "aig-warrants",
-        "aig-split",
-        "aig-warrants",
-        "aig-split"
-      ],
+      "source_ids": ["yahoo-aig", "aig-warrants", "aig-split"],
       "assessment": "Reviewed the 1-for-20 reverse split before July 2009 trading and the later warrant distribution. August 2009 raw month-end closes rise from 13.14 to 45.33, matching the approximately 244.98% adjusted return; it is not the reverse split repeated as profit. Yahoo records an 8.7 cash-equivalent adjustment in January 2011 for the warrant dividend; retain that adjusted-price reinvestment proxy without adding it again.",
       "limitations": "The warrant dividend is not ordinary cash. This educational proxy uses the vendor distribution-value adjustment rather than modeling a separate holding of warrants, their exercise or later sale. It is not an exact transaction-level shareholder account."
     },
