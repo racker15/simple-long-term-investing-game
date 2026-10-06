@@ -76,14 +76,17 @@ export default function App() {
   const pending = history.pending;
   function save(next: PlayerHistory) {
     current.current = next;
+    let persisted = false;
     try {
       localStorage.setItem(HISTORY_KEY, JSON.stringify(next));
+      persisted = true;
     } catch {
       setWarning(
         'Progress could not be saved. Keep this tab open to finish your session.',
       );
     }
     setHistory(next);
+    return persisted;
   }
   const id =
     session?.scenario_ids[
@@ -149,8 +152,8 @@ export default function App() {
     );
   function commit(allocations: Allocations, expected: AssetId) {
     if (current.current.pending || current.current.active?.phase !== 'decision')
-      return;
-    save({ ...current.current, pending: { allocations, expected } });
+      return false;
+    return save({ ...current.current, pending: { allocations, expected } });
   }
   if (practiceId)
     return (
@@ -321,6 +324,7 @@ export default function App() {
                 <Allocation
                   key={id}
                   context={historicalDecisionContext(id)}
+                  storageKey={`investing-game:draft:${session.session_id}:${id}:v1`}
                   onCommit={commit}
                 />
               </>
