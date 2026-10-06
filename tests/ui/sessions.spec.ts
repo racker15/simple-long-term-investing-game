@@ -39,6 +39,17 @@ test('real historical session completes, restores, archives once and chooses uns
   for (let i = 0; i < 5; i++) {
     await invest(page);
     if (i === 0) {
+      await page
+        .getByText('What do these numbers mean?', { exact: true })
+        .click();
+      await expect(
+        page.getByText('A fall from an earlier high.', { exact: false }),
+      ).toBeVisible();
+      expect(
+        await page.evaluate(
+          () => document.documentElement.scrollWidth <= innerWidth,
+        ),
+      ).toBe(true);
       await page.reload();
       await expect(
         page.getByRole('heading', { name: 'Expectation vs. reality' }),

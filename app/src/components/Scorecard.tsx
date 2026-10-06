@@ -1,3 +1,4 @@
+import { ResultHelp } from './ResultHelp';
 import type { ScenarioResult } from '../lib/contracts';
 import {
   blockScorecard,
@@ -102,6 +103,7 @@ export function Checkpoint({
       <h1>
         How you are doing — Scenarios {results.length - 4}–{results.length}
       </h1>
+      <ResultHelp />
       <div className="panel">
         <Metrics card={card} />
         <p>{scorecardObservation(card)}</p>
@@ -130,16 +132,17 @@ export function FinalScorecard({
         Each round began with $10,000. These results describe your choices in
         these scenarios; they do not predict how you would do in the future.
       </p>
+      <ResultHelp />
       <section className="panel">
         <h2>Overall session — {results.length} scenarios</h2>
         <Metrics card={card.overall} />
         <p>
-          Median ending value:{' '}
+          Middle ending value (median):{' '}
           <strong>{money(card.median_ending_value)}</strong>
         </p>
         <p>
-          Prediction hit rate: {percent(card.prediction_hit_rate)} · Leader
-          reversal frequency: {percent(card.reversal_frequency)}
+          Prediction hit rate: {percent(card.prediction_hit_rate)} · How often
+          the year-one leader changed: {percent(card.reversal_frequency)}
         </p>
       </section>
       <section className="panel">
@@ -154,7 +157,7 @@ export function FinalScorecard({
             {card.cohorts[mode] ? (
               <Metrics card={card.cohorts[mode]} />
             ) : (
-              <p>Fewer than five results; subgroup summary withheld.</p>
+              <p>Too few examples for a useful comparison (fewer than five).</p>
             )}
           </section>
         ))}
