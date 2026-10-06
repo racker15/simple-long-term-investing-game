@@ -86,7 +86,8 @@ export default function App() {
     }
   }, [session]);
   useEffect(() => {
-    document.getElementById('main')?.focus({ preventScroll: true });
+    if (session?.phase !== 'reveal')
+      document.getElementById('main')?.focus({ preventScroll: true });
     window.scrollTo({ top: 0, behavior: 'instant' });
   }, [session?.phase, session?.current_index]);
   const context = decisionContext(fixture.known);

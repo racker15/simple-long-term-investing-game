@@ -29,7 +29,8 @@ export default function HistoricalPreview() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   useEffect(() => {
-    document.getElementById('main')?.focus({ preventScroll: true });
+    if (!reveal)
+      document.getElementById('main')?.focus({ preventScroll: true });
     window.scrollTo({ top: 0, behavior: 'instant' });
   }, [reveal]);
   async function commit(allocations: Allocations, expected: AssetId) {

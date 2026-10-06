@@ -79,7 +79,8 @@ export function PracticeReplay({
     };
   }, [id, choice, retry]);
   useEffect(() => {
-    document.getElementById('main')?.focus({ preventScroll: true });
+    if (!reveal)
+      document.getElementById('main')?.focus({ preventScroll: true });
     window.scrollTo({ top: 0, behavior: 'instant' });
   }, [reveal]);
   function restart() {
