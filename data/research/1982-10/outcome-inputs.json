@@ -1,0 +1,58 @@
+{
+  "scenario_id": "1982-10",
+  "events": [
+    {
+      "month": "1982-11",
+      "title": "The recession reaches its low point",
+      "description": "US economic activity reaches the turning point later identified by the NBER. That official announcement comes in July 1983.",
+      "source_ids": ["nber-1982-trough"]
+    },
+    {
+      "month": "1983-03",
+      "title": "A new missile-defense proposal",
+      "description": "President Reagan announces a research effort to defend against nuclear missiles. It becomes a major Cold War debate.",
+      "source_ids": ["reagan-sdi"]
+    },
+    {
+      "month": "1986-01",
+      "title": "Challenger is lost",
+      "description": "Seven people die when the space shuttle breaks apart after launch. NASA pauses shuttle flights and investigates.",
+      "source_ids": ["nasa-challenger"]
+    },
+    {
+      "month": "1987-10",
+      "title": "Black Monday shocks markets",
+      "description": "The Dow falls 22.6% in one day. This chart shows the whole month’s return, which is different from that single-day drop.",
+      "source_ids": ["fed-crash1987"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "The economy recovered, and all seven choices ended above their starting value. Yet a sharp stock-market crash arrived in the final month. International shares finished first in this set. Large earlier gains did not prevent a frightening late drop; the path and the endpoint tell different parts of the story.",
+    "source_ids": [
+      "nber-1982-trough",
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aapl",
+      "yahoo-ibm",
+      "yahoo-ko",
+      "fed-crash1987"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "Investors wondered whether falling interest rates meant recovery was finally coming. High unemployment still dominated the election debate.",
+    "what_actually_mattered": "Each holding compounded along its own path. Broad share baskets spread company-specific risk, but they still moved sharply. Interest paid by cash and bonds also added up over five years.",
+    "what_faded_away": "The immediate arguments before the midterm election did not provide a reliable map of five years of market returns.",
+    "what_nobody_knew": "The starting news could not tell you that a market crash would arrive in the final month. Knowing that recovery was possible was not the same as knowing the route.",
+    "source_ids": [
+      "nber-1982-trough",
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aapl",
+      "yahoo-ibm",
+      "yahoo-ko",
+      "fed-crash1987"
+    ]
+  }
+}

@@ -6,6 +6,10 @@ An educational static web application about making a five-year investing decisio
 
 The product sources remain [investing-game-specification.md](investing-game-specification.md) and [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md).
 
+## Expansion toward 50 scenarios
+
+Draft expansion currently registers **8 complete historical scenarios**. September and October 1982 are the first two additions from the preregistered 25-important/25-random plan. Their starting context was committed before outcome assembly. The original six pilot bundles remain unchanged. Closely spaced random dates and overlapping five-year windows are retained rather than screened for a preferred result. The normal demonstration remains fictional; content expansion does not itself enable the later production-session UI.
+
 ## Product scope
 
 The intended audience is roughly **8–12 years old**. This project is a simple educational game, not a professional finance product or research-grade historical database.

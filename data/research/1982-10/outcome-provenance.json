@@ -1,0 +1,45 @@
+{
+  "scenario_id": "1982-10",
+  "sources": [
+    {
+      "id": "nber-1982-trough",
+      "source_name": "NBER: July 8, 1983 business-cycle announcement",
+      "source_reference": "https://www.nber.org/news/business-cycle-dating-committee-announcement-july-8-1983",
+      "publication_date": "1983-07-08",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Retrospective announcement dates the economic turning point to November 1982; this was not known at the scenario start.",
+      "observation_date": "1982-11-30"
+    },
+    {
+      "id": "reagan-sdi",
+      "source_name": "Reagan Presidential Library: defense address",
+      "source_reference": "https://www.reaganlibrary.gov/archives/speech/address-nation-defense-and-national-security",
+      "publication_date": "1983-03-23",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original speech announcing a missile-defense research program.",
+      "observation_date": "1983-03-23"
+    },
+    {
+      "id": "nasa-challenger",
+      "source_name": "NASA: Challenger STS-51L accident",
+      "source_reference": "https://www.nasa.gov/challenger-sts-51l-accident/",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Undated retrospective NASA history, outcome context only.",
+      "observation_date": "1986-01-28"
+    },
+    {
+      "id": "fed-crash1987",
+      "source_name": "Federal Reserve History: Stock Market Crash of 1987",
+      "source_reference": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987",
+      "publication_date": "2013-11-22",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Retrospective history; not a pre-investment source.",
+      "observation_date": "1987-10-19"
+    }
+  ]
+}

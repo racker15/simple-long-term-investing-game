@@ -10,11 +10,12 @@
     "data/scenarios/1982-09/known_at_start.json": "27e18cae914788a634a526113e488d784fc9eaa0fb3e4e526fe77e6be1849034",
     "data/normalized/stocks/1982-09/starting.json": "552a0f2fad1ae725810871f76783d0b57eea6c3d988cbd227666aa3b2e98c87d",
     "data/normalized/stocks/1982-09/sources.json": "46cdf60b1f8e4745fbef738a787eff37649260fe8b1d1b031fe48dbbd014695b",
-    "data/normalized/broad-assets/sources.json": "ca9f104719892ec37aa2fcf91f6afe12e23b6667c0c819438300c5728135662b",
-    "data/normalized/broad-assets/monthly-returns.json": "d5b178800714526990be404ef0d2dcc0e917fa6fa2aa25928c0bdd3afa7db96e",
-    "data/selection/protocol.json": "d96e909436cbbf14d018aa4d49d741aa03c613c71d0bb4199cb9090833915a60",
-    "data/selection/pilot-draw.json": "8f64ca1197a397b2c78c8c14531027d7dfe6d5764dbcf6dd79c0f8ae21c89218",
-    "data/selection/expansion-50-protocol.json": "334332a848197b605c9fb4449da0be87d8e92fe028e92251543c3218d738298c",
-    "data/selection/expansion-50-draw.json": "232d2d412facedd6389a033e8edd91f158e0956558899e82686f5bc7df2e6a69"
-  }
+    "data/normalized/broad-assets/sources.json": "6ad65125a8f80d5a37e805dd499ca6afdad1d0eca6f14cd0d3f8b9e10b99bf4b",
+    "data/normalized/broad-assets/monthly-returns.json": "671bb2af8473dc8f1f94de33c4a9f750b79603dc701b4b8abd89772bbecfb1c2",
+    "data/selection/protocol.json": "5f23ffc47e67a29e90cb2b7fca00963cbff3b89cfd9e53b9506861546efdffa0",
+    "data/selection/pilot-draw.json": "479f3cd0dba87808c0e5c94b25e3a224a66a39220a91b1b207a48f82d5d3e452",
+    "data/selection/expansion-50-protocol.json": "ae7c334bead14d517caa7b53bd7f245da7b327239bb1782c497bcaad62e83101",
+    "data/selection/expansion-50-draw.json": "9717c35dcb560e16e8a424dd78959e5028cd929e19ea6d40b469cc55049ceeab"
+  },
+  "integrity_note": "2026-10-06: corrected shared-file hashes after a local transfer appended one newline, and applied repository formatting to the new date-selection JSON. No selection value, scenario prose, stock choice or numeric starting value changed. This is a byte-format repair, not outcome-informed recuration."
 }

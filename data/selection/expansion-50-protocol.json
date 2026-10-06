@@ -11,11 +11,7 @@
     "2008-09",
     "2016-02"
   ],
-  "preserved_random_ids": [
-    "1987-01",
-    "2004-05",
-    "2016-02"
-  ],
+  "preserved_random_ids": ["1987-01", "2004-05", "2016-02"],
   "eligible_start": "1980-01",
   "eligible_end": "2020-12",
   "additional_random_count": 22,

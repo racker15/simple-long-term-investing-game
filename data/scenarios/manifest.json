@@ -8,6 +8,18 @@
       "selection_mode": "important"
     },
     {
+      "scenario_id": "1982-09",
+      "date": "1982-09-30",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "1982-10",
+      "date": "1982-10-31",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
       "scenario_id": "1987-01",
       "date": "1987-01-31",
       "data_kind": "historical",

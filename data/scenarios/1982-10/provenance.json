@@ -1,0 +1,256 @@
+{
+  "scenario_id": "1982-10",
+  "sources": [
+    {
+      "id": "news-1982-10-29",
+      "source_name": "TIME: The Volckernomics Puzzle",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,953606,00.html",
+      "publication_date": "1982-10-25",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "news-1982-10-30",
+      "source_name": "TIME: Tiptoeing Back into the Market",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,953607,00.html",
+      "publication_date": "1982-10-25",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "news-1982-10-0",
+      "source_name": "TIME: Facing the Jobs Issue",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,953583,00.html",
+      "publication_date": "1982-10-25",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "news-1982-10-11",
+      "source_name": "TIME: Poland: The General Wins a Battle",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,953594,00.html",
+      "publication_date": "1982-10-25",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "news-1982-10-21",
+      "source_name": "TIME: Science: Raising a Tudor Rose",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,953626,00.html",
+      "publication_date": "1982-10-25",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "news-1982-10-40",
+      "source_name": "TIME: Cinema: Did You Ever See a Boat Walking?",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,953618,00.html",
+      "publication_date": "1982-10-25",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "time-921269",
+      "source_name": "TIME: Alleged theft of IBM secrets draws FBI action",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,921269,00.html",
+      "publication_date": "1982-08-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication. Reused contemporary source from locked August pilot; company selection is not based on subsequent returns."
+    },
+    {
+      "id": "time-921281",
+      "source_name": "TIME: Home computers become a consuming hobby",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,921281,00.html",
+      "publication_date": "1982-08-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication. Reused contemporary source from locked August pilot; company selection is not based on subsequent returns."
+    },
+    {
+      "id": "time-925661",
+      "source_name": "TIME: Coca-Cola brings its soft drink rivalry to Columbia Pictures",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,925661,00.html",
+      "publication_date": "1982-08-09",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original issue date shown by the publisher archive; modern archive/digitization date is not the original publication date. Current public archive retrieved2026-10-05; archive digitization/migration date unknown, distinct from original publication. Reused contemporary source from locked August pilot; company selection is not based on subsequent returns."
+    },
+    {
+      "id": "asof-macro-cpiaucsl",
+      "source_name": "Historical CPIAUCSL observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "publication_date": "1982-10-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1982-09-30"
+    },
+    {
+      "id": "asof-macro-unrate",
+      "source_name": "Historical UNRATE observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UNRATE",
+      "publication_date": "1982-10-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1982-09-30"
+    },
+    {
+      "id": "asof-macro-fedfunds",
+      "source_name": "Historical FEDFUNDS observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "publication_date": "1982-10-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1982-09-30"
+    },
+    {
+      "id": "asof-macro-gs10",
+      "source_name": "Historical GS10 observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/GS10",
+      "publication_date": "1982-10-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1982-09-30"
+    },
+    {
+      "id": "asof-macro-umcsent",
+      "source_name": "Historical UMCSENT observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UMCSENT",
+      "publication_date": "1982-10-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1982-09-30"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-market observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "publication_date": "1982-10-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying observations, not publication date of modern archives. Transparent Treasury and developed-market proxies; not exact contemporary database vintages.",
+      "observation_date": "1982-10-31"
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/1982-10/starting.json",
+      "publication_date": "1982-10-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying prices. Current retrospective adjusted-close reconstruction; the modern archive publication date is not asserted here.",
+      "observation_date": "1982-10-31"
+    },
+    {
+      "id": "french-us",
+      "source_name": "Kenneth French Data Library",
+      "source_reference": "https://raw.githubusercontent.com/ethanteng/finsight/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609/src/datasets/F-F_Research_Data_Factors.csv",
+      "observation_date": "1987-10-31",
+      "publication_date": "2026-10-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/ethanteng/finsight/commit/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609), not original market reporting or first dataset publication. Canonical source: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html. Series: F-F_Research_Data_Factors: Mkt-RF + RF; RF. Raw SHA256: 9ddf8f5b510f8730acca0fc3d899085d757c92378d7ea66b7c8d864354fa1209. Use the first monthly table; convert percent to decimal. US equity total return = (Mkt-RF + RF)/100. Cash = RF/100. No ETF replication is claimed. Current reconstructed history, not a 1999 data-library vintage. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "french-international",
+      "source_name": "Kenneth French International Index Portfolios",
+      "source_reference": "https://raw.githubusercontent.com/ethanteng/finsight/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609/src/datasets/F-F_International_Indices.dat",
+      "observation_date": "1987-10-31",
+      "publication_date": "2026-10-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/ethanteng/finsight/commit/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609), not original market reporting or first dataset publication. Canonical source: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/int_index_port_formed.html. Series: International index: Major Markets market portfolio (USD, including dividends). Raw SHA256: 047aab4e9ae512f3759fde34e8e49b8ff12a162fad4e8d36ec5b8c99b8d06266. EAFE + Canada country-weighted market portfolio, without US equity. Source coverage begins January 1975. Country coverage changes in source methodology; MSCI inputs through 2006 and Bloomberg from 2007. No project-level splice. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "fred-gs5",
+      "source_name": "Federal Reserve H.15 via FRED",
+      "source_reference": "https://raw.githubusercontent.com/BuyRisk/buyrisk.github.io/c51c5c9592bf2de0758b7b2ed13a35930516fefa/data/sources/fred/GS5.csv",
+      "observation_date": "1987-10-31",
+      "publication_date": "2026-09-21",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/BuyRisk/buyrisk.github.io/commit/c51c5c9592bf2de0758b7b2ed13a35930516fefa), not original market reporting or first dataset publication. Canonical source: https://fred.stlouisfed.org/series/GS5. Series: GS5. Raw SHA256: b03972bed533eeffebe1d9b54d7e52dc5a67b0119cc82ebd92d799fbc184c165. Monthly average five-year constant-maturity Treasury yield. Synthetic rolling five-year par bond: monthly coupons, flat yield curve, one coupon plus repriced 59 remaining monthly payments. No credit/spread exposure or bond-fund fees; not a broad aggregate index. Uses preceding month yield for coupon, current month yield for repricing. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "yahoo-aapl",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "source_reference": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?period1=370742400&period2=562723200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "1987-10-30",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Current retrospective Yahoo snapshot used for outcomes, retrieved 2026-10-06. Original publication and archive revision dates are unknown (publication_date is null); retrieval does not establish a contemporary vintage. Daily observations run through 1987-10-30. Retrieved raw payload SHA256: ecef3350b8dbdb98f05deb1a266d199cf474a192761fee9c0e46ee0de85f84a2. Endpoint is unversioned; the committed normalized monthly endpoints allow offline rebuilding. Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 31fe23e2cbc8281bb432e1ead44a8093cc773803 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-ibm",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "source_reference": "https://query1.finance.yahoo.com/v8/finance/chart/IBM?period1=370742400&period2=562723200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "1987-10-30",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Current retrospective Yahoo snapshot used for outcomes, retrieved 2026-10-06. Original publication and archive revision dates are unknown (publication_date is null); retrieval does not establish a contemporary vintage. Daily observations run through 1987-10-30. Retrieved raw payload SHA256: e20456995147443f357f1ce3d8dc30ea3216b4a582194995d10b54c448e8a16b. Endpoint is unversioned; the committed normalized monthly endpoints allow offline rebuilding. Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 31fe23e2cbc8281bb432e1ead44a8093cc773803 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-ko",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "source_reference": "https://query1.finance.yahoo.com/v8/finance/chart/KO?period1=370742400&period2=562723200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "1987-10-30",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Current retrospective Yahoo snapshot used for outcomes, retrieved 2026-10-06. Original publication and archive revision dates are unknown (publication_date is null); retrieval does not establish a contemporary vintage. Daily observations run through 1987-10-30. Retrieved raw payload SHA256: 64cdf9790d2f94e028f4d05dedff566fe606b8b57d0ddb3b12c52aae54b658ce. Endpoint is unversioned; the committed normalized monthly endpoints allow offline rebuilding. Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 31fe23e2cbc8281bb432e1ead44a8093cc773803 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "nber-1982-trough",
+      "source_name": "NBER: July 8, 1983 business-cycle announcement",
+      "source_reference": "https://www.nber.org/news/business-cycle-dating-committee-announcement-july-8-1983",
+      "publication_date": "1983-07-08",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Retrospective announcement dates the economic turning point to November 1982; this was not known at the scenario start.",
+      "observation_date": "1982-11-30"
+    },
+    {
+      "id": "reagan-sdi",
+      "source_name": "Reagan Presidential Library: defense address",
+      "source_reference": "https://www.reaganlibrary.gov/archives/speech/address-nation-defense-and-national-security",
+      "publication_date": "1983-03-23",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original speech announcing a missile-defense research program.",
+      "observation_date": "1983-03-23"
+    },
+    {
+      "id": "nasa-challenger",
+      "source_name": "NASA: Challenger STS-51L accident",
+      "source_reference": "https://www.nasa.gov/challenger-sts-51l-accident/",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Undated retrospective NASA history, outcome context only.",
+      "observation_date": "1986-01-28"
+    },
+    {
+      "id": "fed-crash1987",
+      "source_name": "Federal Reserve History: Stock Market Crash of 1987",
+      "source_reference": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987",
+      "publication_date": "2013-11-22",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Retrospective history; not a pre-investment source.",
+      "observation_date": "1987-10-19"
+    }
+  ]
+}
