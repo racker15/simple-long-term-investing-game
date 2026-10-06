@@ -1,0 +1,158 @@
+{
+  "scenario_id": "1992-02",
+  "sources": [
+    {
+      "id": "news-1992-02-0",
+      "source_name": "TIME: Calling Buck Rogerski",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,974928,00.html",
+      "publication_date": "1992-02-24",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1992-02-17",
+      "source_name": "TIME: 1992 Winter Olympics: Blades Of Gold",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,974923,00.html",
+      "publication_date": "1992-02-24",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1992-02-23",
+      "source_name": "TIME: Automobiles: Sticker Shock Made in Japan",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,974924,00.html",
+      "publication_date": "1992-02-24",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1992-02-24",
+      "source_name": "TIME: Environment: Ozone Deadline",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,974925,00.html",
+      "publication_date": "1992-02-24",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1992-02-25",
+      "source_name": "TIME: Retailing: Santa Might Get Sick",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,974926,00.html",
+      "publication_date": "1992-02-24",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1992-02-27",
+      "source_name": "TIME: Communications: A Giant Tug-of-Wire",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,974929,00.html",
+      "publication_date": "1992-02-24",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "computer-alliance",
+      "source_name": "UPI: IBM, Siemens sign agreement",
+      "source_reference": "https://www.upi.com/Archives/1991/07/05/IBM-Siemens-sign-agreement/5438678686400/",
+      "publication_date": "1991-07-05",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary report includes IBM–Apple agreement to develop software, computers and compatible media technology."
+    },
+    {
+      "id": "spf-outlook",
+      "source_name": "Professional forecaster survey, 1992 Q1",
+      "source_reference": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/data-files/files/median_rgdp_growth.xlsx",
+      "publication_date": "1992-02-29",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Historical median DRGDP3 forecast (quarter after the survey quarter). Pre-1990 original release timing is uncertain; middle-month end is modeled availability, not an asserted original archive date. Retrospective forecast archive, not actual outcomes.",
+      "observation_date": "1992-02-29"
+    },
+    {
+      "id": "asof-macro-cpiaucsl",
+      "source_name": "Historical CPIAUCSL observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "publication_date": "1992-02-29",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1992-01-31"
+    },
+    {
+      "id": "asof-macro-unrate",
+      "source_name": "Historical UNRATE observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UNRATE",
+      "publication_date": "1992-02-29",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1992-01-31"
+    },
+    {
+      "id": "asof-macro-fedfunds",
+      "source_name": "Historical FEDFUNDS observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "publication_date": "1992-02-29",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1992-01-31"
+    },
+    {
+      "id": "asof-macro-gs10",
+      "source_name": "Historical GS10 observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/GS10",
+      "publication_date": "1992-02-29",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1992-01-31"
+    },
+    {
+      "id": "asof-macro-umcsent",
+      "source_name": "Historical UMCSENT observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UMCSENT",
+      "publication_date": "1992-02-29",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1992-01-31"
+    },
+    {
+      "id": "asof-macro-indpro",
+      "source_name": "Historical INDPRO observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/INDPRO",
+      "publication_date": "1992-02-29",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1992-01-31"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-market observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "publication_date": "1992-02-29",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying observations, not publication date of modern archives. Transparent Treasury and developed-market proxies; not exact contemporary database vintages.",
+      "observation_date": "1992-02-29"
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/1992-02/starting.json",
+      "publication_date": "1992-02-29",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying prices. Current retrospective adjusted-close reconstruction; the modern archive publication date is not asserted here.",
+      "observation_date": "1992-02-29"
+    }
+  ]
+}

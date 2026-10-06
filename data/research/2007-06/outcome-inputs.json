@@ -1,0 +1,54 @@
+{
+  "scenario_id": "2007-06",
+  "events": [
+    {
+      "month": "2008-09",
+      "title": "The financial crisis intensifies",
+      "description": "Lehman Brothers files for bankruptcy. Authorities support other financial firms as stress spreads.",
+      "source_ids": ["financial-crisis"]
+    },
+    {
+      "month": "2010-04",
+      "title": "Deepwater Horizon disaster",
+      "description": "An offshore drilling explosion kills workers and leads to a major oil spill.",
+      "source_ids": ["deepwater"]
+    },
+    {
+      "month": "2011-03",
+      "title": "Japan is struck by an earthquake and tsunami",
+      "description": "Coastal communities suffer devastating damage and begin a long recovery.",
+      "source_ids": ["japan-quake"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Apple grew to almost five times its starting value. Disney also gained, but the international basket lost more than one-fifth. The US basket ended only slightly higher, close to cash. A new device could be a major business opportunity without making every investment in the same period successful.\n\nThe financial crisis intensified in September 2008 when Lehman Brothers filed for bankruptcy. The Deepwater Horizon disaster and Japan’s earthquake and tsunami came later. None of those events was visible on a complete timeline when investors were reading about the new iPhone.\n\nApple’s gain does not mean the touchscreen demonstration made its future price obvious. The company still had to sell products, meet costs and compete. The share price could also move as investors changed their expectations. Meanwhile, the US and international baskets followed different paths through the same years. Spreading money across countries and companies changes the risks you take, but it does not make every part of a portfolio rise together.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aapl",
+      "yahoo-msft",
+      "yahoo-dis",
+      "financial-crisis",
+      "deepwater",
+      "japan-quake"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "Touchscreens and the iPhone attracted attention, while Disney changed direction and communities faced political and economic uncertainty.",
+    "what_actually_mattered": "The different paths mattered. A broad foreign basket and a US basket did not move alike, and one highly successful company outpaced both.",
+    "what_faded_away": "A memorable product demonstration did not reveal the size of future returns. It also did not remove the risks of owning a single share.",
+    "what_nobody_knew": "The financial crisis was still ahead. Even someone excited about the iPhone could not know its full business effect or the investment path.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aapl",
+      "yahoo-msft",
+      "yahoo-dis",
+      "financial-crisis",
+      "deepwater",
+      "japan-quake"
+    ]
+  }
+}

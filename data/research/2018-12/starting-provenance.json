@@ -1,0 +1,149 @@
+{
+  "scenario_id": "2018-12",
+  "sources": [
+    {
+      "id": "spf-outlook",
+      "source_name": "Professional forecaster survey, 2018 Q4",
+      "source_reference": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/data-files/files/median_rgdp_growth.xlsx",
+      "publication_date": "2018-11-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Historical median DRGDP3 forecast (quarter after the survey quarter). Pre-1990 original release timing is uncertain; middle-month end is modeled availability, not an asserted original archive date. Retrospective forecast archive, not actual outcomes.",
+      "observation_date": "2018-11-30"
+    },
+    {
+      "id": "asof-macro-cpiaucsl",
+      "source_name": "Historical CPIAUCSL observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "publication_date": "2018-12-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2018-11-30"
+    },
+    {
+      "id": "asof-macro-unrate",
+      "source_name": "Historical UNRATE observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UNRATE",
+      "publication_date": "2018-12-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2018-11-30"
+    },
+    {
+      "id": "asof-macro-fedfunds",
+      "source_name": "Historical FEDFUNDS observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "publication_date": "2018-12-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2018-11-30"
+    },
+    {
+      "id": "asof-macro-gs10",
+      "source_name": "Historical GS10 observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/GS10",
+      "publication_date": "2018-12-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2018-11-30"
+    },
+    {
+      "id": "asof-macro-umcsent",
+      "source_name": "Historical UMCSENT observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UMCSENT",
+      "publication_date": "2018-12-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2018-11-30"
+    },
+    {
+      "id": "asof-macro-indpro",
+      "source_name": "Historical INDPRO observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/INDPRO",
+      "publication_date": "2018-12-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2018-11-30"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-market observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "publication_date": "2018-12-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying observations, not publication date of modern archives. Transparent Treasury and developed-market proxies; not exact contemporary database vintages.",
+      "observation_date": "2018-12-31"
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/2018-12/starting.json",
+      "publication_date": "2018-12-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying prices. Current retrospective adjusted-close reconstruction; the modern archive publication date is not asserted here.",
+      "observation_date": "2018-12-31"
+    },
+    {
+      "id": "fed-rate",
+      "source_name": "Federal Reserve: FOMC statement",
+      "source_reference": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20181219a.htm",
+      "publication_date": "2018-12-19",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original policy announcement."
+    },
+    {
+      "id": "climate-talks",
+      "source_name": "TIME: Paris Agreement Lives on at UN Climate Conference",
+      "source_reference": "https://time.com/5480146/climate-change-cop-24-paris-agreement/",
+      "publication_date": "2018-12-16",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary conference report."
+    },
+    {
+      "id": "new-horizons",
+      "source_name": "NASA: On Final Approach to Ultima",
+      "source_reference": "https://science.nasa.gov/blogs/new-horizons/2018/12/20/the-pis-perspective-on-final-approach-to-ultima/",
+      "publication_date": "2018-12-20",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary mission update. Flyby is still in the future at cutoff."
+    },
+    {
+      "id": "smash-bros",
+      "source_name": "TIME: Super Smash Bros. Ultimate review",
+      "source_reference": "https://time.com/5473979/super-smash-bros-ultimate-switch-review/",
+      "publication_date": "2018-12-07",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary product review; no later sales results used."
+    },
+    {
+      "id": "apple-results",
+      "source_name": "Apple: Fourth Quarter Results",
+      "source_reference": "https://www.apple.com/newsroom/2018/11/apple-reports-fourth-quarter-results/",
+      "publication_date": "2018-11-01",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original company results announcement."
+    },
+    {
+      "id": "microsoft-cloud",
+      "source_name": "Microsoft: FY19Q1 earnings release",
+      "source_reference": "https://www.microsoft.com/en-us/Investor/earnings/FY-2019-Q1/press-release-webcast",
+      "publication_date": "2018-10-24",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original company results announcement."
+    }
+  ]
+}

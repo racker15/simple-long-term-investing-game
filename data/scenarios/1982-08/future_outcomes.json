@@ -3,32 +3,32 @@
   "events": [
     {
       "month": "1983-07",
-      "title": "The NBER announces that the recession ended",
-      "description": "The committee dates the trough to November 1982. The later announcement illustrates the delay between economic turning points and official confirmation.",
+      "title": "Economists confirm the recession has ended",
+      "description": "In July 1983, researchers say the economy reached its low point the previous November. Confirmation comes after the turning point.",
       "source_ids": ["nber-trough82"]
     },
     {
       "month": "1985-04",
-      "title": "Coca-Cola announces a new formula",
-      "description": "The company changes its flagship formula. This product decision and its reception are business context, not an isolated explanation of the stock return.",
+      "title": "Coca-Cola changes its recipe",
+      "description": "The company introduces a new version of its best-known drink. Many customers want the original back.",
       "source_ids": ["ko-new-coke"]
     },
     {
       "month": "1985-07",
-      "title": "The original Coca-Cola formula returns",
-      "description": "The original formula returns as Coca-Cola classic after consumer objections. The episode shows that business plans can change during a holding period.",
+      "title": "The original Coke returns",
+      "description": "Coca-Cola brings back the old recipe as Coca-Cola classic after customers object to the change.",
       "source_ids": ["ko-new-coke"]
     },
     {
       "month": "1985-09",
-      "title": "The Plaza communiqué addresses exchange-rate imbalances",
-      "description": "Five countries state that further orderly appreciation of major non-dollar currencies is desirable and express readiness to cooperate. Dollar-based international returns also reflect currencies.",
+      "title": "Five countries agree to work on currency values",
+      "description": "Their agreement aims to lower the dollar against other major currencies. Currency changes can affect foreign investments measured in dollars.",
       "source_ids": ["plaza85"]
     },
     {
       "month": "1987-06",
-      "title": "Apple implements a two-for-one stock split",
-      "description": "Each share becomes two shares; this changes units and quoted prices rather than creating a separate investment gain. Adjusted prices account for the split.",
+      "title": "Apple splits its shares",
+      "description": "Each share becomes two. Owners have twice as many shares, but the split alone does not double their investment’s value.",
       "source_ids": ["apple-split-history"]
     }
   ],

@@ -1,0 +1,176 @@
+{
+  "scenario_id": "1985-09",
+  "sources": [
+    {
+      "id": "news-1985-09-1",
+      "source_name": "TIME: Congress: No Time for the Tax Bill",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,959961,00.html",
+      "publication_date": "1985-09-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1985-09-9",
+      "source_name": "TIME: Setting the Summit Table",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,960001,00.html",
+      "publication_date": "1985-09-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1985-09-13",
+      "source_name": "TIME: A Noise Like Thunder",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,959981,00.html",
+      "publication_date": "1985-09-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1985-09-34",
+      "source_name": "TIME: Regulation: A Freer Hand for At&T",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,959978,00.html",
+      "publication_date": "1985-09-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1985-09-36",
+      "source_name": "TIME: Shaken to the Very Core",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,960002,00.html",
+      "publication_date": "1985-09-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1985-09-41",
+      "source_name": "TIME: Theater: Bright Lights and Heartache Song & Dance",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,959973,00.html",
+      "publication_date": "1985-09-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "coke-classic",
+      "source_name": "UPI: The return of Classic Coke",
+      "source_reference": "https://www.upi.com/Archives/1985/07/24/The-man-who-sparked-the-nationwide-drive-forcing-the/1844491025600/",
+      "publication_date": "1985-07-24",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary archive reporting; old formula returns after customer protests."
+    },
+    {
+      "id": "ibm-pcjr",
+      "source_name": "UPI: IBM to halt production of PC jr",
+      "source_reference": "https://www.upi.com/amp/Archives/1985/03/19/IBM-to-halt-production-of-PC-jr/7659480056400/",
+      "publication_date": "1985-03-19",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary report of the product cancellation, not later IBM results."
+    },
+    {
+      "id": "spf-outlook",
+      "source_name": "ASA/NBER professional forecasts, 1985 Q3",
+      "source_reference": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/data-files/files/median_rgdp_growth.xlsx",
+      "publication_date": "1985-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Historical median DRGDP3 forecast (quarter after the survey quarter). Pre-1990 original release timing is uncertain; middle-month end is modeled availability, not an asserted original archive date. Retrospective forecast archive, not actual outcomes.",
+      "observation_date": "1985-08-31"
+    },
+    {
+      "id": "asof-macro-cpiaucsl",
+      "source_name": "Historical CPIAUCSL observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "publication_date": "1985-09-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1985-08-31"
+    },
+    {
+      "id": "asof-macro-unrate",
+      "source_name": "Historical UNRATE observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UNRATE",
+      "publication_date": "1985-09-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1985-08-31"
+    },
+    {
+      "id": "asof-macro-fedfunds",
+      "source_name": "Historical FEDFUNDS observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "publication_date": "1985-09-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1985-08-31"
+    },
+    {
+      "id": "asof-macro-gs10",
+      "source_name": "Historical GS10 observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/GS10",
+      "publication_date": "1985-09-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1985-08-31"
+    },
+    {
+      "id": "asof-macro-umcsent",
+      "source_name": "Historical UMCSENT observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UMCSENT",
+      "publication_date": "1985-09-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1985-08-31"
+    },
+    {
+      "id": "asof-macro-indpro",
+      "source_name": "Historical INDPRO observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/INDPRO",
+      "publication_date": "1985-09-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1985-08-31"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-market observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "publication_date": "1985-09-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying observations, not publication date of modern archives. Transparent Treasury and developed-market proxies; not exact contemporary database vintages.",
+      "observation_date": "1985-09-30"
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/1985-09/starting.json",
+      "publication_date": "1985-09-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying prices. Current retrospective adjusted-close reconstruction; the modern archive publication date is not asserted here.",
+      "observation_date": "1985-09-30"
+    },
+    {
+      "id": "plaza-plan",
+      "source_name": "Los Angeles Times: U.S., Allies Agree on Plan to Depress Value of the Dollar",
+      "source_reference": "https://www.latimes.com/archives/la-xpm-1985-09-23-mn-19484-story.html",
+      "publication_date": "1985-09-23",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary report; short paraphrase of the announced five-country plan."
+    }
+  ]
+}

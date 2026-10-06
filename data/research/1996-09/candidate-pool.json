@@ -1,0 +1,232 @@
+{
+  "scenario_id": "1996-09",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985213,00.html",
+      "title": "NEWT'S NIGHTMARE"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985214,00.html",
+      "title": "CAMPAIGN '96: THE AD WARS TURN NASTY"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985215,00.html",
+      "title": "THE GEORGIA PLAYBOOK"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985216,00.html",
+      "title": "THE BEST AND THE BRIGHTEST: MCGEORGE BUNDY, 1919-1996"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985217,00.html",
+      "title": "NAYSAYER TO THE NATTERING NABOBS"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985218,00.html",
+      "title": "POLITICS AND PRINCIPLE"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985219,00.html",
+      "title": "A THEORY GONE TO THE DOGS"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985251,00.html",
+      "title": "NEXT: THE ABORTION PILL"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985254,00.html",
+      "title": "DEAR DIARY, I MADE BOMBS"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985220,00.html",
+      "title": "UNHEALTHY PROGNOSIS"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985221,00.html",
+      "title": "THE AGONY OF VICTORY"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985222,00.html",
+      "title": "THE SPIES FROM THE SEA"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985223,00.html",
+      "title": "THE GULF WAR POISONS SEEP OUT"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985224,00.html",
+      "title": "LOST PRISONERS OF WAR: SOLD DOWN THE RIVER?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985228,00.html",
+      "title": "WRECKING THE REEFS"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985229,00.html",
+      "title": "MARATHON WOMAN"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985230,00.html",
+      "title": "LIQUID X"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985231,00.html",
+      "title": "THE NEW HANDS-OFF NURSING"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985233,00.html",
+      "title": "PLAYING HARD TO GET"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985234,00.html",
+      "title": "A CHANGE IN STRIPES"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985249,00.html",
+      "title": "PANIX ATTACK"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985232,00.html",
+      "title": "DIVIDING LINE: CRACK, CONTRAS AND CYBERSPACE"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985235,00.html",
+      "title": "People: Sep. 30, 1996"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985236,00.html",
+      "title": "CALL OF THE MILD"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985243,00.html",
+      "title": "Letters, Sep. 30, 1996"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985245,00.html",
+      "title": "CAMPAIGN NOTEBOOK"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985246,00.html",
+      "title": "WASHINGTON DIARY: THE GAY DIVORCES"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985247,00.html",
+      "title": "SINGING ANOTHER TUNE"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985248,00.html",
+      "title": "Milestones Sep. 30, 1996"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985250,00.html",
+      "title": "Notebook: Sep. 30, 1996"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985252,00.html",
+      "title": "LIKE SHIPS IN THE NIGHT"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985253,00.html",
+      "title": "OUT ON THE BLINK"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985225,00.html",
+      "title": "NED JOHNSON AND FIDELITY: THE MONEY MACHINE"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985226,00.html",
+      "title": "A QUIET PASSION FOR PERFORMANCE"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985227,00.html",
+      "title": "TAKING STOCK OF FIDELITY'S FUNDS"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985237,00.html",
+      "title": "CINEMA: FAMILY VALUES"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985238,00.html",
+      "title": "THE LUCAS WARS"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985239,00.html",
+      "title": "MUSIC: FROM THE DRIVER'S SIDE"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985240,00.html",
+      "title": "TELEVISION: DICK MORRIS, BUT PERKIER"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985241,00.html",
+      "title": "BOOKS: PAIN, NO GAIN"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985242,00.html",
+      "title": "BOOKS: FRANGLAIS SPOKEN HERE"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985244,00.html",
+      "title": "BOOKS: CLAIRE BLOOM'S COMPLAINT"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,985255,00.html",
+      "title": "TELEVISION: ALL BIG YUKS"
+    }
+  ],
+  "selected_news": [1, 15, 20, 32, 36],
+  "stock_candidates": [
+    {
+      "ticker": "NKE",
+      "selected": true,
+      "rationale": "The sportswear maker has reportedly signed an endorsement deal with new professional golfer Tiger Woods."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": true,
+      "rationale": "The computer maker is dealing with a product recall and a large quarterly loss."
+    },
+    {
+      "ticker": "MSFT",
+      "selected": true,
+      "rationale": "The software company is expanding Windows and competing in web browsers."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "DIS",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

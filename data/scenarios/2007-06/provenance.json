@@ -1,0 +1,239 @@
+{
+  "scenario_id": "2007-06",
+  "sources": [
+    {
+      "id": "news-2007-06-2",
+      "source_name": "TIME: Postcard: Coney Island",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,1633065,00.html",
+      "publication_date": "2007-06-25",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-2007-06-12",
+      "source_name": "TIME: Hamas' Takeover of Gaza",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,1633072,00.html",
+      "publication_date": "2007-06-25",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-2007-06-19",
+      "source_name": "TIME: Touch Screens Take Over",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,1633088,00.html",
+      "publication_date": "2007-06-25",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-2007-06-25",
+      "source_name": "TIME: The White Stripes' Odd Appeal",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,1633091,00.html",
+      "publication_date": "2007-06-25",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-2007-06-28",
+      "source_name": "TIME: Building a Better Mouse",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,1633077,00.html",
+      "publication_date": "2007-06-25",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "spf-outlook",
+      "source_name": "Professional forecaster survey, 2007 Q2",
+      "source_reference": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/data-files/files/median_rgdp_growth.xlsx",
+      "publication_date": "2007-05-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Historical median DRGDP3 forecast (quarter after the survey quarter). Pre-1990 original release timing is uncertain; middle-month end is modeled availability, not an asserted original archive date. Retrospective forecast archive, not actual outcomes.",
+      "observation_date": "2007-05-31"
+    },
+    {
+      "id": "asof-macro-cpiaucsl",
+      "source_name": "Historical CPIAUCSL observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "publication_date": "2007-06-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2007-05-31"
+    },
+    {
+      "id": "asof-macro-unrate",
+      "source_name": "Historical UNRATE observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UNRATE",
+      "publication_date": "2007-06-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2007-05-31"
+    },
+    {
+      "id": "asof-macro-fedfunds",
+      "source_name": "Historical FEDFUNDS observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "publication_date": "2007-06-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2007-05-31"
+    },
+    {
+      "id": "asof-macro-gs10",
+      "source_name": "Historical GS10 observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/GS10",
+      "publication_date": "2007-06-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2007-05-31"
+    },
+    {
+      "id": "asof-macro-umcsent",
+      "source_name": "Historical UMCSENT observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UMCSENT",
+      "publication_date": "2007-06-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2007-05-31"
+    },
+    {
+      "id": "asof-macro-indpro",
+      "source_name": "Historical INDPRO observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/INDPRO",
+      "publication_date": "2007-06-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2007-05-31"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-market observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "publication_date": "2007-06-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying observations, not publication date of modern archives. Transparent Treasury and developed-market proxies; not exact contemporary database vintages.",
+      "observation_date": "2007-06-30"
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/2007-06/starting.json",
+      "publication_date": "2007-06-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying prices. Current retrospective adjusted-close reconstruction; the modern archive publication date is not asserted here.",
+      "observation_date": "2007-06-30"
+    },
+    {
+      "id": "iphone-retail",
+      "source_name": "Apple: iPhone Premieres This Friday Night at Apple Retail Stores",
+      "source_reference": "https://www.apple.com/newsroom/2007/06/28iPhone-Premieres-This-Friday-Night-at-Apple-Retail-Stores/",
+      "publication_date": "2007-06-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original June29 retail-launch announcement. No later sales success assumed."
+    },
+    {
+      "id": "french-us",
+      "source_name": "Kenneth French Data Library",
+      "source_reference": "https://raw.githubusercontent.com/ethanteng/finsight/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609/src/datasets/F-F_Research_Data_Factors.csv",
+      "observation_date": "2012-06-30",
+      "publication_date": "2026-10-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/ethanteng/finsight/commit/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609), not original market reporting or first dataset publication. Canonical source: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html. Series: F-F_Research_Data_Factors: Mkt-RF + RF; RF. Raw SHA256: 9ddf8f5b510f8730acca0fc3d899085d757c92378d7ea66b7c8d864354fa1209. Use the first monthly table; convert percent to decimal. US equity total return = (Mkt-RF + RF)/100. Cash = RF/100. No ETF replication is claimed. Current reconstructed history, not a 1999 data-library vintage. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "french-international",
+      "source_name": "Kenneth French International Index Portfolios",
+      "source_reference": "https://raw.githubusercontent.com/ethanteng/finsight/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609/src/datasets/F-F_International_Indices.dat",
+      "observation_date": "2012-06-30",
+      "publication_date": "2026-10-05",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/ethanteng/finsight/commit/e033ac1b61c6cca1df75e0beb3b7d1a3ae991609), not original market reporting or first dataset publication. Canonical source: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/int_index_port_formed.html. Series: International index: Major Markets market portfolio (USD, including dividends). Raw SHA256: 047aab4e9ae512f3759fde34e8e49b8ff12a162fad4e8d36ec5b8c99b8d06266. EAFE + Canada country-weighted market portfolio, without US equity. Source coverage begins January 1975. Country coverage changes in source methodology; MSCI inputs through 2006 and Bloomberg from 2007. No project-level splice. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "fred-gs5",
+      "source_name": "Federal Reserve H.15 via FRED",
+      "source_reference": "https://raw.githubusercontent.com/BuyRisk/buyrisk.github.io/c51c5c9592bf2de0758b7b2ed13a35930516fefa/data/sources/fred/GS5.csv",
+      "observation_date": "2012-06-30",
+      "publication_date": "2026-09-21",
+      "retrieved_at": "2026-10-05",
+      "approximation": true,
+      "notes": "Retrospective archive used for outcomes. Publication date is that of the pinned public mirror revision (https://github.com/BuyRisk/buyrisk.github.io/commit/c51c5c9592bf2de0758b7b2ed13a35930516fefa), not original market reporting or first dataset publication. Canonical source: https://fred.stlouisfed.org/series/GS5. Series: GS5. Raw SHA256: b03972bed533eeffebe1d9b54d7e52dc5a67b0119cc82ebd92d799fbc184c165. Monthly average five-year constant-maturity Treasury yield. Synthetic rolling five-year par bond: monthly coupons, flat yield curve, one coupon plus repriced 59 remaining monthly payments. No credit/spread exposure or bond-fund fees; not a broad aggregate index. Uses preceding month yield for coupon, current month yield for repricing. Retrieval uses a revision-pinned public mirror of the source payload; no raw payload is redistributed in this repository."
+    },
+    {
+      "id": "yahoo-aapl",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "source_reference": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?period1=1149120000&period2=1341100800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "2012-06-29",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Current retrospective Yahoo snapshot used for outcomes, retrieved 2026-10-06. Original publication and archive revision dates are unknown (publication_date is null); retrieval does not establish a contemporary vintage. Daily observations run through 2012-06-29. Retrieved raw payload SHA256: 0df2d4aae66ba1657cc1bc635d9217dd84585aa267106ff245b3eb534aca8bd9. Endpoint is unversioned; the committed normalized monthly endpoints allow offline rebuilding. Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 41e0172a01657625cb173bfb9526143406ca2092 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-msft",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "source_reference": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?period1=1149120000&period2=1341100800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "2012-06-29",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Current retrospective Yahoo snapshot used for outcomes, retrieved 2026-10-06. Original publication and archive revision dates are unknown (publication_date is null); retrieval does not establish a contemporary vintage. Daily observations run through 2012-06-29. Retrieved raw payload SHA256: 5e5eb3acf4e6399247095a88de94411243c3c576c6753a5f2d6d2757a0eebd49. Endpoint is unversioned; the committed normalized monthly endpoints allow offline rebuilding. Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 41e0172a01657625cb173bfb9526143406ca2092 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-dis",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "source_reference": "https://query1.finance.yahoo.com/v8/finance/chart/DIS?period1=1149120000&period2=1341100800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "observation_date": "2012-06-29",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Current retrospective Yahoo snapshot used for outcomes, retrieved 2026-10-06. Original publication and archive revision dates are unknown (publication_date is null); retrieval does not establish a contemporary vintage. Daily observations run through 2012-06-29. Retrieved raw payload SHA256: 1e26648ee8ad26b67be3acf3c65dbffd8da7416017c4d7101fcf29837ca9ff36. Endpoint is unversioned; the committed normalized monthly endpoints allow offline rebuilding. Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 41e0172a01657625cb173bfb9526143406ca2092 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "financial-crisis",
+      "source_name": "Federal Reserve History: Great Recession and Its Aftermath",
+      "source_reference": "https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath",
+      "publication_date": "2013-11-22",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Retrospective institutional history.",
+      "observation_date": "2008-09-30"
+    },
+    {
+      "id": "deepwater",
+      "source_name": "NOAA Fisheries: Deepwater Horizon Oil Spill 2010",
+      "source_reference": "https://www.fisheries.noaa.gov/content/deepwater-horizon-oil-spill-2010",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Retrospective incident history.",
+      "observation_date": "2010-04-20"
+    },
+    {
+      "id": "japan-quake",
+      "source_name": "USGS: Japan Lashed by Powerful Earthquake, Devastating Tsunami",
+      "source_reference": "https://www.usgs.gov/centers/pcmsc/news/japan-lashed-powerful-earthquake-devastating-tsunami",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Institutional account of the March11 disaster.",
+      "observation_date": "2011-03-11"
+    }
+  ]
+}

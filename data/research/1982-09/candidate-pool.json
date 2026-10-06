@@ -1,0 +1,236 @@
+{
+  "scenario_id": "1982-09",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925728,00.html",
+      "title": "A Troubled Alliance"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925729,00.html",
+      "title": "Setback for the New Right"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925730,00.html",
+      "title": "Case Closed"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925731,00.html",
+      "title": "Governors: Different Democratic Styles"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925732,00.html",
+      "title": "Senators: Questions About Campaign Spending"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925733,00.html",
+      "title": "We're Not Writing Off Anyone"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925734,00.html",
+      "title": "The Princess From Hollywood"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925735,00.html",
+      "title": "The New Lebanon Crisis"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925736,00.html",
+      "title": "Sectarian with a New Vision"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925737,00.html",
+      "title": "West Germany: Collapse of a Coalition"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925738,00.html",
+      "title": "The Man Who Would Be Chancellor"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925739,00.html",
+      "title": "Iran: Revolution Devouring Its Own"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925740,00.html",
+      "title": "Italy: Bank Error"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925741,00.html",
+      "title": "Terrorism: Tracking Agca"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925742,00.html",
+      "title": "Europe: A Grisly Triptych of Disasters"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925767,00.html",
+      "title": "Medicine: Excess Marks the Spot"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925768,00.html",
+      "title": "Medicine: Cardiac Puzzle"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925750,00.html",
+      "title": "Living: How Toe-dully Max Is Their Valley"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925748,00.html",
+      "title": "Press: Trades Blow No Ill Winds"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925749,00.html",
+      "title": "Newswatch Thomas Griffith: Taking It to the Public"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925761,00.html",
+      "title": "Religion: No Mercy for the Sisters"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925743,00.html",
+      "title": "A Weak Recovery (Maybe)"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925744,00.html",
+      "title": "Which Way for Interest Rates?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925745,00.html",
+      "title": "Sting II: IBM Strikes Again"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925747,00.html",
+      "title": "OPIC, Not OPEC"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925756,00.html",
+      "title": "Education: Five Ways to Wisdom"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925757,00.html",
+      "title": "Education: The Compleat Book Bag"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925752,00.html",
+      "title": "Cinema: Master Without Masterpieces Andres Segovia: 1893-1987"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925753,00.html",
+      "title": "Cinema: Swann's Way"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925754,00.html",
+      "title": "Video: The Cadillac Runs Out of Gas"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925755,00.html",
+      "title": "Video: Good Night, Tom"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925758,00.html",
+      "title": "Show Business: Making the Cats Meow"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925759,00.html",
+      "title": "Music: The Sound of Two Hands Playing"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925760,00.html",
+      "title": "Art: Milton Avery's Rich Fabric of Color"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925762,00.html",
+      "title": "Books: Dead Souls Live Again"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925763,00.html",
+      "title": "Books: Begelgate"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925764,00.html",
+      "title": "Books: Gun-Shy"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925765,00.html",
+      "title": "Books: Editors' Choice: Sep. 27, 1982"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925766,00.html",
+      "title": "Fiction: Best Sellers: Sep. 27, 1982"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925746,00.html",
+      "title": "Milestones: Sep. 27, 1982"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925751,00.html",
+      "title": "People: Sep. 27, 1982"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925726,00.html",
+      "title": "A Letter From The Publisher: Sep. 27, 1982"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925727,00.html",
+      "title": "Letters: Sep. 27, 1982"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925769,00.html",
+      "title": "Essay: The Lessons of the Cuban Missile Crisis"
+    }
+  ],
+  "selected_news": [21, 23, 0, 9, 2, 31],
+  "stock_candidates": [
+    {
+      "ticker": "AAPL",
+      "selected": true,
+      "rationale": "Home-computer attention in the locked August contemporary pool."
+    },
+    {
+      "ticker": "IBM",
+      "selected": true,
+      "rationale": "New products and industrial-secrets litigation."
+    },
+    {
+      "ticker": "KO",
+      "selected": true,
+      "rationale": "Consumer brand rivalry and film-studio ownership."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Oil company retrenchment was covered in August."
+    },
+    {
+      "ticker": "INTC",
+      "selected": false,
+      "rationale": "Semiconductor competition in the August contemporary pool."
+    },
+    {
+      "ticker": "TXN",
+      "selected": false,
+      "rationale": "Semiconductor competition and home computers."
+    },
+    {
+      "ticker": "HPQ",
+      "selected": false,
+      "rationale": "Computer industry participant; not chosen for this three-stock set."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Large industrial company; not chosen to keep three distinct stories."
+    },
+    {
+      "ticker": "PEP",
+      "selected": false,
+      "rationale": "Consumer brand competitor; Coca-Cola has the separate film business story."
+    },
+    {
+      "ticker": "T",
+      "selected": false,
+      "rationale": "Telephone-company restructuring adds unnecessary lineage complexity to this set."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

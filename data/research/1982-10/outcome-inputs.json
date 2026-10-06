@@ -1,0 +1,58 @@
+{
+  "scenario_id": "1982-10",
+  "events": [
+    {
+      "month": "1982-11",
+      "title": "The recession reaches its low point",
+      "description": "US economic activity reaches the turning point later identified by the NBER. That official announcement comes in July 1983.",
+      "source_ids": ["nber-1982-trough"]
+    },
+    {
+      "month": "1983-03",
+      "title": "A new missile-defense proposal",
+      "description": "President Reagan announces a research effort to defend against nuclear missiles. It becomes a major Cold War debate.",
+      "source_ids": ["reagan-sdi"]
+    },
+    {
+      "month": "1986-01",
+      "title": "Challenger is lost",
+      "description": "Seven people die when the space shuttle breaks apart after launch. NASA pauses shuttle flights and investigates.",
+      "source_ids": ["nasa-challenger"]
+    },
+    {
+      "month": "1987-10",
+      "title": "Black Monday shocks markets",
+      "description": "The Dow falls 22.6% in one day. This chart shows the whole month’s return, which is different from that single-day drop.",
+      "source_ids": ["fed-crash1987"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "The recovery arrived, but the investment journey ended with a shock. In October 1987, the Dow Jones stock index fell 22.6% on one day, known as Black Monday. Your chart uses whole months, so its October change is not the same as that one-day figure.\n\nBefore then, the period had included a new missile-defense proposal and the loss of the Challenger shuttle. People faced changing political, scientific and business news while deciding what to do with their money.\n\nDespite the late crash, all seven choices ended above their starting values. The international share basket finished first. Apple and Coca-Cola also gained strongly, while the US basket a little more than doubled. Earlier gains helped these investments finish higher even after a severe drop.\n\nA positive final result does not mean a comfortable ride. Imagine watching the value fall just before you planned to use the money. The ending balance and the difficult months along the way are both parts of the investment story.",
+    "source_ids": [
+      "nber-1982-trough",
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aapl",
+      "yahoo-ibm",
+      "yahoo-ko",
+      "fed-crash1987"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "Investors wondered whether falling interest rates meant recovery was finally coming. High unemployment still dominated the election debate.",
+    "what_actually_mattered": "The late crash changed the ending value, even after years of gains. A basket spread money among companies, but could still fall with the wider market. Cash followed a different path.",
+    "what_faded_away": "The immediate arguments before the midterm election did not provide a reliable map of five years of market returns.",
+    "what_nobody_knew": "The starting news could not tell you that a market crash would arrive in the final month. Knowing that recovery was possible was not the same as knowing the route.",
+    "source_ids": [
+      "nber-1982-trough",
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aapl",
+      "yahoo-ibm",
+      "yahoo-ko",
+      "fed-crash1987"
+    ]
+  }
+}

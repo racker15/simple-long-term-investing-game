@@ -1,0 +1,272 @@
+{
+  "scenario_id": "2000-12",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998776,00.html",
+      "title": "Before Honor Comes Humility, Proverbs Says"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998777,00.html",
+      "title": "Election 2000: Flipping The Script"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998778,00.html",
+      "title": "Election 2000: Supreme Contest"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998779,00.html",
+      "title": "Election 2000: Joe Versus the Volcano"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998780,00.html",
+      "title": "Election 2000: Who Are You Calling Angry?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998782,00.html",
+      "title": "Fields Of Fire"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998816,00.html",
+      "title": "Barak's Cagey Resignation"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998784,00.html",
+      "title": "How Green Was Bill?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998785,00.html",
+      "title": "Great Lakes On Mars"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998820,00.html",
+      "title": "The Future: What If Bush Wins?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998786,00.html",
+      "title": "Why We Break Up With Our Siblings"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998804,00.html",
+      "title": "Grower Champagnes"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998781,00.html",
+      "title": "Death and the Horseman"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998805,00.html",
+      "title": "Notebook: Dec. 18, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998806,00.html",
+      "title": "A Woman's Place"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998807,00.html",
+      "title": "Dubya's Halls?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998808,00.html",
+      "title": "Ryder on the Storm"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998809,00.html",
+      "title": "Milestones Dec. 18, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998810,00.html",
+      "title": "The News in Brief"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998817,00.html",
+      "title": "Ask Dr. Notebook"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998818,00.html",
+      "title": "Eulogy: GWENDOLYN BROOKS"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998823,00.html",
+      "title": "Numbers: Dec. 18, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998824,00.html",
+      "title": "Truth, Justice and the Catholic Way"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998826,00.html",
+      "title": "News Quiz Dec. 18, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998788,00.html",
+      "title": "The Winner in Bush v. Gore?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998789,00.html",
+      "title": "The Men She Left Behind"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998783,00.html",
+      "title": "A New-Age Drink War Starts As Soda Flops"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998828,00.html",
+      "title": "How I Got That Story"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998796,00.html",
+      "title": "Keep the Receipt"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998797,00.html",
+      "title": "Not Too Taxing"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998798,00.html",
+      "title": "Laptop Security"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998799,00.html",
+      "title": "Cheney's Heart"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998819,00.html",
+      "title": "In Brief: Dec. 18, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998821,00.html",
+      "title": "Your Health: Dec. 18, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998822,00.html",
+      "title": "In Brief: Dec. 18, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998827,00.html",
+      "title": "In Brief: Dec. 18, 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998787,00.html",
+      "title": "15 Who Had Their 15"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998790,00.html",
+      "title": "The Best & Worst of 2000"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998791,00.html",
+      "title": "Cinema"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998792,00.html",
+      "title": "TV"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998793,00.html",
+      "title": "Design"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998794,00.html",
+      "title": "Theater"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998795,00.html",
+      "title": "Cybertech: Cybertech"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998800,00.html",
+      "title": "Music"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998801,00.html",
+      "title": "Sports"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998802,00.html",
+      "title": "Books"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998811,00.html",
+      "title": "TIME Board of Economists: Gridlock (And Greenspan)"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998812,00.html",
+      "title": "Are We Over A Barrel?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998813,00.html",
+      "title": "Bets on the Market"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998814,00.html",
+      "title": "At Home in the Wild East"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998815,00.html",
+      "title": "The Movie World's German Angels"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998825,00.html",
+      "title": "John Searles"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,998803,00.html",
+      "title": "Letters: Dec. 18, 2000"
+    }
+  ],
+  "selected_news": [],
+  "stock_candidates": [
+    {
+      "ticker": "PEP",
+      "selected": true,
+      "rationale": "The drinks company is pursuing Gatorade and SoBe as demand shifts beyond ordinary soda."
+    },
+    {
+      "ticker": "KO",
+      "selected": true,
+      "rationale": "The soda leader faces competition in newer types of drinks."
+    },
+    {
+      "ticker": "MSFT",
+      "selected": true,
+      "rationale": "The software maker’s court-ordered breakup is on hold during appeal."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "DIS",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

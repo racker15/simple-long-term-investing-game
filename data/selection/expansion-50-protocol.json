@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "target_scenarios": 50,
+  "important_count": 25,
+  "random_count": 25,
+  "preserved_pilot_ids": [
+    "1982-08",
+    "1987-01",
+    "1999-09",
+    "2004-05",
+    "2008-09",
+    "2016-02"
+  ],
+  "preserved_random_ids": ["1987-01", "2004-05", "2016-02"],
+  "eligible_start": "1980-01",
+  "eligible_end": "2020-12",
+  "additional_random_count": 22,
+  "seed": "simple-long-term-investing-game/50-scenarios/2026-10-06",
+  "method": "Chronological eligible months; exclude already selected important and retained random months; FNV-1a UTF-16 seed, Mulberry32 uint32 words with rejection sampling, remove selected month, take first 22. No outcome data is inspected by the selector.",
+  "spacing": "Exact duplicates excluded. No additional spacing rejection. Existing six pilot selections and their original protocol remain unchanged; overlapping five-year windows are disclosed.",
+  "important_dates": [
+    {
+      "month": "1980-03",
+      "reason": "Inflation and credit controls during the second oil-price shock."
+    },
+    {
+      "month": "1981-08",
+      "reason": "High interest rates and a newly contracting US economy."
+    },
+    {
+      "month": "1982-08",
+      "reason": "Retained pilot: recession, high interest rates and inflation concerns."
+    },
+    {
+      "month": "1984-11",
+      "reason": "A presidential election during a strong US economic expansion."
+    },
+    {
+      "month": "1985-09",
+      "reason": "The Plaza currency agreement and concern about trade imbalances."
+    },
+    {
+      "month": "1987-10",
+      "reason": "The October stock-market crash and the immediate policy response."
+    },
+    {
+      "month": "1989-11",
+      "reason": "The opening of the Berlin Wall and political change in Europe."
+    },
+    {
+      "month": "1990-08",
+      "reason": "Iraq's invasion of Kuwait and a sharp change in oil-market concerns."
+    },
+    {
+      "month": "1991-12",
+      "reason": "The dissolution of the Soviet Union during a weak US recovery."
+    },
+    {
+      "month": "1994-02",
+      "reason": "The Federal Reserve begins raising interest rates."
+    },
+    {
+      "month": "1995-08",
+      "reason": "The Netscape flotation and growing public interest in the internet."
+    },
+    {
+      "month": "1997-07",
+      "reason": "Currency turmoil begins in Thailand and spreads regional concern."
+    },
+    {
+      "month": "1998-08",
+      "reason": "Russia's default and financial-market disruption."
+    },
+    {
+      "month": "1999-09",
+      "reason": "Retained pilot: technology enthusiasm and millennium preparations."
+    },
+    {
+      "month": "2000-03",
+      "reason": "Intense interest in technology shares and internet businesses."
+    },
+    {
+      "month": "2001-09",
+      "reason": "The September 11 attacks and the reopening of US markets."
+    },
+    {
+      "month": "2003-03",
+      "reason": "The invasion of Iraq amid uncertainty about economic recovery."
+    },
+    {
+      "month": "2006-07",
+      "reason": "Cooling US housing activity after years of rising house prices."
+    },
+    {
+      "month": "2007-08",
+      "reason": "Credit-market disruption and emergency liquidity measures."
+    },
+    {
+      "month": "2008-09",
+      "reason": "Retained pilot: bank failures and emergency financial-system responses."
+    },
+    {
+      "month": "2009-03",
+      "reason": "Bank stress and extraordinary monetary-policy measures."
+    },
+    {
+      "month": "2011-08",
+      "reason": "US debt-ceiling conflict and Europe's sovereign-debt concerns."
+    },
+    {
+      "month": "2013-05",
+      "reason": "Debate about the eventual slowing of Federal Reserve asset purchases."
+    },
+    {
+      "month": "2018-12",
+      "reason": "Trade tensions and monetary-policy concerns during market turbulence."
+    },
+    {
+      "month": "2020-03",
+      "reason": "The pandemic, shutdowns and emergency economic support."
+    }
+  ],
+  "permitted_replacements": [
+    "Genuinely unavailable starting sources after reasonable attempts",
+    "Three contemporaneously notable stocks cannot be represented with coherent histories after assessing alternatives",
+    "Missing broad-asset window"
+  ],
+  "not_replacement_reasons": [
+    "Future returns",
+    "A quiet or unsurprising outcome",
+    "A desired investing moral",
+    "Time pressure"
+  ],
+  "workflow": "Commit this protocol before executing the draw. Commit selected dates before new stock outcomes. Commit each starting bundle before researching/writing its future narrative. Register only complete validated scenarios."
+}

@@ -1,0 +1,256 @@
+{
+  "scenario_id": "1991-02",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972388,00.html",
+      "title": "Careful, Tio Sam Might Want You"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972393,00.html",
+      "title": "Dance Till It Hurts"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972394,00.html",
+      "title": "Dick Cheney's Memory Gap"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972395,00.html",
+      "title": "Did I Hear You Insult That Veggie?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972400,00.html",
+      "title": "Good Word, Better Protection"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972410,00.html",
+      "title": "The Battlefront: Saddam's Endgame"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972414,00.html",
+      "title": "The Two Sides of Warspeak"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972421,00.html",
+      "title": "Who'll Arrange The Coronation?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972390,00.html",
+      "title": "China: The Merit of Obedience"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972406,00.html",
+      "title": "South Africa: Courting Trouble"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972422,00.html",
+      "title": "CZECHOSLOVAKIA: Divorce, Czech-Style"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972423,00.html",
+      "title": "JAPAN: Flirting with a Meltdown"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972424,00.html",
+      "title": "KENYA: A Private Quest For Justice"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972425,00.html",
+      "title": "LIBERIA: Not Quite a Breakthrough"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972426,00.html",
+      "title": "PERU: Life in the Time Of Cholera"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972427,00.html",
+      "title": "Yugoslavia: Breaking Up Is Hard"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972380,00.html",
+      "title": "America : Living with Saddam"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972391,00.html",
+      "title": "Consequences: What If Saddam Pulls Out?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972396,00.html",
+      "title": "Don't Reject a Cease-Fire"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972402,00.html",
+      "title": "How The Allies Might Retaliate"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972403,00.html",
+      "title": "It's A Grand Old (Politically Correct) Flag"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972404,00.html",
+      "title": "Life on The Line"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972407,00.html",
+      "title": "Strategy: Fighting a Battle by the Book"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972408,00.html",
+      "title": "The Air War: How Targets Are Chosen"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972409,00.html",
+      "title": "The Arab World: All Quiet Under the Pyramids"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972411,00.html",
+      "title": "The Presidency: Waiting for the Bugle Call"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972412,00.html",
+      "title": "The Press: Just Whose Side Are They On?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972418,00.html",
+      "title": "War Of Images"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972419,00.html",
+      "title": "Weapons: Coping with Chemicals"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972382,00.html",
+      "title": "Blasting Bacteria"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972392,00.html",
+      "title": "Controlling A Childhood Menace"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972413,00.html",
+      "title": "The Rise of Teenage Gambling"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972379,00.html",
+      "title": "A Whole Greater Than Its Parts?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972415,00.html",
+      "title": "Time Magazine Contents Page"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972416,00.html",
+      "title": "Time Magazine Masthead Vol. 137, No. 8 FEBRUARY 25, 1991"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972381,00.html",
+      "title": "Big Oil's Bad Rap"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972383,00.html",
+      "title": "LITIGATION: Nabisco Faces The Music"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972384,00.html",
+      "title": "MANUFACTURING: Harmony in Hog Heaven"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972385,00.html",
+      "title": "MEDIA: Financial News Debt Work"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972386,00.html",
+      "title": "TAXES: Is This Kid For Real?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972387,00.html",
+      "title": "WALL STREET: Rocketing Stocks"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972397,00.html",
+      "title": "Fighting For Their Lives"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972405,00.html",
+      "title": "Mr. Sam Stuns Goliath"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972399,00.html",
+      "title": "Good Golly, Your Majesty"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972401,00.html",
+      "title": "Hot Spots: BAGHDAD WITHOUT A MAP by Tony Horwitz"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972420,00.html",
+      "title": "What's Wrong with the Grammys"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972389,00.html",
+      "title": "Castro's Clever Patch Job"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972398,00.html",
+      "title": "From The Publisher: Feb. 25, 1991"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,972417,00.html",
+      "title": "Essay: Trusting Ourselves with the News"
+    }
+  ],
+  "selected_news": [14, 29, 37, 40, 42],
+  "stock_candidates": [
+    {
+      "ticker": "WMT",
+      "selected": true,
+      "rationale": "The discount retailer has passed Sears in North American sales and still has room to expand."
+    },
+    {
+      "ticker": "HOG",
+      "selected": true,
+      "rationale": "The motorcycle maker and its striking workers have reached a tentative contract agreement."
+    },
+    {
+      "ticker": "IBM",
+      "selected": true,
+      "rationale": "The computer giant is competing for smaller businesses with lower-priced systems."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "DIS",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

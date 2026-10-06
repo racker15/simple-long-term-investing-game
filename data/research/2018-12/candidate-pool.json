@@ -1,0 +1,59 @@
+{
+  "scenario_id": "2018-12",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [],
+  "selected_news": [],
+  "stock_candidates": [
+    {
+      "ticker": "NTDOY",
+      "selected": true,
+      "rationale": "The Switch maker has released Super Smash Bros. Ultimate. This is its US-traded share."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": true,
+      "rationale": "The device maker has reported record fiscal-year revenue and earnings."
+    },
+    {
+      "ticker": "MSFT",
+      "selected": true,
+      "rationale": "Cloud services are helping its sales and earnings grow."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "DIS",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

@@ -1,0 +1,35 @@
+{
+  "scenario_id": "1997-04",
+  "sources": [
+    {
+      "id": "pathfinder",
+      "source_name": "NASA: Mars Pathfinder Lands on Mars",
+      "source_reference": "https://science.nasa.gov/solar-system/mars-pathfinder-lands-on-mars/",
+      "publication_date": "1997-07-04",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary mission report.",
+      "observation_date": "1997-07-04"
+    },
+    {
+      "id": "euro-launch",
+      "source_name": "European Central Bank: The euro, four weeks after the start",
+      "source_reference": "https://www.ecb.europa.eu/press/key/date/1999/html/sp990128.en.html",
+      "publication_date": "1999-01-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary central-bank speech.",
+      "observation_date": "1999-01-01"
+    },
+    {
+      "id": "september-attacks",
+      "source_name": "National September 11 Memorial and Museum: About",
+      "source_reference": "https://www.911memorial.org/about",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Retrospective institutional history.",
+      "observation_date": "2001-09-11"
+    }
+  ]
+}

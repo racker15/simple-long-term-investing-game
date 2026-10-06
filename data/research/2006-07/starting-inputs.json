@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "scenario_id": "2006-07",
+    "date": "2006-07-31",
+    "display_date": "July 31, 2006",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "important",
+      "selection_reason": "Cooling US housing activity after years of rising house prices."
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Diplomats seek a way to end Middle East fighting",
+      "category": "World",
+      "summary": "The conflict brings renewed pressure for negotiations. Leaders disagree about the steps needed for a lasting peace.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2006-07-0"]
+    },
+    {
+      "headline": "Singapore recruits scientific talent",
+      "category": "Science",
+      "summary": "Research institutes attract scientists from around the world. The country invests in biomedical work.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2006-07-6"]
+    },
+    {
+      "headline": "Bernanke weighs growth and inflation",
+      "category": "Economy",
+      "summary": "The new Federal Reserve chair faces questions about prices and the pace of the economy. Interest-rate decisions involve trade-offs.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2006-07-21"]
+    },
+    {
+      "headline": "Dell tries a retail approach",
+      "category": "Business",
+      "summary": "The computer seller experiments with stores and entertainment-focused products. Stronger rivals and lower prices create pressure.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2006-07-22"]
+    },
+    {
+      "headline": "Tony Bennett prepares for his eightieth birthday",
+      "category": "Music",
+      "summary": "The singer plans new projects and collaborations. Fans of different ages continue to follow his work.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2006-07-24"]
+    },
+    {
+      "headline": "A nonprofit helps people navigate car buying",
+      "category": "Everyday life",
+      "summary": "An organization combines counseling with efforts to secure fairer car prices and loans for lower-income buyers.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2006-07-26"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (2006-06; approximate)",
+      "value": 4.2,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (2006-06; approximate)",
+      "value": 4.6,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (2006-06; approximate)",
+      "value": 5.0,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (2006-06; approximate)",
+      "value": 5.1,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (2006-06; approximate)",
+      "value": 84.9,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (2006-06; approximate)",
+      "value": 2.0,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 3.1% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:2006-07:hewlett-packard",
+      "company_name": "Hewlett-Packard",
+      "ticker": "HPQ",
+      "description": "The computer maker is gaining ground while rival Dell struggles with slower growth.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-2006-07-22", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2006-07:apple",
+      "company_name": "Apple Computer",
+      "ticker": "AAPL",
+      "description": "The maker of Macs and iPods has reported rising sales and earnings.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["apple-results", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2006-07:microsoft",
+      "company_name": "Microsoft",
+      "ticker": "MSFT",
+      "description": "The company is preparing Windows Vista, with broad consumer availability planned for January 2007.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["vista-timetable", "asof-stock-prices"]
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:2006-07:hewlett-packard",
+      "name": "Hewlett-Packard",
+      "description": "The computer maker is gaining ground while rival Dell struggles with slower growth.",
+      "source_ids": ["news-2006-07-22", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2006-07:apple",
+      "name": "Apple Computer",
+      "description": "The maker of Macs and iPods has reported rising sales and earnings.",
+      "source_ids": ["apple-results", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2006-07:microsoft",
+      "name": "Microsoft",
+      "description": "The company is preparing Windows Vista, with broad consumer availability planned for January 2007.",
+      "source_ids": ["vista-timetable", "asof-stock-prices"]
+    }
+  ]
+}

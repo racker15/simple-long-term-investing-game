@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "scenario_id": "1985-09",
+    "date": "1985-09-30",
+    "display_date": "September 30, 1985",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "important",
+      "selection_reason": "The Plaza currency agreement and concern about trade imbalances."
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Congress slows the push for tax reform",
+      "category": "US news",
+      "summary": "Leaders doubt they can finish the complex tax bill this year. Other budget and farm issues compete for time.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1985-09-1"]
+    },
+    {
+      "headline": "Reagan and Gorbachev prepare for a summit",
+      "category": "World",
+      "summary": "Arms control will be central to their November meeting. Major differences remain over missile-defense research.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1985-09-9"]
+    },
+    {
+      "headline": "A powerful earthquake strikes Mexico City",
+      "category": "World",
+      "summary": "Buildings collapse and rescuers search for survivors. The scale of the damage is still being assessed.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1985-09-13"]
+    },
+    {
+      "headline": "AT&T gets permission to combine divisions",
+      "category": "Business",
+      "summary": "Regulators let the company unite its long-distance and equipment businesses. AT&T says this could lower its costs.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1985-09-34"]
+    },
+    {
+      "headline": "Steve Jobs leaves Apple",
+      "category": "Technology",
+      "summary": "The co-founder plans a new computer company. His departure adds uncertainty at a difficult time for Apple.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1985-09-36"]
+    },
+    {
+      "headline": "Song & Dance opens on Broadway",
+      "category": "Culture",
+      "summary": "Bernadette Peters stars in a musical that pairs a sung story with a separate dance performance.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1985-09-41"]
+    },
+    {
+      "headline": "Five countries aim to lower the dollar",
+      "category": "Economy",
+      "summary": "Five major economies announce plans to reduce the dollar’s value, including possible sales in currency markets.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["plaza-plan"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (1985-08; approximate)",
+      "value": 3.4,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (1985-08; approximate)",
+      "value": 7.1,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (1985-08; approximate)",
+      "value": 7.9,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (1985-08; approximate)",
+      "value": 10.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (1985-08; approximate)",
+      "value": 92.4,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (1985-08; approximate)",
+      "value": 0.2,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 3.5% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:1985-09:apple",
+      "company_name": "Apple Computer",
+      "ticker": "AAPL",
+      "description": "Steve Jobs has left the company he helped create and is starting another computer business.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-1985-09-36", "asof-stock-prices"],
+      "three_month": -0.1249923214934453,
+      "one_year": -0.3731290457731591
+    },
+    {
+      "id": "hot:1985-09:coca-cola",
+      "company_name": "Coca-Cola",
+      "ticker": "KO",
+      "description": "Customer protests have brought the old drink formula back as Classic Coke.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["coke-classic", "asof-stock-prices"],
+      "three_month": 0.01630448295019704,
+      "one_year": 0.1635708434563965
+    },
+    {
+      "id": "hot:1985-09:ibm",
+      "company_name": "IBM",
+      "ticker": "IBM",
+      "description": "The computer giant has stopped making its disappointing PCjr home computer.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["ibm-pcjr", "asof-stock-prices"],
+      "three_month": 0.009602268241594158,
+      "one_year": 0.031634275686815094
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:1985-09:apple",
+      "name": "Apple Computer",
+      "description": "Steve Jobs has left the company he helped create and is starting another computer business.",
+      "source_ids": ["news-1985-09-36", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1985-09:coca-cola",
+      "name": "Coca-Cola",
+      "description": "Customer protests have brought the old drink formula back as Classic Coke.",
+      "source_ids": ["coke-classic", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1985-09:ibm",
+      "name": "IBM",
+      "description": "The computer giant has stopped making its disappointing PCjr home computer.",
+      "source_ids": ["ibm-pcjr", "asof-stock-prices"]
+    }
+  ],
+  "recent_returns": [
+    {
+      "asset_id": "cash",
+      "three_month": 0.017804504599999937,
+      "one_year": 0.08213052045346547,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "bonds",
+      "three_month": 0.016163507414235667,
+      "one_year": 0.23323651316112493,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "us_total",
+      "three_month": -0.044476619860000066,
+      "one_year": 0.15018262228135404,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "international_ex_us",
+      "three_month": 0.13912145547200017,
+      "one_year": 0.38071319214245736,
+      "source_ids": ["asof-broad-proxies"]
+    }
+  ]
+}

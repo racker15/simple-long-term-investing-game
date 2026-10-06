@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "scenario_id": "1989-11",
+    "date": "1989-11-30",
+    "display_date": "November 30, 1989",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "important",
+      "selection_reason": "The opening of the Berlin Wall and political change in Europe."
+    }
+  },
+  "headlines": [
+    {
+      "headline": "A failed savings institution draws investigations",
+      "category": "Economy",
+      "summary": "Lawmakers examine Lincoln Savings, its owner and political connections. Customers’ losses raise questions about oversight.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1989-11-0"]
+    },
+    {
+      "headline": "East Germans debate their future after the wall opens",
+      "category": "World",
+      "summary": "People cross the border in large numbers. Elections, economic change and possible reunification are now open questions.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1989-11-12"]
+    },
+    {
+      "headline": "Namibia elects a constitution-writing assembly",
+      "category": "World",
+      "summary": "Voters choose representatives in an internationally supervised election. No party gains enough seats to write the constitution alone.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1989-11-19"]
+    },
+    {
+      "headline": "Fax machines carry political messages across borders",
+      "category": "Technology",
+      "summary": "Activists use the machines to share reports quickly. Governments also try to control what arrives.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1989-11-22"]
+    },
+    {
+      "headline": "A galaxy map reveals enormous structures",
+      "category": "Science",
+      "summary": "Astronomers find galaxies arranged around large empty regions. A vast sheet of galaxies is nicknamed the Great Wall.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1989-11-25"]
+    },
+    {
+      "headline": "Sony and Warner settle a Hollywood dispute",
+      "category": "Business",
+      "summary": "A deal frees two producers to run Columbia Pictures. It also exchanges valuable entertainment assets.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1989-11-40"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (1989-10; approximate)",
+      "value": 4.6,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (1989-10; approximate)",
+      "value": 5.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (1989-10; approximate)",
+      "value": 8.8,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (1989-10; approximate)",
+      "value": 8.0,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (1989-10; approximate)",
+      "value": 93.9,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (1989-10; approximate)",
+      "value": -0.2,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 1.7% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:1989-11:sony",
+      "company_name": "Sony",
+      "ticker": "SONY",
+      "description": "The electronics company has completed its purchase of Columbia Pictures. This is its US-traded share.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["sony-columbia", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1989-11:coca-cola",
+      "company_name": "Coca-Cola",
+      "ticker": "KO",
+      "description": "Its large Columbia Pictures stake is part of the sale to Sony.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["coke-columbia-sale", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1989-11:exxon",
+      "company_name": "Exxon",
+      "ticker": "XOM",
+      "description": "The company faces public scrutiny after the Exxon Valdez oil spill in Alaska.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["exxon-spill", "asof-stock-prices"]
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:1989-11:sony",
+      "name": "Sony",
+      "description": "The electronics company has completed its purchase of Columbia Pictures. This is its US-traded share.",
+      "source_ids": ["sony-columbia", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1989-11:coca-cola",
+      "name": "Coca-Cola",
+      "description": "Its large Columbia Pictures stake is part of the sale to Sony.",
+      "source_ids": ["coke-columbia-sale", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1989-11:exxon",
+      "name": "Exxon",
+      "description": "The company faces public scrutiny after the Exxon Valdez oil spill in Alaska.",
+      "source_ids": ["exxon-spill", "asof-stock-prices"]
+    }
+  ]
+}

@@ -2,10 +2,64 @@
   "schema_version": 1,
   "scenarios": [
     {
+      "scenario_id": "1980-03",
+      "date": "1980-03-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "1981-08",
+      "date": "1981-08-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "1981-09",
+      "date": "1981-09-30",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
       "scenario_id": "1982-08",
       "date": "1982-08-31",
       "data_kind": "historical",
       "selection_mode": "important"
+    },
+    {
+      "scenario_id": "1982-09",
+      "date": "1982-09-30",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "1982-10",
+      "date": "1982-10-31",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "1983-05",
+      "date": "1983-05-31",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "1984-11",
+      "date": "1984-11-30",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "1985-09",
+      "date": "1985-09-30",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "1985-11",
+      "date": "1985-11-30",
+      "data_kind": "historical",
+      "selection_mode": "random"
     },
     {
       "scenario_id": "1987-01",
@@ -14,8 +68,140 @@
       "selection_mode": "random"
     },
     {
+      "scenario_id": "1987-10",
+      "date": "1987-10-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "1988-12",
+      "date": "1988-12-31",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "1989-01",
+      "date": "1989-01-31",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "1989-11",
+      "date": "1989-11-30",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "1990-08",
+      "date": "1990-08-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "1991-02",
+      "date": "1991-02-28",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "1991-11",
+      "date": "1991-11-30",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "1991-12",
+      "date": "1991-12-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "1992-02",
+      "date": "1992-02-29",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "1992-11",
+      "date": "1992-11-30",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "1994-02",
+      "date": "1994-02-28",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "1995-08",
+      "date": "1995-08-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "1996-09",
+      "date": "1996-09-30",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "1997-04",
+      "date": "1997-04-30",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "1997-07",
+      "date": "1997-07-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "1998-08",
+      "date": "1998-08-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
       "scenario_id": "1999-09",
       "date": "1999-09-30",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "2000-01",
+      "date": "2000-01-31",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "2000-03",
+      "date": "2000-03-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "2000-06",
+      "date": "2000-06-30",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "2000-12",
+      "date": "2000-12-31",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "2001-09",
+      "date": "2001-09-30",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "2003-03",
+      "date": "2003-03-31",
       "data_kind": "historical",
       "selection_mode": "important"
     },
@@ -26,16 +212,94 @@
       "selection_mode": "random"
     },
     {
+      "scenario_id": "2005-09",
+      "date": "2005-09-30",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "2006-07",
+      "date": "2006-07-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "2007-06",
+      "date": "2007-06-30",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "2007-08",
+      "date": "2007-08-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "2007-11",
+      "date": "2007-11-30",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
       "scenario_id": "2008-09",
       "date": "2008-09-30",
       "data_kind": "historical",
       "selection_mode": "important"
     },
     {
+      "scenario_id": "2009-03",
+      "date": "2009-03-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "2011-08",
+      "date": "2011-08-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "2012-03",
+      "date": "2012-03-31",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "2013-05",
+      "date": "2013-05-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "2016-01",
+      "date": "2016-01-31",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
       "scenario_id": "2016-02",
       "date": "2016-02-29",
       "data_kind": "historical",
       "selection_mode": "random"
+    },
+    {
+      "scenario_id": "2018-12",
+      "date": "2018-12-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
+    },
+    {
+      "scenario_id": "2020-01",
+      "date": "2020-01-31",
+      "data_kind": "historical",
+      "selection_mode": "random"
+    },
+    {
+      "scenario_id": "2020-03",
+      "date": "2020-03-31",
+      "data_kind": "historical",
+      "selection_mode": "important"
     }
   ]
 }

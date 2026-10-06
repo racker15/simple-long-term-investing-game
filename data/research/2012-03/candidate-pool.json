@@ -1,0 +1,180 @@
+{
+  "scenario_id": "2012-03",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109140,00.html",
+      "title": "Women, Money and Power"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109130,00.html",
+      "title": "Bread-and-Butter Issues"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109122,00.html",
+      "title": "The End of the Road"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109128,00.html",
+      "title": "Health Insurance Is for Everyone"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109147,00.html",
+      "title": "Why You're Not in the Mood"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109123,00.html",
+      "title": "The Warlord vs. the Hipsters"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109150,00.html",
+      "title": "Top Chef"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109124,00.html",
+      "title": "Exercising Your DNA"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109125,00.html",
+      "title": "A Pan for All Seasons"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109149,00.html",
+      "title": "Please, Please Go to Sleep"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109117,00.html",
+      "title": "Tomorrow Never Knows"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109127,00.html",
+      "title": "Learning to Love the Housing Bailout"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109134,00.html",
+      "title": "10 Questions for Peter Goodwin"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109136,00.html",
+      "title": "Rolling in The Deep"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109137,00.html",
+      "title": "Punched Up"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109141,00.html",
+      "title": "Pop Chart"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109143,00.html",
+      "title": "Running like a Girl"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109146,00.html",
+      "title": "Bench Bracket"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109118,00.html",
+      "title": "Hunting the Higgs"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109121,00.html",
+      "title": "Where Everybody Knows Your Name"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109132,00.html",
+      "title": "The Santorum Conundrum By Mark Halperin"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109138,00.html",
+      "title": "Crude Awakening"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109148,00.html",
+      "title": "No Easy Way Out"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109142,00.html",
+      "title": "Briefing"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109145,00.html",
+      "title": "World"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109139,00.html",
+      "title": "Come Here Often?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109120,00.html",
+      "title": "Milestones"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109119,00.html",
+      "title": "Peter Bergman"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109129,00.html",
+      "title": "F. Sherwood Rowland"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,2109133,00.html",
+      "title": "William Hamilton"
+    }
+  ],
+  "selected_news": [2, 7, 9, 11, 18, 21],
+  "stock_candidates": [
+    {
+      "ticker": "AAPL",
+      "selected": true,
+      "rationale": "The company reports strong early sales of its new iPad."
+    },
+    {
+      "ticker": "AMZN",
+      "selected": true,
+      "rationale": "Its Kindle Fire tablet joins its electronic readers and online shopping business."
+    },
+    {
+      "ticker": "XOM",
+      "selected": true,
+      "rationale": "The large oil producer is in focus as high fuel prices and energy supply draw attention."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "DIS",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "MCD",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

@@ -1,0 +1,54 @@
+{
+  "scenario_id": "1991-02",
+  "events": [
+    {
+      "month": "1991-12",
+      "title": "The Soviet Union dissolves",
+      "description": "Independent countries replace the union after Gorbachev resigns.",
+      "source_ids": ["soviet-collapse"]
+    },
+    {
+      "month": "1993-04",
+      "title": "Web software is opened to everyone",
+      "description": "CERN puts its web software in the public domain.",
+      "source_ids": ["web-release"]
+    },
+    {
+      "month": "1993-12",
+      "title": "Astronauts repair Hubble",
+      "description": "A servicing mission installs corrective optics to improve the telescope’s pictures.",
+      "source_ids": ["hubble-repair"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Harley-Davidson grew to more than five times its starting value, far ahead of the other choices. The US share basket roughly doubled. Wal-Mart, despite passing Sears in sales, finished close to cash. Being the biggest retailer and having the best-performing shares were different achievements.\n\nAn investor choosing Harley-Davidson had just read about a labor dispute. Its eventual success was not obvious from that headline. The chart also includes sharp monthly falls as well as rises; the large ending gain did not arrive smoothly.\n\nDuring the five years, the Soviet Union dissolved. CERN opened its web software to everyone, and astronauts repaired Hubble. Major changes in politics and technology happened alongside the investment story.\n\nTry separating two questions: was a company doing something interesting, and would its shares give a strong return from the price available today? The starting reports could help with the first question. They could not settle the second. Knowing Harley-Davidson's final lead now makes the original choice look easier than it really was.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-wmt",
+      "yahoo-hog",
+      "yahoo-ibm",
+      "soviet-collapse",
+      "web-release",
+      "hubble-repair"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "The Gulf War was ending, stocks were rising, and Wal-Mart had passed Sears. Workers and companies still faced a weak economy.",
+    "what_actually_mattered": "Different companies produced very different returns. Harley-Davidson’s large gain came with sharp monthly falls as well as rises. The final total hides that bumpy journey.",
+    "what_faded_away": "A retailer’s sales ranking did not settle its investment ranking. A single month’s rally also could not explain the next five years.",
+    "what_nobody_knew": "Harley-Davidson’s eventual lead was unknown. Choosing it with the finished chart in hand is much easier than choosing it amid a labor dispute.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-wmt",
+      "yahoo-hog",
+      "yahoo-ibm",
+      "soviet-collapse",
+      "web-release",
+      "hubble-repair"
+    ]
+  }
+}

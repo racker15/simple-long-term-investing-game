@@ -1,0 +1,176 @@
+{
+  "scenario_id": "1995-08",
+  "sources": [
+    {
+      "id": "news-1995-08-6",
+      "source_name": "TIME: FINALLY, A REAL APOLOGY",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,983351,00.html",
+      "publication_date": "1995-08-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1995-08-9",
+      "source_name": "TIME: THE SECRET OF LEAKEY LUCK",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,983365,00.html",
+      "publication_date": "1995-08-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1995-08-15",
+      "source_name": "TIME: DISPATCHES: THE TRUTH ABOUT CHEEZ-WHIZ",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,983363,00.html",
+      "publication_date": "1995-08-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1995-08-22",
+      "source_name": "TIME: MICHAEL OVITZ: MICHAEL MOUSE",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,983358,00.html",
+      "publication_date": "1995-08-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1995-08-23",
+      "source_name": "TIME: SPORT: TUMBLING'S NEW TITANS",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,983359,00.html",
+      "publication_date": "1995-08-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1995-08-25",
+      "source_name": "TIME: WINNING THE RIGHT TO FLY",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,983354,00.html",
+      "publication_date": "1995-08-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "intel-replacements",
+      "source_name": "Los Angeles Times: Intel to Offer Replacements for Flawed Chip",
+      "source_reference": "https://www.latimes.com/archives/la-xpm-1994-12-21-mn-11550-story.html",
+      "publication_date": "1994-12-21",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary report."
+    },
+    {
+      "id": "windows95-launch",
+      "source_name": "UPI: Finally, Microsoft rolls out Windows 95",
+      "source_reference": "https://www.upi.com/Archives/1995/08/24/Finally-Microsoft-rolls-out-Windows-95/6967809236800/",
+      "publication_date": "1995-08-24",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary product-launch report."
+    },
+    {
+      "id": "spf-outlook",
+      "source_name": "Professional forecaster survey, 1995 Q3",
+      "source_reference": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/data-files/files/median_rgdp_growth.xlsx",
+      "publication_date": "1995-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Historical median DRGDP3 forecast (quarter after the survey quarter). Pre-1990 original release timing is uncertain; middle-month end is modeled availability, not an asserted original archive date. Retrospective forecast archive, not actual outcomes.",
+      "observation_date": "1995-08-31"
+    },
+    {
+      "id": "asof-macro-cpiaucsl",
+      "source_name": "Historical CPIAUCSL observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "publication_date": "1995-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1995-07-31"
+    },
+    {
+      "id": "asof-macro-unrate",
+      "source_name": "Historical UNRATE observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UNRATE",
+      "publication_date": "1995-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1995-07-31"
+    },
+    {
+      "id": "asof-macro-fedfunds",
+      "source_name": "Historical FEDFUNDS observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "publication_date": "1995-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1995-07-31"
+    },
+    {
+      "id": "asof-macro-gs10",
+      "source_name": "Historical GS10 observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/GS10",
+      "publication_date": "1995-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1995-07-31"
+    },
+    {
+      "id": "asof-macro-umcsent",
+      "source_name": "Historical UMCSENT observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UMCSENT",
+      "publication_date": "1995-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1995-07-31"
+    },
+    {
+      "id": "asof-macro-indpro",
+      "source_name": "Historical INDPRO observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/INDPRO",
+      "publication_date": "1995-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1995-07-31"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-market observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "publication_date": "1995-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying observations, not publication date of modern archives. Transparent Treasury and developed-market proxies; not exact contemporary database vintages.",
+      "observation_date": "1995-08-31"
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/1995-08/starting.json",
+      "publication_date": "1995-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying prices. Current retrospective adjusted-close reconstruction; the modern archive publication date is not asserted here.",
+      "observation_date": "1995-08-31"
+    },
+    {
+      "id": "netscape-ipo",
+      "source_name": "TIME: Netscape with a Bullet",
+      "source_reference": "https://time.com/archive/6925840/netscape-with-a-bullet/",
+      "publication_date": "1995-08-09",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary first-trading-day report. Netscape is not a playable stock because it lacks the required full trailing year of listed prices."
+    }
+  ]
+}

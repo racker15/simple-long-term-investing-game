@@ -1,0 +1,54 @@
+{
+  "scenario_id": "2013-05",
+  "events": [
+    {
+      "month": "2015-07",
+      "title": "A spacecraft visits Pluto",
+      "description": "New Horizons makes a close flyby after a journey of billions of miles.",
+      "source_ids": ["pluto"]
+    },
+    {
+      "month": "2016-06",
+      "title": "UK voters choose to leave the EU",
+      "description": "The referendum result begins a long process of leaving the European Union.",
+      "source_ids": ["brexit"]
+    },
+    {
+      "month": "2017-08",
+      "title": "A total eclipse crosses the US",
+      "description": "People along a narrow path see the Moon completely cover the Sun.",
+      "source_ids": ["eclipse"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Apple more than tripled, and Tesla nearly tripled, over five years. Hasbro also more than doubled. The US share basket gained strongly, while the bond estimate ended slightly lower. Even with several strong stock choices, their paths were not steady or identical.\n\nNew Horizons passed Pluto in 2015. UK voters chose to leave the European Union in 2016. A total solar eclipse crossed the US in 2017. These events mark the passing years without pretending that each one explains a particular movement in an investment’s price.\n\nThe small bond loss is worth understanding. A bond is a loan, but a bond investment can still change in market value. It does not behave exactly like cash. The company gains show another side of the comparison: individual shares can do very well, but their results differ from each other and from a basket. Decide whether your original plan allowed for several possible outcomes, rather than judging it only by the winner afterward.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-has",
+      "yahoo-tsla",
+      "yahoo-aapl",
+      "pluto",
+      "brexit",
+      "eclipse"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "People discussed government decisions, immigration, books, music and how toys were marketed. The Fed described conditions for changing its support.",
+    "what_actually_mattered": "The amount of risk differed between shares and bonds, and between individual companies. Bonds could still lose value; they were not the same as cash.",
+    "what_faded_away": "A first profitable quarter or a popular book was one moment in a longer story. Neither supplied a reliable five-year investment ranking.",
+    "what_nobody_knew": "The eventual gains and setbacks were unknown. Picking a strong business and paying a good price for its shares were separate questions.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-has",
+      "yahoo-tsla",
+      "yahoo-aapl",
+      "pluto",
+      "brexit",
+      "eclipse"
+    ]
+  }
+}

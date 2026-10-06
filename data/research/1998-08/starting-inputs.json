@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "scenario_id": "1998-08",
+    "date": "1998-08-31",
+    "display_date": "August 31, 1998",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "important",
+      "selection_reason": "Russia's default and financial-market disruption."
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Russia faces a financial emergency",
+      "category": "World",
+      "summary": "Currency and debt decisions shake confidence. Citizens and investors worry about the ruble and their savings.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1998-08-0"]
+    },
+    {
+      "headline": "International rescue policies face criticism",
+      "category": "Economy",
+      "summary": "Russia’s troubles and Asia’s continuing slump prompt debate about the IMF’s advice and support.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1998-08-1"]
+    },
+    {
+      "headline": "A Los Angeles commuter makes a case for the bus",
+      "category": "Everyday life",
+      "summary": "A writer describes the rewards and frustrations of using public transport in a city famous for cars.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1998-08-8"]
+    },
+    {
+      "headline": "An exhibition explores Pierre Bonnard’s paintings",
+      "category": "Culture",
+      "summary": "A critic examines the painter’s rich colors and familiar household scenes.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1998-08-10"]
+    },
+    {
+      "headline": "More funds court individual investors",
+      "category": "Business",
+      "summary": "Large financial firms offer new ways for smaller investors to buy into professionally managed portfolios.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1998-08-13"]
+    },
+    {
+      "headline": "New products tackle everyday annoyances",
+      "category": "Technology",
+      "summary": "Self-sealing tires and virtual outfit previews show companies trying to solve small consumer problems.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1998-08-16"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (1998-07; approximate)",
+      "value": 1.7,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (1998-07; approximate)",
+      "value": 4.5,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (1998-07; approximate)",
+      "value": 5.5,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (1998-07; approximate)",
+      "value": 5.5,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (1998-07; approximate)",
+      "value": 105.2,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (1998-07; approximate)",
+      "value": 4.8,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 3.1% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:1998-08:apple",
+      "company_name": "Apple Computer",
+      "ticker": "AAPL",
+      "description": "Its new iMac has attracted strong early sales.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["imac-launch", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1998-08:amazon",
+      "company_name": "Amazon.com",
+      "ticker": "AMZN",
+      "description": "The online bookstore has expanded into selling music.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["amazon-music", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1998-08:microsoft",
+      "company_name": "Microsoft",
+      "ticker": "MSFT",
+      "description": "The software maker faces an antitrust lawsuit and disputes the government’s claims.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": [
+        "microsoft-case",
+        "microsoft-response",
+        "asof-stock-prices"
+      ]
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:1998-08:apple",
+      "name": "Apple Computer",
+      "description": "Its new iMac has attracted strong early sales.",
+      "source_ids": ["imac-launch", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1998-08:amazon",
+      "name": "Amazon.com",
+      "description": "The online bookstore has expanded into selling music.",
+      "source_ids": ["amazon-music", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1998-08:microsoft",
+      "name": "Microsoft",
+      "description": "The software maker faces an antitrust lawsuit and disputes the government’s claims.",
+      "source_ids": [
+        "microsoft-case",
+        "microsoft-response",
+        "asof-stock-prices"
+      ]
+    }
+  ]
+}

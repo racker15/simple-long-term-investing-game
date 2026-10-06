@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "scenario_id": "2000-01",
+    "date": "2000-01-31",
+    "display_date": "January 31, 2000",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "random",
+      "draw_universe": "calendar-month-ends-1980-2020-expansion-50-v1",
+      "random_seed": "simple-long-term-investing-game/50-scenarios/2026-10-06",
+      "draw_index": 17,
+      "method": "Preregistered FNV-1a/Mulberry32 unbiased draws without replacement from eligible month ends. Preserves six pilots; no outcome screening.",
+      "exclusions": [
+        "Exact duplicates of reserved important dates and retained random pilot dates",
+        "Genuine source or return-history unavailability only"
+      ],
+      "replacement_for": null
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Presidential candidates compete for early votes",
+      "category": "US news",
+      "summary": "Al Gore and Bill Bradley sharpen their arguments as Democratic voters begin choosing a nominee.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2000-01-2"]
+    },
+    {
+      "headline": "An online-shopping experiment meets an offline challenge",
+      "category": "Technology",
+      "summary": "One man plans to buy everything online for a year. A columnist tries cutting his dependence on electronics.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2000-01-14"]
+    },
+    {
+      "headline": "Hollywood remembers Hedy Lamarr",
+      "category": "Culture",
+      "summary": "An appreciation recalls the actor’s screen work, humor and help for service members during World War II.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2000-01-20"]
+    },
+    {
+      "headline": "An oil project meets Indigenous opposition",
+      "category": "Environment",
+      "summary": "The U’Wa community challenges drilling on ancestral land in Colombia. Activists also press US politicians about the dispute.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2000-01-23"]
+    },
+    {
+      "headline": "Apple gives Steve Jobs a large reward",
+      "category": "Business",
+      "summary": "The board grants stock options and support for a private jet. The package sparks discussion of executive pay.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2000-01-31"]
+    },
+    {
+      "headline": "Technology wealth supports reading programs",
+      "category": "Education",
+      "summary": "Jim and Sally Barksdale give money to improve reading in Mississippi. Their gift reflects growing philanthropy among technology fortunes.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2000-01-32"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (1999-12; approximate)",
+      "value": 2.7,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (1999-12; approximate)",
+      "value": 4,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (1999-12; approximate)",
+      "value": 5.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (1999-12; approximate)",
+      "value": 6.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (1999-12; approximate)",
+      "value": 105.4,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (1999-12; approximate)",
+      "value": 5.2,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 2.3% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:2000-01:apple",
+      "company_name": "Apple Computer",
+      "ticker": "AAPL",
+      "description": "Its board has rewarded Steve Jobs after a business turnaround and renewed interest in its computers.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-2000-01-31", "asof-stock-prices"],
+      "three_month": 0.2948512842267035,
+      "one_year": 1.5189648927521802
+    },
+    {
+      "id": "hot:2000-01:occidental",
+      "company_name": "Occidental Petroleum",
+      "ticker": "OXY",
+      "description": "An oil-drilling project in Colombia faces opposition from an Indigenous community.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-2000-01-23", "asof-stock-prices"],
+      "three_month": -0.11784248968256605,
+      "one_year": 0.3786742784468655
+    },
+    {
+      "id": "hot:2000-01:amazon",
+      "company_name": "Amazon.com",
+      "ticker": "AMZN",
+      "description": "The online retailer is adding ways for outside sellers to offer goods on its site.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["amazon-zshops", "asof-stock-prices"],
+      "three_month": -0.08584068095789543,
+      "one_year": 0.1042221574863309
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:2000-01:apple",
+      "name": "Apple Computer",
+      "description": "Its board has rewarded Steve Jobs after a business turnaround and renewed interest in its computers.",
+      "source_ids": ["news-2000-01-31", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2000-01:occidental",
+      "name": "Occidental Petroleum",
+      "description": "An oil-drilling project in Colombia faces opposition from an Indigenous community.",
+      "source_ids": ["news-2000-01-23", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2000-01:amazon",
+      "name": "Amazon.com",
+      "description": "The online retailer is adding ways for outside sellers to offer goods on its site.",
+      "source_ids": ["amazon-zshops", "asof-stock-prices"]
+    }
+  ],
+  "recent_returns": [
+    {
+      "asset_id": "cash",
+      "three_month": 0.01214870494400011,
+      "one_year": 0.047503423373687514,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "bonds",
+      "three_month": -0.00800903174571288,
+      "one_year": -0.029155558928539382,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "us_total",
+      "three_month": 0.07318176478999994,
+      "one_year": 0.15399604172410108,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "international_ex_us",
+      "three_month": 0.07401289927199972,
+      "one_year": 0.2459157663602598,
+      "source_ids": ["asof-broad-proxies"]
+    }
+  ]
+}

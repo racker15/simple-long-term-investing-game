@@ -1,0 +1,45 @@
+{
+  "scenario_id": "1985-11",
+  "sources": [
+    {
+      "id": "nasa-challenger",
+      "source_name": "NASA: Challenger STS-51L accident",
+      "source_reference": "https://www.nasa.gov/challenger-sts-51l-accident/",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Undated retrospective mission history.",
+      "observation_date": "1986-01-28"
+    },
+    {
+      "id": "fed-crash1987",
+      "source_name": "Federal Reserve History: Stock Market Crash of 1987",
+      "source_reference": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987",
+      "publication_date": "2013-11-22",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Retrospective account of the October 1987 crash.",
+      "observation_date": "1987-10-19"
+    },
+    {
+      "id": "wall-opens",
+      "source_name": "US Office of the Historian: Fall of Communism in Eastern Europe",
+      "source_reference": "https://history.state.gov/milestones/1989-1992/fall-of-communism",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Undated retrospective history; outcome context only.",
+      "observation_date": "1989-11-09"
+    },
+    {
+      "id": "hubble-history",
+      "source_name": "NASA: A Chronology of the Hubble Space Telescope",
+      "source_reference": "https://www.nasa.gov/history/hubble/chron.html",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Retrospective chronology of launch and servicing; outcome context only.",
+      "observation_date": "1993-12-31"
+    }
+  ]
+}

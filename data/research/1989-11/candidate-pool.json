@@ -1,0 +1,276 @@
+{
+  "scenario_id": "1989-11",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959094,00.html",
+      "title": "A Legal Bank Robbery"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959095,00.html",
+      "title": "A 14-State Barrage of Twisters"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959099,00.html",
+      "title": "Abortion: A Bishop Says No"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959100,00.html",
+      "title": "Congress: The Crash of Air Force Three"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959101,00.html",
+      "title": "Seattle: Stop Busing  -  Some Day"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959102,00.html",
+      "title": "The Arts: Compromising Position"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959103,00.html",
+      "title": "Washington: Getting Nasty With Noriega"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959116,00.html",
+      "title": "Casualties Of Peace"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959120,00.html",
+      "title": "From Polonia with Love"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959122,00.html",
+      "title": "Give A Little, Get a Little"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959125,00.html",
+      "title": "In Search Of Vision"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959126,00.html",
+      "title": "Keeping Lockerbie Alive"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959096,00.html",
+      "title": "A State, Not a Nation: East Germans"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959098,00.html",
+      "title": "American Abroad: Freedom's Ugly Underside"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959105,00.html",
+      "title": "An Irresistible Tide"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959109,00.html",
+      "title": "Brazil Outsiders Are In"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959119,00.html",
+      "title": "El Salvador The Battle for San Salvador"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959124,00.html",
+      "title": "In Cold Blood"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959127,00.html",
+      "title": "Leipzig: Hotbed of Protest"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959131,00.html",
+      "title": "Namibia The Doves Win"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959132,00.html",
+      "title": "New Zealand: Lange's Little Fantasy Thing"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959135,00.html",
+      "title": "South Africa Equality at Water's Edge"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959136,00.html",
+      "title": "Technology: Fax It To 'Em"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959146,00.html",
+      "title": "Sri Lanka: Curious Death Of a Rebel"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959106,00.html",
+      "title": "Nature: An Uneasy Dip with the Dolphins"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959123,00.html",
+      "title": "Science: Great Bubbles in the Cosmos"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959104,00.html",
+      "title": "Medicine: An Early-Warning System"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959108,00.html",
+      "title": "Medicine: Brain Defender"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959117,00.html",
+      "title": "Medicine: Coffee Alert"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959147,00.html",
+      "title": "Press: Yellow-Peril Journalism"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959097,00.html",
+      "title": "Religion: AIDS Ruckus In the Vatican"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959141,00.html",
+      "title": "Time Magazine Contents Page Vol.134, No. 22 NOVEMBER 27, 1989"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959142,00.html",
+      "title": "Time Magazine Masthead Vol.134, No. 22 NOVEMBER 27, 1989"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959145,00.html",
+      "title": "Ideas: Wolfe Among the Pigeons"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959110,00.html",
+      "title": "AVIATION: Taking Care of Business"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959111,00.html",
+      "title": "ENTERTAINMENT: Tuning in To Europe"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959112,00.html",
+      "title": "FASHION: Sorry for the Inconvenience"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959113,00.html",
+      "title": "LITIGATION: Block That Antitrust Suit"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959114,00.html",
+      "title": "TOYS: Fuzz Busters Not Included"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959115,00.html",
+      "title": "Case of The Purloined Pix"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959128,00.html",
+      "title": "Making Up, Hollywood Style"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959140,00.html",
+      "title": "TV News: The Sky's the Limit"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959107,00.html",
+      "title": "Bookends: Nov. 27, 1989"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959118,00.html",
+      "title": "Critics' Voices: Nov. 27, 1989"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959129,00.html",
+      "title": "Theater: Marine Life"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959130,00.html",
+      "title": "Cinema: Murphy's One-Man Band"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959134,00.html",
+      "title": "Sold! The Art Market: Goes Crazy"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959137,00.html",
+      "title": "Art: The Anatomy of a Deal"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959138,00.html",
+      "title": "Books: The Celebs' Golden Mouthpiece: William Novak"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959143,00.html",
+      "title": "Theater: Warmed Over and Not So Hot"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959133,00.html",
+      "title": "Interview: On Drugs, Debt and Poverty: Venezuela's CARLOS ANDRES PEREZ"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959139,00.html",
+      "title": "The Fella Expects To Win: Notre Dame coach LOU HOLTZ"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959121,00.html",
+      "title": "From the Publisher: Nov 27 1989"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,959144,00.html",
+      "title": "Essay: Why We've Failed to Ruin Thanksgiving"
+    }
+  ],
+  "selected_news": [0, 12, 19, 22, 25, 40],
+  "stock_candidates": [
+    {
+      "ticker": "SONY",
+      "selected": true,
+      "rationale": "The electronics company has completed its purchase of Columbia Pictures. This is its US-traded share."
+    },
+    {
+      "ticker": "KO",
+      "selected": true,
+      "rationale": "Its large Columbia Pictures stake is part of the sale to Sony."
+    },
+    {
+      "ticker": "XOM",
+      "selected": true,
+      "rationale": "The company faces public scrutiny after the Exxon Valdez oil spill in Alaska."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "DIS",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "MCD",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

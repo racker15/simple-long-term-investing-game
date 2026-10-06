@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "scenario_id": "2000-03",
+    "date": "2000-03-31",
+    "display_date": "March 31, 2000",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "important",
+      "selection_reason": "Intense interest in technology shares and internet businesses."
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Taiwan elects an opposition president",
+      "category": "World",
+      "summary": "Chen Shui-bian wins, ending decades of Nationalist Party rule. Voters and neighboring countries watch what comes next.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2000-03-7"]
+    },
+    {
+      "headline": "A small dinosaur discovery goes on display",
+      "category": "Science",
+      "summary": "A skeleton found by a young fossil hunter reveals a birdlike predator. Researchers praise how well it was preserved.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2000-03-11"]
+    },
+    {
+      "headline": "Football looks back on Dan Marino’s career",
+      "category": "Sports",
+      "summary": "An appreciation celebrates the quarterback’s preparation and competitiveness as his playing career ends.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2000-03-18"]
+    },
+    {
+      "headline": "A pudding promotion becomes an unusual travel deal",
+      "category": "Everyday life",
+      "summary": "An engineer collects airline miles by buying low-cost pudding cups. Careful arithmetic turns a promotion into a large reward.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2000-03-28"]
+    },
+    {
+      "headline": "Stephen King tests electronic publishing",
+      "category": "Technology",
+      "summary": "Readers download a new story in large numbers. Technical problems also reveal limits to the experience.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2000-03-31"]
+    },
+    {
+      "headline": "Internet radio creates new broadcasting opportunities",
+      "category": "Culture",
+      "summary": "Small teams can reach listeners online without owning a traditional radio station. The business is still developing.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2000-03-34"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (2000-02; approximate)",
+      "value": 3.2,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (2000-02; approximate)",
+      "value": 4.1,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (2000-02; approximate)",
+      "value": 5.7,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (2000-02; approximate)",
+      "value": 6.5,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (2000-02; approximate)",
+      "value": 111.3,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (2000-02; approximate)",
+      "value": 4.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 3.1% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:2000-03:cisco",
+      "company_name": "Cisco Systems",
+      "ticker": "CSCO",
+      "description": "The networking-equipment company is expanding into optical transport through acquisition agreements.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["cisco-optical", "asof-stock-prices"],
+      "three_month": 0.4434075603480594,
+      "one_year": 1.8225897437295226
+    },
+    {
+      "id": "hot:2000-03:microsoft",
+      "company_name": "Microsoft",
+      "ticker": "MSFT",
+      "description": "The major software maker is involved in a government case about competition.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["msft-antitrust", "asof-stock-prices"],
+      "three_month": -0.08993581618964186,
+      "one_year": 0.18549522749384262
+    },
+    {
+      "id": "hot:2000-03:amazon",
+      "company_name": "Amazon.com",
+      "ticker": "AMZN",
+      "description": "The online retailer is broadening its marketplace for outside sellers.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["amazon-zshops", "asof-stock-prices"],
+      "three_month": -0.11986868421761454,
+      "one_year": -0.22177869275116202
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:2000-03:cisco",
+      "name": "Cisco Systems",
+      "description": "The networking-equipment company is expanding into optical transport through acquisition agreements.",
+      "source_ids": ["cisco-optical", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2000-03:microsoft",
+      "name": "Microsoft",
+      "description": "The major software maker is involved in a government case about competition.",
+      "source_ids": ["msft-antitrust", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2000-03:amazon",
+      "name": "Amazon.com",
+      "description": "The online retailer is broadening its marketplace for outside sellers.",
+      "source_ids": ["amazon-zshops", "asof-stock-prices"]
+    }
+  ],
+  "recent_returns": [
+    {
+      "asset_id": "cash",
+      "three_month": 0.013157192860999922,
+      "one_year": 0.048756043311951824,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "bonds",
+      "three_month": 0.003096191489683431,
+      "one_year": 0.0003819973487428907,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "us_total",
+      "three_month": 0.04025963218399986,
+      "one_year": 0.25435935855616476,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "international_ex_us",
+      "three_month": 0.0012786324800000415,
+      "one_year": 0.3099812800201014,
+      "source_ids": ["asof-broad-proxies"]
+    }
+  ]
+}

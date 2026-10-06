@@ -1,0 +1,54 @@
+{
+  "scenario_id": "1991-11",
+  "events": [
+    {
+      "month": "1991-12",
+      "title": "The Soviet Union dissolves",
+      "description": "Independent countries replace the union after Gorbachev resigns.",
+      "source_ids": ["soviet-collapse"]
+    },
+    {
+      "month": "1993-04",
+      "title": "Web software is opened to everyone",
+      "description": "CERN puts its web software in the public domain.",
+      "source_ids": ["web-release"]
+    },
+    {
+      "month": "1993-12",
+      "title": "Astronauts repair Hubble",
+      "description": "A servicing mission installs corrective optics to improve the telescope’s pictures.",
+      "source_ids": ["hubble-repair"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Disney nearly tripled over five years, while Apple lost about half its value. IBM gained, but less than the US share basket. The partnership between IBM and Apple did not make their shareholders' results match. Each company still faced its own costs, competition and decisions.\n\nThe period began amid rapid political change. The Soviet Union dissolved the following month. In 1993, CERN opened its web software to everyone, and astronauts repaired Hubble. New possibilities appeared while investors were still holding their earlier choices.\n\nA basket of many businesses gained less than Disney, but it avoided relying entirely on Apple's fortunes. That trade-off matters. Spreading money around does not promise the highest result; it changes how much one company's outcome can hurt or help you.\n\nAt the start, the new animated film and the computer partnership both sounded promising. Neither supplied a five-year price forecast. The result asks you to compare an appealing business story with the uncertainty of investing money in that story, before the ending is known.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-dis",
+      "yahoo-ibm",
+      "yahoo-aapl",
+      "soviet-collapse",
+      "web-release",
+      "hubble-repair"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "People watched political change, joblessness, crop damage and new films. IBM and Apple were trying an unusual partnership.",
+    "what_actually_mattered": "The results show both the opportunity and the risk in individual shares. The broad basket gained less than Disney but avoided Apple’s large loss.",
+    "what_faded_away": "An exciting partnership announcement did not tell you which partner’s stock would do better. A film review could not predict five years of returns either.",
+    "what_nobody_knew": "Nobody knew the final company ranking or the size of the ups and downs. Famous names and promising plans left plenty of uncertainty.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-dis",
+      "yahoo-ibm",
+      "yahoo-aapl",
+      "soviet-collapse",
+      "web-release",
+      "hubble-repair"
+    ]
+  }
+}

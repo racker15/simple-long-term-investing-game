@@ -1,0 +1,176 @@
+{
+  "scenario_id": "2011-08",
+  "sources": [
+    {
+      "id": "news-2011-08-0",
+      "source_name": "TIME: The New Greatest Generation",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,2089337,00.html",
+      "publication_date": "2011-08-29",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-2011-08-4",
+      "source_name": "TIME: Scenes from A Revolution",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,2089360,00.html",
+      "publication_date": "2011-08-29",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-2011-08-9",
+      "source_name": "TIME: Deconstructing a Dollar Decline",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,2089346,00.html",
+      "publication_date": "2011-08-29",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-2011-08-14",
+      "source_name": "TIME: Keegan Bradley",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,2089359,00.html",
+      "publication_date": "2011-08-29",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-2011-08-16",
+      "source_name": "TIME: Memory Games",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,2089331,00.html",
+      "publication_date": "2011-08-29",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-2011-08-17",
+      "source_name": "TIME: Google Takes Aim",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,2089334,00.html",
+      "publication_date": "2011-08-29",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "skype-agreement",
+      "source_name": "Microsoft: To Acquire Skype",
+      "source_reference": "https://news.microsoft.com/source/2011/05/10/microsoft-to-acquire-skype-3/",
+      "publication_date": "2011-05-10",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original acquisition agreement, not a claim of completion by August."
+    },
+    {
+      "id": "spf-outlook",
+      "source_name": "Professional forecaster survey, 2011 Q3",
+      "source_reference": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/data-files/files/median_rgdp_growth.xlsx",
+      "publication_date": "2011-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Historical median DRGDP3 forecast (quarter after the survey quarter). Pre-1990 original release timing is uncertain; middle-month end is modeled availability, not an asserted original archive date. Retrospective forecast archive, not actual outcomes.",
+      "observation_date": "2011-08-31"
+    },
+    {
+      "id": "asof-macro-cpiaucsl",
+      "source_name": "Historical CPIAUCSL observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "publication_date": "2011-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2011-07-31"
+    },
+    {
+      "id": "asof-macro-unrate",
+      "source_name": "Historical UNRATE observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UNRATE",
+      "publication_date": "2011-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2011-07-31"
+    },
+    {
+      "id": "asof-macro-fedfunds",
+      "source_name": "Historical FEDFUNDS observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "publication_date": "2011-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2011-07-31"
+    },
+    {
+      "id": "asof-macro-gs10",
+      "source_name": "Historical GS10 observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/GS10",
+      "publication_date": "2011-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2011-07-31"
+    },
+    {
+      "id": "asof-macro-umcsent",
+      "source_name": "Historical UMCSENT observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UMCSENT",
+      "publication_date": "2011-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2011-07-31"
+    },
+    {
+      "id": "asof-macro-indpro",
+      "source_name": "Historical INDPRO observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/INDPRO",
+      "publication_date": "2011-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2011-07-31"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-market observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "publication_date": "2011-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying observations, not publication date of modern archives. Transparent Treasury and developed-market proxies; not exact contemporary database vintages.",
+      "observation_date": "2011-08-31"
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/2011-08/starting.json",
+      "publication_date": "2011-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying prices. Current retrospective adjusted-close reconstruction; the modern archive publication date is not asserted here.",
+      "observation_date": "2011-08-31"
+    },
+    {
+      "id": "apple-leadership",
+      "source_name": "Apple: Steve Jobs Resigns as CEO",
+      "source_reference": "https://www.apple.com/newsroom/2011/08/24Steve-Jobs-Resigns-as-CEO-of-Apple/",
+      "publication_date": "2011-08-24",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original leadership announcement."
+    },
+    {
+      "id": "berkshire-bank",
+      "source_name": "Bank of America: Berkshire Hathaway to Invest $5 Billion",
+      "source_reference": "https://investor.bankofamerica.com/regulatory-and-other-filings/select-sec-filings/content/0001193125-11-232422/dex991.htm",
+      "publication_date": "2011-08-25",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original announcement. Berkshire receives preferred shares and warrants, not the ordinary-share investment modeled here."
+    }
+  ]
+}

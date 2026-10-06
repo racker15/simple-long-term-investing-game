@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "scenario_id": "1994-02",
+    "date": "1994-02-28",
+    "display_date": "February 28, 1994",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "important",
+      "selection_reason": "The Federal Reserve begins raising interest rates."
+    }
+  },
+  "headlines": [
+    {
+      "headline": "The Olympics bring out memories of everyday sport",
+      "category": "Everyday life",
+      "summary": "Public officials share stories of their own races, games and martial-arts practice as viewers follow Lillehammer.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1994-02-1"]
+    },
+    {
+      "headline": "Somalia mission prompts difficult questions",
+      "category": "World",
+      "summary": "Reports examine the costly fighting in Mogadishu last October. The US plans to withdraw its troops by the end of March.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1994-02-14"]
+    },
+    {
+      "headline": "Dan Jansen wins Olympic gold",
+      "category": "Sports",
+      "summary": "After earlier Olympic disappointments, the American speed skater wins the 1,000-meter race at Lillehammer.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1994-02-17"]
+    },
+    {
+      "headline": "Viacom wins the fight for Paramount",
+      "category": "Business",
+      "summary": "A long takeover contest ends with Viacom gaining control. Entertainment companies are competing for films and television programs.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1994-02-24"]
+    },
+    {
+      "headline": "A television series explores human origins",
+      "category": "Science",
+      "summary": "A new Nova series follows fossil evidence and the work of researchers trying to understand our distant ancestors.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1994-02-29"]
+    },
+    {
+      "headline": "The Federal Reserve begins tightening policy",
+      "category": "Economy",
+      "summary": "The Fed announces a change expected to raise short-term interest rates slightly. It says the aim is to support a lasting expansion.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["fed-tightening"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (1994-01; approximate)",
+      "value": 2.5,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (1994-01; approximate)",
+      "value": 6.6,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (1994-01; approximate)",
+      "value": 3.0,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (1994-01; approximate)",
+      "value": 5.8,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (1994-01; approximate)",
+      "value": 94.3,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (1994-01; approximate)",
+      "value": 3.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 3.3% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:1994-02:microsoft",
+      "company_name": "Microsoft",
+      "ticker": "MSFT",
+      "description": "The software company reports rising quarterly profits.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["microsoft-profit", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1994-02:intel",
+      "company_name": "Intel",
+      "ticker": "INTC",
+      "description": "Its Pentium chip is a new generation of processor for personal computers.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["intel-pentium", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1994-02:disney",
+      "company_name": "Walt Disney",
+      "ticker": "DIS",
+      "description": "Aladdin is selling strongly on home video.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["disney-video", "asof-stock-prices"]
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:1994-02:microsoft",
+      "name": "Microsoft",
+      "description": "The software company reports rising quarterly profits.",
+      "source_ids": ["microsoft-profit", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1994-02:intel",
+      "name": "Intel",
+      "description": "Its Pentium chip is a new generation of processor for personal computers.",
+      "source_ids": ["intel-pentium", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1994-02:disney",
+      "name": "Walt Disney",
+      "description": "Aladdin is selling strongly on home video.",
+      "source_ids": ["disney-video", "asof-stock-prices"]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "scenario_id": "2007-06",
+    "date": "2007-06-30",
+    "display_date": "June 30, 2007",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "random",
+      "draw_universe": "calendar-month-ends-1980-2020-expansion-50-v1",
+      "random_seed": "simple-long-term-investing-game/50-scenarios/2026-10-06",
+      "draw_index": 10,
+      "method": "Preregistered FNV-1a/Mulberry32 unbiased draws without replacement from eligible month ends. Preserves six pilots; no outcome screening.",
+      "exclusions": [
+        "Exact duplicates of reserved important dates and retained random pilot dates",
+        "Genuine source or return-history unavailability only"
+      ],
+      "replacement_for": null
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Coney Island faces an uncertain future",
+      "category": "Everyday life",
+      "summary": "Redevelopment plans raise questions about the amusement district. Shopkeepers and visitors wonder what will stay.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2007-06-2"]
+    },
+    {
+      "headline": "Hamas gains control in Gaza",
+      "category": "World",
+      "summary": "Fighting with Fatah deepens the Palestinian political split. Civilians face danger and disruption.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2007-06-12"]
+    },
+    {
+      "headline": "Touchscreens point toward new computer designs",
+      "category": "Technology",
+      "summary": "Apple and Microsoft demonstrate ways to control devices directly with fingers instead of traditional buttons.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2007-06-19"]
+    },
+    {
+      "headline": "The White Stripes release a new album",
+      "category": "Music",
+      "summary": "Icky Thump mixes familiar rock sounds with unusual experiments. Reviewers weigh the results.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2007-06-25"]
+    },
+    {
+      "headline": "Disney’s chief sets a new course",
+      "category": "Business",
+      "summary": "Bob Iger emphasizes creative work and new media. Investors watch how his approach differs from the previous leadership.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2007-06-28"]
+    },
+    {
+      "headline": "The iPhone reaches its US launch",
+      "category": "Technology",
+      "summary": "Apple schedules sales for June 29 through its stores and selected AT&T shops. Customers face a new kind of mobile device.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["iphone-retail"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (2007-05; approximate)",
+      "value": 2.7,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (2007-05; approximate)",
+      "value": 4.4,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (2007-05; approximate)",
+      "value": 5.2,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (2007-05; approximate)",
+      "value": 4.8,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (2007-05; approximate)",
+      "value": 88.3,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (2007-05; approximate)",
+      "value": 3.0,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 2.6% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:2007-06:apple",
+      "company_name": "Apple",
+      "ticker": "AAPL",
+      "description": "The company is bringing the iPhone to US shops and promoting its touchscreen design.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-2007-06-19", "iphone-retail", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2007-06:microsoft",
+      "company_name": "Microsoft",
+      "ticker": "MSFT",
+      "description": "Its Surface computing demonstration explores larger touch-controlled displays.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-2007-06-19", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2007-06:disney",
+      "company_name": "Walt Disney",
+      "ticker": "DIS",
+      "description": "Bob Iger is reshaping the entertainment company’s strategy and digital offerings.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-2007-06-28", "asof-stock-prices"]
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:2007-06:apple",
+      "name": "Apple",
+      "description": "The company is bringing the iPhone to US shops and promoting its touchscreen design.",
+      "source_ids": ["news-2007-06-19", "iphone-retail", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2007-06:microsoft",
+      "name": "Microsoft",
+      "description": "Its Surface computing demonstration explores larger touch-controlled displays.",
+      "source_ids": ["news-2007-06-19", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2007-06:disney",
+      "name": "Walt Disney",
+      "description": "Bob Iger is reshaping the entertainment company’s strategy and digital offerings.",
+      "source_ids": ["news-2007-06-28", "asof-stock-prices"]
+    }
+  ]
+}

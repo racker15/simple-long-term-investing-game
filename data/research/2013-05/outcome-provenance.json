@@ -1,0 +1,35 @@
+{
+  "scenario_id": "2013-05",
+  "sources": [
+    {
+      "id": "pluto",
+      "source_name": "NASA: New Horizons reaches Pluto",
+      "source_reference": "https://www.nasa.gov/news-release/nasas-three-billion-mile-journey-to-pluto-reaches-historic-encounter/",
+      "publication_date": "2015-07-14",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original flyby announcement.",
+      "observation_date": "2015-07-14"
+    },
+    {
+      "id": "brexit",
+      "source_name": "Electoral Commission: EU referendum results",
+      "source_reference": "https://www.electoralcommission.org.uk/research-reports-and-data/our-reports-and-data-past-elections-and-referendums/eu-referendum",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Official results; vote did not itself end UK membership.",
+      "observation_date": "2016-06-24"
+    },
+    {
+      "id": "eclipse",
+      "source_name": "NASA: Total solar eclipse August 21 2017",
+      "source_reference": "https://www.nasa.gov/image-article/total-solar-eclipse-august-21-2017/",
+      "publication_date": "2017-08-21",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary image and account.",
+      "observation_date": "2017-08-21"
+    }
+  ]
+}

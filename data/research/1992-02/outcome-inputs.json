@@ -1,0 +1,54 @@
+{
+  "scenario_id": "1992-02",
+  "events": [
+    {
+      "month": "1993-12",
+      "title": "Hubble gets corrective optics",
+      "description": "Astronauts service the space telescope to improve its images.",
+      "source_ids": ["hubble-repair"]
+    },
+    {
+      "month": "1994-04",
+      "title": "South Africa holds a democratic election",
+      "description": "The country holds its first national democratic election open to all races.",
+      "source_ids": ["south-africa-vote"]
+    },
+    {
+      "month": "1995-08",
+      "title": "Windows 95 reaches stores",
+      "description": "Microsoft launches a new operating system with a Start menu and taskbar.",
+      "source_ids": ["windows95"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Honda nearly tripled in dollar terms, leading these choices. The US share basket more than doubled, while Hasbro and IBM also gained. A broad international basket gained less than this particular Japanese company. One company cannot stand in for a whole country or tell you how all foreign shares will behave.\n\nThe world beyond markets also changed. Astronauts repaired Hubble in 1993. South Africa held a national democratic election open to all races in 1994. Microsoft launched Windows 95 in 1995, bringing its Start menu to many computer users.\n\nNone of those events was a ready-made answer to the investment question. Knowing a technology would matter did not automatically reveal which company's shares would deliver the largest gain, or what price was sensible to pay.\n\nLook at the months between the start and finish. Would a fall have made you want to change your mind? Your choice was made without this chart. The comparison is useful because it shows the gap between what sounded plausible at the time and the particular path that eventually occurred.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-hmc",
+      "yahoo-has",
+      "yahoo-ibm",
+      "hubble-repair",
+      "south-africa-vote",
+      "windows95"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "People followed the Winter Olympics, new technology, car prices and efforts to protect the ozone layer.",
+    "what_actually_mattered": "The full monthly paths, including sharp falls, mattered more than any one product announcement. The US-traded Honda share is measured in dollars, so its result is not a local-currency Japanese market return.",
+    "what_faded_away": "The Toy Fair’s most surprising designs did not reveal which investment would finish first. Olympic results were no investing shortcut either.",
+    "what_nobody_knew": "Honda’s later lead was unknown. Higher car prices could have different effects on customers, sales and company profits.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-hmc",
+      "yahoo-has",
+      "yahoo-ibm",
+      "hubble-repair",
+      "south-africa-vote",
+      "windows95"
+    ]
+  }
+}

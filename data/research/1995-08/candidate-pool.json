@@ -1,0 +1,173 @@
+{
+  "scenario_id": "1995-08",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983355,00.html",
+      "title": "THE EVOLUTION OF DESPAIR"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983344,00.html",
+      "title": "IN GOLF WE TRUST"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983346,00.html",
+      "title": "ANATOMY OF A DISASTER"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983348,00.html",
+      "title": "AN ARKANSAS ROUNDUP"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983349,00.html",
+      "title": "INDEPENDENT EXPOSURE"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983350,00.html",
+      "title": "THE BORGIAS OF BAGHDAD"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983351,00.html",
+      "title": "FINALLY, A REAL APOLOGY"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983364,00.html",
+      "title": "SAME LAND, SAME FATE"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983353,00.html",
+      "title": "ON ITS OWN TWO FEET"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983365,00.html",
+      "title": "THE SECRET OF LEAKEY LUCK"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983347,00.html",
+      "title": "TO HELL WEEK AND BACK"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983356,00.html",
+      "title": "People, Aug. 28, 1995"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983357,00.html",
+      "title": "GENEROUS OLD LADY, OR REVERSE RACIST?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983361,00.html",
+      "title": "Letters, Aug. 28, 1995"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983362,00.html",
+      "title": "THE WEEK: AUGUST 13-19"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983363,00.html",
+      "title": "DISPATCHES: THE TRUTH ABOUT CHEEZ-WHIZ"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983366,00.html",
+      "title": "Milestones Aug. 28, 1995"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983367,00.html",
+      "title": "THE LOUTS OF DISCIPLINE"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983369,00.html",
+      "title": "Winners & Losers: Aug. 28, 1995"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983370,00.html",
+      "title": "To Our Readers, Aug. 28, 1995"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983352,00.html",
+      "title": "Mark Whitacre: The Spy Who Cried Help"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983345,00.html",
+      "title": "O.J. SIMPSON CASE: THE TALE OF THE TAPES"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983358,00.html",
+      "title": "MICHAEL OVITZ: MICHAEL MOUSE"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983359,00.html",
+      "title": "SPORT: TUMBLING'S NEW TITANS"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983360,00.html",
+      "title": "CINEMA: THE INDIE 500"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983354,00.html",
+      "title": "WINNING THE RIGHT TO FLY"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,983368,00.html",
+      "title": "THE STILL UNFRIENDLY SKIES"
+    }
+  ],
+  "selected_news": [6, 9, 15, 22, 23, 25],
+  "stock_candidates": [
+    {
+      "ticker": "MSFT",
+      "selected": true,
+      "rationale": "The software maker has just launched Windows 95."
+    },
+    {
+      "ticker": "DIS",
+      "selected": true,
+      "rationale": "The entertainment company is hiring Michael Ovitz and has announced a deal to buy Capital Cities/ABC."
+    },
+    {
+      "ticker": "INTC",
+      "selected": true,
+      "rationale": "The chip maker is replacing flawed Pentium processors."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "NSCP",
+      "selected": false,
+      "rationale": "August 1995 IPO has no full twelve-month listed starting-price history. Excluded for the starting return contract, without consulting future returns."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

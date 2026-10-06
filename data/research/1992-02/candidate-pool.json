@@ -1,0 +1,212 @@
+{
+  "scenario_id": "1992-02",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974928,00.html",
+      "title": "Calling Buck Rogerski"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974933,00.html",
+      "title": "Forward Spin: Feb. 24, 1992"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974936,00.html",
+      "title": "Gee, Those Indians Look Familiar!"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974940,00.html",
+      "title": "Law The Bad and the Beautiful"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974943,00.html",
+      "title": "Nation Notes: Courts"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974944,00.html",
+      "title": "Nation Notes: Disasters"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974945,00.html",
+      "title": "Nation Notes: Journalism P.C. and The Sports Page"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974946,00.html",
+      "title": "Nation Notes: Politics"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974947,00.html",
+      "title": "Never Complain, Never Explain"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974948,00.html",
+      "title": "Next Time, Save Some for the Boss"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974951,00.html",
+      "title": "The Campaign: The Long Shadow Of Vietnam"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974953,00.html",
+      "title": "The Political Interest: The New Mario Scenario"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974957,00.html",
+      "title": "Vox Pop: Feb. 24, 1992"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974958,00.html",
+      "title": "Will Someone Else Leap In?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974937,00.html",
+      "title": "Genetic Tests Under Fire"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974941,00.html",
+      "title": "Laying Siege to A Deadly Gene"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974950,00.html",
+      "title": "Silicone Blues"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974923,00.html",
+      "title": "1992 Winter Olympics: Blades Of Gold"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974935,00.html",
+      "title": "1992 Winter Olympics: Games Of Instants"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974939,00.html",
+      "title": "1992 Winter Olympics: It's A Kick, But Is It Olympian?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974942,00.html",
+      "title": "1992 Winter Olympics: Let's Get Physical"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974952,00.html",
+      "title": "1992 Winter Olympics: The Empire's Last Hurrah Former"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974955,00.html",
+      "title": "Time Magazine Contents Page"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974924,00.html",
+      "title": "Automobiles: Sticker Shock Made in Japan"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974925,00.html",
+      "title": "Environment: Ozone Deadline"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974926,00.html",
+      "title": "Retailing: Santa Might Get Sick"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974927,00.html",
+      "title": "Wall Street: Give Back The Loot!"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974929,00.html",
+      "title": "Communications: A Giant Tug-of-Wire"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974930,00.html",
+      "title": "Compensation: How Sweet It Was"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974932,00.html",
+      "title": "Crime: Psst, Secrets For Sale"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974938,00.html",
+      "title": "Is School Unfair to Girls?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974922,00.html",
+      "title": "Art: A Genius Obsessed By Stone"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974949,00.html",
+      "title": "Setting Sam"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974956,00.html",
+      "title": "Unsentimental Educations"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974931,00.html",
+      "title": "The Holy Alliance: Ronald Reagan and John Paul II"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974954,00.html",
+      "title": "The U.S. and The Vatican on Birth Control"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974959,00.html",
+      "title": "With A Song in His Heart: CY COLEMAN"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,974934,00.html",
+      "title": "From The Publisher: Feb. 24, 1992"
+    }
+  ],
+  "selected_news": [0, 17, 23, 24, 25, 27],
+  "stock_candidates": [
+    {
+      "ticker": "HMC",
+      "selected": true,
+      "rationale": "The automaker is considering US price increases amid trade tensions. This is its US-traded share."
+    },
+    {
+      "ticker": "HAS",
+      "selected": true,
+      "rationale": "The toy maker is introducing playful monster toys and new doll accessories."
+    },
+    {
+      "ticker": "IBM",
+      "selected": true,
+      "rationale": "The computer giant is working with partners on new technology."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "DIS",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

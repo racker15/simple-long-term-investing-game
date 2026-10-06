@@ -1,0 +1,216 @@
+{
+  "metadata": {
+    "scenario_id": "2011-08",
+    "date": "2011-08-31",
+    "display_date": "August 31, 2011",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "important",
+      "selection_reason": "US debt-ceiling conflict and Europe's sovereign-debt concerns."
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Veterans bring service into their communities",
+      "category": "Community",
+      "summary": "Former service members use teamwork and experience to help people at home. New projects support neighbors and fellow veterans.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2011-08-0"]
+    },
+    {
+      "headline": "Protests continue in Syria",
+      "category": "World",
+      "summary": "Demonstrators challenge the government despite danger. The country’s future remains uncertain.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2011-08-4"]
+    },
+    {
+      "headline": "Markets react unevenly to debt worries",
+      "category": "Economy",
+      "summary": "US debt loses its top credit rating, yet investors still buy Treasury bonds. The Fed signals that low rates may last for years.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2011-08-9"]
+    },
+    {
+      "headline": "Keegan Bradley wins the PGA Championship",
+      "category": "Sports",
+      "summary": "The young golfer wins his first major after a playoff. Fans meet a new contender.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2011-08-14"]
+    },
+    {
+      "headline": "A novel explores memory and public disagreement",
+      "category": "Culture",
+      "summary": "The Submission imagines a debate over a memorial design. It asks how communities remember a tragedy.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2011-08-16"]
+    },
+    {
+      "headline": "Google agrees to buy Motorola Mobility",
+      "category": "Technology",
+      "summary": "The proposed deal would give the search company a larger role in phone hardware. Other Android makers watch closely.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-2011-08-17"]
+    },
+    {
+      "headline": "Apple names Tim Cook as chief executive",
+      "category": "Business",
+      "summary": "Steve Jobs resigns as CEO. Apple’s board chooses Tim Cook to lead the company.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["apple-leadership"]
+    },
+    {
+      "headline": "Berkshire Hathaway backs Bank of America",
+      "category": "Business",
+      "summary": "The bank announces a major investment from Warren Buffett’s company. The agreement gives Berkshire special financial terms.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["berkshire-bank"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (2011-07; approximate)",
+      "value": 3.6,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (2011-07; approximate)",
+      "value": 9,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (2011-07; approximate)",
+      "value": 0.1,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (2011-07; approximate)",
+      "value": 3,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (2011-07; approximate)",
+      "value": 63.7,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (2011-07; approximate)",
+      "value": 2.5,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 2.6% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:2011-08:apple",
+      "company_name": "Apple",
+      "ticker": "AAPL",
+      "description": "Tim Cook takes over as chief executive after Steve Jobs resigns.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["apple-leadership", "asof-stock-prices"],
+      "three_month": 0.10637347051640456,
+      "one_year": 0.5830114974278704
+    },
+    {
+      "id": "hot:2011-08:bank-of-america",
+      "company_name": "Bank of America",
+      "ticker": "BAC",
+      "description": "Berkshire Hathaway agrees to invest. Its special deal has different terms from the ordinary shares you can buy here.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["berkshire-bank", "asof-stock-prices"],
+      "three_month": -0.3032304596302716,
+      "one_year": -0.3413321275149894
+    },
+    {
+      "id": "hot:2011-08:microsoft",
+      "company_name": "Microsoft",
+      "ticker": "MSFT",
+      "description": "The software maker has agreed to buy Skype, a voice and video communication service.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["skype-agreement", "asof-stock-prices"],
+      "three_month": 0.07028783388007742,
+      "one_year": 0.16187201905217985
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:2011-08:apple",
+      "name": "Apple",
+      "description": "Tim Cook takes over as chief executive after Steve Jobs resigns.",
+      "source_ids": ["apple-leadership", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2011-08:bank-of-america",
+      "name": "Bank of America",
+      "description": "Berkshire Hathaway agrees to invest. Its special deal has different terms from the ordinary shares you can buy here.",
+      "source_ids": ["berkshire-bank", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:2011-08:microsoft",
+      "name": "Microsoft",
+      "description": "The software maker has agreed to buy Skype, a voice and video communication service.",
+      "source_ids": ["skype-agreement", "asof-stock-prices"]
+    }
+  ],
+  "recent_returns": [
+    {
+      "asset_id": "cash",
+      "three_month": 0.00009999999999998899,
+      "one_year": 0.0008002800560067413,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "bonds",
+      "three_month": 0.043735692546745364,
+      "one_year": 0.03897773283705508,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "us_total",
+      "three_month": -0.09758187954999986,
+      "one_year": 0.1890404942070516,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "international_ex_us",
+      "three_month": -0.10893596885200008,
+      "one_year": 0.12799229567931136,
+      "source_ids": ["asof-broad-proxies"]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "scenario_id": "1995-08",
+  "sources": [
+    {
+      "id": "pathfinder",
+      "source_name": "NASA: Mars Pathfinder Lands on Mars",
+      "source_reference": "https://science.nasa.gov/solar-system/mars-pathfinder-lands-on-mars/",
+      "publication_date": "1997-07-04",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary mission report.",
+      "observation_date": "1997-07-04"
+    },
+    {
+      "id": "ltcm",
+      "source_name": "Federal Reserve History: Near Failure of Long-Term Capital Management",
+      "source_reference": "https://www.federalreservehistory.org/essays/ltcm-near-failure",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Retrospective institutional history.",
+      "observation_date": "1998-09-23"
+    },
+    {
+      "id": "euro-launch",
+      "source_name": "European Central Bank: The euro, four weeks after the start",
+      "source_reference": "https://www.ecb.europa.eu/press/key/date/1999/html/sp990128.en.html",
+      "publication_date": "1999-01-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary central-bank speech.",
+      "observation_date": "1999-01-01"
+    }
+  ]
+}

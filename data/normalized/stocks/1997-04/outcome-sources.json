@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "yahoo-nke",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/NKE/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/NKE?period1=828316800&period2=1020211200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "NKE",
+      "raw_path": "data/raw/stocks/1997-04/outcome-NKE.json",
+      "sha256": "c899cced362bb6a4f1650342030c344e94c6855af76bbdea1ae715b95f2ab862",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 58bb922ff86753274a437704507fe623f7ccc070 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-dis",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/DIS/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/DIS?period1=828316800&period2=1020211200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "DIS",
+      "raw_path": "data/raw/stocks/1997-04/outcome-DIS.json",
+      "sha256": "02d5cce95c1bd60ce896deb570e864ac2e251da4cef7318897ffb7aa68b5c3fc",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 58bb922ff86753274a437704507fe623f7ccc070 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-aapl",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/AAPL/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?period1=828316800&period2=1020211200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "AAPL",
+      "raw_path": "data/raw/stocks/1997-04/outcome-AAPL.json",
+      "sha256": "06cc3248ca8dc0d74a96e6e5c0335e167d5e1f2caae113d2ae6216f6d24b6477",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 58bb922ff86753274a437704507fe623f7ccc070 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    }
+  ]
+}

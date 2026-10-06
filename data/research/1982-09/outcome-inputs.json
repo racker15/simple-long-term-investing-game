@@ -1,0 +1,50 @@
+{
+  "scenario_id": "1982-09",
+  "events": [
+    {
+      "month": "1982-11",
+      "title": "The recession reaches its low point",
+      "description": "US economic activity reaches the turning point later identified by the NBER. That official announcement comes in July 1983.",
+      "source_ids": ["nber-1982-trough"]
+    },
+    {
+      "month": "1983-03",
+      "title": "A new missile-defense proposal",
+      "description": "President Reagan announces a research effort to defend against nuclear missiles. It becomes a major Cold War debate.",
+      "source_ids": ["reagan-sdi"]
+    },
+    {
+      "month": "1986-01",
+      "title": "Challenger is lost",
+      "description": "Seven people die when the space shuttle breaks apart after launch. NASA pauses shuttle flights and investigates.",
+      "source_ids": ["nasa-challenger"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "The economy began growing again after November 1982. People did not know the precise turning point on decision day. The organization that dates US recessions announced it in July 1983, after more evidence had arrived.\n\nThe years ahead brought very different news. Reagan proposed missile-defense research in 1983. In 1986, the Challenger disaster killed its seven crew members and led NASA to pause shuttle flights. These events mattered to people's lives without neatly predicting which investment would finish first.\n\nAll seven choices gained value in this window. Apple led, turning $10,000 into about $62,100. The international share basket also rose strongly. IBM gained too, but much less than Apple. Both were famous computer companies; that did not make their shares interchangeable.\n\nAn investor had to hold through each month to reach these ending amounts. The gains were not handed out evenly each year. Starting or stopping at a different date could also change the result, even for the same company.",
+    "source_ids": [
+      "nber-1982-trough",
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aapl",
+      "yahoo-ibm",
+      "yahoo-ko"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "Recession, international debt and computer-company competition made the outlook uncertain.",
+    "what_actually_mattered": "Each investment grew or shrank month by month. A share basket spread risk across many companies, but it could still fall sharply. Cash and bonds also paid income over the five years.",
+    "what_faded_away": "A musical opening and a headline about stolen computer designs were memorable news. Neither told you the five-year ranking of these investments.",
+    "what_nobody_knew": "No one could know the exact size or order of the gains in these seven choices. A gloomy starting point did not guarantee a poor five-year result.",
+    "source_ids": [
+      "nber-1982-trough",
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aapl",
+      "yahoo-ibm",
+      "yahoo-ko"
+    ]
+  }
+}

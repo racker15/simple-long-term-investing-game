@@ -1,0 +1,1393 @@
+{
+  "scenario_id": "1984-11",
+  "overlap_tolerance": 5e-6,
+  "series": {
+    "PG": {
+      "raw_sha256": "9c7667b6b4329d3da0542f67dad24b4ee05545ea17e545aae5466b9797964fe3",
+      "monthly_endpoints": [
+        {
+          "month": "1983-11",
+          "trading_date": "1983-11-30",
+          "adjusted_close": 1.191001534461975
+        },
+        {
+          "month": "1983-12",
+          "trading_date": "1983-12-30",
+          "adjusted_close": 1.1432613134384155
+        },
+        {
+          "month": "1984-01",
+          "trading_date": "1984-01-31",
+          "adjusted_close": 1.0264153480529785
+        },
+        {
+          "month": "1984-02",
+          "trading_date": "1984-02-29",
+          "adjusted_close": 0.9578182697296143
+        },
+        {
+          "month": "1984-03",
+          "trading_date": "1984-03-30",
+          "adjusted_close": 0.9806845188140869
+        },
+        {
+          "month": "1984-04",
+          "trading_date": "1984-04-30",
+          "adjusted_close": 0.9748366475105286
+        },
+        {
+          "month": "1984-05",
+          "trading_date": "1984-05-31",
+          "adjusted_close": 1.013418436050415
+        },
+        {
+          "month": "1984-06",
+          "trading_date": "1984-06-29",
+          "adjusted_close": 1.0777214765548706
+        },
+        {
+          "month": "1984-07",
+          "trading_date": "1984-07-31",
+          "adjusted_close": 1.0987881422042847
+        },
+        {
+          "month": "1984-08",
+          "trading_date": "1984-08-31",
+          "adjusted_close": 1.1664855480194092
+        },
+        {
+          "month": "1984-09",
+          "trading_date": "1984-09-28",
+          "adjusted_close": 1.1638818979263306
+        },
+        {
+          "month": "1984-10",
+          "trading_date": "1984-10-31",
+          "adjusted_close": 1.222900629043579
+        },
+        {
+          "month": "1984-11",
+          "trading_date": "1984-11-30",
+          "adjusted_close": 1.217629075050354
+        },
+        {
+          "month": "1984-12",
+          "trading_date": "1984-12-31",
+          "adjusted_close": 1.2018154859542847
+        },
+        {
+          "month": "1985-01",
+          "trading_date": "1985-01-31",
+          "adjusted_close": 1.199993371963501
+        },
+        {
+          "month": "1985-02",
+          "trading_date": "1985-02-28",
+          "adjusted_close": 1.2133265733718872
+        },
+        {
+          "month": "1985-03",
+          "trading_date": "1985-03-29",
+          "adjusted_close": 1.1839929819107056
+        },
+        {
+          "month": "1985-04",
+          "trading_date": "1985-04-30",
+          "adjusted_close": 1.125967025756836
+        },
+        {
+          "month": "1985-05",
+          "trading_date": "1985-05-31",
+          "adjusted_close": 1.1637697219848633
+        },
+        {
+          "month": "1985-06",
+          "trading_date": "1985-06-28",
+          "adjusted_close": 1.2123723030090332
+        },
+        {
+          "month": "1985-07",
+          "trading_date": "1985-07-31",
+          "adjusted_close": 1.2507212162017822
+        },
+        {
+          "month": "1985-08",
+          "trading_date": "1985-08-30",
+          "adjusted_close": 1.256182312965393
+        },
+        {
+          "month": "1985-09",
+          "trading_date": "1985-09-30",
+          "adjusted_close": 1.231605887413025
+        },
+        {
+          "month": "1985-10",
+          "trading_date": "1985-10-31",
+          "adjusted_close": 1.400467038154602
+        },
+        {
+          "month": "1985-11",
+          "trading_date": "1985-11-29",
+          "adjusted_close": 1.483335256576538
+        },
+        {
+          "month": "1985-12",
+          "trading_date": "1985-12-31",
+          "adjusted_close": 1.5413419008255005
+        },
+        {
+          "month": "1986-01",
+          "trading_date": "1986-01-31",
+          "adjusted_close": 1.4699205160140991
+        },
+        {
+          "month": "1986-02",
+          "trading_date": "1986-02-28",
+          "adjusted_close": 1.539650559425354
+        },
+        {
+          "month": "1986-03",
+          "trading_date": "1986-03-31",
+          "adjusted_close": 1.6428515911102295
+        },
+        {
+          "month": "1986-04",
+          "trading_date": "1986-04-30",
+          "adjusted_close": 1.6550084352493286
+        },
+        {
+          "month": "1986-05",
+          "trading_date": "1986-05-30",
+          "adjusted_close": 1.7535203695297241
+        },
+        {
+          "month": "1986-06",
+          "trading_date": "1986-06-30",
+          "adjusted_close": 1.804183006286621
+        },
+        {
+          "month": "1986-07",
+          "trading_date": "1986-07-31",
+          "adjusted_close": 1.7576688528060913
+        },
+        {
+          "month": "1986-08",
+          "trading_date": "1986-08-29",
+          "adjusted_close": 1.817299485206604
+        },
+        {
+          "month": "1986-09",
+          "trading_date": "1986-09-30",
+          "adjusted_close": 1.5390242338180542
+        },
+        {
+          "month": "1986-10",
+          "trading_date": "1986-10-31",
+          "adjusted_close": 1.7196193933486938
+        },
+        {
+          "month": "1986-11",
+          "trading_date": "1986-11-28",
+          "adjusted_close": 1.7826719284057617
+        },
+        {
+          "month": "1986-12",
+          "trading_date": "1986-12-31",
+          "adjusted_close": 1.7511451244354248
+        },
+        {
+          "month": "1987-01",
+          "trading_date": "1987-01-30",
+          "adjusted_close": 2.0340330600738525
+        },
+        {
+          "month": "1987-02",
+          "trading_date": "1987-02-27",
+          "adjusted_close": 2.005138397216797
+        },
+        {
+          "month": "1987-03",
+          "trading_date": "1987-03-31",
+          "adjusted_close": 2.126488447189331
+        },
+        {
+          "month": "1987-04",
+          "trading_date": "1987-04-30",
+          "adjusted_close": 1.9740544557571411
+        },
+        {
+          "month": "1987-05",
+          "trading_date": "1987-05-29",
+          "adjusted_close": 2.1312785148620605
+        },
+        {
+          "month": "1987-06",
+          "trading_date": "1987-06-30",
+          "adjusted_close": 2.282679796218872
+        },
+        {
+          "month": "1987-07",
+          "trading_date": "1987-07-31",
+          "adjusted_close": 2.1846539974212646
+        },
+        {
+          "month": "1987-08",
+          "trading_date": "1987-08-31",
+          "adjusted_close": 2.4045841693878174
+        },
+        {
+          "month": "1987-09",
+          "trading_date": "1987-09-30",
+          "adjusted_close": 2.369394302368164
+        },
+        {
+          "month": "1987-10",
+          "trading_date": "1987-10-30",
+          "adjusted_close": 2.0868594646453857
+        },
+        {
+          "month": "1987-11",
+          "trading_date": "1987-11-30",
+          "adjusted_close": 1.9242867231369019
+        },
+        {
+          "month": "1987-12",
+          "trading_date": "1987-12-31",
+          "adjusted_close": 2.018873453140259
+        },
+        {
+          "month": "1988-01",
+          "trading_date": "1988-01-29",
+          "adjusted_close": 2.023717164993286
+        },
+        {
+          "month": "1988-02",
+          "trading_date": "1988-02-29",
+          "adjusted_close": 2.0088138580322266
+        },
+        {
+          "month": "1988-03",
+          "trading_date": "1988-03-31",
+          "adjusted_close": 1.8568130731582642
+        },
+        {
+          "month": "1988-04",
+          "trading_date": "1988-04-29",
+          "adjusted_close": 1.8553959131240845
+        },
+        {
+          "month": "1988-05",
+          "trading_date": "1988-05-31",
+          "adjusted_close": 1.8373533487319946
+        },
+        {
+          "month": "1988-06",
+          "trading_date": "1988-06-30",
+          "adjusted_close": 1.8644169569015503
+        },
+        {
+          "month": "1988-07",
+          "trading_date": "1988-07-29",
+          "adjusted_close": 1.8243087530136108
+        },
+        {
+          "month": "1988-08",
+          "trading_date": "1988-08-31",
+          "adjusted_close": 1.8121662139892578
+        },
+        {
+          "month": "1988-09",
+          "trading_date": "1988-09-30",
+          "adjusted_close": 1.942690372467041
+        },
+        {
+          "month": "1988-10",
+          "trading_date": "1988-10-31",
+          "adjusted_close": 2.0237390995025635
+        },
+        {
+          "month": "1988-11",
+          "trading_date": "1988-11-30",
+          "adjusted_close": 2.0053677558898926
+        },
+        {
+          "month": "1988-12",
+          "trading_date": "1988-12-30",
+          "adjusted_close": 2.130894660949707
+        },
+        {
+          "month": "1989-01",
+          "trading_date": "1989-01-31",
+          "adjusted_close": 2.277212142944336
+        },
+        {
+          "month": "1989-02",
+          "trading_date": "1989-02-28",
+          "adjusted_close": 2.190697431564331
+        },
+        {
+          "month": "1989-03",
+          "trading_date": "1989-03-31",
+          "adjusted_close": 2.286482572555542
+        },
+        {
+          "month": "1989-04",
+          "trading_date": "1989-04-28",
+          "adjusted_close": 2.3842380046844482
+        },
+        {
+          "month": "1989-05",
+          "trading_date": "1989-05-31",
+          "adjusted_close": 2.561886787414551
+        },
+        {
+          "month": "1989-06",
+          "trading_date": "1989-06-30",
+          "adjusted_close": 2.7021358013153076
+        },
+        {
+          "month": "1989-07",
+          "trading_date": "1989-07-31",
+          "adjusted_close": 2.996981382369995
+        },
+        {
+          "month": "1989-08",
+          "trading_date": "1989-08-31",
+          "adjusted_close": 3.226069927215576
+        },
+        {
+          "month": "1989-09",
+          "trading_date": "1989-09-29",
+          "adjusted_close": 3.0126733779907227
+        },
+        {
+          "month": "1989-10",
+          "trading_date": "1989-10-31",
+          "adjusted_close": 3.266106367111206
+        },
+        {
+          "month": "1989-11",
+          "trading_date": "1989-11-30",
+          "adjusted_close": 3.275590419769287
+        }
+      ],
+      "future_dividends": [
+        {
+          "ex_date": "1985-01-14",
+          "vendor_adjusted_amount": 0.040625
+        },
+        {
+          "ex_date": "1985-04-15",
+          "vendor_adjusted_amount": 0.040625
+        },
+        {
+          "ex_date": "1985-07-15",
+          "vendor_adjusted_amount": 0.040625
+        },
+        {
+          "ex_date": "1985-10-11",
+          "vendor_adjusted_amount": 0.040625
+        },
+        {
+          "ex_date": "1986-01-17",
+          "vendor_adjusted_amount": 0.040625
+        },
+        {
+          "ex_date": "1986-04-14",
+          "vendor_adjusted_amount": 0.042188
+        },
+        {
+          "ex_date": "1986-07-14",
+          "vendor_adjusted_amount": 0.042188
+        },
+        {
+          "ex_date": "1986-10-20",
+          "vendor_adjusted_amount": 0.042188
+        },
+        {
+          "ex_date": "1987-01-16",
+          "vendor_adjusted_amount": 0.042188
+        },
+        {
+          "ex_date": "1987-04-20",
+          "vendor_adjusted_amount": 0.042188
+        },
+        {
+          "ex_date": "1987-07-20",
+          "vendor_adjusted_amount": 0.042188
+        },
+        {
+          "ex_date": "1987-10-19",
+          "vendor_adjusted_amount": 0.042188
+        },
+        {
+          "ex_date": "1988-01-15",
+          "vendor_adjusted_amount": 0.04375
+        },
+        {
+          "ex_date": "1988-04-18",
+          "vendor_adjusted_amount": 0.04375
+        },
+        {
+          "ex_date": "1988-07-18",
+          "vendor_adjusted_amount": 0.04375
+        },
+        {
+          "ex_date": "1988-10-17",
+          "vendor_adjusted_amount": 0.04375
+        },
+        {
+          "ex_date": "1989-01-13",
+          "vendor_adjusted_amount": 0.05
+        },
+        {
+          "ex_date": "1989-04-17",
+          "vendor_adjusted_amount": 0.05
+        },
+        {
+          "ex_date": "1989-07-17",
+          "vendor_adjusted_amount": 0.05
+        },
+        {
+          "ex_date": "1989-10-16",
+          "vendor_adjusted_amount": 0.05625
+        }
+      ],
+      "future_splits": [
+        {
+          "trading_date": "1989-11-20",
+          "numerator": 2.0,
+          "denominator": 1.0,
+          "ratio": "2:1"
+        }
+      ],
+      "maximum_rebased_overlap_relative_difference": 8.902143053823863e-7,
+      "review": {
+        "source_ids": ["yahoo-pg"],
+        "assessment": "Reviewed vendor-adjusted monthly endpoints and reported dividends/splits. No gaps or terminal corporate-event substitution in this selected window; use the vendor-adjusted dividend/split return proxy without adding payments again.",
+        "limitations": "A public adjusted-price approximation, not transaction-level reinvestment accounting or a contemporary vendor vintage. Later uniform adjustment scaling cancels in ratios."
+      }
+    },
+    "CL": {
+      "raw_sha256": "a16b7ec65cee67de701e74260367210abbbc28fc1ca3ee6ee9595e9bd6dc39bb",
+      "monthly_endpoints": [
+        {
+          "month": "1983-11",
+          "trading_date": "1983-11-30",
+          "adjusted_close": 0.524003803730011
+        },
+        {
+          "month": "1983-12",
+          "trading_date": "1983-12-30",
+          "adjusted_close": 0.4768708348274231
+        },
+        {
+          "month": "1984-01",
+          "trading_date": "1984-01-31",
+          "adjusted_close": 0.48086217045783997
+        },
+        {
+          "month": "1984-02",
+          "trading_date": "1984-02-29",
+          "adjusted_close": 0.5230428576469421
+        },
+        {
+          "month": "1984-03",
+          "trading_date": "1984-03-30",
+          "adjusted_close": 0.5089826583862305
+        },
+        {
+          "month": "1984-04",
+          "trading_date": "1984-04-30",
+          "adjusted_close": 0.5730693340301514
+        },
+        {
+          "month": "1984-05",
+          "trading_date": "1984-05-31",
+          "adjusted_close": 0.4989405572414398
+        },
+        {
+          "month": "1984-06",
+          "trading_date": "1984-06-29",
+          "adjusted_close": 0.5246002078056335
+        },
+        {
+          "month": "1984-07",
+          "trading_date": "1984-07-31",
+          "adjusted_close": 0.48852211236953735
+        },
+        {
+          "month": "1984-08",
+          "trading_date": "1984-08-31",
+          "adjusted_close": 0.5434443950653076
+        },
+        {
+          "month": "1984-09",
+          "trading_date": "1984-09-28",
+          "adjusted_close": 0.5463350415229797
+        },
+        {
+          "month": "1984-10",
+          "trading_date": "1984-10-31",
+          "adjusted_close": 0.5474575757980347
+        },
+        {
+          "month": "1984-11",
+          "trading_date": "1984-11-30",
+          "adjusted_close": 0.5738059282302856
+        },
+        {
+          "month": "1984-12",
+          "trading_date": "1984-12-31",
+          "adjusted_close": 0.5825889110565186
+        },
+        {
+          "month": "1985-01",
+          "trading_date": "1985-01-31",
+          "adjusted_close": 0.5843661427497864
+        },
+        {
+          "month": "1985-02",
+          "trading_date": "1985-02-28",
+          "adjusted_close": 0.5636017918586731
+        },
+        {
+          "month": "1985-03",
+          "trading_date": "1985-03-29",
+          "adjusted_close": 0.5902989506721497
+        },
+        {
+          "month": "1985-04",
+          "trading_date": "1985-04-30",
+          "adjusted_close": 0.6039623022079468
+        },
+        {
+          "month": "1985-05",
+          "trading_date": "1985-05-31",
+          "adjusted_close": 0.609971821308136
+        },
+        {
+          "month": "1985-06",
+          "trading_date": "1985-06-28",
+          "adjusted_close": 0.6400197744369507
+        },
+        {
+          "month": "1985-07",
+          "trading_date": "1985-07-31",
+          "adjusted_close": 0.6779927611351013
+        },
+        {
+          "month": "1985-08",
+          "trading_date": "1985-08-30",
+          "adjusted_close": 0.6384685635566711
+        },
+        {
+          "month": "1985-09",
+          "trading_date": "1985-09-30",
+          "adjusted_close": 0.6506293416023254
+        },
+        {
+          "month": "1985-10",
+          "trading_date": "1985-10-31",
+          "adjusted_close": 0.7409446835517883
+        },
+        {
+          "month": "1985-11",
+          "trading_date": "1985-11-29",
+          "adjusted_close": 0.7317214608192444
+        },
+        {
+          "month": "1985-12",
+          "trading_date": "1985-12-31",
+          "adjusted_close": 0.8055081963539124
+        },
+        {
+          "month": "1986-01",
+          "trading_date": "1986-01-31",
+          "adjusted_close": 0.8142975568771362
+        },
+        {
+          "month": "1986-02",
+          "trading_date": "1986-02-28",
+          "adjusted_close": 0.8702415823936462
+        },
+        {
+          "month": "1986-03",
+          "trading_date": "1986-03-31",
+          "adjusted_close": 0.9261849522590637
+        },
+        {
+          "month": "1986-04",
+          "trading_date": "1986-04-30",
+          "adjusted_close": 0.9407090544700623
+        },
+        {
+          "month": "1986-05",
+          "trading_date": "1986-05-30",
+          "adjusted_close": 0.9971513748168945
+        },
+        {
+          "month": "1986-06",
+          "trading_date": "1986-06-30",
+          "adjusted_close": 1.0661371946334839
+        },
+        {
+          "month": "1986-07",
+          "trading_date": "1986-07-31",
+          "adjusted_close": 1.0184893608093262
+        },
+        {
+          "month": "1986-08",
+          "trading_date": "1986-08-29",
+          "adjusted_close": 1.0090000629425049
+        },
+        {
+          "month": "1986-09",
+          "trading_date": "1986-09-30",
+          "adjusted_close": 0.9267621636390686
+        },
+        {
+          "month": "1986-10",
+          "trading_date": "1986-10-31",
+          "adjusted_close": 0.9860786199569702
+        },
+        {
+          "month": "1986-11",
+          "trading_date": "1986-11-28",
+          "adjusted_close": 1.1296820640563965
+        },
+        {
+          "month": "1986-12",
+          "trading_date": "1986-12-31",
+          "adjusted_close": 1.0435198545455933
+        },
+        {
+          "month": "1987-01",
+          "trading_date": "1987-01-30",
+          "adjusted_close": 1.186318278312683
+        },
+        {
+          "month": "1987-02",
+          "trading_date": "1987-02-27",
+          "adjusted_close": 1.1895331144332886
+        },
+        {
+          "month": "1987-03",
+          "trading_date": "1987-03-31",
+          "adjusted_close": 1.192747712135315
+        },
+        {
+          "month": "1987-04",
+          "trading_date": "1987-04-30",
+          "adjusted_close": 1.1274676322937012
+        },
+        {
+          "month": "1987-05",
+          "trading_date": "1987-05-29",
+          "adjusted_close": 1.156625509262085
+        },
+        {
+          "month": "1987-06",
+          "trading_date": "1987-06-30",
+          "adjusted_close": 1.2181828022003174
+        },
+        {
+          "month": "1987-07",
+          "trading_date": "1987-07-31",
+          "adjusted_close": 1.3210324048995972
+        },
+        {
+          "month": "1987-08",
+          "trading_date": "1987-08-31",
+          "adjusted_close": 1.301461935043335
+        },
+        {
+          "month": "1987-09",
+          "trading_date": "1987-09-30",
+          "adjusted_close": 1.3373409509658813
+        },
+        {
+          "month": "1987-10",
+          "trading_date": "1987-10-30",
+          "adjusted_close": 1.0910301208496094
+        },
+        {
+          "month": "1987-11",
+          "trading_date": "1987-11-30",
+          "adjusted_close": 0.9888495206832886
+        },
+        {
+          "month": "1987-12",
+          "trading_date": "1987-12-31",
+          "adjusted_close": 1.0349949598312378
+        },
+        {
+          "month": "1988-01",
+          "trading_date": "1988-01-29",
+          "adjusted_close": 1.1405730247497559
+        },
+        {
+          "month": "1988-02",
+          "trading_date": "1988-02-29",
+          "adjusted_close": 1.1771503686904907
+        },
+        {
+          "month": "1988-03",
+          "trading_date": "1988-03-31",
+          "adjusted_close": 1.1405730247497559
+        },
+        {
+          "month": "1988-04",
+          "trading_date": "1988-04-29",
+          "adjusted_close": 1.1813932657241821
+        },
+        {
+          "month": "1988-05",
+          "trading_date": "1988-05-31",
+          "adjusted_close": 1.1746811866760254
+        },
+        {
+          "month": "1988-06",
+          "trading_date": "1988-06-30",
+          "adjusted_close": 1.1746811866760254
+        },
+        {
+          "month": "1988-07",
+          "trading_date": "1988-07-29",
+          "adjusted_close": 1.1885396242141724
+        },
+        {
+          "month": "1988-08",
+          "trading_date": "1988-08-31",
+          "adjusted_close": 1.1512917280197144
+        },
+        {
+          "month": "1988-09",
+          "trading_date": "1988-09-30",
+          "adjusted_close": 1.2156294584274292
+        },
+        {
+          "month": "1988-10",
+          "trading_date": "1988-10-31",
+          "adjusted_close": 1.2563204765319824
+        },
+        {
+          "month": "1988-11",
+          "trading_date": "1988-11-30",
+          "adjusted_close": 1.1982841491699219
+        },
+        {
+          "month": "1988-12",
+          "trading_date": "1988-12-30",
+          "adjusted_close": 1.2836310863494873
+        },
+        {
+          "month": "1989-01",
+          "trading_date": "1989-01-31",
+          "adjusted_close": 1.2869892120361328
+        },
+        {
+          "month": "1989-02",
+          "trading_date": "1989-02-28",
+          "adjusted_close": 1.2250491380691528
+        },
+        {
+          "month": "1989-03",
+          "trading_date": "1989-03-31",
+          "adjusted_close": 1.317960262298584
+        },
+        {
+          "month": "1989-04",
+          "trading_date": "1989-04-28",
+          "adjusted_close": 1.3764770030975342
+        },
+        {
+          "month": "1989-05",
+          "trading_date": "1989-05-31",
+          "adjusted_close": 1.4042143821716309
+        },
+        {
+          "month": "1989-06",
+          "trading_date": "1989-06-30",
+          "adjusted_close": 1.431951880455017
+        },
+        {
+          "month": "1989-07",
+          "trading_date": "1989-07-31",
+          "adjusted_close": 1.630247712135315
+        },
+        {
+          "month": "1989-08",
+          "trading_date": "1989-08-31",
+          "adjusted_close": 1.6511940956115723
+        },
+        {
+          "month": "1989-09",
+          "trading_date": "1989-09-29",
+          "adjusted_close": 1.6826117038726807
+        },
+        {
+          "month": "1989-10",
+          "trading_date": "1989-10-31",
+          "adjusted_close": 1.7333929538726807
+        },
+        {
+          "month": "1989-11",
+          "trading_date": "1989-11-30",
+          "adjusted_close": 1.736909031867981
+        }
+      ],
+      "future_dividends": [
+        {
+          "ex_date": "1985-01-18",
+          "vendor_adjusted_amount": 0.02
+        },
+        {
+          "ex_date": "1985-04-19",
+          "vendor_adjusted_amount": 0.02
+        },
+        {
+          "ex_date": "1985-07-19",
+          "vendor_adjusted_amount": 0.02
+        },
+        {
+          "ex_date": "1985-10-21",
+          "vendor_adjusted_amount": 0.02125
+        },
+        {
+          "ex_date": "1986-01-17",
+          "vendor_adjusted_amount": 0.02125
+        },
+        {
+          "ex_date": "1986-04-21",
+          "vendor_adjusted_amount": 0.02125
+        },
+        {
+          "ex_date": "1986-07-21",
+          "vendor_adjusted_amount": 0.02125
+        },
+        {
+          "ex_date": "1986-10-20",
+          "vendor_adjusted_amount": 0.02125
+        },
+        {
+          "ex_date": "1987-01-20",
+          "vendor_adjusted_amount": 0.02125
+        },
+        {
+          "ex_date": "1987-04-20",
+          "vendor_adjusted_amount": 0.02125
+        },
+        {
+          "ex_date": "1987-07-20",
+          "vendor_adjusted_amount": 0.02125
+        },
+        {
+          "ex_date": "1987-10-20",
+          "vendor_adjusted_amount": 0.023125
+        },
+        {
+          "ex_date": "1988-01-19",
+          "vendor_adjusted_amount": 0.023125
+        },
+        {
+          "ex_date": "1988-04-19",
+          "vendor_adjusted_amount": 0.023125
+        },
+        {
+          "ex_date": "1988-07-19",
+          "vendor_adjusted_amount": 0.023125
+        },
+        {
+          "ex_date": "1988-10-18",
+          "vendor_adjusted_amount": 0.023125
+        },
+        {
+          "ex_date": "1989-01-19",
+          "vendor_adjusted_amount": 0.023125
+        },
+        {
+          "ex_date": "1989-04-19",
+          "vendor_adjusted_amount": 0.023125
+        },
+        {
+          "ex_date": "1989-07-19",
+          "vendor_adjusted_amount": 0.023125
+        },
+        {
+          "ex_date": "1989-10-19",
+          "vendor_adjusted_amount": 0.028125
+        }
+      ],
+      "future_splits": [],
+      "maximum_rebased_overlap_relative_difference": 1.4778240540191945e-6,
+      "review": {
+        "source_ids": ["yahoo-cl"],
+        "assessment": "Reviewed vendor-adjusted monthly endpoints and reported dividends/splits. No gaps or terminal corporate-event substitution in this selected window; use the vendor-adjusted dividend/split return proxy without adding payments again.",
+        "limitations": "A public adjusted-price approximation, not transaction-level reinvestment accounting or a contemporary vendor vintage. Later uniform adjustment scaling cancels in ratios."
+      }
+    },
+    "GE": {
+      "raw_sha256": "6851858bae1a81c48aab218ba45964f2db0aae21707c3b6eba5c96405cb3dea5",
+      "monthly_endpoints": [
+        {
+          "month": "1983-11",
+          "trading_date": "1983-11-30",
+          "adjusted_close": 3.978318929672241
+        },
+        {
+          "month": "1983-12",
+          "trading_date": "1983-12-30",
+          "adjusted_close": 4.08278751373291
+        },
+        {
+          "month": "1984-01",
+          "trading_date": "1984-01-31",
+          "adjusted_close": 3.78680682182312
+        },
+        {
+          "month": "1984-02",
+          "trading_date": "1984-02-29",
+          "adjusted_close": 3.621405601501465
+        },
+        {
+          "month": "1984-03",
+          "trading_date": "1984-03-30",
+          "adjusted_close": 3.8587307929992676
+        },
+        {
+          "month": "1984-04",
+          "trading_date": "1984-04-30",
+          "adjusted_close": 3.902679443359375
+        },
+        {
+          "month": "1984-05",
+          "trading_date": "1984-05-31",
+          "adjusted_close": 3.7356724739074707
+        },
+        {
+          "month": "1984-06",
+          "trading_date": "1984-06-29",
+          "adjusted_close": 3.7356724739074707
+        },
+        {
+          "month": "1984-07",
+          "trading_date": "1984-07-31",
+          "adjusted_close": 3.7267966270446777
+        },
+        {
+          "month": "1984-08",
+          "trading_date": "1984-08-31",
+          "adjusted_close": 4.019620895385742
+        },
+        {
+          "month": "1984-09",
+          "trading_date": "1984-09-28",
+          "adjusted_close": 3.993239402770996
+        },
+        {
+          "month": "1984-10",
+          "trading_date": "1984-10-31",
+          "adjusted_close": 4.118587970733643
+        },
+        {
+          "month": "1984-11",
+          "trading_date": "1984-11-30",
+          "adjusted_close": 4.005631923675537
+        },
+        {
+          "month": "1984-12",
+          "trading_date": "1984-12-31",
+          "adjusted_close": 4.096053600311279
+        },
+        {
+          "month": "1985-01",
+          "trading_date": "1985-01-31",
+          "adjusted_close": 4.620492935180664
+        },
+        {
+          "month": "1985-02",
+          "trading_date": "1985-02-28",
+          "adjusted_close": 4.642380237579346
+        },
+        {
+          "month": "1985-03",
+          "trading_date": "1985-03-29",
+          "adjusted_close": 4.3140411376953125
+        },
+        {
+          "month": "1985-04",
+          "trading_date": "1985-04-30",
+          "adjusted_close": 4.3140411376953125
+        },
+        {
+          "month": "1985-05",
+          "trading_date": "1985-05-31",
+          "adjusted_close": 4.464155197143555
+        },
+        {
+          "month": "1985-06",
+          "trading_date": "1985-06-28",
+          "adjusted_close": 4.55620002746582
+        },
+        {
+          "month": "1985-07",
+          "trading_date": "1985-07-31",
+          "adjusted_close": 4.7218780517578125
+        },
+        {
+          "month": "1985-08",
+          "trading_date": "1985-08-30",
+          "adjusted_close": 4.491769313812256
+        },
+        {
+          "month": "1985-09",
+          "trading_date": "1985-09-30",
+          "adjusted_close": 4.27371883392334
+        },
+        {
+          "month": "1985-10",
+          "trading_date": "1985-10-31",
+          "adjusted_close": 4.2830071449279785
+        },
+        {
+          "month": "1985-11",
+          "trading_date": "1985-11-29",
+          "adjusted_close": 4.877610683441162
+        },
+        {
+          "month": "1985-12",
+          "trading_date": "1985-12-31",
+          "adjusted_close": 5.455394744873047
+        },
+        {
+          "month": "1986-01",
+          "trading_date": "1986-01-31",
+          "adjusted_close": 5.314790725708008
+        },
+        {
+          "month": "1986-02",
+          "trading_date": "1986-02-28",
+          "adjusted_close": 5.85519552230835
+        },
+        {
+          "month": "1986-03",
+          "trading_date": "1986-03-31",
+          "adjusted_close": 5.930749416351318
+        },
+        {
+          "month": "1986-04",
+          "trading_date": "1986-04-30",
+          "adjusted_close": 5.902413368225098
+        },
+        {
+          "month": "1986-05",
+          "trading_date": "1986-05-30",
+          "adjusted_close": 6.0251874923706055
+        },
+        {
+          "month": "1986-06",
+          "trading_date": "1986-06-30",
+          "adjusted_close": 6.164456844329834
+        },
+        {
+          "month": "1986-07",
+          "trading_date": "1986-07-31",
+          "adjusted_close": 5.555621147155762
+        },
+        {
+          "month": "1986-08",
+          "trading_date": "1986-08-29",
+          "adjusted_close": 5.983710765838623
+        },
+        {
+          "month": "1986-09",
+          "trading_date": "1986-09-30",
+          "adjusted_close": 5.513660907745361
+        },
+        {
+          "month": "1986-10",
+          "trading_date": "1986-10-31",
+          "adjusted_close": 5.849276542663574
+        },
+        {
+          "month": "1986-11",
+          "trading_date": "1986-11-28",
+          "adjusted_close": 6.367079734802246
+        },
+        {
+          "month": "1986-12",
+          "trading_date": "1986-12-31",
+          "adjusted_close": 6.647367477416992
+        },
+        {
+          "month": "1987-01",
+          "trading_date": "1987-01-30",
+          "adjusted_close": 7.748826503753662
+        },
+        {
+          "month": "1987-02",
+          "trading_date": "1987-02-27",
+          "adjusted_close": 7.9903717041015625
+        },
+        {
+          "month": "1987-03",
+          "trading_date": "1987-03-31",
+          "adjusted_close": 8.15601634979248
+        },
+        {
+          "month": "1987-04",
+          "trading_date": "1987-04-30",
+          "adjusted_close": 8.049080848693848
+        },
+        {
+          "month": "1987-05",
+          "trading_date": "1987-05-29",
+          "adjusted_close": 8.087973594665527
+        },
+        {
+          "month": "1987-06",
+          "trading_date": "1987-06-30",
+          "adjusted_close": 8.510360717773438
+        },
+        {
+          "month": "1987-07",
+          "trading_date": "1987-07-31",
+          "adjusted_close": 9.273358345031738
+        },
+        {
+          "month": "1987-08",
+          "trading_date": "1987-08-31",
+          "adjusted_close": 9.782025337219238
+        },
+        {
+          "month": "1987-09",
+          "trading_date": "1987-09-30",
+          "adjusted_close": 9.676603317260742
+        },
+        {
+          "month": "1987-10",
+          "trading_date": "1987-10-30",
+          "adjusted_close": 7.454131126403809
+        },
+        {
+          "month": "1987-11",
+          "trading_date": "1987-11-30",
+          "adjusted_close": 6.667418956756592
+        },
+        {
+          "month": "1987-12",
+          "trading_date": "1987-12-31",
+          "adjusted_close": 7.000589370727539
+        },
+        {
+          "month": "1988-01",
+          "trading_date": "1988-01-29",
+          "adjusted_close": 7.159245491027832
+        },
+        {
+          "month": "1988-02",
+          "trading_date": "1988-02-29",
+          "adjusted_close": 7.2187371253967285
+        },
+        {
+          "month": "1988-03",
+          "trading_date": "1988-03-31",
+          "adjusted_close": 6.455852031707764
+        },
+        {
+          "month": "1988-04",
+          "trading_date": "1988-04-29",
+          "adjusted_close": 6.455852031707764
+        },
+        {
+          "month": "1988-05",
+          "trading_date": "1988-05-31",
+          "adjusted_close": 6.715686321258545
+        },
+        {
+          "month": "1988-06",
+          "trading_date": "1988-06-30",
+          "adjusted_close": 7.073403835296631
+        },
+        {
+          "month": "1988-07",
+          "trading_date": "1988-07-29",
+          "adjusted_close": 6.892032623291016
+        },
+        {
+          "month": "1988-08",
+          "trading_date": "1988-08-31",
+          "adjusted_close": 6.509143352508545
+        },
+        {
+          "month": "1988-09",
+          "trading_date": "1988-09-30",
+          "adjusted_close": 7.050011157989502
+        },
+        {
+          "month": "1988-10",
+          "trading_date": "1988-10-31",
+          "adjusted_close": 7.090643882751465
+        },
+        {
+          "month": "1988-11",
+          "trading_date": "1988-11-30",
+          "adjusted_close": 7.314128398895264
+        },
+        {
+          "month": "1988-12",
+          "trading_date": "1988-12-30",
+          "adjusted_close": 7.331161975860596
+        },
+        {
+          "month": "1989-01",
+          "trading_date": "1989-01-31",
+          "adjusted_close": 7.925023555755615
+        },
+        {
+          "month": "1989-02",
+          "trading_date": "1989-02-28",
+          "adjusted_close": 7.49498176574707
+        },
+        {
+          "month": "1989-03",
+          "trading_date": "1989-03-31",
+          "adjusted_close": 7.3561248779296875
+        },
+        {
+          "month": "1989-04",
+          "trading_date": "1989-04-28",
+          "adjusted_close": 8.07934284210205
+        },
+        {
+          "month": "1989-05",
+          "trading_date": "1989-05-31",
+          "adjusted_close": 9.029853820800781
+        },
+        {
+          "month": "1989-06",
+          "trading_date": "1989-06-30",
+          "adjusted_close": 8.597878456115723
+        },
+        {
+          "month": "1989-07",
+          "trading_date": "1989-07-31",
+          "adjusted_close": 9.742876052856445
+        },
+        {
+          "month": "1989-08",
+          "trading_date": "1989-08-31",
+          "adjusted_close": 9.59714412689209
+        },
+        {
+          "month": "1989-09",
+          "trading_date": "1989-09-29",
+          "adjusted_close": 9.478731155395508
+        },
+        {
+          "month": "1989-10",
+          "trading_date": "1989-10-31",
+          "adjusted_close": 9.28999137878418
+        },
+        {
+          "month": "1989-11",
+          "trading_date": "1989-11-30",
+          "adjusted_close": 10.401434898376465
+        }
+      ],
+      "future_dividends": [
+        {
+          "ex_date": "1985-02-28",
+          "vendor_adjusted_amount": 0.109827
+        },
+        {
+          "ex_date": "1985-05-31",
+          "vendor_adjusted_amount": 0.109827
+        },
+        {
+          "ex_date": "1985-09-24",
+          "vendor_adjusted_amount": 0.109827
+        },
+        {
+          "ex_date": "1985-12-02",
+          "vendor_adjusted_amount": 0.115817
+        },
+        {
+          "ex_date": "1986-02-28",
+          "vendor_adjusted_amount": 0.115817
+        },
+        {
+          "ex_date": "1986-06-02",
+          "vendor_adjusted_amount": 0.115817
+        },
+        {
+          "ex_date": "1986-09-23",
+          "vendor_adjusted_amount": 0.115817
+        },
+        {
+          "ex_date": "1986-12-02",
+          "vendor_adjusted_amount": 0.125801
+        },
+        {
+          "ex_date": "1987-03-02",
+          "vendor_adjusted_amount": 0.125801
+        },
+        {
+          "ex_date": "1987-06-08",
+          "vendor_adjusted_amount": 0.131792
+        },
+        {
+          "ex_date": "1987-09-23",
+          "vendor_adjusted_amount": 0.131792
+        },
+        {
+          "ex_date": "1987-12-01",
+          "vendor_adjusted_amount": 0.139779
+        },
+        {
+          "ex_date": "1988-03-02",
+          "vendor_adjusted_amount": 0.139779
+        },
+        {
+          "ex_date": "1988-06-07",
+          "vendor_adjusted_amount": 0.139779
+        },
+        {
+          "ex_date": "1988-09-21",
+          "vendor_adjusted_amount": 0.139779
+        },
+        {
+          "ex_date": "1988-12-02",
+          "vendor_adjusted_amount": 0.139779
+        },
+        {
+          "ex_date": "1989-03-01",
+          "vendor_adjusted_amount": 0.163742
+        },
+        {
+          "ex_date": "1989-06-06",
+          "vendor_adjusted_amount": 0.163742
+        },
+        {
+          "ex_date": "1989-09-21",
+          "vendor_adjusted_amount": 0.163742
+        }
+      ],
+      "future_splits": [
+        {
+          "trading_date": "1987-05-26",
+          "numerator": 2.0,
+          "denominator": 1.0,
+          "ratio": "2:1"
+        }
+      ],
+      "maximum_rebased_overlap_relative_difference": 2.446027179692223e-6,
+      "review": {
+        "source_ids": ["yahoo-ge"],
+        "assessment": "Reviewed vendor-adjusted monthly endpoints and reported dividends/splits. No gaps or terminal corporate-event substitution in this selected window; use the vendor-adjusted dividend/split return proxy without adding payments again.",
+        "limitations": "A public adjusted-price approximation, not transaction-level reinvestment accounting or a contemporary vendor vintage. Later uniform adjustment scaling cancels in ratios."
+      }
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "scenario_id": "2020-01",
+  "sources": [
+    {
+      "id": "spf-outlook",
+      "source_name": "Professional forecaster survey, 2019 Q4",
+      "source_reference": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/data-files/files/median_rgdp_growth.xlsx",
+      "publication_date": "2019-11-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Historical median DRGDP3 forecast (quarter after the survey quarter). Pre-1990 original release timing is uncertain; middle-month end is modeled availability, not an asserted original archive date. Retrospective forecast archive, not actual outcomes.",
+      "observation_date": "2019-11-30"
+    },
+    {
+      "id": "asof-macro-cpiaucsl",
+      "source_name": "Historical CPIAUCSL observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "publication_date": "2020-01-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2019-12-31"
+    },
+    {
+      "id": "asof-macro-unrate",
+      "source_name": "Historical UNRATE observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UNRATE",
+      "publication_date": "2020-01-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2019-12-31"
+    },
+    {
+      "id": "asof-macro-fedfunds",
+      "source_name": "Historical FEDFUNDS observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "publication_date": "2020-01-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2019-12-31"
+    },
+    {
+      "id": "asof-macro-gs10",
+      "source_name": "Historical GS10 observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/GS10",
+      "publication_date": "2020-01-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2019-12-31"
+    },
+    {
+      "id": "asof-macro-umcsent",
+      "source_name": "Historical UMCSENT observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UMCSENT",
+      "publication_date": "2020-01-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2019-12-31"
+    },
+    {
+      "id": "asof-macro-indpro",
+      "source_name": "Historical INDPRO observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/INDPRO",
+      "publication_date": "2020-01-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2019-12-31"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-market observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "publication_date": "2020-01-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying observations, not publication date of modern archives. Transparent Treasury and developed-market proxies; not exact contemporary database vintages.",
+      "observation_date": "2020-01-31"
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/2020-01/starting.json",
+      "publication_date": "2020-01-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying prices. Current retrospective adjusted-close reconstruction; the modern archive publication date is not asserted here.",
+      "observation_date": "2020-01-31"
+    },
+    {
+      "id": "virus-emergency",
+      "source_name": "WHO: Emergency Committee statement",
+      "source_reference": "https://www.who.int/news/item/30-01-2020-statement-on-the-second-meeting-of-the-international-health-regulations-%282005%29-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-%282019-ncov%29",
+      "publication_date": "2020-01-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original emergency declaration. No later pandemic outcomes included."
+    },
+    {
+      "id": "brexit-agreement",
+      "source_name": "Council of the EU: Withdrawal agreement concluded",
+      "source_reference": "https://www.consilium.europa.eu/en/press/press-releases/2020/01/30/brexit-council-adopts-decision-to-conclude-the-withdrawal-agreement/",
+      "publication_date": "2020-01-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original decision and departure timetable."
+    },
+    {
+      "id": "toi700",
+      "source_name": "NASA JPL: Earth-Size Habitable-Zone World",
+      "source_reference": "https://www.jpl.nasa.gov/news/nasa-planet-hunter-finds-earth-size-habitable-zone-world/",
+      "publication_date": "2020-01-06",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original discovery report. Habitable zone does not establish water or life."
+    },
+    {
+      "id": "boeing-results",
+      "source_name": "Boeing: Fourth-Quarter Results",
+      "source_reference": "https://boeing.mediaroom.com/2020-01-29-Boeing-Reports-Fourth-Quarter-Results",
+      "publication_date": "2020-01-29",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original results report describes MAX grounding and losses."
+    },
+    {
+      "id": "tesla-results",
+      "source_name": "Tesla: Q4 and FY 2019 Update",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020002489/tsla-ex991_340.htm",
+      "publication_date": "2020-01-29",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original update reports quarterly profit, full-year loss and production plans. Quarterly profit is not mislabeled annual profit."
+    },
+    {
+      "id": "star-wars",
+      "source_name": "Disney: Rise of Skywalker Crosses $1 Billion",
+      "source_reference": "https://thewaltdisneycompany.com/news/star-wars-the-rise-of-skywalker-crosses-1-billion-worldwide/",
+      "publication_date": "2020-01-15",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original box-office announcement."
+    }
+  ]
+}

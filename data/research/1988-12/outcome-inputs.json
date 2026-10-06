@@ -1,0 +1,62 @@
+{
+  "scenario_id": "1988-12",
+  "events": [
+    {
+      "month": "1989-11",
+      "title": "The Berlin Wall opens",
+      "description": "East Germans begin crossing the border freely. The change becomes a powerful symbol of a changing Europe.",
+      "source_ids": ["wall-opens"]
+    },
+    {
+      "month": "1990-04",
+      "title": "Hubble launches into orbit",
+      "description": "The space telescope leaves Earth aboard Discovery. Its first images later reveal a flaw in the main mirror.",
+      "source_ids": ["hubble-history"]
+    },
+    {
+      "month": "1991-12",
+      "title": "The Soviet Union breaks apart",
+      "description": "Gorbachev resigns as Soviet president. Independent states take the place of the union.",
+      "source_ids": ["soviet-collapse"]
+    },
+    {
+      "month": "1993-04",
+      "title": "Web software becomes free to use",
+      "description": "CERN releases its World Wide Web software into the public domain, helping others build on it.",
+      "source_ids": ["web-release"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "The US share basket almost doubled and led these seven choices. Boeing gained too, but IBM lost about two-fifths of its value. Sony and the international basket rose only modestly. A large aircraft order book and a familiar electronics brand did not remove the uncertainty of owning their shares.\n\nThe years ahead brought major political change. The Berlin Wall opened in November 1989, and the Soviet Union broke apart in December 1991. Hubble launched into orbit in 1990. In 1993, CERN made its World Wide Web software free for others to use and build on.\n\nThose events help explain what the world was like, but they are not a formula for the return of each stock. The investments followed different paths through the same history.\n\nHere, owning a wide mix of US companies worked better than choosing any one of the three featured businesses. That is a result for this period, not a promise for the next one. Compare the losses and gains along the route as well as the final amounts.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ba",
+      "yahoo-ibm",
+      "yahoo-sony",
+      "wall-opens",
+      "hubble-history",
+      "soviet-collapse",
+      "web-release"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "Airlines were ordering new jets, music buyers were changing formats, and major diplomatic talks were beginning.",
+    "what_actually_mattered": "Different businesses and markets delivered different results. Owning many companies helped avoid depending entirely on a struggling company such as IBM.",
+    "what_faded_away": "Predictions that vinyl records were finished did not predict the returns of an electronics company or a whole stock market.",
+    "what_nobody_knew": "The end of the Cold War and the precise company rankings were unknown. Strong demand in one industry was not a guarantee for every related investment.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ba",
+      "yahoo-ibm",
+      "yahoo-sony",
+      "wall-opens",
+      "hubble-history",
+      "soviet-collapse",
+      "web-release"
+    ]
+  }
+}

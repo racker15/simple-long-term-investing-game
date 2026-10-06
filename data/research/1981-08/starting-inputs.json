@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "scenario_id": "1981-08",
+    "date": "1981-08-31",
+    "display_date": "August 31, 1981",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "important",
+      "selection_reason": "High interest rates and a newly contracting US economy."
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Air safety is debated after controllers strike",
+      "category": "US news",
+      "summary": "The FAA and striking controllers disagree about safety. Independent reviews are being arranged as flights continue.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1981-08-4"]
+    },
+    {
+      "headline": "US and Libyan aircraft clash",
+      "category": "World",
+      "summary": "A naval exercise near Libya leads to an air battle. The confrontation raises tensions in the Mediterranean.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1981-08-9"]
+    },
+    {
+      "headline": "Baseball returns with an unusual split season",
+      "category": "Sports",
+      "summary": "After the strike, the leagues divide the season into two races. Players and fans argue over whether the format is fair.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1981-08-23"]
+    },
+    {
+      "headline": "Oil producers fail to agree on one price",
+      "category": "Economy",
+      "summary": "OPEC talks end without a deal. Weaker demand is putting pressure on oil prices.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1981-08-26"]
+    },
+    {
+      "headline": "A stronger dollar brings gains and headaches",
+      "category": "Business",
+      "summary": "The dollar buys more foreign currency. That helps some US buyers but makes American goods costlier abroad.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1981-08-27"]
+    },
+    {
+      "headline": "Movie makeup becomes a star attraction",
+      "category": "Culture",
+      "summary": "Makeup artists create striking effects for new films and press for their own regular Oscar category.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1981-08-39"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (1981-07; approximate)",
+      "value": 10.8,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (1981-07; approximate)",
+      "value": 7.2,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (1981-07; approximate)",
+      "value": 19.0,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (1981-07; approximate)",
+      "value": 14.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (1981-07; approximate)",
+      "value": 74.1,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (1981-07; approximate)",
+      "value": 6.5,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The quarterly survey’s middle forecast expects about 2.1% growth next quarter at an annual pace. Forecasters see improvement, but that is an estimate, not a promise.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:1981-08:ibm",
+      "company_name": "IBM",
+      "ticker": "IBM",
+      "description": "Its new personal computer brings a giant into the home-computer contest.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["ibm-pc", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1981-08:coca-cola",
+      "company_name": "Coca-Cola",
+      "ticker": "KO",
+      "description": "Coke and Pepsi compete fiercely for buyers around the world.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["coke-rivalry", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1981-08:exxon",
+      "company_name": "Exxon",
+      "ticker": "XOM",
+      "description": "The oil giant faces weaker demand and lower industry profits.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["oil-profits", "asof-stock-prices"]
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:1981-08:ibm",
+      "name": "IBM",
+      "description": "Its new personal computer brings a giant into the home-computer contest.",
+      "source_ids": ["ibm-pc", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1981-08:coca-cola",
+      "name": "Coca-Cola",
+      "description": "Coke and Pepsi compete fiercely for buyers around the world.",
+      "source_ids": ["coke-rivalry", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1981-08:exxon",
+      "name": "Exxon",
+      "description": "The oil giant faces weaker demand and lower industry profits.",
+      "source_ids": ["oil-profits", "asof-stock-prices"]
+    }
+  ]
+}

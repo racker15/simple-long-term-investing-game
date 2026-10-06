@@ -1,0 +1,55 @@
+{
+  "scenario_id": "2009-03",
+  "sources": [
+    {
+      "id": "deepwater",
+      "source_name": "NOAA Fisheries: Deepwater Horizon Oil Spill 2010",
+      "source_reference": "https://www.fisheries.noaa.gov/content/deepwater-horizon-oil-spill-2010",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Retrospective incident history.",
+      "observation_date": "2010-04-20"
+    },
+    {
+      "id": "japan-quake",
+      "source_name": "USGS: Japan Lashed by Powerful Earthquake, Devastating Tsunami",
+      "source_reference": "https://www.usgs.gov/centers/pcmsc/news/japan-lashed-powerful-earthquake-devastating-tsunami",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Institutional account of the March11 disaster.",
+      "observation_date": "2011-03-11"
+    },
+    {
+      "id": "curiosity",
+      "source_name": "NASA JPL: Lands Car-Size Rover Beside Martian Mountain",
+      "source_reference": "https://www.jpl.nasa.gov/news/nasa-lands-car-size-rover-beside-martian-mountain/",
+      "publication_date": "2012-08-06",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Landing on August5Pacific/August6UTC; month is unambiguous.",
+      "observation_date": "2012-08-06"
+    },
+    {
+      "id": "aig-warrants",
+      "source_name": "AIG SEC 8-K: warrant dividend declaration",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/5272/000095012311001181/y88937e8vk.htm",
+      "publication_date": "2011-01-07",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Distribution planned for January 19; vendor represents it as an 8.7 cash-equivalent adjustment.",
+      "observation_date": "2011-01-06"
+    },
+    {
+      "id": "aig-split",
+      "source_name": "Eurex: AIG reverse split and ISIN change",
+      "source_reference": "https://www.eurex.com/ex-en/find/circulars/American-International-Group-Inc.-Reverse-Stock-Split-ISIN-Change-181340",
+      "publication_date": "2009-06-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Exchange circular identifies July 1 adjusted trading.",
+      "observation_date": "2009-06-30"
+    }
+  ]
+}

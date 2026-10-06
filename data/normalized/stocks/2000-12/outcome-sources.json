@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "yahoo-pep",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/PEP/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/PEP?period1=944006400&period2=1136073600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "PEP",
+      "raw_path": "data/raw/stocks/2000-12/outcome-PEP.json",
+      "sha256": "7f9d916279a83268e1bdad335c6c12f215a307560045c791ed661b0a5b320de9",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 679203e5c4daf05266b23528280fbd62860d94d9 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-ko",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/KO/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/KO?period1=944006400&period2=1136073600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "KO",
+      "raw_path": "data/raw/stocks/2000-12/outcome-KO.json",
+      "sha256": "9573f42e29730c66e9442bf8049bea72518aea008c86a02f43e0fbb3a9586f33",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 679203e5c4daf05266b23528280fbd62860d94d9 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-msft",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/MSFT/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?period1=944006400&period2=1136073600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "MSFT",
+      "raw_path": "data/raw/stocks/2000-12/outcome-MSFT.json",
+      "sha256": "d50b5a0398a35f153e45025fb9ae34ea48a148dbf36b4e2ab4fb2eff38bc940b",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 679203e5c4daf05266b23528280fbd62860d94d9 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    }
+  ]
+}

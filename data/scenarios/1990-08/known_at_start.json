@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "scenario_id": "1990-08",
+    "date": "1990-08-31",
+    "display_date": "August 31, 1990",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "important",
+      "selection_reason": "Iraq's invasion of Kuwait and a sharp change in oil-market concerns."
+    }
+  },
+  "headlines": [
+    {
+      "headline": "East Germany prepares for reunification",
+      "category": "World",
+      "summary": "Cabinet departures shake the government as reunification approaches. The economy faces a difficult transition.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1990-08-19"]
+    },
+    {
+      "headline": "The Kuwait crisis raises fears of war",
+      "category": "World",
+      "summary": "Iraq occupies Kuwait. Other countries send forces and impose sanctions, while diplomats seek a way out.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1990-08-24"]
+    },
+    {
+      "headline": "Stereo equipment gets a new look",
+      "category": "Technology",
+      "summary": "Designers try simpler controls and fresh shapes instead of rows of buttons. Many new designs are still expensive.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1990-08-32"]
+    },
+    {
+      "headline": "Crayola changes its color box",
+      "category": "Everyday life",
+      "summary": "Eight familiar colors leave the 64-crayon box. Brighter replacements delight some children and disappoint others.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1990-08-38"]
+    },
+    {
+      "headline": "Airline safety rules face scrutiny",
+      "category": "US news",
+      "summary": "A trial involving pilots who drank before flying renews debate about alcohol rules and passenger safety.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1990-08-40"]
+    },
+    {
+      "headline": "The Neville Brothers reach new listeners",
+      "category": "Music",
+      "summary": "The New Orleans group gains attention through a new album, a film soundtrack and a concert tour.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1990-08-45"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (1990-07; approximate)",
+      "value": 4.8,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (1990-07; approximate)",
+      "value": 5.5,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (1990-07; approximate)",
+      "value": 8.2,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (1990-07; approximate)",
+      "value": 8.5,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (1990-07; approximate)",
+      "value": 88.2,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (1990-07; approximate)",
+      "value": 2.5,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 0.8% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:1990-08:ibm",
+      "company_name": "IBM",
+      "ticker": "IBM",
+      "description": "The computer maker is introducing cheaper business computers for smaller companies.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["ibm-smaller", "asof-stock-prices"],
+      "three_month": -0.14143373023086636,
+      "one_year": -0.08840018639098546
+    },
+    {
+      "id": "hot:1990-08:exxon",
+      "company_name": "Exxon",
+      "ticker": "XOM",
+      "description": "The oil company faces cleanup costs from the Alaska spill and uncertainty in world oil supplies.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["exxon-cleanup", "news-1990-08-24", "asof-stock-prices"],
+      "three_month": 0.05331668540088752,
+      "one_year": 0.20119049596573868
+    },
+    {
+      "id": "hot:1990-08:sony",
+      "company_name": "Sony",
+      "ticker": "SONY",
+      "description": "The electronics maker has expanded into movies by buying Columbia Pictures. This is its US-traded share.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["sony-columbia", "asof-stock-prices"],
+      "three_month": -0.08590319743127484,
+      "one_year": -0.1344119870591679
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:1990-08:ibm",
+      "name": "IBM",
+      "description": "The computer maker is introducing cheaper business computers for smaller companies.",
+      "source_ids": ["ibm-smaller", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1990-08:exxon",
+      "name": "Exxon",
+      "description": "The oil company faces cleanup costs from the Alaska spill and uncertainty in world oil supplies.",
+      "source_ids": ["exxon-cleanup", "news-1990-08-24", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1990-08:sony",
+      "name": "Sony",
+      "description": "The electronics maker has expanded into movies by buying Columbia Pictures. This is its US-traded share.",
+      "source_ids": ["sony-columbia", "asof-stock-prices"]
+    }
+  ],
+  "recent_returns": [
+    {
+      "asset_id": "cash",
+      "three_month": 0.01982958274399982,
+      "one_year": 0.08031189417562601,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "bonds",
+      "three_month": 0.03359769395056533,
+      "one_year": 0.07058612474070203,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "us_total",
+      "three_month": -0.10975990895200005,
+      "one_year": -0.08275960843989505,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "international_ex_us",
+      "three_month": -0.0872011812329998,
+      "one_year": -0.10379299935186259,
+      "source_ids": ["asof-broad-proxies"]
+    }
+  ]
+}

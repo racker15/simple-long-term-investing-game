@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "scenario_id": "1997-07",
+    "date": "1997-07-31",
+    "display_date": "July 31, 1997",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "important",
+      "selection_reason": "Currency turmoil begins in Thailand and spreads regional concern."
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Mir’s crew works through serious problems",
+      "category": "Science",
+      "summary": "A collision and power failures interrupt experiments aboard the space station. Astronauts and cosmonauts work on repairs.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1997-07-7"]
+    },
+    {
+      "headline": "Researchers tackle Lyme disease",
+      "category": "Health",
+      "summary": "Scientists study tick control and possible vaccines. Patients and doctors still have questions about diagnosis and lasting symptoms.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1997-07-9"]
+    },
+    {
+      "headline": "Index funds attract attention and debate",
+      "category": "Economy",
+      "summary": "Low costs and strong recent results draw money to index funds. Critics and supporters debate what their growth means.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1997-07-20"]
+    },
+    {
+      "headline": "AT&T searches again for a future leader",
+      "category": "Business",
+      "summary": "The company’s expected next chief executive leaves after the board changes its plans.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1997-07-21"]
+    },
+    {
+      "headline": "Woolworth plans to close its remaining variety stores",
+      "category": "Business",
+      "summary": "The retailer will focus on shoes and accessories. Familiar shopping streets face another change.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1997-07-23"]
+    },
+    {
+      "headline": "The Lion King heads toward the stage",
+      "category": "Culture",
+      "summary": "Designers combine actors, puppets and costumes to bring the animated story to a theater audience.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1997-07-25"]
+    },
+    {
+      "headline": "Thailand changes how its currency is priced",
+      "category": "Economy",
+      "summary": "The baht moves to a managed float, letting market forces play a larger role. The central bank also raises its lending rate.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["thai-baht"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (1997-06; approximate)",
+      "value": 2.2,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (1997-06; approximate)",
+      "value": 5.0,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (1997-06; approximate)",
+      "value": 5.6,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (1997-06; approximate)",
+      "value": 6.5,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (1997-06; approximate)",
+      "value": 104.5,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (1997-06; approximate)",
+      "value": 6.0,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 2.5% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:1997-07:disney",
+      "company_name": "Walt Disney",
+      "ticker": "DIS",
+      "description": "A stage version of The Lion King is being developed in Minneapolis.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-1997-07-25", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1997-07:nike",
+      "company_name": "Nike",
+      "ticker": "NKE",
+      "description": "Its athletic shoes are part of the shift toward specialized sports retailing.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-1997-07-23", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1997-07:intel",
+      "company_name": "Intel",
+      "ticker": "INTC",
+      "description": "The processor maker is promoting new multimedia features for PCs.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["intel-mmx", "asof-stock-prices"]
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:1997-07:disney",
+      "name": "Walt Disney",
+      "description": "A stage version of The Lion King is being developed in Minneapolis.",
+      "source_ids": ["news-1997-07-25", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1997-07:nike",
+      "name": "Nike",
+      "description": "Its athletic shoes are part of the shift toward specialized sports retailing.",
+      "source_ids": ["news-1997-07-23", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1997-07:intel",
+      "name": "Intel",
+      "description": "The processor maker is promoting new multimedia features for PCs.",
+      "source_ids": ["intel-mmx", "asof-stock-prices"]
+    }
+  ]
+}

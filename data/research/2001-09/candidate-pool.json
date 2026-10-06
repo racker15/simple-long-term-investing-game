@@ -1,0 +1,180 @@
+{
+  "scenario_id": "2001-09",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000870,00.html",
+      "title": "Mourning In America"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000868,00.html",
+      "title": "Bush in the Crucible"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000869,00.html",
+      "title": "The New Breed of Terrorist"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000874,00.html",
+      "title": "A President Finds His Voice"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000892,00.html",
+      "title": "One God and One Nation: THE TRUE VALUES OF ISLAM"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000896,00.html",
+      "title": "Psychology: What Makes Them Tick?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000871,00.html",
+      "title": "The Most Wanted Man In The World"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000873,00.html",
+      "title": "Osama's World"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000876,00.html",
+      "title": "Airline Security: How Safe Can We Get?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000891,00.html",
+      "title": "Airline Security: Is This What We Really Want?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000895,00.html",
+      "title": "A Land of Endless Tears"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000880,00.html",
+      "title": "Attack On The Spirit"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000878,00.html",
+      "title": "Terrorizing Ourselves"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000872,00.html",
+      "title": "'We're At War'"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000875,00.html",
+      "title": "How You Can Help"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000879,00.html",
+      "title": "Digging Out"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000881,00.html",
+      "title": "60-Second Symposium: Remembering 9/11"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000882,00.html",
+      "title": "Facing The End"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000883,00.html",
+      "title": "The Inner Strengths Of A Vulnerable City"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000884,00.html",
+      "title": "Life During Wartime"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000886,00.html",
+      "title": "For The Record Sep. 24, 2001"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000887,00.html",
+      "title": "Hospitals: The Burn Unit"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000889,00.html",
+      "title": "The Greater The Evil, The More It Disarms"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000890,00.html",
+      "title": "How to Fight the New War"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000893,00.html",
+      "title": "The Age Of Irony Comes To An End"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000894,00.html",
+      "title": "Why the Spooks Screwed Up"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000897,00.html",
+      "title": "Should They Be Rebuilt?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000877,00.html",
+      "title": "Up From The Ashes"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000888,00.html",
+      "title": "All His Office Mates Gone"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,1000885,00.html",
+      "title": "Letters: Sep. 24, 2001"
+    }
+  ],
+  "selected_news": [0, 8, 14, 18],
+  "stock_candidates": [
+    {
+      "ticker": "BA",
+      "selected": true,
+      "rationale": "The aircraft maker plans large job cuts as airlines reduce capacity after the attacks."
+    },
+    {
+      "ticker": "MSFT",
+      "selected": true,
+      "rationale": "The software company is preparing to launch Windows XP in October."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": true,
+      "rationale": "The computer maker has reported a quarterly profit and is updating its products."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "DIS",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

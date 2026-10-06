@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "yahoo-dis",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/DIS/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/DIS?period1=660009600&period2=852076800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "DIS",
+      "raw_path": "data/raw/stocks/1991-12/outcome-DIS.json",
+      "sha256": "d1dc440509459304d2f6c75a17f09c12d72e1f39bc2d70c61d3d6d7ab22dc90a",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 39064cd980ea5ce02d02b14aedd945cbc512c901 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-ibm",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/IBM/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/IBM?period1=660009600&period2=852076800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "IBM",
+      "raw_path": "data/raw/stocks/1991-12/outcome-IBM.json",
+      "sha256": "4095d4fbd8f72f7a00992d467ba33dbaeaa27b6e98e0058b546b21dcb8605cb4",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 39064cd980ea5ce02d02b14aedd945cbc512c901 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-wmt",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/WMT/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/WMT?period1=660009600&period2=852076800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "WMT",
+      "raw_path": "data/raw/stocks/1991-12/outcome-WMT.json",
+      "sha256": "8dea67b12ddb7fed82c39994b72f5176ece9cbb28024aa367037e64e1efe358e",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 39064cd980ea5ce02d02b14aedd945cbc512c901 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    }
+  ]
+}

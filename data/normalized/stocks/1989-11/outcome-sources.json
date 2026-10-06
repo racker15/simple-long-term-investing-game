@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "yahoo-sony",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/SONY/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/SONY?period1=594345600&period2=786240000&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "SONY",
+      "raw_path": "data/raw/stocks/1989-11/outcome-SONY.json",
+      "sha256": "1198ee8fa233738278fac5e2279d9913e6e3f375dc1ca36e62065c44f7a16ea8",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at ee0c2cbecd31bef59ac81275858cd59956b5b52a before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-ko",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/KO/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/KO?period1=594345600&period2=786240000&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "KO",
+      "raw_path": "data/raw/stocks/1989-11/outcome-KO.json",
+      "sha256": "43163f5b9871564d216ce8c8de49003ae2cb4991d9c3e4d24da15882aec48990",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at ee0c2cbecd31bef59ac81275858cd59956b5b52a before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-xom",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/XOM/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/XOM?period1=594345600&period2=786240000&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "XOM",
+      "raw_path": "data/raw/stocks/1989-11/outcome-XOM.json",
+      "sha256": "b0437d8d13e4c558756b45fa358adb0d1f844f2f8af7c65bab39a06d29a41d33",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at ee0c2cbecd31bef59ac81275858cd59956b5b52a before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "scenario_id": "1980-03",
+  "events": [
+    {
+      "month": "1981-04",
+      "title": "The first space shuttle launches",
+      "description": "Columbia carries two astronauts into orbit on the first shuttle mission. The flight opens a new chapter in US space travel.",
+      "source_ids": ["nasa-sts1"]
+    },
+    {
+      "month": "1981-08",
+      "title": "IBM introduces its personal computer",
+      "description": "IBM launches a computer aimed at businesses and homes. It uses components and software from outside suppliers.",
+      "source_ids": ["ibm-pc-history"]
+    },
+    {
+      "month": "1982-11",
+      "title": "The recession reaches a turning point",
+      "description": "Economic activity reaches the low point later identified by the NBER. Its official announcement follows in July 1983.",
+      "source_ids": ["nber-1982-trough"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "The next five years brought another recession, followed by recovery. A recession is a period when the economy shrinks and jobs become harder to find. The low point came in November 1982, but the official announcement arrived months later. People making decisions then did not have a sign telling them that the worst was over.\n\nTechnology kept moving. The first space shuttle flew in April 1981. That August, IBM introduced its personal computer. These were important events, but they did not make every technology share a winner.\n\nAll seven investments ended higher. In this example, $10,000 in IBM became about $28,600. The same amount in Texas Instruments became about $14,800. Two computer-related businesses gave their owners very different results. The US share basket ended between them.\n\nCash also earned interest, because this choice holds short-term government bills rather than banknotes. Remember that these are dollar amounts: rising prices meant each dollar bought less. A bigger balance and greater buying power are different things.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ibm",
+      "yahoo-txn",
+      "yahoo-xom",
+      "nasa-sts1",
+      "ibm-pc-history",
+      "nber-1982-trough",
+      "fed-1981-recession"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "People worried about rising prices, expensive borrowing and another recession. Computers and medical research offered exciting possibilities.",
+    "what_actually_mattered": "The seven return paths mattered more than one dramatic headline. Interest and dividends added to returns, and each company faced its own risks.",
+    "what_faded_away": "Campaign tactics and excitement about breakfast cereals did not tell you which investment would lead five years later.",
+    "what_nobody_knew": "The exact turns in the economy and the ranking of these choices were unknown. High starting interest rates did not make the next five years easy to predict.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ibm",
+      "yahoo-txn",
+      "yahoo-xom",
+      "nasa-sts1",
+      "ibm-pc-history",
+      "nber-1982-trough",
+      "fed-1981-recession"
+    ]
+  }
+}

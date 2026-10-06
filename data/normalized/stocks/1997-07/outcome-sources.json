@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "yahoo-dis",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/DIS/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/DIS?period1=836179200&period2=1028160000&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "DIS",
+      "raw_path": "data/raw/stocks/1997-07/outcome-DIS.json",
+      "sha256": "63a69a79c51bfa56b56f043fd19b967331b0a279f6df1ad915175d88b62a09c6",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 512620e29d09e553a25e2d78441a944a4157e5cc before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-nke",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/NKE/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/NKE?period1=836179200&period2=1028160000&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "NKE",
+      "raw_path": "data/raw/stocks/1997-07/outcome-NKE.json",
+      "sha256": "b113962134bd9b2412b9a4ae576fe525707eb66d0b626179fa9cd5e473f21f3c",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 512620e29d09e553a25e2d78441a944a4157e5cc before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-intc",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/INTC/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?period1=836179200&period2=1028160000&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "INTC",
+      "raw_path": "data/raw/stocks/1997-07/outcome-INTC.json",
+      "sha256": "f395f8c6a287f21e1453e147e3b5ec30b76fb5e75eaf3d6e5a195e5c32348998",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 512620e29d09e553a25e2d78441a944a4157e5cc before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    }
+  ]
+}

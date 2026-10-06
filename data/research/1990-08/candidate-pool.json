@@ -1,0 +1,264 @@
+{
+  "scenario_id": "1990-08",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970964,00.html",
+      "title": "1992, Anyone?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970967,00.html",
+      "title": "Courts: Finders Keepers"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970968,00.html",
+      "title": "Los Angeles: A Voice In The Night"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970969,00.html",
+      "title": "Massachusetts: Winning One For Ol' Thoreau"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970970,00.html",
+      "title": "Sociology: The Game of The Name"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970980,00.html",
+      "title": "Fallen Idol of the Week"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970981,00.html",
+      "title": "Fire At El Capitan"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970984,00.html",
+      "title": "Gas Guzzler of the Week"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970986,00.html",
+      "title": "Central Park Jogger Case: Guilty, Guilty, Guilty"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970990,00.html",
+      "title": "If You Can't Trust Your Publisher . . ."
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970991,00.html",
+      "title": "Meaningful Relationship?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970993,00.html",
+      "title": "Saddam Hussein's Rooting Section"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970998,00.html",
+      "title": "Tallyho! In Texas, tracking convicts is the ultimate hunt"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,971003,00.html",
+      "title": "The Have You Seen Me Circular"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,971006,00.html",
+      "title": "The Put Up Your Dukes Trophy"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,971010,00.html",
+      "title": "Who's Boycotting Whom?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970992,00.html",
+      "title": "Pakistan The Hunt Is On"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970997,00.html",
+      "title": "South Africa Roar of the Lions"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,971011,00.html",
+      "title": "Citizenship: Better Late Than Never"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,971012,00.html",
+      "title": "East Germany: Now You See It, Now You. . ."
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,971013,00.html",
+      "title": "Europe: The Long, Dry Summer"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,971014,00.html",
+      "title": "Soviet Union: Too Much To Handle"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970965,00.html",
+      "title": "The Gulf: He Gives Us a Ray of Hope"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970972,00.html",
+      "title": "The Gulf: And On This Map We See . . ."
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970978,00.html",
+      "title": "The Gulf: Must This Mean War?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970989,00.html",
+      "title": "The Gulf: Hanging Together  -  or Separately"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970994,00.html",
+      "title": "The Gulf: Saddam's Strongest Card"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,971001,00.html",
+      "title": "The Gulf: The Beleaguered Messenger"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,971005,00.html",
+      "title": "The Gulf: The Presidency: Networking Pays Off"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970996,00.html",
+      "title": "Health: Say It Ain't So, Oleo!"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970971,00.html",
+      "title": "And Baby Makes Four"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,971007,00.html",
+      "title": "Press: The Straight and Fair Arrow Hedley Donovan: 1914-1990"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,971004,00.html",
+      "title": "Design: The New Shape of Sound"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,971008,00.html",
+      "title": "Time Magazine Contents Page: Aug. 27, 1990"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,971009,00.html",
+      "title": "Time Magazine Masthead: Aug. 27, 1990"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970973,00.html",
+      "title": "Advertising: Obsessed At Heart"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970974,00.html",
+      "title": "CHEMICALS: Preparing for The Worst"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970975,00.html",
+      "title": "ECONOMISTS: No Bashing On Premises"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970976,00.html",
+      "title": "SCHOOL SUPPLIES: Goodbye to Lemon Yellow"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970977,00.html",
+      "title": "THE DOLLAR: No Longer A Safe Haven"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970982,00.html",
+      "title": "Flying Too High in the Sky?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970987,00.html",
+      "title": "Gushing With Enthusiasm"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970995,00.html",
+      "title": "Saving for A Rainier Day"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970979,00.html",
+      "title": "Theater: Does Color Blindness Count?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970985,00.html",
+      "title": "Cinema: Give The Rating System an X"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970988,00.html",
+      "title": "Music: Hail to The New Orleans Chiefs!"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,971000,00.html",
+      "title": "Books: The Art of the Boast"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,971002,00.html",
+      "title": "Video: The Fox Trots Faster"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970999,00.html",
+      "title": "Interview with Frank Reed: Terror And Tedium"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970983,00.html",
+      "title": "From the Publisher: Aug 27 1990"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,970966,00.html",
+      "title": "Essay: A Conservative Tax Proposal"
+    }
+  ],
+  "selected_news": [19, 24, 32, 38, 40, 45],
+  "stock_candidates": [
+    {
+      "ticker": "IBM",
+      "selected": true,
+      "rationale": "The computer maker is introducing cheaper business computers for smaller companies."
+    },
+    {
+      "ticker": "XOM",
+      "selected": true,
+      "rationale": "The oil company faces cleanup costs from the Alaska spill and uncertainty in world oil supplies."
+    },
+    {
+      "ticker": "SONY",
+      "selected": true,
+      "rationale": "The electronics maker has expanded into movies by buying Columbia Pictures. This is its US-traded share."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "DIS",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "MCD",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "yahoo-pg",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/PG/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/PG?period1=436492800&period2=628473600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "PG",
+      "raw_path": "data/raw/stocks/1984-11/outcome-PG.json",
+      "sha256": "9c7667b6b4329d3da0542f67dad24b4ee05545ea17e545aae5466b9797964fe3",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 469871da62f91731aede5576a186143a325c8773 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-cl",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/CL/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/CL?period1=436492800&period2=628473600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "CL",
+      "raw_path": "data/raw/stocks/1984-11/outcome-CL.json",
+      "sha256": "a16b7ec65cee67de701e74260367210abbbc28fc1ca3ee6ee9595e9bd6dc39bb",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 469871da62f91731aede5576a186143a325c8773 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    },
+    {
+      "id": "yahoo-ge",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/GE/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/GE?period1=436492800&period2=628473600&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "GE",
+      "raw_path": "data/raw/stocks/1984-11/outcome-GE.json",
+      "sha256": "6851858bae1a81c48aab218ba45964f2db0aae21707c3b6eba5c96405cb3dea5",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 469871da62f91731aede5576a186143a325c8773 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database."
+    }
+  ]
+}

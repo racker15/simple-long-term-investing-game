@@ -3,8 +3,6 @@ import { readFileSync } from 'node:fs';
 import { percent } from '../../app/src/lib/format';
 import { calculatePortfolio } from '../../app/src/lib/portfolio';
 
-const ids = ['1982-08', '1987-01', '1999-09', '2004-05', '2008-09', '2016-02'];
-
 async function expectReturnDisplay(display: Locator, value: number) {
   await expect(display).toHaveText(percent(value));
   await expect(display).toHaveClass(
@@ -12,6 +10,12 @@ async function expectReturnDisplay(display: Locator, value: number) {
   );
 }
 
+const manifest = JSON.parse(
+  readFileSync('data/scenarios/manifest.json', 'utf8'),
+);
+const ids: string[] = manifest.scenarios.map(
+  (entry: { scenario_id: string }) => entry.scenario_id,
+);
 for (const id of ids) {
   test(`${id} commits before requesting outcomes and reveals sixty months`, async ({
     page,
@@ -100,6 +104,12 @@ for (const id of ids) {
     await expect(
       page.getByRole('heading', { name: 'Five years later', exact: true }),
     ).toBeVisible();
+    const story = page
+      .getByRole('heading', { name: 'What happened next?', exact: true })
+      .locator('..');
+    await expect(story.locator(':scope > p')).toHaveText(
+      future.what_happened_next.text.split(/\n\s*\n/),
+    );
     await expect(
       page.locator('[data-testid^="hot-stock-outcome-"]'),
     ).toHaveCount(3);
