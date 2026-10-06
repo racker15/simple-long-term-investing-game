@@ -5,7 +5,10 @@ const View =
   import.meta.env.DEV &&
   new URLSearchParams(window.location.search).has('scenario')
     ? lazy(() => import('./components/HistoricalPreview'))
-    : lazy(() => import('./App'));
+    : import.meta.env.DEV &&
+        new URLSearchParams(window.location.search).has('demo')
+      ? lazy(() => import('./DevelopmentApp'))
+      : lazy(() => import('./App'));
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Suspense fallback={<p role="status">Loading scenario…</p>}>

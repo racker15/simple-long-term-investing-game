@@ -33,7 +33,7 @@ test('five-scenario vertical slice, allocation controls, locked refresh, final s
   page.on('console', (message) => {
     if (message.type() === 'error') errors.push(message.text());
   });
-  await page.goto('/');
+  await page.goto('/?demo=1');
   await expect(page.getByLabel('How many scenarios?')).toHaveValue('10');
   await noOverflow(page);
   await page.screenshot({ path: testInfo.outputPath('start.png') });
@@ -220,7 +220,7 @@ test('five-scenario vertical slice, allocation controls, locked refresh, final s
 test('checkpoint continues and supports ending after a whole block', async ({
   page,
 }) => {
-  await page.goto('/');
+  await page.goto('/?demo=1');
   await page.getByLabel('How many scenarios?').selectOption('15');
   await page.getByRole('button', { name: 'Begin session' }).click();
   for (let i = 0; i < 5; i++) {
@@ -259,7 +259,7 @@ test('checkpoint continues and supports ending after a whole block', async ({
 });
 test('animated reveal is bounded and can be skipped', async ({ page }) => {
   await page.emulateMedia({ reducedMotion: 'no-preference' });
-  await page.goto('/');
+  await page.goto('/?demo=1');
   await page.getByRole('button', { name: 'Begin session' }).click();
   await page.getByRole('radio', { name: 'Cash', exact: true }).check();
   await page.getByRole('button', { name: 'Review decision' }).click();

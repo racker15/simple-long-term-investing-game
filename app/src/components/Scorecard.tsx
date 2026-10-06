@@ -145,9 +145,8 @@ export function FinalScorecard({
       <section className="panel">
         <h2>Important vs. random history</h2>
         <p>
-          The repeated developer fixture belongs to the important cohort only as
-          test metadata. Production cohort labels appear here after a session
-          ends.
+          Some dates were chosen for major historical events; others were drawn
+          at random. Small groups can have very different results by chance.
         </p>
         {(['important', 'random'] as const).map((mode) => (
           <section key={mode}>
