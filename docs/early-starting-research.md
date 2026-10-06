@@ -1,5 +1,7 @@
 # Early historical starting evidence
 
+This October 5 research-stage record preserves the evidence used for the locked starts. Candidate counts, retrieval detail and unresolved alternatives describe that work, rather than additional release requirements. The completed library status and educational quality bar are in [scenario qualification](scenario-qualification.md); January 1987 uses the explicitly labeled prime-rate substitute.
+
 This note contains only evidence available by August 31, 1982 and January 31, 1987. Selected stocks were proposed from contemporary attention before any later price series or outcome was examined. Proposed 1982 offerings are Apple, IBM, and Coca-Cola; proposed 1987 offerings are IBM, General Electric, and Apple. Price feasibility and historical security identities are separate checks, not outcome-based editorial selection.
 
 The JSON records provide claim-level source IDs and direct primary-source URLs. Federal releases preserve their original release/embargo dates. TIME dates are original issue dates shown by its publisher archive; modern archive or digitization dates are unknown and are not treated as first-public dates. COMPUTE! copies are contemporary magazine transcriptions with an original monthly issue label; the exact original publication day is unknown, and the conservative month-end date is explicitly an approximation.

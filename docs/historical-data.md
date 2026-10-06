@@ -4,6 +4,16 @@ Chronology references use the original local authoring IDs; the [publication aud
 
 The committed inputs are prepared static data. React performs no external market-data requests. The portfolio engine and production queue requirements are unchanged; provenance now represents unknown publication dates explicitly for outcome-only archives.
 
+## Scope note: current pipeline vs. required quality bar
+
+This document describes the detailed implementation used for the six-scenario library, including the September 1999 pilot. Some of that implementation is intentionally more reproducible and precise than future scenarios need to be.
+
+The project is an educational game for roughly ages 8–12. The minimum standard for future scenario work is **reasonable historical accuracy and player-facing coherence**, not forensic financial reconstruction. Existing checksum pinning, byte-for-byte rebuilds, frozen locks, or source-specific precision checks may be retained where already useful, but should **not** be generalized into mandatory infrastructure unless they prevent a concrete data error or hindsight leak.
+
+In particular, future work does not need parts-per-million agreement between vendor snapshots, transaction-level dividend reconstruction, repeated live-URL verification, or exhaustive source-body archival checks when a simpler transparent approximation produces the same educational result.
+
+News-source variety remains desirable, but historical publisher links are provenance only. Player-facing headlines and summaries are stored locally, and the live application must not depend on publisher pages remaining reachable.
+
 ## Source coverage and interpretation
 
 The canonical broad dataset is `data/normalized/broad-assets/monthly-returns.json`: four USD monthly decimal total-return series with 612 observations each, January 1975–December 2025. It supports complete trailing 12-month and following 60-month windows for starts from December 1975 through December 2020, including every month in the requested 1980–2020 era. It does not provide a complete five-year outcome for a start in 2025.

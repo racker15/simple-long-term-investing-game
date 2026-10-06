@@ -21,6 +21,6 @@ September 2008 is selected for financial-system stress visible at the cutoff. Th
 
 September 1999 retains the existing selection rationale and starting hash lock. No integrity repair was made.
 
-## Status
+## Status at selection time
 
-These are final selected research dates, not six qualified scenarios. The registry continues to contain only the complete September 1999 pilot until each new starting bundle, stock history, corporate-action record, outcome narrative, and player review passes qualification. Pending research must not be passed off as historical data.
+When this selection record was authored, only September 1999 was qualified and registered; the other five dates were research commitments. All six scenarios subsequently completed the October 5 checks and player review recorded in [scenario qualification](scenario-qualification.md). The October 6 scope realignment preserves these dates and locks; historical publisher URL failures do not reopen the draw.

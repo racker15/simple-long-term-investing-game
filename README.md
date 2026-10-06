@@ -6,6 +6,18 @@ An educational static web application about making a five-year investing decisio
 
 The product sources remain [investing-game-specification.md](investing-game-specification.md) and [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md).
 
+## Product scope
+
+The intended audience is roughly **8–12 years old**. This project is a simple educational game, not a professional finance product or research-grade historical database.
+
+Historical scenarios should be believable, materially accurate, and free of hindsight leakage, but the project deliberately accepts transparent approximations when extra precision would not meaningfully change the player's experience. Do not treat institutional-grade index reconstruction, exhaustive source corroboration, archive availability, or forensic corporate-action accounting as default release requirements.
+
+**News-source variety is desirable**, especially when it helps avoid presenting one publication's editorial lens as the whole period, but it is not a hard quota. Use the best readily available contemporary sources and stop once the scenario is credible.
+
+All player-facing historical news and summaries are stored in the static scenario data. The live app does **not** download publisher articles. External URLs are research/provenance references only, so an old source page becoming unavailable does not break the game.
+
+The October 6 PR alignment follows the current educational scope while retaining the six-scenario work. Existing detailed audits and source-specific precision checks document this pilot; they are not a template for additional research infrastructure. [Scenario qualification](docs/scenario-qualification.md#october-6-scope-realignment) records the superseding lead direction and records October 5 verification and the passing October 6 checks.
+
 ## Run locally
 
 Use Node.js 22.12+ (CI uses Node 24) and npm.
@@ -143,4 +155,4 @@ The dummy files can be reproduced with `node --import tsx scripts/build/dummy-fi
 
 The selection protocol was committed at `b4d70fb`, before the real draw at `0316e1c`. Random dates were drawn from equal-weight temporal strata; February 2016 replaced a spacing-rejected draw of the already reserved September 2008 date. There are no outcome-based replacements. All five new starting bundles were separately committed before their stock outcome research; the September 1999 pilot remains unchanged. See [date selection](docs/date-selection.md), [selected dates](docs/pilot-selection.md), [qualification ledger](docs/scenario-qualification.md) and the [mapping of authoring commits to published commits](docs/git-publication.md).
 
-The six-scenario milestone passed integration, offline rebuilding, player review, 113 unit/rendering tests and 20 browser tests. The six dates have overlapping five-year windows, repeated stock choices and a small cohort size; they do not establish independent evidence about strategy performance. Expansion to 24/50 scenarios needs its own preregistered draw and qualification. This work does not publish or deploy the website.
+On October 5, the six-scenario milestone passed integration, offline rebuilding, player review, 113 unit/rendering tests and 20 browser tests. October 6 verification also passed all 113 unit/rendering tests, the build/data checks and all 20 desktop/mobile browser tests. The six dates have overlapping five-year windows, repeated stock choices and a small cohort size; they do not establish independent evidence about strategy performance. Expansion to 24/50 scenarios needs its own preregistered draw and qualification. This work does not publish or deploy the website.

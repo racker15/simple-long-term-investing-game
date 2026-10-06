@@ -1,5 +1,7 @@
 # Historical date selection protocol v1
 
+This is the recorded protocol for the completed six-scenario milestone. Retain its selected dates and existing evidence; it is not a template requiring additional audit layers for future work. Under [AGENTS.md](../AGENTS.md), future selection should use a simple eligible universe, fixed seed and recorded dates, with replacements only for genuine operational/data failures.
+
 This protocol is committed before the first real draw or new-scenario outcome research. It governs the three random pilots and the eventual twelve-date random production cohort. Date selection is separate from the game's existing seeded session queue.
 
 ## Universe and coverage

@@ -27,6 +27,23 @@ The MVP is **not** a real-time or generative simulation.
 
 Do not optimize the scenario set to prove that hot stocks lose, that indexes always win, or that experts are usually wrong. The collection should preserve genuine uncertainty.
 
+### Product audience and quality bar
+
+The primary audience is roughly **8–12 years old**. This is a simple educational game, not a financial research product, institutional backtest, or authoritative finance reference.
+
+The implementation should therefore use a **materiality-based quality bar**:
+
+- historical context should be plausible, understandable, and free of obvious factual errors;
+- starting information must not leak knowledge of the future;
+- returns should be reasonable historical total-return approximations whose errors are unlikely to change the player-facing lesson;
+- obvious failures such as impossible returns, broken corporate-action handling, wrong winners caused by bad data, or invented history must be fixed;
+- small discrepancies that do not materially affect what the player sees are acceptable;
+- research should stop once the scenario is credible enough for the educational purpose.
+
+Do **not** add research or validation infrastructure merely to make the project defensible as a scholarly or institutional dataset. In particular, multi-source corroboration of every fact, repeated live-URL availability checks, archive-body hashing, parts-per-million vendor reconciliation, transaction-level dividend reconstruction, and elaborate audit/versioning systems are not default requirements.
+
+News-source variety remains desirable because different publications reflect different editorial lenses. Prefer a varied mix when it is readily available, but do not treat outlet counts as a hard qualification gate or spend substantial effort replacing strong contemporary stories solely to diversify publishers.
+
 ---
 
 
@@ -344,7 +361,7 @@ Document which proxy each scenario uses if the series changes across eras.
 
 ### 6.7 News
 
-Use a broad source mix.
+Prefer a broad source mix when practical. Source variety is **desirable, not a hard release gate**. A scenario may rely heavily on one strong historical archive when that is the efficient way to recreate the period; do not perform expensive source-chasing solely to satisfy an outlet-count quota.
 
 Potential sources:
 
@@ -362,7 +379,9 @@ Potential sources:
 
 The goal is to represent contemporary discourse.
 
-Do not require full article text.
+The runtime game must use **locally stored, prebuilt headline/summary content**. Publisher URLs are provenance for research and optional inspection; the player experience must not depend on those URLs continuing to work.
+
+Do not require full article text, mirrored article bodies, or ongoing live-source availability checks.
 
 Store enough metadata to support:
 
@@ -490,9 +509,9 @@ Each scenario should begin with a broad candidate pool.
 
 ### Candidate collection
 
-Collect approximately 50–200 candidate stories from the previous 30–90 days.
+Collect enough candidate stories from the previous 30–90 days to assemble a credible 6–8-story feed. **Do not target a large candidate count for its own sake.** In many scenarios, roughly 15–40 reasonable candidates will be more than sufficient.
 
-The exact window may vary by scenario.
+The exact window and candidate count may vary by scenario. Stop collecting once the final feed can represent the period without obvious gaps or hindsight selection.
 
 ### Curation categories
 
@@ -574,7 +593,7 @@ Before using future outcomes to write narrative material, build and commit the k
 - hot-stock trailing performance;
 - selection rationales.
 
-For random scenarios especially, this establishes a clear ex-ante record.
+For random scenarios especially, this establishes a clear ex-ante record. A simple committed bundle or checksum is sufficient; do not build additional lock/version/audit machinery unless it prevents a concrete integrity problem.
 
 ### D. Build future return series
 
@@ -709,7 +728,9 @@ Do not automatically reject because bankruptcies or unusual events can be extrem
 
 ### Provenance checks
 
-Every macro field, headline, and hot-stock selection should have a provenance record.
+Every macro field, headline, and hot-stock selection should have at least one reasonable provenance record. Multiple independent sources are not required unless a claim is genuinely uncertain or disputed.
+
+A historical publisher URL later becoming unavailable is not by itself a scenario failure because player-facing content is stored locally.
 
 ### Outcome consistency
 
@@ -747,7 +768,7 @@ Would a contemporaneous observer recognize the selected stocks as notable?
 
 ### Data coherence
 
-Can all seven asset histories be explained and reproduced?
+Are all seven asset histories coherent enough that no obvious data or corporate-action error materially changes the player's outcome? Exact institutional-grade reconstruction is not required.
 
 ### Expectation value
 
@@ -774,7 +795,9 @@ Does the post-reveal material distinguish:
 
 Does the scenario add a meaningfully different information environment or random observation to the collection?
 
-Reject or revise scenarios for weak research, poor data, hindsight leakage, or duplicate coverage—not because their future outcome lacks surprise.
+Reject or revise scenarios for **material** factual/data problems, hindsight leakage, or genuinely duplicative coverage—not because their future outcome lacks surprise or because provenance could be made more exhaustive.
+
+Once a scenario is historically plausible, internally coherent, and unlikely to materially mislead the player, prefer shipping and improving the game over additional research precision.
 
 ---
 
