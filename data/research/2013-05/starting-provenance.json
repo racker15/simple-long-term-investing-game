@@ -1,0 +1,176 @@
+{
+  "scenario_id": "2013-05",
+  "sources": [
+    {
+      "id": "news-2013-05-2",
+      "source_name": "TIME: Sorting Out the Scandals",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,2143562,00.html",
+      "publication_date": "2013-05-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-2013-05-8",
+      "source_name": "TIME: The Fabulous Baker Boys",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,2143558,00.html",
+      "publication_date": "2013-05-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-2013-05-9",
+      "source_name": "TIME: Robots, Rebooted",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,2143561,00.html",
+      "publication_date": "2013-05-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-2013-05-10",
+      "source_name": "TIME: 10 Questions for Dan Brown",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,2143565,00.html",
+      "publication_date": "2013-05-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-2013-05-15",
+      "source_name": "TIME: Hunting a Leaker, DOJ Scans Reporters' Calls",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,2143548,00.html",
+      "publication_date": "2013-05-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-2013-05-20",
+      "source_name": "TIME: On Immigration, a Hawkeye in No Hurry",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,2143570,00.html",
+      "publication_date": "2013-05-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "apple-capital",
+      "source_name": "Apple: More than Doubles Capital Return Program",
+      "source_reference": "https://www.apple.com/newsroom/2013/04/23Apple-More-than-Doubles-Capital-Return-Program/",
+      "publication_date": "2013-04-23",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original dividend and share-repurchase announcement; planned amounts are not treated as completed."
+    },
+    {
+      "id": "tesla-profit",
+      "source_name": "Tesla: First Quarter2013 shareholder letter, SEC Exhibit99.1",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/1318605/000119312513207910/d532640dex991.htm",
+      "publication_date": "2013-05-08",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original quarterly results announcement; company reports its first quarterly profit."
+    },
+    {
+      "id": "spf-outlook",
+      "source_name": "Professional forecaster survey, 2013 Q2",
+      "source_reference": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/data-files/files/median_rgdp_growth.xlsx",
+      "publication_date": "2013-05-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Historical median DRGDP3 forecast (quarter after the survey quarter). Pre-1990 original release timing is uncertain; middle-month end is modeled availability, not an asserted original archive date. Retrospective forecast archive, not actual outcomes.",
+      "observation_date": "2013-05-31"
+    },
+    {
+      "id": "asof-macro-cpiaucsl",
+      "source_name": "Historical CPIAUCSL observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "publication_date": "2013-05-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2013-04-30"
+    },
+    {
+      "id": "asof-macro-unrate",
+      "source_name": "Historical UNRATE observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UNRATE",
+      "publication_date": "2013-05-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2013-04-30"
+    },
+    {
+      "id": "asof-macro-fedfunds",
+      "source_name": "Historical FEDFUNDS observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "publication_date": "2013-05-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2013-04-30"
+    },
+    {
+      "id": "asof-macro-gs10",
+      "source_name": "Historical GS10 observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/GS10",
+      "publication_date": "2013-05-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2013-04-30"
+    },
+    {
+      "id": "asof-macro-umcsent",
+      "source_name": "Historical UMCSENT observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UMCSENT",
+      "publication_date": "2013-05-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2013-04-30"
+    },
+    {
+      "id": "asof-macro-indpro",
+      "source_name": "Historical INDPRO observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/INDPRO",
+      "publication_date": "2013-05-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "2013-04-30"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-market observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "publication_date": "2013-05-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying observations, not publication date of modern archives. Transparent Treasury and developed-market proxies; not exact contemporary database vintages.",
+      "observation_date": "2013-05-31"
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/2013-05/starting.json",
+      "publication_date": "2013-05-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying prices. Current retrospective adjusted-close reconstruction; the modern archive publication date is not asserted here.",
+      "observation_date": "2013-05-31"
+    },
+    {
+      "id": "bernanke-testimony",
+      "source_name": "Federal Reserve: Bernanke economic-outlook testimony",
+      "source_reference": "https://www.federalreserve.gov/newsevents/testimony/bernanke20130522a.htm",
+      "publication_date": "2013-05-22",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original prepared testimony. Asset-purchase pace is conditional on economic developments; no future rate hike is asserted."
+    }
+  ]
+}
