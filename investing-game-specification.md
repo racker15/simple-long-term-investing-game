@@ -794,6 +794,8 @@ The explanation should:
 
 The tone should be descriptive rather than prescriptive.
 
+Write the narrative and four reflections for ages 8–12: use common words, short sentences, short paragraphs, and concrete events. Explain any financial term that cannot be avoided. Keep research methods, data sources, proxy choices, return calculations, vendor details, and model or editorial decisions out of player-facing prose; keep useful technical detail in provenance or developer documentation. Make clear that the future was uncertain at the starting date.
+
 ---
 
 

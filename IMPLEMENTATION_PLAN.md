@@ -620,6 +620,7 @@ Add:
 - “What nobody knew.”
 
 Avoid forcing a single moral.
+Write the narrative and reflections for ages 8–12, using common words, short sentences, compact paragraphs, and concrete details. Explain unavoidable financial terms simply. Keep research methods, sources, proxy or return calculations, vendor details, and model or editorial decisions out of player-facing prose; preserve useful technical detail in provenance or developer documentation. Keep the future uncertain from the starting date.
 
 ### F. Validate
 

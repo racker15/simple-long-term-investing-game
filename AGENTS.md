@@ -19,3 +19,4 @@
 - Random-date selection should remain deterministic and future-neutral, but keep the mechanism simple: define the eligible universe, use a fixed seed, record the selected dates, and reject only genuine operational/data failures.
 - Testing should concentrate on player-visible behavior and core invariants: no future leakage, valid allocations, seven choices, 60 monthly outcomes, sane return math, working sessions/scorecards, and usable responsive UI.
 - When historical precision and simplicity conflict, prefer the **simplest approach that is unlikely to materially mislead an 8–12-year-old player about the scenario**.
+- Write player-facing scenario narratives and reflections for ages 8–12 with common words, short sentences, and concrete events; keep research and return-method details in provenance or developer docs.

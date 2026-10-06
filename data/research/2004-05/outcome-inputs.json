@@ -33,7 +33,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "The five years after May 2004 included a major change in the economic setting. In June 2004 the Federal Reserve raised its policy target to 1.25%, reporting solid output growth and improving labor markets. By December 2008 it had established a target range of 0–0.25% as economic activity weakened and financial markets remained strained. That month the NBER announced that the expansion had ended in December 2007; this was a retrospective determination rather than a warning available at the starting date. Company developments also differed. Microsoft announced a special dividend and a substantial repurchase plan in July 2004. Apple introduced iPhone in January 2007, adding a new product direction to the business investors had known in May 2004. The reconstructed five-year stock paths diverge sharply: Apple finishes substantially above its starting value, Microsoft slightly below, and eBay well below. Those comparisons include the vendor’s dividend and split adjustments and describe only these locked selections and this window. A successful product narrative, an established company and a growing marketplace did not produce interchangeable investment outcomes. The event markers provide context for the changing environment; they do not measure how much any announcement caused a return. May 2009 is the scenario endpoint, not a declaration that the financial crisis or all economic uncertainty had ended.",
+    "text": "The five years after May 2004 brought a big change. The Federal Reserve raised interest rates as the economy grew. By late 2008, the economy and financial markets were in serious trouble, and the Fed lowered interest rates close to zero. A recession had begun in December 2007, but the official announcement came a year later.\n\nIn 2004, Microsoft announced a one-time payment for people who owned its shares and plans to buy some of its own shares back. Apple released the iPhone in 2007. It was a big change for a company then known for computers and music players.\n\nThe companies’ results were very different by May 2009. An investment in Apple ended much higher than it started. Microsoft’s ended a little lower, and eBay’s ended much lower. A popular product or familiar company did not promise a winning investment.\n\nThe five-year period ended in May 2009, while people were still facing a serious financial crisis. No one could know in May 2004 exactly how the economy or these companies would change.",
     "source_ids": [
       "fomc-jun04",
       "msft-capital04",
@@ -46,10 +46,10 @@
     ]
   },
   "reflection": {
-    "what_people_were_focused_on": "The locked May headlines cover job growth, expensive gasoline, Iraq, the election, cicadas, film and sport. Company prospects mattered to investors, while everyday attention understandably extended beyond markets.",
-    "what_actually_mattered": "Starting valuation, company exposure and the full sequence of returns shaped these results. Dividends and splits require consistent accounting. Economic contraction and changing interest rates formed part of the setting; this exercise does not isolate their causal contribution.",
-    "what_faded_away": "The approaching sporting and election deadlines and the immediate cicada emergence passed into later news cycles. Their prominence did not supply a reliable forecast of these five-year stock returns.",
-    "what_nobody_knew": "A May 2004 investor could not know the timing of the credit crisis, the later near-zero policy target, each company’s future product reception or the final return ordering. Even the recession start was dated afterward.",
+    "what_people_were_focused_on": "The May headlines covered jobs, expensive gas, Iraq, the coming election, cicadas, movies, and sports. Investors were also watching companies such as Apple, Microsoft, and eBay.",
+    "what_actually_mattered": "The economy went from steady growth to a deep crisis. The companies also made different choices and faced different challenges. What people expected in 2004 could not tell them exactly how each investment would turn out.",
+    "what_faded_away": "Election and sports days came and went, and the cicadas appeared for a short time. The financial trouble that came later lasted longer and changed the economy. A busy news story could not tell anyone which investment would do best.",
+    "what_nobody_knew": "In May 2004, no one knew when the financial crisis would arrive, how low interest rates would go, whether people would take to the iPhone, or how each company would do. The recession had already begun before its official start date was announced.",
     "source_ids": [
       "fomc-jun04",
       "msft-capital04",
