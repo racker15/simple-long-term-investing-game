@@ -208,12 +208,14 @@ export function PathChart({
     { offset: 0, values: portfolioSeries, y: portfolioY, top: 40, bottom: 175 },
     { offset: 3, values: hotStockSeries, y: hotStockY, top: 235, bottom: 370 },
   ].flatMap(({ offset, values, y, top, bottom }) => {
-    const labels = values.map((points, i) => ({
-      index: offset + i,
-      value: valueAt(points),
-      pointY: y(valueAt(points)),
-      labelY: y(valueAt(points)),
-    }));
+    const labels = values
+      .map((points, i) => ({
+        index: offset + i,
+        value: valueAt(points),
+        pointY: y(valueAt(points)),
+        labelY: y(valueAt(points)),
+      }))
+      .sort((a, b) => a.pointY - b.pointY);
     labels.forEach((label, i) => {
       label.labelY = Math.max(
         label.pointY,
@@ -512,6 +514,7 @@ export function PathChart({
             <g
               key={chartSeries[index].testId}
               data-testid={`chart-end-${index}`}
+              data-label-y={labelY}
               opacity={emphasized === null || emphasized === index ? 1 : 0.3}
             >
               <title>
@@ -529,28 +532,35 @@ export function PathChart({
               <path
                 d={`M ${x(visible) + 4} ${pointY} L ${x(visible) + 23} ${labelY} L ${x(visible) + 31} ${labelY}`}
                 fill="none"
-                stroke={chartSeries[index].color}
+                stroke="#8e9e94"
+                strokeWidth="0.75"
+                strokeDasharray="2 2"
               />
-              <circle
-                cx={x(visible) + 37}
-                cy={labelY}
-                r="4"
-                fill={chartSeries[index].color}
-              />
-              <text
-                className="endpoint-name"
-                x={x(visible) + 49}
-                y={labelY - 3}
+              <g
+                style={{
+                  transform: `translateY(${labelY}px)`,
+                  transition: reducedMotion
+                    ? 'none'
+                    : 'transform 150ms ease-out',
+                }}
               >
-                {chartSeries[index].endLabel}
-              </text>
-              <text
-                className={`endpoint-return${value < INITIAL_CAPITAL ? ' financial-return--negative' : ''}`}
-                x={x(visible) + 49}
-                y={labelY + 14}
-              >
-                {percent(value / INITIAL_CAPITAL - 1)}
-              </text>
+                <circle
+                  cx={x(visible) + 37}
+                  cy={0}
+                  r="4"
+                  fill={chartSeries[index].color}
+                />
+                <text className="endpoint-name" x={x(visible) + 49} y={-3}>
+                  {chartSeries[index].endLabel}
+                </text>
+                <text
+                  className={`endpoint-return${value < INITIAL_CAPITAL ? ' financial-return--negative' : ''}`}
+                  x={x(visible) + 49}
+                  y={14}
+                >
+                  {percent(value / INITIAL_CAPITAL - 1)}
+                </text>
+              </g>
             </g>
           ))}
           {showDrawdown && largestFall.fraction > 0 && (

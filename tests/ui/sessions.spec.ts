@@ -711,7 +711,9 @@ test('right-hand labels match every line and return at each reveal', async ({
     const positions = await page
       .locator('.endpoint-name')
       .evaluateAll((nodes) =>
-        nodes.map((node) => Number(node.getAttribute('y'))),
+        nodes.map((node) =>
+          Number(node.closest('[data-label-y]')!.getAttribute('data-label-y')),
+        ),
       );
     for (const offset of [0, 3]) {
       const ys = positions.slice(offset, offset + 3).sort((a, b) => a - b);
