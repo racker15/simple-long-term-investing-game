@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "protocol_commit": "2b28e0f5c67bfa49a0f35d2af76ffee83136c2a2",
+  "seed": "simple-long-term-investing-game/50-scenarios/2026-10-06",
+  "preserved_random": [
+    "1987-01",
+    "2004-05",
+    "2016-02"
+  ],
+  "draws": [
+    {
+      "draw_index": 0,
+      "month": "1992-02",
+      "population": 464,
+      "words": [
+        4087243895
+      ]
+    },
+    {
+      "draw_index": 1,
+      "month": "2016-01",
+      "population": 463,
+      "words": [
+        2850083024
+      ]
+    },
+    {
+      "draw_index": 2,
+      "month": "1988-12",
+      "population": 462,
+      "words": [
+        4001856574
+      ]
+    },
+    {
+      "draw_index": 3,
+      "month": "1985-11",
+      "population": 461,
+      "words": [
+        678417807
+      ]
+    },
+    {
+      "draw_index": 4,
+      "month": "1981-09",
+      "population": 460,
+      "words": [
+        2126183958
+      ]
+    },
+    {
+      "draw_index": 5,
+      "month": "2012-03",
+      "population": 459,
+      "words": [
+        4211862847
+      ]
+    },
+    {
+      "draw_index": 6,
+      "month": "2005-09",
+      "population": 458,
+      "words": [
+        3556500815
+      ]
+    },
+    {
+      "draw_index": 7,
+      "month": "1991-11",
+      "population": 457,
+      "words": [
+        2317549498
+      ]
+    },
+    {
+      "draw_index": 8,
+      "month": "1996-09",
+      "population": 456,
+      "words": [
+        1169848575
+      ]
+    },
+    {
+      "draw_index": 9,
+      "month": "2007-11",
+      "population": 455,
+      "words": [
+        3337977221
+      ]
+    },
+    {
+      "draw_index": 10,
+      "month": "2007-06",
+      "population": 454,
+      "words": [
+        2856584192
+      ]
+    },
+    {
+      "draw_index": 11,
+      "month": "1983-05",
+      "population": 453,
+      "words": [
+        1291361700
+      ]
+    },
+    {
+      "draw_index": 12,
+      "month": "1992-11",
+      "population": 452,
+      "words": [
+        3748315454
+      ]
+    },
+    {
+      "draw_index": 13,
+      "month": "1982-10",
+      "population": 451,
+      "words": [
+        3349832295
+      ]
+    },
+    {
+      "draw_index": 14,
+      "month": "1991-02",
+      "population": 450,
+      "words": [
+        957452519
+      ]
+    },
+    {
+      "draw_index": 15,
+      "month": "1997-04",
+      "population": 449,
+      "words": [
+        50204222
+      ]
+    },
+    {
+      "draw_index": 16,
+      "month": "2000-06",
+      "population": 448,
+      "words": [
+        2401953114
+      ]
+    },
+    {
+      "draw_index": 17,
+      "month": "2000-01",
+      "population": 447,
+      "words": [
+        2310495832
+      ]
+    },
+    {
+      "draw_index": 18,
+      "month": "1982-09",
+      "population": 446,
+      "words": [
+        1296749934
+      ]
+    },
+    {
+      "draw_index": 19,
+      "month": "1989-01",
+      "population": 445,
+      "words": [
+        450195025
+      ]
+    },
+    {
+      "draw_index": 20,
+      "month": "2000-12",
+      "population": 444,
+      "words": [
+        4164849868
+      ]
+    },
+    {
+      "draw_index": 21,
+      "month": "2020-01",
+      "population": 443,
+      "words": [
+        3285095727
+      ]
+    }
+  ],
+  "withdrawals": [],
+  "outcomes_used": false
+}
