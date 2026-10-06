@@ -290,6 +290,7 @@ test('year-one and year-three pauses show only returns reached so far', async ({
   await page
     .getByRole('button', { name: 'Invest and see what happens' })
     .click();
+  await page.getByRole('button', { name: 'Play reveal', exact: true }).click();
   await expect(
     page.getByRole('heading', { name: 'Paused after 1 year', exact: true }),
   ).toBeVisible();
@@ -658,6 +659,7 @@ test('right-hand labels match every line and return at each reveal', async ({
   await page
     .getByRole('button', { name: 'Invest and see what happens' })
     .click();
+  await page.getByRole('button', { name: 'Play reveal', exact: true }).click();
   for (const months of [12, 36, 60]) {
     await expect(
       page.getByRole('heading', {
@@ -739,7 +741,7 @@ test('right-hand labels match every line and return at each reveal', async ({
   }
 });
 
-test('each reveal animates for five seconds with moving endpoint labels', async ({
+test('each reveal waits for Play and animates for eight seconds with moving endpoint labels', async ({
   page,
 }) => {
   await page.clock.install({ time: new Date('2026-10-06T00:00:00Z') });
@@ -752,6 +754,15 @@ test('each reveal animates for five seconds with moving endpoint labels', async 
   await page
     .getByRole('button', { name: 'Invest and see what happens' })
     .click();
+  await expect(
+    page.getByRole('heading', { name: 'Ready to play', exact: true }),
+  ).toBeVisible();
+  await page.clock.runFor(15000);
+  await expect(page.getByTestId('path-0')).toHaveAttribute('points', /^\S+$/);
+  await expect(
+    page.getByTestId('chart-end-0').locator('.endpoint-return'),
+  ).toHaveText('0%');
+  await page.getByRole('button', { name: 'Play reveal', exact: true }).click();
   for (const year of [1, 3, 5]) {
     const revealing = page.getByRole('heading', {
       name: `Revealing through year ${year}…`,
@@ -760,7 +771,7 @@ test('each reveal animates for five seconds with moving endpoint labels', async 
     await expect(revealing).toBeVisible();
     const dot = page.getByTestId('chart-end-0').locator('circle').first();
     const startX = Number(await dot.getAttribute('cx'));
-    await page.clock.runFor(2500);
+    await page.clock.runFor(4000);
     await expect(revealing).toBeVisible();
     const middleX = Number(await dot.getAttribute('cx'));
     expect(middleX).toBeGreaterThan(startX);
@@ -784,7 +795,7 @@ test('each reveal animates for five seconds with moving endpoint labels', async 
       );
       await expect(label.locator('.endpoint-return')).not.toContainText('NaN');
     }
-    await page.clock.runFor(2490);
+    await page.clock.runFor(3990);
     await expect(revealing).toBeVisible();
     await page.clock.runFor(40);
     await expect(
@@ -814,4 +825,67 @@ test('each reveal animates for five seconds with moving endpoint labels', async 
         .click();
     }
   }
+});
+
+test('replay reveal keeps the locked choice and never records a second result', async ({
+  page,
+}) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await page
+    .getByRole('button', { name: 'Add $500 to Bonds', exact: true })
+    .click();
+  await page.getByRole('radio', { name: 'Bonds', exact: true }).check();
+  await page.getByRole('button', { name: 'Review decision' }).click();
+  await page
+    .getByRole('button', { name: 'Invest and see what happens' })
+    .click();
+  await expect(
+    page.getByRole('heading', { name: 'Ready to play', exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole('heading', { name: 'Five years later', exact: true }),
+  ).toHaveCount(0);
+  await finishReplay(page);
+  const saved = await history(page);
+  const ending = await page.locator('.ending').textContent();
+  for (let attempt = 0; attempt < 2; attempt++) {
+    await page
+      .getByRole('button', { name: 'Replay reveal', exact: true })
+      .click();
+    await expect(
+      page.getByRole('button', { name: 'Play reveal', exact: true }),
+    ).toBeFocused();
+    await expect(
+      page.getByRole('heading', { name: 'Ready to play', exact: true }),
+    ).toBeVisible();
+    await expect(page.getByTestId('path-0')).toHaveAttribute('points', /^\S+$/);
+    await expect(
+      page.getByRole('heading', { name: 'Five years later', exact: true }),
+    ).toHaveCount(0);
+    await expect(
+      page.getByRole('heading', { name: 'Invest your $10,000', exact: true }),
+    ).toHaveCount(0);
+    await expect(
+      page.getByRole('button', { name: 'Next scenario', exact: true }),
+    ).toHaveCount(0);
+    expect(await history(page)).toEqual(saved);
+    if (attempt === 1) {
+      await page.reload();
+      await expect(
+        page.getByRole('heading', { name: 'Ready to play', exact: true }),
+      ).toBeVisible();
+      expect(await history(page)).toEqual(saved);
+    }
+    await finishReplay(page);
+    await expect(page.locator('.ending')).toHaveText(ending!);
+    expect(await history(page)).toEqual(saved);
+  }
+  await page
+    .getByRole('button', { name: 'Next scenario', exact: true })
+    .click();
+  await expect(
+    page.getByText('Scenario 2 of 10', { exact: true }),
+  ).toBeVisible();
+  expect((await history(page)).active.completed).toHaveLength(1);
 });

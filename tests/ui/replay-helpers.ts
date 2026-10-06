@@ -1,5 +1,6 @@
 import { expect, type Page } from '@playwright/test';
 export async function finishReplay(page: Page) {
+  await page.getByRole('button', { name: 'Play reveal', exact: true }).click();
   await expect(
     page.getByRole('heading', { name: 'Paused after 1 year', exact: true }),
   ).toBeVisible();

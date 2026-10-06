@@ -20,6 +20,7 @@ export function Reveal({
   continueLabel?: string;
 }) {
   const [finished, setFinished] = useState(false);
+  const [replay, setReplay] = useState(0);
   const finish = useCallback(() => {
     setFinished(true);
     document.getElementById('main')?.focus({ preventScroll: true });
@@ -53,6 +54,8 @@ export function Reveal({
         {portfolio.points.at(-1)!.month}
       </p>
       <PathChart
+        key={replay}
+        focusPlay={replay > 0}
         player={portfolio}
         diversified={comparisons.diversified}
         usTotal={comparisons.us_total}
@@ -63,6 +66,15 @@ export function Reveal({
       />
       {finished && (
         <>
+          <button
+            className="secondary"
+            onClick={() => {
+              setFinished(false);
+              setReplay((value) => value + 1);
+            }}
+          >
+            Replay reveal
+          </button>
           <section className="panel">
             <h2>Five years later</h2>
             <p className="ending">

@@ -11,6 +11,7 @@ export function PathChart({
   startMonth,
   events,
   onFinished,
+  focusPlay = false,
 }: {
   player: PortfolioPath;
   diversified: PortfolioPath;
@@ -24,12 +25,14 @@ export function PathChart({
   startMonth: string;
   events: FutureOutcomes['events'];
   onFinished: () => void;
+  focusPlay?: boolean;
 }) {
   const [reducedMotion] = useState(
     () => window.matchMedia('(prefers-reduced-motion: reduce)').matches,
   );
   const [target, setTarget] = useState<12 | 36 | 60>(12);
-  const [visible, setVisible] = useState(reducedMotion ? 12 : 0);
+  const [visible, setVisible] = useState(0);
+  const [started, setStarted] = useState(false);
   const paused = visible === target;
   const checkpointHeading = useRef<HTMLHeadingElement>(null);
   useEffect(() => {
@@ -38,11 +41,11 @@ export function PathChart({
   }, [paused, target]);
   const animation = useRef<number | null>(null);
   useEffect(() => {
-    if (reducedMotion) return;
+    if (!started || reducedMotion) return;
     const from = target === 12 ? 0 : target === 36 ? 12 : 36;
-    const started = performance.now();
+    const startTime = performance.now();
     function frame(now: number) {
-      const progress = Math.min(1, (now - started) / 5000);
+      const progress = Math.min(1, (now - startTime) / 8000);
       setVisible(from + (target - from) * progress);
       if (progress < 1) animation.current = requestAnimationFrame(frame);
     }
@@ -50,7 +53,7 @@ export function PathChart({
     return () => {
       if (animation.current !== null) cancelAnimationFrame(animation.current);
     };
-  }, [target, reducedMotion]);
+  }, [target, reducedMotion, started]);
   useEffect(() => {
     if (visible === 60) onFinished();
   }, [visible, onFinished]);
@@ -193,11 +196,13 @@ export function PathChart({
         seconds. Movement between monthly observations is visual interpolation.
       </figcaption>
       <h2 ref={checkpointHeading} tabIndex={-1} aria-live="polite">
-        {paused
-          ? target === 60
-            ? 'Five-year path complete'
-            : `Paused after ${target / 12} ${target === 12 ? 'year' : 'years'}`
-          : `Revealing through year ${target / 12}…`}
+        {!started
+          ? 'Ready to play'
+          : paused
+            ? target === 60
+              ? 'Five-year path complete'
+              : `Paused after ${target / 12} ${target === 12 ? 'year' : 'years'}`
+            : `Revealing through year ${target / 12}…`}
       </h2>
       <div
         className="chart-scroll"
@@ -443,7 +448,17 @@ export function PathChart({
         Returns above are from the starting date through the current reveal.
         Each comparison starts with $10,000.
       </p>
-      {paused && target < 60 ? (
+      {!started ? (
+        <button
+          autoFocus={focusPlay}
+          onClick={() => {
+            setStarted(true);
+            if (reducedMotion) setVisible(12);
+          }}
+        >
+          Play reveal
+        </button>
+      ) : paused && target < 60 ? (
         <>
           <p>
             The story is not finished. Notice the ups and downs so far before
