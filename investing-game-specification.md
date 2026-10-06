@@ -646,7 +646,9 @@ Y-axis:
 
 X-axis:
 
-> Monthly dates
+> Sparse year labels drawn from the scenario's historical start date and 60 monthly observations
+
+Show a light dotted $10,000 line across each chart panel so players can see when a path is above or below its starting value. This is a reference, not another investment.
 
 Use actual or reconstructed **monthly total returns** when available, including dividends and distributions where the public source supports them.
 
