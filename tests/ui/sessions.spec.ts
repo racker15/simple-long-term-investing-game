@@ -15,7 +15,7 @@ async function history(page: Page) {
 }
 test('real historical session completes, restores, archives once and chooses unseen dates', async ({
   page,
-}) => {
+}, testInfo) => {
   const futureRequests: string[] = [];
   page.on('request', (request) => {
     if (request.url().includes('future_outcomes'))
@@ -26,11 +26,19 @@ test('real historical session completes, restores, archives once and chooses uns
     page.getByText('50 unseen scenarios available.', { exact: false }),
   ).toBeVisible();
   await expect(page.getByLabel('How many scenarios?')).toHaveValue('10');
+  await page.screenshot({
+    path: testInfo.outputPath('session-start.png'),
+    fullPage: true,
+  });
   await page.getByLabel('How many scenarios?').selectOption('5');
   await page.getByRole('button', { name: 'Begin session' }).click();
   const queue = (await history(page)).active.scenario_ids;
   expect(new Set(queue).size).toBe(5);
   expect(futureRequests).toHaveLength(0);
+  await page.screenshot({
+    path: testInfo.outputPath('session-decision.png'),
+    fullPage: true,
+  });
   await expect(
     page.getByRole('heading', { name: 'Important vs. random history' }),
   ).toHaveCount(0);
@@ -39,6 +47,10 @@ test('real historical session completes, restores, archives once and chooses uns
   for (let i = 0; i < 5; i++) {
     await invest(page);
     if (i === 0) {
+      await page.screenshot({
+        path: testInfo.outputPath('session-reveal.png'),
+        fullPage: true,
+      });
       await page
         .getByText('What do these numbers mean?', { exact: true })
         .click();
@@ -74,6 +86,10 @@ test('real historical session completes, restores, archives once and chooses uns
     page.getByRole('heading', { name: 'How you did', exact: true }),
   ).toBeVisible();
   expect((await history(page)).finished).toHaveLength(1);
+  await page.screenshot({
+    path: testInfo.outputPath('session-final.png'),
+    fullPage: true,
+  });
   await expect(
     page.getByText('Development scorecard', { exact: false }),
   ).toHaveCount(0);
@@ -89,6 +105,13 @@ test('real historical session completes, restores, archives once and chooses uns
   await expect(
     page.getByText('Your learning history — 5 scenarios', { exact: true }),
   ).toBeVisible();
+  await page
+    .getByText('Your learning history — 5 scenarios', { exact: true })
+    .click();
+  await page.screenshot({
+    path: testInfo.outputPath('session-history.png'),
+    fullPage: true,
+  });
   const beforePractice = await history(page);
   await page
     .getByText('Practice a completed scenario', { exact: true })
