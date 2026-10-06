@@ -175,9 +175,14 @@ test('historical preview holds outcomes until investment and keeps production se
     page.getByRole('button', { name: 'Begin session' }),
   ).toBeVisible();
   await expect(
-    page.getByText('Development mode — all content is fictional.', {
-      exact: true,
+    page.getByText('50 unseen scenarios available.', {
+      exact: false,
     }),
   ).toBeVisible();
+  expect(
+    await page.evaluate(() =>
+      localStorage.getItem('investing-game:historical-history:v1'),
+    ),
+  ).toBeNull();
   expect(errors).toEqual([]);
 });
