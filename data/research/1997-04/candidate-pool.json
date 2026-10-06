@@ -1,0 +1,192 @@
+{
+  "scenario_id": "1997-04",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986241,00.html",
+      "title": "BUT WILL IT HURT AL?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986242,00.html",
+      "title": "MAKING AMENDS EARLY AND OFTEN"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986243,00.html",
+      "title": "BEHIND THE SCENES: BUDDY, CAN YOU SPARE..."
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986248,00.html",
+      "title": "JUST LIKE BILL?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986249,00.html",
+      "title": "CAN BIBI SURVIVE?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986254,00.html",
+      "title": "THE CASE FOR MORPHINE"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986255,00.html",
+      "title": "THE LOW-PRESSURE DIET"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986272,00.html",
+      "title": "BEWARE THE COUNTERPUNCH"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986256,00.html",
+      "title": "AN IMPERFECT UNION"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986257,00.html",
+      "title": "SPARSE AT SEDER?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986267,00.html",
+      "title": "Notebook: Apr. 28, 1997"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986268,00.html",
+      "title": "BREAD AND BUTTER ISSUES"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986269,00.html",
+      "title": "A DEAD ISSUE"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986270,00.html",
+      "title": "Milestones Apr. 28, 1997"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986244,00.html",
+      "title": "The Presidency: A MONUMENTAL MISTAKE"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986259,00.html",
+      "title": "THE LION AND THE TIGER"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986250,00.html",
+      "title": "THE CORPORATE CRUSADERS"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986251,00.html",
+      "title": "POWELL'S ARMY CAN START HERE"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986252,00.html",
+      "title": "HOW CEO PAY GOT AWAY"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986253,00.html",
+      "title": "SMOKING OUT A DEAL"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986260,00.html",
+      "title": "MUSIC: MARY'S NEW WORLD"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986261,00.html",
+      "title": "CINEMA: IT LAVAS L.A."
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986262,00.html",
+      "title": "BOOKS: WHEN SHE WAS BAD"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986263,00.html",
+      "title": "BOOKS: NORMAN MAILER: USING THE LORD'S NAME"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986264,00.html",
+      "title": "BOOKS: ALL LOST, SAVE HONOR"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986265,00.html",
+      "title": "DANCE: SWAN'S WAY"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986271,00.html",
+      "title": "CINEMA: HIP YOUNG MAN WITH A GUN"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986240,00.html",
+      "title": "OKLAHOMA CITY: THE WEIGHT OF EVIDENCE"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986245,00.html",
+      "title": "THE FBI: UNDER THE MICROSCOPE"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986246,00.html",
+      "title": "THE FBI: THE GANG THAT COULDN'T EXAMINE STRAIGHT"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986247,00.html",
+      "title": "THE FBI: WHY RENO'S TIN EAR IS NO LONGER A VIRTUE"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986258,00.html",
+      "title": "People: Apr. 28, 1997"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,986266,00.html",
+      "title": "Letters: Apr. 28, 1997"
+    }
+  ],
+  "selected_news": [6, 15, 16, 18, 21],
+  "stock_candidates": [
+    {
+      "ticker": "NKE",
+      "selected": true,
+      "rationale": "Its advertisements feature Tiger Woods and celebrate Jackie Robinson’s legacy."
+    },
+    {
+      "ticker": "DIS",
+      "selected": true,
+      "rationale": "Its chief executive’s large stock-option award is part of the debate over executive pay."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": true,
+      "rationale": "Its new leadership faces pressure after losses for shareholders."
+    },
+    {
+      "ticker": "IBM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "PG",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "CL",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    },
+    {
+      "ticker": "MCD",
+      "selected": false,
+      "rationale": "Unselected alternative from technology, consumer or industrial businesses; no future-return screen."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}
