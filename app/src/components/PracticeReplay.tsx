@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import {
   historicalDecisionContext,
   loadHistoricalScenario,
@@ -78,9 +78,8 @@ export function PracticeReplay({
       cancelled = true;
     };
   }, [id, choice, retry]);
-  useEffect(() => {
-    if (!reveal)
-      document.getElementById('main')?.focus({ preventScroll: true });
+  useLayoutEffect(() => {
+    document.getElementById('main')?.focus({ preventScroll: true });
     window.scrollTo({ top: 0, behavior: 'instant' });
   }, [reveal]);
   function restart() {

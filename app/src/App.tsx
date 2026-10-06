@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import {
   historicalDecisionContext,
   loadHistoricalScenario,
@@ -129,9 +129,8 @@ export default function App() {
       cancelled = true;
     };
   }, [id, pending, session?.phase, retry]);
-  useEffect(() => {
-    if (session?.phase !== 'reveal')
-      document.getElementById('main')?.focus({ preventScroll: true });
+  useLayoutEffect(() => {
+    document.getElementById('main')?.focus({ preventScroll: true });
     window.scrollTo({ top: 0, behavior: 'instant' });
   }, [session?.phase, session?.current_index, practiceId]);
   const played = playedIds(history);

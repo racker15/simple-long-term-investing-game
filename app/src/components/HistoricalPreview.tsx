@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useLayoutEffect, useState } from 'react';
 import {
   historicalDecisionContext,
   loadHistoricalScenario,
@@ -28,9 +28,8 @@ export default function HistoricalPreview() {
   } | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-  useEffect(() => {
-    if (!reveal)
-      document.getElementById('main')?.focus({ preventScroll: true });
+  useLayoutEffect(() => {
+    document.getElementById('main')?.focus({ preventScroll: true });
     window.scrollTo({ top: 0, behavior: 'instant' });
   }, [reveal]);
   async function commit(allocations: Allocations, expected: AssetId) {

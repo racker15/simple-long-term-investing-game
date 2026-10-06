@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useLayoutEffect, useState } from 'react';
 import { fixture } from './data/fixture';
 import {
   DEFAULT_SESSION_LENGTH,
@@ -85,9 +85,8 @@ export default function App() {
       );
     }
   }, [session]);
-  useEffect(() => {
-    if (session?.phase !== 'reveal')
-      document.getElementById('main')?.focus({ preventScroll: true });
+  useLayoutEffect(() => {
+    document.getElementById('main')?.focus({ preventScroll: true });
     window.scrollTo({ top: 0, behavior: 'instant' });
   }, [session?.phase, session?.current_index]);
   const context = decisionContext(fixture.known);
