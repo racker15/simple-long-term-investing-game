@@ -1,0 +1,54 @@
+{
+  "scenario_id": "2000-01",
+  "events": [
+    {
+      "month": "2001-09",
+      "title": "The September 11 attacks",
+      "description": "Terrorist attacks kill thousands of people in the United States. Communities mourn and help those affected.",
+      "source_ids": ["september-attacks"]
+    },
+    {
+      "month": "2002-01",
+      "title": "Euro cash enters everyday use",
+      "description": "Twelve countries introduce euro notes and coins.",
+      "source_ids": ["euro-cash"]
+    },
+    {
+      "month": "2003-02",
+      "title": "Columbia is lost",
+      "description": "The space shuttle breaks apart during its return to Earth, killing its seven crew members.",
+      "source_ids": ["columbia"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Occidental Petroleum more than tripled, leading these choices. Apple gained, but Amazon lost about one-third. The US share basket also finished lower, while bonds gained. The opening month’s excitement about the internet did not describe every business, and it did not make all online investments successful.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aapl",
+      "yahoo-oxy",
+      "yahoo-amzn",
+      "september-attacks",
+      "euro-cash",
+      "columbia"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "Online shopping, technology wealth and executive rewards filled the news. An oil-drilling dispute showed that older industries still mattered too.",
+    "what_actually_mattered": "The seven investments followed different paths. Bonds gained while the broad US basket fell, and even the two technology-related companies had different results.",
+    "what_faded_away": "A famous leader’s reward and an online-shopping stunt did not predict five-year returns. Public attention was not the same as investment value.",
+    "what_nobody_knew": "Nobody knew the final ranking or the crises ahead. It would have been easy to overlook a less fashionable industry while reading exciting technology stories.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-aapl",
+      "yahoo-oxy",
+      "yahoo-amzn",
+      "september-attacks",
+      "euro-cash",
+      "columbia"
+    ]
+  }
+}

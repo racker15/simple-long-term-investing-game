@@ -1,0 +1,54 @@
+{
+  "scenario_id": "2000-06",
+  "events": [
+    {
+      "month": "2001-09",
+      "title": "The September 11 attacks",
+      "description": "Terrorist attacks kill thousands of people in the United States. Communities mourn and help those affected.",
+      "source_ids": ["september-attacks"]
+    },
+    {
+      "month": "2002-01",
+      "title": "Euro cash enters everyday use",
+      "description": "Twelve countries introduce euro notes and coins.",
+      "source_ids": ["euro-cash"]
+    },
+    {
+      "month": "2003-02",
+      "title": "Columbia is lost",
+      "description": "The space shuttle breaks apart during its return to Earth, killing its seven crew members.",
+      "source_ids": ["columbia"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Apple gained about two-fifths over five years, while Cisco lost about seven-tenths and Microsoft also fell. Bonds gained while the US basket ended lower. Being in the broad technology industry did not give these three companies the same result. Even Apple’s positive endpoint hid a very rough journey.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-msft",
+      "yahoo-csco",
+      "yahoo-aapl",
+      "september-attacks",
+      "euro-cash",
+      "columbia"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "Korean diplomacy, digital music and Microsoft’s court case were prominent. People were also discovering new museums and returning to everyday hobbies.",
+    "what_actually_mattered": "Different businesses and asset types mattered more than one broad label such as technology. A portfolio concentrated in a few famous names faced large company risks.",
+    "what_faded_away": "The first reaction to a court order did not explain the complete investment result. Neither did the latest online trading tool.",
+    "what_nobody_knew": "The precise winners and losses were unknown. An investor could not know in advance how a promising product, a lawsuit or a major world event would affect the final value.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-msft",
+      "yahoo-csco",
+      "yahoo-aapl",
+      "september-attacks",
+      "euro-cash",
+      "columbia"
+    ]
+  }
+}

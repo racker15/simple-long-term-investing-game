@@ -1,0 +1,35 @@
+{
+  "scenario_id": "2000-06",
+  "sources": [
+    {
+      "id": "september-attacks",
+      "source_name": "National September 11 Memorial and Museum: About",
+      "source_reference": "https://www.911memorial.org/about",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Retrospective institutional history.",
+      "observation_date": "2001-09-11"
+    },
+    {
+      "id": "euro-cash",
+      "source_name": "ECB: Euro cash changeover progressing smoothly",
+      "source_reference": "https://www.ecb.europa.eu/press/pr/date/2002/html/pr020102.en.html",
+      "publication_date": "2002-01-02",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary central-bank statement.",
+      "observation_date": "2002-01-01"
+    },
+    {
+      "id": "columbia",
+      "source_name": "NASA: Remembering Columbia STS-107",
+      "source_reference": "https://www.nasa.gov/remembering-columbia-sts-107/",
+      "publication_date": null,
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Retrospective mission history.",
+      "observation_date": "2003-02-01"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "scenario_id": "2001-09",
+  "events": [
+    {
+      "month": "2002-01",
+      "title": "Euro cash enters everyday use",
+      "description": "Twelve countries introduce euro notes and coins.",
+      "source_ids": ["euro-cash"]
+    },
+    {
+      "month": "2003-02",
+      "title": "Columbia is lost",
+      "description": "The space shuttle breaks apart during its return to Earth, killing its seven crew members.",
+      "source_ids": ["columbia"]
+    },
+    {
+      "month": "2005-08",
+      "title": "Hurricane Katrina strikes",
+      "description": "The hurricane devastates Gulf Coast communities and creates an enormous need for rescue and recovery.",
+      "source_ids": ["katrina"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Apple grew to nearly ten times its starting value, and Boeing more than doubled. The international basket also more than doubled, while Microsoft gained much less. You started after the September attacks, so earlier losses were already reflected in starting prices. These gains do not make a frightening event an automatic buying signal.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ba",
+      "yahoo-msft",
+      "yahoo-aapl",
+      "euro-cash",
+      "columbia",
+      "katrina"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "People were mourning, helping one another and reviewing safety. Airlines and aircraft makers were adjusting plans amid uncertainty.",
+    "what_actually_mattered": "The period after the investment began determined the result. Different companies recovered differently, and the broad baskets did not depend on one product or industry.",
+    "what_faded_away": "An announced job cut did not reveal a company’s five-year stock return. A coming software launch did not either.",
+    "what_nobody_knew": "Nobody had a map of the recovery or the future leaders. Seeing Apple’s eventual gain now can hide how uncertain its prospects were then.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-ba",
+      "yahoo-msft",
+      "yahoo-aapl",
+      "euro-cash",
+      "columbia",
+      "katrina"
+    ]
+  }
+}

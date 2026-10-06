@@ -1,0 +1,54 @@
+{
+  "scenario_id": "2000-12",
+  "events": [
+    {
+      "month": "2002-01",
+      "title": "Euro cash enters everyday use",
+      "description": "Twelve countries introduce euro notes and coins.",
+      "source_ids": ["euro-cash"]
+    },
+    {
+      "month": "2003-02",
+      "title": "Columbia is lost",
+      "description": "The space shuttle breaks apart during its return to Earth, killing its seven crew members.",
+      "source_ids": ["columbia"]
+    },
+    {
+      "month": "2005-08",
+      "title": "Hurricane Katrina strikes",
+      "description": "The hurricane devastates Gulf Coast communities and creates an enormous need for rescue and recovery.",
+      "source_ids": ["katrina"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "Microsoft led this set, with the international basket close behind. PepsiCo gained, but Coca-Cola lost about one-quarter of its value. The US basket finished slightly behind cash. Two companies selling similar products did not give investors the same result, and a crowded news month did not supply a clear answer.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-pep",
+      "yahoo-ko",
+      "yahoo-msft",
+      "euro-cash",
+      "columbia",
+      "katrina"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "The presidential election was finally settled. Drink makers chased new markets, and scientists studied signs of ancient water on Mars.",
+    "what_actually_mattered": "The mix of businesses and markets mattered. Similar brands could take different paths, while a foreign share basket brought another set of exposures.",
+    "what_faded_away": "A new drink deal or a year-end economic prediction could not settle the five-year ranking. The story continued long after the headlines changed.",
+    "what_nobody_knew": "Nobody knew the exact company outcomes or the shocks ahead. A familiar household product was not a guarantee against losing money.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-pep",
+      "yahoo-ko",
+      "yahoo-msft",
+      "euro-cash",
+      "columbia",
+      "katrina"
+    ]
+  }
+}

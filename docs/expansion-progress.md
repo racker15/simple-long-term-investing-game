@@ -44,3 +44,9 @@ Final combined check passed with 135 tests, all 26 scenario validations, exact r
 August 1995, September 1996 and April 1997 starting choices were committed at `58bb922ff86753274a437704507fe623f7ccc070`; July 1997 and August 1998 at `512620e29d09e553a25e2d78441a944a4157e5cc`. All five now contain complete outcomes and reflections. Netscape’s IPO is included as news, but its lack of a trailing listed year prevents a playable stock under the existing return contract; this was recorded before outcomes. The July 1997 window retains weak stock outcomes, including losses in all three company choices. Thirty-one scenarios are registered, with nineteen selected dates remaining.
 
 The combined 31-scenario check passed: 140 tests, all data validation/rebuild checks, schemas, formatting, TypeScript and production build.
+
+## Ninth and tenth batches
+
+January/March/June 2000 starts were committed at `6d685968970958efe69c2d1422ac21cd5e2dc187`; December 2000, September 2001 and March 2003 at `679203e5c4daf05266b23528280fbd62860d94d9`. All six are complete. December TIME full articles were unavailable, so brief original issue-index summaries plus contemporary NASA and newspaper sources supply the news; this is disclosed in provenance. The date was not replaced. Thirty-seven scenarios are registered; thirteen selected dates remain.
+
+All 37 scenarios passed the combined check, including 146 tests, rebuilding, validation, schemas, formatting, TypeScript and production build.

@@ -1,0 +1,54 @@
+{
+  "scenario_id": "2003-03",
+  "events": [
+    {
+      "month": "2005-08",
+      "title": "Hurricane Katrina strikes",
+      "description": "The hurricane devastates Gulf Coast communities and creates an enormous need for rescue and recovery.",
+      "source_ids": ["katrina"]
+    },
+    {
+      "month": "2007-01",
+      "title": "Apple announces the iPhone",
+      "description": "The company presents a touchscreen device combining a phone, music player and internet functions.",
+      "source_ids": ["iphone"]
+    },
+    {
+      "month": "2008-03",
+      "title": "Bear Stearns faces a rescue deal",
+      "description": "The Federal Reserve approves financing for a deal involving the troubled investment bank and JPMorgan Chase.",
+      "source_ids": ["bear-financing"]
+    }
+  ],
+  "what_happened_next": {
+    "text": "The international share basket nearly tripled, leading this set. Costco more than doubled, while Merck lost value. Intel gained less than the broad US basket. The starting article’s hopeful investment ideas were opinions to examine, not instructions guaranteed to work.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-cost",
+      "yahoo-intc",
+      "yahoo-mrk",
+      "katrina",
+      "iphone",
+      "bear-financing"
+    ]
+  },
+  "reflection": {
+    "what_people_were_focused_on": "The Iraq invasion dominated attention. Some economists hoped less uncertainty would lift spending, while daily life and new products continued.",
+    "what_actually_mattered": "Company-specific risks still mattered. A dividend-paying medicine maker could lose money for its shareholders, while a broad foreign basket followed another path.",
+    "what_faded_away": "A confident wartime forecast did not tell you which investment would lead. Calling a stock a safe haven did not remove its risks.",
+    "what_nobody_knew": "Nobody knew the coming company surprises or financial stress. This window ends in March 2008, so later events are outside its return chart.",
+    "source_ids": [
+      "french-us",
+      "french-international",
+      "fred-gs5",
+      "yahoo-cost",
+      "yahoo-intc",
+      "yahoo-mrk",
+      "katrina",
+      "iphone",
+      "bear-financing"
+    ]
+  }
+}
