@@ -927,6 +927,8 @@ Replays outside the active first-time queue do not modify completed session stat
 
 ## 15. UI Implementation Phases
 
+Show negative investment-return or gain/loss values in red while keeping the numeric minus sign. Use color as an extra cue, and leave positive and zero values in the normal style.
+
 ### Phase 1 — Session setup and static scenario viewer
 
 Build:
