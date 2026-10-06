@@ -1,0 +1,167 @@
+{
+  "scenario_id": "1983-05",
+  "sources": [
+    {
+      "id": "news-1983-05-29",
+      "source_name": "TIME: The New Economy",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,926013,00.html",
+      "publication_date": "1983-05-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "news-1983-05-0",
+      "source_name": "TIME: Going Into the Trenches",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,925980,00.html",
+      "publication_date": "1983-05-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "news-1983-05-14",
+      "source_name": "TIME: Britain: Oof! Pow! Bam! Thwack!",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,925994,00.html",
+      "publication_date": "1983-05-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "news-1983-05-21",
+      "source_name": "TIME: Environment: Challenging Mount Etna's Power",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,926005,00.html",
+      "publication_date": "1983-05-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "news-1983-05-28",
+      "source_name": "TIME: Sport: Putting Four Cups on Ice",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,926010,00.html",
+      "publication_date": "1983-05-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "news-1983-05-39",
+      "source_name": "TIME: Cinema: Bigger Bangs for the Bucks",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,926020,00.html",
+      "publication_date": "1983-05-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring."
+    },
+    {
+      "id": "apple-lisa",
+      "source_name": "TIME: The Year of the Mouse",
+      "source_reference": "https://time.com/archive/6697610/computers-the-year-of-the-mouse/",
+      "publication_date": "1983-01-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original report on Apple’s Lisa, before its subsequent sales history."
+    },
+    {
+      "id": "disney-tokyo",
+      "source_name": "UPI: Disneyland opens Japanese style",
+      "source_reference": "https://www.upi.com/Archives/1983/04/15/Disneyland-opens-Japanese-style/1454419230800/",
+      "publication_date": "1983-04-15",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original opening-day report; Disney licenses the brand rather than owning this park."
+    },
+    {
+      "id": "spf-outlook",
+      "source_name": "ASA/NBER professional forecasts, 1983 Q2",
+      "source_reference": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/data-files/files/median_rgdp_growth.xlsx",
+      "publication_date": "1983-05-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Historical median forecast, DRGDP3 (next quarter annualized real-output growth). The current archive is retrospective. For pre-1990 surveys, the Philadelphia Fed documentation says original release timing is uncertain but broadly similar to the middle-month schedule. Month-end availability is an explicit approximation, not an asserted exact original release date. Forecasts are not actual future outcomes.",
+      "observation_date": "1983-05-31"
+    },
+    {
+      "id": "asof-macro-cpiaucsl",
+      "source_name": "Historical CPIAUCSL observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "publication_date": "1983-05-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1983-04-30"
+    },
+    {
+      "id": "asof-macro-unrate",
+      "source_name": "Historical UNRATE observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UNRATE",
+      "publication_date": "1983-05-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1983-04-30"
+    },
+    {
+      "id": "asof-macro-fedfunds",
+      "source_name": "Historical FEDFUNDS observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "publication_date": "1983-05-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1983-04-30"
+    },
+    {
+      "id": "asof-macro-gs10",
+      "source_name": "Historical GS10 observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/GS10",
+      "publication_date": "1983-05-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1983-04-30"
+    },
+    {
+      "id": "asof-macro-umcsent",
+      "source_name": "Historical UMCSENT observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UMCSENT",
+      "publication_date": "1983-05-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1983-04-30"
+    },
+    {
+      "id": "asof-macro-indpro",
+      "source_name": "Historical INDPRO observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/INDPRO",
+      "publication_date": "1983-05-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1983-04-30"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-market observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "publication_date": "1983-05-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying observations, not publication date of modern archives. Transparent Treasury and developed-market proxies; not exact contemporary database vintages.",
+      "observation_date": "1983-05-31"
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/1983-05/starting.json",
+      "publication_date": "1983-05-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying prices. Current retrospective adjusted-close reconstruction; the modern archive publication date is not asserted here.",
+      "observation_date": "1983-05-31"
+    }
+  ]
+}

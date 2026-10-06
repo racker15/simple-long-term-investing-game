@@ -1,0 +1,272 @@
+{
+  "scenario_id": "1983-05",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925980,00.html",
+      "title": "Going Into the Trenches"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925981,00.html",
+      "title": "Voting the Bankers' Way"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925982,00.html",
+      "title": "The Presidency by Hugh Sidey: The Buck Stops Here"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925983,00.html",
+      "title": "Playing It Loose at the Summit"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925984,00.html",
+      "title": "Cooling Off the Nuclear Debate"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925985,00.html",
+      "title": "Chapter Two"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925986,00.html",
+      "title": "FBI Foul-Ups"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925987,00.html",
+      "title": "Keeping the Company's Secrets"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925988,00.html",
+      "title": "High Profile"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925989,00.html",
+      "title": "Another Big-City Black Mayor?"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925990,00.html",
+      "title": "Power Play"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925991,00.html",
+      "title": "Crash of a Shooting Star"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925992,00.html",
+      "title": "Foul Play"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925993,00.html",
+      "title": "Middle East: No Cause for Celebration"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925994,00.html",
+      "title": "Britain: Oof! Pow! Bam! Thwack!"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925995,00.html",
+      "title": "The Alliance: More Options"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925996,00.html",
+      "title": "Poland: Young Martyr"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925997,00.html",
+      "title": "South Africa: Lost Weekend"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925998,00.html",
+      "title": "Suriname: A Country of Mutes"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925999,00.html",
+      "title": "North Korea: Inside the Hermit Kingdom"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926002,00.html",
+      "title": "Science: Bones, Baseball and Evolution"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926005,00.html",
+      "title": "Environment: Challenging Mount Etna's Power"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926004,00.html",
+      "title": "Bring Back The Parasol"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926008,00.html",
+      "title": "Living: A Boom in Mushrooms"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926009,00.html",
+      "title": "Living: Lord Yank"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926000,00.html",
+      "title": "Press: A Major Mea Culpa from Stern"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926001,00.html",
+      "title": "Press: Blue ... and Red"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926003,00.html",
+      "title": "Religion: The Nuclear Issue Gets Personal"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926010,00.html",
+      "title": "Sport: Putting Four Cups on Ice"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926013,00.html",
+      "title": "The New Economy"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926014,00.html",
+      "title": "A Boom in Low Tech and No Tech"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926015,00.html",
+      "title": "Best and Worst of Times"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926016,00.html",
+      "title": "Spin-Off"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926017,00.html",
+      "title": "Whoops Woes"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926006,00.html",
+      "title": "Education: Never Too Late"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926007,00.html",
+      "title": "Education: Dear Dad: Send Lots of Money"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926012,00.html",
+      "title": "Law: The New Women in Court"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926018,00.html",
+      "title": "Video: Innocent Abroad, with Feathers"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926019,00.html",
+      "title": "Show Business: In a Bunker on the Cote d'Azur"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926020,00.html",
+      "title": "Cinema: Bigger Bangs for the Bucks"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926021,00.html",
+      "title": "Cinema: Punk Spunk"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926022,00.html",
+      "title": "Cinema: Street Strut"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926023,00.html",
+      "title": "Books: The First Great Absurdist"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926024,00.html",
+      "title": "Books: Masquerades"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926025,00.html",
+      "title": "Books: Freeze-Out"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926026,00.html",
+      "title": "Fiction: Best Sellers: May 30, 1983"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926027,00.html",
+      "title": "Theater: Love and Loin"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926028,00.html",
+      "title": "Theater: Twits in Spats"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926030,00.html",
+      "title": "Milestones: May 30, 1983"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926011,00.html",
+      "title": "The All-American Wisecracker"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925978,00.html",
+      "title": "A Letter From The Publisher: May 30, 1983"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,925979,00.html",
+      "title": "Letters: May 30, 1983"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,926029,00.html",
+      "title": "Essay: Pacifism's Invisible Current"
+    }
+  ],
+  "selected_news": [29, 0, 14, 21, 28, 39],
+  "stock_candidates": [
+    {
+      "ticker": "IBM",
+      "selected": true,
+      "rationale": "A large computer company at the center of the shift toward high technology."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": true,
+      "rationale": "Its new Lisa computer uses a mouse to make computing easier."
+    },
+    {
+      "ticker": "TXN",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "INTC",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "XOM",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "KO",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "PEP",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "MCD",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "DIS",
+      "selected": true,
+      "rationale": "Tokyo Disneyland has opened, taking Disney’s park name overseas."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}

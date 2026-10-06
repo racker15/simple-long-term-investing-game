@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "scenario_id": "1980-03",
+    "date": "1980-03-31",
+    "display_date": "March 31, 1980",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "important",
+      "selection_reason": "Inflation and credit controls during the second oil-price shock."
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Credit controls shake financial markets",
+      "category": "Economy",
+      "summary": "President Carter’s anti-inflation plan makes borrowing harder. Businesses worry about both rising prices and a possible recession.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1980-03-27"]
+    },
+    {
+      "headline": "Carter and Reagan lead the nomination races",
+      "category": "US news",
+      "summary": "Both candidates look strong after the Illinois primary. Their rivals continue campaigning, and the conventions still lie ahead.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1980-03-0"]
+    },
+    {
+      "headline": "The Iran hostage crisis continues",
+      "category": "World",
+      "summary": "Americans remain held at the US embassy. Disputes inside Iran complicate efforts to resolve the crisis.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1980-03-11"]
+    },
+    {
+      "headline": "Scientists test a promising cancer treatment",
+      "category": "Science",
+      "summary": "Interferon has raised hopes, but researchers still need evidence about how well it works. Early promise is not a proven cure.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1980-03-22"]
+    },
+    {
+      "headline": "Cereal companies court grown-up eaters",
+      "category": "Business",
+      "summary": "Breakfast makers introduce bran and higher-fiber products as more adults buy cereal.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1980-03-30"]
+    },
+    {
+      "headline": "A piano trio celebrates 25 years",
+      "category": "Culture",
+      "summary": "The Beaux Arts Trio marks a long partnership built on listening closely and playing together.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1980-03-37"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (1980-02; approximate)",
+      "value": 14.2,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (1980-02; approximate)",
+      "value": 6.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (1980-02; approximate)",
+      "value": 14.1,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (1980-02; approximate)",
+      "value": 12.4,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (1980-02; approximate)",
+      "value": 66.9,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (1980-02; approximate)",
+      "value": 0.4,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "A quarterly survey of economists expects output to fall next quarter. Its middle forecast is a 2.5% annualized decline: the pace if that quarter’s change lasted a year.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:1980-03:ibm",
+      "company_name": "IBM",
+      "ticker": "IBM",
+      "description": "A major computer maker whose size has brought antitrust scrutiny.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["ibm-1979", "asof-stock-prices"],
+      "three_month": -0.12315033018831567,
+      "one_year": -0.2574846694301073
+    },
+    {
+      "id": "hot:1980-03:texas-instruments",
+      "company_name": "Texas Instruments",
+      "ticker": "TXN",
+      "description": "A chipmaker also competing in the new home-computer market.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["txn-1979", "asof-stock-prices"],
+      "three_month": -0.05399875244865715,
+      "one_year": -0.017291392772912917
+    },
+    {
+      "id": "hot:1980-03:exxon",
+      "company_name": "Exxon",
+      "ticker": "XOM",
+      "description": "Large oil profits have attracted attention and calls for a new tax.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["xom-1980", "asof-stock-prices"],
+      "three_month": 0.07023116201048007,
+      "one_year": 0.18140441595446477
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:1980-03:ibm",
+      "name": "IBM",
+      "description": "A major computer maker whose size has brought antitrust scrutiny.",
+      "source_ids": ["ibm-1979", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1980-03:texas-instruments",
+      "name": "Texas Instruments",
+      "description": "A chipmaker also competing in the new home-computer market.",
+      "source_ids": ["txn-1979", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1980-03:exxon",
+      "name": "Exxon",
+      "description": "Large oil profits have attracted attention and calls for a new tax.",
+      "source_ids": ["xom-1980", "asof-stock-prices"]
+    }
+  ],
+  "recent_returns": [
+    {
+      "asset_id": "cash",
+      "three_month": 0.02927655151999997,
+      "one_year": 0.11030403876200334,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "bonds",
+      "three_month": -0.08162614652408484,
+      "one_year": -0.060066679730110706,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "us_total",
+      "three_month": -0.06445640001999997,
+      "one_year": 0.0633229233493593,
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "asset_id": "international_ex_us",
+      "three_month": -0.06024669292000007,
+      "one_year": -0.005559293086873973,
+      "source_ids": ["asof-broad-proxies"]
+    }
+  ]
+}

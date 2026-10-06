@@ -1,0 +1,248 @@
+{
+  "scenario_id": "1981-08",
+  "stage": "Pre-outcome curation",
+  "news_candidates": [
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954927,00.html",
+      "title": "A Yankee Doodle Day"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954928,00.html",
+      "title": "The Presidency by Hugh Sidey: Chip on His Shoulder"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954929,00.html",
+      "title": "The Vulnerability Factor"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954930,00.html",
+      "title": "All the President's Teamsters"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954931,00.html",
+      "title": "Fear of Flying: FAA Acts to Calm the Jitters"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954932,00.html",
+      "title": "Blueprint for Fighting Crime"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954933,00.html",
+      "title": "Americana: Sting Gets Stung"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954934,00.html",
+      "title": "Americana: Knells for a Preppie Hotel: The Biltmore"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954935,00.html",
+      "title": "Americana: Nickel-Dime Raid"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954936,00.html",
+      "title": "Libya: Shootout over the Med"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954937,00.html",
+      "title": "Dedicated Troublemaker"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954938,00.html",
+      "title": "Middle East: The End of the U.S. Embargo"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954939,00.html",
+      "title": "Soviet Union: Trouble Down On the Farm"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954940,00.html",
+      "title": "Northern Ireland: A New Voice"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954941,00.html",
+      "title": "Poland: Pressing On"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954942,00.html",
+      "title": "South Africa: Terror and Repression"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954943,00.html",
+      "title": "Venezuela: Good Will from Petropower"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954944,00.html",
+      "title": "Environment: Black Friday, Then Brown Rot"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954961,00.html",
+      "title": "Medicine: Mother's Quest"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954962,00.html",
+      "title": "Medicine: A Son's Rite"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954926,00.html",
+      "title": "In South Dakota: Buffalo Burgers at Wall Drug"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954967,00.html",
+      "title": "Behavior: Corporations on the Couch"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954966,00.html",
+      "title": "Press: Survival Story"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954958,00.html",
+      "title": "Sport: Baseball's Sputtering Restart"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954959,00.html",
+      "title": "Sport: Flying Feet"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954960,00.html",
+      "title": "Sport: Football Booty"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954945,00.html",
+      "title": "OPEC's Geneva Debacle"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954946,00.html",
+      "title": "Heady Days for the Dollar"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954947,00.html",
+      "title": "Expense-Account Living for Less"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954948,00.html",
+      "title": "Lending Low"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954949,00.html",
+      "title": "Name Game"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954950,00.html",
+      "title": "A Greek Drama at the Polls"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954951,00.html",
+      "title": "Two-Career Conundrum"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954952,00.html",
+      "title": "Keys to Curbing Crime"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954953,00.html",
+      "title": "Armchair Air Controllers"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954968,00.html",
+      "title": "Education: Survivor of the Budget Cuts"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954955,00.html",
+      "title": "Life into Art: Novelist John Irving"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954963,00.html",
+      "title": "Art: When Europe Began in Naples"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954964,00.html",
+      "title": "Art: MOMA's Pope"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954965,00.html",
+      "title": "Show Business: Wizards of Goo and Gadgetry"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954969,00.html",
+      "title": "Theater: Still Loverly"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954970,00.html",
+      "title": "Cinema: Rushes: Aug. 31, 1981"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954957,00.html",
+      "title": "Milestones: Aug. 31, 1981"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954954,00.html",
+      "title": "People: Aug. 31, 1981"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954924,00.html",
+      "title": "A Letter From The Publisher: Aug. 31, 1981"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954925,00.html",
+      "title": "Letters: Aug. 31, 1981"
+    },
+    {
+      "url": "https://content.time.com/time/magazine/article/0,9171,954956,00.html",
+      "title": "Essay: Where Have All the Insults Gone?"
+    }
+  ],
+  "selected_news": [4, 9, 23, 26, 27, 39],
+  "stock_candidates": [
+    {
+      "ticker": "IBM",
+      "selected": true,
+      "rationale": "Its new personal computer brings a giant into the home-computer contest."
+    },
+    {
+      "ticker": "AAPL",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "TXN",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "INTC",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "XOM",
+      "selected": true,
+      "rationale": "The oil giant faces weaker demand and lower industry profits."
+    },
+    {
+      "ticker": "KO",
+      "selected": true,
+      "rationale": "Coke and Pepsi compete fiercely for buyers around the world."
+    },
+    {
+      "ticker": "PEP",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "GE",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "MCD",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    },
+    {
+      "ticker": "DIS",
+      "selected": false,
+      "rationale": "Alternative large technology, energy or consumer business; not selected for this three-story mix. No future return screen was used."
+    }
+  ],
+  "selection_basis": "Contemporary salience and reconstructability, not later investment winners. Repeated stocks and overlapping five-year windows are disclosed; these are not independent experiments."
+}
