@@ -1,0 +1,176 @@
+{
+  "scenario_id": "1987-10",
+  "sources": [
+    {
+      "id": "news-1987-10-0",
+      "source_name": "TIME: I Guess It's My Turn",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,965805,00.html",
+      "publication_date": "1987-10-26",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1987-10-10",
+      "source_name": "TIME: Central America Golden Opportunity for Don Oscar",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,965822,00.html",
+      "publication_date": "1987-10-26",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1987-10-20",
+      "source_name": "TIME: Living: Jeep Chic Shifts into High Four-wheelers are no longer just for macho men",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,965829,00.html",
+      "publication_date": "1987-10-26",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1987-10-21",
+      "source_name": "TIME: Sport: Internal Strife at the World Series",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,965828,00.html",
+      "publication_date": "1987-10-26",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1987-10-26",
+      "source_name": "TIME: MARKETING: Mini-Ads, Maxi-Revenue",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,965817,00.html",
+      "publication_date": "1987-10-26",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1987-10-42",
+      "source_name": "TIME: Inspiration and Originality: superconductors, molecules and gene theory",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,965827,00.html",
+      "publication_date": "1987-10-26",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "computer-rivals",
+      "source_name": "TIME: The Wall Comes Tumbling Down",
+      "source_reference": "https://time.com/archive/6708289/computers-the-wall-comes-tumbling-down/",
+      "publication_date": "1987-02-02",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary discussion of competition between IBM, Apple and compatible-computer makers."
+    },
+    {
+      "id": "sony-talks",
+      "source_name": "UPI: CBS, Sony in serious talks about sale of CBS records group",
+      "source_reference": "https://www.upi.com/Archives/1987/10/27/CBS-Sony-in-serious-talks-about-sale-of-CBS-records-group/1272562309200/",
+      "publication_date": "1987-10-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary report of talks, not a claim that the transaction has closed."
+    },
+    {
+      "id": "spf-outlook",
+      "source_name": "ASA/NBER professional forecasts, 1987 Q3",
+      "source_reference": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/data-files/files/median_rgdp_growth.xlsx",
+      "publication_date": "1987-08-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Historical median DRGDP3 forecast (quarter after the survey quarter). Pre-1990 original release timing is uncertain; middle-month end is modeled availability, not an asserted original archive date. Retrospective forecast archive, not actual outcomes.",
+      "observation_date": "1987-08-31"
+    },
+    {
+      "id": "asof-macro-cpiaucsl",
+      "source_name": "Historical CPIAUCSL observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "publication_date": "1987-10-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1987-09-30"
+    },
+    {
+      "id": "asof-macro-unrate",
+      "source_name": "Historical UNRATE observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UNRATE",
+      "publication_date": "1987-10-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1987-09-30"
+    },
+    {
+      "id": "asof-macro-fedfunds",
+      "source_name": "Historical FEDFUNDS observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "publication_date": "1987-10-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1987-09-30"
+    },
+    {
+      "id": "asof-macro-gs10",
+      "source_name": "Historical GS10 observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/GS10",
+      "publication_date": "1987-10-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1987-09-30"
+    },
+    {
+      "id": "asof-macro-umcsent",
+      "source_name": "Historical UMCSENT observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UMCSENT",
+      "publication_date": "1987-10-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1987-09-30"
+    },
+    {
+      "id": "asof-macro-indpro",
+      "source_name": "Historical INDPRO observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/INDPRO",
+      "publication_date": "1987-10-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1987-09-30"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-market observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "publication_date": "1987-10-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying observations, not publication date of modern archives. Transparent Treasury and developed-market proxies; not exact contemporary database vintages.",
+      "observation_date": "1987-10-31"
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/1987-10/starting.json",
+      "publication_date": "1987-10-31",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying prices. Current retrospective adjusted-close reconstruction; the modern archive publication date is not asserted here.",
+      "observation_date": "1987-10-31"
+    },
+    {
+      "id": "october-crash",
+      "source_name": "UPI News at a Glance",
+      "source_reference": "https://www.upi.com/Archives/1987/10/20/UPI-News-at-a-Glance/6499561700800/",
+      "publication_date": "1987-10-20",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary report of October 19’s 22.6% Dow fall and October 20’s partial recovery."
+    }
+  ]
+}

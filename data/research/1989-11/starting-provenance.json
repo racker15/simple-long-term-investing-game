@@ -1,0 +1,176 @@
+{
+  "scenario_id": "1989-11",
+  "sources": [
+    {
+      "id": "news-1989-11-0",
+      "source_name": "TIME: A Legal Bank Robbery",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,959094,00.html",
+      "publication_date": "1989-11-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1989-11-12",
+      "source_name": "TIME: A State, Not a Nation: East Germans",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,959096,00.html",
+      "publication_date": "1989-11-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1989-11-19",
+      "source_name": "TIME: Namibia The Doves Win",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,959131,00.html",
+      "publication_date": "1989-11-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1989-11-22",
+      "source_name": "TIME: Technology: Fax It To 'Em",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,959136,00.html",
+      "publication_date": "1989-11-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1989-11-25",
+      "source_name": "TIME: Science: Great Bubbles in the Cosmos",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,959123,00.html",
+      "publication_date": "1989-11-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "news-1989-11-40",
+      "source_name": "TIME: Making Up, Hollywood Style",
+      "source_reference": "https://content.time.com/time/magazine/article/0,9171,959128,00.html",
+      "publication_date": "1989-11-27",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Original contemporary report; short original paraphrase. Article body reviewed during scenario authoring. Date follows the original issue index. Some migrated web pages display a later 2005 archive date; that is not treated as the original issue date."
+    },
+    {
+      "id": "sony-columbia",
+      "source_name": "UPI: Sony completes Columbia takeover",
+      "source_reference": "https://www.upi.com/Archives/1989/11/07/Sony-completes-Columbia-takeover/2362626418000/",
+      "publication_date": "1989-11-07",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary transaction report."
+    },
+    {
+      "id": "coke-columbia-sale",
+      "source_name": "UPI: Columbia chairman praises Sony as new buyer",
+      "source_reference": "https://www.upi.com/Archives/1989/09/28/Columbia-chairman-praises-Sony-as-new-buyer/8295622958400/",
+      "publication_date": "1989-09-28",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary report of sale agreement, including Coca-Cola’s 49% stake."
+    },
+    {
+      "id": "exxon-spill",
+      "source_name": "UPI: Exxon Valdez tanker runs aground",
+      "source_reference": "https://www.upi.com/Archives/1989/03/24/The-tanker-Exxon-Valdez-trying-to-steer-clear-of/3012606718800/",
+      "publication_date": "1989-03-24",
+      "retrieved_at": "2026-10-06",
+      "approximation": false,
+      "notes": "Contemporary environmental-disaster report; avoid treating early spill-size estimates as final totals."
+    },
+    {
+      "id": "spf-outlook",
+      "source_name": "ASA/NBER professional forecasts, 1989 Q4",
+      "source_reference": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/survey-of-professional-forecasters/data-files/files/median_rgdp_growth.xlsx",
+      "publication_date": "1989-11-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Historical median DRGDP3 forecast (quarter after the survey quarter). Pre-1990 original release timing is uncertain; middle-month end is modeled availability, not an asserted original archive date. Retrospective forecast archive, not actual outcomes.",
+      "observation_date": "1989-11-30"
+    },
+    {
+      "id": "asof-macro-cpiaucsl",
+      "source_name": "Historical CPIAUCSL observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "publication_date": "1989-11-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1989-10-31"
+    },
+    {
+      "id": "asof-macro-unrate",
+      "source_name": "Historical UNRATE observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UNRATE",
+      "publication_date": "1989-11-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1989-10-31"
+    },
+    {
+      "id": "asof-macro-fedfunds",
+      "source_name": "Historical FEDFUNDS observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "publication_date": "1989-11-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1989-10-31"
+    },
+    {
+      "id": "asof-macro-gs10",
+      "source_name": "Historical GS10 observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/GS10",
+      "publication_date": "1989-11-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1989-10-31"
+    },
+    {
+      "id": "asof-macro-umcsent",
+      "source_name": "Historical UMCSENT observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/UMCSENT",
+      "publication_date": "1989-11-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1989-10-31"
+    },
+    {
+      "id": "asof-macro-indpro",
+      "source_name": "Historical INDPRO observations via FRED",
+      "source_reference": "https://fred.stlouisfed.org/series/INDPRO",
+      "publication_date": "1989-11-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Reconstructed historical context using the preceding calendar month, allowing normal publication lag. Date is modeled availability of underlying observations, NOT publication of the current FRED archive. Revised historical values may differ from the original release. Educational approximation; no future observations used.",
+      "observation_date": "1989-10-31"
+    },
+    {
+      "id": "asof-broad-proxies",
+      "source_name": "Reconstructed broad-market observations through cutoff",
+      "source_reference": "data/normalized/broad-assets/monthly-returns.json",
+      "publication_date": "1989-11-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying observations, not publication date of modern archives. Transparent Treasury and developed-market proxies; not exact contemporary database vintages.",
+      "observation_date": "1989-11-30"
+    },
+    {
+      "id": "asof-stock-prices",
+      "source_name": "Reconstructed adjusted stock observations through cutoff",
+      "source_reference": "data/normalized/stocks/1989-11/starting.json",
+      "publication_date": "1989-11-30",
+      "retrieved_at": "2026-10-06",
+      "approximation": true,
+      "notes": "Modeled availability of underlying prices. Current retrospective adjusted-close reconstruction; the modern archive publication date is not asserted here.",
+      "observation_date": "1989-11-30"
+    }
+  ]
+}

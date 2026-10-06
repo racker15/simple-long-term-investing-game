@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "yahoo-ba",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/BA/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/BA?period1=565315200&period2=599616000&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "BA",
+      "raw_path": "data/raw/stocks/1988-12/starting-BA.json",
+      "sha256": "e142c58d73f2cfe49a571febf52e3cf4125a2d794beed20135a6afea17573c77",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid trading-day adjusted close in each calendar month; adjacent ratio minus one. Includes vendor dividend/split adjustments; do not add dividends again. Retrospective reconstruction, not an original historical database vintage. Normalized endpoints are committed for reproducible offline calculations."
+    },
+    {
+      "id": "yahoo-ibm",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/IBM/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/IBM?period1=565315200&period2=599616000&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "IBM",
+      "raw_path": "data/raw/stocks/1988-12/starting-IBM.json",
+      "sha256": "d15073bc356034d9f39864015c2192a07f9b63e750661379c8a7d02587ab59fa",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid trading-day adjusted close in each calendar month; adjacent ratio minus one. Includes vendor dividend/split adjustments; do not add dividends again. Retrospective reconstruction, not an original historical database vintage. Normalized endpoints are committed for reproducible offline calculations."
+    },
+    {
+      "id": "yahoo-sony",
+      "source_name": "Yahoo Finance daily adjusted close, current chart snapshot",
+      "canonical_url": "https://finance.yahoo.com/quote/SONY/history/",
+      "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/SONY?period1=565315200&period2=599616000&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "series_id": "SONY",
+      "raw_path": "data/raw/stocks/1988-12/starting-SONY.json",
+      "sha256": "532973b16e465466a39b65ee4a64513a90c712373e332e8330b5d97475c27657",
+      "retrieved_at": "2026-10-06",
+      "transformation": "Last valid trading-day adjusted close in each calendar month; adjacent ratio minus one. Includes vendor dividend/split adjustments; do not add dividends again. Retrospective reconstruction, not an original historical database vintage. Normalized endpoints are committed for reproducible offline calculations."
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "scenario_id": "1989-01",
+    "date": "1989-01-31",
+    "display_date": "January 31, 1989",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "random",
+      "draw_universe": "calendar-month-ends-1980-2020-expansion-50-v1",
+      "random_seed": "simple-long-term-investing-game/50-scenarios/2026-10-06",
+      "draw_index": 19,
+      "method": "Preregistered FNV-1a/Mulberry32 unbiased draws without replacement from eligible month ends. Preserves six pilots; no outcome screening.",
+      "exclusions": [
+        "Exact duplicates of reserved important dates and retained random pilot dates",
+        "Genuine source or return-history unavailability only"
+      ],
+      "replacement_for": null
+    }
+  },
+  "headlines": [
+    {
+      "headline": "George H. W. Bush takes office",
+      "category": "US news",
+      "summary": "The new president calls for public service and cooperation as he begins his term.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1989-01-7"]
+    },
+    {
+      "headline": "Poland opens a path toward legalizing Solidarity",
+      "category": "World",
+      "summary": "Communist leaders propose talks and conditions for restoring the independent union. The outcome is still unsettled.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1989-01-17"]
+    },
+    {
+      "headline": "Panasonic agrees to customer refunds",
+      "category": "Business",
+      "summary": "A settlement addresses alleged pressure against discounting. The company admits no wrongdoing.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1989-01-30"]
+    },
+    {
+      "headline": "Oil prices rise as producers show restraint",
+      "category": "Economy",
+      "summary": "OPEC members are exceeding targets by less than expected. Crude prices have recovered from the autumn lows.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1989-01-32"]
+    },
+    {
+      "headline": "Economists rethink familiar formulas",
+      "category": "Economy",
+      "summary": "The long expansion and large deficits challenge simple predictions. Economists debate how to explain both at once.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1989-01-36"]
+    },
+    {
+      "headline": "A book tackles fear of numbers",
+      "category": "Culture",
+      "summary": "Innumeracy uses everyday examples to explain probability and common mistakes with numbers.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1989-01-38"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (1988-12; approximate)",
+      "value": 4.4,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (1988-12; approximate)",
+      "value": 5.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (1988-12; approximate)",
+      "value": 8.8,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (1988-12; approximate)",
+      "value": 9.1,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (1988-12; approximate)",
+      "value": 91.9,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (1988-12; approximate)",
+      "value": 2.8,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 3.6% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:1989-01:boeing",
+      "company_name": "Boeing",
+      "ticker": "BA",
+      "description": "The aircraft maker is handling a large backlog of new airline orders.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["airliner-orders", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1989-01:ibm",
+      "company_name": "IBM",
+      "ticker": "IBM",
+      "description": "The computer giant is refreshing its products while rivals challenge its position.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["ibm-improvement", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1989-01:exxon",
+      "company_name": "Exxon",
+      "ticker": "XOM",
+      "description": "A large oil producer in an industry watching a rebound in crude prices.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-1989-01-32", "asof-stock-prices"]
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:1989-01:boeing",
+      "name": "Boeing",
+      "description": "The aircraft maker is handling a large backlog of new airline orders.",
+      "source_ids": ["airliner-orders", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1989-01:ibm",
+      "name": "IBM",
+      "description": "The computer giant is refreshing its products while rivals challenge its position.",
+      "source_ids": ["ibm-improvement", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1989-01:exxon",
+      "name": "Exxon",
+      "description": "A large oil producer in an industry watching a rebound in crude prices.",
+      "source_ids": ["news-1989-01-32", "asof-stock-prices"]
+    }
+  ]
+}

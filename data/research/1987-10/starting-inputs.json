@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "scenario_id": "1987-10",
+    "date": "1987-10-31",
+    "display_date": "October 31, 1987",
+    "data_kind": "historical",
+    "selection": {
+      "mode": "important",
+      "selection_reason": "The October stock-market crash and the immediate policy response."
+    }
+  },
+  "headlines": [
+    {
+      "headline": "Nancy Reagan receives treatment for breast cancer",
+      "category": "US news",
+      "summary": "The first lady has surgery after a screening finds a small tumor. Her doctors report an encouraging outlook.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1987-10-0"]
+    },
+    {
+      "headline": "Oscar Arias wins the Nobel Peace Prize",
+      "category": "World",
+      "summary": "The Costa Rican president is recognized for his Central American peace plan. Difficult negotiations still lie ahead.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1987-10-10"]
+    },
+    {
+      "headline": "Four-wheel-drive vehicles move into the suburbs",
+      "category": "Business",
+      "summary": "Vehicles once associated with rough trails are attracting everyday city drivers as well.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1987-10-20"]
+    },
+    {
+      "headline": "An unusual World Series brings attention to Minnesota",
+      "category": "Sports",
+      "summary": "The Twins and Cardinals meet, with some games played indoors at the Metrodome.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1987-10-21"]
+    },
+    {
+      "headline": "Ads appear on video-rental boxes",
+      "category": "Business",
+      "summary": "Rental shops offer advertisers another place to reach viewers. Restaurants are among the businesses trying it.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1987-10-26"]
+    },
+    {
+      "headline": "Nobel prizes honor new scientific ideas",
+      "category": "Science",
+      "summary": "This year’s awards recognize advances in superconductors, designed molecules and understanding the immune system.",
+      "selection_note": "Selected for contemporary relevance and topic balance, before researching new outcome windows.",
+      "source_ids": ["news-1987-10-42"]
+    },
+    {
+      "headline": "Stock markets suffer a sudden crash",
+      "category": "Economy",
+      "summary": "The Dow falls 22.6% on October 19, then partly rebounds. Investors face great uncertainty about what comes next.",
+      "selection_note": "Contemporary context selected before outcome retrieval.",
+      "source_ids": ["october-crash"]
+    }
+  ],
+  "macro": [
+    {
+      "label": "Prices: rise over one year (1987-09; approximate)",
+      "value": 4.3,
+      "unit": "%",
+      "source_ids": ["asof-macro-cpiaucsl"]
+    },
+    {
+      "label": "People seeking work without a job (1987-09; approximate)",
+      "value": 5.9,
+      "unit": "%",
+      "source_ids": ["asof-macro-unrate"]
+    },
+    {
+      "label": "Short-term US interest rate (1987-09; approximate)",
+      "value": 7.2,
+      "unit": "%",
+      "source_ids": ["asof-macro-fedfunds"]
+    },
+    {
+      "label": "10-year US government bond yield (1987-09; approximate)",
+      "value": 9.4,
+      "unit": "%",
+      "source_ids": ["asof-macro-gs10"]
+    },
+    {
+      "label": "Consumer confidence (1987-09; approximate)",
+      "value": 93.6,
+      "unit": "index (1966 = 100)",
+      "source_ids": ["asof-macro-umcsent"]
+    },
+    {
+      "label": "Industrial output: change over one year (1987-09; approximate)",
+      "value": 6.7,
+      "unit": "%",
+      "source_ids": ["asof-macro-indpro"]
+    }
+  ],
+  "forecasts": [
+    {
+      "text": "The latest quarterly survey’s middle forecast expects about 2.9% growth for the quarter after that survey, at an annual pace. That means the pace if one quarter’s change lasted a year; it is a forecast, not a guarantee.",
+      "source_ids": ["spf-outlook"]
+    }
+  ],
+  "hot_stocks": [
+    {
+      "id": "hot:1987-10:ibm",
+      "company_name": "IBM",
+      "ticker": "IBM",
+      "description": "The computer giant faces competition from Apple and makers of compatible PCs.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["computer-rivals", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1987-10:mcdonalds",
+      "company_name": "McDonald’s",
+      "ticker": "MCD",
+      "description": "The restaurant chain is among advertisers trying space on video-rental boxes.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["news-1987-10-26", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1987-10:sony",
+      "company_name": "Sony",
+      "ticker": "SONY",
+      "description": "The electronics maker is in talks to buy a large record business. This is its US-traded share.",
+      "selection_rationale": "Selected from pre-cutoff company coverage and current public attention; no future performance used.",
+      "source_ids": ["sony-talks", "asof-stock-prices"]
+    }
+  ],
+  "asset_definitions": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Short-term US government bills: interest-bearing cash, not banknotes.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "description": "Loans to the US government. This example uses an intermediate-term Treasury estimate.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "us_total",
+      "name": "US Total Market",
+      "description": "Small pieces of many US companies, with dividends included.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "international_ex_us",
+      "name": "International ex-US",
+      "description": "Shares in developed-market companies outside the US, measured in dollars.",
+      "source_ids": ["asof-broad-proxies"]
+    },
+    {
+      "id": "hot:1987-10:ibm",
+      "name": "IBM",
+      "description": "The computer giant faces competition from Apple and makers of compatible PCs.",
+      "source_ids": ["computer-rivals", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1987-10:mcdonalds",
+      "name": "McDonald’s",
+      "description": "The restaurant chain is among advertisers trying space on video-rental boxes.",
+      "source_ids": ["news-1987-10-26", "asof-stock-prices"]
+    },
+    {
+      "id": "hot:1987-10:sony",
+      "name": "Sony",
+      "description": "The electronics maker is in talks to buy a large record business. This is its US-traded share.",
+      "source_ids": ["sony-talks", "asof-stock-prices"]
+    }
+  ]
+}
