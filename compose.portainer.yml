@@ -1,8 +1,0 @@
-services:
-  investing-game:
-    build:
-      context: .
-    pull_policy: build
-    restart: unless-stopped
-    ports:
-      - "8888:80"
