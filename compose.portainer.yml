@@ -1,0 +1,13 @@
+# Deploy from Portainer > Stacks > Add stack > Git repository.
+# Compose path (relative to repository root): compose.portainer.yml
+services:
+  investing-game:
+    image: simple-long-term-investing-game:portainer
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # Rebuild from the checked-out Git revision on Compose redeployment.
+    pull_policy: build
+    ports:
+      - "${INVESTING_GAME_PORT:-8080}:80"
+    restart: unless-stopped
