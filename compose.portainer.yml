@@ -1,0 +1,7 @@
+services:
+  investing-game:
+    image: investing-game:v1
+    pull_policy: build
+    restart: unless-stopped
+    ports:
+      - "8888:80"
