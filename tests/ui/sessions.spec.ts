@@ -11,6 +11,20 @@ import { percent } from '../../app/src/lib/format';
 import { finishReplay } from './replay-helpers';
 import { test, expect, type Page } from '@playwright/test';
 const key = 'investing-game:historical-history:v1';
+test('begin session works without secure-context randomUUID', async ({ page }) => {
+  // Simulate a LAN HTTP origin, where randomUUID is absent but getRandomValues works.
+  await page.addInitScript(() => {
+    Object.defineProperty(window.crypto, 'randomUUID', {
+      configurable: true,
+      value: undefined,
+    });
+  });
+  await page.goto('/');
+  expect(await page.evaluate(() => typeof crypto.randomUUID)).toBe('undefined');
+  await page.getByRole('button', { name: 'Begin session' }).click();
+  await expect(page.getByText('Scenario 1 of 10', { exact: true })).toBeVisible();
+});
+
 async function invest(page: Page) {
   await page.getByRole('radio', { name: 'Cash', exact: true }).check();
   await page.getByRole('button', { name: 'Review decision' }).click();
