@@ -54,7 +54,7 @@
   "hot_stock_outcomes": [
     {
       "asset_id": "hot:2012-03:apple",
-      "text": "Apple kept turning its large customer base into sales of iPhones, Macs, watches and services. The holiday quarter ended December 2016 brought record revenue of $78.4 billion, with records across those product groups. Apple also returned money through dividends and share buybacks. Those earnings and cash payments helped the investment grow, although product sales did not rise smoothly every quarter.",
+      "text": "Apple kept turning its large customer base into sales of iPhones, Macs, watches and services. The holiday quarter ended December 2016 brought record revenue of $78.4 billion, with records across those product groups. Apple also paid cash to shareholders and bought back some of its shares. The investment grew, although product sales did not rise smoothly every quarter.",
       "source_ids": ["hot-apple-q32016", "hot-apple-q12017", "yahoo-aapl"]
     },
     {

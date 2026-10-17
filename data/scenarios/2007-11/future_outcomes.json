@@ -54,7 +54,7 @@
   "hot_stock_outcomes": [
     {
       "asset_id": "hot:2007-11:amazon",
-      "text": "Amazon kept attracting shoppers and introduced the Kindle Fire tablet in 2011. Annual sales jumped 41% that year to $48 billion, but profit fell as the business expanded. It even reported a loss in the quarter ended September 2012. The shares still rose strongly: investors were paying for a much larger business and the hope of future profits, despite uneven earnings along the way.",
+      "text": "Amazon kept attracting shoppers and introduced the Kindle Fire tablet in 2011. Annual sales jumped 41% that year to $48 billion, but profit fell as the business expanded. It even reported a loss in the quarter ended September 2012. The shares still rose strongly, even though the much larger business had uneven earnings.",
       "source_ids": ["hot-amazon-fy2011", "hot-amazon-q32012", "yahoo-amzn"]
     },
     {

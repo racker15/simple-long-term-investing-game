@@ -74,7 +74,7 @@
     },
     {
       "asset_id": "hot:2020-01:tesla",
-      "text": "Tesla expanded far beyond its early scale. Annual deliveries grew from about 500,000 vehicles in 2020 to nearly 1.8 million in 2024, and its battery-storage business also grew. The final year was tougher: car deliveries slipped and operating profit fell. Its very large stock gain therefore combined real business growth with high hopes for future products and profits, even when recent results weakened.",
+      "text": "Tesla expanded far beyond its early scale. Annual deliveries grew from about 500,000 vehicles in 2020 to nearly 1.8 million in 2024, and its battery-storage business also grew. The final year was tougher: car deliveries slipped and profit from running the business fell. The investment still finished far ahead, even though car deliveries and profits weakened near the end.",
       "source_ids": ["hot-tesla-fy2020", "hot-tesla-fy2024", "yahoo-tsla"]
     },
     {

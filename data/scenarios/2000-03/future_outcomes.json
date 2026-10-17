@@ -61,7 +61,7 @@
   "hot_stock_outcomes": [
     {
       "asset_id": "hot:2000-03:cisco",
-      "text": "Cisco began this window near the height of internet-stock excitement. Customer orders then collapsed, leaving equipment and parts it could not sell as expected. A $2.2 billion inventory charge helped create a large quarterly loss in 2001. Annual profit recovered to $4.4 billion in 2004, but that recovery could not undo the huge drop from the stock’s boom-time price.",
+      "text": "Cisco began this window near the height of internet-stock excitement. Customer orders then collapsed, leaving equipment and parts it could not sell as expected. In 2001, Cisco cut the recorded value of those unsold goods by $2.2 billion, helping create a large quarterly loss. Annual profit recovered to $4.4 billion in 2004, but that recovery could not undo the huge drop from the stock’s boom-time price.",
       "source_ids": [
         "hot-cisco-2001-q3",
         "hot-cisco-2004-results",

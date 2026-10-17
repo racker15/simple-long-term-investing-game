@@ -63,7 +63,7 @@
   "hot_stock_outcomes": [
     {
       "asset_id": "hot:2016-02:apple",
-      "text": "Apple began this period with slowing sales, but its iPhone, services and wearables businesses later reached new records. The holiday quarter ended December 2020 brought $111.4 billion in sales, up 21% from a year earlier, while earnings per share rose 35%. That return to strong growth helped support the shares, alongside a larger business earning money from both devices and ongoing services.",
+      "text": "Apple began this period with slowing sales, but its iPhone, services and wearables businesses later reached new records. The holiday quarter ended December 2020 brought $111.4 billion in sales, up 21% from a year earlier, while profit for each share rose 35%. That return to strong growth helped support the shares, alongside a larger business earning money from both devices and ongoing services.",
       "source_ids": ["hot-apple-q32016", "hot-apple-q12021", "yahoo-aapl"]
     },
     {

@@ -59,12 +59,12 @@
     },
     {
       "asset_id": "hot:2011-08:bank-of-america",
-      "text": "Bank of America spent years dealing with problems left by the housing crash. In 2014 it agreed to a $16.65 billion mortgage settlement, including help for borrowers. As legal costs fell, annual profit recovered to $15.9 billion in 2015. The shares benefited as investors saw the bank move past some expensive problems, though cleaning them up took much of this five-year period.",
+      "text": "Bank of America spent years dealing with problems left by the housing crash. In 2014 it agreed to a $16.65 billion mortgage settlement, including help for borrowers. As legal costs fell, annual profit recovered to $15.9 billion in 2015. The shares finished higher as the bank moved past some expensive problems, though cleaning them up took much of this five-year period.",
       "source_ids": ["hot-bofa-settlement2014", "hot-bofa-fy2015", "yahoo-bac"]
     },
     {
       "asset_id": "hot:2011-08:microsoft",
-      "text": "Microsoft built a growing business renting software and computing power over the internet. In the quarter ended June 2016, Office 365 business revenue rose 54%, and Azure revenue more than doubled. Its phone business was shrinking sharply at the same time. The growing cloud and subscription businesses gave investors new reasons for optimism beyond Windows, helping support the stock’s strong gain.",
+      "text": "Microsoft built a growing business renting software and computing power over the internet. In the quarter ended June 2016, Office 365 business revenue rose 54%, and Azure revenue more than doubled. Its phone business was shrinking sharply at the same time. These businesses gave Microsoft sources of growth beyond Windows during a period of strong stock gains.",
       "source_ids": ["hot-microsoft-q42016", "yahoo-msft"]
     }
   ]

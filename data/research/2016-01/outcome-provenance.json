@@ -100,6 +100,16 @@
       "approximation": false,
       "notes": "Tesla delivered roughly 500,000 vehicles in 2020 and earned $721 million attributable to common shareholders, its first full-year GAAP profit. Regulatory-credit revenue was $1.58 billion. Model Y deliveries began in 2020, while Model 3 and Shanghai production expanded.",
       "observation_date": "2020-12-31"
+    },
+    {
+      "id": "hot-tesla-2020-credit-rules",
+      "source_name": "Tesla: 2020 annual report and automotive regulatory credits",
+      "source_reference": "https://ir.tesla.com/_flysystem/s3/sec/000156459021004599/tsla-10k_20201231-gen.pdf",
+      "publication_date": "2021-02-08",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "The 2020 annual report explains that Tesla earns tradable credits under emissions and fuel-economy rules and sells them to other regulated entities for compliance. This report was published after the January 2021 scenario endpoint; it supports the description of the credit business operating in 2020, not an in-window announcement.",
+      "observation_date": "2020-12-31"
     }
   ]
 }

@@ -68,12 +68,12 @@
   "hot_stock_outcomes": [
     {
       "asset_id": "hot:2000-06:microsoft",
-      "text": "Microsoft grew after the technology-stock slump. By the year ending June 2005, annual sales reached $39.79 billion and profit reached $12.25 billion. Businesses bought more SQL Server software, and Xbox sales also grew. Microsoft returned cash through dividends and share buybacks, yet the investment still finished below its June 2000 value because the starting share price had been so high.",
+      "text": "Microsoft grew after the technology-stock slump. By the year ending June 2005, annual sales reached $39.79 billion and profit reached $12.25 billion. Businesses bought more SQL Server software, and Xbox sales also grew. Microsoft paid cash to shareholders and bought back some of its shares. Even so, the investment finished below its June 2000 value.",
       "source_ids": ["hot-msft-2005-results", "yahoo-msft"]
     },
     {
       "asset_id": "hot:2000-06:cisco",
-      "text": "Cisco’s customers cut technology spending sharply in 2001. Cisco had bought too many parts for demand that failed to arrive, so it recorded a $2.2 billion inventory charge. Sales later recovered to $22 billion in the year ending July 2004, with $4.4 billion in profit. The company recovered faster than its share price, which remained far below the 2000 level.",
+      "text": "Cisco’s customers cut technology spending sharply in 2001. Cisco had bought too many parts for orders that never came. It cut their recorded value by $2.2 billion. Sales later recovered to $22 billion in the year ending July 2004, with $4.4 billion in profit. The company recovered faster than its share price, which remained far below the 2000 level.",
       "source_ids": [
         "hot-cisco-2001-q3",
         "hot-cisco-2004-results",

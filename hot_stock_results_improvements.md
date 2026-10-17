@@ -89,7 +89,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Coca-Cola launched Diet Coke in July 1982, and it became America’s leading diet soft drink by the end of 1983. Another launch went badly: customers rejected New Coke in 1985, so the original formula returned that July. A successful new drink and a quick response to an unpopular change shaped these years of strong investment gains.
+> Coca-Cola launched Diet Coke in July 1982, and it became America’s leading diet soft drink by the end of 1983. Another launch went badly: customers rejected New Coke in 1985, so the original formula returned that July. The investment grew strongly over these five years, despite the unpopular change to its original drink.
 
 **Original `known_at_start` description:**
 
@@ -138,7 +138,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Coca-Cola launched Diet Coke in July 1982, and it became America’s leading diet soft drink by the end of 1983. Another launch went badly: customers rejected New Coke in 1985, so the original formula returned that July. A successful new drink and a quick response to an unpopular change shaped these years of strong investment gains.
+> Coca-Cola launched Diet Coke in July 1982, and it became America’s leading diet soft drink by the end of 1983. Another launch went badly: customers rejected New Coke in 1985, so the original formula returned that July. The investment grew strongly over these five years, despite the unpopular change to its original drink.
 
 **Original `known_at_start` description:**
 
@@ -726,7 +726,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Coca-Cola kept reaching drinkers around the world. In 1993, the amount of drinks it sold grew 5%, and markets outside the United States supplied 79% of its operating profit. This was a growing global business behind a large investment gain. The familiar American brand was earning much of its money abroad.
+> Coca-Cola kept reaching drinkers around the world. In 1993, it sold 5% more drinks. Markets outside the United States supplied 79% of its profit from running the business. This was a growing global business behind a large investment gain. The familiar American brand was earning much of its money abroad.
 
 **Original `known_at_start` description:**
 
@@ -1348,7 +1348,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Microsoft kept selling more software after the technology boom cooled. Strong Office and Windows Server demand helped annual sales reach $36.84 billion by June 2004, with $8.17 billion in profit. Legal settlements and a European competition fine added costs. The business was profitable, but the shares still fell from a starting price that reflected very high hopes for technology.
+> Microsoft kept selling more software after the technology boom cooled. Strong Office and Windows Server demand helped annual sales reach $36.84 billion by June 2004, with $8.17 billion in profit. Legal settlements and a European competition fine added costs. The business stayed profitable, yet an investment made during the 1999 technology boom still ended with a loss.
 
 **Original `known_at_start` description:**
 
@@ -1363,7 +1363,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Companies cut orders for Cisco’s internet equipment as the technology boom ended. In 2001, Cisco had to write down $2.2 billion of excess parts and products, helping turn one quarter into a large loss. Business later improved: annual profit reached $4.4 billion in 2004. That recovery still did not bring the shares back to their optimistic 1999 starting price.
+> Companies cut orders for Cisco’s internet equipment as the technology boom ended. In 2001, Cisco cut the recorded value of unsold parts and products by $2.2 billion, helping turn one quarter into a large loss. Business later improved: annual profit reached $4.4 billion in 2004. That recovery still did not bring the shares back to their 1999 starting price.
 
 **Original `known_at_start` description:**
 
@@ -1446,7 +1446,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Cisco began this window near the height of internet-stock excitement. Customer orders then collapsed, leaving equipment and parts it could not sell as expected. A $2.2 billion inventory charge helped create a large quarterly loss in 2001. Annual profit recovered to $4.4 billion in 2004, but that recovery could not undo the huge drop from the stock’s boom-time price.
+> Cisco began this window near the height of internet-stock excitement. Customer orders then collapsed, leaving equipment and parts it could not sell as expected. In 2001, Cisco cut the recorded value of those unsold goods by $2.2 billion, helping create a large quarterly loss. Annual profit recovered to $4.4 billion in 2004, but that recovery could not undo the huge drop from the stock’s boom-time price.
 
 **Original `known_at_start` description:**
 
@@ -1495,7 +1495,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Microsoft grew after the technology-stock slump. By the year ending June 2005, annual sales reached $39.79 billion and profit reached $12.25 billion. Businesses bought more SQL Server software, and Xbox sales also grew. Microsoft returned cash through dividends and share buybacks, yet the investment still finished below its June 2000 value because the starting share price had been so high.
+> Microsoft grew after the technology-stock slump. By the year ending June 2005, annual sales reached $39.79 billion and profit reached $12.25 billion. Businesses bought more SQL Server software, and Xbox sales also grew. Microsoft paid cash to shareholders and bought back some of its shares. Even so, the investment finished below its June 2000 value.
 
 **Original `known_at_start` description:**
 
@@ -1510,7 +1510,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Cisco’s customers cut technology spending sharply in 2001. Cisco had bought too many parts for demand that failed to arrive, so it recorded a $2.2 billion inventory charge. Sales later recovered to $22 billion in the year ending July 2004, with $4.4 billion in profit. The company recovered faster than its share price, which remained far below the 2000 level.
+> Cisco’s customers cut technology spending sharply in 2001. Cisco had bought too many parts for orders that never came. It cut their recorded value by $2.2 billion. Sales later recovered to $22 billion in the year ending July 2004, with $4.4 billion in profit. The company recovered faster than its share price, which remained far below the 2000 level.
 
 **Original `known_at_start` description:**
 
@@ -1574,7 +1574,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Microsoft expanded beyond Windows and Office while its main software businesses kept producing cash. By June 2005, annual sales reached $39.79 billion, helped by server software and Xbox growth. The company also returned $44 billion to shareholders through dividends and share buybacks during that financial year. Growing earnings and cash payments helped this later starting point finish with a gain.
+> Microsoft expanded beyond Windows and Office while its main software businesses kept producing cash. By June 2005, annual sales reached $39.79 billion, helped by server software and Xbox growth. That year, it spent $44 billion paying cash to shareholders and buying back some of its shares. The business grew, and the investment finished with a gain.
 
 **Original `known_at_start` description:**
 
@@ -1608,7 +1608,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Microsoft found growth in business software and games. Demand for SQL Server 2005 and the Xbox 360 helped annual sales reach $44.28 billion by June 2006, with $12.60 billion in profit. It had also returned substantial cash through dividends and share buybacks in 2005. These growing businesses and payments supported a positive, though far from spectacular, five-year stock result.
+> Microsoft found growth in business software and games. Demand for SQL Server 2005 and the Xbox 360 helped annual sales reach $44.28 billion by June 2006, with $12.60 billion in profit. It had also paid cash to shareholders and bought back some of its shares in 2005. The investment grew over five years, but its gains were modest.
 
 **Original `known_at_start` description:**
 
@@ -1853,7 +1853,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Office 2010 gave businesses a reason to buy updated software. In the quarter ended March 2012, Microsoft’s business-software sales rose 9%, while Windows sales also grew. Total operating profit rose 12%. Microsoft remained a profitable company through the recession, but its shares posted only a modest gain. Steady software earnings did not produce the explosive growth seen in some new mobile products.
+> Office 2010 gave businesses a reason to buy updated software. In the quarter ended March 2012, Microsoft’s business-software sales rose 9%, while Windows sales also grew. Total profit from running the business rose 12%. Microsoft remained a profitable company through the recession, but its shares posted only a modest gain. Steady software earnings did not produce the explosive growth seen in some new mobile products.
 
 **Original `known_at_start` description:**
 
@@ -1936,7 +1936,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Amazon kept attracting shoppers and introduced the Kindle Fire tablet in 2011. Annual sales jumped 41% that year to $48 billion, but profit fell as the business expanded. It even reported a loss in the quarter ended September 2012. The shares still rose strongly: investors were paying for a much larger business and the hope of future profits, despite uneven earnings along the way.
+> Amazon kept attracting shoppers and introduced the Kindle Fire tablet in 2011. Annual sales jumped 41% that year to $48 billion, but profit fell as the business expanded. It even reported a loss in the quarter ended September 2012. The shares still rose strongly, even though the much larger business had uneven earnings.
 
 **Original `known_at_start` description:**
 
@@ -2064,7 +2064,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Amazon expanded from online shopping and Kindle readers into a bigger mix of services. By 2013, Prime had tens of millions of members and annual sales reached $74.5 billion. Yet annual profit was only $274 million after a loss in 2012. The shares rose much faster than current profits as investors expected Amazon’s growing customer base and new services to pay off later.
+> Amazon expanded from online shopping and Kindle readers into a bigger mix of services. By 2013, Prime had tens of millions of members and annual sales reached $74.5 billion. Yet annual profit was only $274 million after a loss in 2012. The shares rose strongly while Amazon gained customers and added services, even though its profits remained small.
 
 **Original `known_at_start` description:**
 
@@ -2098,7 +2098,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Bank of America spent years dealing with problems left by the housing crash. In 2014 it agreed to a $16.65 billion mortgage settlement, including help for borrowers. As legal costs fell, annual profit recovered to $15.9 billion in 2015. The shares benefited as investors saw the bank move past some expensive problems, though cleaning them up took much of this five-year period.
+> Bank of America spent years dealing with problems left by the housing crash. In 2014 it agreed to a $16.65 billion mortgage settlement, including help for borrowers. As legal costs fell, annual profit recovered to $15.9 billion in 2015. The shares finished higher as the bank moved past some expensive problems, though cleaning them up took much of this five-year period.
 
 **Original `known_at_start` description:**
 
@@ -2113,7 +2113,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Microsoft built a growing business renting software and computing power over the internet. In the quarter ended June 2016, Office 365 business revenue rose 54%, and Azure revenue more than doubled. Its phone business was shrinking sharply at the same time. The growing cloud and subscription businesses gave investors new reasons for optimism beyond Windows, helping support the stock’s strong gain.
+> Microsoft built a growing business renting software and computing power over the internet. In the quarter ended June 2016, Office 365 business revenue rose 54%, and Azure revenue more than doubled. Its phone business was shrinking sharply at the same time. These businesses gave Microsoft sources of growth beyond Windows during a period of strong stock gains.
 
 **Original `known_at_start` description:**
 
@@ -2132,7 +2132,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Apple kept turning its large customer base into sales of iPhones, Macs, watches and services. The holiday quarter ended December 2016 brought record revenue of $78.4 billion, with records across those product groups. Apple also returned money through dividends and share buybacks. Those earnings and cash payments helped the investment grow, although product sales did not rise smoothly every quarter.
+> Apple kept turning its large customer base into sales of iPhones, Macs, watches and services. The holiday quarter ended December 2016 brought record revenue of $78.4 billion, with records across those product groups. Apple also paid cash to shareholders and bought back some of its shares. The investment grew, although product sales did not rise smoothly every quarter.
 
 **Original `known_at_start` description:**
 
@@ -2196,7 +2196,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Tesla grew into a much bigger carmaker, delivering over 100,000 vehicles in 2017. It also began making the Model 3, aimed at reaching more buyers. But battery-production problems slowed the launch, and Tesla still reported a loss of about $2 billion that year. The stock’s gain reflected a growing business and hopes for future mass production, while reliable profits were still unproven.
+> Tesla grew into a much bigger carmaker, delivering over 100,000 vehicles in 2017. It also began making the Model 3, aimed at reaching more buyers. But battery-production problems slowed the launch, and Tesla still reported a loss of about $2 billion that year. The shares rose strongly even though steady profits were still unproven.
 
 **Original `known_at_start` description:**
 
@@ -2211,7 +2211,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Apple’s iPhone business kept growing, while services and wearables added more sales. By the quarter ended March 2018, revenue was up 16% from a year earlier to $61.1 billion. The iPhone X was its best-selling phone throughout that quarter. Apple also increased its dividend and announced another $100 billion for share buybacks, sharing some of its large cash earnings with investors.
+> Apple’s iPhone business kept growing, while services and wearables added more sales. By the quarter ended March 2018, revenue was up 16% from a year earlier to $61.1 billion. The iPhone X was its best-selling phone throughout that quarter. Apple also increased its cash payments to shareholders and announced another $100 billion to buy back some of its shares.
 
 **Original `known_at_start` description:**
 
@@ -2230,7 +2230,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Disney gained a new growth story with Disney+, which reached nearly 87 million paid subscriptions by December 2020. That success arrived while COVID-19 closed parks and disrupted movie releases, badly hurting its older businesses. The shares still finished higher as investors looked toward streaming growth and reopening. The stock’s gain therefore included hopes for recovery as well as a successful new service.
+> Disney gained a new growth story with Disney+, which reached nearly 87 million paid subscriptions by December 2020. That success arrived while COVID-19 closed parks and disrupted movie releases, badly hurting its older businesses. Its shares still finished higher. Disney had built a popular new service, but the pandemic left its other businesses facing a difficult recovery.
 
 **Original `known_at_start` description:**
 
@@ -2260,13 +2260,14 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Tesla expanded production of the Model 3 and added the Model Y in 2020. It delivered about 500,000 vehicles that year and recorded its first full-year profit, helped by selling emissions credits to other carmakers. Those were major steps toward a larger car business. The enormous stock gain also reflected investors’ hopes for much more growth, beyond the profits Tesla had already earned.
+> Tesla made more Model 3 cars and added the Model Y in 2020. It delivered about 500,000 vehicles that year and earned its first annual profit. Selling credits that other carmakers used to meet pollution rules helped its earnings. The shares rose enormously, while future profits remained uncertain.
 
 **Original `known_at_start` description:**
 
 > The electric-car maker is adding Model X and preparing to show its next model.
 
-**Business-source references:** [183](#source-183)  
+**Business-source references:** [183](#source-183), [201](#source-201)
+
 **Existing return-series reference(s):** [177](#source-177)
 
 ### 2016-02 — decision date 2016-02-29 through final return month 2021-02
@@ -2279,7 +2280,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Apple began this period with slowing sales, but its iPhone, services and wearables businesses later reached new records. The holiday quarter ended December 2020 brought $111.4 billion in sales, up 21% from a year earlier, while earnings per share rose 35%. That return to strong growth helped support the shares, alongside a larger business earning money from both devices and ongoing services.
+> Apple began this period with slowing sales, but its iPhone, services and wearables businesses later reached new records. The holiday quarter ended December 2020 brought $111.4 billion in sales, up 21% from a year earlier, while profit for each share rose 35%. That return to strong growth helped support the shares, alongside a larger business earning money from both devices and ongoing services.
 
 **Original `known_at_start` description:**
 
@@ -2328,7 +2329,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Nintendo’s Switch and Animal Crossing: New Horizons became popular ways to play during the pandemic. In the year ended March 2021, Switch sales rose 37% and operating profit rose 82%. New hits kept the business going: Zelda: Tears of the Kingdom sold 19.5 million copies by September 2023, and the Mario movie brought in more money from Nintendo’s characters. Those successes supported the shares.
+> Nintendo’s Switch and Animal Crossing: New Horizons became popular ways to play during the pandemic. In the year ended March 2021, Switch sales rose 37% and profit from running the business rose 82%. New hits kept the business going: Zelda: Tears of the Kingdom sold 19.5 million copies by September 2023, and the Mario movie brought in more money from Nintendo’s characters. Those successes supported the shares.
 
 **Original `known_at_start` description:**
 
@@ -2343,7 +2344,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Apple’s devices and services produced a huge holiday quarter in 2020, with revenue reaching $111.4 billion. Growth later cooled: sales fell slightly in the quarter ended September 2023. Yet services set another sales record, and Apple returned nearly $25 billion through dividends and buybacks that quarter. Its large stock gain reflected both its profitable customer base and investors’ expectations for future earnings.
+> Apple’s devices and services produced a huge holiday quarter in 2020, with revenue reaching $111.4 billion. Growth later cooled: sales fell slightly in the quarter ended September 2023. Yet services set another sales record, and Apple spent nearly $25 billion paying cash to shareholders and buying back shares that quarter. The investment finished far ahead, even as sales growth slowed near the end.
 
 **Original `known_at_start` description:**
 
@@ -2358,7 +2359,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Microsoft grew as businesses paid for Azure computing services and Office subscriptions. Its annual revenue reached $211.9 billion in the year ended June 2023. Even with weak personal-computer sales, Azure and other cloud revenue grew 26% in that final quarter. Cloud profits and the company’s move into new AI tools gave investors reasons to expect more growth, helping support the strong share-price rise.
+> Microsoft grew as businesses paid for Azure computing services and Office subscriptions. Its annual revenue reached $211.9 billion in the year ended June 2023. Even with weak personal-computer sales, Azure and other cloud revenue grew 26% in that final quarter. Its cloud business grew, and the company began adding new AI tools. The investment finished far ahead.
 
 **Original `known_at_start` description:**
 
@@ -2392,7 +2393,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Tesla expanded far beyond its early scale. Annual deliveries grew from about 500,000 vehicles in 2020 to nearly 1.8 million in 2024, and its battery-storage business also grew. The final year was tougher: car deliveries slipped and operating profit fell. Its very large stock gain therefore combined real business growth with high hopes for future products and profits, even when recent results weakened.
+> Tesla expanded far beyond its early scale. Annual deliveries grew from about 500,000 vehicles in 2020 to nearly 1.8 million in 2024, and its battery-storage business also grew. The final year was tougher: car deliveries slipped and profit from running the business fell. The investment still finished far ahead, even though car deliveries and profits weakened near the end.
 
 **Original `known_at_start` description:**
 
@@ -2441,7 +2442,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Online shopping surged during the pandemic: Amazon’s sales rose 40% in the quarter ended June 2020. Over the following years, cloud computing and a more efficient delivery network helped turn growth into much bigger profits. In 2024, Amazon earned $59.2 billion, nearly twice its 2023 profit. AWS alone produced $39.8 billion in operating profit, showing why Amazon’s business was about more than shopping.
+> Online shopping surged during the pandemic: Amazon’s sales rose 40% in the quarter ended June 2020. Over the following years, cloud computing and a more efficient delivery network helped turn growth into much bigger profits. In 2024, Amazon earned $59.2 billion, nearly twice its 2023 profit. AWS alone produced $39.8 billion in profit from running the business, showing why Amazon’s business was about more than shopping.
 
 **Original `known_at_start` description:**
 
@@ -2456,7 +2457,7 @@ Return observations cover the 60 consecutive months after the starting month and
 
 **Proposed future-only summary (exact JSON text):**
 
-> Netflix found new ways to earn money from its audience. It launched a cheaper plan with advertisements in November 2022, then expanded charges for sharing accounts outside a household in 2023. By the end of 2024, it had over 300 million paid memberships. Annual revenue grew 16% and operating profit passed $10 billion, giving the stock’s rise support from stronger business results.
+> Netflix found new ways to earn money from its audience. It launched a cheaper plan with advertisements in November 2022, then expanded charges for sharing accounts outside a household in 2023. By the end of 2024, it had over 300 million paid memberships. Annual revenue grew 16% and profit from running the business passed $10 billion, giving the stock’s rise support from stronger business results.
 
 **Original `known_at_start` description:**
 
@@ -3674,12 +3675,24 @@ Return observations cover the 60 consecutive months after the starting month and
 - Source IDs: `yahoo-nflx`
 - Provenance note: Current retrospective Yahoo snapshot used for outcomes, retrieved 2026-10-06. Original publication and archive revision dates are unknown (publication_date is null); retrieval does not establish a contemporary vintage. Daily observations run through 2025-03-31. Retrieved raw payload SHA256: c9ad027412c64f8964d2bf00a6c5f9c239ee117ca772d761ef02d0859a8a0958. Endpoint is unversioned; the committed normalized monthly endpoints allow offline rebuilding. Last valid daily adjusted-close observation each month; adjacent ratio minus one. Vendor adjustments include dividends and splits; no second dividend addition. Starting choices and input lock committed at 5d8533a35a8c13fb45f4bf756a555f47daabb400 before this outcome request. Current retrospective snapshot, not a point-in-time vendor database.
 
+<a id="source-201"></a>**201. [Tesla: 2020 annual report and automotive regulatory credits](https://ir.tesla.com/_flysystem/s3/sec/000156459021004599/tsla-10k_20201231-gen.pdf)**
+
+- Publication date: 2021-02-08
+- Source IDs: `hot-tesla-2020-credit-rules`
+- Provenance note: The 2020 annual report explains that Tesla earns tradable credits under emissions and fuel-economy rules and sells them to other regulated entities for compliance. This report was published after the January 2021 scenario endpoint; it supports the description of the credit business operating in 2020, not an in-window announcement.
+
 ## Scope and review notes
 
 - The proposed summaries are a reveal-only content change; the selected hot stocks, their starting descriptions, decision context, and committed monthly-return observations remain as they were in the base scenario data.
 - Each card displays the existing five-year total return compounded from its 60 monthly observations. Business-source and return-series references are shown separately so reviewers can distinguish company-history context from the source used for the share-return series.
 - Source publication dates recorded as `null` are reported as unknown. Retrieval dates are not substituted for publication dates.
 - The editorial review checked age-appropriate clarity, support in the cited sources, and event timing. It distinguished annual results from quarterly results and product announcements from actual availability. For example, the September 2001 Apple endpoint excludes the later iPod launch, and the January 2005 Amazon endpoint excludes the later Prime launch.
+
+## PR review revisions
+
+The October 17 review refined 27 summaries. It removed unsupported claims about investors’ motives and explained financial terms such as share buybacks, inventory charges, emissions credits, and earnings per share using common words. The dated business developments and financial figures were preserved. The Tesla credit explanation has an additional annual-report reference with its retrospective publication timing stated explicitly.
+
+All proposed summaries above remain exact copies of the current authored JSON. The application behavior, starting information, return observations, and existing scenario narratives are unchanged by these review revisions.
 
 ## Implementation and validation
 
