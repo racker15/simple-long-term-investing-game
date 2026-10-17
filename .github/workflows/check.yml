@@ -24,4 +24,4 @@ jobs:
             test-results/**/session-*.png
             test-results/**/error-context.md
           if-no-files-found: ignore
-          retention-days: 7
+          retention-days: 1
