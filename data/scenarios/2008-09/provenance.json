@@ -448,6 +448,56 @@
       "approximation": false,
       "notes": "Undated current company page retrieved 2026-10-05 says most recent split June 20 2001, outside 2008–13 horizon. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication.",
       "observation_date": "2001-06-20"
+    },
+    {
+      "id": "hot-apple-ipad2010",
+      "source_name": "Apple launches iPad",
+      "source_reference": "https://www.apple.com/newsroom/2010/01/27Apple-Launches-iPad/",
+      "publication_date": "2010-01-27",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Apple introduced the iPad tablet in January 2010; announcement distinguished from its later retail availability.",
+      "observation_date": "2010-01-27"
+    },
+    {
+      "id": "hot-apple-q32013",
+      "source_name": "Apple: third-quarter fiscal 2013 results",
+      "source_reference": "https://www.apple.com/newsroom/2013/07/23Apple-Reports-Third-Quarter-Results/",
+      "publication_date": "2013-07-23",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Apple sold 31.2 million iPhones, a June-quarter record. Revenue was $35.3 billion but net profit fell to $6.9 billion from $8.8 billion; gross margin also fell.",
+      "observation_date": "2013-06-29"
+    },
+    {
+      "id": "hot-microsoft-fy2013",
+      "source_name": "Microsoft: fourth-quarter and full-year fiscal 2013 results",
+      "source_reference": "https://news.microsoft.com/source/2013/07/18/microsoft-reports-fourth-quarter-and-full-year-results/",
+      "publication_date": "2013-07-18",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Fiscal 2013 revenue was $77.85 billion and operating income $26.76 billion. Enterprise software growth contrasted with weak consumer PCs and a $900 million Surface RT inventory charge.",
+      "observation_date": "2013-06-30"
+    },
+    {
+      "id": "hot-exxon-fy2009",
+      "source_name": "ExxonMobil: full-year 2009 results",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/34088/000003408810000008/f8k4q991.htm",
+      "publication_date": "2010-02-01",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Net income fell 57% to $19.28 billion in 2009. Lower commodity prices, weaker margins and demand hurt results; the annual dividend per share increased 7%.",
+      "observation_date": "2009-12-31"
+    },
+    {
+      "id": "hot-exxon-q22013",
+      "source_name": "ExxonMobil: second-quarter 2013 results",
+      "source_reference": "https://investor.exxonmobil.com/sec-filings/all-sec-filings/content/0000034088-13-000033/f8k2q991.htm",
+      "publication_date": "2013-08-01",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Quarterly profit was $6.86 billion. The company bought $4 billion of shares to reduce shares outstanding. The reported 57% profit decline largely reflected prior-year divestment and tax gains, so it is not presented as a 57% operating collapse.",
+      "observation_date": "2013-06-30"
     }
   ]
 }

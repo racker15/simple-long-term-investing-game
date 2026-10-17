@@ -66,5 +66,26 @@
       "n04-cicada",
       "n04-cannes"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:2004-05:apple",
+      "text": "Apple’s music business took off, with 4.58 million iPods shipped in the 2004 holiday quarter. It began selling the iPhone in 2007, then expanded into more countries with the iPhone 3G in July 2008. By the quarter ending March 2009, Apple sold 3.79 million iPhones and earned $1.21 billion. Those successful products helped support its large gain despite the recession.",
+      "source_ids": ["hot-apple-2005-q1", "hot-apple-2009-q2", "yahoo-aapl"]
+    },
+    {
+      "asset_id": "hot:2004-05:microsoft",
+      "text": "Microsoft launched Windows Vista and Office 2007 for home users in January 2007, giving customers new versions to buy. But the recession later weakened computer and server sales. In the quarter ending March 2009, Microsoft’s revenue fell 6% from a year earlier, and profit also fell. This slowdown helps explain why the investment finished slightly below its starting value.",
+      "source_ids": [
+        "hot-msft-vista-office-launch",
+        "hot-msft-2009-q3",
+        "yahoo-msft"
+      ]
+    },
+    {
+      "asset_id": "hot:2004-05:ebay",
+      "text": "eBay’s growth ran into trouble. Its 2005 Skype purchase led to a $1.4 billion charge in 2007 when the deal fell short of hopes. During the first quarter of 2009, marketplace revenue fell 18% as the economy weakened. PayPal was still growing, but it could not offset the marketplace’s decline. These problems help explain why the shares finished much lower.",
+      "source_ids": ["hot-ebay-skype-2007", "hot-ebay-2009-q1", "yahoo-ebay"]
+    }
+  ]
 }

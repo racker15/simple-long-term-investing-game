@@ -58,5 +58,27 @@
       "soviet-collapse",
       "web-release"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1989-01:boeing",
+      "text": "Boeing earned about $1.4 billion in 1990, up 42%. By the third quarter of 1993, lower aircraft and defense sales and spending on the new 777 were weighing on results. The investment still finished higher, but the business had moved from strong growth into a tougher stretch before the five years ended.",
+      "source_ids": ["hot-ba-1990-profit", "hot-ba-1993-results", "yahoo-ba"]
+    },
+    {
+      "asset_id": "hot:1989-01:ibm",
+      "text": "IBM’s 1992 loss approached $5 billion as it paid heavily to reorganize. New chief executive Lou Gerstner arrived in April 1993, followed by further job cuts. The investment ended far below its starting value. These years capture the costly crisis and the beginning of a rescue, before the later return to annual profit.",
+      "source_ids": [
+        "hot-ibm-1992-loss",
+        "hot-ibm-gerstner",
+        "hot-ibm-1993-cuts",
+        "yahoo-ibm"
+      ]
+    },
+    {
+      "asset_id": "hot:1989-01:exxon",
+      "text": "The Exxon Valdez oil spill in March 1989 was a major disaster. Exxon’s business also included turning oil into fuel and selling it: that division earned about $2 billion in 1993, up 28%, helped by earning more from fuel sales and lowering costs. The investment ended higher even though the period included serious damage and setbacks.",
+      "source_ids": ["hot-xom-valdez", "hot-xom-1993-refining", "yahoo-xom"]
+    }
+  ]
 }

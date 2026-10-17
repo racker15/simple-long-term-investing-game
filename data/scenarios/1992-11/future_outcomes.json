@@ -51,6 +51,23 @@
       "windows95"
     ]
   },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1992-11:ford",
+      "text": "Ford sold a record 2.1 million trucks in the United States in 1996 and launched the Expedition SUV that October. Total annual profit reached about $4.4 billion. Europe’s car business still lost money, so the improvement was uneven. Strong truck demand was a concrete business success during Ford’s large five-year investment gain.",
+      "source_ids": ["hot-f-1996-results", "yahoo-f"]
+    },
+    {
+      "asset_id": "hot:1992-11:disney",
+      "text": "The Lion King became a major hit in 1994, and Disney completed its purchase of ABC in February 1996. That deal brought television networks and stations into the business alongside films and parks. The five-year investment rose strongly as Disney added successful entertainment and a much larger television business.",
+      "source_ids": ["hot-dis-factbook", "yahoo-dis"]
+    },
+    {
+      "asset_id": "hot:1992-11:ibm",
+      "text": "IBM was still in crisis when this round began. It returned to an annual profit of about $3 billion in 1994, bought Lotus in 1995 and expanded computer services. Services revenue reached about $12.7 billion in 1995. The large investment gain covered a recovery in earnings and a broader business beyond computer hardware.",
+      "source_ids": ["hot-ibm-1994-report", "hot-ibm-1995-report", "yahoo-ibm"]
+    }
+  ],
   "monthly_returns": {
     "cash": [
       { "month": "1992-12", "return": 0.0028000000000000004 },

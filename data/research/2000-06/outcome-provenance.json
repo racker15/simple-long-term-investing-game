@@ -50,6 +50,66 @@
       "approximation": false,
       "notes": "Proposed settlement, not final court approval or settlement by every state.",
       "observation_date": "2001-11-02"
+    },
+    {
+      "id": "hot-msft-2005-results",
+      "source_name": "Microsoft: Strong Revenue Growth, Fiscal 2005 (SEC exhibit)",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/789019/000119312505146318/dex991.htm",
+      "publication_date": "2005-07-21",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Fiscal year ended June 30, 2005: revenue $39.79 billion, net income $12.25 billion, SQL Server growth, Xbox growth, and $44 billion returned through dividends and repurchases. For the June 2005 endpoint, this is retrospective evidence of operations completed within the window, not an in-window July announcement.",
+      "observation_date": "2005-06-30"
+    },
+    {
+      "id": "hot-cisco-2001-q3",
+      "source_name": "Cisco: Third Quarter Earnings, Fiscal 2001",
+      "source_reference": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2001/m05/cisco-systems-reports-third-quarter-earnings.html",
+      "publication_date": "2001-05-08",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary release: sharp reversal in orders, technology capital-spending weakness, $2.2 billion excess-inventory charge and $2.69 billion GAAP quarterly loss. Distinguishes inventory write-down from the separate $1.17 billion restructuring charge.",
+      "observation_date": "2001-04-28"
+    },
+    {
+      "id": "hot-cisco-2004-results",
+      "source_name": "Cisco: Fourth Quarter and Fiscal Year 2004 Earnings",
+      "source_reference": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2004/m08/cisco-systems-reports-fourth-quarter-and-fiscal-year-2004-earnings.html",
+      "publication_date": "2004-08-10",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Fiscal 2004 revenue $22.0 billion (+16.8%) and GAAP net income $4.4 billion versus $3.6 billion the prior year. Records an operating recovery while scenario return paths remain below their late-1999/2000 starting prices.",
+      "observation_date": "2004-07-31"
+    },
+    {
+      "id": "hot-apple-2001-q1",
+      "source_name": "Apple: First Quarter Results, Fiscal 2001",
+      "source_reference": "https://www.apple.com/newsroom/2001/01/17Apple-Reports-First-Quarter-Results/",
+      "publication_date": "2001-01-17",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Holiday quarter ended December 30, 2000: revenue $1 billion, down 57%, and net loss $195 million while Apple reduced excess inventory.",
+      "observation_date": "2000-12-30"
+    },
+    {
+      "id": "hot-apple-ipod-launch",
+      "source_name": "Apple: Apple Presents iPod",
+      "source_reference": "https://www.apple.com/newsroom/2001/10/23Apple-Presents-iPod/",
+      "publication_date": "2001-10-23",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary announcement of the first iPod on October 23, 2001. This event is excluded from the scenario ending September 2001.",
+      "observation_date": "2001-10-23"
+    },
+    {
+      "id": "hot-apple-2005-q1",
+      "source_name": "Apple: First Quarter Results, Fiscal 2005",
+      "source_reference": "https://www.apple.com/newsroom/2005/01/12Apple-Reports-First-Quarter-Results/",
+      "publication_date": "2005-01-12",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Holiday quarter ended December 25, 2004: 4.58 million iPods shipped, revenue $3.49 billion up 74%, profit $295 million versus $63 million. These results were public before the January 2005 endpoint.",
+      "observation_date": "2004-12-25"
     }
   ]
 }

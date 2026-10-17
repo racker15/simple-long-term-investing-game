@@ -235,6 +235,46 @@
       "approximation": false,
       "notes": "Proposed settlement, not final court approval or settlement by every state.",
       "observation_date": "2001-11-02"
+    },
+    {
+      "id": "hot-pepsico-quaker-2001",
+      "source_name": "PepsiCo: Quaker Merger, Supplemental SEC Financial Statements",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/77476/000095010301501343/aug2701_ex9901.htm",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "SEC exhibit records August 2, 2001 completion of Quaker Oats merger and combined Gatorade beverage operations. Historical restated financial comparisons are not described as future organic growth.",
+      "observation_date": "2001-08-02"
+    },
+    {
+      "id": "hot-pepsico-2005-report",
+      "source_name": "PepsiCo: Fiscal 2005 Form 10-K",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/77476/000119312506039968/d10k.htm",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Retrospective 2005 operations: North American beverage revenue rose 10%, with strong Gatorade/Aquafina growth and new Gatorade Lemonade/Aquafina FlavorSplash; Frito-Lay North America revenue grew 8%. The extra reporting week contributed one point to beverage revenue growth and two points to Frito-Lay revenue growth.",
+      "observation_date": "2005-12-31"
+    },
+    {
+      "id": "hot-coke-2005-report",
+      "source_name": "Coca-Cola: Fiscal 2005 Form 10-K",
+      "source_reference": "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0001047469-06-002588/a2167326z10-k.htm",
+      "publication_date": "2006-02-28",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Retrospective in-window operations: 2004 North American volume flat and Coca-Cola C2 weaker than expected; Coca-Cola Zero launched in North America in 2005; worldwide 2005 volume grew 4%, and North American volume 2%.",
+      "observation_date": "2005-12-31"
+    },
+    {
+      "id": "hot-msft-2005-results",
+      "source_name": "Microsoft: Strong Revenue Growth, Fiscal 2005 (SEC exhibit)",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/789019/000119312505146318/dex991.htm",
+      "publication_date": "2005-07-21",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Fiscal year ended June 30, 2005: revenue $39.79 billion, net income $12.25 billion, SQL Server growth, Xbox growth, and $44 billion returned through dividends and repurchases. For the June 2005 endpoint, this is retrospective evidence of operations completed within the window, not an in-window July announcement.",
+      "observation_date": "2005-06-30"
     }
   ]
 }

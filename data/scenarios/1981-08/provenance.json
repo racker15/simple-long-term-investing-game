@@ -271,6 +271,73 @@
       "approximation": false,
       "notes": "Undated retrospective NASA history.",
       "observation_date": "1986-01-28"
+    },
+    {
+      "id": "hot-ibm-ps2",
+      "source_name": "IBM: The PS/2",
+      "source_reference": "https://www.ibm.com/history/ps-2",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Undated retrospective company history: early PC sales, competition from clones, 1987 PS/2 launch, and the subsequent competitive response. Only facts inside each scenario window are used."
+    },
+    {
+      "id": "hot-ibm-1984-profit",
+      "source_name": "UPI: IBM reports 1984 earnings",
+      "source_reference": "https://www.upi.com/Archives/1985/01/17/IBM-reported-Thursday-that-net-earnings-rose-166-percent/8728474786000/",
+      "publication_date": "1985-01-17",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: annual net income of $6.58 billion versus $5.48 billion, about 20% growth. The 16.6% in the headline refers to the quarter.",
+      "observation_date": "1984-12-31"
+    },
+    {
+      "id": "hot-ibm-1985-profit",
+      "source_name": "UPI: IBM reports 1985 earnings",
+      "source_reference": "https://www.upi.com/Archives/1986/01/17/International-Business-Machines-Corp-Friday-reported-yearly-earnings-of/5559506322000/",
+      "publication_date": "1986-01-17",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: annual earnings slipped about 0.4%, despite revenue growth.",
+      "observation_date": "1985-12-31"
+    },
+    {
+      "id": "hot-ko-diet",
+      "source_name": "Coca-Cola: Diet Coke global premiere in 1982",
+      "source_reference": "https://www.coca-colacompany.com/about-us/history/diet-coke-global-premiere-1982",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Undated retrospective company history: July 1982 launch, largest US diet soft drink by end-1983, third-largest US soft drink by end-1984."
+    },
+    {
+      "id": "hot-ko-new-coke",
+      "source_name": "Coca-Cola: New Coke and the return of the original formula",
+      "source_reference": "https://www.coca-colacompany.com/about-us/history/new-coke-the-most-memorable-marketing-blunder-ever",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Retrospective company history: new formula April 23, 1985; original formula returned July 11, 1985 after customer opposition. No precise publication day asserted."
+    },
+    {
+      "id": "hot-xom-1985-profit",
+      "source_name": "UPI: Exxon earnings up in fourth quarter",
+      "source_reference": "https://www.upi.com/Archives/1986/01/28/Exxons-earnings-up-264-percent-in-fourth-quarter/4416507272400/",
+      "publication_date": "1986-01-28",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: full-year profit fell 11.9% to $4.87 billion with lower crude oil and natural gas prices. The headline increase refers only to the fourth quarter.",
+      "observation_date": "1985-12-31"
+    },
+    {
+      "id": "hot-xom-1986-refining",
+      "source_name": "UPI: Exxon reports higher earnings",
+      "source_reference": "https://www.upi.com/Archives/1986/07/23/Exxon-reports-higher-earnings/7686522475200/",
+      "publication_date": "1986-07-23",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: second-quarter earnings improved, including stronger European refining and marketing; year-over-year percentage also reflects a prior-year charge, so the copy avoids presenting it as pure operating growth.",
+      "observation_date": "1986-06-30"
     }
   ]
 }

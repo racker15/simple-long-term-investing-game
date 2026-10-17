@@ -30,6 +30,56 @@
       "approximation": false,
       "notes": "Contemporary image and account.",
       "observation_date": "2017-08-21"
+    },
+    {
+      "id": "hot-hasbro-fy2017",
+      "source_name": "Hasbro: fourth-quarter and full-year 2017 results",
+      "source_reference": "https://investor.hasbro.com/news-releases/news-release-details/hasbro-reports-full-year-and-fourth-quarter-2017-financial",
+      "publication_date": "2018-02-07",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Annual revenue reached $5.21 billion, up 4%. Franchise brands grew 10%, with Transformers, Nerf, Monopoly and My Little Pony contributing; total gaming revenue rose 8%.",
+      "observation_date": "2017-12-31"
+    },
+    {
+      "id": "hot-hasbro-q12018",
+      "source_name": "Hasbro: first-quarter 2018 results",
+      "source_reference": "https://corp.hasbro.com/news-releases/news-release-details/hasbro-reports-first-quarter-2018-financial-results",
+      "publication_date": "2018-04-23",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Revenue fell 16% and net loss was $112.5 million, including Toys R Us-related charges as well as tax and severance charges. Toys R Us liquidation and lower European inventory purchases hurt the quarter.",
+      "observation_date": "2018-04-01"
+    },
+    {
+      "id": "hot-tesla-fy2017",
+      "source_name": "Tesla: fourth-quarter and full-year 2017 update",
+      "source_reference": "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA_Update_Letter_2017-4Q",
+      "publication_date": "2018-02-07",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "2017 revenue was $11.76 billion; deliveries exceeded 100,000. Model 3 production had begun but battery-production bottlenecks slowed its ramp. Net loss attributable to common shareholders was $1.96 billion.",
+      "observation_date": "2017-12-31"
+    },
+    {
+      "id": "hot-apple-fy2015",
+      "source_name": "Apple: fourth-quarter fiscal 2015 results",
+      "source_reference": "https://www.apple.com/newsroom/2015/10/27Apple-Reports-Record-Fourth-Quarter-Results/",
+      "publication_date": "2015-10-27",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Fiscal 2015 revenue grew 28% to nearly $234 billion; iPhone sales, expanded Apple Watch availability, and record services and Mac revenue supported results.",
+      "observation_date": "2015-09-26"
+    },
+    {
+      "id": "hot-apple-q22018",
+      "source_name": "Apple: second-quarter fiscal 2018 results",
+      "source_reference": "https://www.apple.com/newsroom/2018/05/apple-reports-second-quarter-results/",
+      "publication_date": "2018-05-01",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Revenue rose 16% to $61.1 billion and EPS rose 30%; iPhone X was the best-selling iPhone every week in the quarter. Services and wearables grew; Apple authorized an additional $100 billion in repurchases.",
+      "observation_date": "2018-03-31"
     }
   ]
 }

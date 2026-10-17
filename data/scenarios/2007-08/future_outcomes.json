@@ -51,6 +51,23 @@
       "japan-quake"
     ]
   },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:2007-08:lennar",
+      "text": "The housing crash hurt Lennar badly: it lost about $1.1 billion in 2008 as home sales weakened and land values fell. By the quarter ended May 2012, new orders were up 40% from a year earlier and its homebuilding business was earning more money. That recovery helped the shares finish higher, despite a very difficult journey through the housing slump.",
+      "source_ids": ["hot-lennar-fy2008", "hot-lennar-q22012", "yahoo-len"]
+    },
+    {
+      "asset_id": "hot:2007-08:kb-home",
+      "text": "The housing crash cut deeply into KB Home’s business. Its annual revenue more than halved in 2008, and it lost about $976 million as sales shrank and it reduced the value of land and other assets. Conditions later improved, but the quarter ended May 2012 still brought a $24 million loss. The recovery had not repaired the damage to profits or the share price.",
+      "source_ids": ["hot-kb-fy2008", "hot-kb-q22012", "yahoo-kbh"]
+    },
+    {
+      "asset_id": "hot:2007-08:disney",
+      "text": "Disney added Marvel in 2009, bringing superheroes into its movies and merchandise. The Avengers became a major hit in May 2012. TV networks and parks also helped earnings grow, even while the costly film John Carter hurt movie profits earlier that year. Disney’s range of businesses helped it recover from the recession and finish these five years with a share-price gain.",
+      "source_ids": ["hot-disney-marvel2009", "hot-disney-q22012", "yahoo-dis"]
+    }
+  ],
   "monthly_returns": {
     "cash": [
       { "month": "2007-09", "return": 0.0032 },

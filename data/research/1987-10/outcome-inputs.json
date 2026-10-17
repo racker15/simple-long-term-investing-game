@@ -50,5 +50,22 @@
       "hubble-history",
       "soviet-collapse"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1987-10:ibm",
+      "text": "Competing computer makers made it harder for IBM to protect its lead. The company reported a $2.8 billion loss for 1991, including staff-cut and retiree-benefit costs. Its five-year investment fell. This was a case where a famous, established business still faced expensive changes when its market became more competitive.",
+      "source_ids": ["hot-ibm-ps2", "hot-ibm-1991-loss", "yahoo-ibm"]
+    },
+    {
+      "asset_id": "hot:1987-10:mcdonalds",
+      "text": "McDonald’s opened its first Moscow restaurant in January 1990. Overseas growth helped 1990 profit reach a record $802 million, up 10%. Expansion meant selling meals to more customers in more places. The investment more than doubled across the five years as that international business grew.",
+      "source_ids": ["hot-mcd-moscow", "hot-mcd-1990-profit", "yahoo-mcd"]
+    },
+    {
+      "asset_id": "hot:1987-10:sony",
+      "text": "Sony bought CBS Records in January 1988 and Columbia Pictures in November 1989. It now owned music and movies as well as making the equipment used to enjoy them. That gave Sony new businesses to manage and new ways to earn money. The investment ended higher, though the purchases alone could not guarantee success.",
+      "source_ids": ["hot-sony-music-films", "yahoo-sony"]
+    }
+  ]
 }

@@ -253,6 +253,56 @@
       "approximation": false,
       "notes": "Original product announcement.",
       "observation_date": "2001-10-23"
+    },
+    {
+      "id": "hot-apple-2001-q1",
+      "source_name": "Apple: First Quarter Results, Fiscal 2001",
+      "source_reference": "https://www.apple.com/newsroom/2001/01/17Apple-Reports-First-Quarter-Results/",
+      "publication_date": "2001-01-17",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Holiday quarter ended December 30, 2000: revenue $1 billion, down 57%, and net loss $195 million while Apple reduced excess inventory.",
+      "observation_date": "2000-12-30"
+    },
+    {
+      "id": "hot-apple-ipod-launch",
+      "source_name": "Apple: Apple Presents iPod",
+      "source_reference": "https://www.apple.com/newsroom/2001/10/23Apple-Presents-iPod/",
+      "publication_date": "2001-10-23",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary announcement of the first iPod on October 23, 2001. This event is excluded from the scenario ending September 2001.",
+      "observation_date": "2001-10-23"
+    },
+    {
+      "id": "hot-apple-2005-q1",
+      "source_name": "Apple: First Quarter Results, Fiscal 2005",
+      "source_reference": "https://www.apple.com/newsroom/2005/01/12Apple-Reports-First-Quarter-Results/",
+      "publication_date": "2005-01-12",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Holiday quarter ended December 25, 2004: 4.58 million iPods shipped, revenue $3.49 billion up 74%, profit $295 million versus $63 million. These results were public before the January 2005 endpoint.",
+      "observation_date": "2004-12-25"
+    },
+    {
+      "id": "hot-oxy-2004-results",
+      "source_name": "Occidental Petroleum: Record 2004 Results (company release)",
+      "source_reference": "https://www.globenewswire.com/news-release/2005/01/24/321819/3/en/Occidental-Petroleum-Announces-Record-2004-Results.html",
+      "publication_date": "2005-01-24",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company-issued release via PRIMEZONE/GlobeNewswire: 2004 reported net income nearly $2.5 billion; oil/gas production grew 3.5% to 566,000 barrels of oil equivalent per day; higher energy prices and stronger chemicals earnings contributed. Uses contemporary figures, not later restatements.",
+      "observation_date": "2004-12-31"
+    },
+    {
+      "id": "hot-amazon-2003-results",
+      "source_name": "Amazon: 2003 Results and Year-Round Free Shipping",
+      "source_reference": "https://press.aboutamazon.com/2004/1/amazon-com-announces-record-free-cash-flow-fueled-by-lower-prices-and-year-round-free-shipping",
+      "publication_date": "2004-01-27",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Fiscal 2003 sales $5.264 billion (+34%), net income $35 million versus a $149 million 2002 loss, operating income $271 million. Lower prices and year-round free shipping were central strategies; international sales exceeded $2 billion.",
+      "observation_date": "2003-12-31"
     }
   ]
 }

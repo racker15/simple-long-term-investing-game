@@ -50,5 +50,26 @@
       "euro-launch",
       "september-attacks"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1997-04:nike",
+      "text": "Nike’s famous name did not prevent costly mistakes. Weak demand and heavy discounting hurt earnings in 1998. Then a new planning system caused shortages and late deliveries in 2001, when U.S. shoe sales fell about 4%. Overseas sales were growing, so the business had bright spots, but those gains did not turn this five-year stock result positive.",
+      "source_ids": [
+        "hot-nike-1998-report",
+        "hot-nike-2002-report",
+        "yahoo-nke"
+      ]
+    },
+    {
+      "asset_id": "hot:1997-04:disney",
+      "text": "Disney added attractions, including California Adventure in 2001, but several businesses struggled. Closing its GO.com internet business brought an $878 million charge in 2001. ABC lost viewers and advertising weakened. After September 11, fewer people travelled to Disney’s parks. These problems hurt earnings even while Disney kept opening new places for families to visit.",
+      "source_ids": ["hot-disney-2001-operations", "yahoo-dis"]
+    },
+    {
+      "asset_id": "hot:1997-04:apple",
+      "text": "The iMac’s 1998 launch helped Apple rebuild its computer business and return to an annual profit. Apple then opened its own stores and introduced the iPod in 2001. It sold more than 125,000 iPods in the first two months, and earned $38 million in the 2001 holiday quarter. These were concrete signs of a turnaround behind the strong stock gain.",
+      "source_ids": ["hot-apple-1998-report", "hot-apple-2002-q1", "yahoo-aapl"]
+    }
+  ]
 }

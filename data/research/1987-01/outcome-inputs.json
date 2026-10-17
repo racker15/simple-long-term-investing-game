@@ -67,5 +67,27 @@
       "time-963318",
       "time-963313"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1987-01:ibm",
+      "text": "IBM introduced the PS/2 in 1987, but cheaper competing PCs kept challenging it. For 1991, the company recorded a $2.8 billion annual loss, including large costs for staff cuts and retiree benefits. Its five-year investment lost value: a new computer line had not solved the wider business pressures.",
+      "source_ids": ["hot-ibm-ps2", "hot-ibm-1991-loss", "yahoo-ibm"]
+    },
+    {
+      "asset_id": "hot:1987-01:general-electric",
+      "text": "GE had several ways to earn money. In the third quarter of 1990, profit rose to about $1 billion, with help from financial services, aircraft engines and power equipment. NBC television and its materials businesses were weaker. The investment gained over five years while stronger divisions helped offset trouble elsewhere.",
+      "source_ids": ["hot-ge-1990-profit", "yahoo-ge"]
+    },
+    {
+      "asset_id": "hot:1987-01:apple",
+      "text": "Apple’s Macintosh SE and Macintosh II arrived in 1987, expanding the company’s computer range. Profit more than doubled in the quarter ending January 1, 1988. By February 1990, however, Apple was cutting jobs. The investment still rose strongly, showing a successful product cycle followed by a harder period for the business.",
+      "source_ids": [
+        "hot-aapl-1987-macs",
+        "hot-aapl-1988-profit",
+        "hot-aapl-1990-cuts",
+        "yahoo-aapl"
+      ]
+    }
+  ]
 }

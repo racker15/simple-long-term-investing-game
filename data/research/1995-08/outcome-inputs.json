@@ -50,5 +50,26 @@
       "ltcm",
       "euro-launch"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1995-08:microsoft",
+      "text": "Microsoft kept giving customers reasons to buy new software. Windows 98 arrived in June 1998, while Office and Windows NT sold strongly. By June 2000, businesses were adopting Windows 2000, and annual company sales reached $22.96 billion with $9.42 billion in profit. Those growing earnings supported the large gain over these five years, even though technology shares were becoming volatile.",
+      "source_ids": [
+        "hot-msft-1998-results",
+        "hot-msft-2000-results",
+        "yahoo-msft"
+      ]
+    },
+    {
+      "asset_id": "hot:1995-08:disney",
+      "text": "Disney completed the Capital Cities/ABC purchase in 1996, adding television stations and cable-network stakes to its entertainment business. Animal Kingdom opened in 1998, and the Disney Magic began taking families on cruises that year. These additions expanded the places where Disney could sell tickets, holidays and advertising, providing concrete business growth behind the stock’s gain.",
+      "source_ids": ["hot-disney-history", "yahoo-dis"]
+    },
+    {
+      "asset_id": "hot:1995-08:intel",
+      "text": "Intel benefited as customers bought PCs and connected to the internet. New Pentium II chips in 1997 and Celeron chips in 1998 served different computer budgets. In the second quarter of 2000, Intel shipped record numbers of processors and memory chips, and sales rose 23% to $8.3 billion. This window ends while that business growth was still strong.",
+      "source_ids": ["hot-intel-1998-report", "hot-intel-2000-q2", "yahoo-intc"]
+    }
+  ]
 }

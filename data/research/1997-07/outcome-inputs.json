@@ -50,5 +50,26 @@
       "euro-launch",
       "september-attacks"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1997-07:disney",
+      "text": "New parks did not protect Disney from trouble elsewhere. In 2001, ABC’s weaker ratings and advertising hurt its television business, while shutting GO.com brought an $878 million charge. September 11 then disrupted travel and reduced park attendance. These setbacks affected several ways Disney earned money at once, helping explain why the stock finished below its 1997 starting point.",
+      "source_ids": ["hot-disney-2001-operations", "yahoo-dis"]
+    },
+    {
+      "asset_id": "hot:1997-07:nike",
+      "text": "Nike faced weak demand and excess shoes in 1998, then planning-system problems caused shortages and late deliveries in 2001. The company kept expanding overseas, and annual sales grew about 4% to $9.89 billion by May 2002. But U.S. shoe sales remained soft. That slower, uneven growth helps explain why a successful sports brand could still disappoint its shareholders.",
+      "source_ids": [
+        "hot-nike-1998-report",
+        "hot-nike-2002-report",
+        "yahoo-nke"
+      ]
+    },
+    {
+      "asset_id": "hot:1997-07:intel",
+      "text": "The computer boom eventually ran into a sharp slowdown. Businesses had built more technology capacity than they needed, then cut spending. Intel’s 2001 sales fell 21% to $26.5 billion, and profit dropped much more, partly because of charges from earlier purchases of businesses. Even a faster Pentium 4 in August 2001 could not prevent that earnings slump.",
+      "source_ids": ["hot-intel-2001-report", "yahoo-intc"]
+    }
+  ]
 }

@@ -115,6 +115,11 @@ export function validateScenario(input: {
     '/known/recent_returns',
     ids.slice(0, 4),
   );
+  exactAssets(
+    future.hot_stock_outcomes.map((outcome) => outcome.asset_id),
+    '/future/hot_stock_outcomes',
+    known.hot_stocks.map((stock) => stock.id),
+  );
   exactAssets(Object.keys(future.monthly_returns), '/future/monthly_returns');
   exactAssets(Object.keys(future.return_sources), '/future/return_sources');
   const sources = new Map(

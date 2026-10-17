@@ -30,6 +30,54 @@
       "approximation": false,
       "notes": "Undated retrospective history; outcome context only.",
       "observation_date": "1991-12-25"
+    },
+    {
+      "id": "hot-ibm-ps2",
+      "source_name": "IBM: The PS/2",
+      "source_reference": "https://www.ibm.com/history/ps-2",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Undated retrospective company history: early PC sales, competition from clones, 1987 PS/2 launch, and the subsequent competitive response. Only facts inside each scenario window are used."
+    },
+    {
+      "id": "hot-ibm-1991-loss",
+      "source_name": "UPI: IBM reports fourth-quarter loss, will keep cutting jobs",
+      "source_reference": "https://www.upi.com/Archives/1992/01/17/IBM-reports-fourth-quarter-loss-will-keep-cutting-jobs/2743695624400/",
+      "publication_date": "1992-01-17",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted. The $2.8 billion annual loss included retiree-benefit accounting and restructuring charges; the copy does not describe it as an operating loss.",
+      "observation_date": "1991-12-31"
+    },
+    {
+      "id": "hot-mcd-moscow",
+      "source_name": "Los Angeles Times: Beeg Maks win big Da in Moscow debut",
+      "source_reference": "https://www.latimes.com/archives/la-xpm-1990-01-31-mn-1194-story.html",
+      "publication_date": "1990-01-31",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report on the opening of the first Moscow McDonald’s. Used for the opening fact only.",
+      "observation_date": "1990-01-31"
+    },
+    {
+      "id": "hot-mcd-1990-profit",
+      "source_name": "Los Angeles Times: McDonald’s reports record earnings",
+      "source_reference": "https://www.latimes.com/archives/la-xpm-1991-01-29-fi-45-story.html",
+      "publication_date": "1991-01-29",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary earnings brief: 1990 profit about $802 million, up 10%; overseas sales helped. Used only for these concise financial facts.",
+      "observation_date": "1990-12-31"
+    },
+    {
+      "id": "hot-sony-music-films",
+      "source_name": "Sony: The acquisition of entertainment businesses",
+      "source_reference": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/2-08.html",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Undated retrospective company history: CBS Records January 1988, Columbia Pictures November 1989, film box-office performance through 1993, and a 265.2 billion yen film-business write-down in fiscal 1994. Each scenario uses only facts before its endpoint."
     }
   ]
 }

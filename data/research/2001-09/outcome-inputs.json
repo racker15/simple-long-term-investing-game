@@ -64,5 +64,26 @@
       "columbia",
       "katrina"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:2001-09:boeing",
+      "text": "Airlines placed far more orders for Boeing planes as this window progressed. Boeing received a record 1,002 net orders in 2005, compared with 272 in 2004. Customers ordered 235 of its planned 787 Dreamliners, alongside many 737s and 777s. Those orders promised years of future work and helped improve the business outlook, even though ordering a plane is different from taking delivery.",
+      "source_ids": ["hot-boeing-2005-orders", "yahoo-ba"]
+    },
+    {
+      "asset_id": "hot:2001-09:microsoft",
+      "text": "Microsoft found growth in business software and games. Demand for SQL Server 2005 and the Xbox 360 helped annual sales reach $44.28 billion by June 2006, with $12.60 billion in profit. It had also paid cash to shareholders and bought back some of its shares in 2005. The investment grew over five years, but its gains were modest.",
+      "source_ids": [
+        "hot-msft-2005-results",
+        "hot-msft-2006-results",
+        "yahoo-msft"
+      ]
+    },
+    {
+      "asset_id": "hot:2001-09:apple",
+      "text": "Apple introduced the iPod in October 2001, just after this window began. Music players became a large new business: Apple shipped 8.1 million iPods in the quarter ending July 2006. Mac sales also grew as Apple switched computers to Intel chips. Revenue reached $4.37 billion and profit $472 million that quarter, showing business growth behind the stock’s enormous rise.",
+      "source_ids": ["hot-apple-ipod-launch", "hot-apple-2006-q3", "yahoo-aapl"]
+    }
+  ]
 }

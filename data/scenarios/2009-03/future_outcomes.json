@@ -51,6 +51,23 @@
       "curiosity"
     ]
   },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:2009-03:aig",
+      "text": "AIG’s shares started this period after an enormous crash. The insurer rebuilt its finances, and the US Treasury sold its remaining AIG shares in December 2012. AIG then earned $9.1 billion in 2013. Those signs of recovery helped an investment made at the battered 2009 price. The big gain from that low starting point did not mean earlier shareholders had recovered their losses.",
+      "source_ids": ["hot-aig-treasury2012", "hot-aig-fy2013", "yahoo-aig"]
+    },
+    {
+      "asset_id": "hot:2009-03:moodys",
+      "text": "Moody’s still earned money after the crisis, and demand for its ratings and financial research grew again. Annual revenue rose from about $1.8 billion in 2009 to nearly $3 billion in 2013. Rating company debt and selling tools that help customers study financial risks both contributed. The stock’s strong recovery came with a larger business, despite the criticism of its earlier mortgage ratings.",
+      "source_ids": ["hot-moodys-fy2009", "hot-moodys-fy2013", "yahoo-mco"]
+    },
+    {
+      "asset_id": "hot:2009-03:amazon",
+      "text": "Amazon expanded from online shopping and Kindle readers into a bigger mix of services. By 2013, Prime had tens of millions of members and annual sales reached $74.5 billion. Yet annual profit was only $274 million after a loss in 2012. The shares rose strongly while Amazon gained customers and added services, even though its profits remained small.",
+      "source_ids": ["hot-amazon-fy2013", "yahoo-amzn"]
+    }
+  ],
   "monthly_returns": {
     "cash": [
       { "month": "2009-04", "return": 0.0001 },

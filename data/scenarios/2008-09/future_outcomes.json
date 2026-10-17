@@ -70,6 +70,23 @@
       "n08-metal"
     ]
   },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:2008-09:apple",
+      "text": "Apple introduced the iPad in 2010 while the iPhone kept reaching more customers. By the quarter ended June 2013, it sold over 31 million iPhones, a record for that part of the year. But profit fell from a year earlier as Apple kept less money from each dollar of sales. The strong five-year gain included both a product boom and later pressure on profits.",
+      "source_ids": ["hot-apple-ipad2010", "hot-apple-q32013", "yahoo-aapl"]
+    },
+    {
+      "asset_id": "hot:2008-09:microsoft",
+      "text": "Microsoft’s business software kept bringing in money even as the personal-computer market weakened. Annual revenue reached $77.9 billion in the year ended June 2013. Its new Surface RT tablet struggled, however, leading to a $900 million charge for unsold inventory. The stock’s gain came from a company with valuable, profitable software businesses, alongside costly attempts to find its place in tablets.",
+      "source_ids": ["hot-microsoft-fy2013", "yahoo-msft"]
+    },
+    {
+      "asset_id": "hot:2008-09:exxonmobil",
+      "text": "The recession hit fuel demand, and ExxonMobil’s profit fell sharply in 2009. It remained profitable and kept paying dividends. By the quarter ended June 2013, it earned $6.9 billion and spent $4 billion buying back shares. That continuing flow of cash helped shareholders through an uneven period, even though oil and gas profits did not simply rise every year.",
+      "source_ids": ["hot-exxon-fy2009", "hot-exxon-q22013", "yahoo-xom"]
+    }
+  ],
   "monthly_returns": {
     "cash": [
       { "month": "2008-10", "return": 0.0008 },

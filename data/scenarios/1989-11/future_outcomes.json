@@ -51,6 +51,27 @@
       "web-release"
     ]
   },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1989-11:sony",
+      "text": "Sony had just bought Columbia Pictures when this window began. In November 1994, it reduced the recorded value of its film business by about $2.7 billion because the investment had not delivered enough profit. The stock investment ended only modestly higher. Owning famous movies had proved different from earning enough to justify the purchase price.",
+      "source_ids": [
+        "hot-sony-music-films",
+        "hot-sony-1994-writeoff",
+        "yahoo-sony"
+      ]
+    },
+    {
+      "asset_id": "hot:1989-11:coca-cola",
+      "text": "Coca-Cola kept reaching drinkers around the world. In 1993, it sold 5% more drinks. Markets outside the United States supplied 79% of its profit from running the business. This was a growing global business behind a large investment gain. The familiar American brand was earning much of its money abroad.",
+      "source_ids": ["hot-ko-1993-report", "yahoo-ko"]
+    },
+    {
+      "asset_id": "hot:1989-11:exxon",
+      "text": "Exxon’s fuel-making and selling businesses were an important part of its results. In 1993, their earnings rose 28% to about $2 billion, helped by earning more from fuel sales and lowering costs. The five-year investment gained as well. This gives a company-specific reason to look beyond the daily price of crude oil when reading its story.",
+      "source_ids": ["hot-xom-1993-refining", "yahoo-xom"]
+    }
+  ],
   "monthly_returns": {
     "cash": [
       { "month": "1989-12", "return": 0.0060999999999999995 },

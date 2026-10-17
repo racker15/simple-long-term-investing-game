@@ -40,6 +40,64 @@
       "approximation": false,
       "notes": "Undated retrospective account of the April 30, 1993 software release.",
       "observation_date": "1993-04-30"
+    },
+    {
+      "id": "hot-ba-1990-profit",
+      "source_name": "UPI: Boeing says 1990 profits up 42 percent",
+      "source_reference": "https://www.upi.com/Archives/1991/01/28/Boeing-says-1990-profits-up-42-percent/4510665038800/",
+      "publication_date": "1991-01-28",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: 1990 profit $1.38 billion, up 42%, on sales of $27.95 billion.",
+      "observation_date": "1990-12-31"
+    },
+    {
+      "id": "hot-ba-1992-cuts",
+      "source_name": "UPI: Boeing to cut 757, 767 production rates",
+      "source_reference": "https://www.upi.com/Archives/1992/11/24/Boeing-to-cut-757-767-production-rates/7891722581200/",
+      "publication_date": "1992-11-24",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: falling orders led to announced 757 and 767 production reductions and job cuts."
+    },
+    {
+      "id": "hot-ibm-1992-loss",
+      "source_name": "UPI: IBM posts worst year ever",
+      "source_reference": "https://www.upi.com/Archives/1993/01/19/IBM-posts-worst-year-ever/3920727419600/",
+      "publication_date": "1993-01-19",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: $4.97 billion net loss for 1992, including substantial restructuring charges.",
+      "observation_date": "1992-12-31"
+    },
+    {
+      "id": "hot-ibm-gerstner",
+      "source_name": "IBM: Louis V. Gerstner Jr.",
+      "source_reference": "https://www.ibm.com/history/louis-gerstner",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Undated retrospective company history confirms Gerstner took over as CEO in April 1993.",
+      "observation_date": "1993-04-01"
+    },
+    {
+      "id": "hot-ibm-1993-cuts",
+      "source_name": "UPI: IBM posts loss, announces job cuts",
+      "source_reference": "https://www.upi.com/amp/Archives/1993/07/27/IBM-posts-loss-announces-job-cuts/1007743745600/",
+      "publication_date": "1993-07-27",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: major restructuring and job cuts, including an $8.9 billion second-quarter charge.",
+      "observation_date": "1993-06-30"
+    },
+    {
+      "id": "hot-sony-music-films",
+      "source_name": "Sony: The acquisition of entertainment businesses",
+      "source_reference": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/2-08.html",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Undated retrospective company history: CBS Records January 1988, Columbia Pictures November 1989, film box-office performance through 1993, and a 265.2 billion yen film-business write-down in fiscal 1994. Each scenario uses only facts before its endpoint."
     }
   ]
 }

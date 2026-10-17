@@ -51,6 +51,23 @@
       "wall-opens"
     ]
   },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1984-11:procter-gamble",
+      "text": "Procter & Gamble bought Richardson-Vicks in 1985, expanding its health-care brands. Its everyday products also kept selling: profit for the year ending June 1989 rose 18%, helped by record US shipments and strong business abroad. Those growing sales and profits gave the investment’s rise a concrete business foundation.",
+      "source_ids": ["hot-pg-history", "hot-pg-1989-profit", "yahoo-pg"]
+    },
+    {
+      "asset_id": "hot:1984-11:colgate-palmolive",
+      "text": "Colgate-Palmolive reported higher annual earnings in 1986 as sales and new products did well. In 1987 it bought Softsoap, adding a familiar liquid-soap brand. The company was finding more products to sell alongside toothpaste and other household goods during a five-year stretch of strong investment gains.",
+      "source_ids": ["hot-cl-1986-profit", "hot-cl-history", "yahoo-cl"]
+    },
+    {
+      "asset_id": "hot:1984-11:general-electric",
+      "text": "GE completed its purchase of RCA in June 1986, bringing the NBC television network into the company. Its earnings also grew: 1988 profit reached about $3.4 billion, up 16% from 1987. GE’s strong investment result came as the business expanded beyond its familiar appliances and industrial equipment.",
+      "source_ids": ["hot-ge-rca", "hot-ge-1988-profit", "yahoo-ge"]
+    }
+  ],
   "monthly_returns": {
     "cash": [
       { "month": "1984-12", "return": 0.0064 },

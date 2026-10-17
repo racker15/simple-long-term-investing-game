@@ -51,6 +51,27 @@
       "japan-quake"
     ]
   },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:2007-06:apple",
+      "text": "The iPhone became a much bigger business, and Apple added the iPad in 2010. In the quarter ended March 2012, it sold 35 million iPhones and nearly 12 million iPads. Profit almost doubled from a year earlier to $11.6 billion. These were millions of paying customers, not just excitement about a new gadget, helping support the large rise in Apple’s shares.",
+      "source_ids": ["hot-apple-ipad2010", "hot-apple-q22012", "yahoo-aapl"]
+    },
+    {
+      "asset_id": "hot:2007-06:microsoft",
+      "text": "Office 2010 gave businesses a reason to buy updated software. In the quarter ended March 2012, Microsoft’s business-software sales rose 9%, while Windows sales also grew. Total profit from running the business rose 12%. Microsoft remained a profitable company through the recession, but its shares posted only a modest gain. Steady software earnings did not produce the explosive growth seen in some new mobile products.",
+      "source_ids": [
+        "hot-microsoft-fy2011",
+        "hot-microsoft-q32012",
+        "yahoo-msft"
+      ]
+    },
+    {
+      "asset_id": "hot:2007-06:disney",
+      "text": "Disney bought Marvel in 2009, and The Avengers opened in May 2012 with a record $207 million US and Canadian weekend. Its TV networks and parks were also growing. The movie business still had misses: John Carter lost money earlier in 2012. Having several sources of income helped Disney grow profits even when one expensive film disappointed, supporting the stock’s recovery.",
+      "source_ids": ["hot-disney-marvel2009", "hot-disney-q22012", "yahoo-dis"]
+    }
+  ],
   "monthly_returns": {
     "cash": [
       { "month": "2007-07", "return": 0.004 },

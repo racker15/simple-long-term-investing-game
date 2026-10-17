@@ -50,5 +50,22 @@
       "brexit",
       "eclipse"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:2013-05:hasbro",
+      "text": "Hasbro grew through toys and games such as Nerf, Transformers and Monopoly. Annual sales reached $5.2 billion in 2017, and its gaming business also expanded. Then the Toys R Us collapse hurt: Hasbro’s sales fell 16% in the first quarter of 2018, which ended in a loss. Earlier growth and dividends still left shareholders ahead, despite that late setback.",
+      "source_ids": ["hot-hasbro-fy2017", "hot-hasbro-q12018", "yahoo-has"]
+    },
+    {
+      "asset_id": "hot:2013-05:tesla",
+      "text": "Tesla grew into a much bigger carmaker, delivering over 100,000 vehicles in 2017. It also began making the Model 3, aimed at reaching more buyers. But battery-production problems slowed the launch, and Tesla still reported a loss of about $2 billion that year. The shares rose strongly even though steady profits were still unproven.",
+      "source_ids": ["hot-tesla-fy2017", "yahoo-tsla"]
+    },
+    {
+      "asset_id": "hot:2013-05:apple",
+      "text": "Apple’s iPhone business kept growing, while services and wearables added more sales. By the quarter ended March 2018, revenue was up 16% from a year earlier to $61.1 billion. The iPhone X was its best-selling phone throughout that quarter. Apple also increased its cash payments to shareholders and announced another $100 billion to buy back some of its shares.",
+      "source_ids": ["hot-apple-fy2015", "hot-apple-q22018", "yahoo-aapl"]
+    }
+  ]
 }

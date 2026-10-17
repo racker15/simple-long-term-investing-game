@@ -58,5 +58,27 @@
       "wall-opens",
       "hubble-history"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1985-09:apple",
+      "text": "New Macintosh SE and Macintosh II computers in 1987 broadened Apple’s appeal to businesses. Profit more than doubled in the quarter ending January 1, 1988. Growth then became bumpier: Apple announced 400 layoffs in February 1990. Its large five-year gain included both a successful product expansion and later pressure to control costs.",
+      "source_ids": [
+        "hot-aapl-1987-macs",
+        "hot-aapl-1988-profit",
+        "hot-aapl-1990-cuts",
+        "yahoo-aapl"
+      ]
+    },
+    {
+      "asset_id": "hot:1985-09:coca-cola",
+      "text": "After the New Coke mistake, Coca-Cola’s drinks business continued to grow. In 1988, sales rose about 9% to $8.3 billion and profit rose 14% to just over $1 billion. Those results show the company earning more from its business during this strong investment stretch, rather than simply recovering from one bad headline.",
+      "source_ids": ["hot-ko-1988-profit", "yahoo-ko"]
+    },
+    {
+      "asset_id": "hot:1985-09:ibm",
+      "text": "IBM launched the PS/2 in 1987 and sold roughly three million in its first two years. But cheaper rivals copied improvements and offered competing machines. Selling a popular new computer did not secure IBM’s lead. The investment ended only a little above its starting value as the company faced tough competition.",
+      "source_ids": ["hot-ibm-ps2", "yahoo-ibm"]
+    }
+  ]
 }

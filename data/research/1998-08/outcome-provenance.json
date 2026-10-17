@@ -30,6 +30,56 @@
       "approximation": false,
       "notes": "Retrospective institutional history.",
       "observation_date": "2001-09-11"
+    },
+    {
+      "id": "hot-apple-2001-q1",
+      "source_name": "Apple: First Quarter Results, Fiscal 2001",
+      "source_reference": "https://www.apple.com/newsroom/2001/01/17Apple-Reports-First-Quarter-Results/",
+      "publication_date": "2001-01-17",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Holiday quarter ended December 30, 2000: revenue $1 billion, down 57%, and net loss $195 million while Apple reduced excess inventory.",
+      "observation_date": "2000-12-30"
+    },
+    {
+      "id": "hot-apple-ipod-launch",
+      "source_name": "Apple: Apple Presents iPod",
+      "source_reference": "https://www.apple.com/newsroom/2001/10/23Apple-Presents-iPod/",
+      "publication_date": "2001-10-23",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary announcement of the first iPod on October 23, 2001. This event is excluded from the scenario ending September 2001.",
+      "observation_date": "2001-10-23"
+    },
+    {
+      "id": "hot-apple-itunes-2003",
+      "source_name": "Apple: iTunes Music Store Sells Over One Million Songs in First Week",
+      "source_reference": "https://www.apple.com/newsroom/2003/05/05iTunes-Music-Store-Sells-Over-One-Million-Songs-in-First-Week/",
+      "publication_date": "2003-05-05",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "First-week milestone after the April 2003 iTunes Music Store launch: more than one million songs purchased; music store and iPod integration.",
+      "observation_date": "2003-05-05"
+    },
+    {
+      "id": "hot-amazon-2003-q2",
+      "source_name": "Amazon: Free Shipping and Low Prices Fuel 42% Unit Growth",
+      "source_reference": "https://press.aboutamazon.com/2003/7/amazon-com-announces-free-shipping-and-low-prices-fuel-42-unit-growth",
+      "publication_date": "2003-07-22",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Release body dated July 22 (archive header is one day earlier): Q2 2003 sales $1.1 billion (+37%), operating income $42 million, net loss $43 million; lower prices/free shipping and third-party sellers supported growth. Full-year 2003 profit is outside the August 2003 endpoint and excluded.",
+      "observation_date": "2003-06-30"
+    },
+    {
+      "id": "hot-msft-2003-results",
+      "source_name": "Microsoft: Fourth Quarter Earnings, Fiscal 2003",
+      "source_reference": "https://news.microsoft.com/source/2003/07/17/microsoft-reports-fourth-quarter-earnings/",
+      "publication_date": "2003-07-17",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary earnings release: fiscal 2003 revenue $32.19 billion, 13% growth; over 9.4 million Xbox consoles sold since the 2001 launch. Profit comparisons across this era are avoided because later statements changed stock compensation accounting.",
+      "observation_date": "2003-06-30"
     }
   ]
 }

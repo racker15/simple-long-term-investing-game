@@ -51,6 +51,33 @@
       "hubble-repair"
     ]
   },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1990-08:ibm",
+      "text": "IBM went through deep losses and job cuts before Lou Gerstner became chief executive in April 1993. It returned to an annual profit of about $3 billion in 1994. In July 1995 it bought Lotus, adding business software. The investment finished higher after a difficult period in which the company began rebuilding its earnings.",
+      "source_ids": [
+        "hot-ibm-1992-loss",
+        "hot-ibm-gerstner",
+        "hot-ibm-1994-report",
+        "hot-ibm-1995-report",
+        "yahoo-ibm"
+      ]
+    },
+    {
+      "asset_id": "hot:1990-08:exxon",
+      "text": "Exxon earned money from selling fuels as well as finding oil. In 1993, profit from refining and marketing rose 28% to about $2 billion as it earned more from fuel sales and lowered costs. That part of the business helped explain how Exxon could make progress through changing oil markets. Its five-year investment finished higher.",
+      "source_ids": ["hot-xom-1993-refining", "yahoo-xom"]
+    },
+    {
+      "asset_id": "hot:1990-08:sony",
+      "text": "Sony’s movie expansion hit trouble: in November 1994, it cut the recorded value of its film business by about $2.7 billion. A new opportunity arrived that December when the PlayStation launched in Japan. The investment ended higher, but the period mixed an expensive disappointment with a promising new product.",
+      "source_ids": [
+        "hot-sony-1994-writeoff",
+        "hot-sony-playstation",
+        "yahoo-sony"
+      ]
+    }
+  ],
   "monthly_returns": {
     "cash": [
       { "month": "1990-09", "return": 0.006 },

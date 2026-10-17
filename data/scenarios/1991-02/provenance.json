@@ -243,6 +243,55 @@
       "approximation": false,
       "notes": "Last-updated date of retrospective chronology.",
       "observation_date": "1993-12-31"
+    },
+    {
+      "id": "hot-wmt-1996-report",
+      "source_name": "Walmart: 1996 Annual Report, Exhibit 13",
+      "source_reference": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-96-000002/EX-13.txt",
+      "publication_date": "1996-04-23",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Original filing: fiscal 1991 sales $32.602 billion versus fiscal 1996 $93.627 billion; domestic supercenters grew from 9 to 239. Fiscal 1996 sales grew 13%, net income only 2.2%. Fiscal years end January 31. For February 1996 endpoint, this is retrospective documentation of the year already completed, not an in-window filing.",
+      "observation_date": "1996-01-31"
+    },
+    {
+      "id": "hot-hog-1995-quarter",
+      "source_name": "Harley-Davidson: Form 10-Q for September 24, 1995",
+      "source_reference": "https://www.companiesmarketcap.com/harley-davidson/sec-reports-10q/0000897069-95-000159/",
+      "publication_date": "1995-10-27",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Original SEC filing reproduced by CompaniesMarketCap, signed October 27. Quarterly motorcycle shipments 25,012 versus 22,503, up 11.1%; production 430 per day versus about 380. Use these realized figures, not the annual shipment forecast.",
+      "observation_date": "1995-09-24"
+    },
+    {
+      "id": "hot-hog-demand",
+      "source_name": "Reuters / Los Angeles Times: Harley a victim of hog-wild demand",
+      "source_reference": "https://www.latimes.com/archives/la-xpm-1995-09-23-fi-49236-story.html",
+      "publication_date": "1995-09-23",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report: demand outstripped motorcycle supply, reducing showroom traffic and related apparel business. Used for the supply constraint only."
+    },
+    {
+      "id": "hot-ibm-1994-report",
+      "source_name": "IBM: 1994 Annual Report",
+      "source_reference": "https://www.ibm.com/investor/att/pdf/IBM_Annual_Report_1994.pdf",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Original annual report, publication day not established. IBM returned to roughly $3.0 billion net income in 1994 after its 1993 loss. Indexed report text consulted.",
+      "observation_date": "1994-12-31"
+    },
+    {
+      "id": "hot-ibm-1995-report",
+      "source_name": "IBM: 1995 Annual Report",
+      "source_reference": "https://www.ibm.com/investor/att/pdf/IBM_Annual_Report_1995.pdf",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Original annual report, publication day not established. Net income was $4.178 billion in 1995; services revenue rose from $9.715 billion to $12.714 billion; Lotus was acquired July 5, 1995. Indexed report text consulted. Some windows end before the report was published; only the earlier business events and fiscal results are described.",
+      "observation_date": "1995-12-31"
     }
   ]
 }

@@ -30,6 +30,56 @@
       "approximation": false,
       "notes": "Contemporary central-bank speech.",
       "observation_date": "1999-01-01"
+    },
+    {
+      "id": "hot-msft-1998-results",
+      "source_name": "Microsoft: Record Fiscal 1998 Revenue and Income",
+      "source_reference": "https://news.microsoft.com/source/1998/07/16/microsoft-announces-record-fiscal-1998-revenue-and-income/",
+      "publication_date": "1998-07-16",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary earnings release: fiscal 1998 revenue $14.48 billion, net income $4.49 billion, Office 97 demand, Windows NT growth, and June 25 Windows 98 release.",
+      "observation_date": "1998-06-30"
+    },
+    {
+      "id": "hot-msft-2000-results",
+      "source_name": "Microsoft: Record Fiscal Year Revenue and Income",
+      "source_reference": "https://news.microsoft.com/source/2000/07/18/microsoft-announces-record-fiscal-year-revenue-and-income/",
+      "publication_date": "2000-07-18",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary earnings release: fiscal 2000 revenue $22.96 billion, net income $9.42 billion, and business adoption of Windows 2000 and server software.",
+      "observation_date": "2000-06-30"
+    },
+    {
+      "id": "hot-disney-history",
+      "source_name": "Walt Disney Archives / D23: Disney History",
+      "source_reference": "https://d23.com/disney-history/",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company history: The Lion King was a hit in 1994; Capital Cities/ABC purchase completed early 1996; Animal Kingdom and Disney Magic cruise ship began operating in 1998. Later history on the same page is not used.",
+      "observation_date": "1998-12-31"
+    },
+    {
+      "id": "hot-intel-1998-report",
+      "source_name": "Intel: 1998 Annual Report",
+      "source_reference": "https://www.intel.com/content/dam/www/central-libraries/us/en/documents/2025-05/history-1998-annual-report.pdf",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company archive of the contemporary report. Pentium II and Pentium with MMX drove 1997 processor growth; Celeron and Pentium II Xeon expanded the range in 1998. Fiscal 1998 revenue $26.3 billion and profit $6.1 billion, down from $6.9 billion in 1997. Archive path is modern; facts concern 1996–1998.",
+      "observation_date": "1998-12-26"
+    },
+    {
+      "id": "hot-intel-2000-q2",
+      "source_name": "Intel: Record Second Quarter Revenue (company release via Cision)",
+      "source_reference": "https://news.cision.com/intel/r/q2-revenue-a-record--8-3-billion--up-23-percent-q2-earnings-excluding-acquisition-related-costs---0-50-per-share--1-00-,e26315",
+      "publication_date": "2000-07-19",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company-issued earnings release: second-quarter revenue $8.3 billion, up 23%; record microprocessor and flash-memory unit shipments and strong PC/server demand. Profit growth included substantial investment income, so it is not presented as purely chip operating performance. Stock splits are not treated as returns.",
+      "observation_date": "2000-07-19"
     }
   ]
 }

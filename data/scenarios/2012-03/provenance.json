@@ -261,6 +261,46 @@
       "approximation": false,
       "notes": "Official results; vote did not itself end UK membership.",
       "observation_date": "2016-06-24"
+    },
+    {
+      "id": "hot-apple-q32016",
+      "source_name": "Apple: third-quarter fiscal 2016 results",
+      "source_reference": "https://www.apple.com/newsroom/2016/07/apple-reports-third-quarter-results/",
+      "publication_date": "2016-07-26",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Revenue fell to $42.4 billion from $49.6 billion and net profit to $7.8 billion from $10.7 billion, while services revenue increased 19%.",
+      "observation_date": "2016-06-25"
+    },
+    {
+      "id": "hot-apple-q12017",
+      "source_name": "Apple: first-quarter fiscal 2017 results",
+      "source_reference": "https://www.apple.com/newsroom/2017/01/apple-reports-record-first-quarter-results/",
+      "publication_date": "2017-01-31",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Holiday-quarter revenue reached a record $78.4 billion, with records for iPhone, services, Mac and Apple Watch. Apple had returned over $200 billion to shareholders since August 2012.",
+      "observation_date": "2016-12-31"
+    },
+    {
+      "id": "hot-amazon-fy2016",
+      "source_name": "Amazon: fourth-quarter and full-year 2016 results",
+      "source_reference": "https://ir.aboutamazon.com/news-release/news-release-details/2017/Amazoncom-Announces-Fourth-Quarter-Sales-up-22-to-437-Billion/default.aspx",
+      "publication_date": "2017-02-02",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Annual sales reached $135.99 billion and net income $2.371 billion. AWS sales were $12.219 billion and segment operating income was $3.108 billion; Prime also expanded.",
+      "observation_date": "2016-12-31"
+    },
+    {
+      "id": "hot-exxon-fy2016",
+      "source_name": "ExxonMobil: full-year 2016 results",
+      "source_reference": "https://investor.exxonmobil.com/sec-filings/all-sec-filings/content/0000034088-17-000014/f8k4q991.htm",
+      "publication_date": "2017-01-31",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "2016 profit was $7.8 billion versus $16.2 billion in 2015, including a roughly $2 billion write-down mainly of US dry-gas assets. Lower commodity prices and refining margins reduced earnings; dividends continued.",
+      "observation_date": "2016-12-31"
     }
   ]
 }

@@ -50,5 +50,22 @@
       "south-africa-vote",
       "windows95"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1991-12:disney",
+      "text": "The Lion King became a major success in 1994, giving Disney another valuable set of characters. Disney also completed the ABC purchase in February 1996. Meanwhile, its Paris park needed a new financing deal to manage its debts in 1994 after opening in 1992. The strong investment gain covered both successful entertainment and a project that needed financial repair.",
+      "source_ids": ["hot-dis-factbook", "yahoo-dis"]
+    },
+    {
+      "asset_id": "hot:1991-12:ibm",
+      "text": "IBM’s recovery produced about $3 billion of profit in 1994 and $4.2 billion in 1995. Buying Lotus in 1995 added software, while growing services helped customers run their computer systems. The investment rose strongly as earnings recovered from the company’s earlier losses and its business became less dependent on selling machines alone.",
+      "source_ids": ["hot-ibm-1995-report", "yahoo-ibm"]
+    },
+    {
+      "asset_id": "hot:1991-12:walmart",
+      "text": "Walmart kept growing: sales reached about $94 billion in the year ending January 1996, up 13%, and its US supercenters reached 239. Yet profit grew only about 2% that year. The investment finished lower. More stores and higher sales did not automatically mean equally fast profit growth or a good return from this starting price.",
+      "source_ids": ["hot-wmt-1996-report", "yahoo-wmt"]
+    }
+  ]
 }

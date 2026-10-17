@@ -30,6 +30,56 @@
       "approximation": false,
       "notes": "Official results; vote did not itself end UK membership.",
       "observation_date": "2016-06-24"
+    },
+    {
+      "id": "hot-apple-fy2015",
+      "source_name": "Apple: fourth-quarter fiscal 2015 results",
+      "source_reference": "https://www.apple.com/newsroom/2015/10/27Apple-Reports-Record-Fourth-Quarter-Results/",
+      "publication_date": "2015-10-27",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Fiscal 2015 revenue grew 28% to nearly $234 billion; iPhone sales, expanded Apple Watch availability, and record services and Mac revenue supported results.",
+      "observation_date": "2015-09-26"
+    },
+    {
+      "id": "hot-apple-q32016",
+      "source_name": "Apple: third-quarter fiscal 2016 results",
+      "source_reference": "https://www.apple.com/newsroom/2016/07/apple-reports-third-quarter-results/",
+      "publication_date": "2016-07-26",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Revenue fell to $42.4 billion from $49.6 billion and net profit to $7.8 billion from $10.7 billion, while services revenue increased 19%.",
+      "observation_date": "2016-06-25"
+    },
+    {
+      "id": "hot-bofa-settlement2014",
+      "source_name": "US Department of Justice: Bank of America mortgage settlement",
+      "source_reference": "https://www.justice.gov/archives/opa/pr/bank-america-pay-1665-billion-historic-justice-department-settlement-financial-fraud-leading",
+      "publication_date": "2014-08-21",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Bank of America agreed to a $16.65 billion settlement over mortgage-related conduct. This includes consumer relief and is not described as entirely a cash fine.",
+      "observation_date": "2014-08-21"
+    },
+    {
+      "id": "hot-bofa-fy2015",
+      "source_name": "Bank of America: fourth-quarter and full-year 2015 results",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/70858/000007085816000118/bac-12312015ex991.htm",
+      "publication_date": "2016-01-19",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "2015 net income was $15.9 billion, up from $4.8 billion. Lower litigation expenses were a major contributor to improved annual results.",
+      "observation_date": "2015-12-31"
+    },
+    {
+      "id": "hot-microsoft-q42016",
+      "source_name": "Microsoft: fourth-quarter fiscal 2016 results",
+      "source_reference": "https://www.microsoft.com/en-us/Investor/earnings/FY-2016-Q4/press-release-webcast",
+      "publication_date": "2016-07-19",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Office 365 commercial revenue rose 54%, Azure revenue rose 102%, and phone revenue fell 71% in the quarter. Supports the shift toward cloud services and subscriptions despite phone setbacks.",
+      "observation_date": "2016-06-30"
     }
   ]
 }

@@ -65,5 +65,22 @@
       "rates-2022",
       "webb"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:2020-01:boeing",
+      "text": "Boeing faced years of trouble turning plane orders into profitable deliveries. The pandemic hurt airlines in 2020 while Boeing was dealing with the 737 MAX grounding. Later production problems continued, and a factory strike disrupted 2024. That year Boeing delivered only 348 commercial planes and lost $11.8 billion. Repeated delays and losses help explain why the shares remained below their January 2020 level.",
+      "source_ids": ["hot-boeing-fy2020", "hot-boeing-fy2024", "yahoo-ba"]
+    },
+    {
+      "asset_id": "hot:2020-01:tesla",
+      "text": "Tesla expanded far beyond its early scale. Annual deliveries grew from about 500,000 vehicles in 2020 to nearly 1.8 million in 2024, and its battery-storage business also grew. The final year was tougher: car deliveries slipped and profit from running the business fell. The investment still finished far ahead, even though car deliveries and profits weakened near the end.",
+      "source_ids": ["hot-tesla-fy2020", "hot-tesla-fy2024", "yahoo-tsla"]
+    },
+    {
+      "asset_id": "hot:2020-01:disney",
+      "text": "COVID-19 shut Disney parks and disrupted movies, while building its streaming services cost billions. By fiscal 2024, its entertainment streaming business had turned profitable, and Inside Out 2 and Deadpool & Wolverine helped film results. But traditional TV revenue was still shrinking. The recovery was uneven, leaving the shares below their January 2020 starting price despite successful films and reopened parks.",
+      "source_ids": ["hot-disney-fy2020", "hot-disney-fy2024", "yahoo-dis"]
+    }
+  ]
 }

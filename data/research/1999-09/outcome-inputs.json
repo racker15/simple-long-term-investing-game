@@ -75,5 +75,26 @@
       "timor-refugees",
       "floyd"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1999-09:microsoft",
+      "text": "Microsoft kept selling more software after the technology boom cooled. Strong Office and Windows Server demand helped annual sales reach $36.84 billion by June 2004, with $8.17 billion in profit. Legal settlements and a European competition fine added costs. The business stayed profitable, yet an investment made during the 1999 technology boom still ended with a loss.",
+      "source_ids": ["hot-msft-2004-results", "yahoo-msft"]
+    },
+    {
+      "asset_id": "hot:1999-09:cisco",
+      "text": "Companies cut orders for Cisco’s internet equipment as the technology boom ended. In 2001, Cisco cut the recorded value of unsold parts and products by $2.2 billion, helping turn one quarter into a large loss. Business later improved: annual profit reached $4.4 billion in 2004. That recovery still did not bring the shares back to their 1999 starting price.",
+      "source_ids": [
+        "hot-cisco-2001-q3",
+        "hot-cisco-2004-results",
+        "yahoo-csco"
+      ]
+    },
+    {
+      "asset_id": "hot:1999-09:amazon",
+      "text": "Amazon made real progress after the internet-stock crash. Lower prices and free shipping helped 2003 sales grow 34% to $5.26 billion, and the company earned a $35 million annual profit after years of losses. But shares bought during the earlier excitement still finished lower. Becoming a stronger business did not erase the high price investors had paid in 1999.",
+      "source_ids": ["hot-amazon-2003-results", "yahoo-amzn"]
+    }
+  ]
 }

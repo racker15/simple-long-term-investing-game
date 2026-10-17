@@ -263,6 +263,56 @@
       "approximation": false,
       "notes": "Proposed settlement, not final court approval or settlement by every state.",
       "observation_date": "2001-11-02"
+    },
+    {
+      "id": "hot-boeing-2005-orders",
+      "source_name": "Boeing: 2005 Record Airplane Orders",
+      "source_reference": "https://boeing.mediaroom.com/2006-01-05-Boeing-Ends-2005-with-New-Records-for-Airplane-Orders",
+      "publication_date": "2006-01-05",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company report: 1,002 net commercial airplane orders in 2005, up from 272 in 2004; 235 orders for the 787. These are orders, not aircraft deliveries or already earned revenue; no later 787 delivery is implied.",
+      "observation_date": "2005-12-31"
+    },
+    {
+      "id": "hot-msft-2005-results",
+      "source_name": "Microsoft: Strong Revenue Growth, Fiscal 2005 (SEC exhibit)",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/789019/000119312505146318/dex991.htm",
+      "publication_date": "2005-07-21",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Fiscal year ended June 30, 2005: revenue $39.79 billion, net income $12.25 billion, SQL Server growth, Xbox growth, and $44 billion returned through dividends and repurchases. For the June 2005 endpoint, this is retrospective evidence of operations completed within the window, not an in-window July announcement.",
+      "observation_date": "2005-06-30"
+    },
+    {
+      "id": "hot-msft-2006-results",
+      "source_name": "Microsoft: Fourth Quarter Results, Fiscal 2006",
+      "source_reference": "https://news.microsoft.com/source/2006/07/20/microsoft-reports-fourth-quarter-results-and-announces-share-repurchase-program/",
+      "publication_date": "2006-07-20",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Fiscal 2006 revenue $44.28 billion and net income $12.60 billion; demand for Xbox 360, SQL Server 2005 and Visual Studio 2005 contributed to growth.",
+      "observation_date": "2006-06-30"
+    },
+    {
+      "id": "hot-apple-ipod-launch",
+      "source_name": "Apple: Apple Presents iPod",
+      "source_reference": "https://www.apple.com/newsroom/2001/10/23Apple-Presents-iPod/",
+      "publication_date": "2001-10-23",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary announcement of the first iPod on October 23, 2001. This event is excluded from the scenario ending September 2001.",
+      "observation_date": "2001-10-23"
+    },
+    {
+      "id": "hot-apple-2006-q3",
+      "source_name": "Apple: Third Quarter Results, Fiscal 2006",
+      "source_reference": "https://www.apple.com/newsroom/2006/07/19Apple-Reports-Third-Quarter-Results/",
+      "publication_date": "2006-07-19",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Quarter ended July 1, 2006: 8.111 million iPods and 1.327 million Macs shipped, $4.37 billion revenue and $472 million profit; more than 75% of Macs sold used Intel processors.",
+      "observation_date": "2006-07-01"
     }
   ]
 }

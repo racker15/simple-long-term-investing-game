@@ -255,6 +255,66 @@
       "approximation": false,
       "notes": "Preliminary delivery report, 499,550 rounded for player readability; no earnings claim.",
       "observation_date": "2020-12-31"
+    },
+    {
+      "id": "hot-disney-streaming2020",
+      "source_name": "Disney: December 2020 investor-day streaming update",
+      "source_reference": "https://thewaltdisneycompany.com/press-releases/the-walt-disney-company-surpasses-137m-paid-subscriptions-across-its-direct-to-consumer-services-shattering-previous-guidance-increases-paid-subscriptions-target-to-300-350m-by-2024/",
+      "publication_date": "2020-12-10",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Disney+ reached 86.8 million paid subscriptions by December 2, 2020. The 137 million headline counts multiple streaming services, not Disney+ alone.",
+      "observation_date": "2020-12-02"
+    },
+    {
+      "id": "hot-disney-fy2020",
+      "source_name": "Disney: fourth-quarter and full-year fiscal 2020 earnings",
+      "source_reference": "https://thewaltdisneycompany.com/app/uploads/2020/11/q4-fy20-earnings.pdf",
+      "publication_date": "2020-11-12",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Documents pandemic closures of theme parks, disruption to theaters and cruises, and fiscal 2020 losses.",
+      "observation_date": "2020-10-03"
+    },
+    {
+      "id": "hot-boeing-fy2018",
+      "source_name": "Boeing: record 2018 results",
+      "source_reference": "https://investors.boeing.com/investors/news/press-release-details/2019/Boeing-Reports-Record-2018-Results-and-Provides-2019-Guidance/default.aspx",
+      "publication_date": "2019-01-30",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "2018 revenue reached a record $101.1 billion, with 806 commercial-airplane deliveries and net income of approximately $10.5 billion.",
+      "observation_date": "2018-12-31"
+    },
+    {
+      "id": "hot-boeing-fy2020",
+      "source_name": "Boeing: fourth-quarter and full-year 2020 results",
+      "source_reference": "https://investors.boeing.com/investors/news/press-release-details/2021/Boeing-Reports-Fourth-Quarter-Results/default.aspx",
+      "publication_date": "2021-01-27",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "The 737 MAX grounding and pandemic hurt results. Revenue fell to $58.2 billion and the annual net loss reached $11.9 billion, including a $6.5 billion 777X charge. MAX deliveries resumed in late 2020.",
+      "observation_date": "2020-12-31"
+    },
+    {
+      "id": "hot-tesla-fy2020",
+      "source_name": "Tesla: fourth-quarter and full-year 2020 update",
+      "source_reference": "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q4-2020-Update",
+      "publication_date": "2021-01-27",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Tesla delivered roughly 500,000 vehicles in 2020 and earned $721 million attributable to common shareholders, its first full-year GAAP profit. Regulatory-credit revenue was $1.58 billion. Model Y deliveries began in 2020, while Model 3 and Shanghai production expanded.",
+      "observation_date": "2020-12-31"
+    },
+    {
+      "id": "hot-tesla-2020-credit-rules",
+      "source_name": "Tesla: 2020 annual report and automotive regulatory credits",
+      "source_reference": "https://ir.tesla.com/_flysystem/s3/sec/000156459021004599/tsla-10k_20201231-gen.pdf",
+      "publication_date": "2021-02-08",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "The 2020 annual report explains that Tesla earns tradable credits under emissions and fuel-economy rules and sells them to other regulated entities for compliance. This report was published after the January 2021 scenario endpoint; it supports the description of the credit business operating in 2020, not an in-window announcement.",
+      "observation_date": "2020-12-31"
     }
   ]
 }

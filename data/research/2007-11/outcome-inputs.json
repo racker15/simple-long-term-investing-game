@@ -50,5 +50,27 @@
       "deepwater",
       "japan-quake"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:2007-11:amazon",
+      "text": "Amazon kept attracting shoppers and introduced the Kindle Fire tablet in 2011. Annual sales jumped 41% that year to $48 billion, but profit fell as the business expanded. It even reported a loss in the quarter ended September 2012. The shares still rose strongly, even though the much larger business had uneven earnings.",
+      "source_ids": ["hot-amazon-fy2011", "hot-amazon-q32012", "yahoo-amzn"]
+    },
+    {
+      "asset_id": "hot:2007-11:citigroup",
+      "text": "Mortgage and other investment losses helped push Citigroup to a $27.7 billion loss in 2008. Government support helped it survive, but the rescue and fundraising created billions of new shares in 2009. Each old share then represented a smaller piece of the bank. Citi returned to profit in 2010, yet that business recovery did not undo the huge damage to earlier shareholders.",
+      "source_ids": [
+        "hot-citi-ar2008",
+        "hot-citi-ar2009",
+        "hot-citi-ar2010",
+        "yahoo-c"
+      ]
+    },
+    {
+      "asset_id": "hot:2007-11:apple",
+      "text": "Apple turned the iPhone into a major global business and introduced the iPad in 2010. In the quarter ended September 2012, iPhone sales were 58% higher than a year earlier. Apple earned $8.2 billion in profit that quarter and was paying a dividend. Its large stock gain was backed by a business selling far more products and earning far more money.",
+      "source_ids": ["hot-apple-ipad2010", "hot-apple-q42012", "yahoo-aapl"]
+    }
+  ]
 }

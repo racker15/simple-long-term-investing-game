@@ -50,6 +50,66 @@
       "approximation": false,
       "notes": "Preliminary delivery report, 499,550 rounded for player readability; no earnings claim.",
       "observation_date": "2020-12-31"
+    },
+    {
+      "id": "hot-boeing-fy2020",
+      "source_name": "Boeing: fourth-quarter and full-year 2020 results",
+      "source_reference": "https://investors.boeing.com/investors/news/press-release-details/2021/Boeing-Reports-Fourth-Quarter-Results/default.aspx",
+      "publication_date": "2021-01-27",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "The 737 MAX grounding and pandemic hurt results. Revenue fell to $58.2 billion and the annual net loss reached $11.9 billion, including a $6.5 billion 777X charge. MAX deliveries resumed in late 2020.",
+      "observation_date": "2020-12-31"
+    },
+    {
+      "id": "hot-boeing-fy2024",
+      "source_name": "Boeing: fourth-quarter and full-year 2024 results",
+      "source_reference": "https://investors.boeing.com/investors/news/press-release-details/2025/Boeing-Reports-Fourth-Quarter-Results/default.aspx",
+      "publication_date": "2025-01-28",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "2024 revenue fell 14% to $66.5 billion, with 348 commercial-airplane deliveries and an $11.8 billion annual net loss. The IAM strike, commercial-airplane charges and defense-program losses weighed on results.",
+      "observation_date": "2024-12-31"
+    },
+    {
+      "id": "hot-tesla-fy2020",
+      "source_name": "Tesla: fourth-quarter and full-year 2020 update",
+      "source_reference": "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q4-2020-Update",
+      "publication_date": "2021-01-27",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Tesla delivered roughly 500,000 vehicles in 2020 and earned $721 million attributable to common shareholders, its first full-year GAAP profit. Regulatory-credit revenue was $1.58 billion. Model Y deliveries began in 2020, while Model 3 and Shanghai production expanded.",
+      "observation_date": "2020-12-31"
+    },
+    {
+      "id": "hot-tesla-fy2024",
+      "source_name": "Tesla: fourth-quarter and full-year 2024 update",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025002993/exhibit991.htm",
+      "publication_date": "2025-01-29",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Deliveries rose from about 500,000 in 2020 to 1.789 million in 2024, but fell 1% from 2023. Annual operating income fell 20% to $7.076 billion. Energy-storage deployments more than doubled. Forward-looking robotaxi plans are treated as hopes, not delivered results.",
+      "observation_date": "2024-12-31"
+    },
+    {
+      "id": "hot-disney-fy2020",
+      "source_name": "Disney: fourth-quarter and full-year fiscal 2020 earnings",
+      "source_reference": "https://thewaltdisneycompany.com/app/uploads/2020/11/q4-fy20-earnings.pdf",
+      "publication_date": "2020-11-12",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Documents pandemic closures of theme parks, disruption to theaters and cruises, and fiscal 2020 losses.",
+      "observation_date": "2020-10-03"
+    },
+    {
+      "id": "hot-disney-fy2024",
+      "source_name": "Disney: fourth-quarter and full-year fiscal 2024 earnings",
+      "source_reference": "https://thewaltdisneycompany.com/press-releases/the-walt-disney-company-reports-fourth-quarter-and-full-year-earnings-for-fiscal-2024/",
+      "publication_date": "2024-11-14",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Entertainment streaming earned $143 million for the year versus a $2.496 billion loss in 2023. Linear-network revenue fell 9%. Inside Out 2 and Deadpool & Wolverine boosted film results; parks generated record full-year revenue and operating income.",
+      "observation_date": "2024-09-28"
     }
   ]
 }

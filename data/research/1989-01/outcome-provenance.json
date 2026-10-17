@@ -40,6 +40,76 @@
       "approximation": false,
       "notes": "Undated retrospective account of the April 30, 1993 software release.",
       "observation_date": "1993-04-30"
+    },
+    {
+      "id": "hot-ba-1990-profit",
+      "source_name": "UPI: Boeing says 1990 profits up 42 percent",
+      "source_reference": "https://www.upi.com/Archives/1991/01/28/Boeing-says-1990-profits-up-42-percent/4510665038800/",
+      "publication_date": "1991-01-28",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: 1990 profit $1.38 billion, up 42%, on sales of $27.95 billion.",
+      "observation_date": "1990-12-31"
+    },
+    {
+      "id": "hot-ba-1993-results",
+      "source_name": "UPI: Boeing reports lower third-quarter results",
+      "source_reference": "https://www.upi.com/Archives/1993/10/25/Boeing-reports-lower-third-quarter-results/6766751521600/",
+      "publication_date": "1993-10-25",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: lower aircraft and defense sales and development spending on the 777 weighed on results.",
+      "observation_date": "1993-09-30"
+    },
+    {
+      "id": "hot-ibm-1992-loss",
+      "source_name": "UPI: IBM posts worst year ever",
+      "source_reference": "https://www.upi.com/Archives/1993/01/19/IBM-posts-worst-year-ever/3920727419600/",
+      "publication_date": "1993-01-19",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: $4.97 billion net loss for 1992, including substantial restructuring charges.",
+      "observation_date": "1992-12-31"
+    },
+    {
+      "id": "hot-ibm-gerstner",
+      "source_name": "IBM: Louis V. Gerstner Jr.",
+      "source_reference": "https://www.ibm.com/history/louis-gerstner",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Undated retrospective company history confirms Gerstner took over as CEO in April 1993.",
+      "observation_date": "1993-04-01"
+    },
+    {
+      "id": "hot-ibm-1993-cuts",
+      "source_name": "UPI: IBM posts loss, announces job cuts",
+      "source_reference": "https://www.upi.com/amp/Archives/1993/07/27/IBM-posts-loss-announces-job-cuts/1007743745600/",
+      "publication_date": "1993-07-27",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: major restructuring and job cuts, including an $8.9 billion second-quarter charge.",
+      "observation_date": "1993-06-30"
+    },
+    {
+      "id": "hot-xom-valdez",
+      "source_name": "ExxonMobil: Our history",
+      "source_reference": "https://corporate.exxonmobil.com/who-we-are/our-global-organization/our-history",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Undated retrospective corporate history identifies the Exxon Valdez oil spill on March 24, 1989.",
+      "observation_date": "1989-03-24"
+    },
+    {
+      "id": "hot-xom-1993-refining",
+      "source_name": "Oil & Gas Journal: Profits for OGJ group show big gain in 1993, revenues dip",
+      "source_reference": "https://www.ogj.com/general-interest/companies/article/17212109/profits-for-ogj-group-show-big-gain-in-1993-revenues-dip",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "1994 contemporary industry review; exact publication day not established. Exxon refining and marketing earnings rose 28% to $2.015 billion in 1993, helped by margins and lower costs. For January 1994 endpoints, cited retrospectively for the completed 1993 operating year, not as news already published at the endpoint.",
+      "observation_date": "1993-12-31"
     }
   ]
 }

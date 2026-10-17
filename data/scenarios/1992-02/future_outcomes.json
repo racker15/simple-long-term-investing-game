@@ -51,6 +51,23 @@
       "windows95"
     ]
   },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1992-02:honda",
+      "text": "Honda found new buyers with vehicles built for families and recreation. It launched the Odyssey minivan in Japan in October 1994 and the CR-V in 1995. These models helped revive its Japanese business during a difficult period. The investment rose strongly while Honda’s product range expanded beyond its familiar cars.",
+      "source_ids": ["hot-hmc-products", "yahoo-hmc"]
+    },
+    {
+      "asset_id": "hot:1992-02:hasbro",
+      "text": "Hasbro’s games and toys brought in more money. Its 1996 sales passed $3 billion, up 5%, and profit was about $200 million. Board games, computer versions of games and Star Wars toys helped. Those results, reported in February 1997, show concrete business progress during the investment’s five-year rise.",
+      "source_ids": ["hot-has-1996-results", "yahoo-has"]
+    },
+    {
+      "asset_id": "hot:1992-02:ibm",
+      "text": "IBM’s deep losses gave way to about $3 billion of profit in 1994 and $4.2 billion in 1995. Services revenue grew, and the July 1995 Lotus acquisition added business software. The investment finished higher as the company rebuilt its earnings. This window includes a painful decline before that recovery took hold.",
+      "source_ids": ["hot-ibm-1995-report", "yahoo-ibm"]
+    }
+  ],
   "monthly_returns": {
     "cash": [
       { "month": "1992-03", "return": 0.0034000000000000002 },

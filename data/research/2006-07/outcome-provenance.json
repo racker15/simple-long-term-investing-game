@@ -30,6 +30,76 @@
       "approximation": false,
       "notes": "Institutional account of the March11 disaster.",
       "observation_date": "2011-03-11"
+    },
+    {
+      "id": "hot-hp-eds2008",
+      "source_name": "HP history: EDS acquisition",
+      "source_reference": "https://www.hp.com/hpinfo/abouthp/histnfacts/timeline/hist_00s.html",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Retrospective company timeline documents the 2008 acquisition of EDS for $13.9 billion, expanding enterprise technology services.",
+      "observation_date": "2008-08-26"
+    },
+    {
+      "id": "hot-hp-fy2010",
+      "source_name": "HP: fourth-quarter and full-year 2010 results",
+      "source_reference": "https://investor.hp.com/news-events/news/news-details/2010/HP-Reports-Fourth-Quarter-2010-Results/default.aspx",
+      "publication_date": "2010-11-22",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Full-year 2010 revenue was $126 billion, up 10%; earnings per share increased. This predates the scenario endpoint in July 2011.",
+      "observation_date": "2010-10-31"
+    },
+    {
+      "id": "hot-hp-q22011",
+      "source_name": "HP: second-quarter fiscal 2011 results",
+      "source_reference": "https://investor.hp.com/news-events/news/news-details/2011/HP-Reports-Second-Quarter-2011-Results/default.aspx",
+      "publication_date": "2011-05-17",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Commercial servers and software grew, while weak consumer demand and services challenges accompanied a reduced full-year outlook. The August 2011 strategic announcements occur after this scenario and are excluded.",
+      "observation_date": "2011-05-17"
+    },
+    {
+      "id": "hot-apple-iphone2007",
+      "source_name": "Apple introduces iPhone",
+      "source_reference": "https://www.apple.com/uk/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/",
+      "publication_date": "2007-01-09",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Original iPhone introduction. Used as an in-window event only for the July 2006 scenario.",
+      "observation_date": "2007-01-09"
+    },
+    {
+      "id": "hot-apple-ipad2010",
+      "source_name": "Apple launches iPad",
+      "source_reference": "https://www.apple.com/newsroom/2010/01/27Apple-Launches-iPad/",
+      "publication_date": "2010-01-27",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Apple introduced the iPad tablet in January 2010; announcement distinguished from its later retail availability.",
+      "observation_date": "2010-01-27"
+    },
+    {
+      "id": "hot-apple-q32011",
+      "source_name": "Apple: third-quarter fiscal 2011 results",
+      "source_reference": "https://www.apple.com/newsroom/2011/07/19Apple-Reports-Third-Quarter-Results/",
+      "publication_date": "2011-07-19",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Revenue was $28.57 billion and net profit $7.31 billion. Apple sold 20.34 million iPhones, up 142%, and 9.25 million iPads, up 183%.",
+      "observation_date": "2011-06-25"
+    },
+    {
+      "id": "hot-microsoft-fy2011",
+      "source_name": "Microsoft: fourth-quarter and full-year fiscal 2011 results",
+      "source_reference": "https://news.microsoft.com/source/2011/07/21/microsoft-reports-record-fourth-quarter-and-full-year-results/",
+      "publication_date": "2011-07-21",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Fiscal 2011 revenue was $69.94 billion, up 12%, and net income was $23.15 billion, up 23%. Office, server software and Xbox supported growth.",
+      "observation_date": "2011-06-30"
     }
   ]
 }

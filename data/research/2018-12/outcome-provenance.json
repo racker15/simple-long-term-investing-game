@@ -40,6 +40,66 @@
       "approximation": false,
       "notes": "First full set of scientific images.",
       "observation_date": "2022-07-12"
+    },
+    {
+      "id": "hot-nintendo-fy2021",
+      "source_name": "Nintendo: fiscal year ended March 2021 results",
+      "source_reference": "https://www.nintendo.co.jp/ir/pdf/2021/210506e.pdf",
+      "publication_date": "2021-05-06",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Nintendo sold 28.83 million Switch consoles, up 37.1%, during the year ended March 2021. Animal Crossing: New Horizons was a major seller; operating profit rose 81.8%.",
+      "observation_date": "2021-03-31"
+    },
+    {
+      "id": "hot-nintendo-sep2023",
+      "source_name": "Nintendo: six months ended September 2023 results",
+      "source_reference": "https://www.nintendo.co.jp/ir/pdf/2023/231107e.pdf",
+      "publication_date": "2023-11-07",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "The Legend of Zelda: Tears of the Kingdom, released in May, sold 19.5 million units. The Super Mario Bros. Movie also increased income from Nintendo characters.",
+      "observation_date": "2023-09-30"
+    },
+    {
+      "id": "hot-apple-q12021",
+      "source_name": "Apple: first-quarter fiscal 2021 results",
+      "source_reference": "https://www.apple.com/newsroom/2021/01/apple-reports-first-quarter-results/",
+      "publication_date": "2021-01-27",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Holiday-quarter revenue reached $111.4 billion, up 21%, and EPS grew 35%; iPhone, wearables and services posted records.",
+      "observation_date": "2020-12-26"
+    },
+    {
+      "id": "hot-apple-q42023",
+      "source_name": "Apple: fourth-quarter fiscal 2023 results",
+      "source_reference": "https://www.apple.com/newsroom/2023/11/apple-reports-fourth-quarter-results/",
+      "publication_date": "2023-11-02",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "September-quarter revenue fell 1% to $89.5 billion while EPS rose 13%. Services reached an all-time revenue record; Apple returned nearly $25 billion to shareholders in the quarter.",
+      "observation_date": "2023-09-30"
+    },
+    {
+      "id": "hot-microsoft-q22021",
+      "source_name": "Microsoft: second-quarter fiscal 2021 results",
+      "source_reference": "https://www.microsoft.com/en-us/Investor/earnings/FY-2021-Q2/press-release-webcast",
+      "publication_date": "2021-01-26",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Revenue rose 17% to $43.1 billion and net income rose 33% to $15.5 billion. Azure revenue grew 50%; Office 365 commercial revenue grew 21%.",
+      "observation_date": "2020-12-31"
+    },
+    {
+      "id": "hot-microsoft-fy2023",
+      "source_name": "Microsoft: fourth-quarter and full-year fiscal 2023 results",
+      "source_reference": "https://www.microsoft.com/en-us/investor/earnings/fy-2023-q4/press-release-webcast",
+      "publication_date": "2023-07-25",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Fiscal-year revenue was $211.9 billion. Azure and Office cloud services supported growth; the June quarter saw Azure and other cloud revenue grow 26% despite weaker PC demand. The release discusses the new AI platform shift.",
+      "observation_date": "2023-06-30"
     }
   ]
 }

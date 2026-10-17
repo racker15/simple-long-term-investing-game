@@ -50,6 +50,56 @@
       "approximation": false,
       "notes": "Exchange circular identifies July 1 adjusted trading.",
       "observation_date": "2009-06-30"
+    },
+    {
+      "id": "hot-aig-treasury2012",
+      "source_name": "US Treasury: final AIG common-stock sale",
+      "source_reference": "https://home.treasury.gov/news/press-releases/tg1796",
+      "publication_date": "2012-12-11",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Treasury announced the sale of its remaining AIG common shares in December 2012. Government investment returns are not treated as ordinary-share investor returns.",
+      "observation_date": "2012-12-11"
+    },
+    {
+      "id": "hot-aig-fy2013",
+      "source_name": "AIG: fourth-quarter and full-year 2013 results",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/5272/000119312514051043/d675287dex991.htm",
+      "publication_date": "2014-02-13",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "AIG recorded 2013 net income of $9.1 billion versus $3.4 billion in 2012. The starting scenario already records a 97.7% one-year share-price decline, so its later gain is measured from a deeply depressed base.",
+      "observation_date": "2013-12-31"
+    },
+    {
+      "id": "hot-moodys-fy2009",
+      "source_name": "Moody's: fourth-quarter and full-year 2009 results",
+      "source_reference": "https://ir.moodys.com/press-releases/news-details/2010/Moodys-Corporation-Reports-Results-for-Fourth-Quarter-and-Full-Year-2009/default.aspx",
+      "publication_date": "2010-02-04",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "2009 revenue was $1.7972 billion; the company remained profitable after the financial crisis.",
+      "observation_date": "2009-12-31"
+    },
+    {
+      "id": "hot-moodys-fy2013",
+      "source_name": "Moody's: fourth-quarter and full-year 2013 results",
+      "source_reference": "https://ir.moodys.com/press-releases/news-details/2014/Moodys-Corporation-Reports-Results-for-Fourth-Quarter-and-Full-Year-2013/default.aspx",
+      "publication_date": "2014-02-07",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "2013 revenue reached $2.9725 billion, up 9%. Ratings revenue and analytics revenue grew; corporate-finance ratings revenue reached $996.8 million versus $857.6 million in 2012.",
+      "observation_date": "2013-12-31"
+    },
+    {
+      "id": "hot-amazon-fy2013",
+      "source_name": "Amazon: fourth-quarter and full-year 2013 results",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/1018724/000101872414000004/amzn-20131231xex991.htm",
+      "publication_date": "2014-01-30",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Annual sales rose 22% to $74.45 billion, with net income of $274 million after a 2012 loss. Prime had tens of millions of members; Kindle, Prime delivery and AWS offerings expanded.",
+      "observation_date": "2013-12-31"
     }
   ]
 }
