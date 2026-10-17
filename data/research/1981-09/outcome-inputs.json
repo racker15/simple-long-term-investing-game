@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "The economy had more painful months ahead. Recovery began after the low point in November 1982, although the official announcement came later. Knowing the turning point afterward was much easier than recognizing it while living through it.\n\nThe five years also included new missile-defense proposals and the loss of the Challenger shuttle in January 1986. The news kept changing. No single story gave people a complete map of the future.\n\nAll seven investments gained over the full period. Coca-Cola finished first, turning $10,000 into about $38,600. The international share basket also rose strongly. But these gains began from this particular starting price, and they stopped at this particular ending date.\n\nThe nearby August scenario uses the same three companies. Its final amounts differ because it starts and ends one month earlier. That is why a return always needs a time period attached. Neither starting date came with a promise that the next five years would be profitable.",
+    "text": "The economy had more painful months ahead. Recovery began after the low point in November 1982, although the official announcement came later. Knowing the turning point afterward was much easier than recognizing it while living through it.\n\nIBM’s PCjr aimed at home buyers but was discontinued in 1985 after weak sales. Coca-Cola reversed its New Coke decision after customers objected. Exxon faced weaker profits when the oil market was oversupplied. Each business met its own tests during the recession and recovery, but these events do not explain a share price by themselves.\n\nAll seven investments gained over the full period. Coca-Cola finished first, turning $10,000 into about $38,600. The international share basket also rose strongly. But these gains began from this particular starting price, and they stopped at this particular ending date.\n\nThe nearby August scenario uses the same three companies. Its final amounts differ because it starts and ends one month earlier. That is why a return always needs a time period attached. Neither starting date came with a promise that the next five years would be profitable.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -32,7 +32,10 @@
       "nber-1982-trough",
       "reagan-sdi",
       "nasa-challenger",
-      "fed-1981-recession"
+      "fed-1981-recession",
+      "early-1981-09-pcjr-wapo",
+      "early-1981-09-ko-new-coke",
+      "early-1981-09-exxon-1984"
     ]
   },
   "reflection": {
@@ -52,5 +55,23 @@
       "nasa-challenger",
       "fed-1981-recession"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1981-09:ibm": {
+      "text": "IBM tried to bring a computer into homes with the PCjr, available in 1984, but weak sales led it to stop making the machine in 1985. The PCjr failed to win enough buyers; IBM shares still ended higher over this window.",
+      "source_ids": [
+        "early-1981-09-pcjr-smithsonian",
+        "early-1981-09-pcjr-wapo",
+        "yahoo-ibm"
+      ]
+    },
+    "hot:1981-09:coca-cola": {
+      "text": "New Coke replaced Coca-Cola’s familiar recipe on April 23, 1985, but customer complaints led the company to bring the original back on July 11. Restoring it showed how strongly customers preferred the original; Coke shares rose over five years.",
+      "source_ids": ["early-1981-09-ko-new-coke", "yahoo-ko"]
+    },
+    "hot:1981-09:exxon": {
+      "text": "A 1985 report said Exxon’s 1984 earnings fell as oil was oversupplied and prices were weak. Lower prices squeezed its oil profits, while Exxon shares nevertheless ended higher over this five-year window.",
+      "source_ids": ["early-1981-09-exxon-1984", "yahoo-xom"]
+    }
   }
 }

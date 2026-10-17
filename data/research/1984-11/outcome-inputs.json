@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Every choice finished higher over five years, with the international share basket leading this set. Colgate-Palmolive did best among the three individual companies. The toothpaste competition was easy to picture, but a useful new package was only one small part of a company's business.\n\nThe period included the Challenger disaster in 1986 and Black Monday in 1987. On that October day, the Dow fell 22.6%. The monthly chart does not show each daily swing, and a strong final gain does not remove the frightening losses that came first.\n\nIn November 1989, the Berlin Wall opened. This was a major change in people's lives and in Europe. It did not provide a simple rule for choosing among the seven investments.\n\nCompare the results rather than looking only at the winner. The US share basket more than doubled, even though it finished behind the international basket. An investment can do well without coming first, and these dollar gains still need to be considered alongside rising prices.",
+    "text": "Every choice finished higher over five years, with the international share basket leading this set. Colgate-Palmolive did best among the three individual companies. The toothpaste competition was easy to picture, but a useful new package was only one small part of a company's business.\n\nP&G launched a two-in-one shampoo and conditioner in 1986, then used the idea across several hair-care brands. Colgate-Palmolive reported 1988 earnings five times the previous year and sales up 8.4% to $4.7 billion. GE reported stronger first-quarter earnings in 1987 across several businesses. The companies each had more than one product or source of income, so these milestones tell only part of their stories.\n\nIn November 1989, the Berlin Wall opened. This was a major change in people's lives and in Europe. It did not provide a simple rule for choosing among the seven investments.\n\nCompare the results rather than looking only at the winner. The US share basket more than doubled, even though it finished behind the international basket. An investment can do well without coming first, and these dollar gains still need to be considered alongside rising prices.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,10 @@
       "yahoo-ge",
       "nasa-challenger",
       "fed-crash1987",
-      "wall-opens"
+      "wall-opens",
+      "early-1984-11-pg-2in1",
+      "early-1984-11-colgate-1988",
+      "early-1984-11-ge-earnings"
     ]
   },
   "reflection": {
@@ -50,5 +53,19 @@
       "fed-crash1987",
       "wall-opens"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1984-11:procter-gamble": {
+      "text": "In 1986, Procter & Gamble launched a shampoo and conditioner in one bottle, then extended the idea to Head & Shoulders, Pantene and Vidal Sassoon. Putting the formula across several brands gave shoppers more one-step hair-care choices; P&G shares rose in this window.",
+      "source_ids": ["early-1984-11-pg-2in1", "yahoo-pg"]
+    },
+    "hot:1984-11:colgate-palmolive": {
+      "text": "Colgate-Palmolive reported that 1988 earnings rose fivefold to $317.8 million while sales increased 8.4% to $4.7 billion. Both profit and sales grew that year, and Colgate shares finished higher over the full five-year window.",
+      "source_ids": ["early-1984-11-colgate-1988", "yahoo-cl"]
+    },
+    "hot:1984-11:general-electric": {
+      "text": "General Electric reported first-quarter 1987 earnings up 16%, with stronger results in plastics, finance and aerospace. Gains across several lines helped lift the company’s results; GE shares finished higher over this five-year window.",
+      "source_ids": ["early-1984-11-ge-earnings", "yahoo-ge"]
+    }
   }
 }

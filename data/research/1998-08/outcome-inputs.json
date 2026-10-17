@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Amazon more than tripled over five years, leading this set, but its path included very large monthly falls. Apple gained less, while Microsoft lagged both cash and bonds. The US basket and cash ended quite close. The final ranking hides how differently these investments felt along the way.\n\nSoon after the start, banks and securities firms put money into Long-Term Capital Management following heavy losses. The euro began for financial transactions in 1999. The September 11 attacks followed in 2001, causing devastating human losses. The five years contained more than one kind of crisis, alongside ordinary business activity.\n\nKnowing there was trouble at the start was not the same as knowing which investments would recover. A frightening headline could make you want to avoid everything, while an exciting product could pull you toward one company. Neither feeling supplied a reliable five-year ranking. The useful comparison is between your original reasons for choosing and the different paths that the investments actually took.",
+    "text": "Amazon led these choices, ending at about $3.32 per starting dollar. Apple ended near $1.45, and Microsoft near $1.11. Amazon’s route included very large monthly falls, and the final ranking hides how differently these investments felt along the way. The U.S. share basket and cash finished fairly close, while bonds did better than Microsoft.\n\nCompany events help make the period more concrete. In January 2002, Amazon reported its first small quarterly profit for the final quarter of 2001, on $1.12 billion in sales. Apple opened its iTunes Music Store on April 28, 2003; on May 5 it reported over one million songs sold in the first week. Microsoft said more than 67 million Windows XP licenses had sold by October 2002. Each business had a different kind of customer demand, but these facts cannot predict the stock’s full return.\n\nThe period also brought a rescue of Long-Term Capital Management, the euro’s start for financial transactions and the September 11 attacks, which brought devastating losses. Knowing that there was trouble at the start did not reveal which investments would recover. An exciting product or a frightening headline could sway a choice, but neither supplied a reliable five-year ranking.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,11 @@
       "yahoo-msft",
       "ltcm",
       "euro-launch",
-      "september-attacks"
+      "september-attacks",
+      "apple-itunes-week-one",
+      "amazon-q4-2001",
+      "microsoft-xp-sales-2002",
+      "apple-itunes-launch-2003"
     ]
   },
   "reflection": {
@@ -50,5 +54,23 @@
       "euro-launch",
       "september-attacks"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1998-08:apple": {
+      "text": "Apple opened the iTunes Music Store on April 28, 2003. By May 5, the store had sold over one million songs in its first week, connecting Apple’s computers and digital music players with a new online music shop.",
+      "source_ids": [
+        "apple-itunes-launch-2003",
+        "apple-itunes-week-one",
+        "yahoo-aapl"
+      ]
+    },
+    "hot:1998-08:amazon": {
+      "text": "On January 22, 2002, Amazon reported a $5 million net profit for the final quarter of 2001, on $1.12 billion in sales. Amazon said lower prices and more product choices helped sales, marking its first profitable quarter under standard accounting rules after years of losses.",
+      "source_ids": ["amazon-q4-2001", "yahoo-amzn"]
+    },
+    "hot:1998-08:microsoft": {
+      "text": "By October 2002, Microsoft said more than 67 million Windows XP licenses had sold since the system launched in October 2001. The strong sales showed millions of customers were moving to Microsoft’s newest software for home and work computers.",
+      "source_ids": ["microsoft-xp-sales-2002", "yahoo-msft"]
+    }
   }
 }

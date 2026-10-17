@@ -50,6 +50,36 @@
       "approximation": false,
       "notes": "Preliminary delivery report, 499,550 rounded for player readability; no earnings claim.",
       "observation_date": "2020-12-31"
+    },
+    {
+      "id": "boeing-q4-2020",
+      "source_name": "Boeing: fourth-quarter and full-year 2020 results",
+      "source_reference": "https://boeing.mediaroom.com/2021-01-27-Boeing-Reports-Fourth-Quarter-Results",
+      "publication_date": "2021-01-27",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results report 2020 financial losses and the effects of the pandemic and 737 MAX grounding.",
+      "observation_date": "2020-12-31"
+    },
+    {
+      "id": "tesla-q4-2024",
+      "source_name": "Tesla: fourth-quarter 2024 production and deliveries",
+      "source_reference": "https://ir.tesla.com/press-release/tesla-fourth-quarter-2024-production-deliveries-and-deployments",
+      "publication_date": "2025-01-02",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company release reports 2024 deliveries and fourth-quarter production.",
+      "observation_date": "2024-12-31"
+    },
+    {
+      "id": "disney-fy2024",
+      "source_name": "Disney: fiscal 2024 fourth-quarter and full-year results",
+      "source_reference": "https://investors.thewaltdisneycompany.com/news/news-details/2024/The-Walt-Disney-Company-Reports-Fourth-Quarter-and-Full-Year-Earnings-for-Fiscal-2024-11-14-2024/default.aspx",
+      "publication_date": "2024-11-14",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results report 2024 streaming profitability and segment performance.",
+      "observation_date": "2024-09-28"
     }
   ]
 }

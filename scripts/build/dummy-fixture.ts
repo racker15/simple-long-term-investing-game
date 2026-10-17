@@ -115,6 +115,19 @@ const future = {
     ]),
   ),
   return_sources: Object.fromEntries(ids.map((id) => [id, after])),
+  hot_stock_explanations: Object.fromEntries(
+    hot.map((id, i) => [
+      id,
+      {
+        text: [
+          'In this invented story, Acme sold more pocket computers in 2000. Its expansion stalled in 2001, and the shares fell sharply. Later gains did not bring the investment back to its starting value.',
+          'In this invented story, Example Telecom borrowed to build its network. By January 2003, it could not pay its debts. Its shares became worthless and stayed at zero.',
+          'In this invented story, Sample Retail kept opening shops and selling more goods after the slowdown. By January 2004, that growth was helping its profits. Its shares finished ahead of the other choices.',
+        ][i],
+        source_ids: after,
+      },
+    ]),
+  ),
   events: [
     [12, 'Acme draws attention'],
     [18, 'Fictional expansion stalls'],
@@ -178,7 +191,7 @@ for (const [name, value] of Object.entries({
 }))
   await writeFile(
     `data/scenarios/${scenario_id}/${name}.json`,
-    await format(JSON.stringify(value), {
+    await format(JSON.stringify(value, null, 2), {
       ...(await resolveConfig('.prettierrc.json')),
       parser: 'json',
     }),

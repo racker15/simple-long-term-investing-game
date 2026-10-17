@@ -30,6 +30,36 @@
       "approximation": false,
       "notes": "First full set of scientific images.",
       "observation_date": "2022-07-12"
+    },
+    {
+      "id": "disney-q1-2025",
+      "source_name": "Disney: fiscal 2025 first-quarter results",
+      "source_reference": "https://thewaltdisneycompany.com/press-releases/the-walt-disney-company-reports-first-quarter-earnings-for-fiscal-2025/",
+      "publication_date": "2025-02-05",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results report first-quarter fiscal 2025 direct-to-consumer streaming operating income.",
+      "observation_date": "2024-12-28"
+    },
+    {
+      "id": "amazon-q4-2024",
+      "source_name": "Amazon: fourth-quarter and full-year 2024 results",
+      "source_reference": "https://ir.aboutamazon.com/news-release/news-release-details/2025/Amazon-com-Announces-Fourth-Quarter-Results/default.aspx",
+      "publication_date": "2025-02-06",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results report 2024 sales growth and AWS sales and operating income.",
+      "observation_date": "2024-12-31"
+    },
+    {
+      "id": "netflix-q4-2024",
+      "source_name": "Netflix: fourth-quarter 2024 shareholder letter",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000033/ex991_q424.htm",
+      "publication_date": "2025-01-21",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Shareholder letter reports 2024 revenue, operating margin, and paid membership growth.",
+      "observation_date": "2024-12-31"
     }
   ]
 }

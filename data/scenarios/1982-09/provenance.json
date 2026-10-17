@@ -241,6 +241,36 @@
       "approximation": false,
       "notes": "Undated retrospective NASA history, outcome context only.",
       "observation_date": "1986-01-28"
+    },
+    {
+      "id": "early-1982-09-apple-mac",
+      "source_name": "Stanford University: Apple Macintosh Introduction Press Release",
+      "source_reference": "https://web.stanford.edu/dept/SUL/sites/mac/primary/docs/pr1.html",
+      "publication_date": "1984-01-24",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Archived Apple press release introducing the Macintosh on January 24, 1984, with a graphical interface and mouse.",
+      "observation_date": "1984-01-24"
+    },
+    {
+      "id": "early-1982-09-ibm-ps2-launch",
+      "source_name": "The Washington Post: New IBM Computers Unveiled",
+      "source_reference": "https://www.washingtonpost.com/archive/business/1987/04/03/new-ibm-computers-unveiled/ad31e54c-d9c1-4cd1-ae9c-0da7bf9f9b32/",
+      "publication_date": "1987-04-03",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report on IBM announcing the PS/2 line on April 2, 1987.",
+      "observation_date": "1987-04-02"
+    },
+    {
+      "id": "early-1982-09-ko-new-coke",
+      "source_name": "The Coca-Cola Company: New Coke, the Most Memorable Marketing Blunder Ever",
+      "source_reference": "https://www.coca-colacompany.com/about-us/history/new-coke-the-most-memorable-marketing-blunder-ever",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Undated retrospective company history; dates the new-formula announcement to April 23, 1985 and return of original Coke to July 11, 1985.",
+      "observation_date": "1985-07-11"
     }
   ]
 }

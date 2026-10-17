@@ -27,7 +27,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Microsoft led this set, with the international basket close behind. PepsiCo gained, but Coca-Cola lost about one-quarter of its value. The US basket finished slightly behind cash. Two companies selling similar products did not give investors the same result, and a crowded news month did not supply a clear answer.\n\nIn November 2001, Microsoft and the US government proposed a settlement of their competition case. The legal story had moved forward, though review was still required.\n\nEuro notes and coins began circulating in 2002. The Columbia shuttle was lost in 2003, and Hurricane Katrina devastated Gulf Coast communities in 2005. Scientific work, everyday business and terrible disasters all formed part of these years. No single headline captured everything investors would face.\n\nCoca-Cola and PepsiCo are an important contrast. Both sold familiar drinks, yet their shares did not deliver the same result. Buying a product often is different from knowing what its company’s stock will be worth later. The international basket offered another mix of businesses and currencies. Compare those choices with your own reasons at the start: which reasons were sensible, and which depended on a future you could not actually see?",
+    "text": "Microsoft finished about 38% above its start, PepsiCo about 28% above, and Coca-Cola about 26% below. The international share basket came close to Microsoft, while the U.S. basket ended slightly behind cash. Two companies selling familiar foods and drinks did not give investors the same result.\n\nPepsiCo completed its Quaker Oats merger in 2001, adding brands such as Quaker and Gatorade. Coca-Cola launched C2 in 2004, but later reported that its North American results fell short of expectations. Microsoft announced a one-time $3-per-share dividend in 2004, scheduled for December, along with plans to buy back shares. These company events explain what changed in their businesses or cash plans, not exactly why each share moved.\n\nEuro cash entered everyday use in 2002. The Columbia shuttle was lost in 2003, and Hurricane Katrina devastated Gulf Coast communities in 2005. Science, business and disasters all formed part of these years, with very different effects on people. Buying a product often is different from knowing what its company’s stock will be worth later; compare the result with the reasons you chose at the start.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -38,7 +38,10 @@
       "euro-cash",
       "columbia",
       "katrina",
-      "microsoft-settlement"
+      "microsoft-settlement",
+      "pepsico-quaker-merger",
+      "cocacola-c2-results",
+      "microsoft-special-dividend-2004"
     ]
   },
   "reflection": {
@@ -57,5 +60,19 @@
       "columbia",
       "katrina"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:2000-12:pepsico": {
+      "text": "PepsiCo completed its merger with Quaker Oats on August 2, 2001, combining businesses with about $25 billion in annual sales. The deal brought Quaker and Gatorade into PepsiCo’s mix of drinks and snacks, giving it more products to sell in stores and sports venues.",
+      "source_ids": ["pepsico-quaker-merger", "yahoo-pep"]
+    },
+    "hot:2000-12:coca-cola": {
+      "text": "Coca-Cola introduced C2 in North America in June 2004, hoping shoppers would like a cola with less sugar and fewer calories. Sales fell short of the company’s hopes. Its North American retail business also sold 1% less drink volume that year, showing the difficulty of growing in that market.",
+      "source_ids": ["cocacola-c2-results", "yahoo-ko"]
+    },
+    "hot:2000-12:microsoft": {
+      "text": "In July 2004, Microsoft announced a one-time $3-per-share dividend to be paid in December, alongside regular dividends and stock buybacks. The payout returned company cash to shareholders, giving them a special payment in addition to the regular dividend.",
+      "source_ids": ["microsoft-special-dividend-2004", "yahoo-msft"]
+    }
   }
 }

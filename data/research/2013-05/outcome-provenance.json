@@ -30,6 +30,36 @@
       "approximation": false,
       "notes": "Contemporary image and account.",
       "observation_date": "2017-08-21"
+    },
+    {
+      "id": "hasbro-fy2017",
+      "source_name": "Hasbro: full-year and fourth-quarter 2017 results",
+      "source_reference": "https://corp.hasbro.com/news-releases/news-release-details/hasbro-reports-full-year-and-fourth-quarter-2017-financial",
+      "publication_date": "2018-02-07",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results report gaming-category sales for 2017, including growth in the full year.",
+      "observation_date": "2017-12-31"
+    },
+    {
+      "id": "tesla-q1-2018",
+      "source_name": "Tesla: first-quarter 2018 production and deliveries",
+      "source_reference": "https://ir.tesla.com/press-release/tesla-q1-2018-vehicle-production-and-deliveries",
+      "publication_date": "2018-04-03",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company reports production and deliveries during the Model 3 production ramp.",
+      "observation_date": "2018-03-31"
+    },
+    {
+      "id": "apple-q2-2018",
+      "source_name": "Apple: fiscal 2018 second-quarter results",
+      "source_reference": "https://www.apple.com/newsroom/2018/05/apple-reports-second-quarter-results/",
+      "publication_date": "2018-05-01",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company reports record March-quarter revenue and growth in iPhone, services, and wearables.",
+      "observation_date": "2018-03-31"
     }
   ]
 }

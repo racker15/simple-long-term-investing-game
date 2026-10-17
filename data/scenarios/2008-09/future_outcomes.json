@@ -33,7 +33,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "By September 2008, banks and other businesses were in serious trouble. A plan to help banks was rejected in a vote, and AIG, a large insurance company, received emergency help.\n\nThe Federal Reserve quickly cut interest rates close to zero. A group that tracks the U.S. economy later said the recession began in December 2007 and ended in June 2009. It did not announce the end date until September 2010. By then, many families and businesses were still struggling.\n\nIn 2012, Apple said it would start paying a dividend: money a company pays to people who own its shares. By September 2013, interest rates were still very low.\n\nAll three company investments ended above their September 2008 starting values. Apple’s gain was much larger than Microsoft’s or Exxon Mobil’s. But getting to the end was hard to predict; the stocks went through years of change.\n\nA positive five-year result does not mean the frightening months in 2008 were easy to ignore or that recovery was certain.",
+    "text": "All three company investments ended above their September 2008 starting values. Apple gained about 331%, much more than Microsoft’s 42% or Exxon Mobil’s 25%. The result came after a frightening period: banks and other businesses were in trouble, the Federal Reserve cut interest rates close to zero, and the recession lasted into 2009.\n\nThe companies had different sources of business. Apple sold 31.2 million iPhones in its June 2013 quarter and reported $6.9 billion in net income. Microsoft’s revenue grew 10% in its June quarter as business software and server products helped offset a weaker PC market. ExxonMobil reported $44.9 billion in earnings for 2012, up 9% from 2011. The facts describe business performance; they do not prove that any single event caused the share returns.\n\nA group that tracks the U.S. economy later dated the recession’s end to June 2009, but did not announce that until September 2010. By September 2013, interest rates were still very low. Getting a positive five-year result did not make the frightening months easy to ignore or recovery certain. The stocks went through years of change before the final comparison could be made.",
     "source_ids": [
       "nber-peak08",
       "fomc-dec08",
@@ -43,7 +43,10 @@
       "fomc-sep13",
       "yahoo-aapl",
       "yahoo-msft",
-      "yahoo-xom"
+      "yahoo-xom",
+      "apple-q3-2013",
+      "microsoft-fy13",
+      "exxon-fy2012"
     ]
   },
   "reflection": {
@@ -69,6 +72,20 @@
       "n08-ipod",
       "n08-metal"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:2008-09:apple": {
+      "text": "In July 2013, Apple reported $35.3 billion in sales and $6.9 billion in net profit for its June quarter. It sold 31.2 million iPhones, a record for a June quarter, but iPad sales were lower than a year earlier. Its phone business was growing even as some other devices slowed.",
+      "source_ids": ["apple-q3-2013"]
+    },
+    "hot:2008-09:microsoft": {
+      "text": "Microsoft’s June-quarter sales rose 10% to $19.9 billion in 2013. Business software and server products helped offset a weak PC market. Its new Surface RT tablets also struggled: Microsoft recorded a $900 million charge to reduce the value of unsold stock.",
+      "source_ids": ["microsoft-fy13"]
+    },
+    "hot:2008-09:exxonmobil": {
+      "text": "ExxonMobil reported $44.9 billion in profit for 2012, up 9% from 2011. It also spent a record $39.8 billion on equipment, projects and exploration. Strong earnings gave it money to develop new oil and gas supplies and return cash to shareholders.",
+      "source_ids": ["exxon-fy2012"]
+    }
   },
   "monthly_returns": {
     "cash": [

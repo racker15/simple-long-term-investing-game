@@ -33,7 +33,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "The five years after February 2016 brought changing interest rates and business conditions. In December 2018, the Federal Reserve raised interest rates. In March 2020, the coronavirus outbreak disrupted daily life and business. The Fed quickly cut rates close to zero and took steps to help markets and lending.\n\nMicrosoft said that working and learning from home increased demand for its cloud services—online tools for storing and working with information. Some online ads and software purchases weakened. Microsoft reported that its cloud business brought in more than $50 billion a year.\n\nApple reported $59.7 billion in revenue—money from sales—in the quarter ending June 2020, 11% more than a year earlier. It also said each share would split into four. Owners would have four shares where they had one, but their total investment would not become four times as valuable just from the split. Exxon Mobil reported a $22.4 billion loss for 2020 during a difficult year for energy companies.\n\nThe game ends in February 2021. No one starting in 2016 knew when a pandemic would arrive or how these companies would change.",
+    "text": "Apple grew to more than five times its starting value and Microsoft to almost five times; Exxon Mobil ended about 13% lower. The five years brought changing interest rates and business conditions. In March 2020, the coronavirus outbreak disrupted daily life and work. The Federal Reserve cut interest rates close to zero and took steps to support markets and lending.\n\nMicrosoft said demand for cloud services grew as more people worked and learned from home, while some advertising and software sales weakened. Apple reported $59.7 billion in revenue for the quarter ending June 2020, 11% above a year earlier, and announced a share split. ExxonMobil reported a $22.4 billion loss for 2020 during a difficult year for energy companies. These are company facts from the period, not proof that one event alone determined each return.\n\nThe game ends in February 2021. No one starting in 2016 knew when a pandemic would arrive or how these companies would adapt. The results also show why a share split changes the number of shares but does not multiply the total value of an investment by itself.",
     "source_ids": [
       "recent-fed-2018",
       "recent-fed-2020",
@@ -59,6 +59,20 @@
       "recent-nfl-start",
       "recent-academy-start"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:2016-02:apple": {
+      "text": "In July 2020, Apple reported $59.7 billion in revenue for the quarter ending in June, 11% more than a year earlier. It also announced a four-for-one share split. A split gives owners more shares but does not multiply the value of their investment by itself.",
+      "source_ids": ["recent-apple-2020"]
+    },
+    "hot:2016-02:microsoft": {
+      "text": "In July 2020, Microsoft said demand for its cloud tools grew as people worked and learned from home. Its cloud services for business customers brought in more than $50 billion over the year. Some advertising and software sales were weaker, so different parts of the company felt the pandemic in different ways.",
+      "source_ids": ["recent-msft-2020"]
+    },
+    "hot:2016-02:exxonmobil": {
+      "text": "ExxonMobil reported a $22.4 billion loss for 2020 as the pandemic reduced demand for fuel and other energy products. The company also recorded large, mostly non-cash charges. Its business remained important, but low demand and prices created a difficult year for oil producers.",
+      "source_ids": ["recent-xom-2020"]
+    }
   },
   "monthly_returns": {
     "cash": [

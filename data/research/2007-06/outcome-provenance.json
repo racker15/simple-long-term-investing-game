@@ -30,6 +30,36 @@
       "approximation": false,
       "notes": "Institutional account of the March11 disaster.",
       "observation_date": "2011-03-11"
+    },
+    {
+      "id": "apple-q2-2012",
+      "source_name": "Apple: fiscal 2012 second-quarter results",
+      "source_reference": "https://www.apple.com/newsroom/2012/04/24Apple-Reports-Second-Quarter-Results/",
+      "publication_date": "2012-04-24",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results for the March 2012 quarter: iPhone and iPad sales, revenue, and net profit.",
+      "observation_date": "2012-03-31"
+    },
+    {
+      "id": "microsoft-q3-2012",
+      "source_name": "Microsoft: fiscal 2012 third-quarter results",
+      "source_reference": "https://www.microsoft.com/en-us/Investor/earnings/FY-2012-Q3/press-release-webcast",
+      "publication_date": "2012-04-19",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results for the quarter ended March 31, 2012, including revenue and growth in Office and server products.",
+      "observation_date": "2012-03-31"
+    },
+    {
+      "id": "disney-q2-2012",
+      "source_name": "Disney: fiscal 2012 second-quarter results",
+      "source_reference": "https://thewaltdisneycompany.com/press-releases/y12-q2-earnings/",
+      "publication_date": "2012-05-08",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results include revenue, earnings, and management discussion of The Avengers and Disney brands.",
+      "observation_date": "2012-03-31"
     }
   ]
 }

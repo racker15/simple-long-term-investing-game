@@ -30,6 +30,36 @@
       "approximation": false,
       "notes": "Contemporary central-bank speech.",
       "observation_date": "1999-01-01"
+    },
+    {
+      "id": "microsoft-fy1998",
+      "source_name": "Microsoft: Microsoft Announces Record Fiscal 1998 Revenue and Income",
+      "source_reference": "https://news.microsoft.com/source/1998/07/16/microsoft-announces-record-fiscal-1998-revenue-and-income/",
+      "publication_date": "1998-07-16",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Microsoft reported fiscal 1998 revenue of $14.48 billion, up 28%, and more than one million Windows 98 upgrade licenses sold shortly after the June 25, 1998 release.",
+      "observation_date": "1998-06-30"
+    },
+    {
+      "id": "disney-animal-kingdom",
+      "source_name": "D23: Disney’s Animal Kingdom history",
+      "source_reference": "https://d23.com/a-to-z/animal-kingdom-disneys/",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Disney history entry dates Animal Kingdom’s opening at Walt Disney World to April 22, 1998; it became the resort’s fourth theme park.",
+      "observation_date": "1998-04-22"
+    },
+    {
+      "id": "intel-pentium-iii",
+      "source_name": "Intel: Intel Launches the Pentium III Processor",
+      "source_reference": "https://www.intel.com/pressroom/archive/releases/1999/dp022699.htm",
+      "publication_date": "1999-02-26",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Original Intel release introducing Pentium III, designed for internet, audio, video, animation and 3-D uses.",
+      "observation_date": "1999-02-26"
     }
   ]
 }

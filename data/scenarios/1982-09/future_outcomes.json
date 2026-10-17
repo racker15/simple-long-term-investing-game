@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "The economy began growing again after November 1982. People did not know the precise turning point on decision day. The organization that dates US recessions announced it in July 1983, after more evidence had arrived.\n\nThe years ahead brought very different news. Reagan proposed missile-defense research in 1983. In 1986, the Challenger disaster killed its seven crew members and led NASA to pause shuttle flights. These events mattered to people's lives without neatly predicting which investment would finish first.\n\nAll seven choices gained value in this window. Apple led, turning $10,000 into about $62,100. The international share basket also rose strongly. IBM gained too, but much less than Apple. Both were famous computer companies; that did not make their shares interchangeable.\n\nAn investor had to hold through each month to reach these ending amounts. The gains were not handed out evenly each year. Starting or stopping at a different date could also change the result, even for the same company.",
+    "text": "The economy began growing again after November 1982. People did not know the precise turning point on decision day. The organization that dates US recessions announced it in July 1983, after more evidence had arrived.\n\nThe years ahead brought very different news. Reagan proposed missile-defense research in 1983. In 1986, the Challenger disaster killed its seven crew members and led NASA to pause shuttle flights. These events mattered to people's lives without neatly predicting which investment would finish first.\n\nAll seven choices gained value in this window. Apple led, turning $10,000 into about $62,100. The international share basket also rose strongly. IBM gained too, but much less than Apple. Both were famous computer companies; that did not make their shares interchangeable.\n\nApple’s Macintosh gave its computer line a mouse-controlled screen in 1984. IBM launched the PS/2 family in April 1987, seeking to stay competitive in personal computers. Coke also reversed its 1985 New Coke recipe after customers objected. Their products mattered to the businesses, but do not explain every share-price move.",
     "source_ids": [
       "nber-1982-trough",
       "french-us",
@@ -29,7 +29,10 @@
       "fred-gs5",
       "yahoo-aapl",
       "yahoo-ibm",
-      "yahoo-ko"
+      "yahoo-ko",
+      "early-1982-09-apple-mac",
+      "early-1982-09-ibm-ps2-launch",
+      "early-1982-09-ko-new-coke"
     ]
   },
   "reflection": {
@@ -46,6 +49,20 @@
       "yahoo-ibm",
       "yahoo-ko"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1982-09:apple": {
+      "text": "Apple introduced the Macintosh in January 1984, giving customers a personal computer with pictures and menus they controlled using a mouse. The Mac gave Apple a new kind of computer to sell; Apple shares ended higher over this five-year window.",
+      "source_ids": ["early-1982-09-apple-mac", "yahoo-aapl"]
+    },
+    "hot:1982-09:ibm": {
+      "text": "IBM announced its PS/2 computer family on April 2, 1987, adding a new line to compete in the changing personal-computer market. The launch gave IBM another way to compete for PC buyers; IBM shares ended higher in this window.",
+      "source_ids": ["early-1982-09-ibm-ps2-launch", "yahoo-ibm"]
+    },
+    "hot:1982-09:coca-cola": {
+      "text": "New Coke replaced Coca-Cola’s familiar recipe on April 23, 1985, but customer complaints led the company to bring the original back on July 11. Restoring it showed how strongly customers preferred the original; Coke shares rose over this five-year window.",
+      "source_ids": ["early-1982-09-ko-new-coke", "yahoo-ko"]
+    }
   },
   "monthly_returns": {
     "cash": [

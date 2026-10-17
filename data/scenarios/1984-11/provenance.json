@@ -234,6 +234,35 @@
       "approximation": false,
       "notes": "Undated retrospective history; outcome context only.",
       "observation_date": "1989-11-09"
+    },
+    {
+      "id": "early-1984-11-pg-2in1",
+      "source_name": "Procter & Gamble: P&G History",
+      "source_reference": "https://us.pg.com/pg-history/",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Current company history states that P&G launched the first two-in-one shampoo and conditioner in 1986, then expanded the technology to Head & Shoulders, Pantene, and Vidal Sassoon; exact day not stated."
+    },
+    {
+      "id": "early-1984-11-ge-earnings",
+      "source_name": "UPI: GE Reports Rise in Earnings",
+      "source_reference": "https://www.upi.com/Archives/1987/04/08/GE-reports-rise-in-earnings/9208544852800/",
+      "publication_date": "1987-04-08",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary first-quarter results: GE net earnings rose 16% from a year earlier to $624 million.",
+      "observation_date": "1987-03-31"
+    },
+    {
+      "id": "early-1984-11-colgate-1988",
+      "source_name": "Los Angeles Times: Colgate-Palmolive 1988 Results",
+      "source_reference": "https://www.latimes.com/archives/la-xpm-1989-02-10-fi-2250-story.html",
+      "publication_date": "1989-02-10",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary earnings report: 1988 earnings were $317.8 million, about five times the previous year, and revenue rose 8.4% to $4.7 billion.",
+      "observation_date": "1988-12-31"
     }
   ]
 }

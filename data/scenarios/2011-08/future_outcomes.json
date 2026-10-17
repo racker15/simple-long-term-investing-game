@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "The US share basket almost doubled over five years. Microsoft gained the most among these choices, while Apple and Bank of America also more than doubled. Cash barely grew. The gloomy starting headlines did not prevent gains, but the final chart hides many difficult decisions along the way.\n\nScientists reported a new particle consistent with the Higgs boson in 2012. New Horizons flew past Pluto in 2015. UK voters chose to leave the European Union in 2016, beginning a long political process. The investment period contained discoveries and difficult decisions far beyond company earnings.\n\nBank of America also requires a careful comparison. The ordinary shares in this game were different from the special investment Berkshire announced at the start. A famous investor may receive different terms from an everyday buyer. Even when two people invest in the same company, their risks and payments can differ. Looking at the deal, rather than just the famous name, helps avoid a misleading comparison.",
+    "text": "Microsoft gained the most among these choices, about 148%; Apple gained about 111% and Bank of America about 106%. The U.S. share basket almost doubled, while cash barely grew. The gloomy headlines at the start did not prevent gains, but the ending chart hides many difficult decisions along the way.\n\nApple reported record September-quarter sales and $8.5 billion in profit in 2014, alongside its biggest iPhone launch to date. Bank of America agreed to a $16.65 billion mortgage-related settlement in 2014, which it said would cut third-quarter pre-tax earnings by $5.3 billion. By 2016, Microsoft reported sharp growth in its Azure cloud service and Office 365. The three examples show different business pressures and opportunities; none alone explains a five-year share result.\n\nA famous investor’s Bank of America deal at the starting date was different from the ordinary shares in this game. Scientists reported a particle consistent with the Higgs boson in 2012, and New Horizons flew past Pluto in 2015. UK voters chose to leave the European Union in 2016, starting a long political process. The same period contained discoveries and decisions beyond company earnings. Looking at the deal and the business matters more than relying on a familiar name.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,10 @@
       "yahoo-msft",
       "higgs",
       "pluto",
-      "brexit"
+      "brexit",
+      "apple-q4-2014",
+      "bofa-settlement-2014",
+      "microsoft-fy2016"
     ]
   },
   "reflection": {
@@ -50,6 +53,20 @@
       "pluto",
       "brexit"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:2011-08:apple": {
+      "text": "In October 2014, Apple reported $42.1 billion in sales, a record for its September quarter, and $8.5 billion in net profit. The iPhone 6 and 6 Plus had just become its biggest phone launch yet. Strong iPhone, Mac and App Store sales were helping the business grow.",
+      "source_ids": ["apple-q4-2014"]
+    },
+    "hot:2011-08:bank-of-america": {
+      "text": "In August 2014, Bank of America agreed to a $16.65 billion settlement over mortgage-related claims. The bank said the deal would reduce third-quarter pre-tax earnings by $5.3 billion. That large cost showed how old loans and legal disputes could still affect a bank years after the housing crisis.",
+      "source_ids": ["bofa-settlement-2014"]
+    },
+    "hot:2011-08:microsoft": {
+      "text": "For the quarter ending in June 2016, Microsoft’s Azure cloud revenue grew 102% from a year earlier, and Office 365 business revenue rose 54%. Customers were paying to use software and computing over the internet. These services gave Microsoft growing businesses beyond traditional Windows sales.",
+      "source_ids": ["microsoft-fy2016"]
+    }
   },
   "monthly_returns": {
     "cash": [

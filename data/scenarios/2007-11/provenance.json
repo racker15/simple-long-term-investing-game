@@ -261,6 +261,36 @@
       "approximation": false,
       "notes": "Institutional account of the March11 disaster.",
       "observation_date": "2011-03-11"
+    },
+    {
+      "id": "amazon-q4-2009",
+      "source_name": "Amazon: fourth-quarter 2009 results",
+      "source_reference": "https://press.aboutamazon.com/2010/1/amazon-com-announces-fourth-quarter-sales-up-42-to-9-5-billion",
+      "publication_date": "2010-01-28",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results report fourth-quarter sales growth and customer adoption of Kindle products.",
+      "observation_date": "2009-12-31"
+    },
+    {
+      "id": "citi-fy2009",
+      "source_name": "Citigroup: 2009 full-year results",
+      "source_reference": "https://www.citigroup.com/global/news/press-release/2010/citigroup-reports-2009-full-year-managed-revenues-of-911-billion-and-expenses-of-478-billion",
+      "publication_date": "2010-01-19",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results report full-year net loss and fourth-quarter loss amid continuing credit costs.",
+      "observation_date": "2009-12-31"
+    },
+    {
+      "id": "apple-iphone5-sales",
+      "source_name": "Apple: iPhone 5 first-weekend sales",
+      "source_reference": "https://www.apple.com/newsroom/2012/09/24iPhone-5-First-Weekend-Sales-Top-Five-Million/",
+      "publication_date": "2012-09-24",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company reports more than five million iPhone 5 sales in its first three days.",
+      "observation_date": "2012-09-23"
     }
   ]
 }

@@ -254,6 +254,36 @@
       "approximation": false,
       "notes": "Exchange circular identifies July 1 adjusted trading.",
       "observation_date": "2009-06-30"
+    },
+    {
+      "id": "aig-treasury-exit",
+      "source_name": "U.S. Treasury: final AIG common-stock sale",
+      "source_reference": "https://home.treasury.gov/news/press-releases/tg1796",
+      "publication_date": "2012-12-11",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Treasury announcement of the final AIG common-share sale and positive return on the combined public commitment.",
+      "observation_date": "2012-12-11"
+    },
+    {
+      "id": "moodys-fy2012",
+      "source_name": "Moody’s: fourth-quarter and full-year 2012 results",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/1059556/000115752313000616/a50558328_ex991.htm",
+      "publication_date": "2013-02-08",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company earnings release filed as an SEC exhibit; reports revenue and operating income growth for 2012.",
+      "observation_date": "2012-12-31"
+    },
+    {
+      "id": "amazon-q4-2013",
+      "source_name": "Amazon: fourth-quarter 2013 results",
+      "source_reference": "https://press.aboutamazon.com/2014/1/amazon-com-announces-fourth-quarter-sales-up-20-to-25-59-billion",
+      "publication_date": "2014-01-30",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results report fourth-quarter sales growth and the year-end financial period.",
+      "observation_date": "2013-12-31"
     }
   ]
 }

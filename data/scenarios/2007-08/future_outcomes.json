@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Disney led the set, but the two homebuilders split sharply: Lennar gained while KB Home lost nearly three-fifths. Bonds gained more than the US basket. Housing trouble was already visible at the start, yet it still did not tell you which companies would recover or how long that would take.\n\nLehman Brothers filed for bankruptcy the following September as the financial crisis grew worse. The period also included the Deepwater Horizon disaster and Japan’s earthquake and tsunami. The chart covers years in which people faced several very different kinds of uncertainty.\n\nThe two homebuilders offer a concrete test of an industry story. Someone might have expected housing to recover, yet Lennar and KB Home did not give the same five-year result. Owning both would still have placed a lot of money in one kind of business. A broad basket spreads that reliance more widely, though it can also fall. The useful question is how much your plan depends on one forecast being right.",
+    "text": "Disney gained about 57%, and the two homebuilders split sharply: Lennar gained about 24%, while KB Home lost nearly three-fifths. Bonds gained more than the U.S. share basket. Housing trouble was already visible at the start, but it did not show which builders would recover or how long that might take.\n\nLennar’s 2009 average home selling price was $243,000, down from $297,000 in 2007. KB Home reported a $69 million net loss in 2010, though that was smaller than its 2009 loss. Disney, by contrast, reported record revenue, net income and earnings for fiscal 2011. These business facts help explain why the three companies faced different conditions; they do not mechanically account for each share’s five-year result.\n\nLehman Brothers filed for bankruptcy the next September as the financial crisis worsened. The period also included the Deepwater Horizon spill and Japan’s earthquake and tsunami. A person expecting housing to recover still could not know when, or which builder would benefit most. Owning both homebuilders would also keep much of the risk in one industry. A broad basket spreads that reliance more widely, though it can fall too.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,10 @@
       "yahoo-dis",
       "financial-crisis",
       "deepwater",
-      "japan-quake"
+      "japan-quake",
+      "lennar-fy09",
+      "kbhome-fy2010",
+      "disney-fy2011"
     ]
   },
   "reflection": {
@@ -50,6 +53,20 @@
       "deepwater",
       "japan-quake"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:2007-08:lennar": {
+      "text": "Lennar’s average home selling price fell from $297,000 in 2007 to $243,000 in 2009. Fewer sales and lower prices reduced the money coming in. Lennar responded by simplifying its home designs and cutting building costs, helping it keep more of each sale later in 2009.",
+      "source_ids": ["lennar-fy09"]
+    },
+    "hot:2007-08:kb-home": {
+      "text": "KB Home delivered 7,346 homes in 2010, down from 8,488 in 2009. Its yearly loss narrowed to about $69 million, but weak demand and fewer communities still held back sales. The smaller loss showed some improvement without a full return to profit.",
+      "source_ids": ["kbhome-fy2010"]
+    },
+    "hot:2007-08:disney": {
+      "text": "Disney reported record yearly sales and profit in November 2011. Revenue reached $40.9 billion, while net profit rose 21% to $4.8 billion. Television networks, parks, films and licensed products gave the company several ways to earn money while homebuilders were still struggling.",
+      "source_ids": ["disney-fy2011"]
+    }
   },
   "monthly_returns": {
     "cash": [

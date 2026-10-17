@@ -30,6 +30,54 @@
       "approximation": false,
       "notes": "Undated retrospective history; outcome context only.",
       "observation_date": "1991-12-25"
+    },
+    {
+      "id": "early-1987-10-ibm-q3-1992",
+      "source_name": "The Washington Post: IBM Posts Quarterly Loss of $2.8 Billion",
+      "source_reference": "https://www.washingtonpost.com/archive/business/1992/10/16/ibm-posts-quarterly-loss-of-28-billion/245617cc-c612-4d0d-b573-ee325ff8a37c/",
+      "publication_date": "1992-10-16",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report on IBM’s $2.8 billion third-quarter loss, including a large charge for reduced capacity and employee early retirements.",
+      "observation_date": "1992-09-30"
+    },
+    {
+      "id": "early-1987-10-mcd-1991",
+      "source_name": "The Washington Post: McDonald’s Eyes Expansion Abroad, Wider U.S. Menu",
+      "source_reference": "https://www.washingtonpost.com/archive/business/1991/05/28/mcdonalds-eyes-expansion-abroad-wider-us-menu/06513431-615b-4478-b04c-6d423212d4f9/",
+      "publication_date": "1991-05-28",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report: international restaurants generated 34% of sales and 42% of revenue in 1990; executives said the McLean Deluxe was doing well in 1991.",
+      "observation_date": "1990-12-31"
+    },
+    {
+      "id": "early-1987-10-mcd-1992",
+      "source_name": "The Washington Post: Low-Fat Fast-Food Figures to Be a Flop",
+      "source_reference": "https://www.washingtonpost.com/archive/business/1992/04/18/low-fat-fast-food-figures-to-be-a-flop/ea062097-8edd-46c5-92c2-3827f24c6f85/",
+      "publication_date": "1992-04-18",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report says analysts viewed McDonald’s McLean Deluxe sales as disappointing by 1992."
+    },
+    {
+      "id": "early-1987-10-sony-history",
+      "source_name": "Sony Group History: Global Expansion of the Music and Film Businesses",
+      "source_reference": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/2-08.html",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Retrospective Sony history dates CBS Records acquisition to January 1988, Columbia Pictures purchase to November 1989, and notes the music business expansion; month/year only."
+    },
+    {
+      "id": "early-1987-10-sony-columbia",
+      "source_name": "UPI: Sony Completes Columbia Takeover",
+      "source_reference": "https://www.upi.com/Archives/1989/11/07/Sony-completes-Columbia-takeover/2362626418000/",
+      "publication_date": "1989-11-07",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report that Sony completed its Columbia Pictures acquisition on November 7, 1989.",
+      "observation_date": "1989-11-07"
     }
   ]
 }

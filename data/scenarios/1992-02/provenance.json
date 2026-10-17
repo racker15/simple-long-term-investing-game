@@ -243,6 +243,45 @@
       "approximation": false,
       "notes": "Retrospective product history.",
       "observation_date": "1995-08-24"
+    },
+    {
+      "id": "early-1992-02-honda-1994",
+      "source_name": "Honda: Digital Factbook Chronology",
+      "source_reference": "https://hondanews.com/en-US/releases/digital-factbook-chronology",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Current Honda chronology states that in 1994 American Honda exported its 100,000th U.S.-made vehicle; the Accord was a leading export model. Exact day not stated."
+    },
+    {
+      "id": "early-1992-02-hasbro-barney",
+      "source_name": "UPI: Oversaturated Market Clobbers Barney",
+      "source_reference": "https://www.upi.com/Archives/1994/10/20/Oversaturated-market-clobbers-Barney/4287782625600/",
+      "publication_date": "1994-10-20",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary licensing-industry report: Hasbro’s talking Barney doll was America’s top-selling toy in 1993; market observers said oversaturation cut product sales in 1994.",
+      "observation_date": "1993-12-31"
+    },
+    {
+      "id": "early-1992-02-ibm-1992-loss",
+      "source_name": "The Washington Post: IBM Reports a Record $5 Billion Loss",
+      "source_reference": "https://www.washingtonpost.com/archive/politics/1993/01/20/ibm-reports-a-record-5-billion-loss/9f27cba9-65d7-4f7e-ac4c-869734d4054c/",
+      "publication_date": "1993-01-20",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report on IBM’s record 1992 net loss of about $4.97 billion, driven by charges and weak business.",
+      "observation_date": "1992-12-31"
+    },
+    {
+      "id": "early-1992-02-ibm-1994-profit",
+      "source_name": "The Washington Post: Restructured IBM Reports First Annual Profit in Four Years",
+      "source_reference": "https://www.washingtonpost.com/archive/business/1995/01/24/restructured-ibm-reports-1st-annual-profit-in-4-years/4c260b06-b67e-4aa0-a541-03774da25a1a/",
+      "publication_date": "1995-01-24",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report: IBM returned to annual profit for 1994 after restructuring and cost cuts.",
+      "observation_date": "1994-12-31"
     }
   ]
 }

@@ -30,6 +30,36 @@
       "approximation": false,
       "notes": "Official results; vote did not itself end UK membership.",
       "observation_date": "2016-06-24"
+    },
+    {
+      "id": "apple-q4-2014",
+      "source_name": "Apple: fiscal 2014 fourth-quarter results",
+      "source_reference": "https://www.apple.com/newsroom/2014/10/20Apple-Reports-Fourth-Quarter-Results/",
+      "publication_date": "2014-10-20",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results report revenue, profit, and its largest iPhone launch to date.",
+      "observation_date": "2014-09-27"
+    },
+    {
+      "id": "bofa-settlement-2014",
+      "source_name": "Bank of America: SEC-filed settlement announcement",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/70858/000007085814000097/bac-exhibit991082114.htm",
+      "publication_date": "2014-08-21",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company exhibit on the mortgage-related settlement; states the expected pre-tax earnings impact.",
+      "observation_date": "2014-08-21"
+    },
+    {
+      "id": "microsoft-fy2016",
+      "source_name": "Microsoft: fiscal 2016 fourth-quarter results",
+      "source_reference": "https://www.microsoft.com/en-us/Investor/earnings/FY-2016-Q4/press-release-webcast",
+      "publication_date": "2016-07-19",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results report growth in Azure cloud and Office 365 commercial revenue.",
+      "observation_date": "2016-06-30"
     }
   ]
 }

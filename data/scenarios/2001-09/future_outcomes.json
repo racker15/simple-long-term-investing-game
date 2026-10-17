@@ -33,7 +33,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Apple grew to nearly ten times its starting value, and Boeing more than doubled. The international basket also more than doubled, while Microsoft gained much less. You started after the September attacks, so earlier losses were already reflected in starting prices. These gains do not make a frightening event an automatic buying signal.\n\nIn November 2001, Microsoft and the US government proposed a settlement of their competition case. The legal story had moved forward, though review was still required.\n\nApple introduced the iPod in October 2001, expanding beyond computers into portable music. The business itself was changing while investors held its shares.\n\nLater in the window, euro notes and coins entered everyday use. The Columbia shuttle was lost in 2003. Hurricane Katrina struck the Gulf Coast in 2005, creating enormous needs for rescue and recovery. These events changed people’s lives while businesses and markets continued to respond to many different pressures.\n\nThe gain in Boeing is a useful contrast with its planned job cuts at the start. Bad business news does not give a precise five-year stock forecast, just as a product launch does not promise a gain. Your purchase price already reflected the information available that month. The difficult part was deciding what might happen next, without the benefit of the completed chart.",
+    "text": "Apple grew to about $9.93 per starting dollar, Boeing to $2.57 and Microsoft to $1.23. The international share basket also more than doubled. The starting point came after the September attacks, so losses before September 2001 were already reflected in prices. A later gain does not make a frightening event an automatic buying signal.\n\nBoeing launched its 7E7 aircraft project in 2004 with an order from ANA for 50 planes; it reported 126 customer commitments by year-end. Apple introduced iPod and said two million had sold by early 2004. Microsoft announced a $3-per-share special dividend in 2004. These are three different business stories, and none promises a particular share return.\n\nLater in the window, euro notes and coins entered everyday use. The Columbia shuttle was lost in 2003, and Katrina struck the Gulf Coast in 2005. These events changed people’s lives while businesses responded to many pressures. Boeing’s stock gain contrasts with planned job cuts at the start: bad news does not give a precise forecast, just as a product launch does not promise a gain.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -45,7 +45,12 @@
       "columbia",
       "katrina",
       "ipod-2001",
-      "microsoft-settlement"
+      "microsoft-settlement",
+      "boeing-7e7-launch",
+      "boeing-7e7-orders",
+      "microsoft-special-dividend-2004",
+      "apple-ipod-launch",
+      "apple-ipod-two-million"
     ]
   },
   "reflection": {
@@ -64,6 +69,24 @@
       "columbia",
       "katrina"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:2001-09:boeing": {
+      "text": "Boeing began the 7E7 program in April 2004 after ANA ordered 50 planes. In January 2005, it reported 126 orders and commitments announced during 2004. These plans gave it a large new aircraft project, but it still had to build and deliver the planes to turn orders into sales.",
+      "source_ids": ["boeing-7e7-launch", "boeing-7e7-orders", "yahoo-ba"]
+    },
+    "hot:2001-09:microsoft": {
+      "text": "Microsoft announced a one-time $3-per-share dividend in July 2004, payable in December, along with regular dividends and a large share-buyback plan. The special payment returned cash to shareholders in addition to the company’s regular dividend.",
+      "source_ids": ["microsoft-special-dividend-2004", "yahoo-msft"]
+    },
+    "hot:2001-09:apple": {
+      "text": "Apple introduced the iPod in October 2001, and by January 2004 said more than two million had sold. The portable music player gave Apple a product business beside Mac computers and helped make its iTunes software more useful to customers.",
+      "source_ids": [
+        "apple-ipod-launch",
+        "apple-ipod-two-million",
+        "yahoo-aapl"
+      ]
+    }
   },
   "monthly_returns": {
     "cash": [

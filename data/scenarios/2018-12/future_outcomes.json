@@ -27,7 +27,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Apple grew to about five times its starting value, and Microsoft to almost four times. Nintendo nearly doubled, while the US share basket a little more than doubled. Bonds gained only a little. The five years included a pandemic and large changes in interest rates, none of which made prices move in a straight line.\n\nThe pandemic arrived during these five years. WHO described it as a pandemic in March 2020 and listed its first COVID-19 vaccine for emergency use that December. In 2022, the Fed began raising interest rates. That July, Webb’s first full set of scientific images offered striking new views of space.\n\nThese changes formed the setting for the returns, but there is no simple rule assigning each gain to one event. The companies and broad baskets experienced the same years differently. Nintendo’s strong gain did not match Apple’s, and cash followed another path entirely. A good result can still come second or third; coming first is not the only way an investment can grow.",
+    "text": "Apple grew to about five times its starting value, and Microsoft to almost four times. Nintendo gained about 96%, while the U.S. share basket more than doubled and bonds gained only a little. The five years included a pandemic and large changes in interest rates, none of which made prices move in a straight line.\n\nNintendo said its Zelda game had sold 19.5 million copies by September 2023. Apple reported record September-quarter revenue for iPhone and Services, although total revenue was slightly lower as some other device sales fell. Microsoft Cloud revenue reached $111.6 billion in fiscal 2023, up from $91.4 billion a year earlier. Their businesses had different products and customers, so their share results also differed.\n\nWHO described COVID-19 as a pandemic in March 2020 and listed its first COVID-19 vaccine for emergency use that December. In 2022, the Federal Reserve began raising interest rates. That July, the Webb telescope released its first full set of scientific images. These changes formed the setting for the returns, but no simple rule assigns each gain to one event. A good result can still come second or third; coming first is not the only way an investment can grow.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -38,7 +38,10 @@
       "pandemic",
       "vaccine",
       "rates-2022",
-      "webb"
+      "webb",
+      "nintendo-zelda-2023",
+      "apple-q4-2023",
+      "microsoft-fy2023"
     ]
   },
   "reflection": {
@@ -58,6 +61,20 @@
       "rates-2022",
       "webb"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:2018-12:nintendo": {
+      "text": "Nintendo said in November 2023 that The Legend of Zelda: Tears of the Kingdom had sold 19.5 million copies by the end of September. The game launched in May and helped keep customers interested in the Switch console. Popular games can support console sales, but Nintendo still has to keep finding new hits.",
+      "source_ids": ["nintendo-zelda-2023"]
+    },
+    "hot:2018-12:apple": {
+      "text": "Apple reported in November 2023 that iPhone and Services revenue each reached a September-quarter record. Total revenue was slightly lower than a year before, as sales of some other devices fell. Its results show how a company can have strong products and weaker areas in the same quarter.",
+      "source_ids": ["apple-q4-2023"]
+    },
+    "hot:2018-12:microsoft": {
+      "text": "In fiscal 2023, Microsoft Cloud revenue reached $111.6 billion, up from $91.4 billion a year earlier. Cloud services let other businesses rent computing and software over the internet. The growth gave Microsoft a larger business beyond sales of Windows and boxed software.",
+      "source_ids": ["microsoft-fy2023"]
+    }
   },
   "monthly_returns": {
     "cash": [

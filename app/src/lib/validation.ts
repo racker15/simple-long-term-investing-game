@@ -117,6 +117,11 @@ export function validateScenario(input: {
   );
   exactAssets(Object.keys(future.monthly_returns), '/future/monthly_returns');
   exactAssets(Object.keys(future.return_sources), '/future/return_sources');
+  exactAssets(
+    Object.keys(future.hot_stock_explanations),
+    '/future/hot_stock_explanations',
+    known.hot_stocks.map((stock) => stock.id),
+  );
   const sources = new Map(
     provenance.sources.map((source) => [source.id, source]),
   );

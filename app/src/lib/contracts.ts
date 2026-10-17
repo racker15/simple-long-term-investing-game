@@ -138,6 +138,11 @@ export const futureOutcomesSchema = object({
     ),
   ),
   return_sources: assetRecord(sourceIds),
+  hot_stock_explanations: Type.Record(
+    Type.String({ pattern: '^hot:[a-z0-9-]+:[a-z0-9-]+$' }),
+    object({ text: text(), source_ids: sourceIds }),
+    { additionalProperties: false, minProperties: 3, maxProperties: 3 },
+  ),
   events: Type.Array(
     object({
       month: Type.String({ pattern: '^\\d{4}-(0[1-9]|1[0-2])$' }),

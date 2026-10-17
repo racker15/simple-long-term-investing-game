@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Intel finished at nearly ten times its starting value, and Microsoft at about six times. Disney and both broad share baskets also gained. The window ends in August 2000; changes after that date are outside this result. One five-year period is only a slice of history.\n\nThe years ahead brought Pathfinder to Mars and a rescue of the investment fund Long-Term Capital Management after heavy losses. The euro began as a shared currency for financial transactions in 1999. Notes and coins came later. Scientific advances and financial trouble happened in the same period; the world did not follow a single upbeat or gloomy story.\n\nThe ending date matters. A gain measured through August 2000 says nothing by itself about money invested for longer or bought at a different price. Look at the full path and ask how you would have felt during its setbacks. A stock can finish with a large gain without giving its owner a smooth five years.",
+    "text": "Intel finished this window at nearly ten times its starting value, Microsoft at about six times and Disney at a little over twice its start. The broad U.S. and international share baskets also gained. That was a strong five years for these choices, but it was not a smooth line and the result could not be read from the August 1995 starting page.\n\nThe companies were making different moves. Microsoft reported fiscal-1998 revenue of $14.48 billion, up 28%, as Windows 98 upgrade sales passed one million. Disney opened Animal Kingdom in 1998, adding a fourth park to Walt Disney World. Intel introduced Pentium III chips in 1999 for newer internet and media uses. These milestones describe business activity; they do not prove what caused each share’s exact return.\n\nThe same years brought Pathfinder’s Mars landing, a rescue of a heavily indebted investment fund, and the euro’s start for financial transactions. Good and worrying news arrived together. A company share that finished far above its start could still have fallen along the way. A broad basket combined many businesses, lowering dependence on one product or management team without guaranteeing a gain.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,10 @@
       "yahoo-intc",
       "pathfinder",
       "ltcm",
-      "euro-launch"
+      "euro-launch",
+      "microsoft-fy1998",
+      "disney-animal-kingdom",
+      "intel-pentium-iii"
     ]
   },
   "reflection": {
@@ -50,5 +53,19 @@
       "ltcm",
       "euro-launch"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1995-08:microsoft": {
+      "text": "Microsoft reported record fiscal 1998 revenue of $14.48 billion in July 1998, up 28% from a year earlier. It also said more than one million Windows 98 upgrade licenses had sold within weeks of the June release, showing customers were paying to update software on existing PCs.",
+      "source_ids": ["microsoft-fy1998", "yahoo-msft"]
+    },
+    "hot:1995-08:disney": {
+      "text": "Disney opened Animal Kingdom at Walt Disney World on April 22, 1998, adding the resort’s fourth theme park. Families could spend more time on rides and shows and needed food and hotel services, giving Disney new ways to earn visitor spending.",
+      "source_ids": ["disney-animal-kingdom", "yahoo-dis"]
+    },
+    "hot:1995-08:intel": {
+      "text": "Intel introduced the Pentium III processor on February 26, 1999, for PCs with richer internet, video and 3-D uses. The chip gave computer makers another option for newer, more powerful machines as the PC market kept expanding.",
+      "source_ids": ["intel-pentium-iii", "yahoo-intc"]
+    }
   }
 }

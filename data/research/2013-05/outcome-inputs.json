@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Apple more than tripled, and Tesla nearly tripled, over five years. Hasbro also more than doubled. The US share basket gained strongly, while the bond estimate ended slightly lower. Even with several strong stock choices, their paths were not steady or identical.\n\nNew Horizons passed Pluto in 2015. UK voters chose to leave the European Union in 2016. A total solar eclipse crossed the US in 2017. These events mark the passing years without pretending that each one explains a particular movement in an investment’s price.\n\nThe small bond loss is worth understanding. A bond is a loan, but a bond investment can still change in market value. It does not behave exactly like cash. The company gains show another side of the comparison: individual shares can do very well, but their results differ from each other and from a basket. Decide whether your original plan allowed for several possible outcomes, rather than judging it only by the winner afterward.",
+    "text": "Apple gained about 220% and Tesla about 191% over five years. Hasbro also more than doubled, gaining about 123%. The U.S. share basket rose strongly, while the bond estimate ended slightly lower. Even several successful choices had different paths.\n\nHasbro’s game sales grew 8% in 2017, helping its total yearly sales rise 4%. Tesla built 34,494 vehicles in the first quarter of 2018 as it tried to increase Model 3 production. Apple reported its best March quarter then, with revenue growing across iPhone, Services and Wearables. These results show that toy games, electric cars and digital devices can each find buyers, but production capacity and competition still matter.\n\nNew Horizons passed Pluto in 2015. UK voters chose to leave the European Union in 2016, and a total solar eclipse crossed the United States in 2017. Those events mark the passing years without assigning a particular stock move to them. The small bond loss is also worth understanding: a bond is a loan, but a bond investment can still change in market value. Individual shares can do very well, but they differ from one another and from a basket.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,10 @@
       "yahoo-aapl",
       "pluto",
       "brexit",
-      "eclipse"
+      "eclipse",
+      "hasbro-fy2017",
+      "tesla-q1-2018",
+      "apple-q2-2018"
     ]
   },
   "reflection": {
@@ -50,5 +53,19 @@
       "brexit",
       "eclipse"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:2013-05:hasbro": {
+      "text": "Hasbro’s game sales, including Monopoly and Magic: The Gathering, grew 8% to $1.50 billion in 2017. Total company sales rose 4% to $5.21 billion. Games helped the business grow even as sales of some toys based on partner brands, including Star Wars, fell.",
+      "source_ids": ["hasbro-fy2017"]
+    },
+    "hot:2013-05:tesla": {
+      "text": "In April 2018, Tesla said it built 34,494 vehicles in the first quarter, 40% more than in the previous quarter. It made 9,766 Model 3 cars as it tried to increase production. Building enough cars was a major challenge: orders mattered only if Tesla could manufacture and deliver the vehicles.",
+      "source_ids": ["tesla-q1-2018"]
+    },
+    "hot:2013-05:apple": {
+      "text": "Apple’s sales for the quarter ending in March 2018 reached $61.1 billion, its best March quarter yet. It reported growth in iPhone sales, services and wearable devices. More than one product line was bringing in extra money as Apple expanded beyond its original computer business.",
+      "source_ids": ["apple-q2-2018"]
+    }
   }
 }

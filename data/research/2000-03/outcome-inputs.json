@@ -27,7 +27,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Bonds led the seven choices. All three company shares lost heavily: Cisco lost more than three-quarters, while Microsoft and Amazon lost about half. The US basket also fell, but much less than those individual stocks. A useful technology and a promising business could still be disappointing investments at the price paid.\n\nIn November 2001, Microsoft and the US government proposed a settlement of their competition case. The legal story had moved forward, though review was still required.\n\nThe period included the September 11 attacks, the arrival of euro notes and coins, and the loss of the Columbia shuttle. These events belong to the history of the five years. They do not by themselves explain the exact return of a software company, retailer or equipment maker.\n\nThe company losses show why the price at the start matters. A business can sell something people need and still give shareholders a poor return. Paying for great expectations leaves room for disappointment. A broad US basket lost value too, but it spread the risk across many companies instead of concentrating it in these three. That reduced the loss here without preventing it altogether.",
+    "text": "Bonds led the seven choices. Cisco ended near 23 cents per starting dollar, while Microsoft and Amazon each ended around 51 cents. The U.S. share basket also fell, but much less than those three individual stocks. A useful technology or promising business could still disappoint investors who paid a high starting price.\n\nCompany reports show different kinds of pressure and progress. Cisco reported a $2.2 billion inventory charge in 2001 as sales weakened. Microsoft’s Windows XP system sold more than 67 million licenses by 2002. Amazon reported $6.92 billion in 2004 sales and $588 million in net income, including a large tax-accounting benefit. Those business facts help explain what was happening inside each company, but do not fully explain its share-price path.\n\nThe period included the September 11 attacks, euro notes and coins, and the loss of the Columbia shuttle. These events belong to the history of the five years, but do not explain the exact return of a software company, retailer or networking-equipment maker. A broad U.S. basket lost value too, but spread the risk across many businesses, reducing the loss here without preventing it.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -38,7 +38,10 @@
       "september-attacks",
       "euro-cash",
       "columbia",
-      "microsoft-settlement"
+      "microsoft-settlement",
+      "cisco-q3-fy2001",
+      "microsoft-xp-sales-2002",
+      "amazon-fy2004"
     ]
   },
   "reflection": {
@@ -57,5 +60,19 @@
       "euro-cash",
       "columbia"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:2000-03:cisco": {
+      "text": "On May 8, 2001, Cisco reported quarterly sales of $4.73 billion, down 4% from a year earlier. It recorded a $2.2 billion charge for excess inventory and a $2.69 billion net loss as orders for networking equipment slowed sharply.",
+      "source_ids": ["cisco-q3-fy2001", "yahoo-csco"]
+    },
+    "hot:2000-03:microsoft": {
+      "text": "By October 2002, Microsoft said more than 67 million Windows XP licenses had sold since its October 2001 launch. But $1 invested in Microsoft in March 2000 ended near 52 cents five years later, showing that strong software sales did not prevent a falling share value.",
+      "source_ids": ["microsoft-xp-sales-2002", "yahoo-msft"]
+    },
+    "hot:2000-03:amazon": {
+      "text": "Amazon reported 2004 sales of $6.92 billion, up 31%, and net income of $588 million. It said a one-time $244 million tax-accounting benefit boosted reported profit, so regular business earnings were lower than the headline suggested. The results still showed a much larger retailer with positive earnings.",
+      "source_ids": ["amazon-fy2004", "yahoo-amzn"]
+    }
   }
 }

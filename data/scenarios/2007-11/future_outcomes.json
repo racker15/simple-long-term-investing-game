@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Apple more than tripled and Amazon nearly tripled, while Citigroup lost almost nine-tenths of its value. Bonds gained; the international share basket fell. The financial company’s losses at the start were a warning, but the size of its later decline was not written in the announcement.\n\nThe financial crisis intensified after the start. Lehman Brothers filed for bankruptcy in September 2008. Later came the Deepwater Horizon disaster and the earthquake and tsunami in Japan. Investors did not get to choose with those events already arranged on a finished timeline.\n\nCitigroup’s loss is a reminder that a familiar name is not protection against financial trouble. A company can survive while an earlier shareholder loses most of an investment. At the same time, Apple and Amazon gained strongly. The result does not say every new gadget was a good bet or every bank a bad one. It shows how different the paths of individual companies can be within the same five years.",
+    "text": "Apple gained about 224% and Amazon about 178%, while Citigroup lost almost nine-tenths of its value. Bonds gained while the international share basket fell. These results show how far individual companies could separate during the same five years.\n\nAmazon’s fourth-quarter sales rose 42% to $9.5 billion in 2009 as online shopping and Kindle sales expanded. Apple said its iPhone 5 sold more than five million units in its first three days in 2012. Citigroup, however, reported a $1.6 billion loss for 2009, including a $7.6 billion fourth-quarter loss. The bank survived, but its shareholders faced a steep fall from this starting date.\n\nThe financial crisis intensified after the game began. Lehman Brothers filed for bankruptcy in September 2008, followed by years of uncertain recovery. The Deepwater Horizon spill and Japan’s 2011 earthquake and tsunami also came during the period. A familiar company name cannot protect an investment from losses. At the same time, the strong results for Amazon and Apple do not show that every online retailer or phone maker was a good choice. Their products and financial conditions changed, and investors had to live through the path, not only the ending.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,10 @@
       "yahoo-aapl",
       "financial-crisis",
       "deepwater",
-      "japan-quake"
+      "japan-quake",
+      "amazon-q4-2009",
+      "citi-fy2009",
+      "apple-iphone5-sales"
     ]
   },
   "reflection": {
@@ -50,6 +53,20 @@
       "deepwater",
       "japan-quake"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:2007-11:amazon": {
+      "text": "Amazon’s sales for the final three months of 2009 rose 42% to $9.5 billion. It reported that the Kindle had become its best-selling product, alongside growth in online shopping. More customers were buying both physical goods and digital books through Amazon.",
+      "source_ids": ["amazon-q4-2009"]
+    },
+    "hot:2007-11:citigroup": {
+      "text": "Citigroup reported a $1.6 billion loss for 2009. Its $7.6 billion loss in the final quarter included a large cost from repaying government aid and ending a rescue agreement. Bad loans still hurt the bank, and surviving the crisis did not restore the money its earlier shareholders had lost.",
+      "source_ids": ["citi-fy2009"]
+    },
+    "hot:2007-11:apple": {
+      "text": "Apple began selling the iPhone 5 in September 2012 and sold more than five million in its first three days. That was another burst of demand for a product line introduced five years earlier. New phone models gave existing customers reasons to upgrade and brought in more buyers.",
+      "source_ids": ["apple-iphone5-sales"]
+    }
   },
   "monthly_returns": {
     "cash": [

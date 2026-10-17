@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Apple grew to nearly six times its starting value, far ahead of this set. Bonds gained more than the US share basket, and HP’s gain was much smaller than Apple’s. These companies all sold technology, but their shareholders had very different experiences through the financial crisis.\n\nLehman Brothers filed for bankruptcy in September 2008 during the financial crisis. The Deepwater Horizon disaster occurred in 2010. A devastating earthquake and tsunami struck Japan in 2011. Investors lived through these events month by month, without a complete picture of how the next one would affect their lives or investments.\n\nApple’s large gain can draw the eye away from the other choices. Yet HP and Microsoft were also major technology businesses. Their different outcomes show why an industry name is not enough to describe an investment. Owning many companies would have reduced reliance on any one of them, while also giving less weight to the company that happened to gain most.",
+    "text": "Apple grew to nearly six times its starting value, far ahead of this set. HP and Microsoft also gained, but by much less; bonds gained more than the U.S. share basket. All three companies sold technology, yet their shareholders had very different experiences through the financial crisis.\n\nApple introduced the iPad in 2010 and said it sold one million in its first 28 days. HP bought Palm to expand into mobile devices, then reported second-quarter 2011 revenue growth of 3%. Microsoft’s fiscal 2011 revenue reached nearly $70 billion, helped by Office, server products and Xbox. Those facts show three different kinds of business growth, not a formula for predicting shares.\n\nLehman Brothers filed for bankruptcy in September 2008 during the crisis. The Deepwater Horizon spill and Japan’s 2011 earthquake and tsunami also occurred during this period. Investors faced these events one at a time, without knowing their later effects. Apple’s large gain can draw the eye away from HP and Microsoft, but owning many companies would have reduced reliance on whichever business happened to win most.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,12 @@
       "yahoo-msft",
       "financial-crisis",
       "deepwater",
-      "japan-quake"
+      "japan-quake",
+      "hp-palm",
+      "hp-q2-2011",
+      "apple-ipad-launch",
+      "apple-ipad-sales",
+      "microsoft-fy11"
     ]
   },
   "reflection": {
@@ -50,6 +55,20 @@
       "deepwater",
       "japan-quake"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:2006-07:hewlett-packard": {
+      "text": "HP bought Palm in July 2010 to expand into mobile devices and software. In May 2011, it reported quarterly sales of $31.6 billion, up 3% from a year earlier. Sales to business customers grew, while consumer PC sales were weak: different parts of HP were moving in different directions.",
+      "source_ids": ["hp-palm", "hp-q2-2011"]
+    },
+    "hot:2006-07:apple": {
+      "text": "Apple unveiled the iPad in January 2010, then began selling it in April. By May, it had sold one million in just 28 days. The tablet opened another source of sales alongside the iPhone and Mac, showing that customers wanted Apple devices for more than phone calls or desktop work.",
+      "source_ids": ["apple-ipad-launch", "apple-ipad-sales"]
+    },
+    "hot:2006-07:microsoft": {
+      "text": "In July 2011, Microsoft reported record yearly sales of nearly $70 billion, up 12%. Office 2010 had sold more than 100 million licenses, and its server and Xbox businesses also grew. Windows revenue fell slightly, but growth elsewhere helped the company’s overall results.",
+      "source_ids": ["microsoft-fy11"]
+    }
   },
   "monthly_returns": {
     "cash": [

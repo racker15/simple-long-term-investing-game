@@ -271,6 +271,44 @@
       "approximation": false,
       "notes": "Undated retrospective NASA history.",
       "observation_date": "1986-01-28"
+    },
+    {
+      "id": "early-1981-08-pcjr-smithsonian",
+      "source_name": "Smithsonian National Museum of American History: IBM PCjr Microcomputer",
+      "source_reference": "https://www.si.edu/object/ibm-pcjr-microcomputer%3Anmah_905913",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Retrospective collection record dates PCjr announcement to November 1983, availability to March 1984, and discontinuation to March 1985; month-level dates only."
+    },
+    {
+      "id": "early-1981-08-pcjr-wapo",
+      "source_name": "The Washington Post: IBM to Discontinue Production of PCjr Personal Computer",
+      "source_reference": "https://www.washingtonpost.com/archive/business/1985/03/20/ibm-to-discontinue-production-of-pcjr-personal-computer/042e61c3-6579-4dd1-960d-d53148978792/",
+      "publication_date": "1985-03-20",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report on IBM ending the PCjr after weak sales; reports the PCjr share of IBM personal-computer sales fell from 17% to 4%."
+    },
+    {
+      "id": "early-1981-08-ko-new-coke",
+      "source_name": "The Coca-Cola Company: New Coke, the Most Memorable Marketing Blunder Ever",
+      "source_reference": "https://www.coca-colacompany.com/about-us/history/new-coke-the-most-memorable-marketing-blunder-ever",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Undated retrospective company history; dates the new-formula announcement to April 23, 1985 and return of original Coke to July 11, 1985.",
+      "observation_date": "1985-07-11"
+    },
+    {
+      "id": "early-1981-08-exxon-1984",
+      "source_name": "Los Angeles Times: Exxon 1984 Earnings Decline",
+      "source_reference": "https://www.latimes.com/archives/la-xpm-1985-01-25-fi-9472-story.html",
+      "publication_date": "1985-01-25",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report on weaker 1984 Exxon earnings amid oversupply and weak oil prices.",
+      "observation_date": "1984-12-31"
     }
   ]
 }

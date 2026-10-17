@@ -252,6 +252,56 @@
       "approximation": false,
       "notes": "Institutional account of the March11 disaster.",
       "observation_date": "2011-03-11"
+    },
+    {
+      "id": "hp-palm",
+      "source_name": "HP: completes Palm acquisition",
+      "source_reference": "https://investor.hp.com/news-events/news/news-details/2010/HP-Completes-Palm-Acquisition/default.aspx",
+      "publication_date": "2010-07-01",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company announcement that HP completed the Palm acquisition, adding mobile software and devices.",
+      "observation_date": "2010-07-01"
+    },
+    {
+      "id": "hp-q2-2011",
+      "source_name": "HP: second-quarter 2011 results",
+      "source_reference": "https://investor.hp.com/news-events/news/news-details/2011/HP-Reports-Second-Quarter-2011-Results/default.aspx",
+      "publication_date": "2011-05-17",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results: quarterly revenue, commercial revenue, and year-over-year comparison.",
+      "observation_date": "2011-04-30"
+    },
+    {
+      "id": "apple-ipad-launch",
+      "source_name": "Apple: introduces iPad",
+      "source_reference": "https://www.apple.com/newsroom/2010/01/27Apple-Launches-iPad/",
+      "publication_date": "2010-01-27",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Original product announcement for the first iPad.",
+      "observation_date": "2010-01-27"
+    },
+    {
+      "id": "apple-ipad-sales",
+      "source_name": "Apple: one million iPads sold",
+      "source_reference": "https://www.apple.com/newsroom/2010/05/03Apple-Sells-One-Million-iPads/",
+      "publication_date": "2010-05-03",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company reports one million iPads sold in the first 28 days.",
+      "observation_date": "2010-05-03"
+    },
+    {
+      "id": "microsoft-fy11",
+      "source_name": "Microsoft: fiscal 2011 fourth-quarter and full-year results",
+      "source_reference": "https://www.microsoft.com/en-us/Investor/earnings/FY-2011-Q4/press-release-webcast",
+      "publication_date": "2011-07-21",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results for fiscal 2011, including full-year revenue growth and product lines that contributed.",
+      "observation_date": "2011-06-30"
     }
   ]
 }

@@ -713,11 +713,19 @@ hot stocks use a separate scale. This keeps unusually large stock gains from
 flattening the portfolio paths and helps players read each panel correctly.
 
 After the chart is revealed, show a compact outcome for each hot stock with its
-company name, ticker, short plain-language description, and final five-year
+company name, ticker, short plain-language explanation, and final five-year
 percentage return. Calculate that return from the same 60 monthly observations
 used for the chart; do not store a separate ending-return value. The stock
 paths and outcomes are future information and must not appear before the player
 commits.
+
+Each explanation should connect the company's business during these five years
+to concrete, dated developments: sales, profits, product launches, acquisitions,
+or setbacks. Use short sentences and common words. Distinguish business progress
+from the share return; a successful product does not explain every price move or
+guarantee a gain. Use developments within this scenario's outcome window and
+retain source references in provenance. Store these explanations in the future
+outcome bundle, separate from the descriptions that players read before investing.
 
 The primary question should remain:
 
@@ -748,7 +756,7 @@ Then show comparisons with lower visual emphasis:
 > Diversified benchmark: **$11,730**
 
 Also show the three hot-stock outcomes with the chart: company name, ticker, a
-short plain-language description, and the final five-year percentage return.
+short explanation of dated company developments, and the final five-year percentage return.
 Calculate each return from the scenario's canonical 60-month return series.
 
 Also show:

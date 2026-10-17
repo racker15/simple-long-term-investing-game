@@ -33,7 +33,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Technology companies and the internet kept attracting attention after September 1999. The Nasdaq, which tracks share prices for many technology companies, peaked in March 2000. It then fell for several years, with some sharp rises along the way.\n\nThe U.S. economy went from growing to shrinking. A group that tracks the economy later marked March 2001 as the recession’s start and November 2001 as its end. The September 11 attacks brought terrible loss of life and disrupted markets while the economy was already weakening. By June 2004, the economy was growing again and the Federal Reserve had started raising interest rates.\n\nThe results differed. A mix of many U.S. stocks and international stocks ended near where they started. Cash grew a little, and U.S. government bonds, a kind of loan, grew more. Microsoft, Cisco, and Amazon each ended below their September 1999 starting value, though their paths were different.\n\nThe year 2000 passed with fewer computer problems than many had feared, after years of preparation. People in September 1999 could not know how these five years would unfold.",
+    "text": "All three featured shares finished below their September 1999 starting values: Microsoft at about 62 cents per dollar, Cisco at 53 cents and Amazon at 51 cents. A mix of U.S. or international shares ended near where it began, while cash grew a little and government bonds grew more. A growing technology industry did not protect every company share from a fall.\n\nThe companies’ business news was mixed. Microsoft reported more than 67 million Windows XP licenses sold by 2002. Cisco’s 2001 results included a $2.2 billion inventory charge and a large loss as equipment sales slowed. Amazon’s 2003 sales rose 34%, and it reported a small annual profit after a loss in 2002. Better sales or a new product do not automatically translate into a higher share price.\n\nThe Nasdaq peaked in March 2000 before falling for several years. The U.S. economy entered a recession from March to November 2001, and the September 11 attacks caused terrible loss of life while markets were unsettled. The Y2K date change brought fewer computer disruptions than many feared after years of preparation. People in September 1999 could not know how these five years would unfold.",
     "source_ids": [
       "gao-y2k",
       "nasdaq-retrospective",
@@ -46,7 +46,10 @@
       "fred-gs5",
       "yahoo-msft",
       "yahoo-csco",
-      "yahoo-amzn"
+      "yahoo-amzn",
+      "microsoft-xp-sales-2002",
+      "cisco-q3-fy2001",
+      "amazon-fy2003"
     ]
   },
   "reflection": {
@@ -75,6 +78,20 @@
       "timor-refugees",
       "floyd"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1999-09:microsoft": {
+      "text": "By October 2002, Microsoft said more than 67 million Windows XP licenses had sold since its October 2001 launch. Yet $1 invested in Microsoft in September 1999 ended near 62 cents five years later: strong software demand did not keep its shares from falling during this window.",
+      "source_ids": ["microsoft-xp-sales-2002", "yahoo-msft"]
+    },
+    "hot:1999-09:cisco": {
+      "text": "On May 8, 2001, Cisco reported quarterly sales of $4.73 billion, down 4% from a year earlier. It recorded a $2.2 billion charge for excess inventory and a $2.69 billion net loss as orders for networking equipment slowed sharply.",
+      "source_ids": ["cisco-q3-fy2001", "yahoo-csco"]
+    },
+    "hot:1999-09:amazon": {
+      "text": "Amazon’s sales rose 34% to $5.26 billion in 2003, and it reported $35 million in net income after a $149 million loss in 2002. Lower prices and a wider product selection helped attract shoppers while the company moved toward more profitable operations. Yet $1 invested in September 1999 ended near 51 cents five years later.",
+      "source_ids": ["amazon-fy2003", "yahoo-amzn"]
+    }
   },
   "monthly_returns": {
     "cash": [

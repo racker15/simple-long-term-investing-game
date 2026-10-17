@@ -50,6 +50,36 @@
       "approximation": false,
       "notes": "Proposed settlement, not final court approval or settlement by every state.",
       "observation_date": "2001-11-02"
+    },
+    {
+      "id": "microsoft-special-dividend-2004",
+      "source_name": "Microsoft: Special dividend and stock buyback plan",
+      "source_reference": "https://news.microsoft.com/source/2004/07/20/microsoft-outlines-quarterly-dividend-four-year-stock-buyback-plan-and-special-dividend-to-shareholders/",
+      "publication_date": "2004-07-20",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Microsoft announced a one-time $3-per-share special dividend, scheduled for payment on December 2, 2004, subject to shareholder approval, alongside a quarterly dividend and buyback plan.",
+      "observation_date": "2004-07-20"
+    },
+    {
+      "id": "cisco-q3-fy2001",
+      "source_name": "Cisco Systems: Third-quarter fiscal 2001 earnings",
+      "source_reference": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2001/m05/cisco-systems-reports-third-quarter-earnings.html",
+      "publication_date": "2001-05-08",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Cisco reported Q3 FY2001 sales of $4.73 billion versus $4.93 billion a year earlier, a $2.2 billion excess-inventory charge, and a $2.69 billion GAAP net loss.",
+      "observation_date": "2001-04-28"
+    },
+    {
+      "id": "apple-ipod-two-million",
+      "source_name": "Apple: Over Two Million iPods Sold",
+      "source_reference": "https://www.apple.com/newsroom/2004/01/06Over-Two-Million-iPods-Sold/",
+      "publication_date": "2004-01-06",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Apple said more than two million iPods had sold since the product’s introduction.",
+      "observation_date": "2004-01-06"
     }
   ]
 }

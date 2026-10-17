@@ -30,6 +30,66 @@
       "approximation": false,
       "notes": "Retrospective product history.",
       "observation_date": "1995-08-24"
+    },
+    {
+      "id": "early-1992-11-ford-1992",
+      "source_name": "The Washington Post: Ford Posts a $7.4 Billion Loss for 1992",
+      "source_reference": "https://www.washingtonpost.com/archive/business/1993/02/11/ford-posts-a-74-billion-loss-for-1992/87f61501-854e-4ce2-993d-0cec6c53e01a/",
+      "publication_date": "1993-02-11",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report on Ford’s $7.4 billion 1992 accounting loss; it says the loss would have been $502 million without the accounting change.",
+      "observation_date": "1992-12-31"
+    },
+    {
+      "id": "early-1992-11-ford-1993",
+      "source_name": "Los Angeles Times: Ford Earnings Rebound to Record in 1993",
+      "source_reference": "https://www.latimes.com/archives/la-xpm-1994-02-10-fi-21333-story.html",
+      "publication_date": "1994-02-10",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report: Ford recorded $2.5 billion earnings in 1993 as pickups and sport-utility vehicles drove sales and market-share gains.",
+      "observation_date": "1993-12-31"
+    },
+    {
+      "id": "early-1992-11-lionking",
+      "source_name": "Disney Animation: The Lion King",
+      "source_reference": "https://www.disneyanimation.com/films/the-lion-king/",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Disney Animation film entry dates general release to June 24, 1994; D23 describes it as one of the highest-grossing films of all time.",
+      "observation_date": "1994-06-24"
+    },
+    {
+      "id": "early-1992-11-ibm-1992-loss",
+      "source_name": "The Washington Post: IBM Reports a Record $5 Billion Loss",
+      "source_reference": "https://www.washingtonpost.com/archive/politics/1993/01/20/ibm-reports-a-record-5-billion-loss/9f27cba9-65d7-4f7e-ac4c-869734d4054c/",
+      "publication_date": "1993-01-20",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report on IBM’s record 1992 net loss of about $4.97 billion, driven by charges and weak business.",
+      "observation_date": "1992-12-31"
+    },
+    {
+      "id": "early-1992-11-ibm-1994-profit",
+      "source_name": "The Washington Post: Restructured IBM Reports First Annual Profit in Four Years",
+      "source_reference": "https://www.washingtonpost.com/archive/business/1995/01/24/restructured-ibm-reports-1st-annual-profit-in-4-years/4c260b06-b67e-4aa0-a541-03774da25a1a/",
+      "publication_date": "1995-01-24",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report: IBM returned to annual profit for 1994 after restructuring and cost cuts.",
+      "observation_date": "1994-12-31"
+    },
+    {
+      "id": "early-1992-11-ibm-deepblue",
+      "source_name": "IBM: Deep Blue",
+      "source_reference": "https://www.ibm.com/history/deep-blue",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Undated IBM retrospective; Deep Blue defeated reigning world chess champion Garry Kasparov in the final game of their May 1997 match.",
+      "observation_date": "1997-05-11"
     }
   ]
 }

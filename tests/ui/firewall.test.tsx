@@ -14,6 +14,12 @@ it('starting rendering consumes only known-at-start data, with no outcome or coh
   expect(html).not.toContain(fixture.known.metadata.selection.mode);
   const futureChanged = structuredClone(fixture);
   futureChanged.future.reflection.what_nobody_knew = 'LEAK';
+  for (const explanation of Object.values(
+    futureChanged.future.hot_stock_explanations,
+  )) {
+    expect(html).not.toContain(explanation.text);
+    explanation.text = 'FUTURE_COMPANY_EVENT_LEAK';
+  }
   expect(
     renderToStaticMarkup(
       <ScenarioView context={decisionContext(futureChanged.known)} />,

@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Microsoft grew to more than fourteen times its starting value, while Intel grew to more than seven times. Both far outpaced the US share basket in this window. Disney also more than doubled. These striking gains do not make every technology stock a sure winner. The prices still moved unevenly, and the result depends on this particular five-year window.\n\nThe next five years included South Africa’s first national democratic election open to all races, the launch of Windows 95 and the arrival of the Pathfinder mission on Mars. Windows 95 was directly connected to Microsoft’s business. Even so, a successful product launch alone could not tell an investor the size or timing of a stock gain.\n\nAn amount growing to fourteen times its starting value is very different from gaining fourteen percent. This was an unusually large result. A broad basket could grow substantially and still trail these two companies. Owning the basket meant sharing in many businesses rather than depending on just one. Neither choice came with its future result attached.",
+    "text": "By February 1999, one dollar in Microsoft had become about $14.56 and one dollar in Intel about $7.06; Disney reached about $2.27. Microsoft and Intel far outpaced the U.S. share basket in this window, while Disney still more than doubled. These large gains hide the bumps along the way and belong only to these particular five years.\n\nThe businesses were changing, too. Windows 95 sold seven million copies in its first five weeks. Intel introduced the Pentium II, a new processor for business computers. Disney added ABC and ESPN through its 1996 acquisition. Those milestones show products and businesses reaching many customers, but no one event can explain a whole stock return.\n\nThe period also included South Africa’s first national election open to all races and the Pathfinder mission’s arrival on Mars. A share basket spread money across many companies; it did not match Microsoft or Intel here, but offered less dependence on any one business. At the start, there was no way to know which company would become the standout.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,10 @@
       "yahoo-dis",
       "south-africa-vote",
       "windows95",
-      "pathfinder"
+      "pathfinder",
+      "microsoft-w95-anniv",
+      "intel-pentium-ii",
+      "disney-abc-acquisition"
     ]
   },
   "reflection": {
@@ -50,5 +53,19 @@
       "windows95",
       "pathfinder"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1994-02:microsoft": {
+      "text": "Microsoft launched Windows 95 on August 24, 1995, and sold seven million copies in its first five weeks. The new operating system gave Microsoft a widely used version of Windows for home and business computers, supporting demand for its other software.",
+      "source_ids": ["microsoft-w95-anniv", "yahoo-msft"]
+    },
+    "hot:1994-02:intel": {
+      "text": "On May 7, 1997, Intel introduced Pentium II chips for business PCs and workstations. The new processor offered faster performance and features for graphics-heavy tasks, giving computer makers another choice as customers sought more powerful machines.",
+      "source_ids": ["intel-pentium-ii", "yahoo-intc"]
+    },
+    "hot:1994-02:disney": {
+      "text": "Disney completed its purchase of Capital Cities/ABC on February 9, 1996. The deal added ABC broadcasting and ESPN to Disney’s parks, films and television business, creating more ways to make money from programs, advertising and sports.",
+      "source_ids": ["disney-abc-acquisition", "yahoo-dis"]
+    }
   }
 }

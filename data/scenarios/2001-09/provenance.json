@@ -263,6 +263,56 @@
       "approximation": false,
       "notes": "Proposed settlement, not final court approval or settlement by every state.",
       "observation_date": "2001-11-02"
+    },
+    {
+      "id": "boeing-7e7-launch",
+      "source_name": "Boeing: Boeing Launches 7E7 Dreamliner",
+      "source_reference": "https://boeing.mediaroom.com/2004-04-26-Boeing-Launches-7E7-Dreamliner",
+      "publication_date": "2004-04-26",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Boeing launched the 7E7 program after the board approved it based on a firm order from ANA for 50 aircraft.",
+      "observation_date": "2004-04-26"
+    },
+    {
+      "id": "boeing-7e7-orders",
+      "source_name": "Boeing: Boeing Finishes 2004 Strong, Sees Rise in Commercial Airplane Orders",
+      "source_reference": "https://boeing.mediaroom.com/2005-01-06-Boeing-Finishes-2004-Strong-Sees-Rise-in-Commercial-Airplane-Orders",
+      "publication_date": "2005-01-06",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Boeing reported 126 customer-announced orders and commitments for the 7E7 during 2004.",
+      "observation_date": "2005-01-06"
+    },
+    {
+      "id": "microsoft-special-dividend-2004",
+      "source_name": "Microsoft: Special dividend and stock buyback plan",
+      "source_reference": "https://news.microsoft.com/source/2004/07/20/microsoft-outlines-quarterly-dividend-four-year-stock-buyback-plan-and-special-dividend-to-shareholders/",
+      "publication_date": "2004-07-20",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Microsoft announced a one-time $3-per-share special dividend, scheduled for payment on December 2, 2004, subject to shareholder approval, alongside a quarterly dividend and buyback plan.",
+      "observation_date": "2004-07-20"
+    },
+    {
+      "id": "apple-ipod-launch",
+      "source_name": "Apple: Apple Presents iPod",
+      "source_reference": "https://www.apple.com/newsroom/2001/10/23Apple-Presents-iPod/",
+      "publication_date": "2001-10-23",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Apple introduced iPod, a portable digital music player that could hold up to 1,000 songs.",
+      "observation_date": "2001-10-23"
+    },
+    {
+      "id": "apple-ipod-two-million",
+      "source_name": "Apple: Over Two Million iPods Sold",
+      "source_reference": "https://www.apple.com/newsroom/2004/01/06Over-Two-Million-iPods-Sold/",
+      "publication_date": "2004-01-06",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Apple said more than two million iPods had sold since the product’s introduction.",
+      "observation_date": "2004-01-06"
     }
   ]
 }

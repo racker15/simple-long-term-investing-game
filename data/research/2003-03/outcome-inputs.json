@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "The international share basket nearly tripled, leading this set. Costco more than doubled, while Merck lost value. Intel gained less than the broad US basket. The starting article’s hopeful investment ideas were opinions to examine, not instructions guaranteed to work.\n\nThe years ahead included Hurricane Katrina, Apple’s announcement of the iPhone and a rescue deal involving Bear Stearns in March 2008. The window ends that month. Later stages of the financial crisis do not belong inside this five-year return, even though a reader today may know what followed.\n\nMerck’s loss is worth noticing because a dividend is money paid to shareholders, not a shield against a falling share price. A company can make payments and still leave an investor with less overall. Meanwhile, the international basket spread money across many businesses outside the US. The comparison does not identify a permanent winner; it shows the limits of the confident investment suggestions that were available at the starting date.",
+    "text": "The international share basket nearly tripled, leading this set. Costco ended about $2.25 per starting dollar and Intel about $1.39, while Merck ended near 88 cents. Intel gained less than the broad U.S. share basket. The hopeful investment ideas available in March 2003 were opinions to examine, not instructions guaranteed to work.\n\nCostco reported $64.4 billion in fiscal-2007 revenue and 6% comparable-sales growth. Intel reported that 2007 revenue rose 8% and operating income 45% as customers embraced its Core design. Merck’s Vioxx medicine had brought in $2.5 billion in 2003 sales before the company withdrew it worldwide in September 2004, expecting an earnings hit. Business news helps us understand what changed, but does not create a simple stock formula.\n\nThe years ahead included Hurricane Katrina, Apple’s iPhone announcement and a rescue deal involving Bear Stearns in March 2008. This window ends that month. Later stages of the financial crisis do not belong in the five-year result, even though a reader today may know what followed. A dividend or a strong business cannot shield a share from every loss.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,11 @@
       "yahoo-mrk",
       "katrina",
       "iphone",
-      "bear-financing"
+      "bear-financing",
+      "costco-fy2007",
+      "intel-core-duo",
+      "intel-fy2007",
+      "merck-vioxx-withdrawal"
     ]
   },
   "reflection": {
@@ -50,5 +54,19 @@
       "iphone",
       "bear-financing"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:2003-03:costco": {
+      "text": "Costco reported $64.4 billion in fiscal 2007 revenue and 6% growth in comparable sales. Comparable sales count changes at warehouses open at least a year, showing that existing stores were attracting more shopping as Costco kept expanding its warehouse business.",
+      "source_ids": ["costco-fy2007", "yahoo-cost"]
+    },
+    "hot:2003-03:intel": {
+      "text": "Intel introduced its Core Duo processor for laptops in January 2006, bringing strong computing performance to mobile computers. In 2007, revenue rose 8% and operating income rose 45%; Intel said customers were responding to its Core chip designs.",
+      "source_ids": ["intel-core-duo", "intel-fy2007", "yahoo-intc"]
+    },
+    "hot:2003-03:merck": {
+      "text": "Merck withdrew Vioxx worldwide on September 30, 2004, after safety concerns. The medicine had brought in $2.5 billion in 2003 sales, and Merck expected its removal to reduce earnings. Losing a major drug meant less sales and more pressure on the company’s profits.",
+      "source_ids": ["merck-vioxx-withdrawal", "yahoo-mrk"]
+    }
   }
 }

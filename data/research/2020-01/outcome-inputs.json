@@ -33,7 +33,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Tesla grew to more than nine times its starting value. The US share basket roughly doubled, while Boeing lost about 44% and Disney about 17%. Bonds ended slightly lower. The same five years could produce a huge gain or a lasting loss, depending on what you owned.\n\nIn January 2021, Tesla reported delivering nearly half a million vehicles during 2020. That is a concrete business result, but vehicle deliveries and profit are different measures.\n\nWHO described COVID-19 as a pandemic in March 2020. Its first emergency-use vaccine listing came that December. Later, the Fed began raising interest rates in March 2022, and Webb released its first full set of scientific images in July. The years brought both disruption and progress.\n\nThe contrast between Tesla and Boeing is enormous, but the starting page did not contain their final ranking. It included a health emergency and company problems whose later scale was uncertain. Boeing’s fall also shows that five years does not guarantee recovery to your purchase price. A broad basket reduced reliance on any one company, while its own value still moved up and down along the way.",
+    "text": "Tesla grew to more than nine times its starting value. Boeing lost about 44%, and Disney about 17%; bonds ended slightly lower. The U.S. share basket roughly doubled. The same five years could produce a huge gain or a lasting loss, depending on what a person owned.\n\nTesla delivered 1.79 million vehicles in 2024, far more than its 2020 total, though deliveries were slightly below 2023. Boeing reported a net loss of $11.9 billion for 2020 as the 737 MAX grounding and lower air travel hurt its airplane business. Disney’s combined streaming businesses later reported $321 million in quarterly operating income in fiscal 2024. These facts describe company changes, but do not by themselves explain the final share prices.\n\nWHO described COVID-19 as a pandemic in March 2020 and listed its first emergency-use vaccine that December. Later, the Federal Reserve began raising interest rates in March 2022, and the Webb telescope released its first images in July. The contrast between Tesla and Boeing is enormous, but the starting page did not contain their final ranking. A broad basket reduced reliance on any one company, while its value still moved along the way.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -45,7 +45,10 @@
       "vaccine",
       "rates-2022",
       "webb",
-      "tesla-deliveries"
+      "tesla-deliveries",
+      "boeing-q4-2020",
+      "tesla-q4-2024",
+      "disney-fy2024"
     ]
   },
   "reflection": {
@@ -65,5 +68,19 @@
       "rates-2022",
       "webb"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:2020-01:boeing": {
+      "text": "Boeing reported a net loss of $11.9 billion for 2020. Its commercial-airplane business faced both the long 737 MAX grounding and a sharp drop in air travel during the pandemic. These problems reduced deliveries and revenue, showing how a plane maker depends on airlines and regulators as well as its own factories.",
+      "source_ids": ["boeing-q4-2020"]
+    },
+    "hot:2020-01:tesla": {
+      "text": "Tesla delivered 1.79 million vehicles in 2024, slightly fewer than in 2023, even as it remained a much larger maker than it had been in 2020. Its fourth-quarter delivery total was 495,570. The numbers show rapid growth over time and a slower pace by the end of this window.",
+      "source_ids": ["tesla-q4-2024"]
+    },
+    "hot:2020-01:disney": {
+      "text": "Disney reported that its combined direct-to-consumer streaming businesses made $321 million in operating income in the fourth quarter of fiscal 2024. Streaming had been costly to build, so this was a sign of improving results. Parks, films and television still mattered too, and each part faced different costs.",
+      "source_ids": ["disney-fy2024"]
+    }
   }
 }

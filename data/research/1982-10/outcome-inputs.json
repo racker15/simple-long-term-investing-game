@@ -27,7 +27,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "The recovery arrived, but the investment journey ended with a shock. In October 1987, the Dow Jones stock index fell 22.6% on one day, known as Black Monday. Your chart uses whole months, so its October change is not the same as that one-day figure.\n\nBefore then, the period had included a new missile-defense proposal and the loss of the Challenger shuttle. People faced changing political, scientific and business news while deciding what to do with their money.\n\nDespite the late crash, all seven choices ended above their starting values. The international share basket finished first. Apple and Coca-Cola also gained strongly, while the US basket a little more than doubled. Earlier gains helped these investments finish higher even after a severe drop.\n\nA positive final result does not mean a comfortable ride. Imagine watching the value fall just before you planned to use the money. The ending balance and the difficult months along the way are both parts of the investment story.",
+    "text": "The recovery arrived, but the investment journey ended with a shock. In October 1987, the Dow Jones stock index fell 22.6% on one day, known as Black Monday. Your chart uses whole months, so its October change is not the same as that one-day figure.\n\nApple’s Macintosh brought a mouse-controlled screen to personal computers in 1984. IBM launched a new PS/2 line in April 1987 as the personal-computer market changed. Coca-Cola also returned its original recipe after trying New Coke in 1985. The three stories involved different customers and business risks; they cannot by themselves explain how the shares performed.\n\nDespite the late crash, all seven choices ended above their starting values. The international share basket finished first. Apple and Coca-Cola also gained strongly, while the US basket a little more than doubled. Earlier gains helped these investments finish higher even after a severe drop.\n\nA positive final result does not mean a comfortable ride. Imagine watching the value fall just before you planned to use the money. The ending balance and the difficult months along the way are both parts of the investment story.",
     "source_ids": [
       "nber-1982-trough",
       "french-us",
@@ -36,7 +36,10 @@
       "yahoo-aapl",
       "yahoo-ibm",
       "yahoo-ko",
-      "fed-crash1987"
+      "fed-crash1987",
+      "early-1982-10-apple-mac",
+      "early-1982-10-ibm-ps2-launch",
+      "early-1982-10-ko-new-coke"
     ]
   },
   "reflection": {
@@ -54,5 +57,19 @@
       "yahoo-ko",
       "fed-crash1987"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1982-10:apple": {
+      "text": "Apple introduced the Macintosh in January 1984, giving customers a personal computer with pictures and menus they controlled using a mouse. The Mac gave Apple a new kind of computer to sell; Apple shares ended higher over this five-year window.",
+      "source_ids": ["early-1982-10-apple-mac", "yahoo-aapl"]
+    },
+    "hot:1982-10:ibm": {
+      "text": "IBM announced its PS/2 computer family on April 2, 1987, adding a new line to compete in the changing personal-computer market. The launch gave IBM another way to compete for PC buyers; IBM shares ended higher in this window.",
+      "source_ids": ["early-1982-10-ibm-ps2-launch", "yahoo-ibm"]
+    },
+    "hot:1982-10:coca-cola": {
+      "text": "New Coke replaced Coca-Cola’s familiar recipe on April 23, 1985, but customer complaints led the company to bring the original back on July 11. Restoring it showed how strongly customers preferred the original; Coke shares rose over this five-year window.",
+      "source_ids": ["early-1982-10-ko-new-coke", "yahoo-ko"]
+    }
   }
 }

@@ -244,6 +244,36 @@
       "approximation": false,
       "notes": "First full set of scientific images.",
       "observation_date": "2022-07-12"
+    },
+    {
+      "id": "nintendo-zelda-2023",
+      "source_name": "Nintendo: second-quarter fiscal 2024 results",
+      "source_reference": "https://www.nintendo.co.jp/ir/pdf/2023/231107e.pdf",
+      "publication_date": "2023-11-07",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results report sales of Tears of the Kingdom through September 2023.",
+      "observation_date": "2023-09-30"
+    },
+    {
+      "id": "apple-q4-2023",
+      "source_name": "Apple: fiscal 2023 fourth-quarter results",
+      "source_reference": "https://www.apple.com/newsroom/2023/11/apple-reports-fourth-quarter-results/",
+      "publication_date": "2023-11-02",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results report September-quarter revenue records for iPhone and Services, alongside total results.",
+      "observation_date": "2023-09-30"
+    },
+    {
+      "id": "microsoft-fy2023",
+      "source_name": "Microsoft: fiscal 2023 fourth-quarter and full-year metrics",
+      "source_reference": "https://www.microsoft.com/en-us/Investor/earnings/FY-2023-Q4/metrics",
+      "publication_date": "2023-07-25",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Microsoft Cloud full-year revenue of $111.6 billion versus $91.4 billion in fiscal 2022; includes Azure, Office 365 Commercial and other commercial cloud services.",
+      "observation_date": "2023-06-30"
     }
   ]
 }

@@ -30,6 +30,56 @@
       "approximation": false,
       "notes": "Last-updated date of retrospective chronology.",
       "observation_date": "1993-12-31"
+    },
+    {
+      "id": "early-1990-08-ibm-1992-loss",
+      "source_name": "The Washington Post: IBM Reports a Record $5 Billion Loss",
+      "source_reference": "https://www.washingtonpost.com/archive/politics/1993/01/20/ibm-reports-a-record-5-billion-loss/9f27cba9-65d7-4f7e-ac4c-869734d4054c/",
+      "publication_date": "1993-01-20",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report on IBM’s record 1992 net loss of about $4.97 billion, driven by charges and weak business.",
+      "observation_date": "1992-12-31"
+    },
+    {
+      "id": "early-1990-08-ibm-1994-profit",
+      "source_name": "The Washington Post: Restructured IBM Reports First Annual Profit in Four Years",
+      "source_reference": "https://www.washingtonpost.com/archive/business/1995/01/24/restructured-ibm-reports-1st-annual-profit-in-4-years/4c260b06-b67e-4aa0-a541-03774da25a1a/",
+      "publication_date": "1995-01-24",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report: IBM returned to annual profit for 1994 after restructuring and cost cuts.",
+      "observation_date": "1994-12-31"
+    },
+    {
+      "id": "early-1990-08-exxon-1990",
+      "source_name": "Los Angeles Times: Exxon, Chevron Profits Surge; Gulf Crisis Cited",
+      "source_reference": "https://www.latimes.com/archives/la-xpm-1991-01-25-fi-738-story.html",
+      "publication_date": "1991-01-25",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary results report: Exxon earned $5.01 billion in 1990 versus $3.51 billion in 1989; rising oil prices during the Gulf crisis supported results.",
+      "observation_date": "1990-12-31"
+    },
+    {
+      "id": "early-1990-08-exxon-1991",
+      "source_name": "Los Angeles Times: Mixed Profit Picture for Top Three Oil Companies",
+      "source_reference": "https://www.latimes.com/archives/la-xpm-1992-01-25-fi-713-story.html",
+      "publication_date": "1992-01-25",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report says Exxon 1991 net income of $5.6 billion was the largest in its history at that time.",
+      "observation_date": "1991-12-31"
+    },
+    {
+      "id": "early-1990-08-sony-ps",
+      "source_name": "PlayStation: 1994 History Timeline",
+      "source_reference": "https://www.playstation.com/en-us/playstation-history/1994-ps-one/",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Official PlayStation history dates the first console’s Japanese launch to December 3, 1994 and describes strong early reception; no U.S. launch claim is used for this window.",
+      "observation_date": "1994-12-03"
     }
   ]
 }

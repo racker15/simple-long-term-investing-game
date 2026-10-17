@@ -22,6 +22,29 @@ describe('scenario validation', () => {
     ['seven assets', (s: Scenario) => s.known.asset_definitions.pop()],
     ['60 observations', (s: Scenario) => s.future.monthly_returns.cash.pop()],
     [
+      'missing hot-stock explanation',
+      (s: Scenario) => {
+        delete s.future.hot_stock_explanations[s.known.hot_stocks[0].id];
+      },
+    ],
+    [
+      'explanation for an unrelated stock',
+      (s: Scenario) => {
+        const id = s.known.hot_stocks[0].id;
+        s.future.hot_stock_explanations['hot:other:acme'] =
+          s.future.hot_stock_explanations[id];
+        delete s.future.hot_stock_explanations[id];
+      },
+    ],
+    [
+      'unsourced hot-stock explanation',
+      (s: Scenario) => {
+        s.future.hot_stock_explanations[s.known.hot_stocks[0].id].source_ids = [
+          'missing-company-source',
+        ];
+      },
+    ],
+    [
       'duplicate month',
       (s: Scenario) => {
         s.future.monthly_returns.cash[1].month =

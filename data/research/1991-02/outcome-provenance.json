@@ -30,6 +30,45 @@
       "approximation": false,
       "notes": "Last-updated date of retrospective chronology.",
       "observation_date": "1993-12-31"
+    },
+    {
+      "id": "early-1991-02-walmart-history",
+      "source_name": "Walmart: History of Walmart International",
+      "source_reference": "https://corporate.walmart.com/about/international/about/history",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Current company history says Walmart took its business global in 1991 and purchased 122 Woolco stores in Canada in 1994; exact event days are not stated."
+    },
+    {
+      "id": "early-1991-02-walmart-canada",
+      "source_name": "Walmart Canada: Retailer Marks 20 Years in Canada",
+      "source_reference": "https://www.newswire.ca/news-releases/walmart-marks-20-years-in-canada-retailer-to-host-lowering-the-cost-of-living-summit-513930531.html",
+      "publication_date": "2014-03-17",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company release states Walmart Canada began 20 years earlier, on March 17, 1994, after acquiring 122 Woolco stores.",
+      "observation_date": "1994-03-17"
+    },
+    {
+      "id": "early-1991-02-harley-1991",
+      "source_name": "Los Angeles Times: Harley-Davidson Reports Quarterly Profit Surge",
+      "source_reference": "https://www.latimes.com/archives/la-xpm-1992-02-21-fi-2760-story.html",
+      "publication_date": "1992-02-21",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report: 1991 net income slipped slightly after a two-week strike and start-up costs at a new paint plant; fourth-quarter profit surged 85%.",
+      "observation_date": "1991-12-31"
+    },
+    {
+      "id": "early-1991-02-ibm-1994-profit",
+      "source_name": "The Washington Post: Restructured IBM Reports First Annual Profit in Four Years",
+      "source_reference": "https://www.washingtonpost.com/archive/business/1995/01/24/restructured-ibm-reports-1st-annual-profit-in-4-years/4c260b06-b67e-4aa0-a541-03774da25a1a/",
+      "publication_date": "1995-01-24",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report: IBM returned to annual profit for 1994 after restructuring and cost cuts.",
+      "observation_date": "1994-12-31"
     }
   ]
 }

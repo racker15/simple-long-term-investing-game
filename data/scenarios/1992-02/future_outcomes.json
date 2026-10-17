@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Honda nearly tripled in dollar terms, leading these choices. The US share basket more than doubled, while Hasbro and IBM also gained. A broad international basket gained less than this particular Japanese company. One company cannot stand in for a whole country or tell you how all foreign shares will behave.\n\nThe world beyond markets also changed. Astronauts repaired Hubble in 1993. South Africa held a national democratic election open to all races in 1994. Microsoft launched Windows 95 in 1995, bringing its Start menu to many computer users.\n\nNone of those events was a ready-made answer to the investment question. Knowing a technology would matter did not automatically reveal which company's shares would deliver the largest gain, or what price was sensible to pay.\n\nLook at the months between the start and finish. Would a fall have made you want to change your mind? Your choice was made without this chart. The comparison is useful because it shows the gap between what sounded plausible at the time and the particular path that eventually occurred.",
+    "text": "Honda nearly tripled in dollar terms, leading these choices. The US share basket more than doubled, while Hasbro and IBM also gained. A broad international basket gained less than this particular Japanese company. One company cannot stand in for a whole country or tell you how all foreign shares will behave.\n\nHonda exported its 100,000th U.S.-made vehicle in 1994. Hasbro’s talking Barney was America’s top-selling toy in 1993, but the Barney product line then cooled as too many items appeared. IBM reported a record 1992 loss and returned to annual profit in 1994. Each company had different products and pressures, even though all three shares ended higher.\n\nNone of those events was a ready-made answer to the investment question. Knowing a technology would matter did not automatically reveal which company's shares would deliver the largest gain, or what price was sensible to pay.\n\nLook at the months between the start and finish. Would a fall have made you want to change your mind? Your choice was made without this chart. The comparison is useful because it shows the gap between what sounded plausible at the time and the particular path that eventually occurred.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,11 @@
       "yahoo-ibm",
       "hubble-repair",
       "south-africa-vote",
-      "windows95"
+      "windows95",
+      "early-1992-02-honda-1994",
+      "early-1992-02-hasbro-barney",
+      "early-1992-02-ibm-1992-loss",
+      "early-1992-02-ibm-1994-profit"
     ]
   },
   "reflection": {
@@ -50,6 +54,24 @@
       "south-africa-vote",
       "windows95"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1992-02:honda": {
+      "text": "Honda reported that its U.S. factories exported their 100,000th vehicle in 1994, with the Accord among the leading models. Exports gave those factories another market to serve beyond North America; Honda shares rose over this five-year window.",
+      "source_ids": ["early-1992-02-honda-1994", "yahoo-hmc"]
+    },
+    "hot:1992-02:hasbro": {
+      "text": "Hasbro’s talking Barney doll became America’s top-selling toy in 1993, but observers said too many products were on shelves and sales fell sharply by 1994. The toy’s popularity proved difficult to sustain as the market filled; Hasbro shares still ended higher over five years.",
+      "source_ids": ["early-1992-02-hasbro-barney", "yahoo-has"]
+    },
+    "hot:1992-02:ibm": {
+      "text": "IBM reported a record $4.97 billion loss for 1992, then returned to annual profit in 1994 after restructuring and cost cuts. Those changes helped the computer maker recover after a very difficult year; IBM shares gained over this window.",
+      "source_ids": [
+        "early-1992-02-ibm-1992-loss",
+        "early-1992-02-ibm-1994-profit",
+        "yahoo-ibm"
+      ]
+    }
   },
   "monthly_returns": {
     "cash": [

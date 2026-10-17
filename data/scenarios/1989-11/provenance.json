@@ -261,6 +261,35 @@
       "approximation": false,
       "notes": "Undated retrospective account of the April 30, 1993 software release.",
       "observation_date": "1993-04-30"
+    },
+    {
+      "id": "early-1989-11-sony-music",
+      "source_name": "Sony Group History: Global Expansion of the Music and Film Businesses",
+      "source_reference": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/2-08.html",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Retrospective Sony history says CBS Records was renamed Sony Music Entertainment Inc. in January 1991; month/year only."
+    },
+    {
+      "id": "early-1989-11-coke-q3-1992",
+      "source_name": "Los Angeles Times: Coca-Cola Results Rise in Third Quarter",
+      "source_reference": "https://www.latimes.com/archives/la-xpm-1992-10-15-fi-223-story.html",
+      "publication_date": "1992-10-15",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report: Coca-Cola third-quarter 1992 net income rose 18.5% and revenue rose 10.6% year over year.",
+      "observation_date": "1992-09-30"
+    },
+    {
+      "id": "early-1989-11-exxon-1991",
+      "source_name": "Los Angeles Times: Mixed Profit Picture for Top Three Oil Companies",
+      "source_reference": "https://www.latimes.com/archives/la-xpm-1992-01-25-fi-713-story.html",
+      "publication_date": "1992-01-25",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report says Exxon 1991 net income of $5.6 billion was the largest in its history at that time.",
+      "observation_date": "1991-12-31"
     }
   ]
 }

@@ -33,7 +33,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "January 1987 began with rising stock prices and worry about currency values. General Electric and Apple split their shares that year. Each old share became two shares, but the split alone did not add value to an investment.\n\nIn October 1987, the stock market crashed and trading was disrupted. In April 1991, a group that tracks the U.S. economy said a recession had begun in July 1990. The recession later ended in March 1991. The group did not announce that ending date until December 1992, after this story ends in January 1992.\n\nCompanies, a mix of many stocks, government bonds (loans to the government), and cash all followed different paths. The best result in these five years could not tell anyone which choice would do best in another five.\n\nA company could remain important while its share price fell. Likewise, a market crash did not mean every investment would stay below its starting value forever. The amount invested, the type of holding and the dates all shaped the result.",
+    "text": "January 1987 began with rising stock prices and worry about currency values. General Electric and Apple split their shares that year. Each old share became two shares, but the split alone did not add value to an investment.\n\nIn October 1987, the stock market crashed and trading was disrupted. In April 1991, a group that tracks the U.S. economy said a recession had begun in July 1990. The recession later ended in March 1991. The group did not announce that ending date until December 1992, after this story ends in January 1992.\n\nIBM ended 1991 with a $2.8 billion loss after large charges and a shift in demand away from big central computers. GE reported first-quarter earnings growth in 1987, while Apple’s Macintosh II added color to its computer line. The three businesses had different challenges, and the same market years did not give them the same outcomes.\n\nA company could remain important while its share price fell. Likewise, a market crash did not mean every investment would stay below its starting value forever. The amount invested, the type of holding and the dates all shaped the result.",
     "source_ids": [
       "fed-crash87",
       "nber-peak90",
@@ -43,7 +43,11 @@
       "yahoo-aapl",
       "french-us",
       "french-international",
-      "fred-gs5"
+      "fred-gs5",
+      "early-1987-01-ibm-1991-loss",
+      "early-1987-01-ibm-1991-shift",
+      "early-1987-01-ge-earnings",
+      "early-1987-01-apple-macii"
     ]
   },
   "reflection": {
@@ -67,5 +71,23 @@
       "time-963318",
       "time-963313"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1987-01:ibm": {
+      "text": "IBM recorded a $2.8 billion loss for 1991, including large charges for restructuring and job cuts, as buyers shifted toward networks of smaller computers. The loss and business shift marked a costly adjustment; IBM shares fell over this five-year window.",
+      "source_ids": [
+        "early-1987-01-ibm-1991-loss",
+        "early-1987-01-ibm-1991-shift",
+        "yahoo-ibm"
+      ]
+    },
+    "hot:1987-01:general-electric": {
+      "text": "General Electric reported first-quarter 1987 earnings up 16%, with stronger results in plastics, finance and aerospace. Gains across several lines helped lift the company’s results; GE shares finished higher over this five-year window.",
+      "source_ids": ["early-1987-01-ge-earnings", "yahoo-ge"]
+    },
+    "hot:1987-01:apple": {
+      "text": "Apple introduced the Macintosh II on March 2, 1987, adding support for color displays to its Mac line. Customers could choose a Mac with color graphics; Apple shares rose over this five-year window.",
+      "source_ids": ["early-1987-01-apple-macii", "yahoo-aapl"]
+    }
   }
 }

@@ -14,6 +14,9 @@ export async function finishReplay(page: Page) {
   await expect(
     page.getByRole('heading', { name: 'Five years later', exact: true }),
   ).toHaveCount(0);
+  await expect(
+    page.getByRole('heading', { name: 'What happened to the hot stocks?' }),
+  ).toHaveCount(0);
   await expect(page.getByTestId('path-0')).toHaveAttribute(
     'points',
     /\S+( \S+){12}$/,
@@ -29,6 +32,9 @@ export async function finishReplay(page: Page) {
   ).toBeFocused();
   await expect(
     page.getByRole('heading', { name: 'Five years later', exact: true }),
+  ).toHaveCount(0);
+  await expect(
+    page.getByRole('heading', { name: 'What happened to the hot stocks?' }),
   ).toHaveCount(0);
   await expect(page.getByTestId('path-0')).toHaveAttribute(
     'points',

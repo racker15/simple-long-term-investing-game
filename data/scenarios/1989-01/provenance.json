@@ -262,6 +262,45 @@
       "approximation": false,
       "notes": "Undated retrospective account of the April 30, 1993 software release.",
       "observation_date": "1993-04-30"
+    },
+    {
+      "id": "early-1989-01-boeing-777",
+      "source_name": "The Washington Post: United Orders Boeing Aircraft Worth More Than $22 Billion",
+      "source_reference": "https://www.washingtonpost.com/archive/business/1990/10/16/united-orders-boeing-aircraft-worth-more-than-22-billion/2b91c453-fed7-4885-90df-9854e2ad95a1/",
+      "publication_date": "1990-10-16",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report on United Airlines’ large aircraft order, including the new Boeing 777, with a total value up to $22 billion."
+    },
+    {
+      "id": "early-1989-01-ibm-1992-loss",
+      "source_name": "The Washington Post: IBM Reports a Record $5 Billion Loss",
+      "source_reference": "https://www.washingtonpost.com/archive/politics/1993/01/20/ibm-reports-a-record-5-billion-loss/9f27cba9-65d7-4f7e-ac4c-869734d4054c/",
+      "publication_date": "1993-01-20",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report on IBM’s record 1992 net loss of about $4.97 billion, driven by charges and weak business.",
+      "observation_date": "1992-12-31"
+    },
+    {
+      "id": "early-1989-01-exxon-valdez",
+      "source_name": "U.S. EPA: Exxon Valdez Oil Spill Report to the President, Executive Summary",
+      "source_reference": "https://www.epa.gov/archive/epa/aboutepa/exxon-valdez-oil-spill-report-president-executive-summary.html",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Retrospective EPA report identifies the tanker spill in Prince William Sound on March 24, 1989, and documents environmental harm and cleanup.",
+      "observation_date": "1989-03-24"
+    },
+    {
+      "id": "early-1989-01-exxon-1990",
+      "source_name": "Los Angeles Times: Exxon, Chevron Profits Surge; Gulf Crisis Cited",
+      "source_reference": "https://www.latimes.com/archives/la-xpm-1991-01-25-fi-738-story.html",
+      "publication_date": "1991-01-25",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary results report: Exxon earned $5.01 billion in 1990 versus $3.51 billion in 1989; rising oil prices during the Gulf crisis supported results.",
+      "observation_date": "1990-12-31"
     }
   ]
 }

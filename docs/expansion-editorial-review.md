@@ -36,3 +36,11 @@ Companies recur: Apple appears in 24 scenarios, IBM in 18, Microsoft in 16 and D
 - Starting information remains locked. This pass edits post-reveal explanations, not the information from which the original choices were made.
 
 The existing browser walkthrough was extended to every date on desktop and mobile. Exact-head results and the initial transient screenshot failure are recorded in `expansion-progress.md`. The normal application entry remains the fictional demonstration; the historical library is exercised through the development preview. No deployment or production-session enablement is implied.
+
+## Company explanations — October 17, 2026
+
+The hot-stock result cards previously reused the descriptions that players read before investing. Each of the 150 historical stock appearances now has a separate, sourced explanation in `hot_stock_explanations`. The longer scenario summaries also connect company results to dated business developments. These include product launches, sales and profit changes, acquisitions, and setbacks.
+
+Explanations are specific to the scenario's five-year window. A later product or recovery cannot explain an earlier ending value, and a successful business can still produce a disappointing share return from a high starting price. The text gives business context without claiming that one event explains every price movement. Short sentences and common words keep it suitable for ages 8–12; source details remain in provenance.
+
+The authoring files are `data/research/<scenario-id>/outcome-inputs.json` and `outcome-provenance.json`. The existing offline builder generates the matching future and provenance bundles. Validation requires explanations for exactly the three selected stocks and checks their source references. The desktop/mobile collection walkthrough checks that each card shows its own outcome explanation, and that these explanations stay hidden before investment and during the intermediate reveal pauses.

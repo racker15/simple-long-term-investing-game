@@ -30,6 +30,45 @@
       "approximation": false,
       "notes": "Last-updated date of retrospective chronology.",
       "observation_date": "1993-12-31"
+    },
+    {
+      "id": "early-1991-11-aladdin",
+      "source_name": "D23: Aladdin (film)",
+      "source_reference": "https://d23.com/a-to-z/aladdin-film/",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Undated Disney Archives entry; Aladdin’s general release date was November 25, 1992, and it became the highest-grossing animated film to that date, earning over $200 million domestically.",
+      "observation_date": "1992-11-25"
+    },
+    {
+      "id": "early-1991-11-ibm-1992-loss",
+      "source_name": "The Washington Post: IBM Reports a Record $5 Billion Loss",
+      "source_reference": "https://www.washingtonpost.com/archive/politics/1993/01/20/ibm-reports-a-record-5-billion-loss/9f27cba9-65d7-4f7e-ac4c-869734d4054c/",
+      "publication_date": "1993-01-20",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report on IBM’s record 1992 net loss of about $4.97 billion, driven by charges and weak business.",
+      "observation_date": "1992-12-31"
+    },
+    {
+      "id": "early-1991-11-ibm-1994-profit",
+      "source_name": "The Washington Post: Restructured IBM Reports First Annual Profit in Four Years",
+      "source_reference": "https://www.washingtonpost.com/archive/business/1995/01/24/restructured-ibm-reports-1st-annual-profit-in-4-years/4c260b06-b67e-4aa0-a541-03774da25a1a/",
+      "publication_date": "1995-01-24",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report: IBM returned to annual profit for 1994 after restructuring and cost cuts.",
+      "observation_date": "1994-12-31"
+    },
+    {
+      "id": "early-1991-11-apple-1996",
+      "source_name": "The Washington Post: Apple Posts Loss, Plans to Cut 1,500 More Jobs",
+      "source_reference": "https://www.washingtonpost.com/archive/business/1996/04/18/apple-posts-loss-plans-to-cut-1500-more-jobs/7e6c8cef-ec6c-4c14-b28f-d3ab171a7685/",
+      "publication_date": "1996-04-18",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report on Apple’s largest loss to that date and plans to cut 1,500 more jobs after a steep sales decline."
     }
   ]
 }

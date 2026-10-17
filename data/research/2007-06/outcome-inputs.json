@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Apple grew to almost five times its starting value. Disney also gained, but the international basket lost more than one-fifth. The US basket ended only slightly higher, close to cash. A new device could be a major business opportunity without making every investment in the same period successful.\n\nThe financial crisis intensified in September 2008 when Lehman Brothers filed for bankruptcy. The Deepwater Horizon disaster and Japan’s earthquake and tsunami came later. None of those events was visible on a complete timeline when investors were reading about the new iPhone.\n\nApple’s gain does not mean the touchscreen demonstration made its future price obvious. The company still had to sell products, meet costs and compete. The share price could also move as investors changed their expectations. Meanwhile, the US and international baskets followed different paths through the same years. Spreading money across countries and companies changes the risks you take, but it does not make every part of a portfolio rise together.",
+    "text": "Apple grew to almost five times its starting value. Disney gained about 52% and Microsoft about 16%; the U.S. share basket ended only slightly higher, close to cash. Strong business results did not make every share or basket rise at the same pace.\n\nIn April 2012, Apple reported record March-quarter sales of 35.1 million iPhones and 11.8 million iPads, with profit almost twice the year-earlier level. Microsoft’s quarter showed growth in Office, server products and Windows, while its Xbox and devices division slowed. Disney reported higher sales and earnings, while its CEO pointed to the record opening of The Avengers. These companies earned money in different ways, and each faced competition.\n\nThe financial crisis intensified when Lehman Brothers filed for bankruptcy in September 2008. The Deepwater Horizon disaster and Japan’s earthquake and tsunami followed. None of those events was visible on a complete timeline when people began this game. Apple’s gain does not mean an iPhone announcement made its later price obvious. Its results, costs and expectations changed over time, while the broad U.S. and international baskets followed different paths through the same years.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,10 @@
       "yahoo-dis",
       "financial-crisis",
       "deepwater",
-      "japan-quake"
+      "japan-quake",
+      "apple-q2-2012",
+      "microsoft-q3-2012",
+      "disney-q2-2012"
     ]
   },
   "reflection": {
@@ -50,5 +53,19 @@
       "deepwater",
       "japan-quake"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:2007-06:apple": {
+      "text": "In April 2012, Apple reported selling 35.1 million iPhones and 11.8 million iPads in its March quarter. Sales reached $39.2 billion, and net profit was $11.6 billion, almost twice the year-earlier amount. Phones and tablets were bringing Apple both more customers and much larger profits.",
+      "source_ids": ["apple-q2-2012"]
+    },
+    "hot:2007-06:microsoft": {
+      "text": "In April 2012, Microsoft reported quarterly sales of $17.4 billion, up 6% from a year earlier. Office and server software helped drive growth, and Windows sales rose too. Its Xbox and devices division shrank as the games-console market slowed, showing why the company depended on several businesses.",
+      "source_ids": ["microsoft-q3-2012"]
+    },
+    "hot:2007-06:disney": {
+      "text": "Disney reported in May 2012 that quarterly sales rose 6% and net profit rose 21% from a year earlier. That month, The Avengers opened with a record $207 million weekend in the U.S. and Canada. The Marvel characters Disney had bought were now drawing large cinema audiences.",
+      "source_ids": ["disney-q2-2012"]
+    }
   }
 }

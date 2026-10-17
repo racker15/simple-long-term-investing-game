@@ -27,7 +27,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Occidental Petroleum more than tripled, leading these choices. Apple gained, but Amazon lost about one-third. The US share basket also finished lower, while bonds gained. The opening month’s excitement about the internet did not describe every business, and it did not make all online investments successful.\n\nApple introduced the iPod in October 2001, expanding beyond computers into portable music. The business itself was changing while investors held its shares.\n\nDuring the five years, the September 11 attacks brought devastating human losses. Euro notes and coins entered everyday use in 2002. The Columbia shuttle was lost in 2003, killing its seven crew members. The future contained important events that nobody could read from the opening page.\n\nThe two internet-related shares are a useful comparison. Apple finished higher while Amazon finished lower, so one label did not describe both results. Bonds followed a different route again. If you spread money across choices, your final result would combine those gains and losses. The most talked-about industry was not the only place an investor could put money, and the strongest company story was not a guaranteed price forecast.",
+    "text": "Occidental Petroleum led these choices, ending at about $3.49 per starting dollar. Apple reached roughly $1.48, while Amazon finished near 67 cents. The U.S. share basket ended lower, but bonds gained. The internet was exciting at the start, yet that label did not describe every business or guarantee that online shares would rise.\n\nThere were important company changes. Apple said more than two million iPods had sold by January 2004. Occidental bought Altura Energy, a major Texas oil producer, and later reported fourth-quarter earnings more than 80% above the year before. Amazon’s 2003 sales grew 34% and it reported a small annual profit, yet its share still ended lower. Stronger company results do not always mean stronger share returns over the same dates.\n\nThe five years included the September 11 attacks, euro notes and coins entering daily use, and the loss of the Columbia shuttle and its seven crew members. None of that future history was visible on the January 2000 starting page. If money were spread across choices, gains and losses would combine; the most talked-about industry was not the only possible place to invest.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -38,7 +38,11 @@
       "september-attacks",
       "euro-cash",
       "columbia",
-      "ipod-2001"
+      "ipod-2001",
+      "apple-ipod-two-million",
+      "oxy-altura",
+      "oxy-q4-2000",
+      "amazon-fy2003"
     ]
   },
   "reflection": {
@@ -57,6 +61,20 @@
       "euro-cash",
       "columbia"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:2000-01:apple": {
+      "text": "Apple announced on January 6, 2004, that it had sold more than two million iPods since launch. The portable music player gave Apple a fast-growing business alongside Mac computers, reaching people who wanted a digital music device.",
+      "source_ids": ["apple-ipod-two-million", "yahoo-aapl"]
+    },
+    "hot:2000-01:occidental": {
+      "text": "Occidental completed its purchase of Altura Energy in April 2000, adding a major Texas oil producer. In January 2001, it reported fourth-quarter earnings before special items up more than 80% from a year earlier, alongside higher sales and production.",
+      "source_ids": ["oxy-altura", "oxy-q4-2000", "yahoo-oxy"]
+    },
+    "hot:2000-01:amazon": {
+      "text": "Amazon’s 2003 sales grew 34% to $5.26 billion, and it earned $35 million after losing $149 million the year before. Lower prices and broader product choices attracted customers, while better cost control helped turn sales into profit. Still, Amazon’s share ended below its January 2000 starting value.",
+      "source_ids": ["amazon-fy2003", "yahoo-amzn"]
+    }
   },
   "monthly_returns": {
     "cash": [

@@ -33,7 +33,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Apple gained about two-fifths over five years, while Cisco lost about seven-tenths and Microsoft also fell. Bonds gained while the US basket ended lower. Being in the broad technology industry did not give these three companies the same result. Even Apple’s final gain hid a very rough journey.\n\nIn November 2001, Microsoft and the US government proposed a settlement of their competition case. The legal story had moved forward, though review was still required.\n\nApple introduced the iPod in October 2001, expanding beyond computers into portable music. The business itself was changing while investors held its shares.\n\nThe years ahead included the September 11 attacks, the introduction of euro cash and the Columbia shuttle disaster. People faced changes and losses far beyond their investment accounts. The monthly lines show the financial result, which is only one part of that larger history.\n\nApple’s final gain is especially worth comparing with its path. Finishing above the starting point does not mean an investment never fell below it. A person who had to sell during a bad month would not receive the five-year ending value. Likewise, a lawsuit or a promising device could not tell someone exactly when prices would turn. The uncertainty was present even for the investment that eventually gained.",
+    "text": "Apple ended this window about 41% above its starting value, while Cisco ended about 70% lower and Microsoft about 30% lower. Bonds gained as the U.S. share basket fell. Being part of the technology industry did not give these companies the same result, and Apple’s final gain hid a rough path.\n\nCompany news gives useful context. Apple said more than two million iPods had sold by January 2004, showing demand for a product beyond computers. Cisco reported a $2.2 billion charge for unsold equipment and a $2.69 billion loss in 2001. Microsoft announced a $3 one-time dividend in 2004, scheduled for payment that December. These stories mattered to the businesses and their shareholders, but none alone explains the five-year ending value.\n\nThe period included the September 11 attacks, the arrival of euro cash and the Columbia shuttle disaster. People faced changes and losses far beyond their investment accounts. Finishing above the starting point does not mean an investment never fell below it; anyone forced to sell during a bad month would have had a different experience. A lawsuit or promising device could not tell someone exactly when prices would turn.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -45,7 +45,10 @@
       "euro-cash",
       "columbia",
       "ipod-2001",
-      "microsoft-settlement"
+      "microsoft-settlement",
+      "microsoft-special-dividend-2004",
+      "cisco-q3-fy2001",
+      "apple-ipod-two-million"
     ]
   },
   "reflection": {
@@ -64,6 +67,20 @@
       "euro-cash",
       "columbia"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:2000-06:microsoft": {
+      "text": "In July 2004, Microsoft announced a one-time $3-per-share dividend for December, along with regular dividends and a share-buyback plan. The payout returned company cash directly to shareholders and added a cash payment to the value of owning Microsoft shares.",
+      "source_ids": ["microsoft-special-dividend-2004", "yahoo-msft"]
+    },
+    "hot:2000-06:cisco": {
+      "text": "On May 8, 2001, Cisco reported quarterly sales of $4.73 billion, down 4% from a year earlier. It recorded a $2.2 billion charge for excess inventory and a $2.69 billion net loss as orders for networking equipment slowed sharply.",
+      "source_ids": ["cisco-q3-fy2001", "yahoo-csco"]
+    },
+    "hot:2000-06:apple": {
+      "text": "Apple said on January 6, 2004, that more than two million iPods had sold since launch. The music player expanded Apple beyond Mac computers and made its iTunes software more useful to customers carrying a portable library of songs.",
+      "source_ids": ["apple-ipod-two-million", "yahoo-aapl"]
+    }
   },
   "monthly_returns": {
     "cash": [

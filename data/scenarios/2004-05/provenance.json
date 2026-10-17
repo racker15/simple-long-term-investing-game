@@ -448,6 +448,36 @@
       "approximation": false,
       "notes": "Undated current company page retrieved 2026-10-05 says most recent split June 20 2001, outside 2008–13 horizon. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication.",
       "observation_date": "2001-06-20"
+    },
+    {
+      "id": "apple-iphone-million",
+      "source_name": "Apple: Apple Sells One Millionth iPhone",
+      "source_reference": "https://www.apple.com/newsroom/2007/09/10Apple-Sells-One-Millionth-iPhone/",
+      "publication_date": "2007-09-10",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Apple announced one million iPhones sold in the first 74 days after its June 29, 2007 introduction.",
+      "observation_date": "2007-09-10"
+    },
+    {
+      "id": "microsoft-fy2007",
+      "source_name": "Microsoft: Microsoft’s Annual Revenue Surpasses $50 Billion",
+      "source_reference": "https://news.microsoft.com/source/2007/07/19/microsofts-annual-revenue-surpasses-50-billion/",
+      "publication_date": "2007-07-19",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Microsoft reported FY2007 revenue of $51.12 billion, up 15%, citing customer acceptance of Windows Vista and Office 2007 among growth drivers.",
+      "observation_date": "2007-06-30"
+    },
+    {
+      "id": "ebay-skype-impairment",
+      "source_name": "eBay: Form 8-K on Skype impairment charge",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/1065088/000089161807000579/f34172e8vk.htm",
+      "publication_date": "2007-10-01",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "eBay said its September 2007 quarter would include an approximately $1.4 billion Skype goodwill impairment charge associated with its October 2005 acquisition and earn-out settlement.",
+      "observation_date": "2007-09-28"
     }
   ]
 }

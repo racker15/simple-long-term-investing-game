@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Bonds led this set over five years. The US share basket finished only a little higher, while the international basket and all three company shares lost value. This was a difficult window for stock investors. It does not prove that stocks always lose or bonds always win; a different starting date can change the result.\n\nThe years ahead included a rescue of Long-Term Capital Management after heavy losses, the start of the euro for financial transactions, and the September 11 attacks. Families and communities faced events far more important than market rankings. The chart records investment values through those years, not the full effect of the events on people’s lives.\n\nThe bond choice was useful in this particular window because it gained while the featured company shares fell. That does not make bonds risk-free: their prices can also decline. Compare the amount you would have lost in a single company with a mix of assets. The trade-off is about which risks you take, rather than finding one choice that wins forever.",
+    "text": "Bonds led this group over five years. The U.S. share basket finished only a little higher, while the international basket and all three featured companies ended lower: Disney near 68 cents per starting dollar, Nike near 81 cents and Intel near 83 cents. This was a hard window for stock investors, but it does not prove that stocks always lose or bonds always win.\n\nEach company faced a different business story. Disney’s California Adventure opened in 2001 and helped lift resort visits, but the added costs weighed on Parks & Resorts operating income. Nike’s 1998 income fell nearly half amid softer demand and excess inventory. Intel reported that 2001 revenue dropped 21% as computer demand weakened. One company’s challenge did not make the others’ results identical.\n\nThe years also included the rescue of Long-Term Capital Management, the euro’s start for financial transactions and the September 11 attacks. The bond choice did well in this window while the three company shares fell. That comparison shows how spreading money among different kinds of investments can change the result, but bonds can also lose value in other periods.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,11 @@
       "yahoo-intc",
       "ltcm",
       "euro-launch",
-      "september-attacks"
+      "september-attacks",
+      "disney-california-adventure-open",
+      "disney-fy2001-results",
+      "nike-fy1998",
+      "intel-fy2001"
     ]
   },
   "reflection": {
@@ -50,6 +54,24 @@
       "euro-launch",
       "september-attacks"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1997-07:disney": {
+      "text": "Disney California Adventure and two nearby resort additions opened on February 8, 2001. The attractions and hotels brought more visitors and guest spending, but Parks & Resorts operating income fell 2% in fiscal 2001 as costs also rose.",
+      "source_ids": [
+        "disney-california-adventure-open",
+        "disney-fy2001-results",
+        "yahoo-dis"
+      ]
+    },
+    "hot:1997-07:nike": {
+      "text": "Nike’s fiscal 1998 revenue rose 4% to a record $9.6 billion, but net income fell nearly half to $399.6 million. Weak demand and extra inventory led to discounting, squeezing profit even as sales reached a record.",
+      "source_ids": ["nike-fy1998", "yahoo-nke"]
+    },
+    "hot:1997-07:intel": {
+      "text": "Intel reported 2001 revenue of $26.5 billion in January 2002, down 21% from 2000, and its net income also dropped sharply. Weaker computer demand after the technology boom meant fewer chip orders, leaving Intel with a difficult sales year.",
+      "source_ids": ["intel-fy2001", "yahoo-intc"]
+    }
   },
   "monthly_returns": {
     "cash": [

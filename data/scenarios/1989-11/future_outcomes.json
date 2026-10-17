@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Coca-Cola led these choices over five years. Exxon and the US share basket gained less, while Sony and the international basket rose only modestly. Sony's purchase of a film studio was a dramatic business story, but it did not make Sony the best investment in this set.\n\nThe Berlin Wall had already opened when you started, so that event belongs to your starting information. Later, the Soviet Union broke apart. Hubble launched in 1990, and CERN opened its web software to everyone in 1993. Big changes kept arriving during the holding period.\n\nBuying another business can create opportunities, but it also brings costs and challenges. A large deal is therefore not the same thing as a guaranteed gain for shareholders. The return still depends on what happens after the purchase and on the price investors paid.\n\nThese results belong to one starting date and one five-year window. They do not prove that drinks always beat electronics, or that buying film studios is always a mistake. Keep the specific outcome separate from a sweeping rule.",
+    "text": "Coca-Cola led these choices over five years. Exxon and the US share basket gained less, while Sony and the international basket rose only modestly. Sony's purchase of a film studio was a dramatic business story, but it did not make Sony the best investment in this set.\n\nSony renamed its CBS Records business Sony Music Entertainment in 1991. Coca-Cola reported higher sales and profit in a 1992 quarter, and Exxon said its 1991 profit reached a record level. Those examples show continued change in music, drinks and oil, but they cannot explain the difference between the companies’ share returns by themselves.\n\nBuying another business can create opportunities, but it also brings costs and challenges. A large deal is therefore not the same thing as a guaranteed gain for shareholders. The return still depends on what happens after the purchase and on the price investors paid.\n\nThese results belong to one starting date and one five-year window. They do not prove that drinks always beat electronics, or that buying film studios is always a mistake. Keep the specific outcome separate from a sweeping rule.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,10 @@
       "yahoo-xom",
       "hubble-history",
       "soviet-collapse",
-      "web-release"
+      "web-release",
+      "early-1989-11-sony-music",
+      "early-1989-11-coke-q3-1992",
+      "early-1989-11-exxon-1991"
     ]
   },
   "reflection": {
@@ -50,6 +53,20 @@
       "soviet-collapse",
       "web-release"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1989-11:sony": {
+      "text": "In January 1991, Sony renamed its CBS Records business Sony Music Entertainment. The change made the record company part of Sony’s music business beside its film and electronics operations; Sony shares rose modestly over this window.",
+      "source_ids": ["early-1989-11-sony-music", "yahoo-sony"]
+    },
+    "hot:1989-11:coca-cola": {
+      "text": "Coca-Cola reported third-quarter 1992 net income up about 19% and revenue up about 11% from a year earlier. The quarter brought higher sales and profit; Coca-Cola shares rose strongly over this five-year window.",
+      "source_ids": ["early-1989-11-coke-q3-1992", "yahoo-ko"]
+    },
+    "hot:1989-11:exxon": {
+      "text": "Exxon reported 1991 net income of $5.6 billion, then the largest in its history, while results differed across its oil businesses. The record total covered mixed performance among business areas; Exxon shares rose over this five-year period.",
+      "source_ids": ["early-1989-11-exxon-1991", "yahoo-xom"]
+    }
   },
   "monthly_returns": {
     "cash": [

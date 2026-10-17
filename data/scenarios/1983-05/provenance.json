@@ -252,6 +252,45 @@
       "approximation": false,
       "notes": "Retrospective history; outcome context only.",
       "observation_date": "1987-10-19"
+    },
+    {
+      "id": "early-1983-05-apple-mac",
+      "source_name": "Stanford University: Apple Macintosh Introduction Press Release",
+      "source_reference": "https://web.stanford.edu/dept/SUL/sites/mac/primary/docs/pr1.html",
+      "publication_date": "1984-01-24",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Archived Apple press release introducing the Macintosh on January 24, 1984, with a graphical interface and mouse.",
+      "observation_date": "1984-01-24"
+    },
+    {
+      "id": "early-1983-05-ibm-ps2-launch",
+      "source_name": "The Washington Post: New IBM Computers Unveiled",
+      "source_reference": "https://www.washingtonpost.com/archive/business/1987/04/03/new-ibm-computers-unveiled/ad31e54c-d9c1-4cd1-ae9c-0da7bf9f9b32/",
+      "publication_date": "1987-04-03",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report on IBM announcing the PS/2 line on April 2, 1987.",
+      "observation_date": "1987-04-02"
+    },
+    {
+      "id": "early-1983-05-ibm-ps2-sales",
+      "source_name": "Los Angeles Times: 1987—The Year Strategies Emerged",
+      "source_reference": "https://www.latimes.com/archives/la-xpm-1987-12-31-fi-7828-story.html",
+      "publication_date": "1987-12-31",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary year-end review reports IBM had announced sales of more than one million PS/2 machines by November 1987; exact announcement day is not stated."
+    },
+    {
+      "id": "early-1983-05-splash",
+      "source_name": "D23: Splash (film)",
+      "source_reference": "https://d23.com/a-to-z/splash-film/",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Undated Disney Archives film entry; Splash was released March 9, 1984, as the first Touchstone film.",
+      "observation_date": "1984-03-09"
     }
   ]
 }

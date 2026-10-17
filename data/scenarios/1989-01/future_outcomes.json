@@ -27,7 +27,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "The US share basket finished first among these choices. Exxon and Boeing also gained, while IBM lost nearly half its value. An investor could be right that computers would remain important and still lose money in a particular computer company's shares.\n\nMajor political changes unfolded during the same years. The Berlin Wall opened in 1989. The Soviet Union broke apart in 1991. Hubble went into orbit, and CERN later made its World Wide Web software free to use. These events changed the world people lived in, but they did not make every investment move together.\n\nA basket of many companies spread the effect of one company's troubles. Cash and government bonds offered different paths again. None of these choices required guessing the exact order of the three featured shares.\n\nThe finished chart makes the comparison easy. In January 1989, people had company reports, news and forecasts, but no list of future winners. A confident explanation about a business could still leave out risks that appeared later.",
+    "text": "The US share basket finished first among these choices. Exxon and Boeing also gained, while IBM lost nearly half its value. An investor could be right that computers would remain important and still lose money in a particular computer company's shares.\n\nBoeing won a huge aircraft order from United in 1990. Exxon faced the 1989 Valdez spill, then later reported higher profits as oil prices rose during the Gulf crisis. IBM reported a record loss for 1992 as its business struggled. The three companies’ different news helps explain the risks they faced, but no one event determines a share return.\n\nA basket of many companies spread the effect of one company's troubles. Cash and government bonds offered different paths again. None of these choices required guessing the exact order of the three featured shares.\n\nThe finished chart makes the comparison easy. In January 1989, people had company reports, news and forecasts, but no list of future winners. A confident explanation about a business could still leave out risks that appeared later.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -38,7 +38,11 @@
       "wall-opens",
       "hubble-history",
       "soviet-collapse",
-      "web-release"
+      "web-release",
+      "early-1989-01-boeing-777",
+      "early-1989-01-exxon-valdez",
+      "early-1989-01-exxon-1990",
+      "early-1989-01-ibm-1992-loss"
     ]
   },
   "reflection": {
@@ -58,6 +62,24 @@
       "soviet-collapse",
       "web-release"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1989-01:boeing": {
+      "text": "In October 1990, United Airlines ordered Boeing planes worth up to $22 billion, including the new 777. The order gave Boeing a large schedule of aircraft to build and deliver; its shares rose in this five-year period.",
+      "source_ids": ["early-1989-01-boeing-777", "yahoo-ba"]
+    },
+    "hot:1989-01:ibm": {
+      "text": "IBM reported a record $4.97 billion loss for 1992 after weak computer sales and large restructuring charges. Weak demand and the cost of reorganizing weighed on results; IBM shares fell during this five-year window.",
+      "source_ids": ["early-1989-01-ibm-1992-loss", "yahoo-ibm"]
+    },
+    "hot:1989-01:exxon": {
+      "text": "The Exxon Valdez spilled oil into Alaska’s Prince William Sound on March 24, 1989, harming wildlife and shorelines and requiring a long cleanup. Exxon later reported record 1990 profits as oil prices jumped during the Gulf crisis; its shares rose over five years.",
+      "source_ids": [
+        "early-1989-01-exxon-valdez",
+        "early-1989-01-exxon-1990",
+        "yahoo-xom"
+      ]
+    }
   },
   "monthly_returns": {
     "cash": [

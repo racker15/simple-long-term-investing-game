@@ -30,6 +30,36 @@
       "approximation": false,
       "notes": "Retrospective incident history.",
       "observation_date": "2010-04-20"
+    },
+    {
+      "id": "toyota-fy09",
+      "source_name": "Toyota: FY2009 financial results",
+      "source_reference": "https://global.toyota/en/detail/307960",
+      "publication_date": "2009-05-08",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company financial results for the year ended March 31, 2009; revenue and net-loss figures, including pressure from lower demand and the strong yen.",
+      "observation_date": "2009-03-31"
+    },
+    {
+      "id": "disney-marvel",
+      "source_name": "Disney: agreement to acquire Marvel",
+      "source_reference": "https://thewaltdisneycompany.com/press-releases/disney-to-acquire-marvel-entertainment/",
+      "publication_date": "2009-08-31",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Original company announcement of the proposed acquisition and its more than 5,000 characters.",
+      "observation_date": "2009-08-31"
+    },
+    {
+      "id": "exxon-fy09",
+      "source_name": "ExxonMobil: 2009 fourth-quarter and full-year results",
+      "source_reference": "https://investor.exxonmobil.com/sec-filings/all-sec-filings/content/0000034088-10-000008/f8k4q991.htm",
+      "publication_date": "2010-02-01",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results for 2009; compares earnings with 2008 and discusses the lower-price business environment.",
+      "observation_date": "2009-12-31"
     }
   ]
 }

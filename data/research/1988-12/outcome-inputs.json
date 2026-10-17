@@ -27,7 +27,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "The US share basket almost doubled and led these seven choices. Boeing gained too, but IBM lost about two-fifths of its value. Sony and the international basket rose only modestly. A large aircraft order book and a familiar electronics brand did not remove the uncertainty of owning their shares.\n\nThe years ahead brought major political change. The Berlin Wall opened in November 1989, and the Soviet Union broke apart in December 1991. Hubble launched into orbit in 1990. In 1993, CERN made its World Wide Web software free for others to use and build on.\n\nThose events help explain what the world was like, but they are not a formula for the return of each stock. The investments followed different paths through the same history.\n\nHere, owning a wide mix of US companies worked better than choosing any one of the three featured businesses. That is a result for this period, not a promise for the next one. Compare the losses and gains along the route as well as the final amounts.",
+    "text": "The US share basket almost doubled and led these seven choices. Boeing gained too, but IBM lost about two-fifths of its value. Sony and the international basket rose only modestly. A large aircraft order book and a familiar electronics brand did not remove the uncertainty of owning their shares.\n\nBoeing received a major 777 order from United Airlines in 1990, worth up to $22 billion. IBM later reported a record loss of nearly $5 billion for 1992. Sony added Columbia Pictures to its music and electronics businesses in 1989. These developments show how one company could have promising orders while another faced serious problems.\n\nThose events help explain what the world was like, but they are not a formula for the return of each stock. The investments followed different paths through the same history.\n\nHere, owning a wide mix of US companies worked better than choosing any one of the three featured businesses. That is a result for this period, not a promise for the next one. Compare the losses and gains along the route as well as the final amounts.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -38,7 +38,11 @@
       "wall-opens",
       "hubble-history",
       "soviet-collapse",
-      "web-release"
+      "web-release",
+      "early-1988-12-boeing-777",
+      "early-1988-12-ibm-1992-loss",
+      "early-1988-12-sony-history",
+      "early-1988-12-sony-columbia"
     ]
   },
   "reflection": {
@@ -58,5 +62,23 @@
       "soviet-collapse",
       "web-release"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1988-12:boeing": {
+      "text": "In October 1990, United Airlines ordered Boeing planes worth up to $22 billion, including the new 777. The order gave Boeing a large schedule of aircraft to build and deliver; its shares rose in this five-year period.",
+      "source_ids": ["early-1988-12-boeing-777", "yahoo-ba"]
+    },
+    "hot:1988-12:ibm": {
+      "text": "IBM reported a record $4.97 billion loss for 1992 after weak computer sales and large restructuring charges. Weak demand and the cost of reorganizing weighed on results; IBM shares fell during this five-year window.",
+      "source_ids": ["early-1988-12-ibm-1992-loss", "yahoo-ibm"]
+    },
+    "hot:1988-12:sony": {
+      "text": "Sony bought Columbia Pictures in November 1989, adding movies and television programs to its electronics and record businesses. The purchase broadened what Sony could produce and sell; its shares rose only slightly over this period.",
+      "source_ids": [
+        "early-1988-12-sony-history",
+        "early-1988-12-sony-columbia",
+        "yahoo-sony"
+      ]
+    }
   }
 }

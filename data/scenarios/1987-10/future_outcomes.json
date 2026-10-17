@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "You invested after the October crash. That fall was already part of the starting prices, so it is not a new loss inside your five-year portfolio. This detail changes how to read the whole story: a frightening recent event is different from a loss that happens after you buy.\n\nOver the next five years, McDonald's led the seven choices and the US share basket nearly doubled. IBM ended below its starting value. A recovery in the wider market did not lift every company equally.\n\nMeanwhile, the Berlin Wall opened in 1989. Hubble launched in 1990, and the Soviet Union broke apart in 1991. People watched enormous changes unfold without knowing exactly what would follow.\n\nThe outcome does not show that buying after every crash is easy or certain to work. An investor still had to choose among businesses with different risks. Even if someone correctly expected the market to recover, that would not tell them which individual company to choose or how long to wait.",
+    "text": "You invested after the October crash. That fall was already part of the starting prices, so it is not a new loss inside your five-year portfolio. This detail changes how to read the whole story: a frightening recent event is different from a loss that happens after you buy.\n\nOver the next five years, McDonald's led the seven choices and the US share basket nearly doubled. IBM ended below its starting value. A recovery in the wider market did not lift every company equally.\n\nIn October 1992, IBM reported a $2.8 billion quarterly loss that included a large restructuring charge. McDonald’s reported that overseas restaurants generated a large share of sales, while its McLean Deluxe burger first looked promising and then disappointed. Sony bought CBS Records and Columbia Pictures to add music and films to its businesses. Each company faced its own tests.\n\nThe outcome does not show that buying after every crash is easy or certain to work. An investor still had to choose among businesses with different risks. Even if someone correctly expected the market to recover, that would not tell them which individual company to choose or how long to wait.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,12 @@
       "yahoo-sony",
       "wall-opens",
       "hubble-history",
-      "soviet-collapse"
+      "soviet-collapse",
+      "early-1987-10-ibm-q3-1992",
+      "early-1987-10-mcd-1991",
+      "early-1987-10-mcd-1992",
+      "early-1987-10-sony-history",
+      "early-1987-10-sony-columbia"
     ]
   },
   "reflection": {
@@ -50,6 +55,28 @@
       "hubble-history",
       "soviet-collapse"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1987-10:ibm": {
+      "text": "In October 1992, IBM reported a $2.8 billion third-quarter loss, including a large charge for factory cuts and early retirements, while sales were slightly higher than a year earlier. The report showed costs rising during a difficult reset; IBM shares fell in this window.",
+      "source_ids": ["early-1987-10-ibm-q3-1992", "yahoo-ibm"]
+    },
+    "hot:1987-10:mcdonalds": {
+      "text": "In March 1991, McDonald’s expanded the low-fat McLean Deluxe to thousands of restaurants; a year later, observers called sales disappointing. The broad launch did not turn into strong sales, even as McDonald’s shares rose over this window.",
+      "source_ids": [
+        "early-1987-10-mcd-1991",
+        "early-1987-10-mcd-1992",
+        "yahoo-mcd"
+      ]
+    },
+    "hot:1987-10:sony": {
+      "text": "Sony bought CBS Records in January 1988 and completed its Columbia Pictures purchase in November 1989. These deals expanded Sony from electronics into music and movies; Sony shares gained over this five-year window.",
+      "source_ids": [
+        "early-1987-10-sony-history",
+        "early-1987-10-sony-columbia",
+        "yahoo-sony"
+      ]
+    }
   },
   "monthly_returns": {
     "cash": [

@@ -33,7 +33,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "The five years after May 2004 brought a big change. The Federal Reserve raised interest rates as the economy grew. By late 2008, the economy and financial markets were in serious trouble, and the Fed lowered interest rates close to zero. A recession had begun in December 2007, but the official announcement came a year later.\n\nIn 2004, Microsoft announced a one-time payment for people who owned its shares and plans to buy some of its own shares back. Apple released the iPhone in 2007. It was a big change for a company then known for computers and music players.\n\nThe companies’ results were very different by May 2009. An investment in Apple ended much higher than it started. Microsoft’s ended a little lower, and eBay’s ended much lower. A popular product or familiar company did not promise a winning investment.\n\nThe five-year period ended in May 2009, while people were still facing a serious financial crisis. No one could know in May 2004 exactly how the economy or these companies would change.",
+    "text": "The five years after May 2004 brought economic growth, higher interest rates and then a serious financial crisis. A recession had begun in December 2007, but the official announcement came a year later. The window ends in May 2009, while families and businesses were still facing a difficult period.\n\nThe companies changed in different ways. Apple reported one million iPhones sold in the first 74 days after launch. Microsoft reported $51.12 billion in fiscal-2007 revenue, up 15%, with customer acceptance of Vista and Office among the reasons. eBay recorded a roughly $1.4 billion charge tied to Skype after buying the service in 2005. Product sales and accounting losses are useful clues, but they do not explain every move in a share price.\n\nThe investment results were far apart: one dollar in Apple ended near $9.68, Microsoft near 96 cents and eBay near 40 cents. A popular product or familiar company did not guarantee a winning investment. No one at the May 2004 start knew exactly how the economy, software, phones or internet calling would change over the next five years.",
     "source_ids": [
       "fomc-jun04",
       "msft-capital04",
@@ -42,7 +42,10 @@
       "fomc-dec08",
       "yahoo-aapl",
       "yahoo-msft",
-      "yahoo-ebay"
+      "yahoo-ebay",
+      "apple-iphone-million",
+      "microsoft-fy2007",
+      "ebay-skype-impairment"
     ]
   },
   "reflection": {
@@ -66,6 +69,20 @@
       "n04-cicada",
       "n04-cannes"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:2004-05:apple": {
+      "text": "Apple said on September 10, 2007, that it had sold its millionth iPhone in the first 74 days after launch. Its touch-screen phone joined calling and internet features with Apple’s music and computer software, giving the company a new product business with fast early sales.",
+      "source_ids": ["apple-iphone-million", "yahoo-aapl"]
+    },
+    "hot:2004-05:microsoft": {
+      "text": "Microsoft reported fiscal 2007 revenue of $51.12 billion, up 15%, and said sales of Windows Vista and Office 2007 helped drive growth. Customers were still buying Microsoft’s core software products as the company moved to newer versions.",
+      "source_ids": ["microsoft-fy2007", "yahoo-msft"]
+    },
+    "hot:2004-05:ebay": {
+      "text": "In October 2007, eBay said quarterly results would include a roughly $1.4 billion charge on Skype, which it had bought in 2005. eBay judged Skype’s value to be lower than the amount it had recorded, showing that expected benefits from the purchase had not arrived as planned.",
+      "source_ids": ["ebay-skype-impairment", "yahoo-ebay"]
+    }
   },
   "monthly_returns": {
     "cash": [

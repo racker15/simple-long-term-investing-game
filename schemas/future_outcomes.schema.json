@@ -6,6 +6,7 @@
     "scenario_id",
     "monthly_returns",
     "return_sources",
+    "hot_stock_explanations",
     "events",
     "what_happened_next",
     "reflection"
@@ -48,6 +49,28 @@
           "uniqueItems": true,
           "type": "array",
           "items": { "minLength": 1, "type": "string" }
+        }
+      }
+    },
+    "hot_stock_explanations": {
+      "additionalProperties": false,
+      "minProperties": 3,
+      "maxProperties": 3,
+      "type": "object",
+      "patternProperties": {
+        "^hot:[a-z0-9-]+:[a-z0-9-]+$": {
+          "additionalProperties": false,
+          "type": "object",
+          "required": ["text", "source_ids"],
+          "properties": {
+            "text": { "minLength": 1, "type": "string" },
+            "source_ids": {
+              "minItems": 1,
+              "uniqueItems": true,
+              "type": "array",
+              "items": { "minLength": 1, "type": "string" }
+            }
+          }
         }
       }
     },

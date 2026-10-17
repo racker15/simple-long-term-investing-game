@@ -30,6 +30,36 @@
       "approximation": false,
       "notes": "Retrospective institutional history.",
       "observation_date": "2001-09-11"
+    },
+    {
+      "id": "nike-fy1998",
+      "source_name": "NIKE, Inc.: Fiscal 1998 Form 10-K",
+      "source_reference": "https://investors.nike.com/sec-filings/all-sec-filings/content/0000320187-98-000018/10-K405.txt",
+      "publication_date": "1998-08-26",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Nike reported FY1998 revenue up 4% to $9.6 billion, while net income fell 49.8% to $399.6 million; filing discusses weak demand and excess inventory/discounting.",
+      "observation_date": "1998-05-31"
+    },
+    {
+      "id": "apple-imac-five-million",
+      "source_name": "Apple: Apple Ships 5 Millionth iMac",
+      "source_reference": "https://www.apple.com/newsroom/2001/04/19Apple-Ships-5-Millionth-iMac/",
+      "publication_date": "2001-04-19",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Apple announced that it had shipped its five millionth iMac.",
+      "observation_date": "2001-04-19"
+    },
+    {
+      "id": "microsoft-fy2001",
+      "source_name": "Microsoft: Microsoft Announces Record Revenue for Fiscal Year 2001",
+      "source_reference": "https://news.microsoft.com/source/2001/07/19/microsoft-announces-record-revenue-for-fiscal-year-2001/",
+      "publication_date": "2001-07-19",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Microsoft reported fiscal 2001 revenue of $25.30 billion, up 10% from the prior year.",
+      "observation_date": "2001-06-30"
     }
   ]
 }

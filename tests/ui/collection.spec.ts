@@ -84,6 +84,12 @@ for (const id of ids) {
     await expect(
       page.getByText(future.what_happened_next.text, { exact: true }),
     ).toHaveCount(0);
+    for (const stock of known.hot_stocks)
+      await expect(
+        page.getByText(future.hot_stock_explanations[stock.id].text, {
+          exact: true,
+        }),
+      ).toHaveCount(0);
     for (const label of ['Important cohort', 'Random cohort'])
       await expect(page.getByRole('heading', { name: label })).toHaveCount(0);
     expect(requests).toEqual([]);
@@ -125,7 +131,9 @@ for (const id of ids) {
       const outcome = page.getByTestId(`hot-stock-outcome-${index}`);
       await expect(outcome).toContainText(stock.company_name);
       await expect(outcome).toContainText(stock.ticker);
-      await expect(outcome).toContainText(stock.description);
+      await expect(outcome.locator('p').first()).toHaveText(
+        future.hot_stock_explanations[stock.id].text,
+      );
       await expect(outcome).toContainText(percent(expectedReturn));
       await expect(outcome.locator('.financial-return--negative')).toHaveCount(
         expectedReturn < 0 ? 1 : 0,

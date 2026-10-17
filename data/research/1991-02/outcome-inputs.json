@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Harley-Davidson grew to more than five times its starting value, far ahead of the other choices. The US share basket roughly doubled. Wal-Mart, despite passing Sears in sales, finished close to cash. Being the biggest retailer and having the best-performing shares were different achievements.\n\nAn investor choosing Harley-Davidson had just read about a labor dispute. Its eventual success was not obvious from that headline. The chart also includes sharp monthly falls as well as rises; the large ending gain did not arrive smoothly.\n\nDuring the five years, the Soviet Union dissolved. CERN opened its web software to everyone, and astronauts repaired Hubble. Major changes in politics and technology happened alongside the investment story.\n\nTry separating two questions: was a company doing something interesting, and would its shares give a strong return from the price available today? The starting reports could help with the first question. They could not settle the second. Knowing Harley-Davidson's final lead now makes the original choice look easier than it really was.",
+    "text": "Harley-Davidson grew to more than five times its starting value, far ahead of the other choices. The US share basket roughly doubled. Wal-Mart, despite passing Sears in sales, finished close to cash. Being the biggest retailer and having the best-performing shares were different achievements.\n\nAn investor choosing Harley-Davidson had just read about a labor dispute. Its eventual success was not obvious from that headline. The chart also includes sharp monthly falls as well as rises; the large ending gain did not arrive smoothly.\n\nWal-Mart went international in 1991 and bought 122 Woolco stores in Canada in 1994. Harley-Davidson reported that a strike and factory start-up costs slightly lowered its 1991 profit even as the fourth quarter improved. IBM later returned to annual profit after restructuring. The companies’ business news helps explain their different challenges, not their exact stock returns.\n\nTry separating two questions: was a company doing something interesting, and would its shares give a strong return from the price available today? The starting reports could help with the first question. They could not settle the second. Knowing Harley-Davidson's final lead now makes the original choice look easier than it really was.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,11 @@
       "yahoo-ibm",
       "soviet-collapse",
       "web-release",
-      "hubble-repair"
+      "hubble-repair",
+      "early-1991-02-walmart-history",
+      "early-1991-02-walmart-canada",
+      "early-1991-02-harley-1991",
+      "early-1991-02-ibm-1994-profit"
     ]
   },
   "reflection": {
@@ -50,5 +54,23 @@
       "web-release",
       "hubble-repair"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1991-02:walmart": {
+      "text": "Wal-Mart opened a Sam’s Club in Mexico City in 1991, then bought 122 Woolco stores in Canada in 1994. Those moves took the retailer into two new countries and quickly added many stores; Wal-Mart shares rose modestly over five years.",
+      "source_ids": [
+        "early-1991-02-walmart-history",
+        "early-1991-02-walmart-canada",
+        "yahoo-wmt"
+      ]
+    },
+    "hot:1991-02:harley-davidson": {
+      "text": "Harley-Davidson’s 1991 net income slipped after a two-week strike and costs to start a new paint plant, although fourth-quarter profit surged. The strike and factory start-up costs weighed on the full-year result; Harley shares rose sharply over this window.",
+      "source_ids": ["early-1991-02-harley-1991", "yahoo-hog"]
+    },
+    "hot:1991-02:ibm": {
+      "text": "After several difficult years, IBM reported its first full-year profit since 1990 in 1994, following restructuring and cost cuts. The recovery returned the company to annual profit, but IBM shares ended only a little higher, far less than Harley-Davidson’s.",
+      "source_ids": ["early-1991-02-ibm-1994-profit", "yahoo-ibm"]
+    }
   }
 }

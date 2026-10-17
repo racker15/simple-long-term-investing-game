@@ -27,7 +27,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Disney led these choices over five years. Apple and Coca-Cola also gained strongly and ended at almost the same value. Putting $10,000 in Disney would have produced about $41,500 here, compared with about $17,100 in the US share basket. A broad basket did not win every contest.\n\nThe period was far from calm. Challenger was lost in 1986. Black Monday shook markets in October 1987. The Berlin Wall opened in 1989, and Hubble launched in 1990 before a mirror flaw became clear. Investors watched these events unfold without knowing the ending.\n\nAll seven choices finished higher, but that does not mean they rose steadily. A market fall can happen during an investment period that eventually turns out well. It still matters if you need the money during the fall.\n\nThe company winners are easy to name afterward. Choosing among them beforehand was harder. A good story about a film, computer or drink was useful context, but it was not a five-year guarantee.",
+    "text": "Disney led these choices over five years. Apple and Coca-Cola also gained strongly and ended at almost the same value. Putting $10,000 in Disney would have produced about $41,500 here, compared with about $17,100 in the US share basket. A broad basket did not win every contest.\n\nApple brought out the color-capable Macintosh II in 1987. Disney released The Little Mermaid in 1989, helping start a new run of animated hits. Coca-Cola’s 1989 profit rose to $1.7 billion, helped by a large gain from selling its Columbia Pictures stake. Some of that growth came from selling a business, rather than selling more drinks. These company stories give more detail than a simple ranking of their shares, but each stock’s result also depended on its starting price and other events.\n\nAll seven choices finished higher, but that does not mean they rose steadily. A market fall can happen during an investment period that eventually turns out well. It still matters if you need the money during the fall.\n\nThe company winners are easy to name afterward. Choosing among them beforehand was harder. A good story about a film, computer or drink was useful context, but it was not a five-year guarantee.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -38,7 +38,11 @@
       "nasa-challenger",
       "fed-crash1987",
       "wall-opens",
-      "hubble-history"
+      "hubble-history",
+      "early-1985-11-apple-macii",
+      "early-1985-11-little-mermaid",
+      "early-1985-11-coke-1989",
+      "early-1985-11-coke-columbia"
     ]
   },
   "reflection": {
@@ -58,5 +62,23 @@
       "wall-opens",
       "hubble-history"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1985-11:apple": {
+      "text": "Apple introduced the Macintosh II on March 2, 1987, adding support for color displays to its Mac line. Customers could choose a Mac with color graphics; Apple shares rose over this five-year window.",
+      "source_ids": ["early-1985-11-apple-macii", "yahoo-aapl"]
+    },
+    "hot:1985-11:disney": {
+      "text": "Disney’s The Little Mermaid opened in November 1989 and helped start a new run of successful animated films for the studio. A hit could draw moviegoers and build interest in music, videos and toys; Disney shares gained over this period.",
+      "source_ids": ["early-1985-11-little-mermaid", "yahoo-dis"]
+    },
+    "hot:1985-11:coca-cola": {
+      "text": "Coca-Cola’s 1989 net profit reached $1.7 billion, up from $1 billion the year before. That total included a large gain from selling its Columbia Pictures stake. The sale brought in money, but it was a one-time boost rather than extra profit from selling more drinks.",
+      "source_ids": [
+        "early-1985-11-coke-1989",
+        "yahoo-ko",
+        "early-1985-11-coke-columbia"
+      ]
+    }
   }
 }

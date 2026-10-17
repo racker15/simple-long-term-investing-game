@@ -30,6 +30,46 @@
       "approximation": false,
       "notes": "Retrospective institutional history.",
       "observation_date": "2001-09-11"
+    },
+    {
+      "id": "apple-itunes-week-one",
+      "source_name": "Apple: iTunes Music Store Sells Over One Million Songs in First Week",
+      "source_reference": "https://www.apple.com/newsroom/2003/05/05iTunes-Music-Store-Sells-Over-One-Million-Songs-in-First-Week/",
+      "publication_date": "2003-05-05",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Apple reported over one million paid song downloads during the iTunes Music Store’s first week.",
+      "observation_date": "2003-05-05"
+    },
+    {
+      "id": "amazon-q4-2001",
+      "source_name": "Amazon.com: Fourth-quarter 2001 results",
+      "source_reference": "https://press.aboutamazon.com/2002/1/amazon-com-announces-4th-quarter-profit-exceeds-sales-and-profit-objectives-lower-prices-for-customers-drove-sales-and-profits",
+      "publication_date": "2002-01-22",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Amazon reported Q4 2001 sales of $1.12 billion and its first quarterly GAAP net profit, $5 million.",
+      "observation_date": "2001-12-31"
+    },
+    {
+      "id": "microsoft-xp-sales-2002",
+      "source_name": "Microsoft: Microsoft Announces Record First Quarter Revenue",
+      "source_reference": "https://news.microsoft.com/source/2002/10/17/microsoft-announces-record-first-quarter-revenue/",
+      "publication_date": "2002-10-17",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Microsoft said more than 67 million Windows XP licenses had sold since the October 25, 2001 launch.",
+      "observation_date": "2002-10-17"
+    },
+    {
+      "id": "apple-itunes-launch-2003",
+      "source_name": "Apple: Apple Launches the iTunes Music Store",
+      "source_reference": "https://www.apple.com/newsroom/2003/04/28Apple-Launches-the-iTunes-Music-Store/",
+      "publication_date": "2003-04-28",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Apple announced it launched the iTunes Music Store on April 28, 2003, with more than 200,000 songs and integration with iTunes 4.",
+      "observation_date": "2003-04-28"
     }
   ]
 }

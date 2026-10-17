@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "The Gulf crisis made the starting news frightening. Over the full five years, however, the US share basket more than doubled and led these choices. Exxon gained too. IBM finished with a smaller gain than cash, even though a computer company might sound more exciting than short-term government bills.\n\nThe years ahead also included the breakup of the Soviet Union in 1991. In 1993, CERN made its web software free to use, and astronauts repaired Hubble's vision with corrective equipment. The world continued to change in ways that were hard to picture at the start.\n\nAll of these investments ended higher, but their gains were different sizes and arrived along different paths. A successful final result could still include uncomfortable months when the account lost value.\n\nThe news offered clues about problems and possibilities. It did not provide the final ranking. In this period, a basket of many US businesses beat the three featured companies. In another period, an individual company could finish well ahead of that basket.",
+    "text": "The Gulf crisis made the starting news frightening. Over the full five years, however, the US share basket more than doubled and led these choices. Exxon gained too. IBM finished with a smaller gain than cash, even though a computer company might sound more exciting than short-term government bills.\n\nIBM reported a record loss for 1992, then returned to annual profit in 1994 after years of restructuring and cost cuts. Exxon’s profit rose during the 1990 Gulf crisis as oil prices jumped. Sony introduced its PlayStation in Japan in December 1994, entering home video games. These were different business paths, not a formula for predicting their shares.\n\nAll of these investments ended higher, but their gains were different sizes and arrived along different paths. A successful final result could still include uncomfortable months when the account lost value.\n\nThe news offered clues about problems and possibilities. It did not provide the final ranking. In this period, a basket of many US businesses beat the three featured companies. In another period, an individual company could finish well ahead of that basket.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,11 @@
       "yahoo-sony",
       "soviet-collapse",
       "web-release",
-      "hubble-repair"
+      "hubble-repair",
+      "early-1990-08-ibm-1992-loss",
+      "early-1990-08-ibm-1994-profit",
+      "early-1990-08-exxon-1990",
+      "early-1990-08-sony-ps"
     ]
   },
   "reflection": {
@@ -50,6 +54,28 @@
       "web-release",
       "hubble-repair"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1990-08:ibm": {
+      "text": "IBM reported a $4.97 billion loss for 1992, then its first full-year profit since 1990 in 1994, helped by cost cuts and demand for large computers. The change marked a recovery after a deep loss; IBM shares gained over this five-year window.",
+      "source_ids": [
+        "early-1990-08-ibm-1992-loss",
+        "early-1990-08-ibm-1994-profit",
+        "yahoo-ibm"
+      ]
+    },
+    "hot:1990-08:exxon": {
+      "text": "Exxon earned $5.01 billion in 1990, up from $3.51 billion in 1989, as oil prices spiked around the Gulf crisis; 1991 brought a record $5.6 billion. These higher profits came during a sharp oil-price change, and Exxon shares rose over this window.",
+      "source_ids": [
+        "early-1990-08-exxon-1990",
+        "early-1990-08-exxon-1991",
+        "yahoo-xom"
+      ]
+    },
+    "hot:1990-08:sony": {
+      "text": "Sony launched the PlayStation in Japan on December 3, 1994, bringing the company into home video games with a console that quickly became popular there. The launch opened a major new product line for Sony; its shares ended higher in this window.",
+      "source_ids": ["early-1990-08-sony-ps", "yahoo-sony"]
+    }
   },
   "monthly_returns": {
     "cash": [

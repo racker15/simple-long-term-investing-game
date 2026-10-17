@@ -235,6 +235,36 @@
       "approximation": false,
       "notes": "Proposed settlement, not final court approval or settlement by every state.",
       "observation_date": "2001-11-02"
+    },
+    {
+      "id": "pepsico-quaker-merger",
+      "source_name": "PepsiCo: PepsiCo and Quaker Complete Their Merger",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/77476/000007747601500073/qkrclose.htm",
+      "publication_date": "2001-08-02",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "PepsiCo said the completed merger created a $25 billion food and beverage company and added Quaker, Gatorade and related brands.",
+      "observation_date": "2001-08-02"
+    },
+    {
+      "id": "cocacola-c2-results",
+      "source_name": "The Coca-Cola Company: 2004 Form 10-K",
+      "source_reference": "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0001047469-05-005411/a2151637z10-k.htm",
+      "publication_date": "2005-03-04",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Coca-Cola reported that the North American introduction of Coca-Cola C2 fell short of expectations; the Retail Division’s unit case volume declined 1% in 2004.",
+      "observation_date": "2004-12-31"
+    },
+    {
+      "id": "microsoft-special-dividend-2004",
+      "source_name": "Microsoft: Special dividend and stock buyback plan",
+      "source_reference": "https://news.microsoft.com/source/2004/07/20/microsoft-outlines-quarterly-dividend-four-year-stock-buyback-plan-and-special-dividend-to-shareholders/",
+      "publication_date": "2004-07-20",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Microsoft announced a one-time $3-per-share special dividend, scheduled for payment on December 2, 2004, subject to shareholder approval, alongside a quarterly dividend and buyback plan.",
+      "observation_date": "2004-07-20"
     }
   ]
 }

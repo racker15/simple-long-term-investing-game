@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Disney more than doubled, leading this set. The US share basket roughly doubled, and IBM nearly did. Wal-Mart lost about one-fifth of its value. The world’s political map changed, yet companies still followed different paths. Even a successful retailer could disappoint someone buying its stock at this starting date.\n\nDuring the period, astronauts fitted corrective equipment to Hubble in 1993. South Africa held its first national democratic election open to all races in 1994. Windows 95 reached shops in 1995, changing the experience of using many home computers.\n\nThese events help put the years in order. They do not prove why a particular stock rose or fell. A new product, an election and a scientific success can matter greatly without giving you a simple investing instruction.\n\nThe starting headlines included job cuts and hopes for recovery. An investor had to decide with that mixed picture. The completed chart supplies information that was missing then: the timing, size and order of the gains and losses.",
+    "text": "Disney more than doubled, leading this set. The US share basket roughly doubled, and IBM nearly did. Wal-Mart lost about one-fifth of its value. The world’s political map changed, yet companies still followed different paths. Even a successful retailer could disappoint someone buying its stock at this starting date.\n\nDisney’s Aladdin became a record-setting animated film in 1992. IBM reported a record loss for 1992 but returned to annual profit after restructuring. Wal-Mart expanded into Canada in 1994 by buying 122 Woolco stores, yet its shares ended lower in this window. A company can add stores and still disappoint people who bought its shares at the starting price.\n\nThese events help put the years in order. They do not prove why a particular stock rose or fell. A new product, an election and a scientific success can matter greatly without giving you a simple investing instruction.\n\nThe starting headlines included job cuts and hopes for recovery. An investor had to decide with that mixed picture. The completed chart supplies information that was missing then: the timing, size and order of the gains and losses.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,11 @@
       "yahoo-wmt",
       "hubble-repair",
       "south-africa-vote",
-      "windows95"
+      "windows95",
+      "early-1991-12-aladdin",
+      "early-1991-12-ibm-1992-loss",
+      "early-1991-12-ibm-1994-profit",
+      "early-1991-12-walmart-canada"
     ]
   },
   "reflection": {
@@ -50,6 +54,24 @@
       "south-africa-vote",
       "windows95"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1991-12:disney": {
+      "text": "Disney’s Aladdin opened widely on November 25, 1992, and became the highest-grossing animated film at that time, earning over $200 million in the United States. Its audience also created room to sell music, videos and toys; Disney shares rose over five years.",
+      "source_ids": ["early-1991-12-aladdin", "yahoo-dis"]
+    },
+    "hot:1991-12:ibm": {
+      "text": "IBM reported a record $4.97 billion loss for 1992, then returned to annual profit in 1994 after restructuring and cost cuts. Those changes helped the computer maker recover after a very difficult year; IBM shares gained over this window.",
+      "source_ids": [
+        "early-1991-12-ibm-1992-loss",
+        "early-1991-12-ibm-1994-profit",
+        "yahoo-ibm"
+      ]
+    },
+    "hot:1991-12:walmart": {
+      "text": "Walmart opened its first Canadian stores on March 17, 1994, after buying 122 Woolco locations. The purchase gave the retailer a fast start in Canada with many stores at once; Walmart shares fell over this five-year window.",
+      "source_ids": ["early-1991-12-walmart-canada", "yahoo-wmt"]
+    }
   },
   "monthly_returns": {
     "cash": [

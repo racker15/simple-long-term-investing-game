@@ -234,6 +234,46 @@
       "approximation": false,
       "notes": "Retrospective institutional history.",
       "observation_date": "2001-09-11"
+    },
+    {
+      "id": "nike-fy1998",
+      "source_name": "NIKE, Inc.: Fiscal 1998 Form 10-K",
+      "source_reference": "https://investors.nike.com/sec-filings/all-sec-filings/content/0000320187-98-000018/10-K405.txt",
+      "publication_date": "1998-08-26",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Nike reported FY1998 revenue up 4% to $9.6 billion, while net income fell 49.8% to $399.6 million; filing discusses weak demand and excess inventory/discounting.",
+      "observation_date": "1998-05-31"
+    },
+    {
+      "id": "disney-california-adventure-open",
+      "source_name": "Disney Experiences: Disney California Adventure Park fact sheet",
+      "source_reference": "https://disneyexperiences.com/disneyland-press/fact/disney-california-adventure-park-fact-sheet-2/",
+      "publication_date": "2025-03-13",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Disney’s official park fact sheet dates Disney California Adventure’s opening to February 8, 2001.",
+      "observation_date": "2001-02-08"
+    },
+    {
+      "id": "disney-fy2001-results",
+      "source_name": "The Walt Disney Company: Fiscal 2001 results",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/1001039/000091205701538491/a2062974zex-99_a.htm",
+      "publication_date": "2001-11-08",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Disney reported fiscal 2001 revenue of $25.3 billion and an as-reported net loss of $41 million, including charges; Parks & Resorts revenue rose 3% while operating income fell 2%. The release attributes resort growth and higher costs in part to California Adventure.",
+      "observation_date": "2001-09-30"
+    },
+    {
+      "id": "apple-ipod-launch",
+      "source_name": "Apple: Apple Presents iPod",
+      "source_reference": "https://www.apple.com/newsroom/2001/10/23Apple-Presents-iPod/",
+      "publication_date": "2001-10-23",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Apple introduced iPod, a portable digital music player that could hold up to 1,000 songs.",
+      "observation_date": "2001-10-23"
     }
   ]
 }

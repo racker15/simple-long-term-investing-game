@@ -40,6 +40,46 @@
       "approximation": false,
       "notes": "Original product announcement.",
       "observation_date": "2001-10-23"
+    },
+    {
+      "id": "apple-ipod-two-million",
+      "source_name": "Apple: Over Two Million iPods Sold",
+      "source_reference": "https://www.apple.com/newsroom/2004/01/06Over-Two-Million-iPods-Sold/",
+      "publication_date": "2004-01-06",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Apple said more than two million iPods had sold since the product’s introduction.",
+      "observation_date": "2004-01-06"
+    },
+    {
+      "id": "oxy-altura",
+      "source_name": "Occidental Petroleum: Occidental Completes Acquisition of Altura Energy",
+      "source_reference": "https://www.globenewswire.com/news-release/2000/04/19/278333/3/en/Occidental-Completes-Acquisition-of-Altura-Energy.html",
+      "publication_date": "2000-04-19",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Occidental announced completion of its acquisition of Altura Energy, a major Texas oil producer.",
+      "observation_date": "2000-04-19"
+    },
+    {
+      "id": "oxy-q4-2000",
+      "source_name": "Occidental Petroleum: Fourth-quarter 2000 results",
+      "source_reference": "https://www.globenewswire.com/news-release/2001/01/24/279817/3/en/Occidental-Petroleum-Announces-Fourth-Quarter-2000-Results-Earnings-Increase-80-Percent-Over-1999-Fourth-Quarter.html",
+      "publication_date": "2001-01-24",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Occidental reported Q4 2000 earnings before special items of $349 million, up more than 80% year over year; release notes higher sales/production and Altura’s contribution.",
+      "observation_date": "2000-12-31"
+    },
+    {
+      "id": "amazon-fy2003",
+      "source_name": "Amazon.com: Fourth-quarter and full-year 2003 results",
+      "source_reference": "https://press.aboutamazon.com/2004/1/amazon-com-announces-record-free-cash-flow-fueled-by-lower-prices-and-year-round-free-shipping",
+      "publication_date": "2004-01-27",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Amazon reported 2003 net sales of $5.264 billion, up 34%, and net income of $35 million after a $149 million net loss in 2002.",
+      "observation_date": "2003-12-31"
     }
   ]
 }

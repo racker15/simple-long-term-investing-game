@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Disney led these choices, while Toyota lost value. Bonds gained more than either broad share basket. The five years included the financial crisis, which made the journey difficult even for investments that finished higher. Strong business news at the start did not guarantee a strong stock return.\n\nApple announced the iPhone in 2007. In September 2008, Lehman Brothers filed for bankruptcy as the financial crisis intensified. The Deepwater Horizon disaster followed in 2010, killing workers and causing a major oil spill. These were very different kinds of events within the same holding period.\n\nToyota’s loss does not mean its starting plans were foolish, and Disney’s gain does not make every entertainment share a good choice. A plan must meet competition, costs and events that have not happened yet. Bonds provided another kind of investment, with a different path from company shares. Looking at that mix is more useful than assuming the most impressive starting announcement must produce the best final balance.",
+    "text": "Disney gained about 47% over five years, while Toyota fell around 15% and Exxon Mobil gained about 8%. Bonds gained more than either broad share basket. These different results came through the financial crisis, which made the path difficult even for investments that finished higher.\n\nThe company stories were different too. Toyota reported a ¥437 billion loss for the year ending in March 2009 as car sales fell and the strong yen added pressure. Disney agreed to buy Marvel in 2009, adding thousands of characters to its movie and product business. ExxonMobil’s 2009 earnings fell sharply from 2008 as energy prices weakened.\n\nThe Deepwater Horizon disaster followed in 2010, bringing a deadly oil spill and a major cleanup. It affected the whole energy industry’s setting, but it should not be treated as a simple explanation for Exxon’s five-year return. Disney’s gain also does not mean every entertainment company would do well. Bonds provided another kind of investment, with a different path from company shares. The final balances show how much company results can differ, even when all three start as large, familiar businesses.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,10 @@
       "yahoo-xom",
       "iphone",
       "financial-crisis",
-      "deepwater"
+      "deepwater",
+      "toyota-fy09",
+      "disney-marvel",
+      "exxon-fy09"
     ]
   },
   "reflection": {
@@ -50,5 +53,19 @@
       "financial-crisis",
       "deepwater"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:2005-09:toyota": {
+      "text": "In May 2009, Toyota reported a net loss of ¥437 billion for the year ending in March. It sold 1.34 million fewer vehicles than a year earlier as demand fell during the financial crisis. A stronger yen also reduced the value of money earned overseas, adding to the pressure on profits.",
+      "source_ids": ["toyota-fy09"]
+    },
+    "hot:2005-09:disney": {
+      "text": "In August 2009, Disney agreed to buy Marvel, adding more than 5,000 comic-book characters to its entertainment business. Disney planned to bring these stories to more people through movies and other products around the world. The deal gave it a much larger collection of characters to build businesses around.",
+      "source_ids": ["disney-marvel"]
+    },
+    "hot:2005-09:exxonmobil": {
+      "text": "ExxonMobil reported in February 2010 that its 2009 profit fell to $19.3 billion from $45.2 billion in 2008. Lower oil and gas prices and weaker profits from refining hurt its results during the global downturn. The company still made money, but its annual profit was less than half the previous year’s.",
+      "source_ids": ["exxon-fy09"]
+    }
   }
 }

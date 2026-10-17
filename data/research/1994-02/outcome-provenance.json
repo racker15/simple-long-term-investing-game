@@ -30,6 +30,36 @@
       "approximation": false,
       "notes": "Contemporary mission report.",
       "observation_date": "1997-07-04"
+    },
+    {
+      "id": "microsoft-w95-anniv",
+      "source_name": "Microsoft: Looking back at the 25th anniversary of Windows 95",
+      "source_reference": "https://blogs.windows.com/windows-insider/2020/08/24/looking-back-the-25th-anniversary-of-windows-95/",
+      "publication_date": "2020-08-24",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Retrospective Microsoft history: Windows 95 launched on August 24, 1995; Microsoft said seven million copies sold in the first five weeks.",
+      "observation_date": "1995-08-24"
+    },
+    {
+      "id": "intel-pentium-ii",
+      "source_name": "Intel: Intel Delivers the Next Level of Computing with the New Pentium II Processor",
+      "source_reference": "https://www.intel.com/pressroom/archive/releases/1997/DP050797.HTM",
+      "publication_date": "1997-05-07",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Original Intel release introducing Pentium II for business desktop PCs and workstations.",
+      "observation_date": "1997-05-07"
+    },
+    {
+      "id": "disney-abc-acquisition",
+      "source_name": "The Walt Disney Company: 1996 Form 10-K",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/1001039/0000898430-96-005815.txt",
+      "publication_date": "1996-12-19",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Disney annual report records completion of the Capital Cities/ABC acquisition on February 9, 1996, expanding the company into ABC broadcasting and ESPN.",
+      "observation_date": "1996-02-09"
     }
   ]
 }

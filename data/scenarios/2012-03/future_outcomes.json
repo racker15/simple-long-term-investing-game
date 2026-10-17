@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Amazon grew to more than four times its starting value. The US share basket and Apple both gained roughly 85–90%, while Exxon Mobil gained much less. A successful product or a profitable year did not tell you which investment would grow fastest over the next five years.\n\nThe hunt for the Higgs boson was still in the news when you began. In July 2012, CERN reported a particle consistent with it. New Horizons reached Pluto in 2015, and UK voters chose to leave the European Union in 2016. The future brought answers to some questions and entirely new questions to others.\n\nAmazon’s gain stands out, but it was one company among many. The US share basket also grew strongly without requiring an investor to identify that exact winner. Exxon Mobil remained a large business, yet its share return was much smaller. Company size, useful products and an investment’s growth are related ideas, but they are not the same measurement.",
+    "text": "Amazon grew to more than four times its starting value. Apple gained about 85%, close to the U.S. share basket, while Exxon Mobil gained only about 10%. A successful product or profitable year did not tell investors which company would grow fastest over the next five years.\n\nApple reported a record $78.4 billion in revenue for its holiday quarter ending in December 2016 and sold 78.3 million iPhones. Amazon’s fourth-quarter 2016 sales rose 22% to $43.7 billion, and its full-year net profit reached $2.4 billion. ExxonMobil earned $7.8 billion in 2016, down from $16.2 billion in 2015 amid low oil prices. These results show the different forces facing a device maker, an online store and an energy company.\n\nThe hunt for the Higgs boson was still in the news when the game began. CERN reported a particle consistent with it in July 2012. New Horizons reached Pluto in 2015, and UK voters chose to leave the European Union in 2016. The future brought answers to some questions and entirely new ones. Amazon’s gain stands out, but a basket of U.S. shares also grew without requiring an investor to pick that exact winner.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,11 @@
       "yahoo-xom",
       "higgs",
       "pluto",
-      "brexit"
+      "brexit",
+      "apple-q1-2017",
+      "amazon-q4-2016",
+      "exxon-fy2016",
+      "apple-q1-2017-data"
     ]
   },
   "reflection": {
@@ -50,6 +54,20 @@
       "pluto",
       "brexit"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:2012-03:apple": {
+      "text": "Apple’s holiday quarter ending in December 2016 brought record sales of $78.4 billion and 78.3 million iPhones sold. Revenue from services also reached a record, helped by the App Store. Apple was earning from both its devices and the services people used on them.",
+      "source_ids": ["apple-q1-2017", "apple-q1-2017-data"]
+    },
+    "hot:2012-03:amazon": {
+      "text": "Amazon reported in February 2017 that fourth-quarter sales rose 22% to $43.7 billion. Full-year net income was $2.4 billion, up from $596 million in 2015. Its online store and cloud services were both growing, though Amazon continued to spend heavily on expansion.",
+      "source_ids": ["amazon-q4-2016"]
+    },
+    "hot:2012-03:exxonmobil": {
+      "text": "ExxonMobil’s 2016 profit fell to $7.8 billion from $16.2 billion in 2015. Lower energy prices and weaker refining profits hurt, and it recorded a roughly $2 billion reduction in the value of some U.S. gas assets. Owning those assets did not protect it when they became less valuable.",
+      "source_ids": ["exxon-fy2016"]
+    }
   },
   "monthly_returns": {
     "cash": [

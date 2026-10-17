@@ -33,7 +33,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "August 1982 began during a U.S. recession, a time when the economy shrinks and jobs can be hard to find. Many people were out of work, and prices and borrowing costs were still a worry. In July 1983, a group that tracks the U.S. economy announced that the recession had ended in November 1982. People did not know that at the time.\n\nCoca-Cola changed the recipe for its best-known drink in April 1985. Many customers objected, so the company brought the old recipe back that July.\n\nIn September 1985, the U.S. and four other countries agreed to help lower the U.S. dollar compared with other currencies. Exchange rates can change what an investment in another country is worth in dollars.\n\nIn June 1987, Apple split each share into two. Owners had twice as many shares, but the split alone did not double the value of their investment.\n\nThis story ends in August 1987. A stock market crash came two months later. In August, no one knew what the next years would bring or which investment would do best.",
+    "text": "August 1982 began during a U.S. recession, a time when the economy shrinks and jobs can be hard to find. Many people were out of work, and prices and borrowing costs were still a worry. In July 1983, a group that tracks the U.S. economy announced that the recession had ended in November 1982. People did not know that at the time.\n\nApple’s Macintosh brought a mouse-controlled screen to personal computers in 1984. IBM launched its PS/2 computer family in April 1987 as the personal-computer market changed. Coca-Cola, facing complaints about New Coke, returned the original recipe in 1985. These stories show very different products and pressures; none alone explains the return chart.\n\nIn September 1985, the U.S. and four other countries agreed to help lower the U.S. dollar compared with other currencies. Exchange rates can change what an investment in another country is worth in dollars.\n\nIn June 1987, Apple split each share into two. Owners had twice as many shares, but the split alone did not double the value of their investment.\n\nThis story ends in August 1987. A stock market crash came two months later. In August, no one knew what the next years would bring or which investment would do best.",
     "source_ids": [
       "nber-trough82",
       "ko-new-coke",
@@ -44,7 +44,9 @@
       "yahoo-ko",
       "french-us",
       "french-international",
-      "fred-gs5"
+      "fred-gs5",
+      "early-1982-08-apple-mac",
+      "early-1982-08-ibm-ps2-launch"
     ]
   },
   "reflection": {
@@ -68,5 +70,19 @@
       "time-921281",
       "time-925713"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1982-08:apple": {
+      "text": "Apple introduced the Macintosh in January 1984, giving customers a personal computer with pictures and menus they controlled using a mouse. The Mac gave Apple a new kind of computer to sell; Apple shares ended higher over this five-year window.",
+      "source_ids": ["early-1982-08-apple-mac", "yahoo-aapl"]
+    },
+    "hot:1982-08:ibm": {
+      "text": "IBM announced its PS/2 computer family on April 2, 1987, adding a new line to compete in the changing personal-computer market. The launch gave IBM another way to compete for PC buyers; IBM shares ended higher in this window.",
+      "source_ids": ["early-1982-08-ibm-ps2-launch", "yahoo-ibm"]
+    },
+    "hot:1982-08:coca-cola": {
+      "text": "New Coke replaced Coca-Cola’s familiar recipe on April 23, 1985, but customer complaints led the company to bring the original back on July 11. Restoring it showed how strongly customers preferred the original; Coke shares rose over this five-year window.",
+      "source_ids": ["ko-new-coke", "yahoo-ko"]
+    }
   }
 }

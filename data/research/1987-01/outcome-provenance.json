@@ -55,6 +55,46 @@
       "retrieved_at": "2026-10-05",
       "approximation": false,
       "notes": "Current legal issuer continues historical General Electric lineage; page documents 2021 reverse split and 2023/2024 separations outside Jan 1992 horizon. May 26 1987 two-for-one is recorded in pinned Yahoo events; not independently corroborated by an accessible original GE split announcement. Acquisitions of operating businesses do not themselves require exchanging GE shareholder holdings. Vendor reconstruction reliability remains a limitation. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "early-1987-01-ibm-1991-loss",
+      "source_name": "The Washington Post: IBM Had $2.8 Billion Loss—Its First—in ’91",
+      "source_reference": "https://www.washingtonpost.com/archive/business/1992/01/18/ibm-had-28-billion-loss-its-first-in-91/c5197a08-7cb8-4f61-a773-6989ebf0f4b0/",
+      "publication_date": "1992-01-18",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary results report: IBM recorded a $2.8 billion 1991 loss after $5.7 billion in write-offs, amid slowdown and changes in computer demand.",
+      "observation_date": "1991-12-31"
+    },
+    {
+      "id": "early-1987-01-ibm-1991-shift",
+      "source_name": "Los Angeles Times: Battered IBM’s 3rd-Quarter Profit Plunges 85%",
+      "source_reference": "https://www.latimes.com/archives/la-xpm-1991-10-16-fi-543-story.html",
+      "publication_date": "1991-10-16",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary results report: IBM third-quarter profit fell 85%, revenue fell 5.5%; the article describes buyers shifting from centralized computers to desktop networks.",
+      "observation_date": "1991-09-30"
+    },
+    {
+      "id": "early-1987-01-ge-earnings",
+      "source_name": "UPI: GE Reports Rise in Earnings",
+      "source_reference": "https://www.upi.com/Archives/1987/04/08/GE-reports-rise-in-earnings/9208544852800/",
+      "publication_date": "1987-04-08",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary first-quarter results: GE net earnings rose 16% from a year earlier to $624 million.",
+      "observation_date": "1987-03-31"
+    },
+    {
+      "id": "early-1987-01-apple-macii",
+      "source_name": "Apple Support: Macintosh II Technical Specifications",
+      "source_reference": "https://support.apple.com/en-ca/112188",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Current Apple technical record dates Macintosh II introduction to March 2, 1987, and identifies it as a Macintosh model with color-display support.",
+      "observation_date": "1987-03-02"
     }
   ]
 }

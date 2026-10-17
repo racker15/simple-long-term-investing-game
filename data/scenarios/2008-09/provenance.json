@@ -448,6 +448,36 @@
       "approximation": false,
       "notes": "Undated current company page retrieved 2026-10-05 says most recent split June 20 2001, outside 2008–13 horizon. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication.",
       "observation_date": "2001-06-20"
+    },
+    {
+      "id": "apple-q3-2013",
+      "source_name": "Apple: fiscal 2013 third-quarter results",
+      "source_reference": "https://www.apple.com/newsroom/2013/07/23Apple-Reports-Third-Quarter-Results/",
+      "publication_date": "2013-07-23",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results for the June 2013 quarter, including iPhone and iPad unit sales, revenue, and profit.",
+      "observation_date": "2013-06-29"
+    },
+    {
+      "id": "microsoft-fy13",
+      "source_name": "Microsoft: fiscal 2013 fourth-quarter results",
+      "source_reference": "https://www.microsoft.com/en-us/Investor/earnings/FY-2013-Q4/press-release-webcast",
+      "publication_date": "2013-07-18",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results for the quarter ended June 30, 2013, including revenue and enterprise software performance.",
+      "observation_date": "2013-06-30"
+    },
+    {
+      "id": "exxon-fy2012",
+      "source_name": "ExxonMobil: fourth-quarter and full-year 2012 results",
+      "source_reference": "https://investor.exxonmobil.com/company-information/press-releases/detail/649/exxon-mobil-corporation-announces-estimated-fourth-quarter",
+      "publication_date": "2013-02-01",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results report 2012 earnings and per-share results compared with 2011.",
+      "observation_date": "2012-12-31"
     }
   ]
 }

@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Netflix and the US share basket more than doubled over five years. Amazon nearly doubled, but Disney finished only slightly higher. The bond estimate fell a little. This starting date came after a sharp market fall, so it gives a different picture from buying before the outbreak.\n\nThe pandemic was already known when you invested. Later that year, WHO listed its first COVID-19 vaccine for emergency use. In 2022, the Fed began raising interest rates, and Webb released a full set of scientific images. The situation continued to change long after the urgent first headlines.\n\nDisney’s small final gain is useful beside the much larger gains elsewhere. Getting back above the starting amount is different from growing quickly. Bonds also show that a government-loan investment can lose market value. You could not know these exact paths in March 2020. A plan made then had to allow for several futures, including a slower recovery or a different set of winning companies.",
+    "text": "Netflix and the U.S. share basket more than doubled over five years. Amazon gained about 95%, while Disney finished only slightly above its starting value. The bond estimate fell a little. This starting date came after a sharp market fall, so it gives a different picture from buying before the outbreak.\n\nDisney reported that its streaming business had returned to a quarterly operating profit by early 2025. Amazon’s 2024 sales rose 11%, with its cloud business also growing. Netflix ended 2024 with 302 million paid memberships and revenue 16% higher than the year before. Those facts show how the businesses changed, but none is a complete explanation for the companies’ different share returns.\n\nThe pandemic was already known when you invested. Later that year, WHO listed its first COVID-19 vaccine for emergency use. In 2022, the Federal Reserve began raising interest rates, and the Webb telescope released a full set of scientific images. Disney’s small final gain is useful beside the larger gains elsewhere. Getting back above the starting amount is different from growing quickly, and bonds can lose market value too. Investors in March 2020 could not know these exact paths.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,10 @@
       "yahoo-nflx",
       "vaccine",
       "rates-2022",
-      "webb"
+      "webb",
+      "disney-q1-2025",
+      "amazon-q4-2024",
+      "netflix-q4-2024"
     ]
   },
   "reflection": {
@@ -50,5 +53,19 @@
       "rates-2022",
       "webb"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:2020-03:disney": {
+      "text": "In February 2025, Disney reported $293 million in operating income for its direct-to-consumer streaming business, compared with a loss a year earlier. Disney+ and Hulu had become a more profitable part of the company. That progress mattered alongside its parks and films, whose results can change with attendance and releases.",
+      "source_ids": ["disney-q1-2025"]
+    },
+    "hot:2020-03:amazon": {
+      "text": "Amazon’s 2024 sales rose 11% to $638 billion. AWS, its cloud-computing business, increased sales 19% and earned $39.8 billion in operating profit. Businesses renting computing power had become a major source of profit alongside Amazon’s much larger online shopping operation.",
+      "source_ids": ["amazon-q4-2024"]
+    },
+    "hot:2020-03:netflix": {
+      "text": "Netflix’s 2024 sales rose 16%, and it ended the year with about 302 million paid memberships. Its operating profit topped $10 billion for the first time. It kept about 27 cents of each dollar of sales after running costs, up from about 21 cents a year earlier.",
+      "source_ids": ["netflix-q4-2024"]
+    }
   }
 }

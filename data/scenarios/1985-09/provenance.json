@@ -271,6 +271,44 @@
       "approximation": false,
       "notes": "Retrospective chronology of launch and servicing; outcome context only.",
       "observation_date": "1993-12-31"
+    },
+    {
+      "id": "early-1985-09-apple-macii",
+      "source_name": "Apple Support: Macintosh II Technical Specifications",
+      "source_reference": "https://support.apple.com/en-ca/112188",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Current Apple technical record dates Macintosh II introduction to March 2, 1987, and identifies it as a Macintosh model with color-display support.",
+      "observation_date": "1987-03-02"
+    },
+    {
+      "id": "early-1985-09-coke-columbia",
+      "source_name": "Los Angeles Times: Coca-Cola Board OKs Sale of Columbia",
+      "source_reference": "https://www.latimes.com/archives/la-xpm-1989-10-03-fi-655-story.html",
+      "publication_date": "1989-10-03",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report on Coca-Cola selling its Columbia Pictures stake to Sony; Coke expected an after-tax gain of about $530 million."
+    },
+    {
+      "id": "early-1985-09-ibm-ps2-launch",
+      "source_name": "The Washington Post: New IBM Computers Unveiled",
+      "source_reference": "https://www.washingtonpost.com/archive/business/1987/04/03/new-ibm-computers-unveiled/ad31e54c-d9c1-4cd1-ae9c-0da7bf9f9b32/",
+      "publication_date": "1987-04-03",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report on IBM announcing the PS/2 line on April 2, 1987.",
+      "observation_date": "1987-04-02"
+    },
+    {
+      "id": "early-1985-09-ibm-ps2-sales",
+      "source_name": "Los Angeles Times: 1987—The Year Strategies Emerged",
+      "source_reference": "https://www.latimes.com/archives/la-xpm-1987-12-31-fi-7828-story.html",
+      "publication_date": "1987-12-31",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary year-end review reports IBM had announced sales of more than one million PS/2 machines by November 1987; exact announcement day is not stated."
     }
   ]
 }

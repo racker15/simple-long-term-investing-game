@@ -50,6 +50,46 @@
       "approximation": false,
       "notes": "Preliminary delivery report, 499,550 rounded for player readability; no earnings claim.",
       "observation_date": "2020-12-31"
+    },
+    {
+      "id": "disney-shanghai",
+      "source_name": "Disney: Shanghai Disney Resort opens",
+      "source_reference": "https://thewaltdisneycompany.com/news/shanghai-disney-resort-opens-in-mainland-china/",
+      "publication_date": "2016-06-16",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company reports opening of its first Disney resort in mainland China.",
+      "observation_date": "2016-06-16"
+    },
+    {
+      "id": "disney-fy2020",
+      "source_name": "Disney: fiscal 2020 fourth-quarter and full-year results",
+      "source_reference": "https://investors.thewaltdisneycompany.com/news/news-details/2020/The-Walt-Disney-Company-Reports-Fourth-Quarter-and-Full-Year-Earnings-for-Fiscal-2020-11-12-2020/default.aspx",
+      "publication_date": "2020-11-12",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Disney estimated a $6.9 billion adverse COVID-19 impact on Parks, Experiences and Products operating income for fiscal 2020. This is the estimated impact, not the reported operating loss, which was $81 million.",
+      "observation_date": "2020-10-03"
+    },
+    {
+      "id": "boeing-q4-2020",
+      "source_name": "Boeing: fourth-quarter and full-year 2020 results",
+      "source_reference": "https://boeing.mediaroom.com/2021-01-27-Boeing-Reports-Fourth-Quarter-Results",
+      "publication_date": "2021-01-27",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results report 2020 financial losses and the effects of the pandemic and 737 MAX grounding.",
+      "observation_date": "2020-12-31"
+    },
+    {
+      "id": "tesla-fy2020",
+      "source_name": "Tesla: January 27, 2021 Form 8-K and Q4/FY2020 update",
+      "source_reference": "https://ir.tesla.com/_flysystem/s3/sec/000156459021002645/tsla-8k_20210127-gen.pdf",
+      "publication_date": "2021-01-27",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "The January 27 earnings update, filed as Exhibit 99.1, reports $721 million in full-year 2020 GAAP net income attributable to common stockholders.",
+      "observation_date": "2020-12-31"
     }
   ]
 }

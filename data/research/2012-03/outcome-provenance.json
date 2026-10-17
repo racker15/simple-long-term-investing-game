@@ -30,6 +30,46 @@
       "approximation": false,
       "notes": "Official results; vote did not itself end UK membership.",
       "observation_date": "2016-06-24"
+    },
+    {
+      "id": "apple-q1-2017",
+      "source_name": "Apple: fiscal 2017 first-quarter results",
+      "source_reference": "https://www.apple.com/newsroom/2017/01/apple-reports-record-first-quarter-results/",
+      "publication_date": "2017-01-31",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results for the holiday quarter, including record revenue, profit, and iPhone sales.",
+      "observation_date": "2016-12-31"
+    },
+    {
+      "id": "amazon-q4-2016",
+      "source_name": "Amazon: fourth-quarter 2016 results",
+      "source_reference": "https://press.aboutamazon.com/2017/2/amazon-com-announces-fourth-quarter-sales-up-22-to-43-7-billion",
+      "publication_date": "2017-02-02",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company results report fourth-quarter sales growth, net income, and cash flow.",
+      "observation_date": "2016-12-31"
+    },
+    {
+      "id": "exxon-fy2016",
+      "source_name": "ExxonMobil: fourth-quarter and full-year 2016 results",
+      "source_reference": "https://investor.exxonmobil.com/company-information/press-releases/detail/394/exxonmobil-earns-7-8-billion-in-2016-1-7-billion-during",
+      "publication_date": "2017-01-31",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company reports 2016 earnings amid a period of low oil prices.",
+      "observation_date": "2016-12-31"
+    },
+    {
+      "id": "apple-q1-2017-data",
+      "source_name": "Apple: fiscal 2017 first-quarter sales and unit summary",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/320193/000162828017000663/a8-kexhibit992q12017123120.htm",
+      "publication_date": "2017-01-31",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Apple’s earnings exhibit gives 78.290 million iPhones and $78.351 billion total revenue for fiscal Q1 2017. Units are in thousands and revenue in millions.",
+      "observation_date": "2016-12-31"
     }
   ]
 }

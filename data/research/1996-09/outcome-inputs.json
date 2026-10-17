@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Microsoft more than tripled, while Nike lost about one-fifth of its value. Apple gained overall but suffered a fall of more than half in one month during the window. The US basket gained more steadily than that single share, though it also fell sharply at times. The ending number alone leaves out much of the experience.\n\nPathfinder reached Mars in 1997, and the euro began for financial transactions in 1999. The September 11 attacks occurred in the last month of this window, bringing devastating losses to families and communities. These are important parts of the history, rather than simple explanations for every movement in the chart.\n\nApple’s positive final return is worth comparing with its severe fall along the way. A fall of half turns $100 into $50; it then takes a doubling to get back to $100. That uneven math is one reason the route matters. An investor who needed to use the money during a low point would have had a different experience from someone able to wait.",
+    "text": "By September 2001, one dollar in Microsoft had become about $3.10, and one dollar in Apple about $1.40. Nike ended at roughly 79 cents. The U.S. share basket gained overall, but Apple had a steep fall along the way. Comparing only the endpoints misses the difficult middle and can make later winners look obvious when they were not.\n\nCompany news was mixed. Nike’s fiscal-1998 revenue rose 4% to $9.6 billion, but net income fell almost half as demand weakened and extra inventory needed discounts. Apple said it had shipped five million iMacs by April 2001. Microsoft reported $25.3 billion in fiscal-2001 revenue, 10% above the year before. These facts describe their businesses, not a simple cause for each stock’s five-year result.\n\nPathfinder reached Mars and the euro began for financial transactions during these years. The September 11 attacks came in the final month and caused devastating losses to people and communities. The chart cannot show that human impact. The window ends in September 2001, so later events cannot be used to explain its ending values. A broad basket can reduce one company’s effect without removing risk.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,10 @@
       "yahoo-msft",
       "pathfinder",
       "euro-launch",
-      "september-attacks"
+      "september-attacks",
+      "nike-fy1998",
+      "apple-imac-five-million",
+      "microsoft-fy2001"
     ]
   },
   "reflection": {
@@ -50,5 +53,19 @@
       "euro-launch",
       "september-attacks"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1996-09:nike": {
+      "text": "Nike’s fiscal 1998 revenue rose 4% to a record $9.6 billion, but net income fell nearly half to $399.6 million. Weak demand and extra inventory led to discounting, squeezing profit even as sales reached a record.",
+      "source_ids": ["nike-fy1998", "yahoo-nke"]
+    },
+    "hot:1996-09:apple": {
+      "text": "On April 19, 2001, Apple announced it had shipped its five millionth iMac. Its all-in-one design helped attract buyers looking for a colorful, simpler Mac, adding sales during a difficult stretch for the company.",
+      "source_ids": ["apple-imac-five-million", "yahoo-aapl"]
+    },
+    "hot:1996-09:microsoft": {
+      "text": "Microsoft reported fiscal-year revenue of $25.30 billion on July 19, 2001, up 10% from a year earlier. Windows and software for work and home were still selling well, showing demand remained strong across the company’s core business.",
+      "source_ids": ["microsoft-fy2001", "yahoo-msft"]
+    }
   }
 }

@@ -147,7 +147,7 @@ export function Reveal({
                   <h3>
                     {stock.company_name} <span>({stock.ticker})</span>
                   </h3>
-                  <p>{stock.description}</p>
+                  <p>{scenario.future.hot_stock_explanations[stock.id].text}</p>
                   <p>
                     Five-year return:{' '}
                     <strong>

@@ -16,7 +16,7 @@
       "source_name": "The Coca-Cola Company historical account of New Coke",
       "source_reference": "https://www.coca-colacompany.com/about-us/history/new-coke-the-most-memorable-marketing-blunder-ever",
       "publication_date": null,
-      "retrieved_at": "2026-10-05",
+      "retrieved_at": "2026-10-17",
       "approximation": false,
       "notes": "Issuer retrospective dates the new-formula announcement April 23, 1985 and original-formula return July 11, 1985. Promotional framing is not adopted as a return explanation. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
     },
@@ -74,6 +74,26 @@
       "retrieved_at": "2026-10-05",
       "approximation": false,
       "notes": "Table documents the Columbia Pictures acquisition in 1982–83 as exchange of shares for Columbia shareholders, not a distribution to existing KO holders. Later Columbia share distribution row is 1988–89, outside Aug 1987 horizon; the precise distribution date is not established here. KO cash dividends are vendor-adjusted; each payment is not independently reconciled. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication."
+    },
+    {
+      "id": "early-1982-08-apple-mac",
+      "source_name": "Stanford University: Apple Macintosh Introduction Press Release",
+      "source_reference": "https://web.stanford.edu/dept/SUL/sites/mac/primary/docs/pr1.html",
+      "publication_date": "1984-01-24",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Archived Apple press release introducing the Macintosh on January 24, 1984, with a graphical interface and mouse.",
+      "observation_date": "1984-01-24"
+    },
+    {
+      "id": "early-1982-08-ibm-ps2-launch",
+      "source_name": "The Washington Post: New IBM Computers Unveiled",
+      "source_reference": "https://www.washingtonpost.com/archive/business/1987/04/03/new-ibm-computers-unveiled/ad31e54c-d9c1-4cd1-ae9c-0da7bf9f9b32/",
+      "publication_date": "1987-04-03",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report on IBM announcing the PS/2 line on April 2, 1987.",
+      "observation_date": "1987-04-02"
     }
   ]
 }

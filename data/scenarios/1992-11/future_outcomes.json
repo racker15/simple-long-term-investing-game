@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "IBM more than tripled, leading these choices after a difficult early stretch. Ford, Disney and the US basket also more than doubled. A famous company could struggle and recover, but a recovery was never guaranteed. This result should not turn every troubled company into an automatic bargain.\n\nDuring the period, astronauts repaired Hubble, South Africa held its first national democratic election open to all races, and Windows 95 reached shops. Changes in science, politics and everyday technology continued while people held their investments. These events explain the setting, but they do not pin each rise or fall in a share price to one cause.\n\nLook at IBM’s difficult months before its recovery. Would you have stayed with your original choice? The game lets you see the whole route at once; an investor then received only the next piece of news. A low price can reflect a genuine problem as well as a possible opportunity, so a later recovery should not be treated as inevitable.",
+    "text": "IBM more than tripled, leading these choices after a difficult early stretch. Ford, Disney and the US basket also more than doubled. A famous company could struggle and recover, but a recovery was never guaranteed. This result should not turn every troubled company into an automatic bargain.\n\nFord reported a huge accounting loss for 1992, then earned a record profit in 1993 as truck sales improved. Disney released The Lion King in 1994, and it became one of the biggest films of its time. IBM returned to annual profit in 1994 and later won a famous chess match with Deep Blue in 1997. These stories give context, not a mechanical explanation for each share return.\n\nLook at IBM’s difficult months before its recovery. Would you have stayed with your original choice? The game lets you see the whole route at once; an investor then received only the next piece of news. A low price can reflect a genuine problem as well as a possible opportunity, so a later recovery should not be treated as inevitable.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,12 @@
       "yahoo-ibm",
       "hubble-repair",
       "south-africa-vote",
-      "windows95"
+      "windows95",
+      "early-1992-11-ford-1992",
+      "early-1992-11-ford-1993",
+      "early-1992-11-lionking",
+      "early-1992-11-ibm-1994-profit",
+      "early-1992-11-ibm-deepblue"
     ]
   },
   "reflection": {
@@ -50,6 +55,29 @@
       "south-africa-vote",
       "windows95"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1992-11:ford": {
+      "text": "Ford reported a $7.4 billion accounting loss for 1992, mostly from a new accounting charge, and still recorded a loss without that change. Earnings reached a record $2.5 billion in 1993 as pickups and SUVs sold well; Ford shares rose over five years.",
+      "source_ids": [
+        "early-1992-11-ford-1992",
+        "early-1992-11-ford-1993",
+        "yahoo-f"
+      ]
+    },
+    "hot:1992-11:disney": {
+      "text": "Disney released The Lion King widely on June 24, 1994, and it became one of the highest-grossing movies of its time. The hit brought moviegoers and created related music, video and toy business; Disney shares rose during this window.",
+      "source_ids": ["early-1992-11-lionking", "yahoo-dis"]
+    },
+    "hot:1992-11:ibm": {
+      "text": "IBM reported a record $4.97 billion loss in 1992, returned to annual profit in 1994 after restructuring, and saw Deep Blue defeat chess champion Garry Kasparov in 1997. The recovery and famous computing achievement marked very different milestones; IBM shares rose strongly over five years.",
+      "source_ids": [
+        "early-1992-11-ibm-1992-loss",
+        "early-1992-11-ibm-1994-profit",
+        "early-1992-11-ibm-deepblue",
+        "yahoo-ibm"
+      ]
+    }
   },
   "monthly_returns": {
     "cash": [

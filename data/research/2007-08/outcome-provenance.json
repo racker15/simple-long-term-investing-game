@@ -30,6 +30,36 @@
       "approximation": false,
       "notes": "Institutional account of the March11 disaster.",
       "observation_date": "2011-03-11"
+    },
+    {
+      "id": "lennar-fy09",
+      "source_name": "Lennar: 2009 annual report",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/920760/000119312510017215/d10k.htm",
+      "publication_date": "2010-01-29",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "SEC-filed annual report records the fall in average home selling price from 2007 through 2009.",
+      "observation_date": "2009-11-30"
+    },
+    {
+      "id": "kbhome-fy2010",
+      "source_name": "KB Home: 2010 annual report",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/795266/000095012311007291/v57647e10vk.htm",
+      "publication_date": "2011-01-31",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "SEC-filed annual report reports home deliveries, revenue, and net loss for 2010 and 2009.",
+      "observation_date": "2010-11-30"
+    },
+    {
+      "id": "disney-fy2011",
+      "source_name": "Disney: fiscal 2011 fourth-quarter and full-year earnings release",
+      "source_reference": "https://thewaltdisneycompany.com/app/uploads/2015/10/Q4-FY11-Earnings-Report.pdf",
+      "publication_date": "2011-11-10",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company release describes record revenue, net income, and earnings per share for fiscal 2011.",
+      "observation_date": "2011-10-01"
     }
   ]
 }

@@ -224,6 +224,46 @@
       "approximation": false,
       "notes": "Original announcement approving Bear Stearns/JPMorgan financing arrangement.",
       "observation_date": "2008-03-16"
+    },
+    {
+      "id": "costco-fy2007",
+      "source_name": "Costco Wholesale: Fiscal 2007 operating results",
+      "source_reference": "https://investor.costco.com/news/news-details/2007/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2007-Operating-Results-and-September-Sales-Results-10-10-2007/default.aspx",
+      "publication_date": "2007-10-10",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Costco reported $64.4 billion fiscal 2007 revenue and 6% total-company comparable-sales growth for the year.",
+      "observation_date": "2007-09-02"
+    },
+    {
+      "id": "intel-core-duo",
+      "source_name": "Intel: Intel Introduces Core Duo Processor and Centrino Duo Mobile Technology",
+      "source_reference": "https://www.intel.com/pressroom/archive/releases/2006/20060105corp.htm",
+      "publication_date": "2006-01-05",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Intel introduced Core Duo and Centrino Duo for mobile computers, emphasizing performance and energy-efficient laptop design.",
+      "observation_date": "2006-01-05"
+    },
+    {
+      "id": "intel-fy2007",
+      "source_name": "Intel: 2007 operating results",
+      "source_reference": "https://www.intc.com/news-events/press-releases/detail/972/intel-posts-record-quarterly-revenue",
+      "publication_date": "2008-01-15",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Intel reported 2007 revenue of $38.3 billion, up 8%, operating income up 45%, and said customers embraced its Core microarchitecture.",
+      "observation_date": "2007-12-29"
+    },
+    {
+      "id": "merck-vioxx-withdrawal",
+      "source_name": "Merck: Voluntary worldwide withdrawal of Vioxx",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/64978/000129993304000969/exhibit1.htm",
+      "publication_date": "2004-09-30",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Merck announced Vioxx’s withdrawal; release said 2003 worldwide Vioxx sales were $2.5 billion and estimated a $0.50–$0.60 per-share impact.",
+      "observation_date": "2004-09-30"
     }
   ]
 }

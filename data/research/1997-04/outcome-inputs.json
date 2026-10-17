@@ -21,7 +21,7 @@
     }
   ],
   "what_happened_next": {
-    "text": "Apple nearly tripled over five years, while Disney and Nike finished lower. The US basket gained, but less than Apple. A struggling company recovered in this window, yet that does not make every troubled business a bargain. Apple’s path included a very large monthly fall before the end.\n\nOver these years, Pathfinder reached Mars and the euro began for financial transactions. The September 11 attacks caused devastating human losses in 2001. People making decisions in April 1997 could not have known this sequence. The starting page was a snapshot of what they could see, not a summary written with later knowledge.\n\nApple’s recovery makes a striking contrast with the two other company shares. Yet the chart also contains a very large fall in one month. Recognizing a possible recovery and holding through losses are different challenges. The result is useful because it shows both, rather than turning a well-known company’s later success into a story that was certain from the beginning.",
+    "text": "One dollar in Apple grew to about $2.86 by April 2002, while Disney ended near 88 cents and Nike near 97 cents. The U.S. share basket gained, though less than Apple. A struggling company can recover in one period, but that does not make every troubled business a bargain. Apple’s endpoint also hides a large fall along the way.\n\nThe company stories were different. Nike reported record fiscal-1998 revenue but a nearly 50% drop in net income as weak demand and extra inventory hurt. Disney’s California Adventure opened in February 2001; Disney later said the new resort attractions lifted attendance and hotel stays while adding costs. Apple launched iPod in October 2001, adding portable music to its computer business. These events add context, not a mechanical explanation of the returns.\n\nPathfinder reached Mars, the euro began for financial transactions and the September 11 attacks caused terrible losses in 2001. People at the April 1997 start could not know this sequence. Apple’s recovery stands out beside Disney and Nike, but even a winning company had steep monthly setbacks. Recognizing a possible recovery and holding through a decline are different challenges.",
     "source_ids": [
       "french-us",
       "french-international",
@@ -31,7 +31,11 @@
       "yahoo-aapl",
       "pathfinder",
       "euro-launch",
-      "september-attacks"
+      "september-attacks",
+      "nike-fy1998",
+      "disney-california-adventure-open",
+      "disney-fy2001-results",
+      "apple-ipod-launch"
     ]
   },
   "reflection": {
@@ -50,5 +54,23 @@
       "euro-launch",
       "september-attacks"
     ]
+  },
+  "hot_stock_explanations": {
+    "hot:1997-04:nike": {
+      "text": "Nike’s fiscal 1998 revenue rose 4% to a record $9.6 billion, but net income fell nearly half to $399.6 million. Weak demand and extra inventory led to discounting, squeezing profit even as sales reached a record.",
+      "source_ids": ["nike-fy1998", "yahoo-nke"]
+    },
+    "hot:1997-04:disney": {
+      "text": "Disney California Adventure and two nearby resort additions opened on February 8, 2001. The attractions and hotels brought more visitors and guest spending, but Parks & Resorts operating income fell 2% in fiscal 2001 as costs also rose.",
+      "source_ids": [
+        "disney-california-adventure-open",
+        "disney-fy2001-results",
+        "yahoo-dis"
+      ]
+    },
+    "hot:1997-04:apple": {
+      "text": "Apple introduced the iPod on October 23, 2001, a small music player that could hold up to 1,000 songs. It gave Apple a business beyond computers and linked the company’s design and software with digital music, opening a new route to reach customers.",
+      "source_ids": ["apple-ipod-launch", "yahoo-aapl"]
+    }
   }
 }
