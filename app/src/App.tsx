@@ -320,7 +320,12 @@ export default function App() {
                   </select>
                   <button
                     onClick={() => {
-                      const seed = crypto.randomUUID();
+                      // getRandomValues is available on ordinary HTTP origins; randomUUID is not.
+                      const bytes = new Uint8Array(16);
+                      crypto.getRandomValues(bytes);
+                      const seed = Array.from(bytes, (byte) =>
+                        byte.toString(16).padStart(2, '0'),
+                      ).join('');
                       save(
                         rememberSession(
                           history,

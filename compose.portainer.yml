@@ -9,5 +9,5 @@ services:
     # Rebuild from the checked-out Git revision on Compose redeployment.
     pull_policy: build
     ports:
-      - "${INVESTING_GAME_PORT:-8080}:80"
+      - '${INVESTING_GAME_PORT:-8080}:80'
     restart: unless-stopped
