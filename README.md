@@ -26,7 +26,7 @@ The October 6 PR alignment follows the current educational scope while retaining
 
 ## Run locally
 
-Use Node.js 22.12+ (CI uses Node 24) and npm.
+Use Node.js 22.12+ (the manual hosted workflow uses Node 24) and npm.
 
 ```sh
 npm ci
@@ -49,20 +49,34 @@ npm run build        # static output in dist/
 npm run preview      # serve that build locally
 ```
 
-Browser checks cover desktop (1280×900) and mobile (390×844):
+### Local validation before merging
+
+Run validation locally by default to conserve GitHub Actions usage. From a clean checkout of the final PR commit, use Node 24 for parity with the hosted workflow:
 
 ```sh
+npm ci
+npm run check
 npx playwright install --with-deps chromium
-npm run test:browser
+CI=1 npm run test:browser
+CI=1 npm run test:browser:production
 ```
 
-To use an installed Chromium instead of downloading one:
+`npm run check` covers formatting, schema/data freshness, scenario validation, unit tests, type checking, and the production build. Both browser suites cover desktop (1280×900) and mobile (390×844). The first starts the development server; the second tests historical sessions against the built `dist/` using the preview server. Keep ports 5173 and 5174 free; `CI=1` prevents reusing an unrelated development server.
+
+To use an installed Chromium instead of downloading one, replace the install step and the two browser commands with:
 
 ```sh
-PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npm run test:browser
+CI=1 PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npm run test:browser
+CI=1 PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npm run test:browser:production
 ```
 
-The CI workflow runs both `npm run check` and browser tests. Browser screenshots are written to ignored `test-results/`. Any static host can serve `dist/`; relative asset URLs support subdirectory hosting. This milestone does not publish or deploy the site.
+Before merging, record the full tested commit SHA (`git rev-parse HEAD`), clean working-tree status (`git status --short`), Node/npm versions, commands, and results in the PR. Check that the PR head still matches that SHA; rerun affected checks after edits or integration changes. State failures, blocked checks, and checks not run explicitly. For changes limited to documentation or workflow triggers, focused formatting and workflow validation can replace an unchanged application run; record the scope and reason, and verify that jobs, commands, permissions, and artifact retention are unchanged for a trigger-only edit.
+
+Browser screenshots are written to ignored `test-results/`. Preserve any needed local evidence before another Playwright invocation replaces that directory. Do not delete existing hosted artifacts as part of this policy.
+
+The **Foundation checks** workflow is manual-only (`workflow_dispatch`), with the same validation commands and one-day retention for newly uploaded browser evidence. After this workflow is on the default branch, an intentional hosted run can be started from **Actions → Foundation checks → Run workflow**, selecting the branch. It still consumes hosted usage. See [GitHub's manual-run instructions](https://docs.github.com/en/actions/how-tos/manage-workflow-runs/manually-run-a-workflow). This policy change uses GitHub's documented [`[skip actions]` commit directive](https://docs.github.com/en/actions/how-tos/manage-workflow-runs/skip-workflow-runs) only to avoid automatic runs while the old trigger is still on the base branch. It is not needed for later commits once the manual-only workflow is merged. Never bypass a required status check; if repository protection requires a hosted check, stop and resolve that requirement with the maintainer.
+
+Any static host can serve `dist/`; relative asset URLs support subdirectory hosting. This policy does not publish or deploy the site or change release configuration.
 
 ## Architecture
 
