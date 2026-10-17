@@ -3,12 +3,66 @@ import { decisionContext } from '../lib/validation';
 import { ReflectionSummary, BenchmarkBasket } from './ReflectionSummary';
 import { ResultHelp } from './ResultHelp';
 import { useCallback, useMemo, useState } from 'react';
-import type { Scenario, ScenarioResult } from '../lib/contracts';
-import { calculatePortfolio, calculateComparisons } from '../lib/portfolio';
+import type {
+  FutureOutcomes,
+  Scenario,
+  ScenarioResult,
+} from '../lib/contracts';
+import {
+  calculatePortfolio,
+  calculateComparisons,
+  type PortfolioPath,
+} from '../lib/portfolio';
 import { resultExpectations } from '../lib/results';
 import { money, percent } from '../lib/format';
 import { PathChart } from './PathChart';
 import { SignedReturn } from './SignedReturn';
+
+type HotStockCard = {
+  id: string;
+  company_name: string;
+  ticker: string;
+  description: string;
+  path: Pick<PortfolioPath, 'total_return'>;
+};
+
+export function HotStockOutcomeCards({
+  hotStocks,
+  outcomes,
+}: {
+  hotStocks: HotStockCard[];
+  outcomes: FutureOutcomes['hot_stock_outcomes'];
+}) {
+  return (
+    <section className="panel" aria-labelledby="hot-stock-outcomes-title">
+      <h2 id="hot-stock-outcomes-title">What happened to the hot stocks?</h2>
+      <ul className="hot-stock-outcomes">
+        {hotStocks.map((stock, index) => {
+          const outcome = outcomes.find((item) => item.asset_id === stock.id)!;
+          return (
+            <li
+              className="hot-stock-outcome"
+              data-testid={`hot-stock-outcome-${index}`}
+              key={stock.id}
+            >
+              <h3>
+                {stock.company_name} <span>({stock.ticker})</span>
+              </h3>
+              <p>{outcome.text}</p>
+              <p>
+                Five-year return:{' '}
+                <strong>
+                  <SignedReturn value={stock.path.total_return} />
+                </strong>
+              </p>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  );
+}
+
 export function Reveal({
   scenario,
   result,
@@ -133,31 +187,10 @@ export function Reveal({
             <BenchmarkBasket />
             <ResultHelp />
           </section>
-          <section className="panel" aria-labelledby="hot-stock-outcomes-title">
-            <h2 id="hot-stock-outcomes-title">
-              What happened to the hot stocks?
-            </h2>
-            <ul className="hot-stock-outcomes">
-              {hotStocks.map((stock, index) => (
-                <li
-                  className="hot-stock-outcome"
-                  data-testid={`hot-stock-outcome-${index}`}
-                  key={stock.id}
-                >
-                  <h3>
-                    {stock.company_name} <span>({stock.ticker})</span>
-                  </h3>
-                  <p>{stock.description}</p>
-                  <p>
-                    Five-year return:{' '}
-                    <strong>
-                      <SignedReturn value={stock.path.total_return} />
-                    </strong>
-                  </p>
-                </li>
-              ))}
-            </ul>
-          </section>
+          <HotStockOutcomeCards
+            hotStocks={hotStocks}
+            outcomes={scenario.future.hot_stock_outcomes}
+          />
           <section className="panel">
             <h2>Expectation vs. reality</h2>
             <p>

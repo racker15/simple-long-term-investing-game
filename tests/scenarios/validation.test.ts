@@ -112,6 +112,25 @@ describe('scenario validation', () => {
         s.future.events[0].month = '2000-01';
       },
     ],
+    [
+      'missing hot-stock outcome ID',
+      (s: Scenario) => {
+        s.future.hot_stock_outcomes.pop();
+      },
+    ],
+    [
+      'wrong hot-stock outcome ID',
+      (s: Scenario) => {
+        s.future.hot_stock_outcomes[0].asset_id = 'hot:dev-fictional:unknown';
+      },
+    ],
+    [
+      'duplicate hot-stock outcome ID',
+      (s: Scenario) => {
+        s.future.hot_stock_outcomes[1].asset_id =
+          s.future.hot_stock_outcomes[0].asset_id;
+      },
+    ],
   ])('rejects %s with actionable paths', (_, mutate) => {
     const scenario = copy();
     mutate(scenario);

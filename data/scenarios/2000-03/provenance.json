@@ -271,6 +271,46 @@
       "approximation": false,
       "notes": "Proposed settlement, not final court approval or settlement by every state.",
       "observation_date": "2001-11-02"
+    },
+    {
+      "id": "hot-cisco-2001-q3",
+      "source_name": "Cisco: Third Quarter Earnings, Fiscal 2001",
+      "source_reference": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2001/m05/cisco-systems-reports-third-quarter-earnings.html",
+      "publication_date": "2001-05-08",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary release: sharp reversal in orders, technology capital-spending weakness, $2.2 billion excess-inventory charge and $2.69 billion GAAP quarterly loss. Distinguishes inventory write-down from the separate $1.17 billion restructuring charge.",
+      "observation_date": "2001-04-28"
+    },
+    {
+      "id": "hot-cisco-2004-results",
+      "source_name": "Cisco: Fourth Quarter and Fiscal Year 2004 Earnings",
+      "source_reference": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2004/m08/cisco-systems-reports-fourth-quarter-and-fiscal-year-2004-earnings.html",
+      "publication_date": "2004-08-10",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Fiscal 2004 revenue $22.0 billion (+16.8%) and GAAP net income $4.4 billion versus $3.6 billion the prior year. Records an operating recovery while scenario return paths remain below their late-1999/2000 starting prices.",
+      "observation_date": "2004-07-31"
+    },
+    {
+      "id": "hot-msft-2004-results",
+      "source_name": "Microsoft: Strong Fourth Quarter Earnings, Fiscal 2004",
+      "source_reference": "https://news.microsoft.com/source/2004/07/22/microsoft-reports-strong-fourth-quarter-earnings/",
+      "publication_date": "2004-07-22",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary earnings release: fiscal 2004 revenue $36.84 billion and net income $8.17 billion; Windows Server 2003 and Office demand; Sun settlement and European Commission fine. The stock summary does not treat the proposed July special dividend as already paid.",
+      "observation_date": "2004-06-30"
+    },
+    {
+      "id": "hot-amazon-2004-results",
+      "source_name": "Amazon: 2004 Results and Introduction of Amazon Prime",
+      "source_reference": "https://press.aboutamazon.com/2005/2/amazon-com-announces-record-free-cash-flow-fueled-by-lower-prices-and-free-shipping-introduces-new-express-shipping-program-amazon-prime",
+      "publication_date": "2005-02-02",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "2004 revenue $6.92 billion (+31%) and operating income $440 million; Amazon Prime introduced February 2, 2005. Operating profit is used rather than net profit inflated by a $244 million tax benefit. Prime is excluded from the scenario ending January 2005.",
+      "observation_date": "2005-02-02"
     }
   ]
 }

@@ -58,6 +58,27 @@
       "columbia"
     ]
   },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:2000-03:cisco",
+      "text": "Cisco began this window near the height of internet-stock excitement. Customer orders then collapsed, leaving equipment and parts it could not sell as expected. A $2.2 billion inventory charge helped create a large quarterly loss in 2001. Annual profit recovered to $4.4 billion in 2004, but that recovery could not undo the huge drop from the stock’s boom-time price.",
+      "source_ids": [
+        "hot-cisco-2001-q3",
+        "hot-cisco-2004-results",
+        "yahoo-csco"
+      ]
+    },
+    {
+      "asset_id": "hot:2000-03:microsoft",
+      "text": "The technology boom ended, but Microsoft’s software business kept earning money. Office and Windows Server helped annual sales reach $36.84 billion in June 2004. MSN also recorded its first profitable year, while legal settlements and a European fine added costs. Those business gains were not enough to support the much higher share price investors had paid near the boom’s peak.",
+      "source_ids": ["hot-msft-2004-results", "yahoo-msft"]
+    },
+    {
+      "asset_id": "hot:2000-03:amazon",
+      "text": "Amazon’s shopping business improved even while its shares remained far below their boom-time price. In 2004, sales grew 31% to $6.92 billion and profit from operations reached $440 million. In February 2005, Amazon launched Prime, offering members fast shipping for an annual fee. These gains and new plans did not recover the stock’s high March 2000 starting price.",
+      "source_ids": ["hot-amazon-2004-results", "yahoo-amzn"]
+    }
+  ],
   "monthly_returns": {
     "cash": [
       { "month": "2000-04", "return": 0.0046 },

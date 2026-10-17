@@ -50,5 +50,27 @@
       "financial-crisis",
       "deepwater"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:2005-09:toyota",
+      "text": "Toyota was hit by two big setbacks. During the financial crisis, fewer people bought cars, and it lost about 437 billion yen in the year ended March 2009. Accelerator recalls brought more trouble in 2010. Toyota returned to profit that year, but sales were still weak. That uneven recovery helps explain why its shares finished below their 2005 starting point.",
+      "source_ids": [
+        "hot-toyota-fy2009",
+        "hot-toyota-recall2010",
+        "hot-toyota-fy2010",
+        "yahoo-tm"
+      ]
+    },
+    {
+      "asset_id": "hot:2005-09:disney",
+      "text": "Disney bought Pixar in 2006, adding its popular characters and animation team. By summer 2010, Toy Story 3 and Alice in Wonderland were helping movie profits, while Toy Story toys brought in more money. Disney’s quarterly sales rose 16%. These successes helped the business recover from the recession and gave investors more reasons to value its movies, characters and other businesses.",
+      "source_ids": ["hot-disney-pixar2006", "hot-disney-q32010", "yahoo-dis"]
+    },
+    {
+      "asset_id": "hot:2005-09:exxonmobil",
+      "text": "ExxonMobil earned a record $45.2 billion in 2008, helped by high oil prices. Then the recession reduced demand for fuel, and its 2009 profit fell to $19.3 billion. It kept paying dividends and raised its yearly payment per share even during that slump. Those payments helped the investment, but the sharp change in oil profits left only a modest overall gain.",
+      "source_ids": ["hot-exxon-fy2008", "hot-exxon-fy2009", "yahoo-xom"]
+    }
+  ]
 }

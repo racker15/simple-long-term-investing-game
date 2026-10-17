@@ -128,6 +128,66 @@
       "approximation": false,
       "notes": "Undated current company page retrieved 2026-10-05 says most recent split June 20 2001, outside 2008–13 horizon. Current retrospective archive; original publication date and hosting revision date are unknown. Retrieved date is not historical publication.",
       "observation_date": "2001-06-20"
+    },
+    {
+      "id": "hot-apple-2005-q1",
+      "source_name": "Apple: First Quarter Results, Fiscal 2005",
+      "source_reference": "https://www.apple.com/newsroom/2005/01/12Apple-Reports-First-Quarter-Results/",
+      "publication_date": "2005-01-12",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Holiday quarter ended December 25, 2004: 4.58 million iPods shipped, revenue $3.49 billion up 74%, profit $295 million versus $63 million. These results were public before the January 2005 endpoint.",
+      "observation_date": "2004-12-25"
+    },
+    {
+      "id": "hot-apple-2009-q2",
+      "source_name": "Apple: Second Quarter Results, Fiscal 2009",
+      "source_reference": "https://www.apple.com/ie/newsroom/2009/04/22Apple-Reports-Second-Quarter-Results/",
+      "publication_date": "2009-04-22",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary GAAP results: $8.16 billion revenue, $1.21 billion profit, 3.79 million iPhones sold (+123%), and Mac units down 3%. The release describes the first iPhone in fiscal 2007 and July 2008 iPhone 3G launch. No June 2009 iPhone 3GS event is used.",
+      "observation_date": "2009-03-28"
+    },
+    {
+      "id": "hot-msft-vista-office-launch",
+      "source_name": "Microsoft: Windows Vista and Office 2007 Consumer Launch",
+      "source_reference": "https://news.microsoft.com/source/2007/01/29/microsoft-launches-windows-vista-and-microsoft-office-2007-to-consumers-worldwide/",
+      "publication_date": "2007-01-29",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary January 29 release announces worldwide consumer availability of Windows Vista and Office 2007 the following day, January 30, 2007. Observation date records the announcement.",
+      "observation_date": "2007-01-29"
+    },
+    {
+      "id": "hot-msft-2009-q3",
+      "source_name": "Microsoft: Third-Quarter Results, Fiscal 2009",
+      "source_reference": "https://news.microsoft.com/source/2009/04/23/microsoft-reports-third-quarter-results-2/",
+      "publication_date": "2009-04-23",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Revenue in the quarter ended March 31 fell 6% to $13.65 billion as global PC and server markets weakened. Net income fell 32%, including investment and severance charges.",
+      "observation_date": "2009-03-31"
+    },
+    {
+      "id": "hot-ebay-skype-2007",
+      "source_name": "eBay: October 2007 Skype Charge, Form 8-K",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/1065088/000089161807000579/f34172e8vk.htm",
+      "publication_date": "2007-10-01",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Following the 2005 Skype purchase, eBay announced a total $1.4 billion charge in October 2007, reflecting Skype impairment and the earn-out settlement.",
+      "observation_date": "2007-10-01"
+    },
+    {
+      "id": "hot-ebay-2009-q1",
+      "source_name": "eBay: First Quarter 2009 Results (SEC exhibit)",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/1065088/000119312509084618/dex991.htm",
+      "publication_date": "2009-04-22",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Quarter ended March 31, 2009: marketplace revenue fell 18%; payments revenue grew 11%; total company revenue fell 8%. Weak marketplace performance, the economy and currency effects were relevant; no later Skype sale or PayPal separation is used.",
+      "observation_date": "2009-03-31"
     }
   ]
 }

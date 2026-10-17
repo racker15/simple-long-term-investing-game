@@ -147,6 +147,14 @@ export const futureOutcomesSchema = object({
     }),
     { minItems: 3, maxItems: 5 },
   ),
+  hot_stock_outcomes: Type.Array(
+    object({
+      asset_id: hotStockIdSchema,
+      text: text(),
+      source_ids: sourceIds,
+    }),
+    { minItems: 3, maxItems: 3 },
+  ),
   what_happened_next: object({ text: text(), source_ids: sourceIds }),
   reflection: object({
     what_people_were_focused_on: text(),

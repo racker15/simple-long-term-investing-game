@@ -252,6 +252,82 @@
       "approximation": false,
       "notes": "Retrospective history; outcome context only.",
       "observation_date": "1987-10-19"
+    },
+    {
+      "id": "hot-aapl-mac-launch",
+      "source_name": "Wired: The Macintosh at 30, an eyewitness account",
+      "source_reference": "https://www.wired.com/2014/01/macintosh-30th-anniversary",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Retrospective account of the January 24, 1984 Macintosh launch. Used only for the launch fact, not later events.",
+      "observation_date": "1984-01-24"
+    },
+    {
+      "id": "hot-aapl-publishing",
+      "source_name": "Christian Science Monitor: Apple and desktop publishing",
+      "source_reference": "https://www.csmonitor.com/layout/set/amphtml/1986/1007/fapple.html",
+      "publication_date": "1986-10-07",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report describes Macintosh and LaserWriter desktop publishing and rising Macintosh sales during summer 1986."
+    },
+    {
+      "id": "hot-aapl-1988-profit",
+      "source_name": "UPI: Apple Computer reports record quarterly profits",
+      "source_reference": "https://www.upi.com/amp/Archives/1988/01/20/Apple-Computer-reports-record-quarterly-profits/7569569653200/",
+      "publication_date": "1988-01-20",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: first fiscal quarter net income $121.4 million, up 108%, following the expanded Macintosh line.",
+      "observation_date": "1988-01-01"
+    },
+    {
+      "id": "hot-ibm-1984-profit",
+      "source_name": "UPI: IBM reports 1984 earnings",
+      "source_reference": "https://www.upi.com/Archives/1985/01/17/IBM-reported-Thursday-that-net-earnings-rose-166-percent/8728474786000/",
+      "publication_date": "1985-01-17",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: annual net income of $6.58 billion versus $5.48 billion, about 20% growth. The 16.6% in the headline refers to the quarter.",
+      "observation_date": "1984-12-31"
+    },
+    {
+      "id": "hot-ibm-1985-profit",
+      "source_name": "UPI: IBM reports 1985 earnings",
+      "source_reference": "https://www.upi.com/Archives/1986/01/17/International-Business-Machines-Corp-Friday-reported-yearly-earnings-of/5559506322000/",
+      "publication_date": "1986-01-17",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: annual earnings slipped about 0.4%, despite revenue growth.",
+      "observation_date": "1985-12-31"
+    },
+    {
+      "id": "hot-ibm-ps2",
+      "source_name": "IBM: The PS/2",
+      "source_reference": "https://www.ibm.com/history/ps-2",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Undated retrospective company history: early PC sales, competition from clones, 1987 PS/2 launch, and the subsequent competitive response. Only facts inside each scenario window are used."
+    },
+    {
+      "id": "hot-dis-factbook",
+      "source_name": "Disney: 2004 Fact Book, company milestones",
+      "source_reference": "https://adisney.go.com/adownload/investorrelations/disney_fb04.pdf",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Original company fact book used retrospectively for dated milestones: 1984 leadership, 1987 store, 1989 Disney-MGM Studios, 1992 Euro Disney, 1994 Lion King and Paris refinancing, and February 1996 completion of the ABC acquisition. Only in-window milestones are used; the publication day is not established."
+    },
+    {
+      "id": "hot-dis-1987-profit",
+      "source_name": "UPI: Disney posts record earnings",
+      "source_reference": "https://www.upi.com/Archives/1987/07/23/Disney-posts-record-earnings/9076554011200/",
+      "publication_date": "1987-07-23",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: record third-quarter net income of $128.3 million, supported by theme parks and movies."
     }
   ]
 }

@@ -261,6 +261,44 @@
       "approximation": false,
       "notes": "Undated retrospective account of the April 30, 1993 software release.",
       "observation_date": "1993-04-30"
+    },
+    {
+      "id": "hot-sony-music-films",
+      "source_name": "Sony: The acquisition of entertainment businesses",
+      "source_reference": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/2-08.html",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Undated retrospective company history: CBS Records January 1988, Columbia Pictures November 1989, film box-office performance through 1993, and a 265.2 billion yen film-business write-down in fiscal 1994. Each scenario uses only facts before its endpoint."
+    },
+    {
+      "id": "hot-sony-1994-writeoff",
+      "source_name": "UPI: Sony may sell studio",
+      "source_reference": "https://www.upi.com/amp/Archives/1994/11/18/Sony-may-sell-studio/2593785134800/",
+      "publication_date": "1994-11-18",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: about $2.7 billion film-business write-down, distinct from the reported $3.2 billion quarterly loss."
+    },
+    {
+      "id": "hot-ko-1993-report",
+      "source_name": "Coca-Cola: 1993 Annual Report, Exhibit 13",
+      "source_reference": "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0000950144-94-000600/EX-13_1.txt",
+      "publication_date": "1994-03-14",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Filed annual report: worldwide unit-case volume grew 5% in 1993; international markets produced 79% of operating income. These are volume and operating-income measures, not stock-return measures.",
+      "observation_date": "1993-12-31"
+    },
+    {
+      "id": "hot-xom-1993-refining",
+      "source_name": "Oil & Gas Journal: Profits for OGJ group show big gain in 1993, revenues dip",
+      "source_reference": "https://www.ogj.com/general-interest/companies/article/17212109/profits-for-ogj-group-show-big-gain-in-1993-revenues-dip",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "1994 contemporary industry review; exact publication day not established. Exxon refining and marketing earnings rose 28% to $2.015 billion in 1993, helped by margins and lower costs. For January 1994 endpoints, cited retrospectively for the completed 1993 operating year, not as news already published at the endpoint.",
+      "observation_date": "1993-12-31"
     }
   ]
 }

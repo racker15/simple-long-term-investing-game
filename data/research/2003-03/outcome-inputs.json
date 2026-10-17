@@ -50,5 +50,26 @@
       "iphone",
       "bear-financing"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:2003-03:costco",
+      "text": "Costco grew by selling more goods and opening more warehouses. It added 30 warehouses in its 2007 financial year, when merchandise sales rose 7% to $63.1 billion. Membership fees brought in another $1.31 billion, helped by a $5 increase for basic memberships in 2006. More shopping and recurring membership money supported the company’s growth and strong stock result.",
+      "source_ids": ["hot-costco-2007-report", "yahoo-cost"]
+    },
+    {
+      "asset_id": "hot:2003-03:intel",
+      "text": "Intel improved its chips and its earnings during this window. It introduced four-core processors in November 2006 and continued moving computers to its newer Core designs in 2007. That year, sales rose 8% to $38.3 billion and profit from operations rose 45%. Better products and stronger earnings helped the shares gain, although the trip was not a steady climb.",
+      "source_ids": ["hot-intel-2007-report", "yahoo-intc"]
+    },
+    {
+      "asset_id": "hot:2003-03:merck",
+      "text": "Merck withdrew its pain medicine Vioxx in September 2004 after a study found higher risks of heart attacks and strokes. A 2007 agreement to settle many Vioxx lawsuits brought a $4.85 billion charge. New products helped: Gardasil vaccine sales reached $1.5 billion in 2007. But losing a medicine and facing large legal costs weighed on the business during this disappointing stock window.",
+      "source_ids": [
+        "hot-merck-vioxx-2004",
+        "hot-merck-2007-results",
+        "yahoo-mrk"
+      ]
+    }
+  ]
 }

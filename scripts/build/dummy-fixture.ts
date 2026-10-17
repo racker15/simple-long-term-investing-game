@@ -127,6 +127,15 @@ const future = {
       'Invented event marker for development. It is context for this synthetic path, not a claim about real history or simple market causality.',
     source_ids: after,
   })),
+  hot_stock_outcomes: hot.map((asset_id, i) => ({
+    asset_id,
+    text: [
+      'In this fictional story, Acme sells many pocket computers at first, then faces a setback that slows sales.',
+      'In this invented example, Example Telecom cannot finish its network expansion and its shares fall to zero.',
+      'Sample Retail keeps opening stores in the made-up story, and its value grows over five years.',
+    ][i],
+    source_ids: after,
+  })),
   what_happened_next: {
     text: 'This entire scenario is invented for development and testing. Acme Computing leads after the first year, while Sample Retail eventually ends with the highest five-year value. An intermediate decline tests whether the engine measures peak-to-trough drawdowns rather than just losses from the initial investment. Example Telecom becomes worthless, testing that a stock position remains at zero after bankruptcy. Broad investments also fall during the synthetic downturn before recovering. The fictional headlines, economic readings, forecasts, companies, and monthly returns were constructed to exercise software behavior. None of these values describe historical markets. They are not investment advice or evidence for how any asset class usually performs. The fixture makes no claim that hot stocks must fail or that diversified portfolios must win. One fictional stock wins while another reaches zero. Real scenarios will need public sources, a documented selection process, and independent editorial review. This development example exists only to test the flow from a decision made with limited information to an outcome and descriptive scorecard.',
     source_ids: after,

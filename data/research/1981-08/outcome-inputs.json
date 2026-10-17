@@ -52,5 +52,31 @@
       "nasa-challenger",
       "fed-1981-recession"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1981-08:ibm",
+      "text": "The new IBM PC became a major business: more than 750,000 machines sold within two years of its 1981 launch. Company profit reached $6.6 billion in 1984. But profit stopped growing in 1985 as computer competition intensified. The investment still rose strongly over the whole five years, despite that slowdown.",
+      "source_ids": [
+        "hot-ibm-ps2",
+        "hot-ibm-1984-profit",
+        "hot-ibm-1985-profit",
+        "yahoo-ibm"
+      ]
+    },
+    {
+      "asset_id": "hot:1981-08:coca-cola",
+      "text": "Coca-Cola launched Diet Coke in July 1982, and it became America’s leading diet soft drink by the end of 1983. Another launch went badly: customers rejected New Coke in 1985, so the original formula returned that July. A successful new drink and a quick response to an unpopular change shaped these years of strong investment gains.",
+      "source_ids": ["hot-ko-diet", "hot-ko-new-coke", "yahoo-ko"]
+    },
+    {
+      "asset_id": "hot:1981-08:exxon",
+      "text": "Lower oil and gas prices cut Exxon’s annual profit by about 12% in 1985. Yet the company also turned crude oil into fuels and sold them to customers. That side of the business, especially in Europe, helped earnings improve in the second quarter of 1986. Exxon’s strong investment result came with uneven profits along the way.",
+      "source_ids": [
+        "hot-xom-1985-profit",
+        "hot-xom-1986-refining",
+        "yahoo-xom"
+      ]
+    }
+  ]
 }

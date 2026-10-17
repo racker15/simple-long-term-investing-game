@@ -58,5 +58,30 @@
       "rates-2022",
       "webb"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:2018-12:nintendo",
+      "text": "Nintendo’s Switch and Animal Crossing: New Horizons became popular ways to play during the pandemic. In the year ended March 2021, Switch sales rose 37% and operating profit rose 82%. New hits kept the business going: Zelda: Tears of the Kingdom sold 19.5 million copies by September 2023, and the Mario movie brought in more money from Nintendo’s characters. Those successes supported the shares.",
+      "source_ids": [
+        "hot-nintendo-fy2021",
+        "hot-nintendo-sep2023",
+        "yahoo-ntdoy"
+      ]
+    },
+    {
+      "asset_id": "hot:2018-12:apple",
+      "text": "Apple’s devices and services produced a huge holiday quarter in 2020, with revenue reaching $111.4 billion. Growth later cooled: sales fell slightly in the quarter ended September 2023. Yet services set another sales record, and Apple returned nearly $25 billion through dividends and buybacks that quarter. Its large stock gain reflected both its profitable customer base and investors’ expectations for future earnings.",
+      "source_ids": ["hot-apple-q12021", "hot-apple-q42023", "yahoo-aapl"]
+    },
+    {
+      "asset_id": "hot:2018-12:microsoft",
+      "text": "Microsoft grew as businesses paid for Azure computing services and Office subscriptions. Its annual revenue reached $211.9 billion in the year ended June 2023. Even with weak personal-computer sales, Azure and other cloud revenue grew 26% in that final quarter. Cloud profits and the company’s move into new AI tools gave investors reasons to expect more growth, helping support the strong share-price rise.",
+      "source_ids": [
+        "hot-microsoft-q22021",
+        "hot-microsoft-fy2023",
+        "yahoo-msft"
+      ]
+    }
+  ]
 }

@@ -50,5 +50,22 @@
       "web-release",
       "hubble-repair"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1991-02:walmart",
+      "text": "Walmart expanded stores that sold groceries alongside other goods. Its US supercenters grew from 9 in January 1991 to 239 in January 1996, while annual sales grew from about $33 billion to $94 billion. But profit growth slowed to about 2% in the final year. The business grew much faster than this investment’s modest gain.",
+      "source_ids": ["hot-wmt-1996-report", "yahoo-wmt"]
+    },
+    {
+      "asset_id": "hot:1991-02:harley-davidson",
+      "text": "Harley-Davidson had more motorcycle demand than it could easily supply. In the third quarter of 1995, it shipped about 25,000 bikes, 11% more than a year earlier, as daily production increased. Limited supply still frustrated dealers. The large investment gain came alongside a real effort to build and sell more motorcycles.",
+      "source_ids": ["hot-hog-1995-quarter", "hot-hog-demand", "yahoo-hog"]
+    },
+    {
+      "asset_id": "hot:1991-02:ibm",
+      "text": "IBM lost money in the early 1990s, then returned to about $3 billion of profit in 1994. Its 1995 Lotus purchase added business software, and services revenue grew as customers paid IBM for help with their computer systems. The five-year investment ended only slightly higher because this window includes both the crisis and the recovery.",
+      "source_ids": ["hot-ibm-1994-report", "hot-ibm-1995-report", "yahoo-ibm"]
+    }
+  ]
 }

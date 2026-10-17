@@ -40,6 +40,54 @@
       "approximation": false,
       "notes": "Retrospective chronology of launch and servicing; outcome context only.",
       "observation_date": "1993-12-31"
+    },
+    {
+      "id": "hot-aapl-1987-macs",
+      "source_name": "TIME: Apple expands its business-computer market",
+      "source_reference": "https://content.time.com/time/subscriber/article/0%2C33009%2C965238-4%2C00.html",
+      "publication_date": "1987-08-17",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report: Macintosh SE and Macintosh II expanded the business market; second fiscal quarter revenue was $637 million, up 42%. The copy does not use later full-year results for earlier endpoints."
+    },
+    {
+      "id": "hot-aapl-1988-profit",
+      "source_name": "UPI: Apple Computer reports record quarterly profits",
+      "source_reference": "https://www.upi.com/amp/Archives/1988/01/20/Apple-Computer-reports-record-quarterly-profits/7569569653200/",
+      "publication_date": "1988-01-20",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: first fiscal quarter net income $121.4 million, up 108%, following the expanded Macintosh line.",
+      "observation_date": "1988-01-01"
+    },
+    {
+      "id": "hot-aapl-1990-cuts",
+      "source_name": "UPI: Apple Computer lays off 400",
+      "source_reference": "https://www.upi.com/Archives/1990/02/21/Apple-Computer-lays-off-400/3273635576400/",
+      "publication_date": "1990-02-21",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: 400 layoffs and reserves for restructuring and severance.",
+      "observation_date": "1990-02-21"
+    },
+    {
+      "id": "hot-ko-1988-profit",
+      "source_name": "UPI: Coca-Cola reports earnings",
+      "source_reference": "https://www.upi.com/Archives/1989/01/31/Coca-Cola-reports-earnings/5652602226000/",
+      "publication_date": "1989-01-31",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: 1988 net income about $1.04 billion, up 14%, and sales about $8.34 billion, up 8.9%.",
+      "observation_date": "1988-12-31"
+    },
+    {
+      "id": "hot-ibm-ps2",
+      "source_name": "IBM: The PS/2",
+      "source_reference": "https://www.ibm.com/history/ps-2",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Undated retrospective company history: early PC sales, competition from clones, 1987 PS/2 launch, and the subsequent competitive response. Only facts inside each scenario window are used."
     }
   ]
 }

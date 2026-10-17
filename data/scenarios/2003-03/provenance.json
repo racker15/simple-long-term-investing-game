@@ -224,6 +224,46 @@
       "approximation": false,
       "notes": "Original announcement approving Bear Stearns/JPMorgan financing arrangement.",
       "observation_date": "2008-03-16"
+    },
+    {
+      "id": "hot-costco-2007-report",
+      "source_name": "Costco: Fiscal 2007 Form 10-K",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/909832/000119312507225805/d10k.htm",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Fiscal 2007 merchandise sales $63.09 billion (+7%), 30 new warehouses, comparable warehouse sales +6%, membership fee revenue $1.31 billion (+10.5%) following a $5 increase for basic memberships in 2006. Merchandise sales are distinguished from total revenue including membership fees.",
+      "observation_date": "2007-09-02"
+    },
+    {
+      "id": "hot-intel-2007-report",
+      "source_name": "Intel: 2007 Annual Report, Letter to Stockholders",
+      "source_reference": "https://media.corporate-ir.net/media_files/irol/10/101302/2007annualreport/introduction/ceo/index.html",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company annual report: Core-based product transition continued during 2007; quad-core products launched November 2006; fiscal 2007 revenue $38.3 billion (+8%) and operating income $8.2 billion (+45%).",
+      "observation_date": "2007-12-29"
+    },
+    {
+      "id": "hot-merck-vioxx-2004",
+      "source_name": "Merck: Worldwide Vioxx Withdrawal (SEC exhibit)",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/64978/000129993304000969/exhibit1.htm",
+      "publication_date": "2004-09-30",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary September 30, 2004 worldwide withdrawal following a clinical trial showing increased cardiovascular risks including heart attack and stroke.",
+      "observation_date": "2004-09-30"
+    },
+    {
+      "id": "hot-merck-2007-results",
+      "source_name": "Merck: 2007 Financial Results (SEC exhibit)",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/64978/000095012308000919/y47535exv99w1.htm",
+      "publication_date": "2008-01-30",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "2007 results: $4.85 billion pretax charge for November Vioxx settlement agreement; Gardasil sales $1.5 billion. Settlement charge is not described as cash paid immediately or as resolving every claim.",
+      "observation_date": "2007-12-31"
     }
   ]
 }

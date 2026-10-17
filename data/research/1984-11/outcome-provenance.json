@@ -30,6 +30,64 @@
       "approximation": false,
       "notes": "Undated retrospective history; outcome context only.",
       "observation_date": "1989-11-09"
+    },
+    {
+      "id": "hot-pg-history",
+      "source_name": "Procter & Gamble: Company history",
+      "source_reference": "https://us.pg.com/pg-history/",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Undated retrospective history; the 1985 Richardson-Vicks acquisition expanded health-care brands."
+    },
+    {
+      "id": "hot-pg-1989-profit",
+      "source_name": "UPI: Procter & Gamble posts 18 percent earnings gain",
+      "source_reference": "https://www.upi.com/Archives/1989/08/10/Procter-Gamble-posts-18-percent-earnings-gain/1489618724800/",
+      "publication_date": "1989-08-10",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: fiscal-year earnings up 18%, with record US shipments and strong international business.",
+      "observation_date": "1989-06-30"
+    },
+    {
+      "id": "hot-cl-1986-profit",
+      "source_name": "UPI: Colgate-Palmolive earnings advance",
+      "source_reference": "https://www.upi.com/Archives/1987/02/12/Colgate-Palmolive-earnings-advance/2697540104400/",
+      "publication_date": "1987-02-12",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: improved annual earnings, strong sales and successful new products.",
+      "observation_date": "1986-12-31"
+    },
+    {
+      "id": "hot-cl-history",
+      "source_name": "Colgate-Palmolive: Company history",
+      "source_reference": "https://www.colgatepalmolive.com/en-us/who-we-are/history",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Undated retrospective history confirms the 1987 Softsoap acquisition."
+    },
+    {
+      "id": "hot-ge-rca",
+      "source_name": "UPI: General Electric, RCA complete merger",
+      "source_reference": "https://www.upi.com/Archives/1986/06/09/General-Electric-RCA-complete-merger/8804518673600/",
+      "publication_date": "1986-06-09",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: acquisition completed and RCA, including NBC, became GE subsidiaries.",
+      "observation_date": "1986-06-09"
+    },
+    {
+      "id": "hot-ge-1988-profit",
+      "source_name": "UPI: GE annual report shows globalization",
+      "source_reference": "https://www.upi.com/Archives/1989/03/06/GEs-annual-report-shows-globalization/6095605163600/",
+      "publication_date": "1989-03-06",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: 1988 earnings about $3.4 billion, up 16%.",
+      "observation_date": "1988-12-31"
     }
   ]
 }

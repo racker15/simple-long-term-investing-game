@@ -65,5 +65,26 @@
       "pandemic",
       "vaccine"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:2016-01:disney",
+      "text": "Disney gained a new growth story with Disney+, which reached nearly 87 million paid subscriptions by December 2020. That success arrived while COVID-19 closed parks and disrupted movie releases, badly hurting its older businesses. The shares still finished higher as investors looked toward streaming growth and reopening. The stock’s gain therefore included hopes for recovery as well as a successful new service.",
+      "source_ids": [
+        "hot-disney-streaming2020",
+        "hot-disney-fy2020",
+        "yahoo-dis"
+      ]
+    },
+    {
+      "asset_id": "hot:2016-01:boeing",
+      "text": "Boeing first enjoyed strong aircraft sales: in 2018 it delivered a record 806 commercial planes and earned about $10.5 billion. Then the 737 MAX grounding and the pandemic badly damaged the business. Boeing lost $11.9 billion in 2020. Its shares still finished above the January 2016 starting price, but the later crises wiped away much of the optimism from its earlier boom.",
+      "source_ids": ["hot-boeing-fy2018", "hot-boeing-fy2020", "yahoo-ba"]
+    },
+    {
+      "asset_id": "hot:2016-01:tesla",
+      "text": "Tesla expanded production of the Model 3 and added the Model Y in 2020. It delivered about 500,000 vehicles that year and recorded its first full-year profit, helped by selling emissions credits to other carmakers. Those were major steps toward a larger car business. The enormous stock gain also reflected investors’ hopes for much more growth, beyond the profits Tesla had already earned.",
+      "source_ids": ["hot-tesla-fy2020", "yahoo-tsla"]
+    }
+  ]
 }

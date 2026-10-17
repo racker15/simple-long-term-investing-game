@@ -252,6 +252,45 @@
       "approximation": false,
       "notes": "Retrospective product history.",
       "observation_date": "1995-08-24"
+    },
+    {
+      "id": "hot-f-1996-results",
+      "source_name": "Ford: Fourth-quarter and 1996 earnings release",
+      "source_reference": "https://www.theautochannel.com/news/press/date/19970129/press000661.html",
+      "publication_date": "1997-01-29",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Original company release distributed through PR Newswire and reproduced by The Auto Channel; indexed full text consulted. Ford sold a record 2.1 million US trucks in 1996; Expedition launched in October. Total earnings $4.4 billion, while European automotive operations lost $291 million.",
+      "observation_date": "1996-12-31"
+    },
+    {
+      "id": "hot-dis-factbook",
+      "source_name": "Disney: 2004 Fact Book, company milestones",
+      "source_reference": "https://adisney.go.com/adownload/investorrelations/disney_fb04.pdf",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Original company fact book used retrospectively for dated milestones: 1984 leadership, 1987 store, 1989 Disney-MGM Studios, 1992 Euro Disney, 1994 Lion King and Paris refinancing, and February 1996 completion of the ABC acquisition. Only in-window milestones are used; the publication day is not established."
+    },
+    {
+      "id": "hot-ibm-1994-report",
+      "source_name": "IBM: 1994 Annual Report",
+      "source_reference": "https://www.ibm.com/investor/att/pdf/IBM_Annual_Report_1994.pdf",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Original annual report, publication day not established. IBM returned to roughly $3.0 billion net income in 1994 after its 1993 loss. Indexed report text consulted.",
+      "observation_date": "1994-12-31"
+    },
+    {
+      "id": "hot-ibm-1995-report",
+      "source_name": "IBM: 1995 Annual Report",
+      "source_reference": "https://www.ibm.com/investor/att/pdf/IBM_Annual_Report_1995.pdf",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Original annual report, publication day not established. Net income was $4.178 billion in 1995; services revenue rose from $9.715 billion to $12.714 billion; Lotus was acquired July 5, 1995. Indexed report text consulted. Some windows end before the report was published; only the earlier business events and fiscal results are described.",
+      "observation_date": "1995-12-31"
     }
   ]
 }

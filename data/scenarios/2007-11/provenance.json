@@ -261,6 +261,76 @@
       "approximation": false,
       "notes": "Institutional account of the March11 disaster.",
       "observation_date": "2011-03-11"
+    },
+    {
+      "id": "hot-amazon-fy2011",
+      "source_name": "Amazon: fourth-quarter and full-year 2011 results",
+      "source_reference": "https://press.aboutamazon.com/2012/1/amazon-com-announces-fourth-quarter-sales-up-35-to-17-43-billion-kindle-device-sales-nearly-triple-during-the-holidays",
+      "publication_date": "2012-01-31",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Annual sales rose 41% to $48.08 billion while net income fell 45% to $631 million. Kindle Fire was introduced in September 2011 and Kindle holiday unit sales nearly tripled.",
+      "observation_date": "2011-12-31"
+    },
+    {
+      "id": "hot-amazon-q32012",
+      "source_name": "Amazon: third-quarter 2012 results",
+      "source_reference": "https://press.aboutamazon.com/2012/10/amazon-com-announces-third-quarter-sales-up-27-to-13-81-billion",
+      "publication_date": "2012-10-25",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Quarterly sales rose 27% to $13.81 billion, but Amazon lost $274 million, including a $169 million loss related to LivingSocial. Growth and investment did not produce consistently growing current profits.",
+      "observation_date": "2012-09-30"
+    },
+    {
+      "id": "hot-citi-ar2008",
+      "source_name": "Citigroup: 2008 annual report",
+      "source_reference": "https://www.citigroup.com/rcs/citigpa/akpublic/storage/public/ar08c_en.pdf",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Citigroup lost $27.7 billion in 2008 amid mortgage and other asset losses and received government support. Annual report is a retrospective source for 2008 events.",
+      "observation_date": "2008-12-31"
+    },
+    {
+      "id": "hot-citi-ar2009",
+      "source_name": "Citigroup: 2009 annual report",
+      "source_reference": "https://www.citigroup.com/rcs/citigpa/akpublic/storage/public/ar09c_en.pdf",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "In 2009 Treasury preferred stock became approximately 7.7 billion common shares; Citi also issued approximately 5.4 billion shares in December. These issuances diluted existing ownership. Publication date is not inferred from the reporting year.",
+      "observation_date": "2009-12-31"
+    },
+    {
+      "id": "hot-citi-ar2010",
+      "source_name": "Citigroup: 2010 annual report",
+      "source_reference": "https://www.citigroup.com/rcs/citigpa/storage/public/ar10c_en.pdf",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Citigroup returned to a $10.6 billion annual profit in 2010. Bank-level recovery did not restore each old share to its pre-crisis value.",
+      "observation_date": "2010-12-31"
+    },
+    {
+      "id": "hot-apple-ipad2010",
+      "source_name": "Apple launches iPad",
+      "source_reference": "https://www.apple.com/newsroom/2010/01/27Apple-Launches-iPad/",
+      "publication_date": "2010-01-27",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Apple introduced the iPad tablet in January 2010; announcement distinguished from its later retail availability.",
+      "observation_date": "2010-01-27"
+    },
+    {
+      "id": "hot-apple-q42012",
+      "source_name": "Apple: fourth-quarter fiscal 2012 results",
+      "source_reference": "https://www.apple.com/newsroom/2012/10/25Apple-Reports-Fourth-Quarter-Results/",
+      "publication_date": "2012-10-25",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Quarterly revenue reached $36 billion and net profit $8.2 billion; iPhone units rose 58% to 26.9 million. The release also confirms a quarterly dividend.",
+      "observation_date": "2012-09-29"
     }
   ]
 }

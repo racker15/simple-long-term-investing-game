@@ -50,5 +50,30 @@
       "euro-launch",
       "september-attacks"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1996-09:nike",
+      "text": "Nike’s fast growth hit problems. The Asian financial crisis and weaker U.S. demand left too many shoes to sell in 1998, forcing discounts. In 2001, a new planning system left Nike with too much of some products and too little of others. U.S. shoe sales fell about 4% that year. These setbacks help explain the disappointing stock result.",
+      "source_ids": [
+        "hot-nike-1998-report",
+        "hot-nike-2002-report",
+        "yahoo-nke"
+      ]
+    },
+    {
+      "asset_id": "hot:1996-09:apple",
+      "text": "Steve Jobs returned when Apple bought NeXT in 1997. Apple simplified its products and launched the iMac in 1998, returning to a $309 million annual profit. The recovery was uneven: too many unsold computers helped produce a $195 million loss in the 2000 holiday quarter. Apple finished this window ahead, but the turnaround still had serious setbacks.",
+      "source_ids": ["hot-apple-1998-report", "hot-apple-2001-q1", "yahoo-aapl"]
+    },
+    {
+      "asset_id": "hot:1996-09:microsoft",
+      "text": "Office 97 and Windows NT sold strongly, and Windows 98 arrived in 1998. Microsoft’s annual sales climbed from $14.48 billion in June 1998 to $25.30 billion in June 2001. Businesses adopted Windows 2000, and Office XP launched in May 2001. This expanding software business helped the shares finish well ahead, despite the technology-stock slump near the end.",
+      "source_ids": [
+        "hot-msft-1998-results",
+        "hot-msft-2001-results",
+        "yahoo-msft"
+      ]
+    }
+  ]
 }

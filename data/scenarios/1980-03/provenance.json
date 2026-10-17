@@ -271,6 +271,55 @@
       "approximation": false,
       "notes": "Undated retrospective company history; launch August 12, 1981.",
       "observation_date": "1981-08-12"
+    },
+    {
+      "id": "hot-ibm-pc",
+      "source_name": "IBM: The IBM PC",
+      "source_reference": "https://www.ibm.com/history/personal-computer",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Undated retrospective company history of the August 1981 PC launch; outcome context only.",
+      "observation_date": "1981-08-12"
+    },
+    {
+      "id": "hot-ibm-1984-profit",
+      "source_name": "UPI: IBM reports 1984 earnings",
+      "source_reference": "https://www.upi.com/Archives/1985/01/17/IBM-reported-Thursday-that-net-earnings-rose-166-percent/8728474786000/",
+      "publication_date": "1985-01-17",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: annual net income of $6.58 billion versus $5.48 billion, about 20% growth. The 16.6% in the headline refers to the quarter.",
+      "observation_date": "1984-12-31"
+    },
+    {
+      "id": "hot-txn-1983-loss",
+      "source_name": "UPI: Texas Instruments ends 1983 with a loss",
+      "source_reference": "https://www.upi.com/Archives/1984/01/27/Texas-Instruments-ended-its-1983-fiscal-year-with-a/5455444027600/",
+      "publication_date": "1984-01-27",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: $145.4 million annual net loss, largely from leaving the home-computer business.",
+      "observation_date": "1983-12-31"
+    },
+    {
+      "id": "hot-txn-1984-recovery",
+      "source_name": "Washington Post: Texas Instruments Finding Its Niche Market",
+      "source_reference": "https://www.washingtonpost.com/archive/business/1984/08/26/texas-instruments-finding-its-niche-market/f1d7cdf7-1c4f-42d0-8612-e04a510c07be/",
+      "publication_date": "1984-08-25",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "The archive page displays August 25 although its URL uses August 26. Contemporary report describes a return to profit and a shift toward industrial products."
+    },
+    {
+      "id": "hot-xom-1983-profit",
+      "source_name": "UPI: Exxon reports higher profits",
+      "source_reference": "https://www.upi.com/Archives/1984/01/24/Exxon-reports-higher-profits/2136443768400/",
+      "publication_date": "1984-01-24",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: 1983 net income $4.98 billion, up 19.1%, helped by foreign oil production including the North Sea, Australia and Malaysia.",
+      "observation_date": "1983-12-31"
     }
   ]
 }

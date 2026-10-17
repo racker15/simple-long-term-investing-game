@@ -241,6 +241,71 @@
       "approximation": false,
       "notes": "Undated retrospective NASA history, outcome context only.",
       "observation_date": "1986-01-28"
+    },
+    {
+      "id": "hot-aapl-mac-launch",
+      "source_name": "Wired: The Macintosh at 30, an eyewitness account",
+      "source_reference": "https://www.wired.com/2014/01/macintosh-30th-anniversary",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Retrospective account of the January 24, 1984 Macintosh launch. Used only for the launch fact, not later events.",
+      "observation_date": "1984-01-24"
+    },
+    {
+      "id": "hot-aapl-publishing",
+      "source_name": "Christian Science Monitor: Apple and desktop publishing",
+      "source_reference": "https://www.csmonitor.com/layout/set/amphtml/1986/1007/fapple.html",
+      "publication_date": "1986-10-07",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report describes Macintosh and LaserWriter desktop publishing and rising Macintosh sales during summer 1986."
+    },
+    {
+      "id": "hot-aapl-1987-macs",
+      "source_name": "TIME: Apple expands its business-computer market",
+      "source_reference": "https://content.time.com/time/subscriber/article/0%2C33009%2C965238-4%2C00.html",
+      "publication_date": "1987-08-17",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report: Macintosh SE and Macintosh II expanded the business market; second fiscal quarter revenue was $637 million, up 42%. The copy does not use later full-year results for earlier endpoints."
+    },
+    {
+      "id": "hot-ibm-1984-profit",
+      "source_name": "UPI: IBM reports 1984 earnings",
+      "source_reference": "https://www.upi.com/Archives/1985/01/17/IBM-reported-Thursday-that-net-earnings-rose-166-percent/8728474786000/",
+      "publication_date": "1985-01-17",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: annual net income of $6.58 billion versus $5.48 billion, about 20% growth. The 16.6% in the headline refers to the quarter.",
+      "observation_date": "1984-12-31"
+    },
+    {
+      "id": "hot-ibm-ps2",
+      "source_name": "IBM: The PS/2",
+      "source_reference": "https://www.ibm.com/history/ps-2",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Undated retrospective company history: early PC sales, competition from clones, 1987 PS/2 launch, and the subsequent competitive response. Only facts inside each scenario window are used."
+    },
+    {
+      "id": "hot-ko-diet",
+      "source_name": "Coca-Cola: Diet Coke global premiere in 1982",
+      "source_reference": "https://www.coca-colacompany.com/about-us/history/diet-coke-global-premiere-1982",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Undated retrospective company history: July 1982 launch, largest US diet soft drink by end-1983, third-largest US soft drink by end-1984."
+    },
+    {
+      "id": "hot-ko-new-coke",
+      "source_name": "Coca-Cola: New Coke and the return of the original formula",
+      "source_reference": "https://www.coca-colacompany.com/about-us/history/new-coke-the-most-memorable-marketing-blunder-ever",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Retrospective company history: new formula April 23, 1985; original formula returned July 11, 1985 after customer opposition. No precise publication day asserted."
     }
   ]
 }

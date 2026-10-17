@@ -50,5 +50,32 @@
       "deepwater",
       "japan-quake"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:2006-07:hewlett-packard",
+      "text": "HP expanded beyond computers and printers by buying technology-services company EDS in 2008. Its annual sales reached $126 billion in 2010. But in May 2011, weak consumer demand and problems in services led HP to lower its forecast. Its shares gained only modestly: a bigger business did not remove worries about how much profit it could keep making.",
+      "source_ids": [
+        "hot-hp-eds2008",
+        "hot-hp-fy2010",
+        "hot-hp-q22011",
+        "yahoo-hpq"
+      ]
+    },
+    {
+      "asset_id": "hot:2006-07:apple",
+      "text": "Apple introduced the iPhone in 2007 and the iPad in 2010, creating huge new businesses alongside the Mac and iPod. In the quarter ended June 2011, it sold over 20 million iPhones and 9 million iPads. Quarterly profit more than doubled from a year earlier to $7.3 billion. The share-price rise came with a dramatic increase in actual sales and profits.",
+      "source_ids": [
+        "hot-apple-iphone2007",
+        "hot-apple-ipad2010",
+        "hot-apple-q32011",
+        "yahoo-aapl"
+      ]
+    },
+    {
+      "asset_id": "hot:2006-07:microsoft",
+      "text": "Microsoft kept earning money from software that businesses needed, including Office and programs for company computers. Xbox added another source of growth. In the year ended June 2011, revenue reached about $70 billion and profit rose 23% to $23.2 billion. That business strength supported a gain, although the shares grew far less than Apple’s during its new-product boom.",
+      "source_ids": ["hot-microsoft-fy2011", "yahoo-msft"]
+    }
+  ]
 }

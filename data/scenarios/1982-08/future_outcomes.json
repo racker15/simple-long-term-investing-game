@@ -69,6 +69,28 @@
       "time-925713"
     ]
   },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1982-08:apple",
+      "text": "Apple introduced the Macintosh in January 1984. Pairing Macs with LaserWriter printers then gave businesses a new way to make polished pages. The Macintosh SE and Macintosh II widened the range in 1987; second-quarter sales that year rose 42%. These new uses and growing sales help explain the company’s progress during a strong five-year investment.",
+      "source_ids": [
+        "hot-aapl-mac-launch",
+        "hot-aapl-publishing",
+        "hot-aapl-1987-macs",
+        "yahoo-aapl"
+      ]
+    },
+    {
+      "asset_id": "hot:1982-08:ibm",
+      "text": "IBM’s annual profit rose about 20% in 1984, but its early lead in personal computers attracted cheaper rivals. In 1987 it launched the PS/2 to fight back. The investment ended well above its starting value, while the new product showed that even a computer giant had to keep defending its business.",
+      "source_ids": ["hot-ibm-1984-profit", "hot-ibm-ps2", "yahoo-ibm"]
+    },
+    {
+      "asset_id": "hot:1982-08:coca-cola",
+      "text": "Diet Coke became America’s leading diet soft drink by the end of 1983. Coca-Cola then changed its main drink’s formula in April 1985, angering many customers. The original returned in July. The company’s strong investment result covered both a successful growing brand and a famous product mistake.",
+      "source_ids": ["hot-ko-diet", "hot-ko-new-coke", "yahoo-ko"]
+    }
+  ],
   "monthly_returns": {
     "cash": [
       { "month": "1982-09", "return": 0.0051 },

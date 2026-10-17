@@ -3,6 +3,7 @@ import { test, expect, type Locator } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 import { percent } from '../../app/src/lib/format';
 import { calculatePortfolio } from '../../app/src/lib/portfolio';
+import type { FutureOutcomes } from '../../app/src/lib/contracts';
 
 async function expectReturnDisplay(display: Locator, value: number) {
   await expect(display).toHaveText(percent(value));
@@ -24,7 +25,7 @@ for (const id of ids) {
     const known = JSON.parse(
       readFileSync(`data/scenarios/${id}/known_at_start.json`, 'utf8'),
     );
-    const future = JSON.parse(
+    const future: FutureOutcomes = JSON.parse(
       readFileSync(`data/scenarios/${id}/future_outcomes.json`, 'utf8'),
     );
     const requests: string[] = [];
@@ -125,7 +126,10 @@ for (const id of ids) {
       const outcome = page.getByTestId(`hot-stock-outcome-${index}`);
       await expect(outcome).toContainText(stock.company_name);
       await expect(outcome).toContainText(stock.ticker);
-      await expect(outcome).toContainText(stock.description);
+      await expect(outcome).toContainText(
+        future.hot_stock_outcomes.find((item) => item.asset_id === stock.id)!
+          .text,
+      );
       await expect(outcome).toContainText(percent(expectedReturn));
       await expect(outcome.locator('.financial-return--negative')).toHaveCount(
         expectedReturn < 0 ? 1 : 0,

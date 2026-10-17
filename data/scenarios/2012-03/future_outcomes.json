@@ -51,6 +51,23 @@
       "brexit"
     ]
   },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:2012-03:apple",
+      "text": "Apple kept turning its large customer base into sales of iPhones, Macs, watches and services. The holiday quarter ended December 2016 brought record revenue of $78.4 billion, with records across those product groups. Apple also returned money through dividends and share buybacks. Those earnings and cash payments helped the investment grow, although product sales did not rise smoothly every quarter.",
+      "source_ids": ["hot-apple-q32016", "hot-apple-q12017", "yahoo-aapl"]
+    },
+    {
+      "asset_id": "hot:2012-03:amazon",
+      "text": "Amazon’s growth came from more than shopping. Its Amazon Web Services business sold computing power to other companies and became a major source of profit. In 2016, AWS earned $3.1 billion before company-wide costs, while Amazon’s total annual sales reached $136 billion. Prime and online shopping also expanded. The company was beginning to turn years of investment into much larger earnings.",
+      "source_ids": ["hot-amazon-fy2016", "yahoo-amzn"]
+    },
+    {
+      "asset_id": "hot:2012-03:exxonmobil",
+      "text": "Low oil and gas prices squeezed ExxonMobil’s earnings during the later part of this period. In 2016 it earned $7.8 billion, less than half its 2015 profit. That included a roughly $2 billion cut to the value of gas assets. Continued dividends helped the investment finish slightly ahead, but weak energy profits limited the reward from holding the shares.",
+      "source_ids": ["hot-exxon-fy2016", "yahoo-xom"]
+    }
+  ],
   "monthly_returns": {
     "cash": [
       { "month": "2012-04", "return": 0 },

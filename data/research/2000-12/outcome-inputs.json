@@ -57,5 +57,26 @@
       "columbia",
       "katrina"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:2000-12:pepsico",
+      "text": "PepsiCo completed its Quaker Oats purchase in August 2001, adding Gatorade to its drinks business. By 2005, Gatorade and Aquafina were growing strongly, helped by new flavours and warm weather. North American beverage sales rose 10% that year, while Frito-Lay’s sales also grew. Selling snacks, sports drinks and bottled water gave PepsiCo several sources of growth behind its stock gain.",
+      "source_ids": [
+        "hot-pepsico-quaker-2001",
+        "hot-pepsico-2005-report",
+        "yahoo-pep"
+      ]
+    },
+    {
+      "asset_id": "hot:2000-12:coca-cola",
+      "text": "Coca-Cola’s size did not guarantee fast growth. In 2004, North American drink volume was flat, and its new C2 drink sold less well than expected. Coca-Cola Zero arrived in 2005, helping improve results, and worldwide drink volume grew 4% that year. The business was still growing, but that progress did not translate into a gain from this window’s starting share price.",
+      "source_ids": ["hot-coke-2005-report", "yahoo-ko"]
+    },
+    {
+      "asset_id": "hot:2000-12:microsoft",
+      "text": "Microsoft expanded beyond Windows and Office while its main software businesses kept producing cash. By June 2005, annual sales reached $39.79 billion, helped by server software and Xbox growth. The company also returned $44 billion to shareholders through dividends and share buybacks during that financial year. Growing earnings and cash payments helped this later starting point finish with a gain.",
+      "source_ids": ["hot-msft-2005-results", "yahoo-msft"]
+    }
+  ]
 }

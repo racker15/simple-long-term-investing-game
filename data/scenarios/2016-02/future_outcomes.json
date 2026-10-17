@@ -60,6 +60,23 @@
       "recent-academy-start"
     ]
   },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:2016-02:apple",
+      "text": "Apple began this period with slowing sales, but its iPhone, services and wearables businesses later reached new records. The holiday quarter ended December 2020 brought $111.4 billion in sales, up 21% from a year earlier, while earnings per share rose 35%. That return to strong growth helped support the shares, alongside a larger business earning money from both devices and ongoing services.",
+      "source_ids": ["hot-apple-q32016", "hot-apple-q12021", "yahoo-aapl"]
+    },
+    {
+      "asset_id": "hot:2016-02:microsoft",
+      "text": "Microsoft’s cloud services and software subscriptions became much bigger businesses. In the quarter ended December 2020, Azure revenue rose 50% and Office 365 business revenue rose 21%. Total profit reached $15.5 billion, up one-third from a year earlier. Companies’ growing use of online tools helped Microsoft earn more money, supporting a large stock gain during these five years.",
+      "source_ids": ["hot-microsoft-q22021", "yahoo-msft"]
+    },
+    {
+      "asset_id": "hot:2016-02:exxonmobil",
+      "text": "ExxonMobil struggled with weak energy profits, then COVID-19 sharply reduced travel and fuel demand in 2020. It recorded a $22.4 billion annual loss, including large cuts to the value of oil and gas assets. The company reduced spending and kept paying dividends. Those payments softened the blow, but they did not fully offset the fall in the share price.",
+      "source_ids": ["hot-exxon-fy2016", "hot-exxon-fy2020", "yahoo-xom"]
+    }
+  ],
   "monthly_returns": {
     "cash": [
       { "month": "2016-03", "return": 0.0002 },

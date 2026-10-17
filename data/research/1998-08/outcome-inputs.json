@@ -50,5 +50,27 @@
       "euro-launch",
       "september-attacks"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1998-08:apple",
+      "text": "Apple’s recovery included a painful setback: excess computers and weak sales led to a $195 million loss in the 2000 holiday quarter. It then introduced the iPod in October 2001. The iTunes Music Store followed in 2003 and sold over a million songs in its first week. Music gave Apple a new business opportunity as its shares recovered.",
+      "source_ids": [
+        "hot-apple-2001-q1",
+        "hot-apple-ipod-launch",
+        "hot-apple-itunes-2003",
+        "yahoo-aapl"
+      ]
+    },
+    {
+      "asset_id": "hot:1998-08:amazon",
+      "text": "Amazon attracted shoppers with lower prices and free shipping, while letting other sellers offer goods on its website. By the second quarter of 2003, sales were up 37% from a year earlier to $1.1 billion. Its net loss also shrank. These signs of a stronger shopping business supported the stock’s recovery, although Amazon was still losing money overall that quarter.",
+      "source_ids": ["hot-amazon-2003-q2", "yahoo-amzn"]
+    },
+    {
+      "asset_id": "hot:1998-08:microsoft",
+      "text": "Microsoft’s business kept expanding even as internet-stock excitement faded. It entered console gaming with Xbox in 2001 and had sold over 9.4 million consoles by June 2003. Annual company sales reached $32.19 billion, up 13% from a year earlier. The stock’s much smaller five-year gain shows that rising business sales do not always mean equally fast share-price growth.",
+      "source_ids": ["hot-msft-2003-results", "yahoo-msft"]
+    }
+  ]
 }

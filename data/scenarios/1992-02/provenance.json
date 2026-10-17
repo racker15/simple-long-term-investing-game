@@ -243,6 +243,35 @@
       "approximation": false,
       "notes": "Retrospective product history.",
       "observation_date": "1995-08-24"
+    },
+    {
+      "id": "hot-hmc-products",
+      "source_name": "Honda: 75 years of history, recovery through new recreational vehicles",
+      "source_reference": "https://global.honda/en/about/history-digest/75years-history/chapter1/section3/",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Retrospective official history: Odyssey launched October 20, 1994 and CR-V in 1995; new recreational vehicles helped the Japanese business recover. Does not use the later 36-month Odyssey sales milestone."
+    },
+    {
+      "id": "hot-has-1996-results",
+      "source_name": "Hasbro: 1996 full-year results",
+      "source_reference": "https://investor.hasbro.com/static-files/428bf746-694e-464d-8b2c-ea4bb024e68e",
+      "publication_date": "1997-02-06",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Original company release: 1996 sales $3.002 billion, up 5%; net earnings $199.912 million. Board games, CD-ROM games and Star Wars products contributed. The release’s 15% earnings-growth figure excludes a prior-year charge and is not used.",
+      "observation_date": "1996-12-29"
+    },
+    {
+      "id": "hot-ibm-1995-report",
+      "source_name": "IBM: 1995 Annual Report",
+      "source_reference": "https://www.ibm.com/investor/att/pdf/IBM_Annual_Report_1995.pdf",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Original annual report, publication day not established. Net income was $4.178 billion in 1995; services revenue rose from $9.715 billion to $12.714 billion; Lotus was acquired July 5, 1995. Indexed report text consulted. Some windows end before the report was published; only the earlier business events and fiscal results are described.",
+      "observation_date": "1995-12-31"
     }
   ]
 }

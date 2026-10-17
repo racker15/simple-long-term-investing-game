@@ -30,6 +30,66 @@
       "approximation": false,
       "notes": "Retrospective institutional history.",
       "observation_date": "2001-09-11"
+    },
+    {
+      "id": "hot-nike-1998-report",
+      "source_name": "Nike: Fiscal 1998 Annual Report",
+      "source_reference": "https://d1lge852tjjqow.cloudfront.net/CIK-0000320187/b24db717-6b9c-45ad-86c9-09627b0f4564.pdf",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Company annual-report archive: Asian financial crisis and weaker U.S. demand left excess stock and discounting in fiscal 1998; revenue growth slowed to 4% and gross margin fell from 40.1% to 36.5%.",
+      "observation_date": "1998-05-31"
+    },
+    {
+      "id": "hot-nike-2002-report",
+      "source_name": "Nike: Fiscal 2002 Form 10-K",
+      "source_reference": "https://investors.nike.com/sec-filings/all-sec-filings/content/0000891020-02-001248/v83383ore10vk.htm",
+      "publication_date": "2002-08-14",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Retrospective fiscal 2001 discussion: new demand/supply planning system caused excess stock, shortages and late deliveries; U.S. footwear revenue fell 4.2%, international revenue grew, and net income was $589.7 million. Fiscal 2002 revenue grew 4.3% to $9.89 billion. Scenarios ending before May 2002 use only the report’s 2001 facts.",
+      "observation_date": "2001-05-31"
+    },
+    {
+      "id": "hot-apple-1998-report",
+      "source_name": "Apple: Fiscal 1998 Form 10-K",
+      "source_reference": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000320193/fb365068-0d4f-4c51-a0b1-7755ee7fc1d5.html",
+      "publication_date": "1998-12-23",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Annual filing linked from Apple Investor Relations (FilingId=107083): 1997 NeXT acquisition, August 1998 iMac launch, product simplification and $309 million fiscal 1998 profit after a $1.045 billion 1997 loss. Uses figures as reported at the time.",
+      "observation_date": "1998-09-25"
+    },
+    {
+      "id": "hot-apple-2001-q1",
+      "source_name": "Apple: First Quarter Results, Fiscal 2001",
+      "source_reference": "https://www.apple.com/newsroom/2001/01/17Apple-Reports-First-Quarter-Results/",
+      "publication_date": "2001-01-17",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Holiday quarter ended December 30, 2000: revenue $1 billion, down 57%, and net loss $195 million while Apple reduced excess inventory.",
+      "observation_date": "2000-12-30"
+    },
+    {
+      "id": "hot-msft-1998-results",
+      "source_name": "Microsoft: Record Fiscal 1998 Revenue and Income",
+      "source_reference": "https://news.microsoft.com/source/1998/07/16/microsoft-announces-record-fiscal-1998-revenue-and-income/",
+      "publication_date": "1998-07-16",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary earnings release: fiscal 1998 revenue $14.48 billion, net income $4.49 billion, Office 97 demand, Windows NT growth, and June 25 Windows 98 release.",
+      "observation_date": "1998-06-30"
+    },
+    {
+      "id": "hot-msft-2001-results",
+      "source_name": "Microsoft: Record Revenue for Fiscal Year 2001",
+      "source_reference": "https://news.microsoft.com/source/2001/07/19/microsoft-announces-record-revenue-for-fiscal-year-2001/",
+      "publication_date": "2001-07-19",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary earnings release: fiscal 2001 revenue $25.30 billion, Windows 2000 adoption, and Office XP release on May 31. Windows XP and Xbox launches were still future events and are not used for the September 2001 endpoint.",
+      "observation_date": "2001-06-30"
     }
   ]
 }

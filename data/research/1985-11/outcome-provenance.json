@@ -40,6 +40,73 @@
       "approximation": false,
       "notes": "Retrospective chronology of launch and servicing; outcome context only.",
       "observation_date": "1993-12-31"
+    },
+    {
+      "id": "hot-aapl-1987-macs",
+      "source_name": "TIME: Apple expands its business-computer market",
+      "source_reference": "https://content.time.com/time/subscriber/article/0%2C33009%2C965238-4%2C00.html",
+      "publication_date": "1987-08-17",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report: Macintosh SE and Macintosh II expanded the business market; second fiscal quarter revenue was $637 million, up 42%. The copy does not use later full-year results for earlier endpoints."
+    },
+    {
+      "id": "hot-aapl-1989-mac",
+      "source_name": "UPI: Apple unveils new personal computer",
+      "source_reference": "https://www.upi.com/Archives/1989/03/07/Apple-unveils-new-personal-computer/5576605250000/",
+      "publication_date": "1989-03-07",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Contemporary report on the smaller, less expensive Macintosh IIcx, aimed at business users.",
+      "observation_date": "1989-03-07"
+    },
+    {
+      "id": "hot-aapl-1990-cuts",
+      "source_name": "UPI: Apple Computer lays off 400",
+      "source_reference": "https://www.upi.com/Archives/1990/02/21/Apple-Computer-lays-off-400/3273635576400/",
+      "publication_date": "1990-02-21",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: 400 layoffs and reserves for restructuring and severance.",
+      "observation_date": "1990-02-21"
+    },
+    {
+      "id": "hot-dis-factbook",
+      "source_name": "Disney: 2004 Fact Book, company milestones",
+      "source_reference": "https://adisney.go.com/adownload/investorrelations/disney_fb04.pdf",
+      "publication_date": null,
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Original company fact book used retrospectively for dated milestones: 1984 leadership, 1987 store, 1989 Disney-MGM Studios, 1992 Euro Disney, 1994 Lion King and Paris refinancing, and February 1996 completion of the ABC acquisition. Only in-window milestones are used; the publication day is not established."
+    },
+    {
+      "id": "hot-dis-1990-quarter",
+      "source_name": "UPI: Disney earnings up",
+      "source_reference": "https://www.upi.com/Archives/1990/01/23/Disney-earnings-up/6483633070800/",
+      "publication_date": "1990-01-23",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: first fiscal quarter revenue rose to about $1.3 billion from $1.0 billion; The Little Mermaid and Roger Rabbit home video helped film revenue grow 23%."
+    },
+    {
+      "id": "hot-dis-1990-year",
+      "source_name": "UPI: Disney earnings up 9 percent in fourth quarter",
+      "source_reference": "https://www.upi.com/Archives/1990/11/08/Disney-earnings-up-9-percent-in-4th-quarter/1297658040400/",
+      "publication_date": "1990-11-08",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: Disney reported record full-year revenue and earnings. The 9% headline is a quarter measure, not the full-year growth rate.",
+      "observation_date": "1990-09-30"
+    },
+    {
+      "id": "hot-ko-1988-profit",
+      "source_name": "UPI: Coca-Cola reports earnings",
+      "source_reference": "https://www.upi.com/Archives/1989/01/31/Coca-Cola-reports-earnings/5652602226000/",
+      "publication_date": "1989-01-31",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Indexed original archive report consulted: 1988 net income about $1.04 billion, up 14%, and sales about $8.34 billion, up 8.9%.",
+      "observation_date": "1988-12-31"
     }
   ]
 }

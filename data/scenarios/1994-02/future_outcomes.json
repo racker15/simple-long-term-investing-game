@@ -51,6 +51,23 @@
       "pathfinder"
     ]
   },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1994-02:microsoft",
+      "text": "Windows 95 arrived in August 1995, making home computers easier to use. Office 97 and Windows NT also brought in business customers. By the year ending June 1998, Microsoft earned $4.49 billion on $14.48 billion of sales. June 1998 also brought Windows 98. Growing software sales and profits help explain the stock’s powerful rise.",
+      "source_ids": ["windows95", "hot-msft-1998-results", "yahoo-msft"]
+    },
+    {
+      "asset_id": "hot:1994-02:intel",
+      "text": "More people buying computers meant more demand for Intel’s chips. Pentium II arrived in 1997, and Intel expanded into cheaper PCs with Celeron in 1998. Annual sales reached $26.3 billion in 1998. Profit slipped that year as prices and costs squeezed earnings, but the much larger chip business helps explain why the shares finished so far ahead.",
+      "source_ids": ["hot-intel-1998-report", "yahoo-intc"]
+    },
+    {
+      "asset_id": "hot:1994-02:disney",
+      "text": "The Lion King became a huge movie hit in 1994. Disney then completed its purchase of Capital Cities/ABC in early 1996, adding a large television business. Animal Kingdom and the Disney Magic cruise ship opened for customers in 1998. These gave Disney more ways to earn money from entertainment, helping the company grow beyond its films and older parks.",
+      "source_ids": ["hot-disney-history", "yahoo-dis"]
+    }
+  ],
   "monthly_returns": {
     "cash": [
       { "month": "1994-03", "return": 0.0027 },

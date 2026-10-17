@@ -51,6 +51,33 @@
       "fed-crash1987"
     ]
   },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1983-05:apple",
+      "text": "The Macintosh arrived in January 1984, followed by a growing market for designing and printing pages on Macs. New Macintosh models helped Apple’s profit more than double in the quarter ending January 1, 1988. The investment finished higher, with real sales and earnings progress behind the company’s computer story.",
+      "source_ids": [
+        "hot-aapl-mac-launch",
+        "hot-aapl-publishing",
+        "hot-aapl-1988-profit",
+        "yahoo-aapl"
+      ]
+    },
+    {
+      "asset_id": "hot:1983-05:ibm",
+      "text": "IBM reached record annual profit of about $6.6 billion in 1984, but profit was slightly lower in 1985. Cheaper competing PCs were taking business, and IBM answered with the PS/2 in 1987. Its investment gained over five years, although the company was finding it harder to turn its famous name into faster growth.",
+      "source_ids": [
+        "hot-ibm-1984-profit",
+        "hot-ibm-1985-profit",
+        "hot-ibm-ps2",
+        "yahoo-ibm"
+      ]
+    },
+    {
+      "asset_id": "hot:1983-05:disney",
+      "text": "Michael Eisner and Frank Wells took charge of Disney in 1984. The company added its first Disney Store in 1987, giving fans another place to buy its characters. That July, Disney reported record quarterly profit of $128 million, helped by parks and films. The strong stock result accompanied an expanding, more profitable entertainment business.",
+      "source_ids": ["hot-dis-factbook", "hot-dis-1987-profit", "yahoo-dis"]
+    }
+  ],
   "monthly_returns": {
     "cash": [
       { "month": "1983-06", "return": 0.0067 },

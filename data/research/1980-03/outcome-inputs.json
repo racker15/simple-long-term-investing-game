@@ -52,5 +52,22 @@
       "nber-1982-trough",
       "fed-1981-recession"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1980-03:ibm",
+      "text": "IBM launched its personal computer in August 1981, opening a large new market for the company. The business kept growing: in 1984, annual profit rose about 20% to $6.6 billion. Those were concrete signs of business strength during a five-year stretch that rewarded IBM shareholders.",
+      "source_ids": ["hot-ibm-pc", "hot-ibm-1984-profit", "yahoo-ibm"]
+    },
+    {
+      "asset_id": "hot:1980-03:texas-instruments",
+      "text": "Texas Instruments learned that an exciting product could still lose money. It left the home-computer business in 1983 and reported a $145 million loss for that year. By August 1984, the company was back in profit and focusing on industrial products. Its investment finished higher, but the home-computer adventure had been costly.",
+      "source_ids": ["hot-txn-1983-loss", "hot-txn-1984-recovery", "yahoo-txn"]
+    },
+    {
+      "asset_id": "hot:1980-03:exxon",
+      "text": "Exxon’s oil business kept earning money through a difficult economy. In 1983, profit rose about 19% to nearly $5 billion. More oil production in places such as the North Sea, Australia and Malaysia helped. That business progress gives more context for Exxon’s strong result than oil-price headlines alone.",
+      "source_ids": ["hot-xom-1983-profit", "yahoo-xom"]
+    }
+  ]
 }

@@ -58,5 +58,27 @@
       "soviet-collapse",
       "web-release"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1988-12:boeing",
+      "text": "Boeing’s 1990 profit rose 42% to about $1.4 billion. The business later slowed: in November 1992, weaker orders led it to announce lower 757 and 767 production. The investment still ended higher. Strong early earnings and later airline cutbacks both belong in the story of these five years.",
+      "source_ids": ["hot-ba-1990-profit", "hot-ba-1992-cuts", "yahoo-ba"]
+    },
+    {
+      "asset_id": "hot:1988-12:ibm",
+      "text": "IBM lost nearly $5 billion in 1992, including heavy costs to reorganize the company. Lou Gerstner became chief executive in April 1993, and more job cuts followed that year. The investment finished well below its starting value. A leadership change offered a new direction, but the turnaround was still unfinished at this endpoint.",
+      "source_ids": [
+        "hot-ibm-1992-loss",
+        "hot-ibm-gerstner",
+        "hot-ibm-1993-cuts",
+        "yahoo-ibm"
+      ]
+    },
+    {
+      "asset_id": "hot:1988-12:sony",
+      "text": "Sony bought Columbia Pictures in November 1989, adding movies to its electronics and music businesses. Its film group went on to lead the North American box office for three years through 1993. Even with hit films, the investment gained only a little over this window: success in one division did not promise a large return for the whole company.",
+      "source_ids": ["hot-sony-music-films", "yahoo-sony"]
+    }
+  ]
 }

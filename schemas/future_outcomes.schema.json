@@ -7,6 +7,7 @@
     "monthly_returns",
     "return_sources",
     "events",
+    "hot_stock_outcomes",
     "what_happened_next",
     "reflection"
   ],
@@ -63,6 +64,29 @@
           "month": { "pattern": "^\\d{4}-(0[1-9]|1[0-2])$", "type": "string" },
           "title": { "minLength": 1, "type": "string" },
           "description": { "minLength": 1, "type": "string" },
+          "source_ids": {
+            "minItems": 1,
+            "uniqueItems": true,
+            "type": "array",
+            "items": { "minLength": 1, "type": "string" }
+          }
+        }
+      }
+    },
+    "hot_stock_outcomes": {
+      "minItems": 3,
+      "maxItems": 3,
+      "type": "array",
+      "items": {
+        "additionalProperties": false,
+        "type": "object",
+        "required": ["asset_id", "text", "source_ids"],
+        "properties": {
+          "asset_id": {
+            "pattern": "^hot:[a-z0-9-]+:[a-z0-9-]+$",
+            "type": "string"
+          },
+          "text": { "minLength": 1, "type": "string" },
           "source_ids": {
             "minItems": 1,
             "uniqueItems": true,

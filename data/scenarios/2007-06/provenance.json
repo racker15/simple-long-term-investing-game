@@ -234,6 +234,66 @@
       "approximation": false,
       "notes": "Institutional account of the March11 disaster.",
       "observation_date": "2011-03-11"
+    },
+    {
+      "id": "hot-apple-ipad2010",
+      "source_name": "Apple launches iPad",
+      "source_reference": "https://www.apple.com/newsroom/2010/01/27Apple-Launches-iPad/",
+      "publication_date": "2010-01-27",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Apple introduced the iPad tablet in January 2010; announcement distinguished from its later retail availability.",
+      "observation_date": "2010-01-27"
+    },
+    {
+      "id": "hot-apple-q22012",
+      "source_name": "Apple: second-quarter fiscal 2012 results",
+      "source_reference": "https://www.apple.com/newsroom/2012/04/24Apple-Reports-Second-Quarter-Results/",
+      "publication_date": "2012-04-24",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Quarterly revenue $39.2 billion and net profit $11.6 billion; 35.1 million iPhones and 11.8 million iPads sold, up 88% and 151% respectively.",
+      "observation_date": "2012-03-31"
+    },
+    {
+      "id": "hot-microsoft-fy2011",
+      "source_name": "Microsoft: fourth-quarter and full-year fiscal 2011 results",
+      "source_reference": "https://news.microsoft.com/source/2011/07/21/microsoft-reports-record-fourth-quarter-and-full-year-results/",
+      "publication_date": "2011-07-21",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Fiscal 2011 revenue was $69.94 billion, up 12%, and net income was $23.15 billion, up 23%. Office, server software and Xbox supported growth.",
+      "observation_date": "2011-06-30"
+    },
+    {
+      "id": "hot-microsoft-q32012",
+      "source_name": "Microsoft: third-quarter fiscal 2012 results",
+      "source_reference": "https://news.microsoft.com/source/2012/04/19/microsoft-reports-record-third-quarter-revenue/",
+      "publication_date": "2012-04-19",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Revenue rose 6% to $17.41 billion; operating income rose 12%. Office 2010 drove Business Division revenue growth of 9%, and Windows revenue grew 4%.",
+      "observation_date": "2012-03-31"
+    },
+    {
+      "id": "hot-disney-marvel2009",
+      "source_name": "Disney completes Marvel acquisition",
+      "source_reference": "https://thewaltdisneycompany.com/press-releases/disney-completes-marvel-acquisition/",
+      "publication_date": "2009-12-31",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Disney completed the acquisition of Marvel at the end of 2009.",
+      "observation_date": "2009-12-31"
+    },
+    {
+      "id": "hot-disney-q22012",
+      "source_name": "Disney: second-quarter fiscal 2012 earnings",
+      "source_reference": "https://thewaltdisneycompany.com/app/uploads/2015/10/Q2-FY12-Earnings-Report.pdf",
+      "publication_date": "2012-05-08",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Quarter ended March 31: net income rose 21% to $1.143 billion; TV networks and parks grew while John Carter hurt studio results. The release also reports the May Avengers opening weekend of $207.1 million domestically.",
+      "observation_date": "2012-05-08"
     }
   ]
 }

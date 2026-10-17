@@ -65,6 +65,32 @@
       "columbia"
     ]
   },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:2000-06:microsoft",
+      "text": "Microsoft grew after the technology-stock slump. By the year ending June 2005, annual sales reached $39.79 billion and profit reached $12.25 billion. Businesses bought more SQL Server software, and Xbox sales also grew. Microsoft returned cash through dividends and share buybacks, yet the investment still finished below its June 2000 value because the starting share price had been so high.",
+      "source_ids": ["hot-msft-2005-results", "yahoo-msft"]
+    },
+    {
+      "asset_id": "hot:2000-06:cisco",
+      "text": "Cisco’s customers cut technology spending sharply in 2001. Cisco had bought too many parts for demand that failed to arrive, so it recorded a $2.2 billion inventory charge. Sales later recovered to $22 billion in the year ending July 2004, with $4.4 billion in profit. The company recovered faster than its share price, which remained far below the 2000 level.",
+      "source_ids": [
+        "hot-cisco-2001-q3",
+        "hot-cisco-2004-results",
+        "yahoo-csco"
+      ]
+    },
+    {
+      "asset_id": "hot:2000-06:apple",
+      "text": "Apple’s early computer slump made this a rough ride. The 2000 holiday quarter produced a $195 million loss as Apple cleared excess stock. The iPod arrived in October 2001 and later became a hit: Apple shipped 4.58 million in the 2004 holiday quarter. Company profit reached $295 million that quarter, helping the shares climb back above their starting point.",
+      "source_ids": [
+        "hot-apple-2001-q1",
+        "hot-apple-ipod-launch",
+        "hot-apple-2005-q1",
+        "yahoo-aapl"
+      ]
+    }
+  ],
   "monthly_returns": {
     "cash": [
       { "month": "2000-07", "return": 0.0048 },

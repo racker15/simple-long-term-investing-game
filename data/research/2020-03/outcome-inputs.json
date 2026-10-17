@@ -50,5 +50,27 @@
       "rates-2022",
       "webb"
     ]
-  }
+  },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:2020-03:disney",
+      "text": "Disney began near the pandemic shock, with parks closing and movies disrupted. Its parks later recovered, and entertainment streaming moved from a $2.5 billion annual loss in fiscal 2023 to a small profit in 2024. Inside Out 2 was another bright spot, but traditional TV kept shrinking. Those improvements and problems pulled in different directions, leaving only a small overall gain from March 2020.",
+      "source_ids": ["hot-disney-fy2020", "hot-disney-fy2024", "yahoo-dis"]
+    },
+    {
+      "asset_id": "hot:2020-03:amazon",
+      "text": "Online shopping surged during the pandemic: Amazon’s sales rose 40% in the quarter ended June 2020. Over the following years, cloud computing and a more efficient delivery network helped turn growth into much bigger profits. In 2024, Amazon earned $59.2 billion, nearly twice its 2023 profit. AWS alone produced $39.8 billion in operating profit, showing why Amazon’s business was about more than shopping.",
+      "source_ids": ["hot-amazon-q22020", "hot-amazon-fy2024", "yahoo-amzn"]
+    },
+    {
+      "asset_id": "hot:2020-03:netflix",
+      "text": "Netflix found new ways to earn money from its audience. It launched a cheaper plan with advertisements in November 2022, then expanded charges for sharing accounts outside a household in 2023. By the end of 2024, it had over 300 million paid memberships. Annual revenue grew 16% and operating profit passed $10 billion, giving the stock’s rise support from stronger business results.",
+      "source_ids": [
+        "hot-netflix-ads2022",
+        "hot-netflix-sharing2023",
+        "hot-netflix-fy2024",
+        "yahoo-nflx"
+      ]
+    }
+  ]
 }

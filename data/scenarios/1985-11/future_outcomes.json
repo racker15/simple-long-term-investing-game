@@ -59,6 +59,33 @@
       "hubble-history"
     ]
   },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1985-11:apple",
+      "text": "Apple expanded its Macintosh family in 1987, then introduced the smaller, less expensive Macintosh IIcx in March 1989 for business customers. The boom was uneven: by February 1990, Apple was cutting 400 jobs. The investment still finished far ahead, but new products did not remove the need to manage costs.",
+      "source_ids": [
+        "hot-aapl-1987-macs",
+        "hot-aapl-1989-mac",
+        "hot-aapl-1990-cuts",
+        "yahoo-aapl"
+      ]
+    },
+    {
+      "asset_id": "hot:1985-11:disney",
+      "text": "Disney opened its Disney-MGM Studios park in May 1989. The Little Mermaid in cinemas and Roger Rabbit on home video helped lift film revenue 23% in the first quarter of fiscal 1990. Disney then reported record annual sales and profit that November. Its large investment gain accompanied new attractions and successful entertainment that brought in money.",
+      "source_ids": [
+        "hot-dis-factbook",
+        "hot-dis-1990-quarter",
+        "hot-dis-1990-year",
+        "yahoo-dis"
+      ]
+    },
+    {
+      "asset_id": "hot:1985-11:coca-cola",
+      "text": "Coca-Cola’s familiar drinks became a growing business through these years. In 1988, annual sales increased about 9%, while profit increased 14% to roughly $1 billion. More money coming in and more money left as profit are concrete business improvements behind a period when this investment rose strongly.",
+      "source_ids": ["hot-ko-1988-profit", "yahoo-ko"]
+    }
+  ],
   "monthly_returns": {
     "cash": [
       { "month": "1985-12", "return": 0.006500000000000001 },

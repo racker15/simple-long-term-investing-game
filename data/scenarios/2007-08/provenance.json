@@ -234,6 +234,66 @@
       "approximation": false,
       "notes": "Institutional account of the March11 disaster.",
       "observation_date": "2011-03-11"
+    },
+    {
+      "id": "hot-lennar-fy2008",
+      "source_name": "Lennar: fourth-quarter and fiscal 2008 results",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/920760/000119312508255608/dex991.htm",
+      "publication_date": "2008-12-18",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Fiscal 2008 net loss was $1.1 billion, with falling home deliveries and prices and substantial valuation charges.",
+      "observation_date": "2008-11-30"
+    },
+    {
+      "id": "hot-lennar-q22012",
+      "source_name": "Lennar: second-quarter fiscal 2012 results",
+      "source_reference": "https://investors.lennar.com/press-releases/2012/06-27-12-015731012",
+      "publication_date": "2012-06-27",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "New orders rose 40%; home deliveries rose 20%; homebuilding operating earnings were $55.8 million versus $21.2 million. The much larger reported net profit included a $403 million tax benefit, so the summary uses operating results.",
+      "observation_date": "2012-05-31"
+    },
+    {
+      "id": "hot-kb-fy2008",
+      "source_name": "KB Home: fourth-quarter and fiscal 2008 results",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/795266/000095013409000314/v51029exv99w1.htm",
+      "publication_date": "2009-01-09",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Fiscal 2008 net loss was $976.1 million; revenue fell to $3.03 billion from $6.42 billion. Asset write-downs and tax valuation allowances contributed to losses.",
+      "observation_date": "2008-11-30"
+    },
+    {
+      "id": "hot-kb-q22012",
+      "source_name": "KB Home: second-quarter fiscal 2012 results",
+      "source_reference": "https://www.sec.gov/Archives/edgar/data/795266/000119312512288703/d372183dex991.htm",
+      "publication_date": "2012-06-29",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "KB Home still recorded a $24.1 million quarterly net loss, improved from a $68.5 million loss a year earlier, despite improving revenue and margins.",
+      "observation_date": "2012-05-31"
+    },
+    {
+      "id": "hot-disney-marvel2009",
+      "source_name": "Disney completes Marvel acquisition",
+      "source_reference": "https://thewaltdisneycompany.com/press-releases/disney-completes-marvel-acquisition/",
+      "publication_date": "2009-12-31",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Disney completed the acquisition of Marvel at the end of 2009.",
+      "observation_date": "2009-12-31"
+    },
+    {
+      "id": "hot-disney-q22012",
+      "source_name": "Disney: second-quarter fiscal 2012 earnings",
+      "source_reference": "https://thewaltdisneycompany.com/app/uploads/2015/10/Q2-FY12-Earnings-Report.pdf",
+      "publication_date": "2012-05-08",
+      "retrieved_at": "2026-10-17",
+      "approximation": false,
+      "notes": "Quarter ended March 31: net income rose 21% to $1.143 billion; TV networks and parks grew while John Carter hurt studio results. The release also reports the May Avengers opening weekend of $207.1 million domestically.",
+      "observation_date": "2012-05-08"
     }
   ]
 }

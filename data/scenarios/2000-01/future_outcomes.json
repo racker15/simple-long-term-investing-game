@@ -58,6 +58,28 @@
       "columbia"
     ]
   },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:2000-01:apple",
+      "text": "Apple first struggled with unsold computers and lost $195 million in the 2000 holiday quarter. Then the iPod, introduced in October 2001, became a major new business. Apple shipped 4.58 million iPods in the 2004 holiday quarter; company sales rose 74% and profit reached $295 million. That music-player success helped the stock recover from its early troubles.",
+      "source_ids": [
+        "hot-apple-2001-q1",
+        "hot-apple-ipod-launch",
+        "hot-apple-2005-q1",
+        "yahoo-aapl"
+      ]
+    },
+    {
+      "asset_id": "hot:2000-01:occidental",
+      "text": "Occidental benefited when oil and gas became more valuable, and it also produced more of them. In 2004, production grew 3.5%, while its chemicals business had its best year since 1997. The company earned a record profit of nearly $2.5 billion that year. Higher selling prices and more production gave concrete support to the stock’s large gain.",
+      "source_ids": ["hot-oxy-2004-results", "yahoo-oxy"]
+    },
+    {
+      "asset_id": "hot:2000-01:amazon",
+      "text": "Amazon survived the internet-stock crash and built a stronger shopping business. Year-round free shipping and lower prices helped sales reach $5.26 billion in 2003, when Amazon earned an annual profit of $35 million. Yet the stock still ended below its early-2000 starting point. The company’s progress was real, but the starting share price had already assumed a very bright future.",
+      "source_ids": ["hot-amazon-2003-results", "yahoo-amzn"]
+    }
+  ],
   "monthly_returns": {
     "cash": [
       { "month": "2000-02", "return": 0.0043 },

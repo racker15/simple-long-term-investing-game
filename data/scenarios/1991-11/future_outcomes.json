@@ -51,6 +51,23 @@
       "hubble-repair"
     ]
   },
+  "hot_stock_outcomes": [
+    {
+      "asset_id": "hot:1991-11:disney",
+      "text": "Disney released The Lion King in 1994 and completed its purchase of ABC in February 1996, adding television businesses. There were also costly problems: Euro Disney, opened in 1992, needed a new financing deal to manage its debts in 1994. The investment rose strongly across a period of hit entertainment, a major acquisition and an expensive park setback.",
+      "source_ids": ["hot-dis-factbook", "yahoo-dis"]
+    },
+    {
+      "asset_id": "hot:1991-11:ibm",
+      "text": "IBM returned to profit in 1994 after deep losses. It bought Lotus in July 1995, expanding its business software, while services revenue rose from about $9.7 billion in 1994 to $12.7 billion in 1995. The investment’s recovery accompanied a company that was earning money again and selling more help with computer systems.",
+      "source_ids": ["hot-ibm-1994-report", "hot-ibm-1995-report", "yahoo-ibm"]
+    },
+    {
+      "asset_id": "hot:1991-11:apple",
+      "text": "Apple’s computer business ran into serious trouble. In its fiscal year ending September 1996, sales fell 11% and it lost $816 million, including costs for unsold products and reorganizing the business. The investment lost about half its value. Selling well-known computers was not enough when sales weakened and costs ate up earnings.",
+      "source_ids": ["hot-aapl-1996-report", "yahoo-aapl"]
+    }
+  ],
   "monthly_returns": {
     "cash": [
       { "month": "1991-12", "return": 0.0038 },
