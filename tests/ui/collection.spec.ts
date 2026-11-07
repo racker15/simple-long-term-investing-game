@@ -1,3 +1,4 @@
+import { captureEvidence } from './evidence';
 import { finishReplay } from './replay-helpers';
 import { test, expect, type Locator } from '@playwright/test';
 import { readFileSync } from 'node:fs';
@@ -93,8 +94,7 @@ for (const id of ids) {
         () => document.documentElement.scrollWidth <= innerWidth,
       ),
     ).toBe(true);
-    await page.screenshot({
-      path: testInfo.outputPath(`${id}-decision.png`),
+    await captureEvidence(page, testInfo, `${id}-decision.png`, {
       fullPage: true,
     });
     await page.getByRole('radio', { name: 'Cash', exact: true }).check();
@@ -157,8 +157,7 @@ for (const id of ids) {
         () => document.documentElement.scrollWidth <= innerWidth,
       ),
     ).toBe(true);
-    await page.screenshot({
-      path: testInfo.outputPath(`${id}-reveal.png`),
+    await captureEvidence(page, testInfo, `${id}-reveal.png`, {
       fullPage: true,
     });
     expect(errors).toEqual([]);

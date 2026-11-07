@@ -1,3 +1,4 @@
+import { captureEvidence } from './evidence';
 import { finishReplay } from './replay-helpers';
 import { test, expect, type Page } from '@playwright/test';
 async function invest(page: Page) {
@@ -38,17 +39,14 @@ test('five-scenario vertical slice, allocation controls, locked refresh, final s
   await page.goto('/?demo=1');
   await expect(page.getByLabel('How many scenarios?')).toHaveValue('10');
   await noOverflow(page);
-  await page.screenshot({ path: testInfo.outputPath('start.png') });
+  await captureEvidence(page, testInfo, 'start.png');
   await page.getByLabel('How many scenarios?').selectOption('5');
   await page.getByRole('button', { name: 'Begin session' }).click();
   await expect(
     page.getByText('Scenario 1 of 5', { exact: true }),
   ).toBeVisible();
   await noOverflow(page);
-  await page.screenshot({
-    path: testInfo.outputPath('decision.png'),
-    fullPage: true,
-  });
+  await captureEvidence(page, testInfo, 'decision.png', { fullPage: true });
   await expect(
     page.getByText('Example Telecom becomes worthless', { exact: false }),
   ).toHaveCount(0);
@@ -173,13 +171,10 @@ test('five-scenario vertical slice, allocation controls, locked refresh, final s
     .getByText('2003-01 — Example Telecom becomes worthless', { exact: true })
     .click();
   await noOverflow(page);
-  await page.screenshot({
-    path: testInfo.outputPath('reveal.png'),
-    fullPage: true,
-  });
+  await captureEvidence(page, testInfo, 'reveal.png', { fullPage: true });
   await page.getByText('Monthly values', { exact: true }).click();
   await page.evaluate(() => window.scrollTo(0, 0));
-  await page.screenshot({ path: testInfo.outputPath('reveal-viewport.png') });
+  await captureEvidence(page, testInfo, 'reveal-viewport.png');
   await page.reload();
   await finishReplay(page);
   await expect(
@@ -200,10 +195,7 @@ test('five-scenario vertical slice, allocation controls, locked refresh, final s
     page.getByRole('heading', { name: 'Scenarios 1–5', exact: true }),
   ).toBeVisible();
   await noOverflow(page);
-  await page.screenshot({
-    path: testInfo.outputPath('final.png'),
-    fullPage: true,
-  });
+  await captureEvidence(page, testInfo, 'final.png', { fullPage: true });
   await page.reload();
   await expect(
     page.getByRole('heading', { name: 'How you did', exact: true }),

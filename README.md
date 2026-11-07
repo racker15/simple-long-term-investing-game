@@ -58,21 +58,21 @@ npm ci
 npm run check
 npx playwright install --with-deps chromium
 CI=1 npm run test:browser
-CI=1 npm run test:browser:production
 ```
 
-`npm run check` covers formatting, schema/data freshness, scenario validation, unit tests, type checking, and the production build. Both browser suites cover desktop (1280×900) and mobile (390×844). The first starts the development server; the second tests historical sessions against the built `dist/` using the preview server. Keep ports 5173 and 5174 free; `CI=1` prevents reusing an unrelated development server.
+`npm run check` covers formatting, schema/data freshness, scenario validation, unit tests, type checking, and the production build. Both browser suites cover desktop (1280×900) and mobile (390×844). `test:browser` runs development-only previews (including every historical scenario) followed by historical sessions against the built `dist/`. Each suite runs once: `test:browser:development` covers development previews; `test:browser:production` covers real sessions. Build first when running the production suite separately. Keep ports 5173 and 5174 free; `CI=1` prevents reusing an unrelated development server.
 
-To use an installed Chromium instead of downloading one, replace the install step and the two browser commands with:
+To use an installed Chromium instead of downloading one, replace the install step and browser command with:
 
 ```sh
 CI=1 PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npm run test:browser
-CI=1 PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npm run test:browser:production
 ```
 
 Before merging, record the full tested commit SHA (`git rev-parse HEAD`), clean working-tree status (`git status --short`), Node/npm versions, commands, and results in the PR. Check that the PR head still matches that SHA; rerun affected checks after edits or integration changes. State failures, blocked checks, and checks not run explicitly. For changes limited to documentation or workflow triggers, focused formatting and workflow validation can replace an unchanged application run; record the scope and reason, and verify that jobs, commands, permissions, and artifact retention are unchanged for a trigger-only edit.
 
-Browser screenshots are written to ignored `test-results/`. Preserve any needed local evidence before another Playwright invocation replaces that directory. Do not delete existing hosted artifacts as part of this policy.
+Browser failures automatically save screenshots and error context. Successful checkpoint screenshots are opt-in for visual review: prefix the browser command with `CAPTURE_SCREENSHOTS=1`. The development and production suites write to separate ignored `test-results/development/` and `test-results/production/` directories, so one suite does not overwrite the other's evidence. A new invocation of the same suite replaces its own output; preserve any evidence still needed before rerunning it. Do not delete existing hosted artifacts as part of this policy.
+
+Exact serialized scenario rebuilds and starting locks are checked by `data:check`, already included in `check`. Unit tests retain focused builder and hindsight-leakage cases plus all-scenario content checks without repeating the full rebuild. `npm test` alone is not a substitute for `npm run check` when changing data or builders.
 
 The **Foundation checks** workflow is manual-only (`workflow_dispatch`), with the same validation commands and one-day retention for newly uploaded browser evidence. After this workflow is on the default branch, an intentional hosted run can be started from **Actions → Foundation checks → Run workflow**, selecting the branch. It still consumes hosted usage. See [GitHub's manual-run instructions](https://docs.github.com/en/actions/how-tos/manage-workflow-runs/manually-run-a-workflow). This policy change uses GitHub's documented [`[skip actions]` commit directive](https://docs.github.com/en/actions/how-tos/manage-workflow-runs/skip-workflow-runs) only to avoid automatic runs while the old trigger is still on the base branch. It is not needed for later commits once the manual-only workflow is merged. Never bypass a required status check; if repository protection requires a hosted check, stop and resolve that requirement with the maintainer.
 
@@ -166,7 +166,7 @@ Scorecards use the same aggregation primitive for blocks, overall results, and s
 3. Research and commit `known_at_start.json` and starting provenance before outcome narratives. Set `data_kind` to `historical`. Retain contemporary sources for headlines, macro/forecast values, recent returns, hot-stock prominence, and asset definitions. Choose exactly three reconstructable stocks using starting information.
 4. Build `future_outcomes.json` with 60 consecutive normalized monthly total returns per asset. Use the same ID set and calendar convention. Document approximations, corporate actions, and source metadata in provenance.
 5. Add 3–5 sourced event markers, one sourced `hot_stock_outcomes` summary for each selected stock, a neutral explanation, and all four reflection sections. Base each stock summary on dated company developments supported by dated company news or annual-report sources. Keep all outcome material in the future bundle, after the commitment point; never leak it into starting headlines, forecasts, descriptions, or other known-at-start content. Check prose manually for hindsight leakage and unsupported causal claims.
-6. Run `npm run validate` and `npm run check`; review extreme-return warnings. Add a loader/manifest entry when integrating the real library. Feed metadata to `buildSessionQueue`; pass only `decisionContext(known)` to starting components. Do not use the development duplicate queue for real sessions.
+6. Run `npm run check` (which includes `validate`); review extreme-return warnings. Add a loader/manifest entry when integrating the real library. Feed metadata to `buildSessionQueue`; pass only `decisionContext(known)` to starting components. Do not use the development duplicate queue for real sessions.
 7. Preserve source retrieval scripts, permitted cached data/hashes, and editorial decisions so the scenario can be reconstructed. Schema changes must be deliberate, documented, regenerated, and tested.
 
 The dummy files can be reproduced with `node --import tsx scripts/build/dummy-fixture.ts`. That script is a test fixture authoring tool, not a historical-data pipeline.

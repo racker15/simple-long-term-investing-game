@@ -1,3 +1,4 @@
+import { captureEvidence } from './evidence';
 import { buildSessionQueue } from '../../app/src/lib/queue';
 import {
   startSession,
@@ -56,8 +57,7 @@ test('real historical session completes, restores, archives once and chooses uns
     page.getByText('50 unseen scenarios available.', { exact: false }),
   ).toBeVisible();
   await expect(page.getByLabel('How many scenarios?')).toHaveValue('10');
-  await page.screenshot({
-    path: testInfo.outputPath('session-start.png'),
+  await captureEvidence(page, testInfo, 'session-start.png', {
     fullPage: true,
   });
   await page.getByLabel('How many scenarios?').selectOption('5');
@@ -65,8 +65,7 @@ test('real historical session completes, restores, archives once and chooses uns
   const queue = (await history(page)).active.scenario_ids;
   expect(new Set(queue).size).toBe(5);
   expect(futureRequests).toHaveLength(0);
-  await page.screenshot({
-    path: testInfo.outputPath('session-decision.png'),
+  await captureEvidence(page, testInfo, 'session-decision.png', {
     fullPage: true,
   });
   await expect(
@@ -77,8 +76,7 @@ test('real historical session completes, restores, archives once and chooses uns
   for (let i = 0; i < 5; i++) {
     await invest(page);
     if (i === 0) {
-      await page.screenshot({
-        path: testInfo.outputPath('session-reveal.png'),
+      await captureEvidence(page, testInfo, 'session-reveal.png', {
         fullPage: true,
       });
       await page
@@ -117,8 +115,7 @@ test('real historical session completes, restores, archives once and chooses uns
     page.getByRole('heading', { name: 'How you did', exact: true }),
   ).toBeVisible();
   expect((await history(page)).finished).toHaveLength(1);
-  await page.screenshot({
-    path: testInfo.outputPath('session-final.png'),
+  await captureEvidence(page, testInfo, 'session-final.png', {
     fullPage: true,
   });
   await expect(
@@ -139,8 +136,7 @@ test('real historical session completes, restores, archives once and chooses uns
   await page
     .getByText('Your learning history — 5 scenarios', { exact: true })
     .click();
-  await page.screenshot({
-    path: testInfo.outputPath('session-history.png'),
+  await captureEvidence(page, testInfo, 'session-history.png', {
     fullPage: true,
   });
   const beforePractice = await history(page);
@@ -344,8 +340,7 @@ test('year-one and year-three pauses show only returns reached so far', async ({
     await page.getByText('Monthly values', { exact: true }).click();
     await expect(page.locator('figure tbody tr')).toHaveCount(months);
     await page.getByText('Monthly values', { exact: true }).click();
-    await page.screenshot({
-      path: testInfo.outputPath(`session-pause-${months}.png`),
+    await captureEvidence(page, testInfo, `session-pause-${months}.png`, {
       fullPage: true,
     });
     expect(
@@ -640,8 +635,7 @@ test('review keeps the allocation in place and makes the next action visible', a
   }));
   expect(after.rows).toEqual(before.rows);
   expect(after.scroll).toBeGreaterThanOrEqual(before.scroll - 1);
-  await page.screenshot({
-    path: testInfo.outputPath('session-locked-allocation.png'),
+  await captureEvidence(page, testInfo, 'session-locked-allocation.png', {
     fullPage: true,
   });
   await page.getByRole('button', { name: 'Back to allocation' }).click();
@@ -743,9 +737,11 @@ test('right-hand labels match every line and return at each reveal', async ({
     });
     await page.getByTestId('chart-end-5').scrollIntoViewIfNeeded();
     await expect(page.getByTestId('chart-end-5')).toBeInViewport();
-    await page.locator('.chart').screenshot({
-      path: testInfo.outputPath(`session-end-labels-${months}.png`),
-    });
+    await captureEvidence(
+      page.locator('.chart'),
+      testInfo,
+      `session-end-labels-${months}.png`,
+    );
     expect(
       await page.evaluate(
         () => document.documentElement.scrollWidth <= innerWidth,
@@ -973,8 +969,7 @@ test('decision orientation, allocation identity and Undo stay consistent', async
   await expect(
     page.getByRole('button', { name: 'Invest and see what happens' }),
   ).toBeInViewport({ ratio: 1 });
-  await page.screenshot({
-    path: testInfo.outputPath('session-engagement-choice.png'),
+  await captureEvidence(page, testInfo, 'session-engagement-choice.png', {
     fullPage: true,
   });
   expect(
@@ -1039,9 +1034,11 @@ test('revealed chart exploration preserves history and hides future controls unt
     await page.evaluate(() => localStorage.getItem('investing-game:motion:v1')),
   ).toBe('reduce');
   expect(await history(page)).toEqual(saved);
-  await page
-    .locator('figure.chart')
-    .screenshot({ path: testInfo.outputPath('session-chart-exploration.png') });
+  await captureEvidence(
+    page.locator('figure.chart'),
+    testInfo,
+    'session-chart-exploration.png',
+  );
 });
 
 test('manual animation pause keeps its place and resumes remaining playing time', async ({

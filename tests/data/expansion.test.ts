@@ -4,11 +4,6 @@ import draw from '../../data/selection/expansion-50-draw.json';
 import manifest from '../../data/scenarios/manifest.json';
 import { randomWords } from '../../scripts/select/dates';
 import {
-  assertStartingLock,
-  buildStartingScenario,
-} from '../../scripts/build/historical';
-import { buildOutcomeScenario } from '../../scripts/build/outcomes';
-import {
   loadHistoricalScenario,
   productionLibrary,
 } from '../../app/src/data/historical';
@@ -120,11 +115,9 @@ describe('preregistered expansion to fifty historical scenarios', () => {
   );
 
   it.each(additions)(
-    '$scenario_id has a locked start and a reproducible seven-choice, sixty-month reveal',
+    '$scenario_id has a complete seven-choice, sixty-month reveal',
     async ({ scenario_id }) => {
-      await assertStartingLock(scenario_id);
-      await buildStartingScenario(scenario_id, true);
-      await buildOutcomeScenario(scenario_id, true);
+      // Exact rebuilds and starting locks are checked once by npm run data:check.
       const scenario = await loadHistoricalScenario(scenario_id);
       const narrativeWords = scenario.future.what_happened_next.text
         .trim()

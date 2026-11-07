@@ -14,7 +14,6 @@ import { shiftMonth, type BroadDataset } from '../../scripts/lib/monthly';
 import {
   assertStartingLock,
   buildKnown,
-  buildStartingScenario,
   scenarioPaths,
   type StartingInputs,
   type StockDataset,
@@ -23,7 +22,6 @@ import {
   assertStockHistoryAgreement,
   STOCK_SNAPSHOT_TOLERANCE,
   buildFuture,
-  buildOutcomeScenario,
   type OutcomeInputs,
 } from '../../scripts/build/outcomes';
 
@@ -128,9 +126,7 @@ describe('locked six-scenario historical collection', () => {
           id === '1999-09' ? 1e-12 : STOCK_SNAPSHOT_TOLERANCE,
         ),
       ).toEqual(scenario.future);
-      // Check mode compares exact serialized outputs and cannot overwrite a stale artifact.
-      await buildStartingScenario(id, true);
-      await buildOutcomeScenario(id, true);
+      // Serialized artifact freshness is checked once by npm run data:check.
       const alteredFuture = structuredClone(broad);
       for (const series of Object.values(alteredFuture.series))
         for (const row of series.observations)
