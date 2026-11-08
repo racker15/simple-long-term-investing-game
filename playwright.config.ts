@@ -2,10 +2,14 @@ import { defineConfig } from '@playwright/test';
 export default defineConfig({
   testDir: './tests/ui',
   testMatch: '**/*.spec.ts',
+  // Run real sessions against the built app, not twice against two servers.
+  testIgnore: '**/sessions.spec.ts',
+  outputDir: 'test-results/development',
   fullyParallel: true,
   use: {
     baseURL: 'http://127.0.0.1:5173',
     reducedMotion: 'reduce',
+    screenshot: 'only-on-failure',
     launchOptions: {
       executablePath: process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH,
     },

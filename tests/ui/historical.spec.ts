@@ -1,3 +1,4 @@
+import { captureEvidence } from './evidence';
 import { finishReplay } from './replay-helpers';
 import { test, expect } from '@playwright/test';
 
@@ -120,8 +121,7 @@ test('historical preview holds outcomes until investment and keeps production se
       () => document.documentElement.scrollWidth <= innerWidth,
     ),
   ).toBe(true);
-  await page.screenshot({
-    path: testInfo.outputPath('historical-decision.png'),
+  await captureEvidence(page, testInfo, 'historical-decision.png', {
     fullPage: true,
   });
   await page
@@ -160,8 +160,7 @@ test('historical preview holds outcomes until investment and keeps production se
       () => document.documentElement.scrollWidth <= innerWidth,
     ),
   ).toBe(true);
-  await page.screenshot({
-    path: testInfo.outputPath('historical-reveal.png'),
+  await captureEvidence(page, testInfo, 'historical-reveal.png', {
     fullPage: true,
   });
   expect(
